@@ -29,15 +29,18 @@ from playwright.sync_api import sync_playwright
 from main_page_parser import CarParser
 from china_brand_map import extract_brand_model
 
-SEARCH_URL = os.environ.get(
-    "DONGCHEDI_SEARCH_URL",
-    "https://www.dongchedi.com/usedcar/x-x-x-x-x-x-x-x-x-x-x-x-x/",
+# GitHub Actions подставляет переменную из env: даже для несуществующего
+# секрета — просто пустой строкой, а не отсутствием переменной. Поэтому
+# os.environ.get(name, default) тут не работает: ключ есть, просто пустой.
+# "or" ловит оба случая — и отсутствие, и пустую строку.
+SEARCH_URL = os.environ.get("DONGCHEDI_SEARCH_URL") or (
+    "https://www.dongchedi.com/usedcar/x-x-x-x-x-x-x-x-x-x-x-x-x/"
 )
-MAX_LISTINGS = int(os.environ.get("DONGCHEDI_MAX_LISTINGS", "30"))
+MAX_LISTINGS = int(os.environ.get("DONGCHEDI_MAX_LISTINGS") or "30")
 # Одна машина = полная загрузка страницы + переход на страницу комплектации,
 # на медленной сети это не быстро — не даём одному зависшему объявлению
 # держать весь еженедельный прогон часами.
-LISTING_TIMEOUT_MS = int(os.environ.get("DONGCHEDI_LISTING_TIMEOUT_MS", "25000"))
+LISTING_TIMEOUT_MS = int(os.environ.get("DONGCHEDI_LISTING_TIMEOUT_MS") or "25000")
 
 BN_AUTO_URL = os.environ.get("BN_AUTO_URL", "").rstrip("/")
 BN_AUTO_IMPORT_TOKEN = os.environ.get("BN_AUTO_IMPORT_TOKEN", "")
