@@ -1,0 +1,45 @@
+name: Weekly Dongchedi scrape
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"
+  workflow_dispatch: {}
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
+        run: |
+          python -m pip install -U pip
+          pip install -r requirements-ci.txt
+
+      - name: Install Playwright browser
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Run weekly scraper and push to bn-auto
+        env:
+          PYTHONIOENCODING: utf-8
+          BN_AUTO_URL: ${{ secrets.BN_AUTO_URL }}
+          BN_AUTO_IMPORT_TOKEN: ${{ secrets.BN_AUTO_IMPORT_TOKEN }}
+          DONGCHEDI_SEARCH_URL: ${{ secrets.DONGCHEDI_SEARCH_URL }}
+        run: |
+          python weekly_scraper.py
+
+      - name: Upload batch as artifact (debug)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-batch
+          path: weekly_batch.json
+          retention-days: 14
+          if-no-files-found: ignore
