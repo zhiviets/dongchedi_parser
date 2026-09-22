@@ -74,4 +74,50 @@ Dongchedi Parser is a tool designed to help users parse Chinese car marketplace 
 
 ---
 
+## Weekly batch scraper → bn-auto
+
+`weekly_scraper.py` automates the desktop app's per-URL flow for a whole
+catalog: it opens a Dongchedi used-car **list/search page**, collects
+listing links from it (matching the `/usedcar/<id>` pattern the single-page
+parser already relies on — this is deliberately not tied to any CSS class
+name, since those are auto-generated and break on every frontend redeploy),
+then parses each one with the same `CarParser` used by the GUI and pushes
+the batch to the [bn-auto](https://github.com/zhiviets/bn-auto) live-listings
+catalog.
+
+```bash
+pip install -r requirements-ci.txt
+python -m playwright install chromium
+python weekly_scraper.py
+```
+
+Run it from the repo root (it reads `config.json` and
+`test_names_translation.json` from the current directory, same as the GUI).
+
+### Environment variables
+
+| Variable | Default | What it does |
+|---|---|---|
+| `DONGCHEDI_SEARCH_URL` | a guessed unfiltered listing URL | **Verify this before relying on it.** It was written without network access to dongchedi.com to confirm the URL scheme or DOM — open it in a browser first, and replace it if it 404s or the site's list page has moved. |
+| `DONGCHEDI_MAX_LISTINGS` | `30` | How many listings to pull per run. |
+| `DONGCHEDI_LISTING_TIMEOUT_MS` | `25000` | Per-listing page-load timeout — kept short so one dead/sold listing can't stall the whole weekly run. |
+| `BN_AUTO_URL` | — | e.g. `https://bn-auto.up.railway.app`. Without this (and the token below) the script still scrapes and writes `weekly_batch.json` locally, it just skips the push. |
+| `BN_AUTO_IMPORT_TOKEN` | — | Must match `SCRAPER_IMPORT_TOKEN` configured on the bn-auto server. |
+
+### GitHub Actions
+
+`.github/workflows/scrape.yml` runs the batch weekly (Mondays, 04:00 UTC)
+and on manual dispatch. Configure these as repo secrets for the push to
+bn-auto to work: `BN_AUTO_URL`, `BN_AUTO_IMPORT_TOKEN`, and optionally
+`DONGCHEDI_SEARCH_URL` once you've confirmed the real listing-page URL.
+The scraped batch is also uploaded as a workflow artifact for debugging,
+whether or not the push succeeded.
+
+Photos are downloaded and re-encoded as compressed `data:` URLs before
+being sent to bn-auto — Dongchedi's image links are signed and expire
+(`x-expires` in the query string), so they can't be hot-linked from the
+catalog page.
+
+---
+
 This README includes all the necessary instructions, from setting up the environment to using the app's features, as well as an overview of what the project does and how users can interact with it. Let me know if you want to tweak anything!
