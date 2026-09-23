@@ -23,6 +23,7 @@ data = parser.parse_car_page("https://dongchedi.com/usedcar/12345")
 
 import json
 import os
+import re
 import time
 from shutil import rmtree
 import requests
@@ -84,9 +85,16 @@ class CarParser:
         runs — a dead or sold listing should be skipped in seconds, not
         block the whole run for five minutes.
         """
-        page.goto(url, wait_until='networkidle')
-        page.wait_for_selector('.head-info_price-wrap__Y4bxi', timeout=timeout_ms)
-        self._log("Page loaded successfully")
+        # "networkidle" на сайте с аналитикой может не наступить вовсе —
+        # ждём загрузки документа и затем блок с ценой.
+        page.goto(url, wait_until='domcontentloaded', timeout=max(timeout_ms, 30_000))
+        try:
+            page.wait_for_selector('.head-info_price-wrap__Y4bxi', timeout=timeout_ms)
+            self._log("Page loaded successfully")
+        except Exception:
+            # Классы у сайта могут смениться после редеплоя — не падаем, а
+            # берём, что найдётся; пустой результат отсеет вызывающий код.
+            self._log("Price block not found — trying to parse what is there")
 
         car_title = self._extract_title(page)
         self._log(f"Title extracted: {car_title}")
@@ -152,16 +160,26 @@ class CarParser:
         else:
             print(message)
 
-    def _extract_title(self, page) -> str:
-        return page.locator('.line-1.tw-flex-1').inner_text()
+    def _extract_title(self, page) -> str | None:
+        try:
+            return page.locator('.line-1.tw-flex-1').first.inner_text(timeout=3000)
+        except Exception:
+            title = page.title() or ""
+            return re.split(r"[_|-]", title)[0].strip() or None
 
-    def _extract_price(self, page) -> float:
-        text = page.locator(self.PRICE_SELECTOR).inner_text()
-        return self._text_to_float(text)
+    def _extract_price(self, page) -> float | None:
+        try:
+            text = page.locator(self.PRICE_SELECTOR).first.inner_text(timeout=3000)
+            return self._text_to_float(text)
+        except Exception:
+            return None
 
-    def _extract_mileage(self, page) -> float:
-        text = page.locator(self.MILEAGE_BLOCK).locator('p:has-text("\ue531\ue4fc")').inner_text()
-        return self._text_to_float(text)
+    def _extract_mileage(self, page) -> float | None:
+        try:
+            text = page.locator(self.MILEAGE_BLOCK).locator('p:has-text("\ue531\ue4fc")').first.inner_text(timeout=3000)
+            return self._text_to_float(text)
+        except Exception:
+            return None
 
     def _text_to_float(self, text: str) -> float:
         clean_text = ''.join(SPECIAL_CHARS_TO_NUMBERS.get(c, c) for c in text)
@@ -188,10 +206,18 @@ class CarParser:
                 images.append(src)
         return images
 
-    def _get_configuration_info(self, page) -> dict:
-        link = page.query_selector(self.CONFIG_LINK_SELECTOR).get_attribute('href')
-        url = 'https://dongchedi.com' + link
-        return get_data(url)
+    def _get_configuration_info(self, page) -> list:
+        el = page.query_selector(self.CONFIG_LINK_SELECTOR)
+        link = el.get_attribute('href') if el else None
+        if not link:
+            self._log("Configuration link not found")
+            return []
+        url = link if link.startswith('http') else 'https://dongchedi.com' + link
+        try:
+            return get_data(url)
+        except Exception as error:
+            self._log(f"Configuration page failed: {error}")
+            return []
 
     def _prepare_storage_and_save(self, car_data: dict) -> str:
         dir_name = 'car_data'

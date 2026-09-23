@@ -2,12 +2,19 @@ name: Weekly Dongchedi scrape
 
 on:
   schedule:
-    - cron: "0 4 * * 1"
-  workflow_dispatch: {}
+    # Вторник, 03:00 UTC (13:00 по Владивостоку) — не в один час с encar
+    - cron: "0 3 * * 2"
+  workflow_dispatch:
+    inputs:
+      total:
+        description: "Сколько машин собрать"
+        default: "30"
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    # Одна машина — страница объявления и страница комплектации с паузами
+    timeout-minutes: 330
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -32,14 +39,24 @@ jobs:
           BN_AUTO_URL: ${{ secrets.BN_AUTO_URL }}
           BN_AUTO_IMPORT_TOKEN: ${{ secrets.BN_AUTO_IMPORT_TOKEN }}
           DONGCHEDI_SEARCH_URL: ${{ secrets.DONGCHEDI_SEARCH_URL }}
+          # Прокси необязателен: без секретов парсер ходит напрямую
+          PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
+          PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}
+          PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
+          # По расписанию — 300 машин; при ручном запуске — число из поля
+          DONGCHEDI_TOTAL: ${{ inputs.total || '300' }}
         run: |
           python weekly_scraper.py
 
-      - name: Upload batch as artifact (debug)
+      # Всегда, не только при ошибке: скриншоты, HTML и сырые ответы сайта —
+      # по ним дорабатывается разбор.
+      - name: Upload debug artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: weekly-batch
-          path: weekly_batch.json
+          name: dongchedi-debug
+          path: |
+            debug
+            weekly_batch.json
           retention-days: 14
           if-no-files-found: ignore
