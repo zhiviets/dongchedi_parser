@@ -221,12 +221,24 @@ def decode_html(raw: bytes, content_type: str = "") -> str:
         return raw.decode("utf-8", errors="replace")
 
 
-def fetch_detail(context, car: dict) -> str:
+class Degraded(Exception):
+    """Страница открылась, но без блока «车辆档案» (характеристик) — che168 отдал урезанную версию."""
+
+
+def fetch_detail(page, car: dict) -> str:
+    """Объявление открываем в браузере: на прямые запросы che168 после нескольких штук
+    отвечает урезанной страницей без характеристик."""
     url = f"https://www.che168.com/dealer/{car['dealerid']}/{car['infoid']}.html"
-    resp = context.request.get(url, headers={"Referer": "https://www.che168.com/china/list/"}, timeout=45_000)
-    body = decode_html(resp.body(), resp.headers.get("content-type", ""))
-    if resp.status in (403, 429) or ("item-name" not in body and ("验证码" in body or "安全验证" in body)):
+    resp = page.goto(url, wait_until="domcontentloaded", timeout=60_000)
+    try:
+        page.wait_for_selector("span.item-name", timeout=8000)
+    except Exception:
+        pass
+    body = page.content()
+    if resp and resp.status in (403, 429):
         raise Blocked(f"HTTP {resp.status}")
+    if "item-name" not in body:
+        raise Degraded(page.title()[:80])
     return body
 
 
@@ -316,7 +328,15 @@ def fetch_known() -> set:
         resp = requests.get(f"{BN_AUTO_URL}/api/live-listings/known", params={"source": "che168"},
                             headers={"Authorization": f"Bearer {BN_AUTO_IMPORT_TOKEN}"}, timeout=30)
         resp.raise_for_status()
-        ids = {str(i) for i in resp.json().get("ids") or []}
+        data = resp.json()
+        items = data.get("items")
+        if items is None:
+            ids = {str(i) for i in data.get("ids") or []}
+        else:
+            # Машины, сохранённые без двигателя (урезанная страница), перезагружаем заново
+            ids = {str(i["id"]) for i in items if i.get("has_engine") and i.get("make")}
+            if len(items) > len(ids):
+                print(f"Без двигателя или марки на сайте: {len(items) - len(ids)} — загрузим заново")
         print(f"Уже есть в bn-auto с фото и характеристиками: {len(ids)} — их объявления не открываем")
         return ids
     except Exception as error:
@@ -366,7 +386,7 @@ def main():
         cars = collect(page, known, TOTAL)
         print(f"Отобрано: {len(cars)} (уже на сайте: {sum(c['infoid'] in known for c in cars)})")
 
-        done = failed = 0
+        done = failed = degraded = streak = degraded_saved = 0
         breaks = random.randint(20, 30)
         for car in cars:
             url = f"https://www.che168.com/dealer/{car['dealerid']}/{car['infoid']}.html"
@@ -375,12 +395,31 @@ def main():
                                  "mileage_km": car["mileage_km"], "source_url": url})
                 continue
             try:
-                body = fetch_detail(context, car)
+                try:
+                    body = fetch_detail(page, car)
+                except Degraded as first:
+                    if degraded_saved < 3:
+                        save_debug(f"detail_degraded_{car['infoid']}.html", page.content())
+                        degraded_saved += 1
+                    print(f"[{car['infoid']}] страница без характеристик ({first}) — пауза и ещё попытка")
+                    human_pause(20, 40)
+                    body = fetch_detail(page, car)
+                streak = 0
+            except Degraded:
+                degraded += 1
+                streak += 1
+                print(f"[{car['infoid']}] снова без характеристик — пропускаем (подряд {streak})")
+                if streak >= 10:
+                    print("10 урезанных страниц подряд — che168 нас притормозил, останавливаемся и отправляем собранное")
+                    break
+                if streak % 5 == 0:
+                    human_pause(120, 180)
+                continue
             except Blocked as reason:
                 print(f"che168 притормозил нас ({reason}) — пауза 90–150 с и одна попытка")
                 human_pause(90, 150)
                 try:
-                    body = fetch_detail(context, car)
+                    body = fetch_detail(page, car)
                 except Exception as again:
                     print(f"Снова не пускает ({again}) — останавливаемся, отправляем собранное")
                     break
@@ -409,13 +448,14 @@ def main():
             })
             done += 1
             print(f"[{done}] {make or '?'} {model or ''} {car['year']} — {car['price_cny']} ¥, характеристик: {len(d['spec'])}")
-            human_pause(2, 5)
+            human_pause(3, 7)
             if done >= breaks:
                 human_pause(25, 45)
                 breaks = done + random.randint(20, 30)
         browser.close()
 
-    print(f"Итого: новых {sum('spec' in x for x in listings)}, уже на сайте {sum('spec' not in x for x in listings)}, ошибок {failed}")
+    print(f"Итого: новых {sum('spec' in x for x in listings)}, уже на сайте {sum('spec' not in x for x in listings)}, "
+          f"без характеристик пропущено {degraded}, ошибок {failed}")
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump([{k: v for k, v in x.items() if k != "photo_url"} for x in listings], f, ensure_ascii=False, indent=2)
     push(listings)
