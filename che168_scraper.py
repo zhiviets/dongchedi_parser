@@ -255,10 +255,14 @@ def fetch_detail(page, car: dict) -> str:
     except Exception:
         pass
     body = page.content()
+    title = page.title()
     if resp and resp.status in (403, 429):
         raise Blocked(f"HTTP {resp.status}")
+    if "安全验证" in title or ("item-name" not in body and "验证码" in body):
+        # «二手车之家-安全验证» — капча Autohome: IP притормозили, повторы не помогут
+        raise Blocked("капча «安全验证»")
     if "item-name" not in body:
-        raise Degraded(page.title()[:80])
+        raise Degraded(title[:80])
     return body
 
 
@@ -299,6 +303,58 @@ def parse_detail(body: str, car: dict) -> dict:
         "spec": {k: v for k, v in spec.items() if v},
         "photos": ["https:" + p for p in dict.fromkeys(photos)][:3],
     }
+
+
+def guess_cc(name: str):
+    """Объём по названию: «2.0T», «1.5L», «2.0G» или по коду мощности Audi/BMW/VW/Mercedes."""
+    trim = re.split(r"\d{4}\s*款", name, maxsplit=1)[-1]
+    m = re.search(r"(?<![\d.])(\d\.\d)\s*[A-Z]?(?![\d.])", trim)
+    if m and 0.6 <= float(m.group(1)) <= 7.0:
+        return round(float(m.group(1)) * 1000)
+    m = re.search(r"\b(\d{2})\s*TFSI", trim)                      # Audi: 35 → 1.4T, 40/45 → 2.0T, 55 → 3.0T
+    if m:
+        return {30: 1400, 35: 1400, 40: 2000, 45: 2000, 50: 3000, 55: 3000}.get(int(m.group(1)))
+    m = re.search(r"\b(\d{3})\s*TSI", trim)                       # VW Китай: 280 → 1.4T, 330/380 → 2.0T
+    if m:
+        n = int(m.group(1))
+        return 1400 if n <= 300 else 2000 if n <= 380 else 2500
+    m = re.search(r"(?:xDrive|sDrive)\s*(\d{2})|\b(\d{2})Li\b|\b[1-8](\d{2})Li?\b", trim)   # BMW: 20–30 → 2.0T, 35/40 → 3.0T
+    if m:
+        n = int(next(g for g in m.groups() if g))
+        return 2000 if n <= 30 else 3000 if n <= 40 else 4400
+    m = re.search(r"\b(?:[A-Z]{1,3}\s*)?(\d{3})\s*L?\b", trim)     # Mercedes: 200/260/300 → 2.0T, 350–450 → 3.0T
+    if m and re.search(r"奔驰|Mercedes|\b[CEGS]\s*\d{3}|GL[ABCES]", name):
+        n = int(m.group(1))
+        return 2000 if n <= 300 else 3000 if n <= 450 else 4000
+    return None
+
+
+def spec_from_name(car: dict) -> dict:
+    """Характеристики только по данным списка (когда объявление закрыто капчей):
+    объём и тип двигателя — из названия («2.0T», «1.5L», «DM-i», «kWh»)."""
+    name = car["name"]
+    fuel = fuel_of(name, "")
+    cc = guess_cc(name) if fuel != "Электро" else None
+    spec = {
+        "Лот": car["infoid"],
+        "Первая регистрация": release(car["regdate"]),
+        "Пробег": f"{car['mileage_km']:,} км".replace(",", " ") if car.get("mileage_km") is not None else None,
+        "Модификация": latin_trim(name),
+        "Тип топлива": fuel,
+        "Рабочий объём цилиндров (см³)": str(cc) if cc else None,
+    }
+    return {k: v for k, v in spec.items() if v}
+
+
+def photo_candidates(image: str | None) -> list[str]:
+    """Фото из списка (440×330) — пробуем сначала полноразмерное с того же адреса."""
+    if not image:
+        return []
+    m = re.search(r"/([^/]*?)autohomecar__([^/]+\.jpg)", image)
+    if not m:
+        return [image]
+    base = image[: m.start(1)]
+    return [f"{base}f_s_autohomecar__{m.group(2)}", f"{base}720x540_0_q87_c42_autohomecar__{m.group(2)}", image]
 
 
 def brand_model(name: str, body: str):
@@ -418,13 +474,35 @@ def main():
             cars = collect(page, known, TOTAL)
         print(f"Отобрано: {len(cars)} (уже на сайте: {sum(c['infoid'] in known for c in cars)})")
 
-        done = failed = degraded = streak = degraded_saved = 0
+        done = failed = degraded = degraded_saved = from_list = 0
+        on_proxy = USE_PROXY
+        list_only = False   # объявления закрыты капчей — дальше только данные списка
         breaks = random.randint(20, 30)
+
+        def add(car, url, body=None, d=None):
+            nonlocal done, from_list
+            if d is None:
+                d = {"spec": spec_from_name(car), "photos": []}
+                from_list += 1
+            make, model = brand_model(car["name"], body or "")
+            listings.append({
+                "external_id": car["infoid"], "make": make, "model": model, "title": car["name"],
+                "year": car["year"], "mileage_km": car["mileage_km"], "price_value": car["price_cny"],
+                "photo_url": fetch_photo(session, d["photos"] + photo_candidates(car.get("image"))),
+                "spec": d["spec"] or None, "source_url": url,
+            })
+            done += 1
+            src = "из списка" if body is None else "из объявления"
+            print(f"[{done}] {make or '?'} {model or ''} {car['year']} — {car['price_cny']} ¥, характеристик: {len(d['spec'])} ({src})")
+
         for car in cars:
             url = f"https://www.che168.com/dealer/{car['dealerid']}/{car['infoid']}.html"
             if car["infoid"] in known:
                 listings.append({"external_id": car["infoid"], "price_value": car["price_cny"],
                                  "mileage_km": car["mileage_km"], "source_url": url})
+                continue
+            if list_only:
+                add(car, url)
                 continue
             try:
                 try:
@@ -436,58 +514,46 @@ def main():
                     print(f"[{car['infoid']}] страница без характеристик ({first}) — пауза и ещё попытка")
                     human_pause(10, 20)
                     body = fetch_detail(page, car)
-                streak = 0
             except Degraded:
                 degraded += 1
-                streak += 1
-                print(f"[{car['infoid']}] снова без характеристик — пропускаем (подряд {streak})")
-                if streak >= 10:
-                    print("10 урезанных страниц подряд — che168 нас притормозил, останавливаемся и отправляем собранное")
-                    break
-                if streak % 5 == 0:
-                    human_pause(120, 180)
+                print(f"[{car['infoid']}] снова без характеристик — берём данные из списка")
+                add(car, url)
                 continue
             except Blocked as reason:
-                print(f"che168 притормозил нас ({reason}) — пауза 90–150 с и одна попытка")
-                human_pause(90, 150)
-                try:
-                    body = fetch_detail(page, car)
-                except Exception as again:
-                    print(f"Снова не пускает ({again}) — останавливаемся, отправляем собранное")
-                    break
+                if not on_proxy and PROXY_SERVER:
+                    print(f"che168 показал {reason} — переключаемся на прокси")
+                    context.close()
+                    context = new_context(browser, True)
+                    page = context.new_page()
+                    on_proxy = True
+                    try:
+                        body = fetch_detail(page, car)
+                    except Exception as again:
+                        print(f"Через прокси тоже не пускает ({again}) — остальные машины по данным списка")
+                        list_only = True
+                        add(car, url)
+                        continue
+                else:
+                    print(f"che168 показал {reason} — остальные машины по данным списка")
+                    list_only = True
+                    add(car, url)
+                    continue
             except Exception as error:
                 failed += 1
-                print(f"[{car['infoid']}] не открылось: {str(error).splitlines()[0][:150]}")
-                if failed >= 8 and done == 0:
-                    print("Не открылось ни одно из 8 объявлений — останавливаемся")
-                    break
+                print(f"[{car['infoid']}] не открылось: {str(error).splitlines()[0][:150]} — берём данные из списка")
+                add(car, url)
                 continue
-            if done < 2:
+            if degraded_saved < 5 and done < 2:
                 save_debug(f"detail_{car['infoid']}.html", body)
-            d = parse_detail(body, car)
-            make, model = brand_model(car["name"], body)
-            listings.append({
-                "external_id": car["infoid"],
-                "make": make,
-                "model": model,
-                "title": car["name"],
-                "year": car["year"],
-                "mileage_km": car["mileage_km"],
-                "price_value": car["price_cny"],
-                "photo_url": fetch_photo(session, d["photos"] + [car.get("image")]),
-                "spec": d["spec"] or None,
-                "source_url": url,
-            })
-            done += 1
-            print(f"[{done}] {make or '?'} {model or ''} {car['year']} — {car['price_cny']} ¥, характеристик: {len(d['spec'])}")
+            add(car, url, body, parse_detail(body, car))
             human_pause(3, 7)
             if done >= breaks:
                 human_pause(25, 45)
                 breaks = done + random.randint(20, 30)
         browser.close()
 
-    print(f"Итого: новых {sum('spec' in x for x in listings)}, уже на сайте {sum('spec' not in x for x in listings)}, "
-          f"без характеристик пропущено {degraded}, ошибок {failed}")
+    print(f"Итого: новых {sum('spec' in x for x in listings)} (из них только по списку {from_list}), "
+          f"уже на сайте {sum('spec' not in x for x in listings)}, урезанных страниц {degraded}, ошибок {failed}")
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump([{k: v for k, v in x.items() if k != "photo_url"} for x in listings], f, ensure_ascii=False, indent=2)
     push(listings)
