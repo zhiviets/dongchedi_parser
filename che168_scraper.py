@@ -251,7 +251,7 @@ def fetch_detail(page, car: dict) -> str:
     url = f"https://www.che168.com/dealer/{car['dealerid']}/{car['infoid']}.html"
     resp = page.goto(url, wait_until="commit", timeout=60_000)
     try:
-        page.wait_for_selector("span.item-name", timeout=30_000)
+        page.wait_for_selector("span.item-name", timeout=12_000)
     except Exception:
         pass
     body = page.content()
@@ -434,7 +434,7 @@ def main():
                         save_debug(f"detail_degraded_{car['infoid']}.html", page.content())
                         degraded_saved += 1
                     print(f"[{car['infoid']}] страница без характеристик ({first}) — пауза и ещё попытка")
-                    human_pause(20, 40)
+                    human_pause(10, 20)
                     body = fetch_detail(page, car)
                 streak = 0
             except Degraded:

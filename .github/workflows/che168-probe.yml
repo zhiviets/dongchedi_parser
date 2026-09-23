@@ -22,6 +22,8 @@ jobs:
       - name: Probe che168 (через прокси и напрямую)
         env:
           PYTHONIOENCODING: utf-8
+          # Лог виден сразу, а не только после завершения
+          PYTHONUNBUFFERED: "1"
           PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
           PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}
           PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
