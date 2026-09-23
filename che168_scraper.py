@@ -20,6 +20,7 @@
 
 import html as html_lib
 import json
+import math
 import os
 import random
 import re
@@ -34,7 +35,7 @@ from weekly_scraper import compress_photo_to_data_url
 TOTAL = int(os.environ.get("CHE168_TOTAL") or "30")
 # Доля машин до 160 л.с. (проходных по утильсбору), остальные — любой мощности
 SHARE_160 = float(os.environ.get("CHE168_SHARE_160") or "0.75")
-MIN_YEAR = int(os.environ.get("CHE168_MIN_YEAR") or "2020")
+MIN_YEAR = int(os.environ.get("CHE168_MIN_YEAR") or "2017")
 MAX_PAGES = int(os.environ.get("CHE168_MAX_PAGES") or "100")
 LIST_URL = "https://www.che168.com/china/a0_0msdgscncgpi1ltocsp{page}exx0/"
 
@@ -168,24 +169,24 @@ def parse_cards(page_html: str) -> list[dict]:
     return cards
 
 
-def load_list(page, url: str) -> str | None:
+def load_list(page, url: str, attempts: int = 3, wait_ms: int = 45_000) -> str | None:
     """Страница списка: до 3 попыток. Не ждём полной загрузки (скрипты рекламы и
     счётчиков из-за рубежа грузятся долго) — берём HTML, как только появились карточки."""
-    for attempt in range(1, 4):
+    for attempt in range(1, attempts + 1):
         try:
             page.goto(url, wait_until="commit", timeout=60_000)
             try:
-                page.wait_for_selector("li[infoid]", timeout=45_000)
+                page.wait_for_selector("li[infoid]", timeout=wait_ms)
             except Exception:
                 pass
             page.wait_for_timeout(random.randint(1500, 3000))
             content = page.content()
-            if parse_cards(content) or attempt == 3:
+            if parse_cards(content) or attempt == attempts:
                 return content
             print(f"  попытка {attempt}: карточек пока нет — ещё раз")
         except Exception as error:
             print(f"  попытка {attempt}: {str(error).splitlines()[0][:150]}")
-            if attempt == 3:
+            if attempt == attempts:
                 return None
         human_pause(15, 30)
     return None
@@ -298,6 +299,181 @@ def collect(page, known: set, want: int) -> list[dict]:
         drop = {id(c) for c in [c for c in picked if c["infoid"] not in known and c["power"] == "other"][-extra:]}
         picked = [c for c in picked if id(c) not in drop]
         print(f"Машин до 160 л.с. нашлось мало — мощных новых убрано {extra}, чтобы их было не больше 25%")
+    return picked
+
+
+# ---------- все модели ----------
+# Хотя бы по одной машине каждой модели: обходим страницы марок (/china/aodi/)
+# и моделей (/china/aodi/aodia4l/), затем выбираем — см. pick_models().
+ALL_MODELS = os.environ.get("CHE168_ALL_MODELS", "1") == "1"
+# Сколько минут обходить марки и модели (остальное время — фото и отправка на сайт)
+SCAN_MINUTES = float(os.environ.get("CHE168_SCAN_MINUTES") or "120")
+# Не больше стольких машин за прогон, даже если для доли «до 160» нужно больше
+MAX_TOTAL = int(os.environ.get("CHE168_MAX_TOTAL") or "2500")
+BRAND_LINK_RE = re.compile(r'<a[^>]+href="/china/([a-z][a-z0-9]*)/#pvareaid=105866[^"]*"[^>]*>([^<]{1,20})</a>')
+
+
+def series_key(name: str) -> str:
+    """Модель по названию карточки: «奥迪A4L 2022款 40 TFSI» → «奥迪A4L»."""
+    return re.split(r"\d{4}\s*款", name, maxsplit=1)[0].strip() or name
+
+
+def quick_list(page, url: str):
+    """HTML страницы списка простым запросом (без отрисовки — в разы быстрее браузера).
+    None — не получилось, "blocked" — che168 показал проверку."""
+    try:
+        resp = page.request.get(url, timeout=30_000, headers={"Referer": "https://www.che168.com/china/list/"})
+    except Exception:
+        return None
+    if resp.status != 200:
+        return None
+    html = decode_html(resp.body(), resp.headers.get("content-type", ""))
+    if re.search(r"<title>[^<]*安全验证", html):
+        return "blocked"
+    return html
+
+
+def scan_models(page, known: set):
+    """Карточки всех моделей: {модель: [машины]}. False — список не открылся (прокси), None — марок не нашли."""
+    deadline = time.time() + SCAN_MINUTES * 60
+    base = LIST_URL.format(page=1)
+    use_request = True
+    html = quick_list(page, base)
+    if not isinstance(html, str) or html == "blocked" or not parse_cards(html):
+        use_request = False
+        html = load_list(page, base)
+    if html is None:
+        return False
+    brands = list(dict.fromkeys(BRAND_LINK_RE.findall(html)))
+    if not brands:
+        save_debug("brands_missing.html", html)
+        print("На странице che168 не нашлось списка марок")
+        return None
+    # Сначала марки, которые мы знаем (их больше всего продаётся), потом редкие
+    known_names = set(BRAND_IDS.values())
+    brands.sort(key=lambda b: extract_brand_model(b[1] + " 2020款")[0] not in known_names)
+    print(f"Марок на che168: {len(brands)} — обходим марки и их модели (до {SCAN_MINUTES:.0f} мин)")
+
+    groups, seen = {}, set()
+    stats = {"pages": 0, "browser": 0}
+
+    def fetch(url):
+        nonlocal use_request
+        human_pause(1.5, 4)
+        stats["pages"] += 1
+        if use_request:
+            got = quick_list(page, url)
+            if isinstance(got, str) and got != "blocked":
+                return got
+            if got == "blocked":
+                print("  che168 закрыл простые запросы проверкой — дальше через браузер")
+                use_request = False
+        stats["browser"] += 1
+        return load_list(page, url, attempts=1, wait_ms=15_000)
+
+    def add_cards(content):
+        cards = parse_cards(content)
+        learn_brands(cards)
+        for c in cards:
+            if c["infoid"] in seen or not c["year"] or c["year"] < MIN_YEAR:
+                continue
+            seen.add(c["infoid"])
+            make = brand_model(c["name"], "", c.get("brandid"))[0]
+            c["power"] = power_class(c["name"], make) if make else None
+            if c["power"]:
+                groups.setdefault(series_key(c["name"]), []).append(c)
+        return cards
+
+    add_cards(html)
+    for i, (slug, cname) in enumerate(brands, 1):
+        if time.time() > deadline:
+            print(f"Время обхода вышло: марок просмотрено {i - 1} из {len(brands)}")
+            break
+        if i % 20 == 0:
+            print(f"  марок просмотрено {i}/{len(brands)}, моделей с машинами {len(groups)}, "
+                  f"страниц {stats['pages']} (через браузер {stats['browser']})")
+        content = fetch(f"https://www.che168.com/china/{slug}/")
+        if not content or not add_cards(content):
+            continue
+        # Модели марки — ссылки /china/<марка>/<модель>/ с названием; открываем те,
+        # машин которых ещё не встретили
+        series = dict.fromkeys((sl, name.strip()) for sl, name in
+                               re.findall(rf'<a[^>]+href="/china/{slug}/([a-z][a-z0-9]*)/[^"]*"[^>]*>([^<]{{1,30}})</a>', content)
+                               if name.strip())
+        for sl, name in series:
+            if time.time() > deadline:
+                break
+            if any(name in key or key in name for key in groups):
+                continue
+            more = fetch(f"https://www.che168.com/china/{slug}/{sl}/")
+            if more:
+                add_cards(more)
+    print(f"Обход: моделей с машинами {len(groups)}, машин {sum(map(len, groups.values()))}, страниц {stats['pages']}")
+    for cars in groups.values():
+        # Машины, которые уже на сайте, — первыми: иначе сайт разрастался бы от прогона к прогону
+        cars.sort(key=lambda c: c["infoid"] not in known)
+    return groups
+
+
+# Доли по годам: 70% — 2022–2024, 15% — 2025–2026, 15% — 2017–2021 (порядок — приоритет)
+YEAR_BANDS = [("2022–2024", 2022, 2024, 0.70), ("2025–2026", 2025, 2026, 0.15), ("2017–2021", 2017, 2021, 0.15)]
+
+
+def year_band(year):
+    return next((name for name, lo, hi, _ in YEAR_BANDS if year and lo <= year <= hi), None)
+
+
+def pick_models(groups: dict, total: int) -> list[dict]:
+    """По машине на модель (до 160 л.с., если есть), затем добор по кругу по моделям:
+    «до 160» — пока их не станет 75%, мощных — пока их не больше 25%; внутри каждой
+    группы — по долям лет YEAR_BANDS."""
+    picked, used = [], set()
+    count = {}
+    rank = {name: i for i, (name, *_) in enumerate(YEAR_BANDS)}
+
+    def take(c):
+        picked.append(c)
+        used.add(c["infoid"])
+        k = (c["power"], year_band(c["year"]))
+        count[k] = count.get(k, 0) + 1
+
+    def total_of(kind):
+        return sum(v for (k, _), v in count.items() if k == kind)
+
+    for cars in groups.values():
+        # Сначала 2022–2024, потом 2025–2026, потом старше; уже на сайте — первыми (порядок сохраняется)
+        cars.sort(key=lambda c: rank.get(year_band(c["year"]), 9))
+        take(next((c for c in cars if c["power"] == "le160"), cars[0]))
+    covered = len(picked)
+
+    def fill(kind, band, need):
+        pools = {k: iter([c for c in v if c["power"] == kind and (band is None or year_band(c["year"]) == band)])
+                 for k, v in groups.items()}
+        progress = True
+        while need() and progress:
+            progress = False
+            for it in pools.values():
+                if not need():
+                    break
+                c = next((c for c in it if c["infoid"] not in used), None)
+                if c:
+                    take(c)
+                    progress = True
+
+    def fill_kind(kind, target):
+        for name, _, _, w in YEAR_BANDS:
+            want = round(target * w)
+            fill(kind, name, lambda: count.get((kind, name), 0) < want and total_of(kind) < target)
+        fill(kind, None, lambda: total_of(kind) < target)   # в какой-то группе лет машин не хватило
+
+    ratio = (1 - SHARE_160) / SHARE_160 if SHARE_160 else 0
+    fill_kind("le160", min(MAX_TOTAL - total_of("other"),
+                           max(round(total * SHARE_160), math.ceil(total_of("other") / ratio) if ratio else 0)))
+    fill_kind("other", min(total - total_of("le160"), math.floor(total_of("le160") * ratio)))
+    share = total_of("le160") / len(picked) if picked else 0
+    years = {name: sum(v for (_, b), v in count.items() if b == name) for name, *_ in YEAR_BANDS}
+    print(f"Выбрано: моделей {covered}, машин {len(picked)} — до 160 л.с. {total_of('le160')} ({share:.0%}), "
+          f"мощнее или электро/гибрид {total_of('other')}; по годам: " + ", ".join(f"{k} — {v}" for k, v in years.items()))
     return picked
 
 
@@ -627,33 +803,49 @@ def new_context(browser, use_proxy: bool):
     return context
 
 
+def gather(page, known: set) -> list[dict]:
+    """Все модели (обход марок и моделей), а если не вышло — общий список, как раньше."""
+    if ALL_MODELS:
+        groups = scan_models(page, known)
+        if groups is False:
+            return []
+        if groups:
+            return pick_models(groups, TOTAL)
+    return collect(page, known, TOTAL)
+
+
 def main():
     known = fetch_known()
     session = http_session()
     listings = []
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
-        context = new_context(browser, USE_PROXY)
+        # Обход всех моделей — сотни страниц списка: их che168 отдаёт и напрямую, и так
+        # быстрее; китайский прокси — для объявлений (переключаемся на капче, см. ниже)
+        list_proxy = USE_PROXY and not ALL_MODELS
+        on_proxy = list_proxy
+        context = new_context(browser, list_proxy)
         page = context.new_page()
-        cars = collect(page, known, TOTAL)
-        if not cars and USE_PROXY:
+        cars = gather(page, known)
+        if not cars and list_proxy:
             # Прокси не отвечает (бесплатные быстро умирают) — список пробуем напрямую
             print("Через прокси список не получен — пробуем напрямую")
             context.close()
+            on_proxy = False
             context = new_context(browser, False)
             page = context.new_page()
-            cars = collect(page, known, TOTAL)
+            cars = gather(page, known)
         elif not cars and PROXY_SERVER:
             # Напрямую che168 не отдал список — пробуем через прокси
             print("Напрямую список не получен — пробуем через прокси")
             context.close()
+            on_proxy = True
             context = new_context(browser, True)
             page = context.new_page()
-            cars = collect(page, known, TOTAL)
+            cars = gather(page, known)
         print(f"Отобрано: {len(cars)} (уже на сайте: {sum(c['infoid'] in known for c in cars)}), марок по номерам: {len(BRAND_IDS)}")
 
         done = failed = degraded = degraded_saved = from_list = 0
-        on_proxy = USE_PROXY
         list_only = False   # объявления закрыты капчей — дальше только данные списка
         breaks = random.randint(20, 30)
 

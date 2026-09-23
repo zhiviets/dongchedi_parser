@@ -7,8 +7,11 @@ on:
   workflow_dispatch:
     inputs:
       total:
-        description: "Сколько новых машин собрать"
-        default: "30"
+        description: "Сколько машин собрать (все модели с 2017 г., 75 % до 160 л.с.)"
+        default: "1000"
+      minutes:
+        description: "Сколько минут обходить марки и модели che168 (для проверки хватит 10)"
+        default: "120"
 
 jobs:
   scrape:
@@ -40,8 +43,9 @@ jobs:
           CHE168_PROXY_SERVER: ${{ secrets.CHE168_PROXY_SERVER }}
           CHE168_PROXY_USERNAME: ${{ secrets.CHE168_PROXY_USERNAME }}
           CHE168_PROXY_PASSWORD: ${{ secrets.CHE168_PROXY_PASSWORD }}
-          # По расписанию — 1000 новых машин; при ручном запуске — число из поля
+          # По расписанию — 1000 машин; при ручном запуске — числа из полей
           CHE168_TOTAL: ${{ inputs.total || '1000' }}
+          CHE168_SCAN_MINUTES: ${{ inputs.minutes || '120' }}
         run: python che168_scraper.py
       - name: Upload debug artifacts
         if: always()
