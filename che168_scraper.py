@@ -153,6 +153,8 @@ def parse_cards(page_html: str) -> list[dict]:
             reg = ""
         cards.append({
             "infoid": attrs["infoid"] if "infoid" in attrs else m.group(1),
+            "brandid": attrs.get("brandid"),
+            "specid": attrs.get("specid"),
             "dealerid": attrs["dealerid"],
             "name": attrs["carname"],
             "price_cny": round(price * 10_000) if price else None,
@@ -368,11 +370,34 @@ def photo_candidates(image: str | None) -> list[str]:
             ("1280x960_0_q87_c42_", "900x675_0_q87_c42_", "720x540_0_q87_c42_")] + [image]
 
 
-def brand_model(name: str, body: str):
+# Номера марок Autohome, проверенные по реальным карточкам che168; остальные
+# парсер выучивает на ходу по машинам, у которых марка есть в названии.
+BRAND_IDS = {
+    "1": "Volkswagen", "3": "Toyota", "8": "Ford", "12": "Hyundai", "14": "Honda", "15": "BMW", "25": "Geely",
+    "33": "Audi", "36": "Mercedes-Benz", "38": "Buick", "40": "Porsche", "42": "Ferrari", "46": "Jeep",
+    "47": "Cadillac", "48": "Lamborghini", "49": "Land Rover", "50": "Lotus", "52": "Lexus", "57": "Maserati",
+    "63": "Nissan", "65": "Subaru", "70": "Volvo", "75": "BYD", "133": "Tesla", "284": "Nio", "489": "Xiaomi",
+}
+
+
+def learn_brands(cards: list[dict]):
+    """Номер марки → марка — по карточкам, где марка написана в названии."""
+    for c in cards:
+        make = extract_brand_model(c["name"])[0]
+        if make and c.get("brandid"):
+            BRAND_IDS.setdefault(c["brandid"], make)
+
+
+def brand_model(name: str, body: str, brandid: str | None = None):
     """Марка и модель из названия; если марки в нём нет («福克斯(进口)») — из «хлебных крошек» объявления."""
     make, model, _ = extract_brand_model(name)
     if make:
         return make, model
+    if brandid and BRAND_IDS.get(brandid):
+        # «Model Y 2021款», «福克斯(进口) 2018款» — марка по номеру, модель по названию
+        from china_brand_map import _series_model
+        series = re.split(r"\d{4}\s*款", name, maxsplit=1)[0]
+        return BRAND_IDS[brandid], _series_model(re.sub(r"\(.*?\)|（.*?）", "", series))
     from china_brand_map import BRAND_MAP
     for crumb in re.findall(r"二手([^<>\s]{1,12})</a>", body):
         for key in sorted(BRAND_MAP, key=len, reverse=True):
@@ -497,7 +522,8 @@ def main():
             context = new_context(browser, True)
             page = context.new_page()
             cars = collect(page, known, TOTAL)
-        print(f"Отобрано: {len(cars)} (уже на сайте: {sum(c['infoid'] in known for c in cars)})")
+        learn_brands(cars)
+        print(f"Отобрано: {len(cars)} (уже на сайте: {sum(c['infoid'] in known for c in cars)}), марок по номерам: {len(BRAND_IDS)}")
 
         done = failed = degraded = degraded_saved = from_list = 0
         on_proxy = USE_PROXY
@@ -509,7 +535,7 @@ def main():
             if d is None:
                 d = {"spec": spec_from_name(car), "photos": []}
                 from_list += 1
-            make, model = brand_model(car["name"], body or "")
+            make, model = brand_model(car["name"], body or "", car.get("brandid"))
             listings.append({
                 "external_id": car["infoid"], "make": make, "model": model, "title": car["name"],
                 "year": car["year"], "mileage_km": car["mileage_km"], "price_value": car["price_cny"],
