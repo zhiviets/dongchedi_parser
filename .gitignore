@@ -31,3 +31,4 @@ debug/
 
 # Проба che168 (уходит в артефакт che168-probe)
 che168_debug/
+che168_batch.json

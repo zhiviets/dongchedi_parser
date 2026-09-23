@@ -1,0 +1,49 @@
+name: Weekly China (che168) scrape
+
+on:
+  schedule:
+    # Вторник, 03:00 UTC (13:00 по Владивостоку) — не в один час с encar
+    - cron: "0 3 * * 2"
+  workflow_dispatch:
+    inputs:
+      total:
+        description: "Сколько новых машин собрать"
+        default: "30"
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    # 1000 машин с паузами «как человек» — порядка 2 часов в первый раз
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: |
+          python -m pip install -U pip
+          pip install -r requirements-ci.txt
+          python -m playwright install --with-deps chromium
+      - name: Scrape che168 and push to bn-auto
+        env:
+          PYTHONIOENCODING: utf-8
+          BN_AUTO_URL: ${{ secrets.BN_AUTO_URL }}
+          BN_AUTO_IMPORT_TOKEN: ${{ secrets.BN_AUTO_IMPORT_TOKEN }}
+          # che168 пускает и IP GitHub; прокси включается CHE168_USE_PROXY=1
+          PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
+          PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}
+          PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
+          # По расписанию — 1000 новых машин; при ручном запуске — число из поля
+          CHE168_TOTAL: ${{ inputs.total || '1000' }}
+        run: python che168_scraper.py
+      - name: Upload debug artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: che168-debug
+          path: |
+            che168_debug
+            che168_batch.json
+          retention-days: 14
+          if-no-files-found: ignore

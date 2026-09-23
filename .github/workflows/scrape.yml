@@ -1,9 +1,8 @@
 name: Weekly Dongchedi scrape
 
+# Автозапуск выключен: раздел подержанных машин dongchedi требует входа по SMS.
+# Китай собирает «Weekly China (che168) scrape»; этот запуск — только вручную.
 on:
-  schedule:
-    # Вторник, 03:00 UTC (13:00 по Владивостоку) — не в один час с encar
-    - cron: "0 3 * * 2"
   workflow_dispatch:
     inputs:
       total:
