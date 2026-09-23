@@ -28,3 +28,6 @@ weekly_batch.json
 
 # Диагностика еженедельного прогона (уходит в артефакт dongchedi-debug)
 debug/
+
+# Проба che168 (уходит в артефакт che168-probe)
+che168_debug/
