@@ -161,18 +161,38 @@ def parse_cards(page_html: str) -> list[dict]:
     return cards
 
 
+def load_list(page, url: str) -> str | None:
+    """Страница списка: до 3 попыток. Не ждём полной загрузки (скрипты рекламы и
+    счётчиков из-за рубежа грузятся долго) — берём HTML, как только появились карточки."""
+    for attempt in range(1, 4):
+        try:
+            page.goto(url, wait_until="commit", timeout=60_000)
+            try:
+                page.wait_for_selector("li[infoid]", timeout=45_000)
+            except Exception:
+                pass
+            page.wait_for_timeout(random.randint(1500, 3000))
+            content = page.content()
+            if parse_cards(content) or attempt == 3:
+                return content
+            print(f"  попытка {attempt}: карточек пока нет — ещё раз")
+        except Exception as error:
+            print(f"  попытка {attempt}: {str(error).splitlines()[0][:150]}")
+            if attempt == 3:
+                return None
+        human_pause(15, 30)
+    return None
+
+
 def collect(page, known: set, want: int) -> list[dict]:
     """Карточки 2020+ со страниц списка: новых — сколько нужно, известных — все встреченные."""
     seen, picked = set(), []
     new_count = 0
     for page_no in range(1, MAX_PAGES + 1):
         url = LIST_URL.format(page=page_no)
-        try:
-            page.goto(url, wait_until="domcontentloaded", timeout=60_000)
-            page.wait_for_timeout(random.randint(2500, 4000))
-            content = page.content()
-        except Exception as error:
-            print(f"Список, страница {page_no}: не открылась ({str(error).splitlines()[0][:150]})")
+        content = load_list(page, url)
+        if content is None:
+            print(f"Список, страница {page_no}: не открылась за 3 попытки")
             break
         cards = parse_cards(content)
         if page_no == 1:
@@ -229,9 +249,9 @@ def fetch_detail(page, car: dict) -> str:
     """Объявление открываем в браузере: на прямые запросы che168 после нескольких штук
     отвечает урезанной страницей без характеристик."""
     url = f"https://www.che168.com/dealer/{car['dealerid']}/{car['infoid']}.html"
-    resp = page.goto(url, wait_until="domcontentloaded", timeout=60_000)
+    resp = page.goto(url, wait_until="commit", timeout=60_000)
     try:
-        page.wait_for_selector("span.item-name", timeout=8000)
+        page.wait_for_selector("span.item-name", timeout=30_000)
     except Exception:
         pass
     body = page.content()
@@ -368,22 +388,34 @@ def push(listings):
 
 # ---------- прогон ----------
 
+def new_context(browser, use_proxy: bool):
+    proxy = None
+    if use_proxy and PROXY_SERVER:
+        proxy = {k: v for k, v in {"server": PROXY_SERVER, "username": PROXY_USERNAME, "password": PROXY_PASSWORD}.items() if v}
+        print(f"Используем прокси: {PROXY_SERVER}")
+    context = browser.new_context(user_agent=UA, viewport={"width": 1440, "height": 900}, locale="zh-CN",
+                                  timezone_id="Asia/Shanghai", proxy=proxy,
+                                  extra_http_headers={"Accept-Language": "zh-CN,zh;q=0.9,en;q=0.6"})
+    context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
+    return context
+
+
 def main():
     known = fetch_known()
     session = http_session()
     listings = []
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
-        proxy = None
-        if USE_PROXY and PROXY_SERVER:
-            proxy = {k: v for k, v in {"server": PROXY_SERVER, "username": PROXY_USERNAME, "password": PROXY_PASSWORD}.items() if v}
-            print(f"Используем прокси: {PROXY_SERVER}")
-        context = browser.new_context(user_agent=UA, viewport={"width": 1440, "height": 900}, locale="zh-CN",
-                                      timezone_id="Asia/Shanghai", proxy=proxy,
-                                      extra_http_headers={"Accept-Language": "zh-CN,zh;q=0.9,en;q=0.6"})
-        context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
+        context = new_context(browser, USE_PROXY)
         page = context.new_page()
         cars = collect(page, known, TOTAL)
+        if not cars and not USE_PROXY and PROXY_SERVER:
+            # Напрямую che168 не отдал список — пробуем через прокси
+            print("Напрямую список не получен — пробуем через прокси")
+            context.close()
+            context = new_context(browser, True)
+            page = context.new_page()
+            cars = collect(page, known, TOTAL)
         print(f"Отобрано: {len(cars)} (уже на сайте: {sum(c['infoid'] in known for c in cars)})")
 
         done = failed = degraded = streak = degraded_saved = 0
