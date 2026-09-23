@@ -273,9 +273,9 @@ def collect(page, known: set, want: int) -> list[dict]:
             for c in fresh:
                 seen.add(c["infoid"])
             for c in good:
-                c["power"] = power_class(c["name"])
+                c["power"] = power_class(c["name"], brand_model(c["name"], "", c.get("brandid"))[0])
                 if not c["power"]:
-                    continue   # мощность не оценить (электро, объёма нет в названии) — не берём
+                    continue   # бензин/дизель без объёма в названии — мощность не оценить, не берём
                 if c["infoid"] in known:
                     # Уже на сайте: мощные обновляем, только пока их не больше трети от «до 160»
                     if c["power"] == "le160" or known_count["other"] < known_count["le160"] * ratio:
@@ -422,22 +422,35 @@ def guess_cc(name: str):
 _NA20_GT160 = re.compile(r"丰田|雷克萨斯|凯美瑞|亚洲龙|威兰达|荣放|RAV4|Lexus|Toyota", re.I)
 
 
-def power_class(name: str) -> str | None:
+# Марки, где почти все машины — электро или гибриды: без объёма в названии
+# это не «мощность не оценить», а электромобиль/гибрид — группа «любой мощности»
+NEV_MAKES = {"Tesla", "Xiaomi", "Nio", "Zeekr", "Xpeng", "Avatr", "Luxeed", "Li Auto", "AITO", "BYD",
+             "Fangchengbao", "Denza", "Leapmotor", "Aion", "Neta", "Voyah", "IM", "Deepal", "Onvo", "Lynk & Co",
+             "Chery Fengyun"}
+_EV_MODELS = re.compile(r"Taycan|e-tron|\bEQ[A-Z]|\bi[X3457]\b|\biX\d|ID\.\s?\d|Lyriq|IQ", re.I)
+
+
+def power_class(name: str, make: str | None = None) -> str | None:
     """«le160» — до 160 л.с., «other» — мощнее, None — оценить нечем (такие не берём).
 
     Мощности в списке che168 нет, поэтому оценка по двигателю, как для Кореи:
     атмосферный бензин до 2.0 л, турбо до 1.4 л, дизель и гибрид до 1.6 л.
-    Электромобили и машины без объёма в названии — None.
+    Электромобили и гибриды без объёма в названии — «other» (любой мощности);
+    бензин и дизель без объёма в названии — None.
     """
+    hp = re.search(r"(\d{2,4})\s*(?:PS|HP|马力)", name)   # «400PS», «280HP» — мощность прямо в названии
+    if hp:
+        return "le160" if int(hp.group(1)) <= 160 else "other"
     fuel = fuel_of(name, "")
     if fuel == "Электро" or fuel.startswith("Последовательный"):
-        return None
-    cc = guess_cc(name)
+        return "other"
+    cc = guess_cc(name) or (2000 if re.search(r"\b(?:25|28)T\b", name) else None)   # Cadillac 25T/28T — 2.0T
     if not cc:
-        return None
+        nev = fuel == "Гибрид" or make in NEV_MAKES or _EV_MODELS.search(name) or re.search(r"新能源|\b\d{2}e\b", name)
+        return "other" if nev else None
     trim = re.split(r"\d{4}\s*款", name, maxsplit=1)[-1]
     # Коды Audi/VW/BMW/Mercedes — всегда турбо; «1.5T», «2.0TD»
-    turbo = bool(re.search(r"\d\.\dT|TFSI|TSI|TDI|涡轮|xDrive|sDrive|\d{2,3}Li?\b", trim)) or bool(
+    turbo = bool(re.search(r"\d\.\dT|TFSI|TSI|TDI|涡轮|xDrive|sDrive|\d{2,3}Li?\b|\b(?:25|28)T\b", trim)) or bool(
         re.search(r"奔驰|Mercedes", name))
     if fuel == "Гибрид" and turbo:
         return "other"
