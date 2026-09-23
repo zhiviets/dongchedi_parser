@@ -298,10 +298,16 @@ def parse_detail(body: str, car: dict) -> dict:
     if hp and not spec["Двигатель"]:
         spec["Двигатель"] = f"{hp.group(1)} л.с."
     # Фото: сначала полноразмерные из галереи объявления, потом из карточки списка
-    photos = re.findall(r"//[\w.]*autoimg\.cn/escimg/[^\"'\s]*?f_s_autohomecar__[^\"'\s]+?\.jpg", body)
+    # Главное фото — первое в галерее (data-original 900×675); f_s_ — это миниатюры ленты
+    gallery = re.findall(r"//[\w.]*autoimg\.cn/escimg/[^\"'\s]*?autohomecar__[^\"'\s]+?\.jpg", body)
+    photos = []
+    for url in dict.fromkeys(gallery):
+        if "/110x110" not in url:
+            photos = photo_candidates("https:" + url)
+            break
     return {
         "spec": {k: v for k, v in spec.items() if v},
-        "photos": ["https:" + p for p in dict.fromkeys(photos)][:3],
+        "photos": photos,
     }
 
 
@@ -347,14 +353,16 @@ def spec_from_name(car: dict) -> dict:
 
 
 def photo_candidates(image: str | None) -> list[str]:
-    """Фото из списка (440×330) — пробуем сначала полноразмерное с того же адреса."""
+    """Крупные варианты того же снимка: сервер Autohome отдаёт размер по имени файла
+    (1280×960 — если поддержит, 900×675 — самый крупный на странице объявления)."""
     if not image:
         return []
-    m = re.search(r"/([^/]*?)autohomecar__([^/]+\.jpg)", image)
+    m = re.search(r"/([^/]*?)autohomecar__([^/]+?\.jpg)", image)
     if not m:
         return [image]
-    base = image[: m.start(1)]
-    return [f"{base}f_s_autohomecar__{m.group(2)}", f"{base}720x540_0_q87_c42_autohomecar__{m.group(2)}", image]
+    base, name = image[: m.start(1)], m.group(2)
+    return [f"{base}{size}autohomecar__{name}" for size in
+            ("1280x960_0_q87_c42_", "900x675_0_q87_c42_", "720x540_0_q87_c42_")] + [image]
 
 
 def brand_model(name: str, body: str):
@@ -385,16 +393,24 @@ def http_session():
 
 
 def fetch_photo(session, urls):
-    for url in [u for u in urls if u][:4]:
+    """Первое достаточно крупное фото (от 600 px в ширину); мелкое — только если другого нет."""
+    from PIL import Image
+    import io
+    fallback = None
+    for url in list(dict.fromkeys(u for u in urls if u))[:8]:
         try:
             resp = session.get(url, timeout=20)
             resp.raise_for_status()
-            data_url = compress_photo_to_data_url(resp.content)
-            if data_url:
-                return data_url
-        except requests.RequestException:
+            width = Image.open(io.BytesIO(resp.content)).width
+        except Exception:
             continue
-    return None
+        data_url = compress_photo_to_data_url(resp.content)
+        if not data_url:
+            continue
+        if width >= 600:
+            return data_url
+        fallback = fallback or data_url
+    return fallback
 
 
 def fetch_known() -> set:
@@ -410,9 +426,11 @@ def fetch_known() -> set:
             ids = {str(i) for i in data.get("ids") or []}
         else:
             # Машины, сохранённые без двигателя (урезанная страница), перезагружаем заново
-            ids = {str(i["id"]) for i in items if i.get("has_engine") and i.get("make")}
+            # …и машины с мелким фото (миниатюрой) — перезагружаем с крупным
+            ids = {str(i["id"]) for i in items
+                   if i.get("has_engine") and i.get("make") and (i.get("photo_kb") or 999) >= 45}
             if len(items) > len(ids):
-                print(f"Без двигателя или марки на сайте: {len(items) - len(ids)} — загрузим заново")
+                print(f"Без двигателя, марки или с мелким фото на сайте: {len(items) - len(ids)} — загрузим заново")
         print(f"Уже есть в bn-auto с фото и характеристиками: {len(ids)} — их объявления не открываем")
         return ids
     except Exception as error:
