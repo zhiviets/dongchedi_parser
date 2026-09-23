@@ -36,6 +36,10 @@ jobs:
           PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
           PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}
           PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
+          # Китайский прокси для che168 (необязательно): при нём объявления открываются через Китай
+          CHE168_PROXY_SERVER: ${{ secrets.CHE168_PROXY_SERVER }}
+          CHE168_PROXY_USERNAME: ${{ secrets.CHE168_PROXY_USERNAME }}
+          CHE168_PROXY_PASSWORD: ${{ secrets.CHE168_PROXY_PASSWORD }}
           # По расписанию — 1000 новых машин; при ручном запуске — число из поля
           CHE168_TOTAL: ${{ inputs.total || '1000' }}
         run: python che168_scraper.py

@@ -39,10 +39,13 @@ LIST_URL = "https://www.che168.com/china/a0_0msdgscncgpi1ltocsp{page}exx0/"
 BN_AUTO_URL = os.environ.get("BN_AUTO_URL", "").rstrip("/")
 BN_AUTO_IMPORT_TOKEN = os.environ.get("BN_AUTO_IMPORT_TOKEN", "")
 # Прокси необязателен: che168 пускает и IP GitHub. CHE168_USE_PROXY=1 — через PROXY_*.
-USE_PROXY = os.environ.get("CHE168_USE_PROXY") == "1"
-PROXY_SERVER = os.environ.get("PROXY_SERVER") or ""
-PROXY_USERNAME = os.environ.get("PROXY_USERNAME") or ""
-PROXY_PASSWORD = os.environ.get("PROXY_PASSWORD") or ""
+# Отдельный (китайский) прокси для che168 — CHE168_PROXY_*; если его нет — общий PROXY_*.
+# С китайским прокси объявления открываются через него сразу, без попытки напрямую.
+CHINA_PROXY = bool(os.environ.get("CHE168_PROXY_SERVER"))
+USE_PROXY = os.environ.get("CHE168_USE_PROXY") == "1" or CHINA_PROXY
+PROXY_SERVER = os.environ.get("CHE168_PROXY_SERVER") or os.environ.get("PROXY_SERVER") or ""
+PROXY_USERNAME = (os.environ.get("CHE168_PROXY_USERNAME") if CHINA_PROXY else os.environ.get("PROXY_USERNAME")) or ""
+PROXY_PASSWORD = (os.environ.get("CHE168_PROXY_PASSWORD") if CHINA_PROXY else os.environ.get("PROXY_PASSWORD")) or ""
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36")
@@ -382,13 +385,10 @@ def brand_model(name: str, body: str):
 # ---------- bn-auto ----------
 
 def http_session():
-    from urllib.parse import quote, urlsplit
+    """Фото качаем напрямую: сервер картинок Autohome пускает и без прокси,
+    а медленный (бесплатный) прокси не должен ломать загрузку фото."""
     s = requests.Session()
     s.headers.update({"User-Agent": UA, "Referer": "https://www.che168.com/"})
-    if USE_PROXY and PROXY_SERVER:
-        parts = urlsplit(PROXY_SERVER)
-        auth = f"{quote(PROXY_USERNAME, safe='')}:{quote(PROXY_PASSWORD, safe='')}@" if PROXY_USERNAME else ""
-        s.proxies = {"http": f"{parts.scheme}://{auth}{parts.netloc}", "https": f"{parts.scheme}://{auth}{parts.netloc}"}
     return s
 
 
@@ -483,7 +483,14 @@ def main():
         context = new_context(browser, USE_PROXY)
         page = context.new_page()
         cars = collect(page, known, TOTAL)
-        if not cars and not USE_PROXY and PROXY_SERVER:
+        if not cars and USE_PROXY:
+            # Прокси не отвечает (бесплатные быстро умирают) — список пробуем напрямую
+            print("Через прокси список не получен — пробуем напрямую")
+            context.close()
+            context = new_context(browser, False)
+            page = context.new_page()
+            cars = collect(page, known, TOTAL)
+        elif not cars and PROXY_SERVER:
             # Напрямую che168 не отдал список — пробуем через прокси
             print("Напрямую список не получен — пробуем через прокси")
             context.close()
