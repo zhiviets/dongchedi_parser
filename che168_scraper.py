@@ -32,6 +32,8 @@ from china_brand_map import extract_brand_model
 from weekly_scraper import compress_photo_to_data_url
 
 TOTAL = int(os.environ.get("CHE168_TOTAL") or "30")
+# Доля машин до 160 л.с. (проходных по утильсбору), остальные — любой мощности
+SHARE_160 = float(os.environ.get("CHE168_SHARE_160") or "0.75")
 MIN_YEAR = int(os.environ.get("CHE168_MIN_YEAR") or "2020")
 MAX_PAGES = int(os.environ.get("CHE168_MAX_PAGES") or "100")
 LIST_URL = "https://www.che168.com/china/a0_0msdgscncgpi1ltocsp{page}exx0/"
@@ -189,43 +191,113 @@ def load_list(page, url: str) -> str | None:
     return None
 
 
+# Фильтр «排量» (объём) на che168: машины до 160 л.с. — в основном до 2.0 л,
+# а в общем списке первыми идут премиум и электромобили
+DISPLACE_FILTERS = {"2": "1.1–1.6 л", "3": "1.7–2.0 л", "1": "до 1.0 л"}
+
+
+def filter_url(page, val: str):
+    """Адрес списка с фильтром объёма (шаблон с {page}) или None; False — список не открылся.
+
+    Схема адресов che168 не документирована, поэтому отмечаем галочку фильтра
+    на самой странице и запоминаем, куда che168 перешёл.
+    """
+    base = LIST_URL.format(page=1)
+    if load_list(page, base) is None:
+        return False
+    try:
+        with page.expect_navigation(wait_until="commit", timeout=30_000):
+            page.evaluate("""v => {
+                const el = document.querySelector('#btndisplacegroup input[val="' + v + '"]');
+                if (!el) throw new Error('галочки фильтра нет на странице');
+                el.click();
+            }""", val)
+    except Exception as error:
+        print(f"  фильтр объёма {DISPLACE_FILTERS[val]}: {str(error).splitlines()[0][:150]}")
+        return None
+    url = page.url.split("#")[0].split("?")[0]
+    m = re.search(r"sp\d*(?=ex)", url)
+    if url.rstrip("/") == base.rstrip("/") or not m:
+        print(f"  фильтр объёма {DISPLACE_FILTERS[val]}: адрес не понятен ({url})")
+        return None
+    return url[:m.start()] + "sp{page}" + url[m.end():]
+
+
 def collect(page, known: set, want: int) -> list[dict]:
-    """Карточки 2020+ со страниц списка: новых — сколько нужно, известных — все встреченные."""
+    """Карточки 2020+ со страниц списка: новых — сколько нужно (75% до 160 л.с.),
+    известных — все встреченные до 160 л.с. и не больше трети от них остальных.
+    Машины, мощность которых не оценить, не берём. Сначала листаем списки с
+    фильтром объёма до 2.0 л, потом — весь список."""
     seen, picked = set(), []
-    new_count = 0
-    for page_no in range(1, MAX_PAGES + 1):
-        url = LIST_URL.format(page=page_no)
-        content = load_list(page, url)
-        if content is None:
-            print(f"Список, страница {page_no}: не открылась за 3 попытки")
-            break
-        cards = parse_cards(content)
-        if page_no == 1:
-            save_debug("list_page_1.html", content)
-        if not cards:
-            print(f"Список, страница {page_no}: карточек нет — конец списка или блокировка")
-            save_debug(f"list_page_{page_no}_empty.html", content)
-            break
-        fresh = [c for c in cards if c["infoid"] not in seen]
-        learn_brands(cards)
-        good = [c for c in fresh if c["year"] and c["year"] >= MIN_YEAR]
-        # Машина без марки на сайте выглядит как «?» — такие не берём
-        nameless = [c for c in good if not brand_model(c["name"], "", c.get("brandid"))[0]]
-        for c in nameless:
-            print(f"  пропуск — марка не определена: {c['name']} (номер марки {c.get('brandid')})")
-        good = [c for c in good if c not in nameless]
-        for c in fresh:
-            seen.add(c["infoid"])
-        for c in good:
-            if c["infoid"] in known:
-                picked.append(c)
-            elif new_count < want:
-                picked.append(c)
-                new_count += 1
-        print(f"Список, страница {page_no}: карточек {len(cards)}, с {MIN_YEAR} г. {len(good)}, новых набрано {new_count}/{want}")
-        if new_count >= want:
-            break
+    quota = {"le160": round(want * SHARE_160)}
+    quota["other"] = want - quota["le160"]
+    new_count = {"le160": 0, "other": 0}
+    known_count = {"le160": 0, "other": 0}
+    ratio = (1 - SHARE_160) / SHARE_160 if SHARE_160 else 0
+
+    sources = []
+    for val, label in DISPLACE_FILTERS.items():
+        url = filter_url(page, val)
+        if url is False:
+            break   # список не открывается (прокси) — main() попробует другой путь
+        if url:
+            print(f"Фильтр объёма {label}: {url}")
+            sources.append((f"объём {label}", url))
         human_pause(3, 7)
+    sources.append(("весь список", LIST_URL))
+
+    def full():
+        return all(new_count[b] >= quota[b] for b in quota)
+
+    for label, template in sources:
+        for page_no in range(1, MAX_PAGES + 1):
+            content = load_list(page, template.format(page=page_no))
+            if content is None:
+                print(f"[{label}] страница {page_no}: не открылась за 3 попытки")
+                break
+            cards = parse_cards(content)
+            if page_no == 1 and not picked:
+                save_debug("list_page_1.html", content)
+            if not cards:
+                print(f"[{label}] страница {page_no}: карточек нет — конец списка или блокировка")
+                save_debug(f"list_page_{page_no}_empty.html", content)
+                break
+            learn_brands(cards)
+            fresh = [c for c in cards if c["infoid"] not in seen]
+            good = [c for c in fresh if c["year"] and c["year"] >= MIN_YEAR]
+            # Машина без марки на сайте выглядит как «?» — такие не берём
+            nameless = [c for c in good if not brand_model(c["name"], "", c.get("brandid"))[0]]
+            for c in nameless:
+                print(f"  пропуск — марка не определена: {c['name']} (номер марки {c.get('brandid')})")
+            good = [c for c in good if c not in nameless]
+            for c in fresh:
+                seen.add(c["infoid"])
+            for c in good:
+                c["power"] = power_class(c["name"])
+                if not c["power"]:
+                    continue   # мощность не оценить (электро, объёма нет в названии) — не берём
+                if c["infoid"] in known:
+                    # Уже на сайте: мощные обновляем, только пока их не больше трети от «до 160»
+                    if c["power"] == "le160" or known_count["other"] < known_count["le160"] * ratio:
+                        picked.append(c)
+                        known_count[c["power"]] += 1
+                elif new_count[c["power"]] < quota[c["power"]]:
+                    picked.append(c)
+                    new_count[c["power"]] += 1
+            print(f"[{label}] страница {page_no}: карточек {len(cards)}, с {MIN_YEAR} г. {len(good)} "
+                  f"(мощность оценена у {sum(bool(c['power']) for c in good)}), новых набрано: "
+                  f"до 160 л.с. {new_count['le160']}/{quota['le160']}, любой мощности {new_count['other']}/{quota['other']}")
+            if full():
+                break
+            human_pause(3, 7)
+        if full():
+            break
+    # Список кончился раньше, чем набралось «до 160» — мощных оставляем не больше трети от них
+    extra = new_count["other"] - round(new_count["le160"] * ratio)
+    if extra > 0:
+        drop = {id(c) for c in [c for c in picked if c["infoid"] not in known and c["power"] == "other"][-extra:]}
+        picked = [c for c in picked if id(c) not in drop]
+        print(f"Машин до 160 л.с. нашлось мало — мощных новых убрано {extra}, чтобы их было не больше 25%")
     return picked
 
 
@@ -344,6 +416,38 @@ def guess_cc(name: str):
         n = int(m.group(1))
         return 2000 if n <= 300 else 3000 if n <= 450 else 4000
     return None
+
+
+# Модели, у которых атмосферный 2.0 обычно мощнее 160 л.с. (Toyota M20A — 171–178 л.с.)
+_NA20_GT160 = re.compile(r"丰田|雷克萨斯|凯美瑞|亚洲龙|威兰达|荣放|RAV4|Lexus|Toyota", re.I)
+
+
+def power_class(name: str) -> str | None:
+    """«le160» — до 160 л.с., «other» — мощнее, None — оценить нечем (такие не берём).
+
+    Мощности в списке che168 нет, поэтому оценка по двигателю, как для Кореи:
+    атмосферный бензин до 2.0 л, турбо до 1.4 л, дизель и гибрид до 1.6 л.
+    Электромобили и машины без объёма в названии — None.
+    """
+    fuel = fuel_of(name, "")
+    if fuel == "Электро" or fuel.startswith("Последовательный"):
+        return None
+    cc = guess_cc(name)
+    if not cc:
+        return None
+    trim = re.split(r"\d{4}\s*款", name, maxsplit=1)[-1]
+    # Коды Audi/VW/BMW/Mercedes — всегда турбо; «1.5T», «2.0TD»
+    turbo = bool(re.search(r"\d\.\dT|TFSI|TSI|TDI|涡轮|xDrive|sDrive|\d{2,3}Li?\b", trim)) or bool(
+        re.search(r"奔驰|Mercedes", name))
+    if fuel == "Гибрид" and turbo:
+        return "other"
+    if turbo:
+        return "le160" if cc <= 1400 else "other"
+    if fuel in ("Гибрид", "Дизель"):
+        return "le160" if cc <= 1600 else "other"
+    if cc > 2000 or (cc > 1800 and _NA20_GT160.search(name)):
+        return "other"
+    return "le160"
 
 
 def spec_from_name(car: dict) -> dict:
