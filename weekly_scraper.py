@@ -110,6 +110,17 @@ def _num(v):
         return None
 
 
+def _mileage(v):
+    """Пробег в км: сайт пишет и «3.2万公里», и 3.2 (в 万), и 32000."""
+    if v in (None, ""):
+        return None
+    text = str(v)
+    n = _num(re.sub(r"[^\d.]", "", text))
+    if n is None:
+        return None
+    return round(n * 10_000) if "万" in text or n < 100 else round(n)
+
+
 def _year(v):
     m = re.search(r"(19|20)\d{2}", str(v or ""))
     return int(m.group(0)) if m else None
@@ -159,12 +170,21 @@ class SkuCollector:
         if price:
             # В списках цена бывает и в 万, и в юанях
             info.setdefault("price", price * 10_000 if price < 10_000 else price)
-        mileage = _num(node.get("mileage") or node.get("car_mileage"))
+        mileage = _mileage(node.get("car_mileage") or node.get("mileage"))
         if mileage is not None:
-            info.setdefault("mileage", mileage * 10_000 if mileage < 100 else mileage)
-        image = node.get("image") or node.get("cover_image") or node.get("image_url")
+            info.setdefault("mileage", mileage)
+        image = node.get("image") or node.get("cover_image") or node.get("image_url") or node.get("cover_url")
+        if isinstance(image, str) and image.startswith("//"):
+            image = "https:" + image
         if isinstance(image, str) and image.startswith("http"):
             info.setdefault("image", image)
+        # car_id — комплектация: по нему открывается страница параметров модели
+        car_id = node.get("car_id") or node.get("carId")
+        if car_id and re.fullmatch(r"\d+", str(car_id)):
+            info.setdefault("car_id", str(car_id))
+        brand = " ".join(str(node.get(k) or "") for k in ("brand_name", "series_name")).strip()
+        if brand:
+            info.setdefault("brand_series", brand)
 
 
 def links_on_page(page) -> set[str]:
@@ -184,6 +204,43 @@ def go_next_page(page) -> bool:
         except Exception:
             continue
     return False
+
+
+# Внутренний API, из которого сайт сам берёт список подержанных машин.
+# Страница /usedcar для зарубежных IP требует входа по SMS, а API может
+# отвечать и без него — поэтому пробуем его первым.
+SKU_LIST_API = "https://www.dongchedi.com/motor/pc/sh/sh_sku_list?aid=1839&app_name=auto_web_pc"
+
+
+def fetch_api(context, collector: SkuCollector, want: int) -> bool:
+    """Собрать объявления из API списка. True, если API отдал хоть что-то."""
+    for page_no in range(1, MAX_PAGES + 1):
+        before = len(collector.items)
+        try:
+            resp = context.request.post(
+                SKU_LIST_API,
+                form={"sh_city_name": "全国", "page": str(page_no), "limit": "20", "sort_type": "4"},
+                headers={"Referer": "https://www.dongchedi.com/usedcar", "Origin": "https://www.dongchedi.com"},
+                timeout=30_000,
+            )
+            text = resp.text()
+        except Exception as error:
+            print(f"API списка: страница {page_no} не ответила ({error})")
+            break
+        if page_no == 1:
+            save_debug("api_list_page_1.txt", f"HTTP {resp.status}\n{text[:200_000]}")
+        try:
+            collector._walk(json.loads(text))
+        except ValueError:
+            print(f"API списка: HTTP {resp.status}, ответ не JSON — см. api_list_page_1.txt")
+            break
+        fresh = len(collector.items) - before
+        good = sum(1 for i in collector.items.values() if (i.get("year") or MIN_YEAR) >= MIN_YEAR)
+        print(f"API списка: страница {page_no}: новых {fresh}, всего {len(collector.items)}, подходят по году {good}")
+        if not fresh or good >= want * 1.3:
+            break
+        human_pause(2, 5)
+    return bool(collector.items)
 
 
 def discover(page, collector: SkuCollector, want: int) -> dict[str, dict]:
@@ -243,6 +300,16 @@ def parse_detail(page, parser: CarParser, sku: str, idx: int) -> dict:
             data = next_data(page)
             if data:
                 save_debug(f"next_data_{sku}.json", data)
+
+
+def config_by_car_id(car_id: str) -> list:
+    """Переведённые параметры комплектации со страницы dongchedi.com/auto/params-carIds-<id>."""
+    from configuration_parser import get_data
+    try:
+        return get_data(f"https://www.dongchedi.com/auto/params-carIds-{car_id}") or []
+    except Exception as error:
+        print(f"Параметры комплектации {car_id} не получены: {error}")
+        return []
 
 
 # ---------- фото ----------
@@ -368,11 +435,15 @@ def scrape() -> list[dict]:
         )
         context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
 
-        list_page = context.new_page()
         collector = SkuCollector()
-        list_page.on("response", collector.on_response)
-        found = discover(list_page, collector, TOTAL)
-        list_page.close()
+        if fetch_api(context, collector, TOTAL):
+            found = dict(collector.items)
+        else:
+            print("API списка ничего не дал — пробуем страницу сайта")
+            list_page = context.new_page()
+            list_page.on("response", collector.on_response)
+            found = discover(list_page, collector, TOTAL)
+            list_page.close()
         print(f"Найдено объявлений: {len(found)} (из JSON сайта с данными: {len(collector.items)})")
 
         parser = CarParser()
@@ -396,16 +467,22 @@ def scrape() -> list[dict]:
                 seen_known += 1
                 continue
 
-            page = context.new_page()
-            try:
-                car = parse_detail(page, parser, sku, new_done + failed)
-            except Exception as error:
-                failed += 1
-                print(f"[{sku}] пропущено: {str(error).splitlines()[0][:200]}")
-                continue
-            finally:
-                if not page.is_closed():
-                    page.close()
+            if info.get("car_id") and info.get("title") and info.get("price"):
+                # Из API списка уже есть название, цена, пробег и фото —
+                # страницу объявления (она может требовать входа) не открываем,
+                # характеристики берём со страницы параметров комплектации.
+                car = {"configuration_info": config_by_car_id(info["car_id"])}
+            else:
+                page = context.new_page()
+                try:
+                    car = parse_detail(page, parser, sku, new_done + failed)
+                except Exception as error:
+                    failed += 1
+                    print(f"[{sku}] пропущено: {str(error).splitlines()[0][:200]}")
+                    continue
+                finally:
+                    if not page.is_closed():
+                        page.close()
 
             title = car.get("title") or info.get("title")
             price = to_units(car.get("price")) or (round(info["price"]) if info.get("price") else None)
@@ -418,6 +495,8 @@ def scrape() -> list[dict]:
                 skipped_year += 1
                 continue
             brand_en, model_guess, _ = extract_brand_model(title)
+            if not brand_en and info.get("brand_series"):
+                brand_en, model_guess, _ = extract_brand_model(info["brand_series"])
             spec = {c["name"]: c["value"] for c in (car.get("configuration_info") or []) if c.get("name")}
             listings.append({
                 "external_id": sku,
