@@ -124,6 +124,8 @@ _SKIP_TOKENS = {"WD", "4WD", "2WD", "AWD", "RWD", "FWD", "PLUS", "PRO", "MAX"}
 
 # Модели, которые в Китае пишут только иероглифами (часть до «2022款»)
 SERIES_MAP = {
+    # Fangchengbao (BYD): «豹5» → Leopard 5
+    "豹": "Leopard",
     # Toyota
     "凯美瑞": "Camry", "卡罗拉": "Corolla", "雷凌": "Levin", "汉兰达": "Highlander", "亚洲龙": "Avalon",
     "荣放": "RAV4", "威兰达": "Wildlander", "皇冠陆放": "Crown Kluger", "皇冠": "Crown", "普拉多": "Land Cruiser Prado",

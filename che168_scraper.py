@@ -207,7 +207,13 @@ def collect(page, known: set, want: int) -> list[dict]:
             save_debug(f"list_page_{page_no}_empty.html", content)
             break
         fresh = [c for c in cards if c["infoid"] not in seen]
+        learn_brands(cards)
         good = [c for c in fresh if c["year"] and c["year"] >= MIN_YEAR]
+        # Машина без марки на сайте выглядит как «?» — такие не берём
+        nameless = [c for c in good if not brand_model(c["name"], "", c.get("brandid"))[0]]
+        for c in nameless:
+            print(f"  пропуск — марка не определена: {c['name']} (номер марки {c.get('brandid')})")
+        good = [c for c in good if c not in nameless]
         for c in fresh:
             seen.add(c["infoid"])
         for c in good:
@@ -374,9 +380,14 @@ def photo_candidates(image: str | None) -> list[str]:
 # парсер выучивает на ходу по машинам, у которых марка есть в названии.
 BRAND_IDS = {
     "1": "Volkswagen", "3": "Toyota", "8": "Ford", "12": "Hyundai", "14": "Honda", "15": "BMW", "25": "Geely",
-    "33": "Audi", "36": "Mercedes-Benz", "38": "Buick", "40": "Porsche", "42": "Ferrari", "46": "Jeep",
-    "47": "Cadillac", "48": "Lamborghini", "49": "Land Rover", "50": "Lotus", "52": "Lexus", "57": "Maserati",
-    "63": "Nissan", "65": "Subaru", "70": "Volvo", "75": "BYD", "133": "Tesla", "284": "Nio", "489": "Xiaomi",
+    "26": "Chery", "27": "BAIC BJ", "33": "Audi", "34": "Alfa Romeo", "35": "Aston Martin", "36": "Mercedes-Benz",
+    "38": "Buick", "39": "Bentley", "40": "Porsche", "42": "Ferrari", "46": "Jeep", "47": "Cadillac",
+    "48": "Lamborghini", "49": "Land Rover", "50": "Lotus", "51": "Lincoln", "52": "Lexus", "54": "Rolls-Royce",
+    "56": "MINI", "57": "Maserati", "58": "Mazda", "62": "Kia", "63": "Nissan", "65": "Subaru", "67": "Skoda",
+    "68": "Mitsubishi", "70": "Volvo", "71": "Chevrolet", "73": "Infiniti", "75": "BYD", "76": "Changan",
+    "77": "Great Wall", "82": "Trumpchi", "91": "Hongqi", "133": "Tesla", "181": "Haval", "284": "Nio",
+    "345": "Li Auto", "371": "Genesis", "456": "Zeekr", "458": "Tank", "489": "Xiaomi", "502": "Avatr",
+    "577": "Fangchengbao", "595": "Luxeed", "609": "AITO", "634": "Chery Fengyun",
 }
 
 
@@ -385,7 +396,7 @@ def learn_brands(cards: list[dict]):
     for c in cards:
         make = extract_brand_model(c["name"])[0]
         if make and c.get("brandid"):
-            BRAND_IDS.setdefault(c["brandid"], make)
+            BRAND_IDS[c["brandid"]] = make   # увиденное в названиях надёжнее таблицы
 
 
 def brand_model(name: str, body: str, brandid: str | None = None):
@@ -522,7 +533,6 @@ def main():
             context = new_context(browser, True)
             page = context.new_page()
             cars = collect(page, known, TOTAL)
-        learn_brands(cars)
         print(f"Отобрано: {len(cars)} (уже на сайте: {sum(c['infoid'] in known for c in cars)}), марок по номерам: {len(BRAND_IDS)}")
 
         done = failed = degraded = degraded_saved = from_list = 0
