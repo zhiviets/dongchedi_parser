@@ -417,6 +417,14 @@
 "g_202504_21932"
 ]
 },
+"byd/qin_plus/china": {
+"day": 739883,
+"gens": [
+"g_2020_16872",
+"g_2024_21956",
+"g_2026_24802"
+]
+},
 "byd/sea-lion-06/china": {
 "day": 739883,
 "gens": [
@@ -715,6 +723,15 @@
 "g_2017_18012",
 "g_202310_21174",
 "g_2023_19222"
+]
+},
+"tesla/model_x/china": {
+"day": 739883,
+"gens": [
+"g_2015_24741",
+"g_201603_15353",
+"g_202101_16033",
+"g_2021_24742"
 ]
 },
 "tesla/model_y/china": {
@@ -2938,6 +2955,153 @@
 {
 "from": 202504,
 "name": "DM-p 1.5 CVT 4WD 180km LiDAR Flagship",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"byd/qin_plus/g_2020_16872": {
+"from": 202011,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472QA",
+"fuel": "бензин",
+"hp": 110,
+"hp_total": 179,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 110 л.с., параллельный подзаряжаемый (PHEV) гибрид, 179 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202302,
+"name": "DM-i PHEV 1.5 CVT Leading 46 km",
+"to": 202506
+},
+{
+"from": 202302,
+"name": "DM-i PHEV 1.5 CVT Beyond 46 km",
+"to": 202506
+},
+{
+"from": 202205,
+"name": "DM-i PHEV 1.5 CVT Executive 46 km",
+"to": 202302
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472QA",
+"fuel": "бензин",
+"hp": 110,
+"hp_total": 197,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 110 л.с., параллельный подзаряжаемый (PHEV) гибрид, 197 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202302,
+"name": "DM-i PHEV 1.5 CVT Leading 101 km",
+"to": 202506
+},
+{
+"from": 202302,
+"name": "DM-i PHEV 1.5 CVT Beyond 101 km",
+"to": 202506
+},
+{
+"from": 202302,
+"name": "DM-i PHEV 1.5 CVT Excellent 101 km",
+"to": 202506
+}
+]
+}
+],
+"market": "Китай",
+"to": 202506
+},
+"byd/qin_plus/g_2024_21956": {
+"from": 202412,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472QC",
+"fuel": "бензин",
+"hp": 101,
+"hp_total": 163,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 101 л.с., параллельный подзаряжаемый (PHEV) гибрид, 163 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202502,
+"name": "DM-i 1.5 CVT 43 km Leading",
+"to": 202512
+},
+{
+"from": 202502,
+"name": "DM-i 1.5 CVT 43 km Beyond",
+"to": 202509
+},
+{
+"from": 202502,
+"name": "DM-i 1.5 CVT 90 km Beyond",
+"to": 202509
+},
+{
+"from": 202509,
+"name": "DM-i 1.5 CVT 100 km Progressive",
+"to": 202512
+},
+{
+"from": 202601,
+"name": "DM-i 1.5 CVT 100 km Progressive",
+"to": null
+},
+{
+"from": 202601,
+"name": "DM-i 1.5 CVT 155 km Progressive",
+"to": null
+},
+{
+"from": 202601,
+"name": "DM-i 1.5 CVT 155 km Super",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"byd/qin_plus/g_2026_24802": {
+"from": 202607,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472QC",
+"fuel": "бензин",
+"hp": 101,
+"hp_total": 163,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 101 л.с., параллельный подзаряжаемый (PHEV) гибрид, 163 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202609,
+"name": "DM-i 1.5 CVT",
 "to": null
 }
 ]
@@ -9698,6 +9862,30 @@
 "market": "Китай",
 "to": null
 },
+"tesla/model_x/g_2015_24741": {
+"from": 201509,
+"groups": [],
+"market": "Китай",
+"to": 202101
+},
+"tesla/model_x/g_201603_15353": {
+"from": 201509,
+"groups": [],
+"market": "Европа",
+"to": 202105
+},
+"tesla/model_x/g_202101_16033": {
+"from": 202101,
+"groups": [],
+"market": "Япония",
+"to": null
+},
+"tesla/model_x/g_2021_24742": {
+"from": 202101,
+"groups": [],
+"market": "Китай",
+"to": null
+},
 "tesla/model_y/g_2019_18011": {
 "from": 201903,
 "groups": [],
@@ -12666,6 +12854,53 @@
 "двигателиchevrolet": "engine",
 "кузоваchevrolet": "frame"
 },
+"chrysler": {
+"180": "180",
+"200": "200",
+"300": "300",
+"300c": "300c",
+"300letterseries": "300_letter_series",
+"300m": "300m",
+"aspen": "aspen",
+"chrysler300": "300",
+"chrysler300c": "300c",
+"chrysler300m": "300m",
+"chryslergrandvoyager": "grand_voyager",
+"chryslerneon": "neon",
+"chryslerpacifica": "pacifica",
+"chryslerptcruiser": "pt_cruiser",
+"chryslersebring": "sebring",
+"chryslertownandcountry": "town_country",
+"chryslervoyager": "voyager",
+"cirrus": "cirrus",
+"concorde": "concorde",
+"cordoba": "cordoba",
+"crossfire": "crossfire",
+"engine": "engine",
+"fifthavenue": "fifth_avenue",
+"frame": "frame",
+"grandvoyager": "grand_voyager",
+"imperial": "imperial",
+"intrepid": "intrepid",
+"lebaron": "le_baron",
+"lhs": "lhs",
+"neon": "neon",
+"newport": "newport",
+"newyorker": "new_yorker",
+"pacifica": "pacifica",
+"prowler": "prowler",
+"ptcruiser": "pt_cruiser",
+"saratoga": "saratoga",
+"sebring": "sebring",
+"stratus": "stratus",
+"townandcountry": "town_country",
+"towncountry": "town_country",
+"vision": "vision",
+"voyager": "voyager",
+"ypsilon": "ypsilon",
+"двигателиchrysler": "engine",
+"кузоваchrysler": "frame"
+},
 "deepal": {
 "deepalg318": "g318",
 "deepals05": "s05",
@@ -14119,6 +14354,23 @@
 "tank500": "500",
 "tank700": "700",
 "двигателиtank": "engine"
+},
+"tesla": {
+"cybertruck": "cybertruck",
+"engine": "engine",
+"frame": "frame",
+"model3": "model_3",
+"models": "model_s",
+"modelx": "model_x",
+"modely": "model_y",
+"roadster": "roadster",
+"teslacybertruck": "cybertruck",
+"teslamodel3": "model_3",
+"teslamodels": "model_s",
+"teslamodelx": "model_x",
+"teslamodely": "model_y",
+"двигателиtesla": "engine",
+"кузоваtesla": "frame"
 },
 "toyota": {
 "2000gt": "2000gt",
