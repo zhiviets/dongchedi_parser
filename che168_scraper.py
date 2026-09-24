@@ -163,7 +163,8 @@ def parse_cards(page_html: str) -> list[dict]:
             continue
         # ссылка на фото — внутри карточки, после открывающего тега
         chunk = page_html[m.end(): m.end() + 3000]
-        img = re.search(r'<img[^>]+src="([^"]+autohomecar__[^"]+)"', chunk)
+        # Фото ниже первого экрана подгружаются по прокрутке: в src заглушка, снимок — в src2
+        img = re.search(r'<img[^>]+?\b(?:src2|data-original|src)="([^"]+autohomecar__[^"]+)"', chunk)
         price = _num(attrs.get("price"))
         mileage = _num(attrs.get("milage"))
         reg = attrs.get("regdate") or ""
