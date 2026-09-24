@@ -288,6 +288,12 @@
 "уаз": "uaz"
 },
 "gen_lists": {
+"aito/m8/china": {
+"day": 739883,
+"gens": [
+"g_2023_21935"
+]
+},
 "aito/m9/china": {
 "day": 739883,
 "gens": [
@@ -307,6 +313,20 @@
 "g_2024_20731"
 ]
 },
+"avatr/11/china": {
+"day": 739883,
+"gens": [
+"g_2021_18183",
+"g_202208_22110"
+]
+},
+"avatr/12/china": {
+"day": 739883,
+"gens": [
+"g_202311_24039",
+"g_2023_19589"
+]
+},
 "baic/beijing_bj40/china": {
 "day": 739883,
 "gens": [
@@ -316,6 +336,14 @@
 "g_202008_19361",
 "g_2020_18653",
 "g_202311_20929"
+]
+},
+"byd/dolphin/china": {
+"day": 739883,
+"gens": [
+"g_202108_24910",
+"g_2021_2971",
+"g_202502_22187"
 ]
 },
 "byd/frigate_07/china": {
@@ -330,11 +358,68 @@
 "g_202504_21932"
 ]
 },
+"byd/tang/china": {
+"day": 739883,
+"gens": [
+"g_201804_15419",
+"g_2018_16868",
+"g_2020_18213",
+"g_202206_18123",
+"g_202402_21457",
+"g_2026_24843"
+]
+},
+"byd/tang_l/china": {
+"day": 739883,
+"gens": [
+"g_202503_21931"
+]
+},
+"byd/xia/china": {
+"day": 739883,
+"gens": [
+"g_2024_21658"
+]
+},
 "changan/uni-z/china": {
 "day": 739883,
 "gens": [
 "g_202403_20436",
 "g_202602_24551"
+]
+},
+"cheryexeed/ex7/china": {
+"day": 739883,
+"gens": [
+"g_2026_24420"
+]
+},
+"denza/n8l/china": {
+"day": 739883,
+"gens": [
+"g_2025_22904"
+]
+},
+"denza/z9/china": {
+"day": 739883,
+"gens": [
+"g_2024_21634"
+]
+},
+"ford/bronco/china": {
+"day": 739883,
+"gens": [
+"g_198810_15082",
+"g_199110_2505",
+"g_202012_21212",
+"g_2020_24955"
+]
+},
+"luxeed/r7/china": {
+"day": 739883,
+"gens": [
+"g_202409_21057",
+"g_2025_24947"
 ]
 },
 "luxeed/s7/china": {
@@ -343,9 +428,142 @@
 "g_2023_21036",
 "g_2025_24951"
 ]
+},
+"maextro/s800/china": {
+"day": 739883,
+"gens": [
+"g_2024_23669"
+]
+},
+"maxus/t90/china": {
+"day": 739883,
+"gens": [
+"g_2021_17530"
+]
+},
+"nio/et9/china": {
+"day": 739883,
+"gens": [
+"g_2024_20742"
+]
+},
+"roewe/rx5/china": {
+"day": 739883,
+"gens": [
+"g_2016_17480",
+"g_201906_19994",
+"g_202208_19990"
+]
+},
+"tank/500/china": {
+"day": 739883,
+"gens": [
+"g_202108_17697",
+"g_2021_16805",
+"g_2025_23283"
+]
+},
+"tank/700/china": {
+"day": 739883,
+"gens": [
+"g_202402_21258",
+"g_2024_20565",
+"g_2026_24265"
+]
+},
+"volvo/xc40/china": {
+"day": 739883,
+"gens": [
+"g_201709_7858",
+"g_2017_22457",
+"g_202202_24154",
+"g_2022_22458"
+]
+},
+"xiaomi/yu7/china": {
+"day": 739883,
+"gens": [
+"g_2024_21749"
+]
+},
+"xpeng/g7/china": {
+"day": 739883,
+"gens": [
+"g_2025_21912"
+]
+},
+"xpeng/g9/china": {
+"day": 739883,
+"gens": [
+"g_2021_17303"
+]
+},
+"xpeng/x9/china": {
+"day": 739883,
+"gens": [
+"g_2023_21355",
+"g_2025_22464"
+]
+},
+"zeekr/8x/china": {
+"day": 739883,
+"gens": [
+"g_2025_24130"
+]
 }
 },
 "gens": {
+"aito/m8/g_2023_21935": {
+"from": 202310,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "H15RT",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": 533,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 160 л.с., последовательный подзаряжаемый (PHEV) гибрид, 533 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202504,
+"name": "PHEV 1.5 T 4WD Extended Range 37 kWh Max 5 Seats",
+"to": null
+},
+{
+"from": 202504,
+"name": "PHEV 1.5 T 4WD Extended Range 37 kWh Max 6 Seats",
+"to": null
+},
+{
+"from": 202504,
+"name": "PHEV 1.5 T 4WD Extended Range 53.4 kWh Max+ 5 Seats",
+"to": null
+},
+{
+"from": 202504,
+"name": "PHEV 1.5 T 4WD Extended Range 53.4 kWh Ultra 5 Seats",
+"to": null
+},
+{
+"from": 202504,
+"name": "PHEV 1.5 T 4WD Extended Range 53.4 kWh Max+ 6 Seats",
+"to": null
+},
+{
+"from": 202504,
+"name": "PHEV 1.5 T 4WD Extended Range 53.4 kWh Ultra 6 Seats",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
 "aito/m9/g_202312_20390": {
 "from": 202312,
 "groups": [
@@ -559,6 +777,80 @@
 {
 "from": 202409,
 "name": "1.5T SSR Extended Range Max",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"avatr/11/g_2021_18183": {
+"from": 202111,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": "JL469ZQ1",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 314,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., последовательный подзаряжаемый (PHEV) гибрид, 314 л.с., редуктор, задний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202412,
+"name": "1.5T SSR Extended Range Max",
+"to": null
+},
+{
+"from": 202412,
+"name": "1.5T SSR Extended Range Ultra",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"avatr/11/g_202208_22110": {
+"from": 202111,
+"groups": [],
+"market": "Россия",
+"to": null
+},
+"avatr/12/g_202311_24039": {
+"from": 202512,
+"groups": [],
+"market": "Россия",
+"to": null
+},
+"avatr/12/g_2023_19589": {
+"from": 202307,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": "JL469ZQ1",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 314,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., последовательный подзаряжаемый (PHEV) гибрид, 314 л.с., редуктор, задний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202411,
+"name": "1.5T SSR Max",
+"to": null
+},
+{
+"from": 202411,
+"name": "1.5T SSR Ultra",
 "to": null
 }
 ]
@@ -1143,6 +1435,24 @@
 "market": "Китай",
 "to": null
 },
+"byd/dolphin/g_202108_24910": {
+"from": 202207,
+"groups": [],
+"market": "Япония",
+"to": null
+},
+"byd/dolphin/g_2021_2971": {
+"from": 202104,
+"groups": [],
+"market": "Китай",
+"to": null
+},
+"byd/dolphin/g_202502_22187": {
+"from": 202502,
+"groups": [],
+"market": "Китай",
+"to": null
+},
 "byd/frigate_07/g_2022_16874": {
 "from": 202211,
 "groups": [
@@ -1283,6 +1593,378 @@
 "market": "Китай",
 "to": null
 },
+"byd/tang/g_201804_15419": {
+"from": 201804,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD487ZQB",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202011,
+"name": "2.0 AT",
+"to": 202203
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD487ZQA",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201804,
+"name": "2.0 AMT",
+"to": 202011
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD487ZQB",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": 245,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 192 л.с., параллельный подзаряжаемый (PHEV) гибрид, 245 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201908,
+"name": "DM PHEV 2.0 AMT",
+"to": 202011
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD487ZQB",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": 394,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 192 л.с., параллельный подзаряжаемый (PHEV) гибрид, 394 л.с., робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201903,
+"name": "DM PHEV 2.0 AMT",
+"to": 202011
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD487ZQB",
+"fuel": "бензин",
+"hp": 205,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 205 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201806,
+"name": "2.0 AMT",
+"to": 202008
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD487ZQA",
+"fuel": "бензин",
+"hp": 205,
+"hp_total": 394,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 205 л.с., параллельный подзаряжаемый (PHEV) гибрид, 394 л.с., робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201806,
+"name": "DM PHEV 2.0 AMT",
+"to": 201907
+}
+]
+}
+],
+"market": "Китай",
+"to": 202203
+},
+"byd/tang/g_2018_16868": {
+"from": 201804,
+"groups": [],
+"market": "Китай",
+"to": 202206
+},
+"byd/tang/g_2020_18213": {
+"from": 202011,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQC",
+"fuel": "бензин",
+"hp": 137,
+"hp_total": 218,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 137 л.с., параллельный подзаряжаемый (PHEV) гибрид, 218 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202206,
+"name": "DM-i PHEV 1.5 CVT Premium",
+"to": 202402
+},
+{
+"from": 202206,
+"name": "DM-i PHEV 1.5 CVT Champion Premium",
+"to": 202402
+},
+{
+"from": 202206,
+"name": "DM-i PHEV 1.5 CVT Champion Honor",
+"to": 202402
+},
+{
+"from": 202206,
+"name": "DM-i PHEV 1.5 CVT Honor",
+"to": 202402
+},
+{
+"from": 202206,
+"name": "DM-i PHEV 1.5 CVT Champion Exclusive",
+"to": 202402
+},
+{
+"from": 202206,
+"name": "DM-i PHEV 1.5 CVT Exclusive",
+"to": 202402
+},
+{
+"from": 202104,
+"name": "DM-i PHEV 1.5 CVT Premium",
+"to": 202206
+},
+{
+"from": 202104,
+"name": "DM-i PHEV 1.5 CVT Honor",
+"to": 202206
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD476ZQC",
+"fuel": "бензин",
+"hp": 137,
+"hp_total": 489,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 137 л.с., параллельный подзаряжаемый (PHEV) гибрид, 489 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202206,
+"name": "DM-p PHEV 1.5 CVT Premium",
+"to": 202404
+},
+{
+"from": 202206,
+"name": "DM-p PHEV 1.5 CVT Honor",
+"to": 202404
+},
+{
+"from": 202206,
+"name": "DM-p PHEV 1.5 CVT Exclusive",
+"to": 202404
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD487ZQA",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": 245,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 192 л.с., параллельный подзаряжаемый (PHEV) гибрид, 245 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202011,
+"name": "DM PHEV 2.0 CVT",
+"to": 202208
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD487ZQA",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": 394,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 192 л.с., параллельный подзаряжаемый (PHEV) гибрид, 394 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202011,
+"name": "DM PHEV 2.0 CVT",
+"to": 202208
+}
+]
+}
+],
+"market": "Китай",
+"to": 202404
+},
+"byd/tang/g_202206_18123": {
+"from": 202206,
+"groups": [],
+"market": "Китай",
+"to": 202501
+},
+"byd/tang_l/g_202503_21931": {
+"from": 202501,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472ZQB",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 272,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 272 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202504,
+"name": "DM 1.5 2WD 215km LiDAR Flagship",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD472ZQB",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 544,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 544 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202504,
+"name": "DM 1.5 4WD 200km LiDAR Flagship",
+"to": null
+},
+{
+"from": 202504,
+"name": "DM 1.5 4WD 175km Drone Player",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"byd/xia/g_2024_21658": {
+"from": 202408,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472ZQB",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 272,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 272 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202501,
+"name": "DM-i PHEV 1.5 CVT 100km Leading",
+"to": 202510
+},
+{
+"from": 202501,
+"name": "DM-i PHEV 1.5 CVT 100km Surpassing",
+"to": 202510
+},
+{
+"from": 202501,
+"name": "DM-i PHEV 1.5 CVT 180km Surpassing",
+"to": 202510
+},
+{
+"from": 202501,
+"name": "DM-i PHEV 1.5 CVT 180km Excellence",
+"to": 202510
+},
+{
+"from": 202511,
+"name": "DM-i PHEV 1.5 CVT 100km Progressive",
+"to": null
+},
+{
+"from": 202511,
+"name": "DM-i PHEV 1.5 CVT 100km Surpassing",
+"to": null
+},
+{
+"from": 202511,
+"name": "DM-i PHEV 1.5 CVT 218km Surpassing",
+"to": null
+},
+{
+"from": 202511,
+"name": "DM-i PHEV 1.5 CVT 218km Excellent",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
 "changan/uni-z/g_202403_20436": {
 "from": 202403,
 "groups": [
@@ -1387,6 +2069,282 @@
 "market": "Китай",
 "to": null
 },
+"cheryexeed/ex7/g_2026_24420": {
+"from": 202604,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "SQRH4J15",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 513,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., последовательный подзаряжаемый (PHEV) гибрид, 513 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202604,
+"name": "1.5T SSR AWD Extended Range Max",
+"to": null
+},
+{
+"from": 202604,
+"name": "1.5T SSR AWD Extended Range EMB Ultra",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "SQRH4J15",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 309,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., последовательный подзаряжаемый (PHEV) гибрид, 309 л.с., редуктор, задний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202604,
+"name": "1.5T SSR Extended Range Max",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"denza/n8l/g_2025_22904": {
+"from": 202505,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD479ZQA",
+"fuel": "бензин",
+"hp": 207,
+"hp_total": 761,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 207 л.с., параллельный подзаряжаемый (PHEV) гибрид, 761 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202510,
+"name": "2.0T PHEV e-CVT 4WD Premium",
+"to": 202605
+},
+{
+"from": 202510,
+"name": "2.0T PHEV e-CVT 4WD Flagship",
+"to": 202605
+},
+{
+"from": 202606,
+"name": "2.0T PHEV e-CVT 4WD Flash Charge Premium",
+"to": null
+},
+{
+"from": 202606,
+"name": "2.0T PHEV e-CVT 4WD Flash Charge Flagship",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"denza/z9/g_2024_21634": {
+"from": 202404,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD479ZQA",
+"fuel": "бензин",
+"hp": 207,
+"hp_total": 965,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 207 л.с., параллельный подзаряжаемый (PHEV) гибрид, 965 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202411,
+"name": "2.0T E-CVT AWD PHEV 1100 Pro",
+"to": null
+},
+{
+"from": 202411,
+"name": "2.0T E-CVT AWD PHEV 1100 Max",
+"to": null
+},
+{
+"from": 202411,
+"name": "2.0T E-CVT AWD PHEV 1100 Ultra",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"ford/bronco/g_202012_21212": {
+"from": 202007,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "C27PD0X",
+"fuel": "бензин",
+"hp": 335,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.7,
+"text": "2.7 л, 335 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202303,
+"name": "2.7 AT 4x4 Outer Banks",
+"to": null
+},
+{
+"from": 202303,
+"name": "2.7 AT e-4WD Badland",
+"to": null
+}
+]
+}
+],
+"market": "Европа",
+"to": null
+},
+"ford/bronco/g_2020_24955": {
+"from": 202007,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "CAF488WQGK",
+"fuel": "бензин",
+"hp": 275,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 275 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202404,
+"name": "2.3 AT Far Bay",
+"to": 202601
+},
+{
+"from": 202404,
+"name": "2.3 AT Dark Diamond",
+"to": 202601
+},
+{
+"from": 202404,
+"name": "2.3 AT Dark Diamond Bigfoot Off-Road",
+"to": 202601
+},
+{
+"from": 202404,
+"name": "2.3 AT Wasteland",
+"to": 202601
+},
+{
+"from": 202404,
+"name": "2.3 AT Long Beach Bigfoot Off-Road",
+"to": 202601
+},
+{
+"from": 202404,
+"name": "2.3 AT Long Beach",
+"to": 202601
+},
+{
+"from": 202404,
+"name": "2.3 AT Everglades",
+"to": null
+},
+{
+"from": 202503,
+"name": "2.3 AT Great Dunes Limited",
+"to": null
+},
+{
+"from": 202509,
+"name": "2.3 AT 1966 Bigfoot",
+"to": null
+},
+{
+"from": 202509,
+"name": "2.3 AT 1966 Standard",
+"to": null
+},
+{
+"from": 202605,
+"name": "2.3 AT Amazon Limited",
+"to": null
+},
+{
+"from": 202601,
+"name": "2.3 AT Far Bay",
+"to": null
+},
+{
+"from": 202601,
+"name": "2.3 AT Dark Diamond",
+"to": null
+},
+{
+"from": 202601,
+"name": "2.3 AT Dark Diamond Bigfoot Off-Road",
+"to": null
+},
+{
+"from": 202601,
+"name": "2.3 AT Wasteland",
+"to": null
+},
+{
+"from": 202601,
+"name": "2.3 AT Long Beach Bigfoot Off-Road",
+"to": null
+},
+{
+"from": 202601,
+"name": "2.3 AT Long Beach",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"luxeed/r7/g_202409_21057": {
+"from": 202408,
+"groups": [],
+"market": "Китай",
+"to": 202508
+},
+"luxeed/r7/g_2025_24947": {
+"from": 202508,
+"groups": [],
+"market": "Китай",
+"to": null
+},
 "luxeed/s7/g_2023_21036": {
 "from": 202311,
 "groups": [],
@@ -1396,6 +2354,2295 @@
 "luxeed/s7/g_2025_24951": {
 "from": 202508,
 "groups": [],
+"market": "Китай",
+"to": null
+},
+"maextro/s800/g_2024_23669": {
+"from": 202411,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "M8000PHD",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 530,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 530 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202506,
+"name": "1.5T 4WD Dual Motor EREV Star Shine Premium",
+"to": null
+},
+{
+"from": 202506,
+"name": "1.5T 4WD Dual Motor EREV Star Executive",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M8000PHD",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 863,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 863 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202506,
+"name": "1.5T 4WD Triple Motor EREV Star Shine Premium",
+"to": null
+},
+{
+"from": 202506,
+"name": "1.5T 4WD Triple Motor EREV Star Executive",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"maxus/t90/g_2021_17530": {
+"from": 202103,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "SC20M163",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202103,
+"name": "2.0TD MT AWD Standard Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD MT AWD Long Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD MT AWD Standard Box Elite",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD MT AWD Long Box Elite",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "SC20M163",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202103,
+"name": "2.0TD MT Standard Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD MT Long Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD MT Standard Box Elite",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD MT Long Box Elite",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "SC20M163",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202103,
+"name": "2.0TD AT AWD Standard Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD AT AWD Long Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD AT AWD Standard Box Elite",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD AT AWD Long Box Elite",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "SC20M163",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202103,
+"name": "2.0TD AT Standard Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD AT Long Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD AT Standard Box Elite",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD AT Long Box Elite",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "20L4E",
+"fuel": "бензин",
+"hp": 214,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 214 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202111,
+"name": "2.0T MT AWD Standard Box Comfort",
+"to": 202307
+},
+{
+"from": 202111,
+"name": "2.0T MT AWD Long Box Comfort",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "20L4E",
+"fuel": "бензин",
+"hp": 214,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 214 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202111,
+"name": "2.0T AT AWD Standard Box Comfort",
+"to": 202307
+},
+{
+"from": 202111,
+"name": "2.0T AT AWD Long Box Comfort",
+"to": 202307
+},
+{
+"from": 202111,
+"name": "2.0T AT AWD Standard Box Luxury",
+"to": 202307
+},
+{
+"from": 202111,
+"name": "2.0T AT AWD Long Box Luxury",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "20L4E",
+"fuel": "бензин",
+"hp": 214,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 214 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202111,
+"name": "2.0T AT Standard Box Comfort",
+"to": 202307
+},
+{
+"from": 202111,
+"name": "2.0T AT Long Box Comfort",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "SC20M218",
+"fuel": "дизель",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202103,
+"name": "2.0TD MT AWD Standard Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD MT AWD Long Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD MT AWD Standard Box Luxury",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD MT AWD Long Box Luxury",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "SC20M218",
+"fuel": "дизель",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., дизель, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202103,
+"name": "2.0TD MT Standard Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD MT Long Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD MT Standard Box Luxury",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD MT Long Box Luxury",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "SC20M218",
+"fuel": "дизель",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202103,
+"name": "2.0TD AT AWD Standard Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD AT AWD Long Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD AT AWD Standard Box Luxury",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD AT AWD Long Box Luxury",
+"to": 202307
+},
+{
+"from": 202104,
+"name": "2.0TD AT AWD Standard Box Flagship",
+"to": 202307
+},
+{
+"from": 202104,
+"name": "2.0TD AT AWD Long Box Flagship",
+"to": 202307
+},
+{
+"from": 202203,
+"name": "2.0TD AT AWD Standard Box Bull Demon King",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "SC20M218",
+"fuel": "дизель",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202103,
+"name": "2.0TD AT Standard Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD AT Long Box Comfort",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD AT Standard Box Luxury",
+"to": 202307
+},
+{
+"from": 202103,
+"name": "2.0TD AT Long Box Luxury",
+"to": 202307
+},
+{
+"from": 202104,
+"name": "2.0TD AT Standard Box Flagship",
+"to": 202307
+},
+{
+"from": 202104,
+"name": "2.0TD AT Long Box Flagship",
+"to": 202307
+}
+]
+}
+],
+"market": "Китай",
+"to": 202310
+},
+"nio/et9/g_2024_20742": {
+"from": 202406,
+"groups": [],
+"market": "Китай",
+"to": null
+},
+"roewe/rx5/g_2016_17480": {
+"from": 201606,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "15E4E",
+"fuel": "бензин",
+"hp": 169,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 169 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201810,
+"name": "1.5 20T TGI MT Platinum",
+"to": 201905
+},
+{
+"from": 201810,
+"name": "1.5 20T TGI MT Smart Platinum",
+"to": 201905
+},
+{
+"from": 201704,
+"name": "1.5 20T TGI MT Elite",
+"to": 201905
+},
+{
+"from": 201607,
+"name": "1.5 20T TGI MT Flagship",
+"to": 201809
+},
+{
+"from": 201607,
+"name": "1.5 20T TGI MT Smart",
+"to": 201809
+},
+{
+"from": 201704,
+"name": "1.5 20T TGI MT Luxury",
+"to": 201809
+},
+{
+"from": 201704,
+"name": "1.5 20T TGI MT Smart",
+"to": 201809
+},
+{
+"from": 201607,
+"name": "1.5 20T TGI MT Elite",
+"to": 201703
+},
+{
+"from": 201607,
+"name": "1.5 20T TGI MT Luxury",
+"to": 201703
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15E4E",
+"fuel": "бензин",
+"hp": 169,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 169 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201810,
+"name": "1.5 20T TGI DCT Luxury",
+"to": 201905
+},
+{
+"from": 201810,
+"name": "1.5 20T TGI DCT Platinum",
+"to": 201905
+},
+{
+"from": 201810,
+"name": "1.5 20T TGI DCT Smart Platinum",
+"to": 201905
+},
+{
+"from": 201810,
+"name": "1.5 20T TGI DCT Titanium",
+"to": 201905
+},
+{
+"from": 201607,
+"name": "1.5 20T TGI DCT Luxury",
+"to": 201809
+},
+{
+"from": 201607,
+"name": "1.5 20T TGI DCT Flagship",
+"to": 201809
+},
+{
+"from": 201607,
+"name": "1.5 20T TGI DCT Smart",
+"to": 201809
+},
+{
+"from": 201710,
+"name": "1.5 20T TGI DCT Platinum",
+"to": 201809
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "15E4E",
+"fuel": "бензин",
+"hp": 169,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 169 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201710,
+"name": "1.5 20T TGI DCT Platinum",
+"to": 201809
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15E4E",
+"fuel": "бензин",
+"hp": 169,
+"hp_total": 76,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 169 л.с., параллельный подзаряжаемый (PHEV) гибрид, 76 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 201806,
+"name": "PHEV eRX5 1.5 50T TGI Exclusive",
+"to": 201905
+},
+{
+"from": 201611,
+"name": "PHEV eRX5 1.5 50T TGI Premium Flagship",
+"to": 201905
+},
+{
+"from": 201611,
+"name": "PHEV eRX5 1.5 50T TGI Honor Flagship",
+"to": 201905
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "20L4E",
+"fuel": "бензин",
+"hp": 220,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 220 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201810,
+"name": "2.0 30T TGI DCT Smart Platinum",
+"to": 201905
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "20L4E",
+"fuel": "бензин",
+"hp": 220,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 220 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201810,
+"name": "2.0 30T TGI DCT Smart Platinum",
+"to": 201905
+}
+]
+}
+],
+"market": "Китай",
+"to": 201905
+},
+"roewe/rx5/g_201906_19994": {
+"from": 201909,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "15E4E",
+"fuel": "бензин",
+"hp": 162,
+"hp_total": 76,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 162 л.с., параллельный подзаряжаемый (PHEV) гибрид, 76 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 201907,
+"name": "PHEV eRX5 1.5 50T TGI Transcendence",
+"to": 202207
+},
+{
+"from": 201907,
+"name": "PHEV eRX5 1.5 50T TGI Flagship",
+"to": 202207
+},
+{
+"from": 201907,
+"name": "PHEV eRX5 1.5 50T TGI Intelligent",
+"to": 202207
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15E4E",
+"fuel": "бензин",
+"hp": 169,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 169 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201906,
+"name": "1.5 20T TGI MT",
+"to": 202110
+},
+{
+"from": 201906,
+"name": "1.5 20T TGI MT Million",
+"to": 202110
+},
+{
+"from": 201906,
+"name": "1.5 20T TGI MT Flagship",
+"to": 202110
+},
+{
+"from": 201906,
+"name": "1.5 20T TGI MT Smart Flagship",
+"to": 202110
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15E4E",
+"fuel": "бензин",
+"hp": 169,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 169 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201906,
+"name": "1.5 20T TGI DCT",
+"to": 202110
+},
+{
+"from": 201906,
+"name": "1.5 20T TGI DCT Million",
+"to": 202110
+},
+{
+"from": 201906,
+"name": "1.5 20T TGI DCT Flagship",
+"to": 202110
+},
+{
+"from": 201906,
+"name": "1.5 20T TGI DCT Smart",
+"to": 202110
+},
+{
+"from": 201906,
+"name": "1.5 20T TGI DCT Smart Intelligent",
+"to": 202110
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15C4E",
+"fuel": "бензин",
+"hp": 181,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 181 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202111,
+"name": "1.5 330 TGI MT Fashion",
+"to": 202207
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15C4E",
+"fuel": "бензин",
+"hp": 181,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 181 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202111,
+"name": "1.5 330 TGI DCT Fashion",
+"to": 202207
+}
+]
+}
+],
+"market": "Китай",
+"to": 202207
+},
+"roewe/rx5/g_202208_19990": {
+"from": 202203,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "15C4E",
+"fuel": "бензин",
+"hp": 181,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 181 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202504,
+"name": "1.5 TGI DCT Leading Trend Smart Value Edition",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15FDE",
+"fuel": "бензин",
+"hp": 188,
+"hp_total": 245,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 188 л.с., параллельный подзаряжаемый (PHEV) гибрид, 245 л.с., АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202208,
+"name": "PHEV eRX5 1.5 TGI AT Comfort",
+"to": null
+},
+{
+"from": 202208,
+"name": "PHEV eRX5 1.5 TGI AT Superior",
+"to": null
+},
+{
+"from": 202208,
+"name": "PHEV eRX5 1.5 TGI AT Premium",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15FDE",
+"fuel": "бензин",
+"hp": 188,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 188 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202208,
+"name": "1.5 TGI DCT Super Sense Elite",
+"to": null
+},
+{
+"from": 202208,
+"name": "1.5 TGI DCT Comfort",
+"to": null
+},
+{
+"from": 202208,
+"name": "1.5 TGI DCT Superior",
+"to": null
+},
+{
+"from": 202208,
+"name": "1.5 TGI DCT Luxury Sliding Screen",
+"to": null
+},
+{
+"from": 202208,
+"name": "1.5 TGI DCT Honor Sliding Screen",
+"to": null
+},
+{
+"from": 202208,
+"name": "1.5 TGI DCT Flagship Smart Driving",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"tank/500/g_202108_17697": {
+"from": 202108,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "E20NA",
+"fuel": "бензин",
+"hp": 231,
+"hp_total": 163,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 231 л.с., параллельный подзаряжаемый (PHEV) гибрид, 163 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202509,
+"name": "PHEV 2.0T AT 4WD Hi-Charge",
+"to": 202602
+},
+{
+"from": 202603,
+"name": "PHEV 2.0T AT 4WD Техно Премиум",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "E20NA",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": 54,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 245 л.с., параллельный гибрид, 54 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202312,
+"name": "HEV 2.0T AT 4WD Urban",
+"to": 202602
+},
+{
+"from": 202603,
+"name": "HEV 2.0T AT 4WD Сити Премиум",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW6Z30",
+"fuel": "бензин",
+"hp": 299,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 299 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202303,
+"name": "MHEV 3.0T AT 4WD Adventure",
+"to": 202602
+},
+{
+"from": 202303,
+"name": "MHEV 3.0T AT 4WD Premium",
+"to": null
+},
+{
+"from": 202603,
+"name": "MHEV 3.0T AT 4WD Бизнес",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW6Z30",
+"fuel": "бензин",
+"hp": 354,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 354 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202406,
+"name": "MHEV 3.0T AT 4WD Blacktrail",
+"to": 202602
+},
+{
+"from": 202603,
+"name": "MHEV 3.0T AT 4WD Оникс",
+"to": null
+}
+]
+}
+],
+"market": "Россия",
+"to": null
+},
+"tank/500/g_2021_16805": {
+"from": 202108,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "E20NA, E20NB",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": 163,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 252 л.с., параллельный подзаряжаемый (PHEV) гибрид, 163 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202306,
+"name": "PHEV 2.0T AT 4WD Hi4-t 5 seats",
+"to": 202403
+},
+{
+"from": 202403,
+"name": "PHEV 2.0T AT 4WD Hi4-t 5 seats",
+"to": 202507
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "E20NB",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": 619,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 252 л.с., параллельный подзаряжаемый (PHEV) гибрид, 619 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202501,
+"name": "PHEV 2.0T 4WD Hi4-Z 5 seats",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "E30Z",
+"fuel": "бензин",
+"hp": 360,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 360 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202108,
+"name": "MHEV 3.0 GDi-T AT 4WD Sport Peak Type 5/7 seats",
+"to": 202507
+},
+{
+"from": 202108,
+"name": "MHEV 3.0 GDi-T AT 4WD Business Peak Type 5/7 seats",
+"to": 202507
+},
+{
+"from": 202108,
+"name": "MHEV 3.0 GDi-T AT 4WD Sport Environment Type 5/7 seats",
+"to": 202507
+},
+{
+"from": 202108,
+"name": "MHEV 3.0 GDi-T AT 4WD Business Environment Type 5/7 seats",
+"to": 202507
+},
+{
+"from": 202108,
+"name": "MHEV 3.0 GDi-T AT 4WD Custom Edition 5 seats",
+"to": 202507
+},
+{
+"from": 202203,
+"name": "MHEV 3.0 GDi-T AT 4WD Black Warriror Limited Edition 5 seats",
+"to": 202207
+},
+{
+"from": 202211,
+"name": "MHEV 3.0 GDi-T AT 4WD 200 000 Commemorative Edition 5 seats",
+"to": 202212
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"tank/500/g_2025_23283": {
+"from": 202508,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "E20NB",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": 177,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 252 л.с., параллельный подзаряжаемый (PHEV) гибрид, 177 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202508,
+"name": "PHEV 2.0T AT 4WD Hi4-t Smart 5 seats",
+"to": null
+},
+{
+"from": 202508,
+"name": "PHEV 2.0T AT 4WD Hi4-t Standard 5 seats",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "E20NB",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": 619,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 252 л.с., параллельный подзаряжаемый (PHEV) гибрид, 619 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202508,
+"name": "PHEV 2.0T 4WD Hi4-Z Smart 5 seats",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "E30Z",
+"fuel": "бензин",
+"hp": 360,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 360 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202508,
+"name": "MHEV 3.0 GDi-T AT 4WD 5 seats",
+"to": null
+},
+{
+"from": 202508,
+"name": "MHEV 3.0 GDi-T AT 4WD 7 seats",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"tank/700/g_202402_21258": {
+"from": 202402,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "E30Z",
+"fuel": "бензин",
+"hp": 354,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 354 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202410,
+"name": "MHEV 3.0T AT 4WD Premium",
+"to": 202602
+},
+{
+"from": 202410,
+"name": "MHEV 3.0T AT 4WD Superior",
+"to": 202602
+},
+{
+"from": 202603,
+"name": "MHEV 3.0T AT 4WD Бизнес",
+"to": null
+},
+{
+"from": 202603,
+"name": "MHEV 3.0T AT 4WD Премиум",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "E30Z",
+"fuel": "бензин",
+"hp": 354,
+"hp_total": 163,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 354 л.с., параллельный подзаряжаемый (PHEV) гибрид, 163 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202410,
+"name": "PHEV 3.0T AT 4WD Edition One",
+"to": 202602
+},
+{
+"from": 202505,
+"name": "PHEV 3.0T AT 4WD Hi-Performance",
+"to": 202602
+},
+{
+"from": 202603,
+"name": "PHEV 3.0T AT 4WD Е1",
+"to": null
+},
+{
+"from": 202603,
+"name": "PHEV 3.0T AT 4WD Техно Премиум",
+"to": null
+}
+]
+}
+],
+"market": "Россия",
+"to": null
+},
+"tank/700/g_2024_20565": {
+"from": 202402,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "E30Z",
+"fuel": "бензин",
+"hp": 360,
+"hp_total": 163,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 360 л.с., параллельный подзаряжаемый (PHEV) гибрид, 163 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202402,
+"name": "PHEV 3.0T AT 4WD Hi4-T First Limited Edition",
+"to": 202604
+},
+{
+"from": 202402,
+"name": "PHEV 3.0T AT 4WD Hi4-T Extreme Edition",
+"to": 202604
+},
+{
+"from": 202402,
+"name": "PHEV 3.0T AT 4WD Hi4-T Extreme Environment Edition",
+"to": 202604
+}
+]
+}
+],
+"market": "Китай",
+"to": 202604
+},
+"volvo/xc40/g_201709_7858": {
+"from": 201709,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "B3154T2",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 150 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202005,
+"name": "1.5 T3 Momentum",
+"to": 202204
+},
+{
+"from": 202005,
+"name": "1.5 T3 R-Design",
+"to": 202204
+},
+{
+"from": 202005,
+"name": "1.5 T3 Inscription",
+"to": 202204
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "D4204T16",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201805,
+"name": "2.0 D3 Base",
+"to": 202005
+},
+{
+"from": 201805,
+"name": "2.0 D3 Inscription",
+"to": 202005
+},
+{
+"from": 201805,
+"name": "2.0 D3 Momentum",
+"to": 202011
+},
+{
+"from": 201805,
+"name": "2.0 D3 R-Design",
+"to": 201807
+},
+{
+"from": 201904,
+"name": "2.0 D3 R-Design",
+"to": 202005
+},
+{
+"from": 202005,
+"name": "2.0 D3 Momentum Core",
+"to": 202011
+},
+{
+"from": 202104,
+"name": "2.0 D3 Base",
+"to": 202112
+},
+{
+"from": 202104,
+"name": "2.0 D3 Momentum",
+"to": 202112
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "D4204T16",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201805,
+"name": "2.0 D3 AWD Base",
+"to": 202005
+},
+{
+"from": 201805,
+"name": "2.0 D3 AWD Momentum",
+"to": 202011
+},
+{
+"from": 201805,
+"name": "2.0 D3 AWD Inscription",
+"to": 202011
+},
+{
+"from": 201805,
+"name": "2.0 D3 AWD R-Design",
+"to": 201807
+},
+{
+"from": 201904,
+"name": "2.0 D3 AWD R-Design",
+"to": 202011
+},
+{
+"from": 202005,
+"name": "2.0 D3 AWD Momentum Core",
+"to": 202011
+},
+{
+"from": 202104,
+"name": "2.0 D3 AWD Base",
+"to": 202112
+},
+{
+"from": 202104,
+"name": "2.0 D3 AWD Momentum",
+"to": 202112
+},
+{
+"from": 202104,
+"name": "2.0 D3 AWD R-Design",
+"to": 202112
+},
+{
+"from": 202104,
+"name": "2.0 D3 AWD Inscription",
+"to": 202112
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B4204T47",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201805,
+"name": "2.0 T4 AWD Base",
+"to": 201903
+},
+{
+"from": 201805,
+"name": "2.0 T4 AWD Momentum",
+"to": 202204
+},
+{
+"from": 201805,
+"name": "2.0 T4 AWD R-Design",
+"to": 202204
+},
+{
+"from": 201805,
+"name": "2.0 T4 AWD Inscription",
+"to": 202204
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "D4204T12",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201805,
+"name": "2.0 D4 AWD Base",
+"to": 201903
+},
+{
+"from": 201805,
+"name": "2.0 D4 AWD Momentum",
+"to": 202005
+},
+{
+"from": 201805,
+"name": "2.0 D4 AWD R-Design",
+"to": 202011
+},
+{
+"from": 201805,
+"name": "2.0 D4 AWD Inscription",
+"to": 202011
+},
+{
+"from": 202104,
+"name": "2.0 D4 AWD R-Design",
+"to": 202112
+},
+{
+"from": 202104,
+"name": "2.0 D4 AWD Inscription",
+"to": 202112
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B4204T36",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 249 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201805,
+"name": "2.0 T5 AWD Momentum",
+"to": 202005
+},
+{
+"from": 201805,
+"name": "2.0 T5 AWD R-Design",
+"to": 202112
+},
+{
+"from": 201805,
+"name": "2.0 T5 AWD Inscription",
+"to": 202112
+}
+]
+}
+],
+"market": "Россия",
+"to": 202204
+},
+"volvo/xc40/g_2017_22457": {
+"from": 201709,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "B3154T2",
+"fuel": "бензин",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 163 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201905,
+"name": "1.5 T3 Momentum Core",
+"to": 202007
+},
+{
+"from": 201905,
+"name": "1.5 T3 Momentum Luxury",
+"to": 202007
+},
+{
+"from": 202007,
+"name": "1.5 T3 Momentum Core",
+"to": 202106
+},
+{
+"from": 202007,
+"name": "1.5 T3 Momentum Luxury",
+"to": 202106
+},
+{
+"from": 202106,
+"name": "1.5 T3 Momentum Core",
+"to": 202207
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B4204T47, B4204T51",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201905,
+"name": "2.0 T4 AWD Momentum Luxury",
+"to": 202007
+},
+{
+"from": 201905,
+"name": "2.0 T4 AWD Momentum Sport",
+"to": 202007
+},
+{
+"from": 201905,
+"name": "2.0 T4 AWD Inscription Sport",
+"to": 202007
+},
+{
+"from": 201905,
+"name": "2.0 T4 AWD Inscription Luxury",
+"to": 202007
+},
+{
+"from": 202007,
+"name": "2.0 T4 AWD Momentum Core",
+"to": 202106
+},
+{
+"from": 202007,
+"name": "2.0 T4 AWD Momentum Luxury",
+"to": 202106
+},
+{
+"from": 202007,
+"name": "2.0 T4 AWD Momentum Sport",
+"to": 202106
+},
+{
+"from": 202007,
+"name": "2.0 T4 AWD Inscription Sport",
+"to": 202106
+},
+{
+"from": 202007,
+"name": "2.0 T4 AWD Inscription Luxury",
+"to": 202106
+},
+{
+"from": 202106,
+"name": "2.0 T4 AWD Momentum Core",
+"to": 202207
+},
+{
+"from": 202106,
+"name": "2.0 T4 AWD Momentum Luxury",
+"to": 202207
+},
+{
+"from": 202106,
+"name": "2.0 T4 AWD Momentum Sport",
+"to": 202207
+},
+{
+"from": 202106,
+"name": "2.0 T4 AWD Inscription Sport",
+"to": 202207
+},
+{
+"from": 202106,
+"name": "2.0 T4 AWD Inscription Luxury",
+"to": 202207
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B4204T36",
+"fuel": "бензин",
+"hp": 247,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 247 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202007,
+"name": "2.0 T5 AWD Inscription Sport",
+"to": 202106
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B4204T18",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 252 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201905,
+"name": "2.0 T5 AWD Inscription Sport",
+"to": 202007
+}
+]
+}
+],
+"market": "Китай",
+"to": 202207
+},
+"volvo/xc40/g_202202_24154": {
+"from": 202202,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "B3154T9",
+"fuel": "бензин",
+"hp": 129,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 129 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202202,
+"name": "1.5 T2 MT Essential",
+"to": 202210
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B3154T9",
+"fuel": "бензин",
+"hp": 129,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 129 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202202,
+"name": "1.5 T2 Geartronic Essential",
+"to": 202401
+},
+{
+"from": 202202,
+"name": "1.5 T2 Geartronic Core",
+"to": 202401
+},
+{
+"from": 202202,
+"name": "1.5 T2 Geartronic Plus Dark",
+"to": 202401
+},
+{
+"from": 202202,
+"name": "1.5 T2 Geartronic Plus Bright",
+"to": 202210
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B3154T10",
+"fuel": "бензин",
+"hp": 129,
+"hp_total": 82,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 129 л.с., параллельный подзаряжаемый (PHEV) гибрид, 82 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202202,
+"name": "PHEV 1.5 T4 Recharge DCT Essential",
+"to": 202401
+},
+{
+"from": 202202,
+"name": "PHEV 1.5 T4 Recharge DCT Core",
+"to": 202401
+},
+{
+"from": 202202,
+"name": "PHEV 1.5 T4 Recharge DCT Plus Dark",
+"to": 202401
+},
+{
+"from": 202202,
+"name": "PHEV 1.5 T4 Recharge DCT Plus Bright",
+"to": 202401
+},
+{
+"from": 202202,
+"name": "PHEV 1.5 T4 Recharge DCT Ultimate Dark",
+"to": 202401
+},
+{
+"from": 202202,
+"name": "PHEV 1.5 T4 Recharge DCT Ultimate Bright",
+"to": 202401
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B3154T5",
+"fuel": "бензин",
+"hp": 180,
+"hp_total": 82,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 180 л.с., параллельный подзаряжаемый (PHEV) гибрид, 82 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202202,
+"name": "PHEV 1.5 T5 Recharge DCT Essential",
+"to": 202401
+},
+{
+"from": 202202,
+"name": "PHEV 1.5 T5 Recharge DCT Core",
+"to": 202401
+},
+{
+"from": 202202,
+"name": "PHEV 1.5 T5 Recharge DCT Plus Dark",
+"to": 202401
+},
+{
+"from": 202202,
+"name": "PHEV 1.5 T5 Recharge DCT Plus Bright",
+"to": 202401
+},
+{
+"from": 202202,
+"name": "PHEV 1.5 T5 Recharge DCT Ultimate Dark",
+"to": 202401
+},
+{
+"from": 202202,
+"name": "PHEV 1.5 T5 Recharge DCT Ultimate Bright",
+"to": 202401
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B420T4",
+"fuel": "бензин",
+"hp": 163,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 163 л.с., мягкий гибрид, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202401,
+"name": "2.0 B3 DCT Essential",
+"to": null
+},
+{
+"from": 202401,
+"name": "2.0 B3 DCT Ultra Dark",
+"to": null
+},
+{
+"from": 202202,
+"name": "2.0 B3 DCT Core",
+"to": null
+},
+{
+"from": 202202,
+"name": "2.0 B3 DCT Plus Dark",
+"to": null
+},
+{
+"from": 202202,
+"name": "2.0 B3 DCT Plus Bright",
+"to": 202210
+},
+{
+"from": 202402,
+"name": "2.0 B3 DCT Plus Black Edition",
+"to": null
+},
+{
+"from": 202402,
+"name": "2.0 B3 DCT Ultra Black Edition",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B420T5",
+"fuel": "бензин",
+"hp": 197,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 197 л.с., мягкий гибрид, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202202,
+"name": "2.0 B4 DCT Core",
+"to": null
+},
+{
+"from": 202202,
+"name": "2.0 B4 DCT Plus Dark",
+"to": null
+},
+{
+"from": 202202,
+"name": "2.0 B4 DCT Plus Bright",
+"to": 202210
+},
+{
+"from": 202202,
+"name": "2.0 B4 DCT Ultimate Bright",
+"to": 202210
+},
+{
+"from": 202202,
+"name": "2.0 B4 DCT Ultimate Dark",
+"to": 202401
+},
+{
+"from": 202402,
+"name": "2.0 B4 DCT Plus Black Edition",
+"to": null
+},
+{
+"from": 202402,
+"name": "2.0 B4 DCT Ultra Black Edition",
+"to": null
+},
+{
+"from": 202401,
+"name": "2.0 B4 DCT Ultra Dark",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B420T6",
+"fuel": "бензин",
+"hp": 197,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 197 л.с., мягкий гибрид, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202202,
+"name": "2.0 B4 DCT AWD Plus Dark",
+"to": 202210
+},
+{
+"from": 202202,
+"name": "2.0 B4 DCT AWD Plus Bright",
+"to": 202210
+},
+{
+"from": 202202,
+"name": "2.0 B4 DCT AWD Ultimate Dark",
+"to": 202210
+},
+{
+"from": 202202,
+"name": "2.0 B4 DCT AWD Ultimate Bright",
+"to": 202210
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B420T2",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 250 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202202,
+"name": "2.0 B5 Geartronic AWD Ultimate Dark",
+"to": 202210
+},
+{
+"from": 202202,
+"name": "2.0 B5 Geartronic AWD Ultimate Bright",
+"to": 202210
+}
+]
+}
+],
+"market": "Европа",
+"to": null
+},
+"volvo/xc40/g_2022_22458": {
+"from": 202202,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "B420T4",
+"fuel": "бензин",
+"hp": 163,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 163 л.с., мягкий гибрид, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202207,
+"name": "2.0 B3 Momentum Core",
+"to": 202307
+},
+{
+"from": 202207,
+"name": "2.0 B3 Momentum Luxury",
+"to": 202307
+},
+{
+"from": 202207,
+"name": "2.0 B3 Momentum Sport",
+"to": 202307
+},
+{
+"from": 202307,
+"name": "2.0 B3 Momentum Core",
+"to": 202409
+},
+{
+"from": 202307,
+"name": "2.0 B3 Momentum Luxury",
+"to": 202409
+},
+{
+"from": 202307,
+"name": "2.0 B3 Momentum Sport",
+"to": 202409
+},
+{
+"from": 202409,
+"name": "2.0 B3 Momentum Core",
+"to": 202506
+},
+{
+"from": 202409,
+"name": "2.0 B3 Momentum Luxury",
+"to": 202506
+},
+{
+"from": 202409,
+"name": "2.0 B3 Momentum Sport",
+"to": 202506
+},
+{
+"from": 202506,
+"name": "2.0 B3 Momentum Core",
+"to": null
+},
+{
+"from": 202506,
+"name": "2.0 B3 Momentum Luxury",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B420T5",
+"fuel": "бензин",
+"hp": 197,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 197 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202207,
+"name": "2.0 B4 AWD Momentum Luxury",
+"to": 202307
+},
+{
+"from": 202207,
+"name": "2.0 B4 AWD Momentum Sport",
+"to": 202307
+},
+{
+"from": 202207,
+"name": "2.0 B4 AWD Inscription Luxury",
+"to": 202307
+},
+{
+"from": 202207,
+"name": "2.0 B4 AWD Inscription Sport",
+"to": 202307
+},
+{
+"from": 202307,
+"name": "2.0 B4 AWD Momentum Luxury",
+"to": null
+},
+{
+"from": 202307,
+"name": "2.0 B4 AWD Momentum Sport",
+"to": 202409
+},
+{
+"from": 202406,
+"name": "2.0 B4 AWD Momentum Midnight Black Edition",
+"to": null
+},
+{
+"from": 202307,
+"name": "2.0 B4 AWD Inscription Sport",
+"to": 202506
+},
+{
+"from": 202506,
+"name": "2.0 B4 AWD Inscription Sport",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"xiaomi/yu7/g_2024_21749": {
+"from": 202412,
+"groups": [],
+"market": "Китай",
+"to": null
+},
+"xpeng/g7/g_2025_21912": {
+"from": 202501,
+"groups": [],
+"market": "Китай",
+"to": null
+},
+"xpeng/g9/g_2021_17303": {
+"from": 202111,
+"groups": [],
+"market": "Китай",
+"to": null
+},
+"xpeng/x9/g_2023_21355": {
+"from": 202311,
+"groups": [],
+"market": "Китай",
+"to": 202504
+},
+"xpeng/x9/g_2025_22464": {
+"from": 202504,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": "DAM15NTE",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": 286,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 150 л.с., последовательный подзаряжаемый (PHEV) гибрид, 286 л.с., редуктор, задний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202511,
+"name": "PHEV 63.3 kWh 1.5 SSR Ultra",
+"to": null
+},
+{
+"from": 202511,
+"name": "PHEV 63.3 kWh 1.5 SSR Max",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"zeekr/8x/g_2025_24130": {
+"from": 202502,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "DHE20-PFZ",
+"fuel": "бензин",
+"hp": 279,
+"hp_total": 897,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 279 л.с., параллельный подзаряжаемый (PHEV) гибрид, 897 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202604,
+"name": "PHEV 2.0 DHT 55 kWh Max",
+"to": null
+},
+{
+"from": 202604,
+"name": "PHEV 2.0 DHT 55 kWh Ultra",
+"to": null
+},
+{
+"from": 202604,
+"name": "PHEV 2.0 DHT 55 kWh Ultra+",
+"to": null
+},
+{
+"from": 202604,
+"name": "PHEV 2.0 DHT 70 kWh Max",
+"to": null
+},
+{
+"from": 202604,
+"name": "PHEV 2.0 DHT 70 kWh Ultra",
+"to": null
+},
+{
+"from": 202604,
+"name": "PHEV 2.0 DHT 70 kWh Ultra+",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "DHE20-PFZ",
+"fuel": "бензин",
+"hp": 279,
+"hp_total": 1400,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 279 л.с., параллельный подзаряжаемый (PHEV) гибрид, 1400 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202604,
+"name": "PHEV 2.0 DHT 70 kWh Obsidian",
+"to": null
+}
+]
+}
+],
 "market": "Китай",
 "to": null
 }
@@ -1414,6 +4661,24 @@
 "m8": "m8",
 "m9": "m9",
 "двигателиaito": "engine"
+},
+"arcfox": {
+"alphas": "alpha-s",
+"alphas5": "alpha-s5",
+"alphas6": "alpha_s6",
+"alphat": "alpha-t",
+"alphat1": "alpha-t1",
+"alphat5": "alpha-t5",
+"alphat6": "alpha-t6",
+"alphat7": "alpha-t7",
+"arcfoxalphat1": "alpha-t1",
+"betas3": "beta_s3",
+"betat1": "beta_t1",
+"engine": "engine",
+"kaola": "kaola",
+"lite": "lite",
+"wendaov9": "wendao_v9",
+"двигателиarcfox": "engine"
 },
 "avatr": {
 "06": "06",
@@ -1753,6 +5018,314 @@
 "двигателиchery": "engine",
 "кузоваchery": "frame"
 },
+"cheryexeed": {
+"engine": "engine",
+"et5": "et5",
+"ex7": "ex7",
+"exeedexlantixes": "exlantix_es",
+"exeedexlantixet": "exlantix_et",
+"exeedlx": "lx",
+"exeedrx": "rx",
+"exeedtx": "tx",
+"exeedtxl": "txl",
+"exeedvx": "vx",
+"exlantixes": "exlantix_es",
+"exlantixet": "exlantix_et",
+"lx": "lx",
+"rx": "rx",
+"sterraes": "sterra_es",
+"sterraet": "sterra_et",
+"tx": "tx",
+"txl": "txl",
+"vx": "vx",
+"yaoguang": "yaoguang",
+"двигателиexeed": "engine"
+},
+"denza": {
+"500": "500",
+"d9": "d9",
+"denzad9": "d9",
+"denzan9": "n9",
+"denzax": "x",
+"denzaz9gt": "z9_gt",
+"engine": "engine",
+"ev": "ev",
+"n7": "n7",
+"n8": "n8",
+"n8l": "n8l",
+"n9": "n9",
+"x": "x",
+"z": "z",
+"z9": "z9",
+"z9gt": "z9_gt",
+"z9s": "z9s",
+"двигателиdenza": "engine"
+},
+"fiat": {
+"124": "124",
+"124spider": "124_spider",
+"125": "125",
+"128": "128",
+"500": "500",
+"500x": "500x",
+"600": "600",
+"albea": "albea",
+"brava": "brava",
+"bravo": "bravo",
+"coupe": "coupe-model",
+"coupemodel": "coupe-model",
+"croma": "croma",
+"doblo": "doblo",
+"engine": "engine",
+"fiat500": "500",
+"fiatalbea": "albea",
+"fiatdoblo": "doblo",
+"fiatfullback": "fullback",
+"fiatlinea": "linea",
+"fiatpanda": "panda",
+"fiatpunto": "punto",
+"fiatscudo": "scudo",
+"fiattipo": "tipo",
+"frame": "frame",
+"freemont": "freemont",
+"fullback": "fullback",
+"grandepunto": "grande_punto",
+"linea": "linea",
+"multipla": "multipla",
+"palio": "palio",
+"panda": "panda",
+"punto": "punto",
+"qubo": "qubo",
+"regata": "regata",
+"ritmo": "ritmo",
+"scudo": "scudo",
+"sedici": "sedici",
+"seicento": "seicento",
+"stilo": "stilo",
+"strada": "strada",
+"talento": "talento",
+"tipo": "tipo",
+"ulysse": "ulysse",
+"uno": "uno",
+"двигателиfiat": "engine",
+"кузоваfiat": "frame"
+},
+"ford": {
+"aerostar": "aerostar",
+"aspire": "aspire",
+"bmax": "b-max",
+"bronco": "bronco",
+"bronco2": "bronco_2",
+"broncobasecamp": "bronco_basecamp",
+"broncoii": "bronco_2",
+"broncosport": "bronco_sport",
+"capri": "capri",
+"cmax": "c-max",
+"contour": "contour",
+"cougar": "cougar",
+"crownvictoria": "crown_victoria",
+"econovan": "econovan",
+"eifel": "eifel",
+"engine": "engine",
+"equator": "equator",
+"equatorsport": "equator_sport",
+"escape": "escape",
+"escort": "escort",
+"everest": "everest",
+"evos": "evos",
+"excursion": "excursion",
+"expedition": "expedition",
+"explorer": "explorer",
+"explorerev": "explorer_ev",
+"explorersporttrac": "explorer_sport_trac",
+"f150": "f150",
+"f250": "f250",
+"f350": "f350",
+"f450": "f450",
+"fairlane": "fairlane",
+"festiva": "festiva",
+"fiesta": "fiesta",
+"fivehundred": "five_hundred",
+"flex": "flex",
+"focus": "focus",
+"focusrs": "focus_rs",
+"focusst": "focus_st",
+"fordcmax": "c-max",
+"fordescape": "escape",
+"fordexplorer": "explorer",
+"fordfiesta": "fiesta",
+"fordfocus": "focus",
+"fordfusion": "fusion",
+"fordkuga": "kuga",
+"fordmondeo": "mondeo",
+"fordmustang": "mustang",
+"fordranger": "ranger",
+"frame": "frame",
+"freda": "freda",
+"freestar": "freestar",
+"freestyle": "freestyle",
+"fusion": "fusion",
+"galaxie": "galaxie",
+"galaxy": "galaxy",
+"granada": "granada",
+"grandcmax": "grand_c_max",
+"gt": "gt",
+"ixion": "ixion",
+"ka": "ka",
+"kuga": "kuga",
+"laser": "laser",
+"ltdcrownvictoria": "ltd_crown_victoria",
+"maverick": "maverick",
+"modelt": "model_t",
+"mondeo": "mondeo",
+"mondeosport": "mondeo_sport",
+"mustang": "mustang",
+"mustangmache": "mustang_mach_e",
+"orion": "orion",
+"probe": "probe",
+"puma": "puma",
+"ranger": "ranger",
+"scorpio": "scorpio",
+"sierra": "sierra",
+"smax": "s-max",
+"spectron": "spectron",
+"sportka": "sportka",
+"streetka": "streetka",
+"taurus": "taurus",
+"telstar": "telstar",
+"tempo": "tempo",
+"territory": "territory",
+"th!nk": "think",
+"think": "think",
+"thunderbird": "thunderbird",
+"torino": "torino",
+"tourneo": "tourneo",
+"tourneoconnect": "tourneo_connect",
+"tourneocourier": "tourneo_courier",
+"v8": "v8",
+"windstar": "windstar",
+"двигателиford": "engine",
+"кузоваford": "frame"
+},
+"foton": {
+"cavanlefu": "cavan_lefu",
+"conqueror3": "conqueror_3",
+"conqueror5": "conqueror_5",
+"conqueror7": "conqueror_7",
+"conquerorplus": "conqueror_plus",
+"engine": "engine",
+"fotonmars7": "mars_7",
+"fotonsauvana": "sauvana",
+"fotontunland": "tunland",
+"fotontunlandg7": "tunland_g7",
+"fotontunlandg9": "tunland_g9",
+"fotontunlandv7": "v7",
+"fotontunlandv9": "v9",
+"fotonview": "view",
+"frame": "frame",
+"mars7": "mars_7",
+"mars9": "mars_9",
+"midi": "midi",
+"sauvana": "sauvana",
+"tunland": "tunland",
+"tunlandf9": "tunland_f9",
+"tunlandg7": "tunland_g7",
+"tunlandg9": "tunland_g9",
+"tunlandv7": "v7",
+"tunlandv9": "v9",
+"v7": "v7",
+"v9": "v9",
+"view": "view",
+"двигателиfoton": "engine",
+"кузоваfoton": "frame"
+},
+"haval": {
+"bigdog": "big_dog",
+"bigdogdagou": "big_dog",
+"chitu": "chitu",
+"cooldog": "cool_dog",
+"cooldogkugou": "cool_dog",
+"dargo": "dargo",
+"engine": "engine",
+"f5": "f5",
+"f7": "f7",
+"f7x": "f7x",
+"greatwallh10": "h10",
+"h1": "h1",
+"h10": "h10",
+"h2s": "h2s",
+"h3": "h3",
+"h4": "h4",
+"h4pro": "h4_pro",
+"h5": "h5",
+"h6": "h6",
+"h6l": "h6l",
+"h6s": "h6s",
+"h7": "h7",
+"h9": "h9",
+"havaldargo": "dargo",
+"havalf7": "f7",
+"havalf7x": "f7x",
+"havalh3": "h3",
+"havalh5": "h5",
+"havalh6": "h6",
+"havalh7": "h7",
+"havalh9": "h9",
+"havaljolion": "jolion",
+"havalm6": "m6",
+"hdog": "h_dog",
+"jolion": "jolion",
+"m6": "m6",
+"m6plus": "m6_plus",
+"raptor": "raptor",
+"shenshou": "shenshou",
+"xiaolong": "xiaolong",
+"xiaolongmax": "xiaolong_max",
+"двигателиhaval": "engine"
+},
+"jeep": {
+"avenger": "avenger",
+"cherokee": "cherokee",
+"commander": "commander",
+"compass": "compass",
+"engine": "engine",
+"frame": "frame",
+"gladiator": "gladiator",
+"grandcherokee": "grand_cherokee",
+"grandcommander": "grand_commander",
+"grandwagoneer": "grand_wagoneer",
+"jeepcherokee": "cherokee",
+"jeepcommander": "commander",
+"jeepcompass": "compass",
+"jeepgladiator": "gladiator",
+"jeepgrandcherokee": "grand_cherokee",
+"jeepgrandwagoneer": "grand_wagoneer",
+"jeepliberty": "liberty",
+"jeeppatriot": "patriot",
+"jeeprenegade": "renegade",
+"jeepwrangler": "wrangler",
+"liberty": "liberty",
+"patriot": "patriot",
+"renegade": "renegade",
+"wagoneer": "wagoneer",
+"wrangler": "wrangler",
+"двигателиjeep": "engine",
+"кузоваjeep": "frame"
+},
+"jmc": {
+"baodian": "baodian",
+"dadao": "dadao",
+"engine": "engine",
+"frame": "frame",
+"jmcdadao": "dadao",
+"jmcvigus": "vigus",
+"vigus": "vigus",
+"yuhu5": "yuhu_5",
+"yuhu7": "yuhu_7",
+"yuhu9": "yuhu_9",
+"двигателиjmc": "engine",
+"кузоваjmc": "frame"
+},
 "lexus": {
 "ct200h": "ct200h",
 "engine": "engine",
@@ -1876,6 +5449,53 @@
 "v9": "v9",
 "двигателиluxeed": "engine"
 },
+"maextro": {
+"engine": "engine",
+"maextros800": "s800",
+"s800": "s800",
+"двигателиmaextro": "engine"
+},
+"maxus": {
+"d60": "d60",
+"d90": "d90",
+"d90pro": "d90_pro",
+"danam1": "dana_m1",
+"danav1": "dana_v1",
+"eg10": "eg10",
+"engine": "engine",
+"euniq5": "euniq_5",
+"euniq6": "euniq_6",
+"g10": "g10",
+"g10max": "g10_max",
+"g20": "g20",
+"g20plus": "g20_plus",
+"g50": "g50",
+"g50max": "g50_max",
+"g50plus": "g50_plus",
+"g70": "g70",
+"g90": "g90",
+"interstellarev": "interstellar_ev",
+"interstellarh": "interstellar_h",
+"interstellarl": "interstellar_l",
+"interstellarr": "interstellar_r",
+"interstellarx": "interstellar_x",
+"interstellarxev": "interstellar_x_ev",
+"maxusg20": "g20",
+"maxusg20plus": "g20_plus",
+"maxusg50": "g50",
+"maxusinterstellarh": "interstellar_h",
+"maxusinterstellarx": "interstellar_x",
+"mifa5": "mifa_5",
+"mifa6": "mifa_6",
+"mifa7": "mifa_7",
+"mifa9": "mifa_9",
+"t60": "t60",
+"t70": "t70",
+"t90": "t90",
+"territory": "territory",
+"v70": "v70",
+"двигателиmaxus": "engine"
+},
 "mazda": {
 "121": "121",
 "1500": "1500",
@@ -1991,6 +5611,125 @@
 "двигателиmazda": "engine",
 "кузоваmazda": "frame"
 },
+"mclaren": {
+"520s": "520s",
+"540c": "540c",
+"570gt": "570gt",
+"570s": "570s",
+"720s": "720s",
+"750s": "750s",
+"artura": "artura",
+"engine": "engine",
+"gt": "gt",
+"mclaren570s": "570s",
+"mclaren720s": "720s",
+"mclaren750s": "750s",
+"mclarengt": "gt",
+"p1": "p1",
+"w1": "w1",
+"двигателиmclaren": "engine"
+},
+"mercedes-benz": {
+"190": "190",
+"aclass": "a-class",
+"amgone": "amg_one",
+"cclass": "c-class",
+"citan": "citan",
+"claclass": "cla-class",
+"clcclass": "clc-class",
+"clclass": "cl-class",
+"cleclass": "cle-class",
+"clkclass": "clk-class",
+"eclass": "e-class",
+"engine": "engine",
+"eqa": "eqa",
+"eqb": "eqb",
+"eqc": "eqc",
+"eqe": "eqe",
+"eqesuv": "eqe_suv",
+"eqssuv": "eqs_suv",
+"eqv": "eqv",
+"frame": "frame",
+"gclass": "g-class",
+"glceq": "glc_eq",
+"glclass": "gl-class",
+"gleclass": "gle-class",
+"glsclass": "gls-class",
+"mclass": "m-class",
+"mercedesbenzaclass": "a-class",
+"mercedesbenzcclass": "c-class",
+"mercedesbenzclaclass": "cla-class",
+"mercedesbenzeclass": "e-class",
+"mercedesbenzgclass": "g-class",
+"mercedesbenzglclass": "gl-class",
+"mercedesbenzgleclass": "gle-class",
+"mercedesbenzglsclass": "gls-class",
+"mercedesbenzmclass": "m-class",
+"mercedesbenzsclass": "s-class",
+"metris": "metris",
+"rclass": "r-class",
+"sclass": "s-class",
+"slcclass": "slc-class",
+"slrmclaren": "slr_mclaren",
+"slsamg": "sls_amg",
+"vaneo": "vaneo",
+"viano": "viano",
+"vle": "vle",
+"w108": "w108",
+"w111": "w111",
+"w114": "w114",
+"w115": "w115",
+"w120": "w120",
+"w121": "w121",
+"w123": "w123",
+"w128": "w128",
+"w136": "w136",
+"w142": "w142",
+"w143": "w143",
+"w180": "w180",
+"w187": "w187",
+"w189": "w189",
+"w21": "w21",
+"двигателиmercedesbenz": "engine",
+"кузоваmercedesbenz": "frame"
+},
+"mini": {
+"aceman": "aceman",
+"cabrio": "cabrio",
+"classic": "classic",
+"clubman": "clubman",
+"countryman": "countryman",
+"coupe": "coupe-model",
+"coupemodel": "coupe-model",
+"crossover": "crossover",
+"engine": "engine",
+"frame": "frame",
+"hatch": "hatch",
+"minicabrio": "cabrio",
+"miniclassic": "classic",
+"miniclubman": "clubman",
+"minicountryman": "countryman",
+"minicoupe": "coupe-model",
+"minicrossover": "crossover",
+"minihatch": "hatch",
+"minipaceman": "paceman",
+"paceman": "paceman",
+"roadster": "roadster",
+"двигателиmini": "engine",
+"кузоваmini": "frame"
+},
+"nio": {
+"ec7": "ec7",
+"el7": "el7",
+"es7": "es7",
+"et5": "et5",
+"et7": "et7",
+"et9": "et9",
+"firefly": "firefly",
+"nioec7": "ec7",
+"nioes7": "es7",
+"nioet5": "et5"
+},
 "porsche": {
 "356": "356",
 "911": "911",
@@ -2023,6 +5762,191 @@
 "taycan": "taycan",
 "двигателиporsche": "engine",
 "кузоваporsche": "frame"
+},
+"roewe": {
+"750": "750",
+"950": "950",
+"clever": "clever",
+"d5x": "d5x",
+"d5xdmh": "d5x",
+"d6": "d6",
+"d7": "d7",
+"e50": "e50",
+"e6": "e6",
+"e950": "e950",
+"ei5": "ei5",
+"ei6": "ei6",
+"engine": "engine",
+"frame": "frame",
+"i5": "i5",
+"i6": "i6",
+"i6max": "i6_max",
+"i6plus": "i6_plus",
+"imax8": "imax8",
+"m7": "m7",
+"marvelx": "marvel_x",
+"roewei5": "i5",
+"roewei6": "i6",
+"roeweimax8": "imax8",
+"roewem7": "m7",
+"roewerx5": "rx5",
+"roewerx5max": "rx5_max",
+"roewerx5plus": "rx5_plus",
+"roewerx8": "rx8",
+"rx3": "rx3",
+"rx3pro": "rx3_pro",
+"rx5": "rx5",
+"rx5max": "rx5_max",
+"rx5plus": "rx5_plus",
+"rx8": "rx8",
+"rx9": "rx9",
+"двигателиroewe": "engine",
+"кузоваroewe": "frame"
+},
+"tank": {
+"300": "300",
+"400": "400",
+"500": "500",
+"700": "700",
+"engine": "engine",
+"tank300": "300",
+"tank400": "400",
+"tank500": "500",
+"tank700": "700",
+"двигателиtank": "engine"
+},
+"volvo": {
+"260": "260",
+"340": "340",
+"343": "343",
+"345": "345",
+"360": "360",
+"440": "440",
+"460": "460",
+"480": "480",
+"850": "850",
+"960": "960",
+"c30": "c30",
+"c40": "c40",
+"c70": "c70",
+"em90": "em90",
+"engine": "engine",
+"es90": "es90",
+"ex30": "ex30",
+"ex40": "ex40",
+"ex60": "ex60",
+"ex90": "ex90",
+"frame": "frame",
+"s40": "s40",
+"s60": "s60",
+"s70": "s70",
+"s80": "s80",
+"v40": "v40",
+"v50": "v50",
+"v60": "v60",
+"v70": "v70",
+"volvoc30": "c30",
+"volvos40": "s40",
+"volvos60": "s60",
+"volvos80": "s80",
+"volvov40": "v40",
+"volvov60": "v60",
+"volvoxc40": "xc40",
+"volvoxc60": "xc60",
+"volvoxc70": "xc70",
+"volvoxc90": "xc90",
+"xc40": "xc40",
+"xc60": "xc60",
+"xc70": "xc70",
+"xc90": "xc90",
+"двигателиvolvo": "engine",
+"кузоваvolvo": "frame"
+},
+"wuling": {
+"asta": "astra",
+"astra": "astra",
+"bingo": "bingo",
+"engine": "engine",
+"fighting": "fighting",
+"hongguang": "hongguang",
+"hongguangminiev": "mini_ev",
+"hongguangplus": "hongguang_plus",
+"hongguangs": "hongguang_s",
+"hongguangs1": "hongguang_s1",
+"hongguangs3": "hongguang_s3",
+"hongguangsclassic": "hongguang_s_classic",
+"hongguangv": "hongguang_v",
+"jiachen": "jiachen",
+"miniev": "mini_ev",
+"rongguang": "rongguang",
+"rongguangs": "rongguang_s",
+"starlight": "starlight",
+"starlight560": "starlight_560",
+"starlight730": "starlight_730",
+"sunshine": "sunshine",
+"victory": "victory",
+"wulingasta": "astra",
+"wulingbingo": "bingo",
+"wulinghongguangminiev": "mini_ev",
+"wulinghongguangs": "hongguang_s",
+"wulinghongguangv": "hongguang_v",
+"wulingjiachen": "jiachen",
+"wulingsunshine": "sunshine",
+"wulingvictory": "victory",
+"wulingxingchen": "xingchen",
+"wulingxingchi": "xingchi",
+"xingchen": "xingchen",
+"xingchi": "xingchi",
+"yangguang": "yangguang",
+"yangguangpro": "yangguang_pro",
+"zhengcheng": "zhengcheng",
+"zhiguangev": "zhiguang_ev",
+"двигателиwuling": "engine"
+},
+"xiaomi": {
+"su7": "su7",
+"xiaomisu7": "su7",
+"xiaomiyu7": "yu7",
+"yu7": "yu7"
+},
+"xpeng": {
+"engine": "engine",
+"g3": "g3",
+"g6": "g6",
+"g7": "g7",
+"g9": "g9",
+"gx": "gx",
+"m03": "m03",
+"p5": "p5",
+"p7": "p7",
+"p7+": "p7plus",
+"p7plus": "p7plus",
+"x9": "x9",
+"xpengg3": "g3",
+"xpengg9": "g9",
+"xpengp7": "p7",
+"двигателиxpeng": "engine"
+},
+"zeekr": {
+"001": "001",
+"007": "007",
+"009": "009",
+"7x": "7x",
+"8x": "8x",
+"9x": "9x",
+"engine": "engine",
+"frame": "frame",
+"mix": "mix",
+"x": "x",
+"zeekr001": "001",
+"zeekr007": "007",
+"zeekr009": "009",
+"zeekr7x": "7x",
+"zeekr8x": "8x",
+"zeekr9x": "9x",
+"zeekrx": "x",
+"двигателиzeekr": "engine",
+"кузоваzeekr": "frame"
 }
 }
 }
