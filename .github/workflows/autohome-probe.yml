@@ -1,0 +1,23 @@
+name: Autohome probe
+
+# Разовая проверка страницы конфигурации комплектации Autohome (опции для блока
+# «Комплектация»). Ничего не отправляет на сайт.
+on:
+  workflow_dispatch: {}
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install "requests>=2.31"
+      - name: Probe Autohome config page
+        env:
+          PYTHONIOENCODING: utf-8
+          PYTHONUNBUFFERED: "1"
+        run: python autohome_probe.py
