@@ -381,6 +381,12 @@
 "g_2022_19693"
 ]
 },
+"byd/d1/china": {
+"day": 739883,
+"gens": [
+"g_2020_22852"
+]
+},
 "byd/destroyer_05/china": {
 "day": 739883,
 "gens": [
@@ -732,6 +738,28 @@
 "gens": [
 "g_202109_13971",
 "g_2021_19449"
+]
+},
+"mercedes-benz/g-class/china": {
+"day": 739883,
+"gens": [
+"g_198909_9823",
+"g_199407_6253",
+"g_199807_6133",
+"g_200110_6116",
+"g_2002_22386",
+"g_200609_6114",
+"g_2006_22387",
+"g_200809_1571",
+"g_2008_22389",
+"g_201204_18412",
+"g_2012_22390",
+"g_201509_4323",
+"g_2015_22391",
+"g_201802_18388",
+"g_2018_22392",
+"g_202404_20693",
+"g_2024_22393"
 ]
 },
 "mg/ezs/china": {
@@ -2621,6 +2649,12 @@
 ]
 }
 ],
+"market": "Китай",
+"to": null
+},
+"byd/d1/g_2020_22852": {
+"from": 202011,
+"groups": [],
 "market": "Китай",
 "to": null
 },
@@ -11147,6 +11181,536 @@
 "mercedes-benz/eqe/g_2021_19449": {
 "from": 202109,
 "groups": [],
+"market": "Китай",
+"to": null
+},
+"mercedes-benz/g-class/g_201509_4323": {
+"from": 201509,
+"groups": [
+{
+"body": [
+"W463"
+],
+"drive": "4wd",
+"engine": "OM 642 DE 30 LA",
+"fuel": "дизель",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 245 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201509,
+"name": "G 350 d",
+"to": 201802
+}
+]
+},
+{
+"body": [
+"W463"
+],
+"drive": "4wd",
+"engine": "M 176 DE 40 AL",
+"fuel": "бензин",
+"hp": 422,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.0,
+"text": "4.0 л, 422 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201509,
+"name": "G 500",
+"to": 201802
+},
+{
+"from": 201602,
+"name": "G 500 4x4",
+"to": 201802
+}
+]
+},
+{
+"body": [
+"W463"
+],
+"drive": "4wd",
+"engine": "M 157 DE 55 AL",
+"fuel": "бензин",
+"hp": 571,
+"hp_total": null,
+"hybrid": null,
+"liters": 5.5,
+"text": "5.5 л, 571 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201509,
+"name": "G 63 AMG",
+"to": 201802
+}
+]
+},
+{
+"body": [
+"W463"
+],
+"drive": "4wd",
+"engine": "M 275 E 60 AL",
+"fuel": "бензин",
+"hp": 630,
+"hp_total": null,
+"hybrid": null,
+"liters": 6.0,
+"text": "6.0 л, 630 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201509,
+"name": "G 65 AMG",
+"to": 201802
+}
+]
+}
+],
+"market": "Россия",
+"to": 201802
+},
+"mercedes-benz/g-class/g_2015_22391": {
+"from": 201508,
+"groups": [
+{
+"body": [
+"W463"
+],
+"drive": "4wd",
+"engine": "OM642.887",
+"fuel": "дизель",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 245 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201611,
+"name": "G 350d",
+"to": 201808
+}
+]
+},
+{
+"body": [
+"W463"
+],
+"drive": "4wd",
+"engine": "M176.980",
+"fuel": "бензин",
+"hp": 421,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.0,
+"text": "4.0 л, 421 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201601,
+"name": "G 500",
+"to": 201611
+},
+{
+"from": 201611,
+"name": "G 500",
+"to": 201808
+},
+{
+"from": 201611,
+"name": "G 500 Excellence",
+"to": 201808
+},
+{
+"from": 201711,
+"name": "G 500 Designo Collection",
+"to": 201808
+}
+]
+}
+],
+"market": "Китай",
+"to": 201808
+},
+"mercedes-benz/g-class/g_201802_18388": {
+"from": 201806,
+"groups": [
+{
+"body": [
+"3DA-463349"
+],
+"drive": "4wd",
+"engine": "OM 656 D 29 R SCR",
+"fuel": "дизель",
+"hp": 286,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.9,
+"text": "2.9 л, 286 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201901,
+"name": "G 350 d",
+"to": 202406
+},
+{
+"from": 201901,
+"name": "G 350 d AMG Line",
+"to": 202406
+}
+]
+},
+{
+"body": [
+"3BA-463276"
+],
+"drive": "4wd",
+"engine": "M 177 DE 40 AL",
+"fuel": "бензин",
+"hp": 585,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.0,
+"text": "4.0 л, 585 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"name": "G 63",
+"to": 202406
+}
+]
+}
+],
+"market": "Япония",
+"to": 202406
+},
+"mercedes-benz/g-class/g_2018_22392": {
+"from": 201801,
+"groups": [
+{
+"body": [
+"W463",
+"G350"
+],
+"drive": "4wd",
+"engine": "M264.920",
+"fuel": "бензин",
+"hp": 258,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 258 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202009,
+"name": "G350",
+"to": 202111
+},
+{
+"from": 202111,
+"name": "G350",
+"to": 202306
+},
+{
+"from": 202306,
+"name": "G350",
+"to": 202311
+},
+{
+"from": 202311,
+"name": "G350",
+"to": 202410
+}
+]
+},
+{
+"body": [
+"W463",
+"G500"
+],
+"drive": "4wd",
+"engine": "M176.980",
+"fuel": "бензин",
+"hp": 421,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.0,
+"text": "4.0 л, 421 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201808,
+"name": "G500",
+"to": 201905
+},
+{
+"from": 201905,
+"name": "G500",
+"to": 201911
+},
+{
+"from": 201911,
+"name": "G500",
+"to": 202111
+},
+{
+"from": 202002,
+"name": "G500 Dark Night Special Edition",
+"to": 202108
+},
+{
+"from": 201911,
+"name": "G500 Time-engraved Special Edition",
+"to": 202108
+},
+{
+"from": 202111,
+"name": "G500",
+"to": 202306
+},
+{
+"from": 202306,
+"name": "G500",
+"to": 202311
+},
+{
+"from": 202311,
+"name": "G500",
+"to": 202410
+},
+{
+"from": 202401,
+"name": "G500 Collector's Edition",
+"to": 202410
+},
+{
+"from": 202402,
+"name": "G500 Legend Special Edition",
+"to": 202410
+}
+]
+},
+{
+"body": [
+"W463"
+],
+"drive": "4wd",
+"engine": "M177.980",
+"fuel": "бензин",
+"hp": 585,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.0,
+"text": "4.0 л, 585 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201808,
+"name": "AMG G63",
+"to": 201905
+},
+{
+"from": 201808,
+"name": "AMG G63 Pioneer Special Edition",
+"to": 201905
+},
+{
+"from": 201905,
+"name": "AMG G63 Pioneer Special Edition",
+"to": 202002
+},
+{
+"from": 201905,
+"name": "AMG G63",
+"to": 202002
+},
+{
+"from": 202002,
+"name": "AMG G63",
+"to": 202108
+},
+{
+"from": 202007,
+"name": "AMG G63 Time Inscription",
+"to": 202108
+},
+{
+"from": 202002,
+"name": "AMG G63 Shadow Wing",
+"to": 202007
+},
+{
+"from": 202108,
+"name": "AMG G63",
+"to": 202112
+},
+{
+"from": 202112,
+"name": "AMG G63",
+"to": 202307
+},
+{
+"from": 202208,
+"name": "AMG G63 55th Anniversary",
+"to": 202307
+},
+{
+"from": 202307,
+"name": "AMG G63",
+"to": 202410
+},
+{
+"from": 202404,
+"name": "AMG G63 Jiachen Collector’s Edition",
+"to": 202410
+}
+]
+}
+],
+"market": "Китай",
+"to": 202410
+},
+"mercedes-benz/g-class/g_202404_20693": {
+"from": 202403,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "OM 656",
+"fuel": "дизель",
+"hp": 367,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 367 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202404,
+"name": "G 450 d Professional Line",
+"to": null
+},
+{
+"from": 202404,
+"name": "G 450 d Exclusive Line",
+"to": null
+},
+{
+"from": 202404,
+"name": "G 450 d AMG Line",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M 256 E30",
+"fuel": "бензин",
+"hp": 449,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 449 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202404,
+"name": "G 500 Professional Line",
+"to": null
+},
+{
+"from": 202404,
+"name": "G 500 Exclusive Line",
+"to": null
+},
+{
+"from": 202404,
+"name": "G 500 AMG Line",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M 177 DE 40 AL",
+"fuel": "бензин",
+"hp": 585,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.0,
+"text": "4.0 л, 585 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202404,
+"name": "G 63 AMG Superior Line",
+"to": null
+}
+]
+}
+],
+"market": "Европа",
+"to": null
+},
+"mercedes-benz/g-class/g_2024_22393": {
+"from": 202403,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "M256.830",
+"fuel": "бензин",
+"hp": 449,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 449 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202410,
+"name": "G 500",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M177.880",
+"fuel": "бензин",
+"hp": 585,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 4.0,
+"text": "4.0 л, бензин, 585 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202410,
+"name": "G 63 AMG",
+"to": null
+}
+]
+}
+],
 "market": "Китай",
 "to": null
 },
