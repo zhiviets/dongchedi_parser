@@ -318,30 +318,54 @@ def series_key(name: str) -> str:
     return re.split(r"\d{4}\s*款", name, maxsplit=1)[0].strip() or name
 
 
-def quick_list(page, url: str):
-    """HTML страницы списка простым запросом (без отрисовки — в разы быстрее браузера).
-    None — не получилось, "blocked" — che168 показал проверку."""
-    try:
-        resp = page.request.get(url, timeout=30_000, headers={"Referer": "https://www.che168.com/china/list/"})
-    except Exception:
-        return None
-    if resp.status != 200:
-        return None
-    html = decode_html(resp.body(), resp.headers.get("content-type", ""))
-    if re.search(r"<title>[^<]*安全验证", html):
-        return "blocked"
-    return html
+SCAN_WORKERS = int(os.environ.get("CHE168_SCAN_WORKERS") or "4")
+
+
+def _norm(text: str) -> str:
+    return re.sub(r"[\s·\-()（）]", "", text or "").lower()
+
+
+def list_fetcher(context):
+    """Страницы списка простыми запросами (без браузера — в разы быстрее) с куками
+    браузера; своя сессия у каждого потока. Возвращает HTML, "blocked" или None."""
+    import threading
+    cookies = context.cookies()
+    local = threading.local()
+
+    def get(url):
+        if not hasattr(local, "s"):
+            s = requests.Session()
+            s.headers.update({"User-Agent": UA, "Referer": "https://www.che168.com/china/list/",
+                              "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                              "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.6"})
+            for c in cookies:
+                s.cookies.set(c["name"], c["value"], domain=c.get("domain"), path=c.get("path") or "/")
+            local.s = s
+        time.sleep(random.uniform(0.5, 2.0))
+        try:
+            resp = local.s.get(url, timeout=30)
+        except Exception:
+            return None
+        if resp.status_code != 200:
+            return None
+        html = decode_html(resp.content, resp.headers.get("content-type", ""))
+        if re.search(r"<title>[^<]*安全验证", html):
+            return "blocked"
+        return html
+
+    return get
 
 
 def scan_models(page, known: set):
-    """Карточки всех моделей: {модель: [машины]}. False — список не открылся (прокси), None — марок не нашли."""
-    deadline = time.time() + SCAN_MINUTES * 60
-    base = LIST_URL.format(page=1)
-    use_request = True
-    html = quick_list(page, base)
-    if not isinstance(html, str) or html == "blocked" or not parse_cards(html):
-        use_request = False
-        html = load_list(page, base)
+    """Карточки всех моделей: {модель: [машины]}. False — список не открылся (прокси), None — марок не нашли.
+
+    Сначала страницы всех марок (/china/aodi/), потом страницы моделей (/china/aodi/aodia4l/),
+    машин которых на странице марки не было, — по кругу по маркам, пока не выйдет время.
+    Страницы качаются в CHE168_SCAN_WORKERS потоков."""
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    started = time.time()
+    deadline = started + SCAN_MINUTES * 60
+    html = load_list(page, LIST_URL.format(page=1))
     if html is None:
         return False
     brands = list(dict.fromkeys(BRAND_LINK_RE.findall(html)))
@@ -352,24 +376,13 @@ def scan_models(page, known: set):
     # Сначала марки, которые мы знаем (их больше всего продаётся), потом редкие
     known_names = set(BRAND_IDS.values())
     brands.sort(key=lambda b: extract_brand_model(b[1] + " 2020款")[0] not in known_names)
-    print(f"Марок на che168: {len(brands)} — обходим марки и их модели (до {SCAN_MINUTES:.0f} мин)")
+    print(f"Марок на che168: {len(brands)} — обходим марки, потом их модели "
+          f"(до {SCAN_MINUTES:.0f} мин, потоков {SCAN_WORKERS})")
 
+    get = list_fetcher(page.context)
     groups, seen = {}, set()
-    stats = {"pages": 0, "browser": 0}
-
-    def fetch(url):
-        nonlocal use_request
-        human_pause(1.5, 4)
-        stats["pages"] += 1
-        if use_request:
-            got = quick_list(page, url)
-            if isinstance(got, str) and got != "blocked":
-                return got
-            if got == "blocked":
-                print("  che168 закрыл простые запросы проверкой — дальше через браузер")
-                use_request = False
-        stats["browser"] += 1
-        return load_list(page, url, attempts=1, wait_ms=15_000)
+    stats = {"ok": 0, "empty": 0, "failed": 0, "blocked": 0}
+    saved = set()
 
     def add_cards(content):
         cards = parse_cards(content)
@@ -384,31 +397,73 @@ def scan_models(page, known: set):
                 groups.setdefault(series_key(c["name"]), []).append(c)
         return cards
 
+    def run(jobs, label, on_page):
+        """jobs — [(url, данные)]; на каждую скачанную страницу — on_page(html, данные)."""
+        done = 0
+        with ThreadPoolExecutor(SCAN_WORKERS) as pool:
+            futures = {pool.submit(get, url): (url, extra) for url, extra in jobs}
+            for fut in as_completed(futures):
+                url, extra = futures[fut]
+                got = fut.result()
+                done += 1
+                if got == "blocked":
+                    stats["blocked"] += 1
+                elif not got:
+                    stats["failed"] += 1
+                else:
+                    if not parse_cards(got):
+                        stats["empty"] += 1
+                    else:
+                        stats["ok"] += 1
+                        if label not in saved:   # образец страницы — для доработки разбора
+                            saved.add(label)
+                            save_debug(f"sample_{label}.html", got)
+                    on_page(got, extra)
+                if done % 50 == 0:
+                    print(f"  {label}: {done}/{len(jobs)}, моделей с машинами {len(groups)}, "
+                          f"{(time.time() - started) / 60:.0f} мин; страниц с машинами {stats['ok']}, "
+                          f"пустых {stats['empty']}, ошибок {stats['failed']}, проверок {stats['blocked']}")
+                if time.time() > deadline or stats["blocked"] >= 10:
+                    for f in futures:
+                        f.cancel()
+                    why = "время обхода вышло" if time.time() > deadline else "che168 начал показывать проверку"
+                    print(f"  {label}: {why} — обработано {done} из {len(jobs)}")
+                    return False
+        return True
+
     add_cards(html)
-    for i, (slug, cname) in enumerate(brands, 1):
-        if time.time() > deadline:
-            print(f"Время обхода вышло: марок просмотрено {i - 1} из {len(brands)}")
-            break
-        if i % 20 == 0:
-            print(f"  марок просмотрено {i}/{len(brands)}, моделей с машинами {len(groups)}, "
-                  f"страниц {stats['pages']} (через браузер {stats['browser']})")
-        content = fetch(f"https://www.che168.com/china/{slug}/")
-        if not content or not add_cards(content):
-            continue
-        # Модели марки — ссылки /china/<марка>/<модель>/ с названием; открываем те,
-        # машин которых ещё не встретили
-        series = dict.fromkeys((sl, name.strip()) for sl, name in
-                               re.findall(rf'<a[^>]+href="/china/{slug}/([a-z][a-z0-9]*)/[^"]*"[^>]*>([^<]{{1,30}})</a>', content)
-                               if name.strip())
-        for sl, name in series:
-            if time.time() > deadline:
-                break
-            if any(name in key or key in name for key in groups):
-                continue
-            more = fetch(f"https://www.che168.com/china/{slug}/{sl}/")
-            if more:
-                add_cards(more)
-    print(f"Обход: моделей с машинами {len(groups)}, машин {sum(map(len, groups.values()))}, страниц {stats['pages']}")
+    series_by_brand = {}
+
+    def on_brand(content, brand):
+        slug, _ = brand
+        if not add_cards(content):
+            return
+        # Модели марки — ссылки /china/<марка>/<модель>/ с названием
+        series_by_brand[slug] = list(dict.fromkeys(
+            (sl, name.strip()) for sl, name in
+            re.findall(rf'<a[^>]+href="/china/{slug}/([a-z][a-z0-9]*)/[^"]*"[^>]*>([^<]{{1,30}})</a>', content)
+            if name.strip()))
+
+    run([(f"https://www.che168.com/china/{slug}/", (slug, name)) for slug, name in brands], "марки", on_brand)
+    with_cars = [b for b in brands if b[0] in series_by_brand]
+    print(f"Марки: с машинами {len(with_cars)}, моделей с машинами {len(groups)}, "
+          f"ссылок на модели {sum(map(len, series_by_brand.values()))}")
+
+    # Модели, машин которых ещё не встретили, — по кругу по маркам (популярные марки первыми)
+    keys = [_norm(k) for k in groups]
+    queues = [[(f"https://www.che168.com/china/{slug}/{sl}/", name) for sl, name in series_by_brand[slug]
+               if not any(_norm(name) in k or k in _norm(name) for k in keys)]
+              for slug, _ in with_cars]
+    jobs = []
+    while any(queues):
+        for q in queues:
+            if q:
+                jobs.append(q.pop(0))
+    if jobs and time.time() < deadline:
+        run(jobs, "модели", lambda content, name: add_cards(content))
+    print(f"Обход за {(time.time() - started) / 60:.0f} мин: моделей с машинами {len(groups)}, "
+          f"машин {sum(map(len, groups.values()))}; страниц с машинами {stats['ok']}, пустых {stats['empty']}, "
+          f"ошибок {stats['failed']}, проверок {stats['blocked']}")
     for cars in groups.values():
         # Машины, которые уже на сайте, — первыми: иначе сайт разрастался бы от прогона к прогону
         cars.sort(key=lambda c: c["infoid"] not in known)
