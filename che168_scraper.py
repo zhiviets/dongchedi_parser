@@ -39,7 +39,7 @@ TOTAL = int(os.environ.get("CHE168_TOTAL") or "0")
 # конце запускает следующий. Потом — обновление два раза в неделю (UPDATE_DAYS, 0 — понедельник,
 # первый прогон дня): до UPDATE_NEW новых порциями по UPDATE_BATCH с паузой UPDATE_PAUSE минут;
 # в остальное время прогон сразу заканчивается.
-FILL_TARGET = int(os.environ.get("CHE168_FILL_TARGET") or "6000")
+FILL_TARGET = int(os.environ.get("CHE168_FILL_TARGET") or "5500")
 FILL_PER_RUN = int(os.environ.get("CHE168_FILL_PER_RUN") or "1000")
 # Через сколько минут от начала прогона перестать открывать объявления и отправить собранное
 # (предел GitHub Actions — 6 часов)
