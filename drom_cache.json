@@ -1,0 +1,2028 @@
+{
+"brands": {
+"212": "212",
+"abarth": "abarth",
+"ac": "ac",
+"acura": "acura",
+"aito": "aito",
+"aiways": "aiways",
+"alfaromeo": "alfa_romeo",
+"alpina": "alpina",
+"alpine": "alpine",
+"amber": "amber",
+"ambertruck": "ambertruck",
+"amc": "amc",
+"arcfox": "arcfox",
+"aro": "aro",
+"asia": "asia",
+"astonmartin": "aston_martin",
+"audi": "audi",
+"aurus": "aurus",
+"austin": "austin",
+"austinhealey": "austin-healey",
+"avatr": "avatr",
+"baic": "baic",
+"bajaj": "bajaj",
+"baojun": "baojun",
+"barkas": "barkas",
+"baw": "baw",
+"bedford": "bedford",
+"belgee": "belgee",
+"bentley": "bentley",
+"bestune": "bestune",
+"bmw": "bmw",
+"bogdan": "bogdan",
+"borgward": "borgward",
+"brilliance": "brilliance",
+"bugatti": "bugatti",
+"buick": "buick",
+"byd": "byd",
+"cadillac": "cadillac",
+"changan": "changan",
+"changfeng": "changfeng",
+"changhe": "changhe",
+"chery": "chery",
+"cheryexeed": "cheryexeed",
+"chevrolet": "chevrolet",
+"chinese": "chinese",
+"chrysler": "chrysler",
+"ciimo": "ciimo",
+"citroen": "citroen",
+"coda": "coda",
+"cupra": "cupra",
+"dacia": "dacia",
+"dadi": "dadi",
+"daewoo": "daewoo",
+"daihatsu": "daihatsu",
+"datsun": "datsun",
+"dayun": "dayun",
+"deepal": "deepal",
+"delorean": "delorean",
+"denza": "denza",
+"derways": "derways",
+"dodge": "dodge",
+"dongfeng": "dongfeng",
+"doninvest": "doninvest",
+"dorcen": "dorcen",
+"dwhower": "dw_hower",
+"enovate": "enovate",
+"eonyx": "eonyx",
+"epicland": "epicland",
+"esteo": "esteo",
+"evolute": "evolute",
+"exeed": "cheryexeed",
+"faw": "faw",
+"ferrari": "ferrari",
+"fiat": "fiat",
+"fisker": "fisker",
+"ford": "ford",
+"forthing": "forthing",
+"foton": "foton",
+"fso": "fso",
+"gac": "gac",
+"gaz": "gaz",
+"geely": "geely",
+"genesis": "genesis",
+"geo": "geo",
+"gmc": "gmc",
+"grahampaige": "graham_paige",
+"greatwall": "great_wall",
+"hafei": "hafei",
+"haima": "haima",
+"hanteng": "hanteng",
+"haval": "haval",
+"hawtai": "hawtai",
+"hiphi": "hiphi",
+"holden": "holden",
+"honda": "honda",
+"hongqi": "hongqi",
+"hozon": "hozon",
+"huaihai": "huaihai",
+"huanghai": "huanghai",
+"huazi": "huazi",
+"hudson": "hudson",
+"hummer": "hummer",
+"hycan": "hycan",
+"hyundai": "hyundai",
+"icar": "icar",
+"immotors": "im_motors",
+"ineos": "ineos",
+"infiniti": "infiniti",
+"irankhodro": "iran_khodro",
+"isuzu": "isuzu",
+"iveco": "iveco",
+"izh": "izh",
+"jac": "jac",
+"jaecoo": "jaecoo",
+"jaguar": "jaguar",
+"jeep": "jeep",
+"jeland": "jeland",
+"jetour": "jetour",
+"jetta": "jetta",
+"jidu": "jidu",
+"jinbei": "jinbei",
+"jmc": "jmc",
+"jmev": "jmev",
+"jonway": "jonway",
+"kaiyi": "kaiyi",
+"kamaatom": "kama-atom",
+"karma": "karma",
+"kawei": "kawei",
+"kgm": "kg_mobility",
+"kgmobility": "kg_mobility",
+"kia": "kia",
+"knewstar": "knewstar",
+"kuayue": "kuayue",
+"lada": "lada",
+"lamborghini": "lamborghini",
+"lancia": "lancia",
+"landrover": "land_rover",
+"landwind": "landwind",
+"lcv": "lcv",
+"leapmotor": "leapmotor",
+"levc": "levc",
+"lexus": "lexus",
+"li": "li",
+"lifan": "lifan",
+"lincoln": "lincoln",
+"livan": "livan",
+"lotus": "lotus",
+"luaz": "luaz",
+"lucid": "lucid",
+"luxeed": "luxeed",
+"luxgen": "luxgen",
+"lynk&amp;co": "lynk_and_co",
+"lynkandco": "lynk_and_co",
+"maextro": "maextro",
+"marussia": "marussia",
+"maserati": "maserati",
+"maxus": "maxus",
+"maybach": "maybach",
+"mazda": "mazda",
+"mclaren": "mclaren",
+"mercedesbenz": "mercedes-benz",
+"mercury": "mercury",
+"metrocab": "metrocab",
+"mg": "mg",
+"mhero": "m-hero",
+"micro": "micro",
+"mini": "mini",
+"mitsubishi": "mitsubishi",
+"mitsuoka": "mitsuoka",
+"morgan": "morgan",
+"moskvitch": "moskvitch",
+"nio": "nio",
+"nissan": "nissan",
+"nordcross": "nordcross",
+"oldsmobile": "oldsmobile",
+"omoda": "omoda",
+"opel": "opel",
+"ora": "ora",
+"oshan": "oshan",
+"oting": "oting",
+"packard": "packard",
+"pagani": "pagani",
+"perodua": "perodua",
+"peugeot": "peugeot",
+"piaggio": "piaggio",
+"plymouth": "plymouth",
+"polarstone": "polar_stone",
+"polestar": "polestar",
+"pontiac": "pontiac",
+"porsche": "porsche",
+"qiantu": "qiantu",
+"qingling": "qingling",
+"qoros": "qoros",
+"radar": "radar",
+"ram": "ram",
+"ravon": "ravon",
+"renault": "renault",
+"renaultsamsung": "renault_samsung",
+"rimac": "rimac",
+"risingauto": "rising_auto",
+"rivian": "rivian",
+"roewe": "roewe",
+"rollsroyce": "rolls-royce",
+"rover": "rover",
+"rox": "rox",
+"saab": "saab",
+"saipa": "saipa",
+"saturn": "saturn",
+"scion": "scion",
+"seat": "seat",
+"senat": "senat",
+"seres": "seres",
+"shineray": "shineray",
+"shuanghuan": "shuanghuan",
+"skm": "skm",
+"skoda": "skoda",
+"skynomad": "sky_nomad",
+"skywell": "skywell",
+"smart": "smart",
+"solaris": "solaris-agr",
+"solarisagr": "solaris-agr",
+"sollers": "sollers",
+"soueast": "soueast",
+"spyker": "spyker",
+"srmshineray": "shineray",
+"ssangyong": "ssang_yong",
+"stelato": "stelato",
+"steyr": "steyr",
+"subaru": "subaru",
+"suzuki": "suzuki",
+"swm": "swm",
+"tagaz": "tagaz",
+"tank": "tank",
+"tata": "tata",
+"tatra": "tatra",
+"tenet": "tenet",
+"tenetplus": "tenet_plus",
+"tesla": "tesla",
+"tianma": "tianma",
+"tianye": "tianye",
+"toyota": "toyota",
+"trabant": "trabant",
+"uaz": "uaz",
+"umo": "umo",
+"vauxhall": "vauxhall",
+"venucia": "venucia",
+"vgv": "vgv",
+"volga": "volga-mark",
+"volgamark": "volga-mark",
+"volkswagen": "volkswagen",
+"volvo": "volvo",
+"vortex": "vortex",
+"voyah": "voyah",
+"wartburg": "wartburg",
+"weltmeister": "weltmeister",
+"wey": "wey",
+"willys": "willys",
+"wuling": "wuling",
+"xcite": "xcite",
+"xiaomi": "xiaomi",
+"xinkai": "xin_kai",
+"xpeng": "xpeng",
+"yema": "yema",
+"zaz": "zaz",
+"zeekr": "zeekr",
+"zil": "zil",
+"zis": "zis",
+"zotye": "zotye",
+"zx": "zx",
+"амберавто": "amber",
+"атом": "kama-atom",
+"богдан": "bogdan",
+"газ": "gaz",
+"донинвест": "doninvest",
+"заз": "zaz",
+"зил": "zil",
+"зис": "zis",
+"иж": "izh",
+"каталогкитайскихавто": "chinese",
+"каталогспецтехники": "lcv",
+"китайскиеавтомобили": "chinese",
+"лада": "lada",
+"луаз": "luaz",
+"москвич": "moskvitch",
+"тагаз": "tagaz",
+"уаз": "uaz"
+},
+"gen_lists": {
+"aito/m9/china": {
+"day": 739883,
+"gens": [
+"g_202312_20390"
+]
+},
+"avatr/06/china": {
+"day": 739883,
+"gens": [
+"g_2024_21754"
+]
+},
+"avatr/07/china": {
+"day": 739883,
+"gens": [
+"g_202409_25009",
+"g_2024_20731"
+]
+},
+"baic/beijing_bj40/china": {
+"day": 739883,
+"gens": [
+"g_2013_16037",
+"g_2016_16038",
+"g_2018_18654",
+"g_202008_19361",
+"g_2020_18653",
+"g_202311_20929"
+]
+},
+"byd/frigate_07/china": {
+"day": 739883,
+"gens": [
+"g_2022_16874"
+]
+},
+"byd/han_l/china": {
+"day": 739883,
+"gens": [
+"g_202504_21932"
+]
+},
+"changan/uni-z/china": {
+"day": 739883,
+"gens": [
+"g_202403_20436",
+"g_202602_24551"
+]
+},
+"luxeed/s7/china": {
+"day": 739883,
+"gens": [
+"g_2023_21036",
+"g_2025_24951"
+]
+}
+},
+"gens": {
+"aito/m9/g_202312_20390": {
+"from": 202312,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "H15RT",
+"fuel": "бензин",
+"hp": 152,
+"hp_total": 496,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 152 л.с., последовательный подзаряжаемый (PHEV) гибрид, 496 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202312,
+"name": "PHEV 1.5 T 4WD Extended Range Max Edition 42 kWh",
+"to": null
+},
+{
+"from": 202312,
+"name": "PHEV 1.5 T 4WD Extended Range Ultra Edition 42 kWh",
+"to": null
+},
+{
+"from": 202312,
+"name": "PHEV 1.5 T 4WD Extended Range Max Edition 52 kWh",
+"to": null
+},
+{
+"from": 202312,
+"name": "PHEV 1.5 T 4WD Extended Range Ultra Edition 52 kWh",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"avatr/06/g_2024_21754": {
+"from": 202412,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": "JL469ZQ1",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 314,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., последовательный подзаряжаемый (PHEV) гибрид, 314 л.с., редуктор, задний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202412,
+"name": "PHEV 1.5 SSR Extended Range Basic Model",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"avatr/07/g_202409_25009": {
+"from": 202608,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 502,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., последовательный подзаряжаемый (PHEV) гибрид, 502 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202608,
+"name": "1.5T SSR AWD",
+"to": null
+},
+{
+"from": 202608,
+"name": "1.5T SSR AWD",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 314,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., последовательный подзаряжаемый (PHEV) гибрид, 314 л.с., редуктор, задний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202608,
+"name": "1.5T SSR",
+"to": null
+}
+]
+}
+],
+"market": "Россия",
+"to": null
+},
+"avatr/07/g_2024_20731": {
+"from": 202406,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "JL469ZQ1",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 492,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., последовательный подзаряжаемый (PHEV) гибрид, 492 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202409,
+"name": "1.5T SSR AWD Extended Range Max",
+"to": null
+},
+{
+"from": 202409,
+"name": "1.5T SSR AWD Extended Range Ultra",
+"to": null
+},
+{
+"from": 202509,
+"name": "1.5T SSR AWD Ultra Extended Range",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "JL469ZQ1",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 314,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., последовательный подзаряжаемый (PHEV) гибрид, 314 л.с., редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202509,
+"name": "1.5T SSR Pro+ Extended Range",
+"to": null
+},
+{
+"from": 202509,
+"name": "39.05 kWh 1.5T SSR Elite Extended Range",
+"to": null
+},
+{
+"from": 202509,
+"name": "39.05 kWh 1.5T SSR Max+ Extended Range",
+"to": null
+},
+{
+"from": 202509,
+"name": "52.01 kWh 1.5T SSR Elite Extended Range",
+"to": null
+},
+{
+"from": 202509,
+"name": "52.01 kWh 1.5T SSR Max+ Extended Range",
+"to": null
+},
+{
+"from": 202509,
+"name": "1.5T SSR Ultra Extended Range",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "JL469ZQ1",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 314,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., последовательный подзаряжаемый (PHEV) гибрид, 314 л.с., редуктор, задний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202409,
+"name": "1.5T SSR Extended Range Pro",
+"to": null
+},
+{
+"from": 202409,
+"name": "1.5T SSR Extended Range Max",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"baic/beijing_bj40/g_2016_16038": {
+"from": 201603,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201801,
+"name": "2.0TD MT AWD Premium",
+"to": 201807
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B201R",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 204 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201604,
+"name": "2.0T MT AWD Premium",
+"to": 201807
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "B201R",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 204 л.с., бензин, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201604,
+"name": "2.0T MT Luxury",
+"to": 201807
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B231R",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 250 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201604,
+"name": "2.3T MT AWD Exclusive",
+"to": 201807
+},
+{
+"from": 201708,
+"name": "2.3T MT AWD Ring Tower Champion",
+"to": 201807
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B231R",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 250 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201604,
+"name": "2.3T AT AWD Exclusive",
+"to": 201807
+},
+{
+"from": 201708,
+"name": "2.3T AT AWD Ring Tower Champion",
+"to": 201807
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "B231R",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 250 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201604,
+"name": "2.3T AT Luxury",
+"to": 201807
+},
+{
+"from": 201604,
+"name": "2.3T AT Premium",
+"to": 201807
+}
+]
+}
+],
+"market": "Китай",
+"to": 201807
+},
+"baic/beijing_bj40/g_2018_18654": {
+"from": 201808,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "4F20TC13",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202103,
+"name": "2.0TD AT AWD Blade Hero Pioneer",
+"to": null
+},
+{
+"from": 202103,
+"name": "2.0TD AT AWD Blade Hero Knight",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201912,
+"name": "2.0T AT AWD City Hunter",
+"to": 202004
+},
+{
+"from": 201904,
+"name": "2.0T AT AWD City Hunter",
+"to": 201911
+},
+{
+"from": 201904,
+"name": "2.0T AT AWD City Hunter Flagship",
+"to": 202004
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "HY4C20B",
+"fuel": "бензин",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202005,
+"name": "2.0T AT AWD City Hunter Knight",
+"to": 202206
+},
+{
+"from": 202005,
+"name": "2.0T AT AWD City Hunter Supreme",
+"to": 202206
+},
+{
+"from": 202108,
+"name": "2.0T AT AWD Ring Tower Champion",
+"to": null
+},
+{
+"from": 202203,
+"name": "2.0T AT AWD Business",
+"to": null
+},
+{
+"from": 202207,
+"name": "2.0T AT AWD City Hunter Knight",
+"to": null
+},
+{
+"from": 202207,
+"name": "2.0T AT AWD City Hunter Supreme",
+"to": null
+},
+{
+"from": 202208,
+"name": "2.0T AT AWD Meta 40",
+"to": null
+},
+{
+"from": 202208,
+"name": "2.0T AT AWD Meta 40 Pro",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "HY4C20B",
+"fuel": "бензин",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202005,
+"name": "2.0T AT City Hunter Pioneer",
+"to": 202206
+},
+{
+"from": 202005,
+"name": "2.0T AT City Hunter Knight",
+"to": 202206
+},
+{
+"from": 202207,
+"name": "2.0T AT City Hunter Pioneer",
+"to": null
+},
+{
+"from": 202207,
+"name": "2.0T AT City Hunter Knight",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B237R",
+"fuel": "бензин",
+"hp": 211,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 211 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202103,
+"name": "2.3T MT AWD Blade Hero Pioneer",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B237R",
+"fuel": "бензин",
+"hp": 231,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 231 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201907,
+"name": "2.3T AT AWD City Hunter",
+"to": 202107
+},
+{
+"from": 201907,
+"name": "2.3T AT AWD Ring Tower Champion",
+"to": 202107
+},
+{
+"from": 201907,
+"name": "2.3T AT AWD City Hunter Flagship",
+"to": 202107
+},
+{
+"from": 201910,
+"name": "2.3T AT AWD Shengshi Huazhang",
+"to": 202107
+},
+{
+"from": 202007,
+"name": "2.3T AT AWD Rainforest Crossing",
+"to": null
+},
+{
+"from": 202103,
+"name": "2.3T AT AWD Blade Hero Supreme",
+"to": null
+},
+{
+"from": 202203,
+"name": "2.3T AT AWD Excellent",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B231R",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 250 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201808,
+"name": "2.3T AT AWD Ring Tower Champion",
+"to": 201906
+},
+{
+"from": 201911,
+"name": "2.3T AT AWD Off-Road",
+"to": 202107
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"baic/beijing_bj40/g_202008_19361": {
+"from": 201808,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "4F20TC13",
+"fuel": "дизель",
+"hp": 162,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 162 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202406,
+"name": "2.0D AT AWD Exclusive / Эксклюзив",
+"to": 202512
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "HY4C20B",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202308,
+"name": "2.0T AT AWD Flagship (2023)",
+"to": 202412
+},
+{
+"from": 202406,
+"name": "2.0T AT AWD Flagship",
+"to": 202512
+},
+{
+"from": 202406,
+"name": "2.0T AT AWD Champion",
+"to": 202512
+},
+{
+"from": 202512,
+"name": "2.0T AT AWD Флагман",
+"to": null
+}
+]
+}
+],
+"market": "Россия",
+"to": null
+},
+"baic/beijing_bj40/g_2020_18653": {
+"from": 202008,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "HY4C20B",
+"fuel": "бензин",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202008,
+"name": "2.0T AT AWD Tribute To The 2020 Knight",
+"to": 202104
+},
+{
+"from": 202008,
+"name": "2.0T AT AWD Tribute To The 2020 Supreme",
+"to": 202104
+}
+]
+}
+],
+"market": "Китай",
+"to": 202104
+},
+"baic/beijing_bj40/g_202311_20929": {
+"from": 202308,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "A156T2H",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": 548,
+"hybrid": "последовательный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 245 л.с., последовательный гибрид, 548 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202504,
+"name": "EREV 1.5T AWD Standard",
+"to": null
+},
+{
+"from": 202504,
+"name": "EREV 1.5T AWD Advanced",
+"to": null
+},
+{
+"from": 202509,
+"name": "EREV 1.5T AWD Excellence",
+"to": null
+},
+{
+"from": 202510,
+"name": "EREV 1.5T AWD Industry",
+"to": null
+},
+{
+"from": 202511,
+"name": "EREV 1.5T AWD Yuanjing Smart",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "4F20TC20",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202407,
+"name": "2.0D AT 4WD Blade Hero Traveler",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "HY4C20C",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202311,
+"name": "2.0T AT AWD City Hunter Pioneer",
+"to": null
+},
+{
+"from": 202311,
+"name": "2.0T AT AWD City Hunter Knight",
+"to": null
+},
+{
+"from": 202311,
+"name": "2.0T AT AWD City Hunter Supreme",
+"to": null
+},
+{
+"from": 202404,
+"name": "2.0T AT AWD Blade Hero Climber",
+"to": null
+},
+{
+"from": 202403,
+"name": "2.0T AT AWD City Hunter Advanced",
+"to": null
+},
+{
+"from": 202407,
+"name": "2.0T AT AWD Ring Tower Champion",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"byd/frigate_07/g_2022_16874": {
+"from": 202211,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQC",
+"fuel": "бензин",
+"hp": 139,
+"hp_total": 197,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 139 л.с., параллельный подзаряжаемый (PHEV) гибрид, 197 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202212,
+"name": "DM-i PHEV 1.5 CVT Luxury 100 km",
+"to": 202402
+},
+{
+"from": 202212,
+"name": "DM-i PHEV 1.5 CVT Distinguished 100 km",
+"to": 202402
+},
+{
+"from": 202212,
+"name": "DM-i PHEV 1.5 CVT Flagship 100 km",
+"to": 202402
+},
+{
+"from": 202212,
+"name": "DM-i PHEV 1.5 CVT Distinguished 205 km",
+"to": 202402
+},
+{
+"from": 202212,
+"name": "DM-i PHEV 1.5 CVT Flagship 205 km",
+"to": 202402
+},
+{
+"from": 202403,
+"name": "DM-i PHEV 1.5 CVT Elite 100 km",
+"to": null
+},
+{
+"from": 202403,
+"name": "DM-i PHEV 1.5 CVT Luxury 100 km",
+"to": null
+},
+{
+"from": 202403,
+"name": "DM-i PHEV 1.5 CVT Premium 100 km",
+"to": null
+},
+{
+"from": 202403,
+"name": "DM-i PHEV 1.5 CVT Flagship 205 km",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD476ZQC",
+"fuel": "бензин",
+"hp": 139,
+"hp_total": 401,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 139 л.с., параллельный подзаряжаемый (PHEV) гибрид, 401 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202212,
+"name": "DM-i PHEV 1.5 CVT Flagship 175 km",
+"to": 202402
+},
+{
+"from": 202403,
+"name": "DM-i PHEV 1.5 CVT Flagship 175 km",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"byd/han_l/g_202504_21932": {
+"from": 202501,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472ZQB",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 272,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 272 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202504,
+"name": "DM-i 1.5 CVT 2WD 200km LiDAR Premium",
+"to": null
+},
+{
+"from": 202504,
+"name": "DM-i 1.5 CVT 2WD 200km LiDAR Flagship",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD472ZQB",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 544,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 544 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202504,
+"name": "DM-p 1.5 CVT 4WD 180km LiDAR Flagship",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"changan/uni-z/g_202403_20436": {
+"from": 202403,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL469Q1",
+"fuel": "бензин",
+"hp": 98,
+"hp_total": 215,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 98 л.с., параллельный подзаряжаемый (PHEV) гибрид, 215 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202403,
+"name": "IDD PHEV 1.5 Leading",
+"to": 202504
+},
+{
+"from": 202403,
+"name": "IDD PHEV 1.5 Beyond",
+"to": 202504
+},
+{
+"from": 202403,
+"name": "IDD PHEV 1.5 Excellent",
+"to": 202504
+},
+{
+"from": 202502,
+"name": "PHEV 1.5 Smart Blue Whale Battleship",
+"to": 202504
+},
+{
+"from": 202505,
+"name": "PHEV 1.5 Smart Blue Whale 125km Battleship+",
+"to": null
+},
+{
+"from": 202505,
+"name": "PHEV 1.5 Smart Blue Whale 125km Super Performance",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL473ZQ7",
+"fuel": "бензин",
+"hp": 188,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 188 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202408,
+"name": "1.5T DCT Longteng",
+"to": 202504
+},
+{
+"from": 202408,
+"name": "1.5T DCT Luxury",
+"to": 202504
+},
+{
+"from": 202408,
+"name": "1.5T DCT Premium",
+"to": 202504
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL473ZQD",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 192 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202505,
+"name": "1.5T DCT Smart New Blue Whale 500Bar Pro",
+"to": null
+},
+{
+"from": 202505,
+"name": "1.5T DCT Smart New Blue Whale 500Bar Max",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"luxeed/s7/g_2023_21036": {
+"from": 202311,
+"groups": [],
+"market": "Китай",
+"to": 202508
+},
+"luxeed/s7/g_2025_24951": {
+"from": 202508,
+"groups": [],
+"market": "Китай",
+"to": null
+}
+},
+"models": {
+"aito": {
+"aitom5": "m5",
+"aitom6": "m6",
+"aitom7": "m7",
+"aitom8": "m8",
+"aitom9": "m9",
+"engine": "engine",
+"m5": "m5",
+"m6": "m6",
+"m7": "m7",
+"m8": "m8",
+"m9": "m9",
+"двигателиaito": "engine"
+},
+"avatr": {
+"06": "06",
+"06t": "06t",
+"07": "07",
+"11": "11",
+"12": "12",
+"avatr07": "07",
+"avatr11": "11",
+"avatr12": "12",
+"engine": "engine",
+"двигателиavatr": "engine"
+},
+"baic": {
+"baicbj40": "beijing_bj40",
+"baicbj60": "beijing_bj60",
+"baicbj80": "beijing_bj80",
+"baicbj90": "beijing_bj90",
+"baicu5plus": "u5_plus",
+"baicx3": "beijing_x3",
+"baicx35": "x35",
+"baicx55": "x55",
+"baicx7": "beijing_x7",
+"baicx75": "x75",
+"beijingbj30": "beijing_bj30",
+"beijingbj40": "beijing_bj40",
+"beijingbj60": "beijing_bj60",
+"beijingbj80": "beijing_bj80",
+"beijingbj90": "beijing_bj90",
+"beijingeu5plus": "beijing_eu5_plus",
+"beijingeu7": "beijing_eu7",
+"beijingrubicscube": "beijing_rubics_cube",
+"beijingx3": "beijing_x3",
+"beijingx5": "beijing_x5",
+"beijingx7": "beijing_x7",
+"bj30": "beijing_bj30",
+"bj40": "beijing_bj40",
+"bj41": "bj41",
+"bj60": "beijing_bj60",
+"bj60thunder": "bj60_thunder",
+"bj80": "beijing_bj80",
+"bj81": "bj81",
+"bj90": "beijing_bj90",
+"bjevex5": "bjev_ex5",
+"engine": "engine",
+"eu5": "eu5",
+"eu5plus": "beijing_eu5_plus",
+"eu7": "beijing_eu7",
+"eu8": "eu8",
+"huansus6": "huansu_s6",
+"jeep2500": "jeep_2500",
+"rubicscube": "beijing_rubics_cube",
+"ruixiangx3": "ruixiang_x3",
+"ruixiangx5": "ruixiang_x5",
+"senovaeseries": "senova_e_series",
+"senovax55": "senova_x55",
+"senovazhixing": "senova_zhixing",
+"taitan700": "taitan_700",
+"u5": "u5",
+"u5plus": "u5_plus",
+"u7": "u7",
+"x3": "beijing_x3",
+"x35": "x35",
+"x5": "beijing_x5",
+"x55": "x55",
+"x75": "x75",
+"двигателиbaic": "engine"
+},
+"byd": {
+"atto3": "atto_3",
+"byddolphin": "dolphin",
+"bydf3": "f3",
+"bydfangchengbaoleopard5": "fangchengbao_leopard_5",
+"bydflyer": "flyer",
+"bydhan": "han",
+"bydsongplus": "song_plus",
+"bydsongpro": "song_pro",
+"bydtang": "tang",
+"bydyangwangu8": "yangwang_u8",
+"bydyuanup": "yuan_up",
+"d1": "d1",
+"dahan": "dahan",
+"datang": "datang",
+"destroyer05": "destroyer_05",
+"dolphin": "dolphin",
+"e1": "e1",
+"e2": "e2",
+"e3": "e3",
+"e5": "e5",
+"e6": "e6",
+"e7": "e7",
+"e9": "e9",
+"engine": "engine",
+"f0": "f0",
+"f3": "f3",
+"f5": "f5",
+"f6": "f6",
+"f7": "f7",
+"fangchengbaoformulas": "fangchengbao_formula_s",
+"fangchengbaoformulasgt": "fangchengbao_formula_s_gt",
+"fangchengbaoformulasl": "fangchengbao_formula_sl",
+"fangchengbaoleopard5": "fangchengbao_leopard_5",
+"fangchengbaoleopard8": "fangchengbao_leopard_8",
+"fangchengbaoshark": "fangchengbao_shark",
+"fangchengbaotitanium3": "fangchengbao_titanium_3",
+"fangchengbaotitanium7": "fangchengbao_titanium_7",
+"fangchengbaotitanium9": "fangchengbao_titanium_9",
+"flyer": "flyer",
+"frame": "frame",
+"frigate07": "frigate_07",
+"g3": "g3",
+"g6": "g6",
+"han": "han",
+"hanl": "han_l",
+"l3": "l3",
+"linghuie5": "linghui_e5",
+"linghuie7": "linghui_e7",
+"linghuie9": "linghui_e9",
+"linghuim9": "linghui_m9",
+"m6": "m6",
+"qin": "qin",
+"qinl": "qin_l",
+"qinldm": "qin_l",
+"qinlev": "qin_l_ev",
+"qinmax": "qin_max",
+"qinplus": "qin_plus",
+"qinpro": "qin_pro",
+"racco": "racco",
+"s6": "s6",
+"s7": "s7",
+"seagull": "seagull",
+"seal": "seal",
+"seal05": "seal_5",
+"seal06": "seal_06",
+"seal06dm": "seal_06",
+"seal06ev": "seal_06_ev",
+"seal06gt": "seal_06_gt",
+"seal07": "seal_07",
+"seal08": "seal_08",
+"seal5": "seal_5",
+"sealion05": "sea-lion-05",
+"sealion05dm": "sea-lion-05",
+"sealion05ev": "sea-lion-05-ev",
+"sealion06": "sea-lion-06",
+"sealion07": "sea_lion_07",
+"sealion07dm": "sea_lion_07_dm",
+"sealion07ev": "sea_lion_07",
+"sealion08": "sea_lion_08",
+"shark": "shark",
+"song": "song",
+"songl": "song_l",
+"songldm": "song_l_dm",
+"songlev": "song_l",
+"songmax": "song_max",
+"songplus": "song_plus",
+"songpro": "song_pro",
+"songultra": "song_ultra",
+"tang": "tang",
+"tangl": "tang_l",
+"xia": "xia",
+"yangwangu7": "yangwang_u7",
+"yangwangu8": "yangwang_u8",
+"yangwangu9": "yangwang_u9",
+"yuan": "yuan",
+"yuanplus": "yuan_plus",
+"yuanpro": "yuan_pro",
+"yuanup": "yuan_up",
+"двигателиbyd": "engine",
+"кузоваbyd": "frame"
+},
+"changan": {
+"alsvinv7": "alsvin_v7",
+"benben": "benben",
+"changancs35max": "cs35_max",
+"changancs35plus": "cs35_plus",
+"changancs55plus": "cs55_plus",
+"changancs75plus": "cs75_plus",
+"changancs75pro": "cs75_pro",
+"changanhunterplus": "hunter_plus",
+"changanunik": "uni-k",
+"changanunis": "uni-s",
+"changanunit": "uni-t",
+"changanuniv": "uni-v",
+"crossingstarkuayuef3": "kuayue_f3",
+"crossingstarkuayuev3": "kuayue_v3",
+"crossingstarkuayuev5": "kuayue_v5",
+"crossingstarkuayuev7": "kuayue_v7",
+"cs15": "cs15",
+"cs35max": "cs35_max",
+"cs35plus": "cs35_plus",
+"cs55erock": "cs55_e_rock",
+"cs55plus": "cs55_plus",
+"cs75plus": "cs75_plus",
+"cs75pro": "cs75_pro",
+"cs95plus": "cs95_plus",
+"cx20": "cx20",
+"eadodt": "eado_dt",
+"eadoxt": "eado_xt",
+"engine": "engine",
+"frame": "frame",
+"hunter": "hunter",
+"hunterplus": "hunter_plus",
+"kaicenef70": "kaicene_f70",
+"kaicenem60": "kaicene_m60",
+"kaiceneruixingm60": "kaicene_m60",
+"kaicenestar5": "kaicene_star_5",
+"kuayuef3": "kuayue_f3",
+"kuayuev3": "kuayue_v3",
+"kuayuev5": "kuayue_v5",
+"kuayuev7": "kuayue_v7",
+"lantop": "lantop",
+"linmax": "linmax",
+"lumin": "lumin",
+"qiyuana05": "qiyuan_a05",
+"qiyuana06": "qiyuan_a06",
+"qiyuana07": "qiyuan_a07",
+"qiyuane07": "qiyuan_e07",
+"qiyuanhunterk50": "qiyuan_hunter_k50",
+"qiyuannevoa05": "qiyuan_a05",
+"qiyuannevoa06": "qiyuan_a06",
+"qiyuannevoa07": "qiyuan_a07",
+"qiyuannevoe07": "qiyuan_e07",
+"qiyuannevohunterk50": "qiyuan_hunter_k50",
+"qiyuannevoq05": "qiyuan_q05",
+"qiyuannevoq06": "qiyuan_q06",
+"qiyuannevoq07": "qiyuan_q07",
+"qiyuanq05": "qiyuan_q05",
+"qiyuanq06": "qiyuan_q06",
+"qiyuanq07": "qiyuan_q07",
+"raetoncc": "raeton_cc",
+"raetonplus": "raeton_plus",
+"unik": "uni-k",
+"unis": "uni-s",
+"unit": "uni-t",
+"univ": "uni-v",
+"uniz": "uni-z",
+"x5plus": "x5_plus",
+"x7plus": "x7_plus",
+"yida": "yida",
+"двигателиchangan": "engine",
+"кузоваchangan": "frame"
+},
+"chery": {
+"amulet": "amulet",
+"amuleta15": "amulet",
+"arrizo3": "arrizo_3",
+"arrizo5": "arrizo_5",
+"arrizo5e": "arrizo_5e",
+"arrizo5gt": "arrizo_5_gt",
+"arrizo5plus": "arrizo_5_plus",
+"arrizo5pro": "arrizo_5_pro",
+"arrizo6": "arrizo_6",
+"arrizo6pro": "arrizo_6_pro",
+"arrizo8": "arrizo_8",
+"arrizo8pro": "arrizo_8_pro",
+"arrizoex": "arrizo_ex",
+"arrizogx": "arrizo_gx",
+"arrizom7": "arrizo_m7",
+"b11": "b11",
+"beat": "beat",
+"biganteq5": "eq5",
+"bonus": "bonus",
+"bonusa13": "bonus",
+"cheryamuleta15": "amulet",
+"cheryarrizo8": "arrizo_8",
+"cherytiggo4": "tiggo_4",
+"cherytiggo4pro": "tiggo_4_pro",
+"cherytiggo7pro": "tiggo_7_pro",
+"cherytiggo7promax": "tiggo_7_pro_max",
+"cherytiggo8pro": "tiggo_8_pro",
+"cherytiggo8promax": "tiggo_8_pro_max",
+"cherytiggo9": "tiggo_9",
+"cherytiggot11": "tiggo",
+"crosseastar": "crosseastar",
+"e5": "e5",
+"eastar": "eastar_b11",
+"eastarb11": "eastar_b11",
+"engine": "engine",
+"eq1": "eq1",
+"eq5": "eq5",
+"eq7": "eq7",
+"explore06": "explore_06",
+"fora": "fora",
+"foraa21": "fora",
+"frame": "frame",
+"fulwina8": "fulwin_a8",
+"fulwina8l": "fulwin_a8l",
+"fulwina9": "fulwin_a9",
+"fulwina9l": "fulwin_a9l",
+"fulwint10": "fulwin_t10",
+"fulwint11": "fulwin_t11",
+"fulwint6": "fulwin_t6",
+"fulwint7": "fulwin_t7",
+"fulwint8": "fulwin_t8",
+"fulwint8l": "fulwin_t8l",
+"fulwint9": "fulwin_t9",
+"fulwint9l": "fulwin_t9l",
+"fulwinx3": "fulwin_x3",
+"fulwinx3l": "fulwin_x3l",
+"fulwinx3plus": "fulwin_x3_plus",
+"kimo": "kimo",
+"kimoa1": "kimo",
+"littleant": "little_ant",
+"m11": "m11",
+"omoda5": "omoda_5",
+"orientalson": "b11",
+"qq": "qq",
+"qq3": "qq3",
+"qq6s21": "qq6_s21",
+"qqdomi": "qq_domi",
+"qqicecream": "qq_ice_cream",
+"qqsweet": "qq",
+"tiggo": "tiggo",
+"tiggo2pro": "tiggo_2_pro",
+"tiggo3x": "tiggo_3x",
+"tiggo3xe": "tiggo_3xe",
+"tiggo4": "tiggo_4",
+"tiggo4pro": "tiggo_4_pro",
+"tiggo5x": "tiggo_5x",
+"tiggo7plus": "tiggo_7_plus",
+"tiggo7pro": "tiggo_7_pro",
+"tiggo7promax": "tiggo_7_pro_max",
+"tiggo7propluginhybrid": "tiggo_7_pro_plug-in-hybrid",
+"tiggo8l": "tiggo_8l",
+"tiggo8plus": "tiggo_8_plus",
+"tiggo8pro": "tiggo_8_pro",
+"tiggo8proe+hybrid": "tiggo_8_pro_e_plus_hybrid",
+"tiggo8proeplushybrid": "tiggo_8_pro_e_plus_hybrid",
+"tiggo8promax": "tiggo_8_pro_max",
+"tiggo8propluginhybrid": "tiggo_8_pro_plug-in-hybrid",
+"tiggo9": "tiggo_9",
+"tiggo9x": "tiggo_9x",
+"tiggoe": "tiggo_e",
+"very": "very",
+"verya13": "very",
+"x1": "x1",
+"двигателиchery": "engine",
+"кузоваchery": "frame"
+},
+"lexus": {
+"ct200h": "ct200h",
+"engine": "engine",
+"es250": "es250",
+"es260": "es260",
+"es300": "es300",
+"es300h": "es300h",
+"es330": "es330",
+"es350": "es350",
+"es350e": "es350e",
+"es350h": "es350h",
+"es500e": "es500e",
+"frame": "frame",
+"gs200t": "gs200t",
+"gs250": "gs250",
+"gs300": "gs300",
+"gs300h": "gs300h",
+"gs350": "gs350",
+"gs400": "gs400",
+"gs430": "gs430",
+"gs450h": "gs450h",
+"gs460": "gs460",
+"gsf": "gs_f",
+"gx460": "gx460",
+"gx470": "gx470",
+"gx550h": "gx550h",
+"hs250h": "hs250h",
+"is200": "is200",
+"is200d": "is200d",
+"is200t": "is200t",
+"is220d": "is220d",
+"is250": "is250",
+"is250c": "is250c",
+"is300c": "is300c",
+"is300h": "is300h",
+"is350": "is350",
+"is350c": "is350c",
+"is500": "is500",
+"isf": "is_f",
+"lbx": "lbx",
+"lc500": "lc500",
+"lc500h": "lc500h",
+"lexuses250": "es250",
+"lexusgx460": "gx460",
+"lexusis250": "is250",
+"lexuslx570": "lx570",
+"lexusnx200": "nx200",
+"lexusrx200t": "rx200t",
+"lexusrx300": "rx300",
+"lexusrx330": "rx330",
+"lexusrx350": "rx350",
+"lexusrx450h": "rx450h",
+"lfa": "lfa",
+"lm300h": "lm300h",
+"lm350": "lm350",
+"lm350h": "lm350h",
+"lm500h": "lm500h",
+"ls350": "ls350",
+"ls400": "ls400",
+"ls430": "ls430",
+"ls460": "ls460",
+"ls460l": "ls460l",
+"ls500h": "ls500h",
+"ls600h": "ls600h",
+"ls600hl": "ls600hl",
+"lx450": "lx450",
+"lx470": "lx470",
+"lx500d": "lx500d",
+"lx570": "lx570",
+"lx700h": "lx700h",
+"nx200": "nx200",
+"nx260": "nx260",
+"nx350": "nx350",
+"nx350h": "nx350h",
+"nx400h+": "nx400hplus",
+"nx400hplus": "nx400hplus",
+"nx450h+": "nx450hplus",
+"nx450hplus": "nx450hplus",
+"rc300": "rc300",
+"rc300h": "rc300h",
+"rc350": "rc350",
+"rcf": "rc_f",
+"rx200t": "rx200t",
+"rx270": "rx270",
+"rx300": "rx300",
+"rx330": "rx330",
+"rx350": "rx350",
+"rx350h": "rx350h",
+"rx400h": "rx400h",
+"rx450h": "rx450h",
+"rx450h+": "rx450hplus",
+"rx450hl": "rx450hl",
+"rx450hplus": "rx450hplus",
+"rx500h": "rx500h",
+"rz300e": "rz300e",
+"rz350e": "rz350e",
+"rz450e": "rz450e",
+"rz500e": "rz500e",
+"rz550e": "rz550e",
+"rz600e": "rz600e",
+"sc300": "sc300",
+"sc400": "sc400",
+"sc430": "sc430",
+"tx350": "tx350",
+"tx500h": "tx500h",
+"tx550h+": "tx550hplus",
+"tx550hplus": "tx550hplus",
+"ux250h": "ux250h",
+"ux260h": "ux260h",
+"ux300e": "ux300e",
+"ux300h": "ux300h",
+"двигателиlexus": "engine",
+"кузоваlexus": "frame"
+},
+"luxeed": {
+"engine": "engine",
+"luxeedr7": "r7",
+"r7": "r7",
+"rx": "rx",
+"s7": "s7",
+"v9": "v9",
+"двигателиluxeed": "engine"
+},
+"mazda": {
+"121": "121",
+"1500": "1500",
+"323": "323",
+"323c": "323c",
+"323f": "323f",
+"616": "616",
+"626": "626",
+"818": "818",
+"929": "929",
+"atenza": "atenza",
+"autozamaz1": "autozam_az-1",
+"autozamaz3": "autozam_az-3",
+"autozamclef": "autozam_clef",
+"axela": "axela",
+"azoffroad": "az-offroad",
+"azwagon": "az-wagon",
+"biante": "biante",
+"bongo": "bongo",
+"bongobrawny": "bongo_brawny",
+"bongofriendee": "bongo_friendee",
+"bseries": "b-series",
+"bt50": "bt-50",
+"capella": "capella",
+"carol": "carol",
+"chantez": "chantez",
+"cosmo": "cosmo",
+"cronos": "cronos",
+"cx3": "cx-3",
+"cx5": "cx-5",
+"cx60": "cx-60",
+"cx6e": "cx-6e",
+"cx7": "cx-7",
+"cx70": "cx-70",
+"cx8": "cx-8",
+"cx80": "cx-80",
+"cx90": "cx-90",
+"demio": "demio",
+"efinimpv": "efini_mpv",
+"efinims6": "efini_ms-6",
+"efinims8": "efini_ms-8",
+"efinims9": "efini_ms-9",
+"efinirx7": "efini_rx-7",
+"engine": "engine",
+"etude": "etude",
+"eunos100": "eunos_100",
+"eunos300": "eunos_300",
+"eunos500": "eunos_500",
+"eunos800": "eunos_800",
+"eunoscargo": "eunos_cargo",
+"eunoscosmo": "eunos_cosmo",
+"eunospresso": "eunos_presso",
+"eunosroadster": "eunos_roadster",
+"ez6": "ez-6",
+"ez60": "ez-60",
+"familia": "familia",
+"familiaswagon": "familia_s-wagon",
+"flair": "flair",
+"flaircrossover": "flair_crossover",
+"flairwagon": "flairwagon",
+"frame": "frame",
+"grandfamilia": "grandfamilia",
+"lantis": "lantis",
+"laputa": "laputa",
+"luce": "luce",
+"mazda2": "mazda2",
+"mazda3": "mazda3",
+"mazda3mps": "mazda3_mps",
+"mazda5": "mazda5",
+"mazda6": "mazda6",
+"mazda6e": "mazda6e",
+"mazda6mps": "mazda6_mps",
+"mazda8": "mazda8",
+"mazdaaxela": "axela",
+"mazdacx3": "cx-3",
+"mazdacx5": "cx-5",
+"mazdacx7": "cx-7",
+"mazdademio": "demio",
+"mazdafamilia": "familia",
+"mazdamazda3": "mazda3",
+"mazdamazda6": "mazda6",
+"mazdampv": "mpv",
+"mazdapremacy": "premacy",
+"miata": "miata",
+"millenia": "millenia",
+"mpv": "mpv",
+"mx3": "mx-3",
+"mx30": "mx-30",
+"mx5": "mx-5",
+"mx6": "mx-6",
+"navajo": "navajo",
+"persona": "persona",
+"premacy": "premacy",
+"proceed": "proceed",
+"proceedlevante": "proceed_levante",
+"proceedmarvie": "proceed_marvie",
+"protege": "protege",
+"revue": "revue",
+"roadpacer": "roadpacer",
+"roadster": "roadster",
+"rx5": "rx-5",
+"rx7": "rx-7",
+"rx8": "rx-8",
+"savanna": "savanna",
+"savannarx7": "savanna_rx-7",
+"scrum": "scrum",
+"sentia": "sentia",
+"spiano": "spiano",
+"tribute": "tribute",
+"verisa": "verisa",
+"xedos6": "xedos_6",
+"xedos9": "xedos_9",
+"двигателиmazda": "engine",
+"кузоваmazda": "frame"
+},
+"porsche": {
+"356": "356",
+"911": "911",
+"914": "914",
+"918": "918",
+"924": "924",
+"928": "928",
+"944": "944",
+"968": "968",
+"boxster": "boxster",
+"carrera": "carrera",
+"carreragt": "carrera",
+"cayenne": "cayenne",
+"cayennecoupe": "cayenne_coupe",
+"cayman": "cayman",
+"engine": "engine",
+"frame": "frame",
+"macan": "macan",
+"panamera": "panamera",
+"porsche911": "911",
+"porsche928": "928",
+"porsche944": "944",
+"porscheboxster": "boxster",
+"porschecayenne": "cayenne",
+"porschecayennecoupe": "cayenne_coupe",
+"porschecayman": "cayman",
+"porschemacan": "macan",
+"porschepanamera": "panamera",
+"porschetaycan": "taycan",
+"taycan": "taycan",
+"двигателиporsche": "engine",
+"кузоваporsche": "frame"
+}
+}
+}
