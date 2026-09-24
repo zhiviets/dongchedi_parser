@@ -445,6 +445,14 @@
 "g_202410_21422"
 ]
 },
+"byd/seal_07/china": {
+"day": 739883,
+"gens": [
+"g_2023_21424",
+"g_202509_23348",
+"g_2026_25137"
+]
+},
 "byd/song_pro/china": {
 "day": 739883,
 "gens": [
@@ -564,6 +572,24 @@
 "g_2020_24955"
 ]
 },
+"honda/cr-v/china": {
+"day": 739883,
+"gens": [
+"g_199510_8447",
+"g_199812_8446",
+"g_200109_970",
+"g_200409_4695",
+"g_200609_1004",
+"g_200909_10572",
+"g_201112_10573",
+"g_201612_25024",
+"g_2016_20904",
+"g_201909_25025",
+"g_2019_20905",
+"g_202209_23245",
+"g_2022_19297"
+]
+},
 "hongqi/hs3/china": {
 "day": 739883,
 "gens": [
@@ -589,6 +615,19 @@
 "g_2022_17127"
 ]
 },
+"leapmotor/c16/china": {
+"day": 739883,
+"gens": [
+"g_202406_20723",
+"g_2026_24691"
+]
+},
+"leapmotor/lafa_5/china": {
+"day": 739883,
+"gens": [
+"g_2025_23349"
+]
+},
 "luxeed/r7/china": {
 "day": 739883,
 "gens": [
@@ -601,6 +640,12 @@
 "gens": [
 "g_2023_21036",
 "g_2025_24951"
+]
+},
+"luxeed/v9/china": {
+"day": 739883,
+"gens": [
+"g_2026_24948"
 ]
 },
 "maextro/s800/china": {
@@ -762,6 +807,15 @@
 "g_2019_22448",
 "g_202409_22501",
 "g_2024_22449"
+]
+},
+"voyah/free/china": {
+"day": 739883,
+"gens": [
+"g_2020_15673",
+"g_202106_16923",
+"g_202208_20457",
+"g_2022_19150"
 ]
 },
 "wey/p8/china": {
@@ -3416,6 +3470,210 @@
 "market": "Китай",
 "to": null
 },
+"byd/seal_07/g_2023_21424": {
+"from": 202309,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472QC",
+"fuel": "бензин",
+"hp": 101,
+"hp_total": 218,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 101 л.с., параллельный подзаряжаемый (PHEV) гибрид, 218 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202408,
+"name": "DM-i 1.5 CVT 70KM Elite",
+"to": 202504
+},
+{
+"from": 202408,
+"name": "DM-i 1.5 CVT 125KM Elite",
+"to": 202504
+},
+{
+"from": 202408,
+"name": "DM-i 1.5 CVT 125KM Luxury",
+"to": 202504
+},
+{
+"from": 202408,
+"name": "DM-i 1.5 CVT 125KM Premium",
+"to": 202504
+},
+{
+"from": 202502,
+"name": "DM-i 1.5 CVT 70KM Intelligent Driving Elite",
+"to": 202512
+},
+{
+"from": 202502,
+"name": "DM-i 1.5 CVT 125KM Intelligent Driving Elite",
+"to": 202512
+},
+{
+"from": 202502,
+"name": "DM-i 1.5 CVT 125KM Intelligent Driving Luxury",
+"to": 202512
+},
+{
+"from": 202502,
+"name": "DM-i 1.5 CVT 125KM Intelligent Driving Premium",
+"to": 202512
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472QA",
+"fuel": "бензин",
+"hp": 110,
+"hp_total": 197,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 110 л.с., параллельный подзаряжаемый (PHEV) гибрид, 197 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202309,
+"name": "DM-i 1.5 CVT 121KM Elite",
+"to": 202407
+},
+{
+"from": 202309,
+"name": "DM-i 1.5 CVT 121KM Luxury",
+"to": 202407
+},
+{
+"from": 202309,
+"name": "DM-i 1.5 CVT 121KM Premium",
+"to": 202407
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQC",
+"fuel": "бензин",
+"hp": 139,
+"hp_total": 218,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 139 л.с., параллельный подзаряжаемый (PHEV) гибрид, 218 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202309,
+"name": "DM-i 1.5T CVT 121KM Premium",
+"to": 202407
+},
+{
+"from": 202309,
+"name": "DM-i 1.5T CVT 121KM Flagship",
+"to": 202407
+},
+{
+"from": 202309,
+"name": "DM-i 1.5T CVT 200KM Flagship",
+"to": 202407
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472ZQB",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 272,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 272 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202408,
+"name": "DM-i 1.5T CVT 125KM Flagship",
+"to": 202504
+},
+{
+"from": 202502,
+"name": "DM-i 1.5T CVT 125KM Intelligent Driving Flagship",
+"to": 202512
+}
+]
+}
+],
+"market": "Китай",
+"to": 202512
+},
+"byd/seal_07/g_202509_23348": {
+"from": 202509,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472QC",
+"fuel": "бензин",
+"hp": 101,
+"hp_total": 218,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 101 л.с., параллельный подзаряжаемый (PHEV) гибрид, 218 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202509,
+"name": "DM-i 1.5 CVT 135KM Luxury",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472ZQB",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 272,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 272 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202509,
+"name": "DM-i 1.5 CVT 135KM Premium",
+"to": null
+},
+{
+"from": 202509,
+"name": "DM-i 1.5 CVT 230KM Premium",
+"to": null
+},
+{
+"from": 202509,
+"name": "DM-i 1.5 CVT 230KM Flagship",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"byd/seal_07/g_2026_25137": {
+"from": 202609,
+"groups": [],
+"market": "Китай",
+"to": null
+},
 "byd/song_pro/g_201907_16852": {
 "from": 201907,
 "groups": [
@@ -5117,6 +5375,868 @@
 "market": "Китай",
 "to": null
 },
+"honda/cr-v/g_201112_10573": {
+"from": 201112,
+"groups": [
+{
+"body": [
+"RM3"
+],
+"drive": "fwd",
+"engine": "K24Z6",
+"fuel": "бензин",
+"hp": 185,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 185 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201112,
+"name": "2.4 AT FWD LX",
+"to": 201409
+},
+{
+"from": 201112,
+"name": "2.4 AT FWD EX",
+"to": 201409
+},
+{
+"from": 201112,
+"name": "2.4 AT FWD EX-L",
+"to": 201409
+}
+]
+},
+{
+"body": [
+"RM4"
+],
+"drive": "4wd",
+"engine": "K24Z6",
+"fuel": "бензин",
+"hp": 185,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 185 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201112,
+"name": "2.4 AT 4WD LX",
+"to": 201409
+},
+{
+"from": 201112,
+"name": "2.4 AT 4WD EX",
+"to": 201409
+},
+{
+"from": 201112,
+"name": "2.4 AT 4WD EX-L",
+"to": 201409
+}
+]
+}
+],
+"market": "США",
+"to": 201409
+},
+"honda/cr-v/g_201612_25024": {
+"from": 201610,
+"groups": [
+{
+"body": [
+"RW"
+],
+"drive": "fwd",
+"engine": "K24W9",
+"fuel": "бензин",
+"hp": 186,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 186 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201705,
+"name": "2.4 CVT LX",
+"to": 202002
+},
+{
+"from": 201705,
+"name": "2.4 CVT LX Plus",
+"to": 202002
+}
+]
+},
+{
+"body": [
+"RW"
+],
+"drive": "4wd",
+"engine": "K24W9",
+"fuel": "бензин",
+"hp": 186,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 186 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201705,
+"name": "2.4 CVT AWD EX Plus",
+"to": 202002
+},
+{
+"from": 201705,
+"name": "2.4 CVT AWD Touring",
+"to": 202002
+}
+]
+}
+],
+"market": "ОАЭ",
+"to": 202002
+},
+"honda/cr-v/g_2016_20904": {
+"from": 201610,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "L15BL",
+"fuel": "бензин",
+"hp": 193,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 193 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201707,
+"name": "1.5T MT 240T Classic V",
+"to": 201806
+},
+{
+"from": 201807,
+"name": "1.5T MT 240T Classic V",
+"to": 202007
+},
+{
+"from": 201911,
+"name": "1.5T MT 240T Dazzling Edition Classic VI",
+"to": 202007
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "L15BL",
+"fuel": "бензин",
+"hp": 193,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 193 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201707,
+"name": "1.5T CVT 240T Comfort V",
+"to": 201806
+},
+{
+"from": 201707,
+"name": "1.5T CVT 240T Urban V",
+"to": 202007
+},
+{
+"from": 201707,
+"name": "1.5T CVT 240T Fashion V",
+"to": 202007
+},
+{
+"from": 201807,
+"name": "1.5T CVT 240T Comfort V",
+"to": 202007
+},
+{
+"from": 201810,
+"name": "1.5T CVT 240T Comfort VI",
+"to": 202007
+},
+{
+"from": 201810,
+"name": "1.5T CVT 240T Urban VI",
+"to": 202007
+},
+{
+"from": 201810,
+"name": "1.5T CVT 240T Fashion VI",
+"to": 202007
+},
+{
+"from": 201911,
+"name": "1.5T CVT 240T Dazzling Edition Comfort VI",
+"to": 202007
+},
+{
+"from": 201911,
+"name": "1.5T CVT 240T Dazzling Edition Urban VI",
+"to": 202007
+},
+{
+"from": 201911,
+"name": "1.5T CVT 240T Dazzling Plus Edition Fashion VI",
+"to": 202007
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "L15BL",
+"fuel": "бензин",
+"hp": 193,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 193 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201707,
+"name": "1.5T CVT AWD 240T Luxury V",
+"to": 202007
+},
+{
+"from": 201707,
+"name": "1.5T CVT AWD 240T Premium V",
+"to": 202007
+},
+{
+"from": 201707,
+"name": "1.5T CVT AWD 240T Exclusive V",
+"to": 202007
+},
+{
+"from": 201810,
+"name": "1.5T CVT AWD 240T Luxury VI",
+"to": 202007
+},
+{
+"from": 201810,
+"name": "1.5T CVT AWD 240T Premium VI",
+"to": 202007
+},
+{
+"from": 201810,
+"name": "1.5T CVT AWD 240T Exclusive VI",
+"to": 202007
+},
+{
+"from": 201911,
+"name": "1.5T CVT AWD 240T Dazzling Plus Edition Fashion VI",
+"to": 202007
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LFA11",
+"fuel": "бензин",
+"hp": 146,
+"hp_total": 184,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 146 л.с., параллельный гибрид, 184 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201707,
+"name": "HEV 2.0 e-CVT Net Speed",
+"to": 201809
+},
+{
+"from": 201707,
+"name": "HEV 2.0 e-CVT Clean",
+"to": 201809
+},
+{
+"from": 201707,
+"name": "HEV 2.0 e-CVT Pure",
+"to": 201809
+},
+{
+"from": 201810,
+"name": "HEV 2.0 e-CVT Net Speed",
+"to": 202007
+},
+{
+"from": 201810,
+"name": "HEV 2.0 e-CVT Clean",
+"to": 202007
+},
+{
+"from": 201810,
+"name": "HEV 2.0 e-CVT Pure",
+"to": 202007
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "LFA11",
+"fuel": "бензин",
+"hp": 146,
+"hp_total": 184,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 146 л.с., параллельный гибрид, 184 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201810,
+"name": "HEV 2.0 e-CVT AWD Net",
+"to": 202007
+}
+]
+}
+],
+"market": "Китай",
+"to": 202007
+},
+"honda/cr-v/g_201909_25025": {
+"from": 201909,
+"groups": [
+{
+"body": [
+"RW"
+],
+"drive": "fwd",
+"engine": "K24W9",
+"fuel": "бензин",
+"hp": 186,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 186 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202002,
+"name": "2.4 CVT LX",
+"to": 202311
+},
+{
+"from": 202002,
+"name": "2.4 CVT LX Plus",
+"to": 202112
+}
+]
+},
+{
+"body": [
+"RW"
+],
+"drive": "4wd",
+"engine": "K24W9",
+"fuel": "бензин",
+"hp": 186,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 186 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202002,
+"name": "2.4 CVT AWD EX Plus",
+"to": 202310
+},
+{
+"from": 202002,
+"name": "2.4 CVT AWD Touring",
+"to": 202311
+}
+]
+}
+],
+"market": "ОАЭ",
+"to": 202311
+},
+"honda/cr-v/g_2019_20905": {
+"from": 201909,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "L15BL",
+"fuel": "бензин",
+"hp": 193,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 193 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202007,
+"name": "1.5T MT 240T Classic",
+"to": 202209
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "L15BL",
+"fuel": "бензин",
+"hp": 193,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 193 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202007,
+"name": "1.5T CVT 240T Comfort",
+"to": 202209
+},
+{
+"from": 202007,
+"name": "1.5T CVT 240T Urban",
+"to": 202209
+},
+{
+"from": 202007,
+"name": "1.5T CVT 240T Fashion",
+"to": 202209
+},
+{
+"from": 202007,
+"name": "1.5T CVT 240T Black Jazz Edition",
+"to": 202209
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "L15BL",
+"fuel": "бензин",
+"hp": 193,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 193 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202007,
+"name": "1.5T CVT AWD 240T Luxury",
+"to": 202209
+},
+{
+"from": 202007,
+"name": "1.5T CVT AWD 240T Black Jazz Edition",
+"to": 202209
+},
+{
+"from": 202007,
+"name": "1.5T CVT AWD 240T Premium",
+"to": 202209
+},
+{
+"from": 202007,
+"name": "1.5T CVT AWD 240T Exclusive",
+"to": 202209
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LFB12",
+"fuel": "бензин",
+"hp": 146,
+"hp_total": 184,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 146 л.с., параллельный подзаряжаемый (PHEV) гибрид, 184 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202007,
+"name": "PHEV 2.0 e-CVT Clean",
+"to": 202209
+},
+{
+"from": 202007,
+"name": "PHEV 2.0 e-CVT Net Speed",
+"to": 202209
+},
+{
+"from": 202007,
+"name": "PHEV 2.0 e-CVT Netchi",
+"to": 202209
+},
+{
+"from": 202007,
+"name": "PHEV 2.0 e-CVT Black Jazz Edition",
+"to": 202209
+},
+{
+"from": 202007,
+"name": "PHEV 2.0 e-CVT Pure",
+"to": 202209
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "LFB12",
+"fuel": "бензин",
+"hp": 146,
+"hp_total": 184,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 146 л.с., параллельный подзаряжаемый (PHEV) гибрид, 184 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202007,
+"name": "PHEV 2.0 e-CVT AWD Pure",
+"to": 202209
+},
+{
+"from": 202007,
+"name": "PHEV 2.0 e-CVT AWD Black Jazz Edition",
+"to": 202209
+},
+{
+"from": 202007,
+"name": "PHEV 2.0 e-CVT AWD Net",
+"to": 202209
+}
+]
+}
+],
+"market": "Китай",
+"to": 202209
+},
+"honda/cr-v/g_202209_23245": {
+"from": 202207,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "LFB22",
+"fuel": "бензин",
+"hp": 144,
+"hp_total": 184,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 144 л.с., параллельный гибрид, 184 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202308,
+"name": "e:HEV 2.0 CVT Elegance",
+"to": null
+},
+{
+"from": 202311,
+"name": "e:HEV 2.0 CVT Elegance Style",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LFB22",
+"fuel": "бензин",
+"hp": 144,
+"hp_total": 184,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 144 л.с., параллельный подзаряжаемый (PHEV) гибрид, 184 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202311,
+"name": "e:PHEV 2.0 CVT Advance Tech",
+"to": null
+},
+{
+"from": 202508,
+"name": "e:PHEV 2.0 CVT Elegance Tech",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "LFB22",
+"fuel": "бензин",
+"hp": 144,
+"hp_total": 184,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 144 л.с., параллельный гибрид, 184 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202308,
+"name": "e:HEV 2.0 CVT AWD Elegance",
+"to": null
+},
+{
+"from": 202308,
+"name": "e:HEV 2.0 CVT AWD Advance",
+"to": null
+},
+{
+"from": 202311,
+"name": "e:HEV 2.0 CVT AWD Elegance Style",
+"to": null
+},
+{
+"from": 202311,
+"name": "e:HEV 2.0 CVT AWD Advance Style",
+"to": null
+}
+]
+}
+],
+"market": "Европа",
+"to": null
+},
+"honda/cr-v/g_2022_19297": {
+"from": 202207,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "L15BZ",
+"fuel": "бензин",
+"hp": 193,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 193 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202209,
+"name": "1.5T CVT 240T Active",
+"to": 202509
+},
+{
+"from": 202209,
+"name": "1.5T CVT 240T Vanguard (5 seats)",
+"to": 202509
+},
+{
+"from": 202209,
+"name": "1.5T CVT 240T Intelligent",
+"to": 202509
+},
+{
+"from": 202209,
+"name": "1.5T CVT 240T Vanguard (7 seats)",
+"to": 202509
+},
+{
+"from": 202209,
+"name": "1.5T CVT 240T Premium",
+"to": 202509
+},
+{
+"from": 202303,
+"name": "1.5T CVT 240T Style",
+"to": 202509
+},
+{
+"from": 202509,
+"name": "1.5T CVT 240T Dynamic (Global 30th Anniversary Edition)",
+"to": null
+},
+{
+"from": 202509,
+"name": "1.5T CVT 240T Sport 5-Seats (Global 30th Anniversary Edition)",
+"to": null
+},
+{
+"from": 202509,
+"name": "1.5T CVT 240T Smart Leader (Global 30th Anniversary Edition)",
+"to": null
+},
+{
+"from": 202509,
+"name": "1.5T CVT 240T Sport 7-Seats (Global 30th Anniversary Edition)",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "L15BZ",
+"fuel": "бензин",
+"hp": 193,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 193 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202209,
+"name": "1.5T CVT AWD 240T Premium",
+"to": 202509
+},
+{
+"from": 202209,
+"name": "1.5T CVT AWD 240T Glory",
+"to": 202509
+},
+{
+"from": 202509,
+"name": "1.5T CVT AWD 240T Supreme (Global 30th Anniversary Edition)",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LFB22",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": 184,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 150 л.с., параллельный гибрид, 184 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202306,
+"name": "e:HEV 2.0 CVT Wisdom",
+"to": 202509
+},
+{
+"from": 202306,
+"name": "e:HEV 2.0 CVT Enjoy",
+"to": 202509
+},
+{
+"from": 202306,
+"name": "e:HEV 2.0 CVT Smart",
+"to": 202509
+},
+{
+"from": 202306,
+"name": "e:HEV 2.0 CVT Glory",
+"to": 202509
+},
+{
+"from": 202509,
+"name": "e:HEV 2.0 CVT Smart Trend (Global 30th Anniversary Edition)",
+"to": null
+},
+{
+"from": 202509,
+"name": "e:HEV 2.0 CVT Smart Enjoy (Global 30th Anniversary Edition)",
+"to": null
+},
+{
+"from": 202509,
+"name": "e:HEV 2.0 CVT Smart Elite (Global 30th Anniversary Edition)",
+"to": null
+},
+{
+"from": 202509,
+"name": "e:HEV 2.0 CVT Smart Premium (Global 30th Anniversary Edition)",
+"to": null
+},
+{
+"from": 202509,
+"name": "e:HEV 2.0 CVT Smart Flagship (Global 30th Anniversary Edition)",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LFB16",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": 184,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 150 л.с., параллельный подзаряжаемый (PHEV) гибрид, 184 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202303,
+"name": "e:PHEV 2.0 CVT Start",
+"to": null
+},
+{
+"from": 202303,
+"name": "e:PHEV 2.0 CVT Cross",
+"to": null
+},
+{
+"from": 202303,
+"name": "e:PHEV 2.0 CVT Leader",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "LFB22",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": 184,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 150 л.с., параллельный гибрид, 184 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202306,
+"name": "e:HEV 2.0 CVT AWD Intelligent Premium",
+"to": 202509
+},
+{
+"from": 202509,
+"name": "e:HEV 2.0 CVT AWD Smart Elite (Global 30th Anniversary Edition)",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
 "hongqi/hs3/g_202307_20825": {
 "from": 202304,
 "groups": [
@@ -5396,6 +6516,63 @@
 "market": "Китай",
 "to": null
 },
+"leapmotor/c16/g_202406_20723": {
+"from": 202404,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": "H15R",
+"fuel": "бензин",
+"hp": 95,
+"hp_total": 231,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 95 л.с., последовательный подзаряжаемый (PHEV) гибрид, 231 л.с., редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202406,
+"name": "EREV 1.5 SSR Premium 200",
+"to": 202505
+},
+{
+"from": 202406,
+"name": "EREV 1.5 SSR Smart 200",
+"to": 202505
+},
+{
+"from": 202506,
+"name": "EREV 1.5 SSR Premium 200 6-seater",
+"to": 202605
+},
+{
+"from": 202506,
+"name": "EREV 1.5 SSR LiDAR Premium 280 5-seater",
+"to": 202605
+},
+{
+"from": 202506,
+"name": "EREV 1.5 SSR LiDAR 280 6-seater",
+"to": 202605
+},
+{
+"from": 202506,
+"name": "EREV 1.5 SSR LiDAR Premium 280 6-seater",
+"to": 202605
+}
+]
+}
+],
+"market": "Китай",
+"to": 202605
+},
+"leapmotor/lafa_5/g_2025_23349": {
+"from": 202509,
+"groups": [],
+"market": "Китай",
+"to": null
+},
 "luxeed/r7/g_202409_21057": {
 "from": 202408,
 "groups": [],
@@ -5416,6 +6593,12 @@
 },
 "luxeed/s7/g_2025_24951": {
 "from": 202508,
+"groups": [],
+"market": "Китай",
+"to": null
+},
+"luxeed/v9/g_2026_24948": {
+"from": 202605,
 "groups": [],
 "market": "Китай",
 "to": null
@@ -11731,6 +12914,226 @@
 "market": "Китай",
 "to": null
 },
+"voyah/free/g_2020_15673": {
+"from": 202012,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "SFG15TR",
+"fuel": "бензин",
+"hp": 109,
+"hp_total": 693,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 109 л.с., последовательный подзаряжаемый (PHEV) гибрид, 693 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202106,
+"name": "PHEV 1.5T 4WD Extended Range Anniversary",
+"to": 202208
+},
+{
+"from": 202106,
+"name": "PHEV 1.5T 4WD Basic",
+"to": 202208
+},
+{
+"from": 202106,
+"name": "PHEV 1.5T Extended Range Exclusive Luxury",
+"to": 202208
+},
+{
+"from": 202106,
+"name": "PHEV 1.5T 4WD Extended Range",
+"to": 202208
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"voyah/free/g_202106_16923": {
+"from": 202012,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "SFG15TR",
+"fuel": "бензин",
+"hp": 108,
+"hp_total": 693,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 108 л.с., последовательный подзаряжаемый (PHEV) гибрид, 693 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202212,
+"name": "1.5 EVR",
+"to": 202510
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "SFG15TR",
+"fuel": "бензин",
+"hp": 108,
+"hp_total": 489,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 108 л.с., последовательный подзаряжаемый (PHEV) гибрид, 489 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202303,
+"name": "1.5 EVR Long Range",
+"to": 202502
+}
+]
+}
+],
+"market": "Россия",
+"to": 202510
+},
+"voyah/free/g_202208_20457": {
+"from": 202208,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "DAM15NTDE",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": 489,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 150 л.с., последовательный подзаряжаемый (PHEV) гибрид, 489 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202406,
+"name": "1.5 EVR Sport Edition",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "DAM15NTDE",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": 510,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 150 л.с., последовательный подзаряжаемый (PHEV) гибрид, 510 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202511,
+"name": "1.5 EVR Sport+",
+"to": null
+}
+]
+}
+],
+"market": "Россия",
+"to": null
+},
+"voyah/free/g_2022_19150": {
+"from": 202208,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "SFG15TR",
+"fuel": "бензин",
+"hp": 109,
+"hp_total": 693,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 109 л.с., последовательный подзаряжаемый (PHEV) гибрид, 693 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202208,
+"name": "PHEV 1.5T 4WD DNA Ultra Long",
+"to": 202308
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "DAM15NTDE, SFG15TR",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": 489,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 150 л.с., последовательный подзаряжаемый (PHEV) гибрид, 489 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202308,
+"name": "PHEV 1.5T 4WD Extended Range",
+"to": 202406
+},
+{
+"from": 202406,
+"name": "PHEV 1.5T 4WD Extended Range",
+"to": null
+},
+{
+"from": 202603,
+"name": "PHEV 1.5T 4WD Forward",
+"to": null
+},
+{
+"from": 202504,
+"name": "PHEV 1.5T 4WD Century",
+"to": null
+},
+{
+"from": 202301,
+"name": "PHEV 1.5T 4WD Extended Range",
+"to": 202308
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "DAM15NTDE",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": 272,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 150 л.с., последовательный подзаряжаемый (PHEV) гибрид, 272 л.с., редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202406,
+"name": "PHEV 1.5T Extended Range",
+"to": null
+},
+{
+"from": 202603,
+"name": "PHEV 1.5T Pilot",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
 "wey/p8/g_2017_19947": {
 "from": 201711,
 "groups": [
@@ -13515,6 +14918,135 @@
 "xiaolong": "xiaolong",
 "xiaolongmax": "xiaolong_max",
 "двигателиhaval": "engine"
+},
+"honda": {
+"1300": "1300",
+"145": "145",
+"accord": "accord",
+"accordinspire": "accord_inspire",
+"acty": "acty",
+"airwave": "airwave",
+"ascot": "ascot",
+"ascotinnova": "ascot_innova",
+"avancier": "avancier",
+"ballade": "ballade",
+"beat": "beat",
+"breeze": "breeze",
+"capa": "capa",
+"city": "city",
+"civic": "civic",
+"civicferio": "civic_ferio",
+"civicshuttle": "civic_shuttle",
+"civictyper": "civic_type_r",
+"clarity": "fcx_clarity",
+"concerto": "concerto",
+"crider": "crider",
+"crossroad": "crossroad",
+"crosstour": "crosstour",
+"crv": "cr-v",
+"crx": "cr-x",
+"crxdelsol": "cr-x_delsol",
+"crz": "cr-z",
+"domani": "domani",
+"e": "e",
+"e:np1": "e-np1",
+"e:np2": "e-np2",
+"e:ns2": "e-ns2",
+"e:ny1": "e_ny1",
+"edix": "edix",
+"element": "element",
+"elysion": "elysion",
+"engine": "engine",
+"enp1": "e-np1",
+"enp2": "e-np2",
+"ens2": "e-ns2",
+"envix": "envix",
+"eny1": "e_ny1",
+"everusve1": "ve-1",
+"fcxclarity": "fcx_clarity",
+"fit": "fit",
+"fitaria": "fit_aria",
+"fitshuttle": "fit_shuttle",
+"frame": "frame",
+"freed": "freed",
+"freed+": "freed_plus",
+"freedplus": "freed_plus",
+"freedspike": "freed_spike",
+"frv": "fr-v",
+"grace": "grace",
+"hondaaccord": "accord",
+"hondacivic": "civic",
+"hondacrv": "cr-v",
+"hondafit": "fit",
+"hondafitshuttle": "fit_shuttle",
+"hondafreed": "freed",
+"hondahrv": "hr-v",
+"hondastepwgn": "stepwgn",
+"hondastream": "stream",
+"hondavezel": "vezel",
+"horizon": "horizon",
+"hrv": "hr-v",
+"insight": "insight",
+"inspire": "inspire",
+"integra": "integra",
+"integrasj": "integra_sj",
+"jade": "jade",
+"jazz": "jazz",
+"lagreat": "lagreat",
+"legend": "legend",
+"life": "life",
+"lifedunk": "life_dunk",
+"logo": "logo",
+"mdx": "mdx",
+"mnv": "mn-v",
+"mobilio": "mobilio",
+"mobiliospike": "mobilio_spike",
+"nbox": "n-box",
+"nbox+": "n-box_plus",
+"nboxplus": "n-box_plus",
+"nboxslash": "n_box_slash",
+"none": "n-one",
+"nsx": "nsx",
+"nvan": "n-van",
+"nwgn": "n-wgn",
+"odyssey": "odyssey",
+"orthia": "orthia",
+"p7": "p7",
+"partner": "partner",
+"passport": "passport",
+"prelude": "prelude",
+"prologue": "prologue",
+"quint": "quint",
+"rafaga": "rafaga",
+"ridgeline": "ridgeline",
+"s2000": "s2000",
+"s660": "s660",
+"s7": "s7",
+"saber": "saber",
+"shuttle": "shuttle",
+"smx": "s-mx",
+"stepwgn": "stepwgn",
+"stream": "stream",
+"street": "street",
+"superone": "super_one",
+"that's": "that~s",
+"that~s": "that~s",
+"today": "today",
+"torneo": "torneo",
+"urv": "ur-v",
+"vamos": "vamos",
+"vamoshobio": "vamos_hobio",
+"ve1": "ve-1",
+"vezel": "vezel",
+"vigor": "vigor",
+"wrv": "wr-v",
+"xnv": "x-nv",
+"xrv": "xr-v",
+"z": "z",
+"zest": "zest",
+"zrv": "zr-v",
+"двигателиhonda": "engine",
+"кузоваhonda": "frame"
 },
 "hongqi": {
 "eh7": "eh7",
