@@ -54,7 +54,7 @@ PER_MODEL_RUN = {"le160": int(os.environ.get("CHE168_PER_MODEL_LE160") or "3"),
                  "other": int(os.environ.get("CHE168_PER_MODEL_OTHER") or "2")}
 # Доля машин до 160 л.с. (проходных по утильсбору), остальные — любой мощности
 SHARE_160 = float(os.environ.get("CHE168_SHARE_160") or "0.75")
-MIN_YEAR = int(os.environ.get("CHE168_MIN_YEAR") or "2017")
+MIN_YEAR = int(os.environ.get("CHE168_MIN_YEAR") or "2010")
 MAX_PAGES = int(os.environ.get("CHE168_MAX_PAGES") or "100")
 LIST_URL = "https://www.che168.com/china/a0_0msdgscncgpi1ltocsp{page}exx0/"
 
@@ -538,8 +538,9 @@ def scan_models(page, known: set, touched: list | None = None):
     return groups
 
 
-# Доли по годам: 70% — 2022–2024, 15% — 2025–2026, 15% — 2017–2021 (порядок — приоритет)
-YEAR_BANDS = [("2022–2024", 2022, 2024, 0.70), ("2025–2026", 2025, 2026, 0.15), ("2017–2021", 2017, 2021, 0.15)]
+# Доли по годам: 60% — 2022–2024, 15% — 2025–2026, 15% — 2017–2021, 10% — 2010–2016 (порядок — приоритет)
+YEAR_BANDS = [("2022–2024", 2022, 2024, 0.60), ("2025–2026", 2025, 2026, 0.15), ("2017–2021", 2017, 2021, 0.15),
+              ("2010–2016", 2010, 2016, 0.10)]
 
 
 def year_band(year):
