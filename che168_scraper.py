@@ -32,7 +32,18 @@ from playwright.sync_api import sync_playwright
 from china_brand_map import extract_brand_model
 from weekly_scraper import compress_photo_to_data_url
 
-TOTAL = int(os.environ.get("CHE168_TOTAL") or "30")
+# Сколько новых машин за прогон (0 — само: до FILL_TARGET на сайте, потом раз в неделю)
+TOTAL = int(os.environ.get("CHE168_TOTAL") or "0")
+# Заполнение каталога: пока машин с полной информацией на сайте меньше FILL_TARGET —
+# каждый прогон добавляет до FILL_PER_RUN новых; дальше раз в неделю (WEEKLY_DAY,
+# 0 — понедельник) — WEEKLY_NEW, в остальные дни прогон сразу заканчивается
+FILL_TARGET = int(os.environ.get("CHE168_FILL_TARGET") or "5500")
+FILL_PER_RUN = int(os.environ.get("CHE168_FILL_PER_RUN") or "800")
+# Через сколько минут от начала прогона перестать открывать объявления и отправить собранное
+# (предел GitHub Actions — 6 часов)
+RUN_MINUTES = float(os.environ.get("CHE168_RUN_MINUTES") or "320")
+WEEKLY_NEW = int(os.environ.get("CHE168_WEEKLY_NEW") or "1000")
+WEEKLY_DAY = int(os.environ.get("CHE168_WEEKLY_DAY") or "3")
 # Доля машин до 160 л.с. (проходных по утильсбору), остальные — любой мощности
 SHARE_160 = float(os.environ.get("CHE168_SHARE_160") or "0.75")
 MIN_YEAR = int(os.environ.get("CHE168_MIN_YEAR") or "2017")
@@ -393,7 +404,7 @@ def browser_fetcher():
     return get, close_all
 
 
-def scan_models(page, known: set):
+def scan_models(page, known: set, touched: list | None = None):
     """Карточки всех моделей: {модель: [машины]}. False — список не открылся (прокси), None — марок не нашли.
 
     Сначала страницы всех марок (/china/aodi/), потом страницы моделей (/china/aodi/aodia4l/),
@@ -429,6 +440,11 @@ def scan_models(page, known: set):
             if c["infoid"] in seen or not c["year"] or c["year"] < MIN_YEAR:
                 continue
             seen.add(c["infoid"])
+            if c["infoid"] in known:
+                # Уже на сайте с полной информацией — только отметка «ещё в продаже»
+                if touched is not None:
+                    touched.append(c)
+                continue
             make = brand_model(c["name"], "", c.get("brandid"))[0]
             c["power"] = power_class(c["name"], make) if make else None
             if c["power"]:
@@ -508,9 +524,6 @@ def scan_models(page, known: set):
           f"машин {sum(map(len, groups.values()))}; страниц с машинами {stats['ok']}, пустых {stats['empty']}, "
           f"ошибок {stats['failed']}, проверок {stats['blocked']}; запросом {get.stats['request']}, "
           f"через загрузку страницы {get.stats['browser']}")
-    for cars in groups.values():
-        # Машины, которые уже на сайте, — первыми: иначе сайт разрастался бы от прогона к прогону
-        cars.sort(key=lambda c: c["infoid"] not in known)
     return groups
 
 
@@ -522,7 +535,7 @@ def year_band(year):
     return next((name for name, lo, hi, _ in YEAR_BANDS if year and lo <= year <= hi), None)
 
 
-def pick_models(groups: dict, total: int) -> list[dict]:
+def pick_models(groups: dict, total: int, on_site: dict | None = None) -> list[dict]:
     """Не больше total машин: 75% до 160 л.с., 25% мощнее (электро, гибриды), по годам — YEAR_BANDS.
 
     1) каждая модель, у которой есть машина до 160 л.с., — одна такая машина;
@@ -531,7 +544,12 @@ def pick_models(groups: dict, total: int) -> list[dict]:
        случайный: от прогона к прогону на сайт попадают разные, а не попавшие через
        20 дней скрываются — со временем на сайте бывают все модели;
     4) добор мощных до 25%.
+    Модели, которых на сайте меньше (on_site), идут первыми; по машине без очереди (1 и 3)
+    получают только модели, которых на сайте ещё нет.
     """
+    on_site = on_site or {}
+    order = sorted(groups, key=lambda k: (on_site.get(k, 0), random.random()))
+    groups = {k: groups[k] for k in order}
     picked, used = [], set()
     count = {}
     rank = {name: i for i, (name, *_) in enumerate(YEAR_BANDS)}
@@ -550,9 +568,9 @@ def pick_models(groups: dict, total: int) -> list[dict]:
     for cars in groups.values():
         # Сначала 2022–2024, потом 2025–2026, потом старше; уже на сайте — первыми (порядок сохраняется)
         cars.sort(key=lambda c: rank.get(year_band(c["year"]), 9))
-    le_models = [cars for cars in groups.values() if any(c["power"] == "le160" for c in cars)]
-    other_models = [cars for cars in groups.values() if not any(c["power"] == "le160" for c in cars)]
-    random.shuffle(other_models)
+    le_models = [cars for k, cars in groups.items() if any(c["power"] == "le160" for c in cars) and not on_site.get(k)]
+    other_models = [cars for k, cars in groups.items() if not any(c["power"] == "le160" for c in cars)
+                    and not on_site.get(k)]
     for cars in le_models:
         if total_of("le160") < quota["le160"]:
             take(next(c for c in cars if c["power"] == "le160"))
@@ -588,7 +606,7 @@ def pick_models(groups: dict, total: int) -> list[dict]:
     fill_kind("other", other_target)
     share = total_of("le160") / len(picked) if picked else 0
     years = {name: sum(v for (_, b), v in count.items() if b == name) for name, *_ in YEAR_BANDS}
-    print(f"Выбрано: моделей {covered} из {len(groups)} (с машинами до 160 л.с. {len(le_models)}, только мощные "
+    print(f"Выбрано: моделей {covered} из {len(groups)} (новых на сайте: с машинами до 160 л.с. {len(le_models)}, только мощные "
           f"{len(other_models)}), машин {len(picked)} — до 160 л.с. {total_of('le160')} ({share:.0%}), "
           f"мощнее или электро/гибрид {total_of('other')}; по годам: " + ", ".join(f"{k} — {v}" for k, v in years.items()))
     return picked
@@ -937,32 +955,64 @@ def fetch_photo(session, urls):
     return fallback
 
 
-def fetch_known() -> set:
+def fetch_known() -> dict:
+    """Все объявления che168 на сайте: id → марка, модель, complete (фото, цена, данные для расчёта)…"""
     if not BN_AUTO_URL or not BN_AUTO_IMPORT_TOKEN:
-        return set()
+        return {}
     try:
-        resp = requests.get(f"{BN_AUTO_URL}/api/live-listings/known", params={"source": "che168"},
-                            headers={"Authorization": f"Bearer {BN_AUTO_IMPORT_TOKEN}"}, timeout=30)
+        resp = requests.get(f"{BN_AUTO_URL}/api/live-listings/known", params={"source": "che168", "all": "1"},
+                            headers={"Authorization": f"Bearer {BN_AUTO_IMPORT_TOKEN}"}, timeout=60)
         resp.raise_for_status()
-        data = resp.json()
-        items = data.get("items")
-        if items is None:
-            ids = {str(i) for i in data.get("ids") or []}
-        else:
-            # Машины, сохранённые без двигателя (урезанная страница), перезагружаем заново
-            # …и машины с мелким фото (миниатюрой) — перезагружаем с крупным
-            ids = {str(i["id"]) for i in items
-                   if i.get("has_engine") and i.get("make") and (i.get("photo_kb") or 999) >= 45}
-            if len(items) > len(ids):
-                print(f"Без двигателя, марки или с мелким фото на сайте: {len(items) - len(ids)} — загрузим заново")
-        print(f"Уже есть в bn-auto с фото и характеристиками: {len(ids)} — их объявления не открываем")
-        return ids
+        return {str(i["id"]): i for i in resp.json().get("items") or []}
     except Exception as error:
         print(f"Список известных объявлений не получен ({error}) — разбираем всё")
-        return set()
+        return {}
+
+
+def good_known(items: dict) -> set:
+    """Машины с сайта, которые заново не открываем: полная информация и крупное фото.
+    Остальные (без фото, модели, цены, двигателя или с миниатюрой) — загрузим заново."""
+    ids = {k for k, i in items.items() if i.get("complete", True) and (i.get("photo_kb") or 999) >= 25}
+    print(f"На сайте: {len(items)}, с полной информацией {len(ids)} — их объявления не открываем; "
+          f"неполные ({len(items) - len(ids)}) загрузим заново, если встретятся")
+    return ids
+
+
+def run_size(items: dict) -> int:
+    """Сколько новых машин добавить: вручную (CHE168_TOTAL), до заполнения каталога
+    (FILL_TARGET) — по FILL_PER_RUN за прогон, потом раз в неделю WEEKLY_NEW; 0 — сегодня не нужно."""
+    if TOTAL:
+        return TOTAL
+    good = sum(1 for i in items.values() if i.get("complete") and i.get("published"))
+    if good < FILL_TARGET:
+        n = min(FILL_PER_RUN, FILL_TARGET - good)
+        print(f"Заполнение каталога: на сайте {good} из {FILL_TARGET} — добавим {n}")
+        return n
+    if time.gmtime().tm_wday == WEEKLY_DAY:
+        print(f"Каталог заполнен ({good}) — еженедельное обновление: до {WEEKLY_NEW} новых")
+        return WEEKLY_NEW
+    print(f"Каталог заполнен ({good}), сегодня не день обновления")
+    return 0
+
+
+def complete(x: dict) -> bool:
+    """Полная информация: фото, цена, год, марка, модель и то, по чему считается таможня —
+    объём (мощность сайт оценит по нему), у электромобилей — мощность."""
+    spec = x.get("spec") or {}
+    ev = spec.get("Тип топлива") == "Электро"
+    engine = (spec.get("Максимальная мощность (кВт)") or spec.get("Мощность, л.с.")) if ev \
+        else spec.get("Рабочий объём цилиндров (см³)")
+    return bool(x.get("photo_url") and x.get("price_value") and x.get("year") and x.get("make")
+                and x.get("model") and engine)
 
 
 def push(listings):
+    full_count = sum(1 for x in listings if "spec" in x)
+    listings = [x for x in listings if "spec" not in x or complete(x)]
+    if full_count > sum(1 for x in listings if "spec" in x):
+        print(f"Не отправлены без фото, цены, модели или двигателя: {full_count - sum(1 for x in listings if 'spec' in x)}")
+    if not listings:
+        return
     if not BN_AUTO_URL or not BN_AUTO_IMPORT_TOKEN:
         print("BN_AUTO_URL / BN_AUTO_IMPORT_TOKEN не заданы — пуш в bn-auto пропущен.")
         return
@@ -998,19 +1048,34 @@ def new_context(browser, use_proxy: bool):
     return context
 
 
-def gather(page, known: set) -> list[dict]:
+def gather(page, known: set, total: int, items: dict, touched: list) -> list[dict]:
     """Все модели (обход марок и моделей), а если не вышло — общий список, как раньше."""
     if ALL_MODELS:
-        groups = scan_models(page, known)
+        groups = scan_models(page, known, touched)
         if groups is False:
             return []
         if groups:
-            return pick_models(groups, TOTAL)
-    return collect(page, known, TOTAL)
+            # Сколько машин каждой модели уже на сайте — по марке и модели
+            by_name = {}
+            for i in items.values():
+                if i.get("complete") and i.get("published"):
+                    by_name[(i.get("make"), i.get("model"))] = by_name.get((i.get("make"), i.get("model")), 0) + 1
+            on_site = {}
+            for key, cars in groups.items():
+                make, model = brand_model(cars[0]["name"], "", cars[0].get("brandid"))[:2]
+                on_site[key] = by_name.get((make, model), 0)
+            return pick_models(groups, total, on_site)
+    return collect(page, known, total)
 
 
 def main():
-    known = fetch_known()
+    started = time.time()
+    items = fetch_known()
+    known = good_known(items)
+    total = run_size(items)
+    if not total:
+        return
+    touched = []
     session = http_session()
     listings = []
     with sync_playwright() as p:
@@ -1021,7 +1086,7 @@ def main():
         on_proxy = list_proxy
         context = new_context(browser, list_proxy)
         page = context.new_page()
-        cars = gather(page, known)
+        cars = gather(page, known, total, items, touched)
         if not cars and list_proxy:
             # Прокси не отвечает (бесплатные быстро умирают) — список пробуем напрямую
             print("Через прокси список не получен — пробуем напрямую")
@@ -1029,7 +1094,7 @@ def main():
             on_proxy = False
             context = new_context(browser, False)
             page = context.new_page()
-            cars = gather(page, known)
+            cars = gather(page, known, total, items, touched)
         elif not cars and PROXY_SERVER:
             # Напрямую che168 не отдал список — пробуем через прокси
             print("Напрямую список не получен — пробуем через прокси")
@@ -1037,8 +1102,12 @@ def main():
             on_proxy = True
             context = new_context(browser, True)
             page = context.new_page()
-            cars = gather(page, known)
-        print(f"Отобрано: {len(cars)} (уже на сайте: {sum(c['infoid'] in known for c in cars)}), марок по номерам: {len(BRAND_IDS)}")
+            cars = gather(page, known, total, items, touched)
+        print(f"Отобрано новых: {len(cars)}, машин с сайта встречено в обходе: {len(touched)}, марок по номерам: {len(BRAND_IDS)}")
+        # Отметка «ещё в продаже» машинам с сайта, встреченным в обходе
+        push([{"external_id": c["infoid"], "price_value": c["price_cny"], "mileage_km": c["mileage_km"],
+               "source_url": f"https://www.che168.com/dealer/{c['dealerid']}/{c['infoid']}.html"}
+              for c in {c["infoid"]: c for c in touched}.values()])
 
         # Точная мощность: Autohome по номеру комплектации, запасной путь — каталог drom.ru
         # (его таблицы дорисовываются скриптом — открываем в браузере, без прокси)
@@ -1075,6 +1144,9 @@ def main():
         # на сайте по ходу прогона, а если прогон оборвётся — отправленное останется.
         pushed = 0
         for idx, car in enumerate(cars):
+            if time.time() - started > RUN_MINUTES * 60:
+                print(f"Прошло {RUN_MINUTES:g} мин — остальные {len(cars) - idx} машин в следующий прогон")
+                break
             if idx and idx % BATCH == 0:
                 push(listings[pushed:])
                 pushed = len(listings)

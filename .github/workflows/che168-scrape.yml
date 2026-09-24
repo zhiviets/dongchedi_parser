@@ -2,21 +2,22 @@ name: Weekly China (che168) scrape
 
 on:
   schedule:
-    # Вторник и пятница, 03:00 UTC (13:00 по Владивостоку) — не в дни encar
-    - cron: "0 3 * * 2,5"
+    # Каждый день в 03:00 UTC (13:00 по Владивостоку). Пока каталог не заполнен (5500 машин) —
+    # до 800 новых за прогон; потом раз в неделю (четверг), в остальные дни прогон сразу заканчивается
+    - cron: "0 3 * * *"
   workflow_dispatch:
     inputs:
       total:
-        description: "Сколько машин собрать (все модели с 2017 г., 75 % до 160 л.с.)"
-        default: "1000"
+        description: "Сколько новых машин добавить (0 — само: заполнение до 5500, потом раз в неделю)"
+        default: "0"
       minutes:
         description: "Сколько минут обходить марки и модели che168 (для проверки хватит 10)"
-        default: "120"
+        default: "90"
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    # Обход марок и моделей (до 2 ч) + 1000 машин порциями по 100 с паузой 10 минут
+    # Обход марок и моделей (до 1,5 ч) + до 800 машин порциями по 100 с паузой 10 минут
     timeout-minutes: 355
     # Сохранить в репозиторий найденную мощность (кэш Autohome и drom.ru)
     permissions:
@@ -46,9 +47,9 @@ jobs:
           CHE168_PROXY_SERVER: ${{ secrets.CHE168_PROXY_SERVER }}
           CHE168_PROXY_USERNAME: ${{ secrets.CHE168_PROXY_USERNAME }}
           CHE168_PROXY_PASSWORD: ${{ secrets.CHE168_PROXY_PASSWORD }}
-          # По расписанию — 1000 машин; при ручном запуске — числа из полей
-          CHE168_TOTAL: ${{ inputs.total || '1000' }}
-          CHE168_SCAN_MINUTES: ${{ inputs.minutes || '120' }}
+          # 0 — само: до заполнения каталога по 800 за прогон, потом раз в неделю
+          CHE168_TOTAL: ${{ inputs.total || '0' }}
+          CHE168_SCAN_MINUTES: ${{ inputs.minutes || '90' }}
         run: python che168_scraper.py
       - name: Upload debug artifacts
         if: always()

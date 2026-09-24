@@ -59,8 +59,10 @@ PROXY_PASSWORD = os.environ.get("PROXY_PASSWORD") or ""
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36")
 
-# Чуть меньше лимита bn-auto (900 КБ, см. server/photo.js) — запас на base64
-MAX_PHOTO_BYTES = 850 * 1024
+# Фото храним в базе bn-auto (диск ограничен): WebP до 960 px и до 150 КБ
+MAX_PHOTO_BYTES = 150 * 1024
+PHOTO_MAX_WIDTH = 960
+PHOTO_QUALITY = 72
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT_PATH = os.path.join(ROOT, "weekly_batch.json")
@@ -320,22 +322,22 @@ def compress_photo_to_data_url(image_bytes: bytes) -> str | None:
     except Exception:
         return None
 
-    quality = 82
-    max_width = 1000
+    # WebP: при том же качестве на ~40 % легче JPEG. 960 px по ширине хватает
+    # для страницы объявления; тяжёлые снимки сжимаем сильнее, затем уменьшаем.
+    quality, max_width = PHOTO_QUALITY, PHOTO_MAX_WIDTH
     while True:
         resized = img
         if resized.width > max_width:
-            ratio = max_width / resized.width
-            resized = resized.resize((max_width, max(1, int(resized.height * ratio))))
+            resized = resized.resize((max_width, max(1, round(resized.height * max_width / resized.width))), Image.LANCZOS)
         buf = io.BytesIO()
-        resized.save(buf, format="JPEG", quality=quality)
+        resized.save(buf, format="WEBP", quality=quality, method=6)
         data = buf.getvalue()
-        if len(data) <= MAX_PHOTO_BYTES or (quality <= 40 and max_width <= 480):
-            return "data:image/jpeg;base64," + base64.b64encode(data).decode("ascii")
-        if quality > 40:
-            quality -= 12
+        if len(data) <= MAX_PHOTO_BYTES or max_width <= 640:
+            return "data:image/webp;base64," + base64.b64encode(data).decode("ascii")
+        if quality > 55:
+            quality -= 8
         else:
-            max_width = int(max_width * 0.8)
+            max_width = int(max_width * 0.85)
 
 
 def fetch_primary_photo(session, image_urls: list[str]) -> str | None:
