@@ -617,6 +617,13 @@
 "g_2022_19297"
 ]
 },
+"hongqi/hq9/china": {
+"day": 739883,
+"gens": [
+"g_202209_22029",
+"g_2022_16733"
+]
+},
 "hongqi/hs3/china": {
 "day": 739883,
 "gens": [
@@ -637,6 +644,12 @@
 "g_2017_24794",
 "g_202302_20786",
 "g_2023_22450"
+]
+},
+"leapmotor/a10/china": {
+"day": 739883,
+"gens": [
+"g_2025_23630"
 ]
 },
 "leapmotor/b01/china": {
@@ -1096,6 +1109,61 @@
 ],
 "market": "Китай",
 "to": 202404
+},
+"aito/m5/g_202404_20591": {
+"from": 202404,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "H15RT",
+"fuel": "бензин",
+"hp": 152,
+"hp_total": 496,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 152 л.с., последовательный подзаряжаемый (PHEV) гибрид, 496 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202404,
+"name": "PHEV 1.5 4WD Extended Range Max RS Smart Driving",
+"to": 202503
+},
+{
+"from": 202503,
+"name": "PHEV 1.5 4WD Extended Range Ultra",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "H15RT",
+"fuel": "бензин",
+"hp": 152,
+"hp_total": 272,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 152 л.с., последовательный подзаряжаемый (PHEV) гибрид, 272 л.с., редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202404,
+"name": "PHEV 1.5 2WD Extended Range Max Driving Version",
+"to": 202503
+},
+{
+"from": 202503,
+"name": "PHEV 1.5 2WD Extended Range Ultra",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
 },
 "aito/m6/g_202604_25098": {
 "from": 202603,
@@ -6551,6 +6619,161 @@
 "market": "Китай",
 "to": null
 },
+"hongqi/hq9/g_202209_22029": {
+"from": 202208,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "CA4GC20TD-35",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 245 л.с., мягкий гибрид, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202504,
+"name": "2.0 AT Deluxe",
+"to": null
+},
+{
+"from": 202504,
+"name": "2.0 AT Executive",
+"to": 202602
+},
+{
+"from": 202603,
+"name": "2.0 AT Бизнес",
+"to": null
+}
+]
+}
+],
+"market": "Россия",
+"to": null
+},
+"hongqi/hq9/g_2022_16733": {
+"from": 202208,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "CA4GC20TDH-40",
+"fuel": "бензин",
+"hp": 163,
+"hp_total": 286,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 163 л.с., параллельный подзаряжаемый (PHEV) гибрид, 286 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202404,
+"name": "PHEV 2.0 4WD Business",
+"to": 202604
+},
+{
+"from": 202404,
+"name": "PHEV 2.0 4WD Deluxe",
+"to": 202604
+},
+{
+"from": 202404,
+"name": "PHEV 2.0 4WD Flagship",
+"to": 202604
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "CA4GC20TDH-42",
+"fuel": "бензин",
+"hp": 163,
+"hp_total": 324,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 163 л.с., параллельный подзаряжаемый (PHEV) гибрид, 324 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202605,
+"name": "PHEV 2.0 4WD Luxury",
+"to": null
+},
+{
+"from": 202605,
+"name": "PHEV 2.0 4WD Premium",
+"to": null
+},
+{
+"from": 202605,
+"name": "PHEV 2.0 4WD Flagship",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "CA4GC20TD-35",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 252 л.с., мягкий гибрид, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202209,
+"name": "2.0T AT Qiyue",
+"to": 202403
+},
+{
+"from": 202209,
+"name": "2.0T AT Qiyun",
+"to": 202403
+},
+{
+"from": 202209,
+"name": "2.0T AT Flagship",
+"to": 202403
+},
+{
+"from": 202209,
+"name": "2.0T AT Qichang",
+"to": 202403
+},
+{
+"from": 202209,
+"name": "2.0T AT Qiling",
+"to": 202403
+},
+{
+"from": 202404,
+"name": "2.0 AT Business",
+"to": null
+},
+{
+"from": 202404,
+"name": "2.0 AT Deluxe",
+"to": null
+},
+{
+"from": 202404,
+"name": "2.0 AT Flagship",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
 "hongqi/hs3/g_202307_20825": {
 "from": 202304,
 "groups": [
@@ -7763,6 +7986,12 @@
 ]
 }
 ],
+"market": "Китай",
+"to": null
+},
+"leapmotor/a10/g_2025_23630": {
+"from": 202511,
+"groups": [],
 "market": "Китай",
 "to": null
 },
