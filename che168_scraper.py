@@ -34,16 +34,24 @@ from weekly_scraper import compress_photo_to_data_url
 
 # Сколько новых машин за прогон (0 — само: до FILL_TARGET на сайте, потом раз в неделю)
 TOTAL = int(os.environ.get("CHE168_TOTAL") or "0")
-# Заполнение каталога: пока машин с полной информацией на сайте меньше FILL_TARGET —
-# каждый прогон добавляет до FILL_PER_RUN новых; дальше раз в неделю (WEEKLY_DAY,
-# 0 — понедельник) — WEEKLY_NEW, в остальные дни прогон сразу заканчивается
-FILL_TARGET = int(os.environ.get("CHE168_FILL_TARGET") or "5500")
-FILL_PER_RUN = int(os.environ.get("CHE168_FILL_PER_RUN") or "800")
+# Заполнение каталога: пока машин с полной информацией на сайте меньше FILL_TARGET — каждый
+# прогон добавляет до FILL_PER_RUN новых порциями по BATCH с паузой BATCH_PAUSE (1–2 мин) и в
+# конце запускает следующий. Потом — обновление два раза в неделю (UPDATE_DAYS, 0 — понедельник,
+# первый прогон дня): до UPDATE_NEW новых порциями по UPDATE_BATCH с паузой UPDATE_PAUSE минут;
+# в остальное время прогон сразу заканчивается.
+FILL_TARGET = int(os.environ.get("CHE168_FILL_TARGET") or "6000")
+FILL_PER_RUN = int(os.environ.get("CHE168_FILL_PER_RUN") or "1000")
 # Через сколько минут от начала прогона перестать открывать объявления и отправить собранное
 # (предел GitHub Actions — 6 часов)
 RUN_MINUTES = float(os.environ.get("CHE168_RUN_MINUTES") or "320")
-WEEKLY_NEW = int(os.environ.get("CHE168_WEEKLY_NEW") or "1000")
-WEEKLY_DAY = int(os.environ.get("CHE168_WEEKLY_DAY") or "3")
+UPDATE_DAYS = {int(d) for d in (os.environ.get("CHE168_UPDATE_DAYS") or "1,4").split(",") if d.strip()}
+UPDATE_NEW = int(os.environ.get("CHE168_UPDATE_NEW") or "600")
+UPDATE_BATCH = int(os.environ.get("CHE168_UPDATE_BATCH") or "150")
+UPDATE_PAUSE = float(os.environ.get("CHE168_UPDATE_PAUSE") or "30")
+# Разнообразие: не больше стольких машин одной модели за прогон — отдельно до 160 л.с. и мощнее,
+# чтобы доля 75/25 сохранялась
+PER_MODEL_RUN = {"le160": int(os.environ.get("CHE168_PER_MODEL_LE160") or "3"),
+                 "other": int(os.environ.get("CHE168_PER_MODEL_OTHER") or "2")}
 # Доля машин до 160 л.с. (проходных по утильсбору), остальные — любой мощности
 SHARE_160 = float(os.environ.get("CHE168_SHARE_160") or "0.75")
 MIN_YEAR = int(os.environ.get("CHE168_MIN_YEAR") or "2017")
@@ -321,7 +329,7 @@ ALL_MODELS = os.environ.get("CHE168_ALL_MODELS", "1") == "1"
 SCAN_MINUTES = float(os.environ.get("CHE168_SCAN_MINUTES") or "120")
 # Порция машин между паузами и длина паузы в минутах: 100 машин — отправка на сайт — пауза
 BATCH = int(os.environ.get("CHE168_BATCH") or "100")
-BATCH_PAUSE = float(os.environ.get("CHE168_BATCH_PAUSE") or "10")
+BATCH_PAUSE = float(os.environ.get("CHE168_BATCH_PAUSE") or "1.5")
 BRAND_LINK_RE = re.compile(r'<a[^>]+href="/china/([a-z][a-z0-9]*)/#pvareaid=105866[^"]*"[^>]*>([^<]{1,20})</a>')
 
 
@@ -330,7 +338,7 @@ def series_key(name: str) -> str:
     return re.split(r"\d{4}\s*款", name, maxsplit=1)[0].strip() or name
 
 
-SCAN_WORKERS = int(os.environ.get("CHE168_SCAN_WORKERS") or "4")
+SCAN_WORKERS = int(os.environ.get("CHE168_SCAN_WORKERS") or "3")
 
 
 def _norm(text: str) -> str:
@@ -445,7 +453,9 @@ def scan_models(page, known: set, touched: list | None = None):
                 if touched is not None:
                     touched.append(c)
                 continue
-            make = brand_model(c["name"], "", c.get("brandid"))[0]
+            make, model = brand_model(c["name"], "", c.get("brandid"))
+            if not model:
+                continue   # без модели на сайт не попадёт — не занимаем место в отборе
             c["power"] = power_class(c["name"], make) if make else None
             if c["power"]:
                 groups.setdefault(series_key(c["name"]), []).append(c)
@@ -556,7 +566,11 @@ def pick_models(groups: dict, total: int, on_site: dict | None = None) -> list[d
     quota = {"le160": round(total * SHARE_160)}
     quota["other"] = total - quota["le160"]
 
+    taken = {}
+
     def take(c):
+        key = (series_key(c["name"]), c["power"])
+        taken[key] = taken.get(key, 0) + 1
         picked.append(c)
         used.add(c["infoid"])
         k = (c["power"], year_band(c["year"]))
@@ -581,15 +595,22 @@ def pick_models(groups: dict, total: int, on_site: dict | None = None) -> list[d
         progress = True
         while need() and progress:
             progress = False
-            for it in pools.values():
+            for key, it in pools.items():
                 if not need():
                     break
+                if taken.get((key, kind), 0) >= PER_MODEL_RUN[kind]:
+                    continue   # разнообразие: не больше PER_MODEL_RUN машин модели за прогон
                 c = next((c for c in it if c["infoid"] not in used), None)
                 if c:
                     take(c)
                     progress = True
 
     def fill_kind(kind, target):
+        # С лимитом на модель больше не взять: доли лет считаем от реально доступного
+        room = sum(min(PER_MODEL_RUN[kind] - taken.get((k, kind), 0),
+                       sum(1 for c in cars if c.get("power") in (kind, None) and c["infoid"] not in used))
+                   for k, cars in groups.items())
+        target = min(target, total_of(kind) + max(room, 0))
         for name, _, _, w in YEAR_BANDS:
             want = round(target * w)
             fill(kind, name, lambda: count.get((kind, name), 0) < want and total_of(kind) < target)
@@ -865,25 +886,44 @@ class AutohomePower:
             self.cache = {}
         self.stats = {"cache": 0, "fetched": 0, "missing": 0}
 
-    def kw(self, specid):
+    def info(self, specid) -> dict:
+        """{"kw", "cc", "gearbox"} комплектации со страницы Autohome: блок «280kW 最大功率»,
+        «3.0T 排量», «8挡手自一体 变速箱». Старые записи кэша (только kW) дочитываются."""
         if not specid or specid == "0":
-            return None
-        if specid in self.cache:
+            return {}
+        cached = self.cache.get(specid)
+        if isinstance(cached, dict):
             self.stats["cache"] += 1
-            return self.cache[specid]
+            return cached
         time.sleep(random.uniform(1.0, 2.5))
-        kw = None
+        info = {}
         try:
             resp = self.s.get(f"https://www.autohome.com.cn/spec/{specid}/", timeout=30)
             if resp.status_code == 200:
-                m = re.search(r">\s*(\d{2,4}(?:\.\d)?)\s*kW\s*</div>\s*<div>\s*最大功率", resp.text)
-                kw = float(m.group(1)) if m else None
+                def stat(label):
+                    m = re.search(rf">\s*([^<>]{{1,24}}?)\s*</div>\s*<div>\s*{label}", resp.text)
+                    return m.group(1).strip() if m else ""
+                kw = re.match(r"(\d{2,4}(?:\.\d)?)\s*kW", stat("最大功率"))
+                if kw:
+                    info["kw"] = float(kw.group(1))
+                liters = re.match(r"(\d\.\d)\s*[TL]", stat("排量"))
+                if liters:
+                    info["cc"] = round(float(liters.group(1)) * 1000)
+                    info["turbo"] = stat("排量").upper().endswith("T")
+                box = stat("变速箱")
+                if box and box not in ("暂无", "-"):
+                    info["gearbox"] = box
         except Exception:
             pass
-        self.stats["fetched" if kw else "missing"] += 1
-        if kw is not None:
-            self.cache[specid] = kw   # не нашли — не запоминаем, в следующий раз попробуем снова
-        return kw
+        if not info and isinstance(cached, (int, float)):
+            info = {"kw": cached}
+        self.stats["fetched" if info.get("kw") else "missing"] += 1
+        if info.get("kw"):
+            self.cache[specid] = info   # не нашли — не запоминаем, в следующий раз попробуем снова
+        return info
+
+    def kw(self, specid):
+        return self.info(specid).get("kw")
 
     def save(self):
         with open(self.path, "w", encoding="utf-8") as f:
@@ -909,7 +949,15 @@ def add_power(spec: dict, car: dict, make, model, autohome, drom, counts):
     """Точная мощность в характеристики: Autohome по номеру комплектации, иначе drom.ru."""
     if spec.get("Максимальная мощность (кВт)") or spec.get("Мощность, л.с."):
         return
-    kw = autohome.kw(car.get("specid")) if autohome else None
+    info = autohome.info(car.get("specid")) if autohome else {}
+    # Объём и коробка с Autohome — у машин «из списка» (объявление закрыто капчей) их иначе нет,
+    # а без объёма не посчитать таможню
+    if info.get("cc") and not spec.get("Рабочий объём цилиндров (см³)") and spec.get("Тип топлива") != "Электро":
+        spec["Рабочий объём цилиндров (см³)"] = str(info["cc"])
+    if info.get("gearbox") and not spec.get("Коробка передач"):
+        box = info["gearbox"]
+        spec["Коробка передач"] = next((ru for zh, ru in GEARBOX.items() if zh in box), None) or box
+    kw = info.get("kw")
     if kw:
         spec["Максимальная мощность (кВт)"] = f"{kw:g}"
         counts["autohome"] += 1
@@ -979,38 +1027,54 @@ def good_known(items: dict) -> set:
 
 
 def run_size(items: dict) -> int:
-    """Сколько новых машин добавить: вручную (CHE168_TOTAL), до заполнения каталога
-    (FILL_TARGET) — по FILL_PER_RUN за прогон, потом раз в неделю WEEKLY_NEW; 0 — сегодня не нужно."""
+    """Сколько новых машин добавить: вручную (CHE168_TOTAL); до заполнения каталога (FILL_TARGET) —
+    по FILL_PER_RUN за прогон; потом в дни обновления (первый прогон дня) — UPDATE_NEW порциями
+    по UPDATE_BATCH с паузой UPDATE_PAUSE; 0 — сейчас ничего не нужно."""
+    global BATCH, BATCH_PAUSE
     if TOTAL:
         return TOTAL
     good = sum(1 for i in items.values() if i.get("complete") and i.get("published"))
     if good < FILL_TARGET:
         n = min(FILL_PER_RUN, FILL_TARGET - good)
         print(f"Заполнение каталога: на сайте {good} из {FILL_TARGET} — добавим {n}")
+        # Каталог ещё не заполнен — workflow сразу запустит следующий прогон (без остановки)
+        open(os.path.join(ROOT, "continue_fill"), "w").close()
         return n
-    if time.gmtime().tm_wday == WEEKLY_DAY:
-        print(f"Каталог заполнен ({good}) — еженедельное обновление: до {WEEKLY_NEW} новых")
-        return WEEKLY_NEW
-    print(f"Каталог заполнен ({good}), сегодня не день обновления")
+    now = time.gmtime()
+    if now.tm_wday in UPDATE_DAYS and now.tm_hour < 8:
+        BATCH, BATCH_PAUSE = UPDATE_BATCH, UPDATE_PAUSE
+        print(f"Каталог заполнен ({good}) — обновление: до {UPDATE_NEW} новых, порции по {BATCH} с паузой {BATCH_PAUSE:g} мин")
+        return UPDATE_NEW
+    print(f"Каталог заполнен ({good}), сейчас не время обновления — прогон окончен")
     return 0
 
 
-def complete(x: dict) -> bool:
-    """Полная информация: фото, цена, год, марка, модель и то, по чему считается таможня —
-    объём (мощность сайт оценит по нему), у электромобилей — мощность."""
+def missing(x: dict) -> str | None:
+    """Чего не хватает объявлению для сайта (None — информация полная): фото, цена, год, марка,
+    модель и то, по чему считается таможня — объём (мощность сайт оценит по нему),
+    у электромобилей — мощность."""
     spec = x.get("spec") or {}
     ev = spec.get("Тип топлива") == "Электро"
     engine = (spec.get("Максимальная мощность (кВт)") or spec.get("Мощность, л.с.")) if ev \
         else spec.get("Рабочий объём цилиндров (см³)")
-    return bool(x.get("photo_url") and x.get("price_value") and x.get("year") and x.get("make")
-                and x.get("model") and engine)
+    for field, ok in (("фото", x.get("photo_url")), ("цена", x.get("price_value")), ("год", x.get("year")),
+                      ("марка", x.get("make")), ("модель", x.get("model")),
+                      ("мощность" if ev else "объём", engine)):
+        if not ok:
+            return field
+    return None
+
+
+def complete(x: dict) -> bool:
+    return missing(x) is None
 
 
 def push(listings):
-    full_count = sum(1 for x in listings if "spec" in x)
+    from collections import Counter
+    reasons = Counter(missing(x) for x in listings if "spec" in x and missing(x))
     listings = [x for x in listings if "spec" not in x or complete(x)]
-    if full_count > sum(1 for x in listings if "spec" in x):
-        print(f"Не отправлены без фото, цены, модели или двигателя: {full_count - sum(1 for x in listings if 'spec' in x)}")
+    if reasons:
+        print("Не отправлены (неполные): " + ", ".join(f"нет {k} — {v}" for k, v in reasons.most_common()))
     if not listings:
         return
     if not BN_AUTO_URL or not BN_AUTO_IMPORT_TOKEN:
@@ -1121,7 +1185,7 @@ def main():
         done = failed = degraded = degraded_saved = from_list = 0
         list_only = False   # объявления закрыты капчей — дальше только данные списка
         fails_in_row = 0
-        breaks = random.randint(20, 30)
+        breaks = random.randint(25, 40)
 
         def add(car, url, body=None, d=None):
             nonlocal done, from_list
@@ -1150,8 +1214,9 @@ def main():
             if idx and idx % BATCH == 0:
                 push(listings[pushed:])
                 pushed = len(listings)
-                print(f"=== Отправлено {idx} из {len(cars)} — пауза {BATCH_PAUSE:g} мин ===")
-                time.sleep(BATCH_PAUSE * 60)
+                pause = BATCH_PAUSE * random.uniform(0.7, 1.3)
+                print(f"=== Отправлено {idx} из {len(cars)} — пауза {pause:.1f} мин ===")
+                time.sleep(pause * 60)
                 list_only = False   # после паузы ещё раз пробуем открыть объявления
                 fails_in_row = 0
             url = f"https://www.che168.com/dealer/{car['dealerid']}/{car['infoid']}.html"
@@ -1212,8 +1277,9 @@ def main():
             add(car, url, body, parse_detail(body, car))
             human_pause(3, 7)
             if done >= breaks:
-                human_pause(25, 45)
-                breaks = done + random.randint(20, 30)
+                # Темп человека: перерыв 1–2,5 мин каждые 25–40 машин
+                human_pause(60, 150)
+                breaks = done + random.randint(25, 40)
         autohome.save()
         drom.save()
         print(f"Мощность: из Autohome {power_counts['autohome']}, из drom.ru {power_counts['drom']} "

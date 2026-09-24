@@ -2,13 +2,15 @@ name: Weekly China (che168) scrape
 
 on:
   schedule:
-    # Каждый день в 03:00 UTC (13:00 по Владивостоку). Пока каталог не заполнен (5500 машин) —
-    # до 800 новых за прогон; потом раз в неделю (четверг), в остальные дни прогон сразу заканчивается
-    - cron: "0 3 * * *"
+    # Пока каталог не заполнен (6000 машин), прогоны идут друг за другом без остановки: каждый
+    # в конце запускает следующий (шаг «Next fill run»); расписание — страховка, если цепочка
+    # оборвётся. После заполнения — обновление по вторникам и пятницам (первый прогон дня,
+    # порции по 150 с паузой 30 минут), в остальное время прогон сразу заканчивается.
+    - cron: "0 3,11,19 * * *"
   workflow_dispatch:
     inputs:
       total:
-        description: "Сколько новых машин добавить (0 — само: заполнение до 5500, потом раз в неделю)"
+        description: "Сколько новых машин добавить (0 — само: заполнение до 6000, потом 2 раза в неделю)"
         default: "0"
       minutes:
         description: "Сколько минут обходить марки и модели che168 (для проверки хватит 10)"
@@ -23,11 +25,13 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    # Обход марок и моделей (до 1,5 ч) + до 800 машин порциями по 100 с паузой 10 минут
+    # Обход марок и моделей (до 1,5 ч) + до 1000 машин порциями по 100 с паузой 1–2 минуты
     timeout-minutes: 355
     # Сохранить в репозиторий найденную мощность (кэш Autohome и drom.ru)
+    # contents: write — кэш мощности; actions: write — запустить следующий прогон
     permissions:
       contents: write
+      actions: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -53,7 +57,7 @@ jobs:
           CHE168_PROXY_SERVER: ${{ secrets.CHE168_PROXY_SERVER }}
           CHE168_PROXY_USERNAME: ${{ secrets.CHE168_PROXY_USERNAME }}
           CHE168_PROXY_PASSWORD: ${{ secrets.CHE168_PROXY_PASSWORD }}
-          # 0 — само: до заполнения каталога по 800 за прогон, потом раз в неделю
+          # 0 — само: до заполнения каталога по 1000 за прогон без остановки, потом 2 раза в неделю
           CHE168_TOTAL: ${{ inputs.total || '0' }}
           CHE168_SCAN_MINUTES: ${{ inputs.minutes || '90' }}
         run: python che168_scraper.py
@@ -80,3 +84,9 @@ jobs:
             sleep $((i * 10))
           done
           exit 1
+
+      - name: Next fill run
+        if: success() && hashFiles('continue_fill') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run che168-scrape.yml --ref main -R ${{ github.repository }}
