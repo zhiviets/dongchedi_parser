@@ -12,7 +12,7 @@ from playwright.sync_api import sync_playwright
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36")
-SPECS = ["64452", "60345", "55680"]
+SPECS = ["64452"]
 SPAN = re.compile(r"<span class='(hs_kw\d+_\w+)'></span>")
 
 
@@ -44,6 +44,23 @@ def main():
                 });
                 return out;
             }""")
+            print("--- как спрятаны символы:", page.evaluate("""() => {
+                const out = [];
+                for (const sh of document.styleSheets) {
+                    let rules; try { rules = sh.cssRules; } catch (e) { out.push('нет доступа: ' + sh.href); continue; }
+                    for (const r of rules) if ((r.cssText || '').includes('hs_kw')) { out.push(r.cssText); if (out.length > 12) return out; }
+                }
+                const el = document.querySelector("span[class^='hs_kw']");
+                if (el) out.push('before=' + getComputedStyle(el, '::before').content + ' after=' + getComputedStyle(el, '::after').content
+                                 + ' parent=' + el.parentElement.outerHTML.slice(0, 200));
+                return out;
+            }"""))
+            for s_ in page.evaluate("() => [...document.scripts].map(s => s.text)"):
+                for word in ("insertRule", "::before", ":before", "hs_kw"):
+                    i = s_.find(word)
+                    if i >= 0:
+                        print(f"--- скрипт со словом «{word}» (длина {len(s_)}):", s_[max(0, i - 300): i + 300].replace("\n", " "))
+                        break
             kw = {k: v.strip('"') if v and v != "none" else "" for k, v in kw.items()}
             print(f"\n######## spec {spec}: html {len(html)}, классов-заглушек в DOM {len(kw)}")
             src = None
