@@ -308,8 +308,9 @@ def collect(page, known: set, want: int) -> list[dict]:
 ALL_MODELS = os.environ.get("CHE168_ALL_MODELS", "1") == "1"
 # Сколько минут обходить марки и модели (остальное время — фото и отправка на сайт)
 SCAN_MINUTES = float(os.environ.get("CHE168_SCAN_MINUTES") or "120")
-# Не больше стольких машин за прогон, даже если для доли «до 160» нужно больше
-MAX_TOTAL = int(os.environ.get("CHE168_MAX_TOTAL") or "2500")
+# Порция машин между паузами и длина паузы в минутах: 100 машин — отправка на сайт — пауза
+BATCH = int(os.environ.get("CHE168_BATCH") or "100")
+BATCH_PAUSE = float(os.environ.get("CHE168_BATCH_PAUSE") or "10")
 BRAND_LINK_RE = re.compile(r'<a[^>]+href="/china/([a-z][a-z0-9]*)/#pvareaid=105866[^"]*"[^>]*>([^<]{1,20})</a>')
 
 
@@ -479,12 +480,20 @@ def year_band(year):
 
 
 def pick_models(groups: dict, total: int) -> list[dict]:
-    """По машине на модель (до 160 л.с., если есть), затем добор по кругу по моделям:
-    «до 160» — пока их не станет 75%, мощных — пока их не больше 25%; внутри каждой
-    группы — по долям лет YEAR_BANDS."""
+    """Не больше total машин: 75% до 160 л.с., 25% мощнее (электро, гибриды), по годам — YEAR_BANDS.
+
+    1) каждая модель, у которой есть машина до 160 л.с., — одна такая машина;
+    2) добор «до 160» по кругу по моделям до 75%, внутри — по долям лет;
+    3) модели, где есть только мощные, — по одной, сколько влезает в 25%. Их порядок
+       случайный: от прогона к прогону на сайт попадают разные, а не попавшие через
+       20 дней скрываются — со временем на сайте бывают все модели;
+    4) добор мощных до 25%.
+    """
     picked, used = [], set()
     count = {}
     rank = {name: i for i, (name, *_) in enumerate(YEAR_BANDS)}
+    quota = {"le160": round(total * SHARE_160)}
+    quota["other"] = total - quota["le160"]
 
     def take(c):
         picked.append(c)
@@ -498,8 +507,12 @@ def pick_models(groups: dict, total: int) -> list[dict]:
     for cars in groups.values():
         # Сначала 2022–2024, потом 2025–2026, потом старше; уже на сайте — первыми (порядок сохраняется)
         cars.sort(key=lambda c: rank.get(year_band(c["year"]), 9))
-        take(next((c for c in cars if c["power"] == "le160"), cars[0]))
-    covered = len(picked)
+    le_models = [cars for cars in groups.values() if any(c["power"] == "le160" for c in cars)]
+    other_models = [cars for cars in groups.values() if not any(c["power"] == "le160" for c in cars)]
+    random.shuffle(other_models)
+    for cars in le_models:
+        if total_of("le160") < quota["le160"]:
+            take(next(c for c in cars if c["power"] == "le160"))
 
     def fill(kind, band, need):
         pools = {k: iter([c for c in v if c["power"] == kind and (band is None or year_band(c["year"]) == band)])
@@ -521,13 +534,19 @@ def pick_models(groups: dict, total: int) -> list[dict]:
             fill(kind, name, lambda: count.get((kind, name), 0) < want and total_of(kind) < target)
         fill(kind, None, lambda: total_of(kind) < target)   # в какой-то группе лет машин не хватило
 
+    fill_kind("le160", quota["le160"])
     ratio = (1 - SHARE_160) / SHARE_160 if SHARE_160 else 0
-    fill_kind("le160", min(MAX_TOTAL - total_of("other"),
-                           max(round(total * SHARE_160), math.ceil(total_of("other") / ratio) if ratio else 0)))
-    fill_kind("other", min(total - total_of("le160"), math.floor(total_of("le160") * ratio)))
+    # Мощных — не больше трети от «до 160» (если «до 160» не хватило, мощных тоже меньше)
+    other_target = min(quota["other"], math.floor(total_of("le160") * ratio))
+    for cars in other_models:
+        if total_of("other") < other_target:
+            take(cars[0])
+    covered = len({series_key(c["name"]) for c in picked})
+    fill_kind("other", other_target)
     share = total_of("le160") / len(picked) if picked else 0
     years = {name: sum(v for (_, b), v in count.items() if b == name) for name, *_ in YEAR_BANDS}
-    print(f"Выбрано: моделей {covered}, машин {len(picked)} — до 160 л.с. {total_of('le160')} ({share:.0%}), "
+    print(f"Выбрано: моделей {covered} из {len(groups)} (с машинами до 160 л.с. {len(le_models)}, только мощные "
+          f"{len(other_models)}), машин {len(picked)} — до 160 л.с. {total_of('le160')} ({share:.0%}), "
           f"мощнее или электро/гибрид {total_of('other')}; по годам: " + ", ".join(f"{k} — {v}" for k, v in years.items()))
     return picked
 
@@ -920,7 +939,16 @@ def main():
             src = "из списка" if body is None else "из объявления"
             print(f"[{done}] {make or '?'} {model or ''} {car['year']} — {car['price_cny']} ¥, характеристик: {len(d['spec'])} ({src})")
 
-        for car in cars:
+        # Порциями: BATCH машин — отправка на сайт — пауза BATCH_PAUSE минут. Машины появляются
+        # на сайте по ходу прогона, а если прогон оборвётся — отправленное останется.
+        pushed = 0
+        for idx, car in enumerate(cars):
+            if idx and idx % BATCH == 0:
+                push(listings[pushed:])
+                pushed = len(listings)
+                print(f"=== Отправлено {idx} из {len(cars)} — пауза {BATCH_PAUSE:g} мин ===")
+                time.sleep(BATCH_PAUSE * 60)
+                list_only = False   # после паузы ещё раз пробуем открыть объявления
             url = f"https://www.che168.com/dealer/{car['dealerid']}/{car['infoid']}.html"
             if car["infoid"] in known:
                 listings.append({"external_id": car["infoid"], "price_value": car["price_cny"],
@@ -981,7 +1009,7 @@ def main():
           f"уже на сайте {sum('spec' not in x for x in listings)}, урезанных страниц {degraded}, ошибок {failed}")
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump([{k: v for k, v in x.items() if k != "photo_url"} for x in listings], f, ensure_ascii=False, indent=2)
-    push(listings)
+    push(listings[pushed:])
 
 
 if __name__ == "__main__":

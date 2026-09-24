@@ -2,8 +2,8 @@ name: Weekly China (che168) scrape
 
 on:
   schedule:
-    # Вторник, 03:00 UTC (13:00 по Владивостоку) — не в один час с encar
-    - cron: "0 3 * * 2"
+    # Вторник и пятница, 03:00 UTC (13:00 по Владивостоку) — не в дни encar
+    - cron: "0 3 * * 2,5"
   workflow_dispatch:
     inputs:
       total:
@@ -16,8 +16,8 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    # 1000 машин с паузами «как человек» — порядка 2 часов в первый раз
-    timeout-minutes: 330
+    # Обход марок и моделей (до 2 ч) + 1000 машин порциями по 100 с паузой 10 минут
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
