@@ -41,17 +41,14 @@ def main():
             path = drom.model_path(car["make"], car["model"])
             res = drom.power(car)
             markets = car.get("markets") or [car["market"]]
-            gens = {m: [(g["market"], g["from"], g["to"], len(g["groups"])) for g in drom.generations(path, m, car["year"])] if path else []
+            gens = {m: [(g["from"], g["to"], len(g["groups"])) for g in drom.generations(path, m, car["year"])] if path else []
                     for m in markets}
             print(f"\n{car['make']} {car['model']} {car['year']} {car.get('cc')} {car.get('fuel')} {car.get('drive')}"
                   f" → {path} → {res}")
             print("   поколения:", json.dumps(gens, ensure_ascii=False))
             if path and not res:
-                for m in markets:
-                    for g in drom.generations(path, m, car["year"]):
-                        for gr in g["groups"]:
-                            print("   группа:", gr["text"], "| трим:", [t["name"] for t in gr["trims"]][:3],
-                                  [t["from"] for t in gr["trims"]][:1])
+                for text, trims in getattr(drom, "last_candidates", []):
+                    print("   кандидат:", text, "| трим:", trims)
         print("\nИтог:", drom.stats, "страниц:", drom.requests)
         browser.close()
 
