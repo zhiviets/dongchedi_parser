@@ -295,6 +295,12 @@
 "g_202404_20591"
 ]
 },
+"aito/m7/china": {
+"day": 739883,
+"gens": [
+"g_202207_17570"
+]
+},
 "aito/m8/china": {
 "day": 739883,
 "gens": [
@@ -311,6 +317,12 @@
 "day": 739883,
 "gens": [
 "g_2024_21754"
+]
+},
+"avatr/06t/china": {
+"day": 739883,
+"gens": [
+"g_2026_24640"
 ]
 },
 "avatr/07/china": {
@@ -351,6 +363,18 @@
 "g_201604_16845"
 ]
 },
+"buick/gl8/china": {
+"day": 739883,
+"gens": [
+"g_1999_17701",
+"g_2005_17702",
+"g_2010_17722",
+"g_2010_17730",
+"g_2017_17731",
+"g_202005_17732",
+"g_2022_19693"
+]
+},
 "byd/destroyer_05/china": {
 "day": 739883,
 "gens": [
@@ -369,6 +393,16 @@
 "day": 739883,
 "gens": [
 "g_2022_16874"
+]
+},
+"byd/han/china": {
+"day": 739883,
+"gens": [
+"g_202007_15017",
+"g_2020_15018",
+"g_202204_16823",
+"g_2022_16824",
+"g_202409_23117"
 ]
 },
 "byd/han_l/china": {
@@ -495,6 +529,12 @@
 "g_2023_19934"
 ]
 },
+"im_motors/ls7/china": {
+"day": 739883,
+"gens": [
+"g_2023_18821"
+]
+},
 "leapmotor/c01/china": {
 "day": 739883,
 "gens": [
@@ -525,6 +565,28 @@
 "day": 739883,
 "gens": [
 "g_2021_17530"
+]
+},
+"mercedes-benz/e-class/china": {
+"day": 739883,
+"gens": [
+"g_198509_5612",
+"g_199505_5124",
+"g_199907_5125",
+"g_200206_5293",
+"g_2002_23186",
+"g_200604_5304",
+"g_2006_23187",
+"g_200903_1568",
+"g_2009_23188",
+"g_201301_1567",
+"g_2013_23189",
+"g_201601_3991",
+"g_2016_23190",
+"g_202003_11066",
+"g_2020_23191",
+"g_202308_18262",
+"g_2023_23192"
 ]
 },
 "mercedes-benz/eqb/china": {
@@ -600,6 +662,14 @@
 "g_2026_24265"
 ]
 },
+"tesla/model_y/china": {
+"day": 739883,
+"gens": [
+"g_2019_18011",
+"g_202003_15352",
+"g_2025_21884"
+]
+},
 "volvo/xc40/china": {
 "day": 739883,
 "gens": [
@@ -620,6 +690,12 @@
 "g_2019_22448",
 "g_202409_22501",
 "g_2024_22449"
+]
+},
+"wey/p8/china": {
+"day": 739883,
+"gens": [
+"g_2017_19947"
 ]
 },
 "wey/vv7/china": {
@@ -681,10 +757,29 @@
 "g_2025_22464"
 ]
 },
+"zeekr/001/china": {
+"day": 739883,
+"gens": [
+"g_202110_15801",
+"g_202309_20240"
+]
+},
+"zeekr/009/china": {
+"day": 739883,
+"gens": [
+"g_202211_16132"
+]
+},
 "zeekr/8x/china": {
 "day": 739883,
 "gens": [
 "g_2025_24130"
+]
+},
+"zeekr/9x/china": {
+"day": 739883,
+"gens": [
+"g_202509_22527"
 ]
 }
 },
@@ -806,6 +901,149 @@
 "market": "Китай",
 "to": 202404
 },
+"aito/m7/g_202207_17570": {
+"from": 202207,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "H15RT",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": 449,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 125 л.с., последовательный подзаряжаемый (PHEV) гибрид, 449 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202207,
+"name": "PHEV 1.5 Luxury",
+"to": 202309
+},
+{
+"from": 202207,
+"name": "PHEV 1.5 Ultimate",
+"to": 202309
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "H15RT",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": 272,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 125 л.с., последовательный подзаряжаемый (PHEV) гибрид, 272 л.с., редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202207,
+"name": "PHEV 1.5 Comfort",
+"to": 202309
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "H15RT",
+"fuel": "бензин",
+"hp": 152,
+"hp_total": 449,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 152 л.с., последовательный подзаряжаемый (PHEV) гибрид, 449 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202309,
+"name": "PHEV 1.5 Plus 5 seats",
+"to": 202408
+},
+{
+"from": 202309,
+"name": "PHEV 1.5 Max 5 seats",
+"to": 202408
+},
+{
+"from": 202309,
+"name": "PHEV 1.5 Max 6 seats",
+"to": 202408
+},
+{
+"from": 202408,
+"name": "PHEV 1.5 Pro 5 seats",
+"to": null
+},
+{
+"from": 202408,
+"name": "PHEV 1.5 Pro 6 seats",
+"to": null
+},
+{
+"from": 202408,
+"name": "PHEV 1.5 Ultra 5 seats",
+"to": null
+},
+{
+"from": 202408,
+"name": "PHEV 1.5 Ultra 6 seats",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "H15RT",
+"fuel": "бензин",
+"hp": 152,
+"hp_total": 272,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 152 л.с., последовательный подзаряжаемый (PHEV) гибрид, 272 л.с., редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202309,
+"name": "PHEV 1.5 Plus 5 seats",
+"to": 202408
+},
+{
+"from": 202309,
+"name": "PHEV 1.5 Max 5 seats",
+"to": 202408
+},
+{
+"from": 202309,
+"name": "PHEV 1.5 Plus 6 seats",
+"to": 202408
+},
+{
+"from": 202309,
+"name": "PHEV 1.5 Max 6 seats",
+"to": 202408
+},
+{
+"from": 202408,
+"name": "PHEV 1.5 Pro 5 seats",
+"to": null
+},
+{
+"from": 202408,
+"name": "PHEV 1.5 Ultra 5 seats",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
 "aito/m8/g_2023_21935": {
 "from": 202310,
 "groups": [
@@ -916,6 +1154,32 @@
 {
 "from": 202412,
 "name": "PHEV 1.5 SSR Extended Range Basic Model",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"avatr/06t/g_2026_24640": {
+"from": 202604,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": "JL469ZQ1",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 503,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., последовательный подзаряжаемый (PHEV) гибрид, 503 л.с., редуктор, задний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202604,
+"name": "PHEV 46.65 kWh 1.5L 2WD Range Extender",
 "to": null
 }
 ]
@@ -1910,6 +2174,233 @@
 "market": "Китай",
 "to": null
 },
+"buick/gl8/g_2017_17731": {
+"from": 201702,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "GM Ecotec LTG",
+"fuel": "бензин",
+"hp": 260,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 260 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201904,
+"name": "2.0T AT 28T Comfort",
+"to": 202003
+},
+{
+"from": 201812,
+"name": "2.0T AT 28T Luxury",
+"to": 202003
+},
+{
+"from": 201812,
+"name": "2.0T AT 28T Premium",
+"to": 202003
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "GM Ecotec LCV",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 200 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201702,
+"name": "2.5 AT 25S Comfort",
+"to": 201903
+},
+{
+"from": 201702,
+"name": "2.5 AT 25S Luxury",
+"to": 201811
+},
+{
+"from": 201702,
+"name": "2.5 AT 25S Premium",
+"to": 201811
+}
+]
+}
+],
+"market": "Китай",
+"to": 202003
+},
+"buick/gl8/g_202005_17732": {
+"from": 202002,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "GM Ecotec LSY, GM Ecotec LHX",
+"fuel": "бензин",
+"hp": 237,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 237 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202005,
+"name": "2.0T AT 652T Comfort",
+"to": 202008
+},
+{
+"from": 202005,
+"name": "2.0T AT 652T Luxury",
+"to": 202109
+},
+{
+"from": 202005,
+"name": "2.0T AT 652T Luxury Welfare",
+"to": 202109
+},
+{
+"from": 202005,
+"name": "2.0T AT 652T Premium",
+"to": 202109
+},
+{
+"from": 202005,
+"name": "2.0T AT 652T Premium Welfare",
+"to": 202109
+},
+{
+"from": 202009,
+"name": "2.0T AT 652T Comfort",
+"to": 202109
+},
+{
+"from": 202009,
+"name": "2.0T AT 652T Smart Luxury",
+"to": 202109
+},
+{
+"from": 202009,
+"name": "2.0T AT 652T Smart Premium",
+"to": 202109
+},
+{
+"from": 202110,
+"name": "2.0T AT 652T Comfort",
+"to": 202207
+},
+{
+"from": 202110,
+"name": "2.0T AT 652T Luxury",
+"to": 202207
+},
+{
+"from": 202110,
+"name": "2.0T AT 652T Luxury Welfare",
+"to": 202207
+},
+{
+"from": 202110,
+"name": "2.0T AT 652T Smart Luxury",
+"to": 202207
+},
+{
+"from": 202110,
+"name": "2.0T AT 652T Premium",
+"to": 202207
+},
+{
+"from": 202110,
+"name": "2.0T AT 652T Premium Welfare",
+"to": 202207
+},
+{
+"from": 202110,
+"name": "2.0T AT 652T Smart Premium",
+"to": 202207
+}
+]
+}
+],
+"market": "Китай",
+"to": 202207
+},
+"buick/gl8/g_2022_19693": {
+"from": 202208,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "GM Ecotec LHX",
+"fuel": "бензин",
+"hp": 237,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 237 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202208,
+"name": "2.0T AT Comfort",
+"to": null
+},
+{
+"from": 202208,
+"name": "2.0T AT Smart Enjoy",
+"to": null
+},
+{
+"from": 202208,
+"name": "2.0T AT Premium",
+"to": null
+},
+{
+"from": 202208,
+"name": "2.0T AT Premium Welfare",
+"to": null
+},
+{
+"from": 202208,
+"name": "2.0T AT Smart Premium",
+"to": null
+},
+{
+"from": 202208,
+"name": "2.0T AT 652T Luxury",
+"to": 202301
+},
+{
+"from": 202208,
+"name": "2.0T AT 652T Luxury Welfare",
+"to": 202301
+},
+{
+"from": 202208,
+"name": "2.0T AT 652T Smart Luxury",
+"to": 202301
+},
+{
+"from": 202302,
+"name": "2.0T AT Luxury",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
 "byd/destroyer_05/g_2021_16850": {
 "from": 202111,
 "groups": [
@@ -2115,6 +2606,183 @@
 ]
 }
 ],
+"market": "Китай",
+"to": null
+},
+"byd/han/g_202007_15017": {
+"from": 202001,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD487ZQB",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": 245,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 192 л.с., параллельный подзаряжаемый (PHEV) гибрид, 245 л.с., робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202007,
+"name": "DM PHEV 2.0Ti DCT AWD Premium",
+"to": 202203
+},
+{
+"from": 202007,
+"name": "DM PHEV 2.0Ti DCT AWD Honor",
+"to": 202203
+},
+{
+"from": 202007,
+"name": "DM PHEV 2.0Ti DCT AWD Exclusive",
+"to": 202203
+},
+{
+"from": 202007,
+"name": "DM PHEV 2.0Ti DCT AWD Flagship",
+"to": 202203
+}
+]
+}
+],
+"market": "Китай",
+"to": 202203
+},
+"byd/han/g_2020_15018": {
+"from": 202001,
+"groups": [],
+"market": "Китай",
+"to": 202203
+},
+"byd/han/g_202204_16823": {
+"from": 202204,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 139,
+"hp_total": 197,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 139 л.с., параллельный подзаряжаемый (PHEV) гибрид, 197 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202204,
+"name": "DM-i PHEV 18.3 kWh 1.5Ti CVT Premium",
+"to": 202401
+},
+{
+"from": 202204,
+"name": "DM-i PHEV 18.3 kWh 1.5Ti CVT Exclusive",
+"to": 202401
+},
+{
+"from": 202204,
+"name": "DM-i PHEV 18.3 kWh 1.5Ti CVT Honor Edition",
+"to": null
+},
+{
+"from": 202402,
+"name": "DM-i PHEV 18.3 kWh 1.5Ti CVT Honor Edition Elite",
+"to": null
+},
+{
+"from": 202402,
+"name": "DM-i PHEV 18.3 kWh 1.5Ti CVT Honor Edition Premium",
+"to": null
+},
+{
+"from": 202402,
+"name": "DM-i PHEV 18.3 kWh 1.5Ti CVT Honor Edition Exclusive",
+"to": null
+},
+{
+"from": 202305,
+"name": "DM-i PHEV 18.3 kWh 1.5Ti CVT Champion Edition Elite",
+"to": null
+},
+{
+"from": 202305,
+"name": "DM-i PHEV 18.3 kWh 1.5Ti CVT Champion Edition Premium",
+"to": null
+},
+{
+"from": 202305,
+"name": "DM-i PHEV 18.3 kWh 1.5Ti CVT Champion Edition Honor",
+"to": null
+},
+{
+"from": 202305,
+"name": "DM-i PHEV 18.3 kWh 1.5Ti CVT Champion Edition Exclusive",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 139,
+"hp_total": 218,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 139 л.с., параллельный подзаряжаемый (PHEV) гибрид, 218 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202204,
+"name": "DM-i PHEV 37.5 kWh 1.5Ti CVT Flagship",
+"to": 202301
+},
+{
+"from": 202305,
+"name": "DM-i PHEV 37.5 kWh 1.5Ti CVT Champion Edition Exclusive",
+"to": null
+},
+{
+"from": 202402,
+"name": "DM-i PHEV 37.5 kWh 1.5Ti CVT Honor Edition Flagship",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 139,
+"hp_total": 489,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 139 л.с., параллельный подзаряжаемый (PHEV) гибрид, 489 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202204,
+"name": "DM-p PHEV 37.5 kWh 1.5Ti CVT AWD Flagship",
+"to": 202304
+},
+{
+"from": 202305,
+"name": "DM-p PHEV 37.5 kWh 1.5Ti CVT AWD Ares Edition",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"byd/han/g_2022_16824": {
+"from": 202204,
+"groups": [],
 "market": "Китай",
 "to": null
 },
@@ -3953,6 +4621,12 @@
 "market": "Китай",
 "to": null
 },
+"im_motors/ls7/g_2023_18821": {
+"from": 202304,
+"groups": [],
+"market": "Китай",
+"to": null
+},
 "leapmotor/c01/g_2022_17127": {
 "from": 202204,
 "groups": [
@@ -4473,6 +5147,2792 @@
 ],
 "market": "Китай",
 "to": 202310
+},
+"mercedes-benz/e-class/g_201301_1567": {
+"from": 201301,
+"groups": [
+{
+"body": [
+"W212"
+],
+"drive": "rwd",
+"engine": "M 274 DE 20 AL",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201301,
+"name": "E 200 AT Особая серия",
+"to": 201512
+},
+{
+"from": 201410,
+"name": "E 200 AT",
+"to": 201512
+}
+]
+},
+{
+"body": [
+"W212"
+],
+"drive": "rwd",
+"engine": "M 274 DE 20 AL",
+"fuel": "бензин",
+"hp": 211,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 211 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201301,
+"name": "E 250 AT Особая серия",
+"to": 201512
+}
+]
+},
+{
+"body": [
+"W212"
+],
+"drive": "rwd",
+"engine": "OM 651 DE 22 LA",
+"fuel": "дизель",
+"hp": 170,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.1,
+"text": "2.1 л, 170 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201301,
+"name": "E 220 CDI AT Особая серия",
+"to": 201409
+},
+{
+"from": 201407,
+"name": "E 220 BlueTEC AT Особая серия",
+"to": 201512
+}
+]
+},
+{
+"body": [
+"W212"
+],
+"drive": "4wd",
+"engine": "OM 651 DE 22 LA",
+"fuel": "дизель",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.1,
+"text": "2.1 л, 204 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201301,
+"name": "E 250 CDI 4MATIC AT Особая серия",
+"to": 201409
+},
+{
+"from": 201407,
+"name": "E 250 BlueTEC 4MATIC AT Особая серия",
+"to": 201512
+}
+]
+},
+{
+"body": [
+"W212"
+],
+"drive": "rwd",
+"engine": "OM 651 DE 22 LA",
+"fuel": "дизель",
+"hp": 204,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.1,
+"text": "2.1 л, дизель, 204 л.с., параллельный гибрид, 27 л.с., АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201407,
+"name": "E 300 BlueTEC Hybrid AT Особая серия",
+"to": 201508
+}
+]
+},
+{
+"body": [
+"W212"
+],
+"drive": "4wd",
+"engine": "M 276 DE 30 AL",
+"fuel": "бензин",
+"hp": 333,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 333 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201304,
+"name": "E 400 4MATIC AT Особая серия",
+"to": 201512
+}
+]
+},
+{
+"body": [
+"W212"
+],
+"drive": "4wd",
+"engine": "M 276 DE 35",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 249 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201301,
+"name": "E 300 4MATIC AT Особая серия",
+"to": 201512
+}
+]
+},
+{
+"body": [
+"W212"
+],
+"drive": "rwd",
+"engine": "M 276 DE 35",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 249 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201301,
+"name": "E 300 AT Особая серия",
+"to": 201512
+}
+]
+},
+{
+"body": [
+"W212"
+],
+"drive": "4wd",
+"engine": "M 276 DE 35",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 306 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201301,
+"name": "E 350 4MATIC AT Особая серия",
+"to": 201309
+}
+]
+},
+{
+"body": [
+"W212"
+],
+"drive": "4wd",
+"engine": "M 278 DE 46 LA",
+"fuel": "бензин",
+"hp": 408,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.7,
+"text": "4.7 л, 408 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201301,
+"name": "E 500 4MATIC AT",
+"to": 201412
+}
+]
+},
+{
+"body": [
+"W212"
+],
+"drive": "4wd",
+"engine": "M 157 DE 55 LA",
+"fuel": "бензин",
+"hp": 557,
+"hp_total": null,
+"hybrid": null,
+"liters": 5.5,
+"text": "5.5 л, 557 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201301,
+"name": "E 63 AMG 4MATIC",
+"to": 201512
+}
+]
+},
+{
+"body": [
+"W212"
+],
+"drive": "rwd",
+"engine": "M 157 DE 55 LA",
+"fuel": "бензин",
+"hp": 557,
+"hp_total": null,
+"hybrid": null,
+"liters": 5.5,
+"text": "5.5 л, 557 л.с., бензин, робот, задний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201301,
+"name": "E 63 AMG",
+"to": 201512
+}
+]
+},
+{
+"body": [
+"W212"
+],
+"drive": "4wd",
+"engine": "M 157 DE 55 LA",
+"fuel": "бензин",
+"hp": 585,
+"hp_total": null,
+"hybrid": null,
+"liters": 5.5,
+"text": "5.5 л, 585 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201301,
+"name": "E 63 AMG S 4MATIC",
+"to": 201512
+}
+]
+}
+],
+"market": "Россия",
+"to": 201512
+},
+"mercedes-benz/e-class/g_2013_23189": {
+"from": 201301,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": "M271.860",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 204 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201308,
+"name": "E 260 L Sport",
+"to": 201401
+},
+{
+"from": 201308,
+"name": "E 260 L Luxury",
+"to": 201401
+},
+{
+"from": 201308,
+"name": "E 260 L Sport Luxury",
+"to": 201401
+},
+{
+"from": 201401,
+"name": "E 260 L Sport",
+"to": 201406
+},
+{
+"from": 201401,
+"name": "E 260 L",
+"to": 201406
+},
+{
+"from": 201401,
+"name": "E 260 L Luxury",
+"to": 201406
+},
+{
+"from": 201401,
+"name": "E 260 L Sport Luxury",
+"to": 201406
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M274.920",
+"fuel": "бензин",
+"hp": 170,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 170 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201411,
+"name": "E 180 L Sport",
+"to": 201506
+},
+{
+"from": 201411,
+"name": "E 180 L",
+"to": 201506
+},
+{
+"from": 201506,
+"name": "E 180 L Sport",
+"to": 201608
+},
+{
+"from": 201506,
+"name": "E 180 L",
+"to": 201608
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M274.920",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"name": "E 200 L Sport",
+"to": 201506
+},
+{
+"from": 201406,
+"name": "E 200 L",
+"to": 201506
+},
+{
+"from": 201506,
+"name": "E 200 L Sport",
+"to": 201608
+},
+{
+"from": 201506,
+"name": "E 200 L",
+"to": 201608
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M274.920",
+"fuel": "бензин",
+"hp": 211,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 211 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"name": "E 260 L Sport",
+"to": 201506
+},
+{
+"from": 201406,
+"name": "E 260 L",
+"to": 201506
+},
+{
+"from": 201406,
+"name": "E 260 L Sport Fashion",
+"to": 201506
+},
+{
+"from": 201406,
+"name": "E 260 L Luxury",
+"to": 201506
+},
+{
+"from": 201406,
+"name": "E 260 L Sport Luxury",
+"to": 201506
+},
+{
+"from": 201506,
+"name": "E 260 L Sport",
+"to": 201608
+},
+{
+"from": 201506,
+"name": "E 260 L",
+"to": 201608
+},
+{
+"from": 201506,
+"name": "E 260 L Sport Fashion",
+"to": 201608
+},
+{
+"from": 201506,
+"name": "E 260 L Luxury",
+"to": 201608
+},
+{
+"from": 201506,
+"name": "E 260 L Sport Luxury",
+"to": 201608
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M272.952",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 245 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201308,
+"name": "E 300 L Sport",
+"to": 201401
+},
+{
+"from": 201308,
+"name": "E 300 L",
+"to": 201401
+},
+{
+"from": 201308,
+"name": "E 300 L Sport Luxury",
+"to": 201401
+},
+{
+"from": 201401,
+"name": "E 300 L Sport",
+"to": 201406
+},
+{
+"from": 201401,
+"name": "E 300 L",
+"to": 201406
+},
+{
+"from": 201401,
+"name": "E 300 L Sport Luxury",
+"to": 201406
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M276.820",
+"fuel": "бензин",
+"hp": 272,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 272 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"name": "E 320 L 4MATIC",
+"to": 201608
+},
+{
+"from": 201406,
+"name": "E 320 L 4MATIC Sport",
+"to": 201608
+},
+{
+"from": 201406,
+"name": "E 320 L 4MATIC Luxury",
+"to": 201608
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M276.820",
+"fuel": "бензин",
+"hp": 272,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 272 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"name": "E 320 L",
+"to": 201608
+},
+{
+"from": 201406,
+"name": "E 320 L Sport",
+"to": 201608
+},
+{
+"from": 201406,
+"name": "E 320 L Sport Luxury",
+"to": 201608
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M276.820",
+"fuel": "бензин",
+"hp": 333,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 333 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"name": "E 400 L 4MATIC Sport Luxury",
+"to": 201608
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M276.820",
+"fuel": "бензин",
+"hp": 333,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 333 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201308,
+"name": "E 400 L Sport Luxury",
+"to": 201608
+},
+{
+"from": 201401,
+"name": "E 400 L Sport Luxury",
+"to": 201406
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M276.952",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.5,
+"text": "3.5 л, бензин, 306 л.с., мягкий гибрид, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201311,
+"name": "E 400 L Hybrid",
+"to": 201406
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M276.952",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 3.5,
+"text": "3.5 л, бензин, 306 л.с., параллельный гибрид, 27 л.с., АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"name": "E 400 L Hybrid",
+"to": 201608
+}
+]
+}
+],
+"market": "Китай",
+"to": 201608
+},
+"mercedes-benz/e-class/g_201601_3991": {
+"from": 201601,
+"groups": [
+{
+"body": [
+"W213"
+],
+"drive": "rwd",
+"engine": "OM 654 DE 20 LA",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201607,
+"name": "E 200 d Premium",
+"to": 202006
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "M 274 DES 20 AL",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201607,
+"name": "E 200 4MATIC Business",
+"to": 201901
+},
+{
+"from": 201607,
+"name": "E 200 4MATIC Sport",
+"to": 201901
+},
+{
+"from": 201706,
+"name": "E 200 4MATIC Premium",
+"to": 201901
+},
+{
+"from": 201706,
+"name": "E 200 4MATIC Exclusive",
+"to": 201901
+},
+{
+"from": 201706,
+"name": "E 200 4MATIC Sport Plus",
+"to": 201901
+},
+{
+"from": 201706,
+"name": "E 200 4MATIC Exclusive Plus",
+"to": 201808
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "rwd",
+"engine": "M 274 DES 20 AL",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201601,
+"name": "E 200 Business",
+"to": 201901
+},
+{
+"from": 201601,
+"name": "E 200 Sport Plus",
+"to": 201901
+},
+{
+"from": 201601,
+"name": "E 200 Luxury",
+"to": 201705
+},
+{
+"from": 201706,
+"name": "E 200 Sport",
+"to": 201901
+},
+{
+"from": 201706,
+"name": "E 200 Premium",
+"to": 201901
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "OM 654 DE 20 LA",
+"fuel": "дизель",
+"hp": 194,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 194 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201611,
+"name": "E 220 d 4MATIC Sport Plus",
+"to": 201705
+},
+{
+"from": 201611,
+"name": "E 220 d 4MATIC Luxury",
+"to": 201705
+},
+{
+"from": 201706,
+"name": "E 220 d 4MATIC Exclusive",
+"to": 202006
+},
+{
+"from": 201808,
+"name": "E 220 d 4MATIC Sport",
+"to": 202006
+},
+{
+"from": 201901,
+"name": "E 220 d 4MATIC Premium",
+"to": 202006
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "rwd",
+"engine": "OM 654 DE 20 LA",
+"fuel": "дизель",
+"hp": 195,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 195 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201601,
+"name": "E 220 d Business",
+"to": 201610
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "M 264 DES 20 AL",
+"fuel": "бензин",
+"hp": 197,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 197 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201902,
+"name": "E 200 4MATIC Sport",
+"to": 202006
+},
+{
+"from": 201903,
+"name": "E 200 4MATIC Premium",
+"to": 202006
+},
+{
+"from": 201903,
+"name": "E 200 4MATIC Exclusive",
+"to": 202006
+},
+{
+"from": 201903,
+"name": "E 200 4MATIC Sport Plus",
+"to": 202006
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "rwd",
+"engine": "M 264 DES 20 AL",
+"fuel": "бензин",
+"hp": 197,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 197 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201902,
+"name": "E 200 Sport",
+"to": 202006
+},
+{
+"from": 201902,
+"name": "E 200 Premium",
+"to": 202006
+},
+{
+"from": 201902,
+"name": "E 200 Sport Plus",
+"to": 202006
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "rwd",
+"engine": "M 274 DE 20 AL",
+"fuel": "бензин",
+"hp": 211,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 211 л.с., параллельный подзаряжаемый (PHEV) гибрид, 88 л.с., АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201611,
+"name": "E 350 e Luxury",
+"to": 201907
+},
+{
+"from": 202002,
+"name": "E 350 e Luxury Limited",
+"to": 202006
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "rwd",
+"engine": "M 274 DE 20 AL",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201607,
+"name": "E 300 Luxury",
+"to": 201808
+},
+{
+"from": 201607,
+"name": "E 300 Sport",
+"to": 201808
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "OM 656 D 29 SCR",
+"fuel": "дизель",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.9,
+"text": "2.9 л, 340 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201810,
+"name": "E 400 d 4MATIC Sport",
+"to": 202006
+},
+{
+"from": 201810,
+"name": "E 400 d 4MATIC Luxury",
+"to": 202006
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "M 276 DE 30 AL",
+"fuel": "бензин",
+"hp": 333,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 333 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201607,
+"name": "E 400 4MATIC Sport",
+"to": 201809
+},
+{
+"from": 201607,
+"name": "E 400 4MATIC Luxury",
+"to": 201809
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "M 276 DEH 30 LA",
+"fuel": "бензин",
+"hp": 367,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 367 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201810,
+"name": "E 450 4MATIC Sport",
+"to": 202006
+},
+{
+"from": 201810,
+"name": "E 450 4MATIC Luxury",
+"to": 202006
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "M 276 DE 30 AL",
+"fuel": "бензин",
+"hp": 401,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 401 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201607,
+"name": "AMG E 43 4MATIC Особая серия",
+"to": 201808
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "M 256 E 30 DEH LA G",
+"fuel": "бензин",
+"hp": 435,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 435 л.с., мягкий гибрид, 22 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201808,
+"name": "AMG E 53 4MATIC Особая серия",
+"to": 202006
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "M 177 DE 40 AL",
+"fuel": "бензин",
+"hp": 571,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.0,
+"text": "4.0 л, 571 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201702,
+"name": "AMG E 63 4MATIC Особая серия",
+"to": 201906
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "M 177 DE 40 AL",
+"fuel": "бензин",
+"hp": 612,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.0,
+"text": "4.0 л, 612 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201702,
+"name": "AMG E 63 S 4MATIC+ Особая серия",
+"to": 202006
+}
+]
+}
+],
+"market": "Россия",
+"to": 202006
+},
+"mercedes-benz/e-class/g_2016_23190": {
+"from": 201601,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "M264.915",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201911,
+"name": "E 260 L 4MATIC",
+"to": 202009
+},
+{
+"from": 201911,
+"name": "E 260 L 4MATIC Sport",
+"to": 202009
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M264.915",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 184 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201911,
+"name": "E 260 L",
+"to": 202009
+},
+{
+"from": 201911,
+"name": "E 260 L Sport",
+"to": 202009
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M274.920",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201611,
+"name": "E 200 4MATIC Sport",
+"to": 201911
+},
+{
+"from": 201611,
+"name": "E 200 L 4MATIC",
+"to": 201911
+},
+{
+"from": 201611,
+"name": "E 200 L 4MATIC Sport",
+"to": 201911
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M274.920",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201608,
+"name": "E 200 L",
+"to": 201911
+},
+{
+"from": 201608,
+"name": "E 200 L Sport",
+"to": 201911
+},
+{
+"from": 201611,
+"name": "E 200 Sport",
+"to": 201911
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M274.920",
+"fuel": "бензин",
+"hp": 211,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 211 л.с., параллельный гибрид, 122 л.с., АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201911,
+"name": "E 300 e L",
+"to": 202009
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M274.920",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201608,
+"name": "E 300 L Fashion",
+"to": 201911
+},
+{
+"from": 201608,
+"name": "E 300 L Sport Fashion",
+"to": 201703
+},
+{
+"from": 201608,
+"name": "E 300 L Luxury",
+"to": 201703
+},
+{
+"from": 201608,
+"name": "E 300 L Sport Luxury",
+"to": 201703
+},
+{
+"from": 201703,
+"name": "E 300 L Sport Fashion",
+"to": 201911
+},
+{
+"from": 201703,
+"name": "E 300 L Luxury",
+"to": 201911
+},
+{
+"from": 201703,
+"name": "E 300 L Sport Luxury",
+"to": 201911
+},
+{
+"from": 201611,
+"name": "E 300 Sport",
+"to": 201911
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M264.920",
+"fuel": "бензин",
+"hp": 258,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 258 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201911,
+"name": "E 300 L Fashion",
+"to": 202009
+},
+{
+"from": 201911,
+"name": "E 300 L Sport Fashion",
+"to": 202009
+},
+{
+"from": 201911,
+"name": "E 300 L Luxury",
+"to": 202009
+},
+{
+"from": 201911,
+"name": "E 300 L Sport Luxury",
+"to": 202009
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M264.920",
+"fuel": "бензин",
+"hp": 299,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 299 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201903,
+"name": "E 350 L 4MATIC",
+"to": 202009
+},
+{
+"from": 201903,
+"name": "E 350 L 4MATIC Sport",
+"to": 202009
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M276.823",
+"fuel": "бензин",
+"hp": 272,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 272 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201611,
+"name": "E 320 L 4MATIC",
+"to": 201903
+},
+{
+"from": 201611,
+"name": "E 320 L 4MATIC Sport",
+"to": 201903
+}
+]
+}
+],
+"market": "Китай",
+"to": 202009
+},
+"mercedes-benz/e-class/g_202003_11066": {
+"from": 202003,
+"groups": [
+{
+"body": [
+"W213"
+],
+"drive": "rwd",
+"engine": "OM 654 D 16 SCR",
+"fuel": "дизель",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 160 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202007,
+"name": "E 200 d Business",
+"to": 202203
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "OM 654 D 20 SCR",
+"fuel": "дизель",
+"hp": 194,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 194 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202007,
+"name": "E 220 d 4MATIC Premium",
+"to": 202112
+},
+{
+"from": 202007,
+"name": "E 220 d 4MATIC Sport",
+"to": 202203
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "M 264 DES 20 AL",
+"fuel": "бензин",
+"hp": 197,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 197 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202007,
+"name": "E 200 4MATIC Sport",
+"to": 202203
+},
+{
+"from": 202007,
+"name": "E 200 4MATIC Sport Plus",
+"to": 202203
+},
+{
+"from": 202007,
+"name": "E 200 4MATIC Intelligent Drive",
+"to": 202203
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "rwd",
+"engine": "M 264 DES 20 AL",
+"fuel": "бензин",
+"hp": 197,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 197 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202007,
+"name": "E 200 Sport",
+"to": 202203
+},
+{
+"from": 202007,
+"name": "E 200 Business",
+"to": 202203
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "M 274 DE 20 AL",
+"fuel": "бензин",
+"hp": 211,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 211 л.с., параллельный подзаряжаемый (PHEV) гибрид, 122 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202007,
+"name": "E 300 e 4MATIC Sport",
+"to": 202111
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "OM 654 M",
+"fuel": "дизель",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 249 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202112,
+"name": "E 300d 4MATIC Sport Plus",
+"to": 202203
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "OM 654 M",
+"fuel": "дизель",
+"hp": 265,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 265 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202105,
+"name": "E 300d 4MATIC Sport Plus",
+"to": 202111
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "OM 656 D 29 R SCR",
+"fuel": "дизель",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.9,
+"text": "2.9 л, 249 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202007,
+"name": "E 350d 4MATIC Sport Plus",
+"to": 202111
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "M 276 DEH 30 LA",
+"fuel": "бензин",
+"hp": 367,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 367 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202007,
+"name": "E 450 4MATIC Sport",
+"to": 202203
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "M 256 E30 DEH LA G",
+"fuel": "бензин",
+"hp": 435,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 435 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202007,
+"name": "AMG E 53 4MATIC+",
+"to": 202203
+}
+]
+},
+{
+"body": [
+"W213"
+],
+"drive": "4wd",
+"engine": "M 177 DE 40 AL",
+"fuel": "бензин",
+"hp": 612,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.0,
+"text": "4.0 л, 612 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202007,
+"name": "AMG E 63 S 4MATIC+",
+"to": 202203
+}
+]
+}
+],
+"market": "Россия",
+"to": 202203
+},
+"mercedes-benz/e-class/g_2020_23191": {
+"from": 202003,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "M264.915",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 184 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202009,
+"name": "E 260 L 4MATIC",
+"to": 202110
+},
+{
+"from": 202009,
+"name": "E 260 L 4MATIC Sport",
+"to": 202110
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M264.915",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 184 л.с., мягкий гибрид, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202009,
+"name": "E 260 L",
+"to": 202110
+},
+{
+"from": 202009,
+"name": "E 260 L Sport",
+"to": 202110
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M264.920",
+"fuel": "бензин",
+"hp": 197,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 197 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202110,
+"name": "E 260 L 4MATIC",
+"to": 202312
+},
+{
+"from": 202110,
+"name": "E 260 L 4MATIC Sport",
+"to": 202312
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M264.920",
+"fuel": "бензин",
+"hp": 197,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 197 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202110,
+"name": "E 260 L",
+"to": 202312
+},
+{
+"from": 202110,
+"name": "E 260 L Sport",
+"to": 202312
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M274.920",
+"fuel": "бензин",
+"hp": 211,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 211 л.с., параллельный подзаряжаемый (PHEV) гибрид, 122 л.с., АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202104,
+"name": "E 350 e L",
+"to": 202110
+},
+{
+"from": 202104,
+"name": "E 350 e L Sport",
+"to": 202110
+},
+{
+"from": 202110,
+"name": "E 350 e L",
+"to": 202406
+},
+{
+"from": 202110,
+"name": "E 350 e L Sport",
+"to": 202406
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M264.920",
+"fuel": "бензин",
+"hp": 258,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 258 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202009,
+"name": "E 300 L Fashion",
+"to": 202312
+},
+{
+"from": 202009,
+"name": "E 300 L Sport Fashion",
+"to": 202312
+},
+{
+"from": 202009,
+"name": "E 300 L Luxury",
+"to": 202312
+},
+{
+"from": 202009,
+"name": "E 300 L Sport Luxury",
+"to": 202312
+},
+{
+"from": 202009,
+"name": "E 300 L Excellence",
+"to": 202312
+},
+{
+"from": 202009,
+"name": "E 300 L Sport Excellence",
+"to": 202312
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M264.920",
+"fuel": "бензин",
+"hp": 299,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 299 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202009,
+"name": "E 350 L 4MATIC",
+"to": 202110
+},
+{
+"from": 202009,
+"name": "E 350 L Sport Excellence",
+"to": 202110
+}
+]
+}
+],
+"market": "Китай",
+"to": 202406
+},
+"mercedes-benz/e-class/g_202308_18262": {
+"from": 202304,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "OM 654 D 20 R SCR",
+"fuel": "дизель",
+"hp": 197,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 197 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202308,
+"name": "E 220d AТ 4MATIC Avantgarde Advanced",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 220d AТ 4MATIC Avantgarde Advanced Plus",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 220d AТ 4MATIC AMG Line Advanced",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 220d AТ 4MATIC AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 220d AТ 4MATIC AMG Line Premium",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 220d AТ 4MATIC Exclusive Premium",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 220d AТ 4MATIC AMG Line Premium Plus",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 220d AТ 4MATIC Exclusive Premium Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "OM 654 D 20 R SCR",
+"fuel": "дизель",
+"hp": 197,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, дизель, 197 л.с., параллельный подзаряжаемый (PHEV) гибрид, 129 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"name": "E 300 de AТ 4MATIC Avantgarde Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 de AТ 4MATIC Avantgarde Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 de AТ 4MATIC AMG Line Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 de AТ 4MATIC AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 de AТ 4MATIC AMG Line Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 de AТ 4MATIC Exclusive Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 de AТ 4MATIC AMG Line Premium Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 de AТ 4MATIC Exclusive Premium Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "OM 654 D 20 R SCR",
+"fuel": "дизель",
+"hp": 197,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 197 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202308,
+"name": "E 220d AТ Avantgarde Advanced",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 220d AТ Avantgarde Advanced Plus",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 220d AТ AMG Line Advanced",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 220d AТ AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 220d AТ AMG Line Premium",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 220d AТ Exclusive Premium",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 220d AТ AMG Line Premium Plus",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 220d AТ Exclusive Premium Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "OM 654 D 20 R SCR",
+"fuel": "дизель",
+"hp": 197,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, дизель, 197 л.с., параллельный подзаряжаемый (PHEV) гибрид, 129 л.с., АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"name": "E 300 de AТ Avantgarde Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 de AТ Avantgarde Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 de AТ AMG Line Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 de AТ AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 de AТ AMG Line Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 de AТ Exclusive Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 de AТ AMG Line Premium Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 de AТ Exclusive Premium Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M 254 E20 DEH LA",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 204 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"name": "E 200 AТ 4MATIC Avantgarde Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 200 AТ 4MATIC Avantgarde Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 200 AТ 4MATIC AMG Line Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 200 AТ 4MATIC AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 200 AТ 4MATIC AMG Line Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 200 AТ 4MATIC Exclusive Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 200 AТ 4MATIC AMG Line Premium Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 200 AТ 4MATIC Exclusive Premium Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M 254 E20 DEH LA",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 204 л.с., параллельный подзаряжаемый (PHEV) гибрид, 129 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"name": "E 300 e AТ 4MATIC Avantgarde Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 e AТ 4MATIC Avantgarde Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 e AТ 4MATIC AMG Line Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 e AТ 4MATIC AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 e AТ 4MATIC AMG Line Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 e AТ 4MATIC Exclusive Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 e AТ 4MATIC AMG Line Premium Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 e AТ 4MATIC Exclusive Premium Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M 254 E20 DEH LA",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 204 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202308,
+"name": "E 200 AТ Avantgarde Advanced",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 200 AТ Avantgarde Advanced Plus",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 200 AТ AMG Line Advanced",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 200 AТ AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 200 AТ AMG Line Premium",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 200 AТ Exclusive Premium",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 200 AТ AMG Line Premium Plus",
+"to": null
+},
+{
+"from": 202308,
+"name": "E 200 AТ Exclusive Premium Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M 254 E20 DEH LA",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 204 л.с., параллельный подзаряжаемый (PHEV) гибрид, 129 л.с., АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"name": "E 300 e AТ Avantgarde Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 e AТ Avantgarde Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 e AТ AMG Line Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 e AТ AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 e AТ AMG Line Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 e AТ Exclusive Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 e AТ AMG Line Premium Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 e AТ Exclusive Premium Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M 254 E20 DEH LA",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 252 л.с., параллельный подзаряжаемый (PHEV) гибрид, 129 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"name": "E 400 e AТ 4MATIC Avantgarde Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 400 e AТ 4MATIC AMG Line Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 400 e AТ 4MATIC AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 400 e AТ 4MATIC AMG Line Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 400 e AТ 4MATIC Exclusive Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 400 e AТ 4MATIC AMG Line Premium Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 400 e AТ 4MATIC Exclusive Premium Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M 254 E20 DEH LA",
+"fuel": "бензин",
+"hp": 258,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 258 л.с., мягкий гибрид, 23 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"name": "E 300 AТ 4MATIC Avantgarde Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 AТ 4MATIC AMG Line Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 AТ 4MATIC AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 AТ 4MATIC AMG Line Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 AТ 4MATIC Exclusive Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 AТ 4MATIC AMG Line Premium Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 AТ 4MATIC Exclusive Premium Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M 254 E20 DEH LA",
+"fuel": "бензин",
+"hp": 258,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 258 л.с., мягкий гибрид, 23 л.с., АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"name": "E 300 AТ Avantgarde Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 AТ AMG Line Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 AТ AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 AТ AMG Line Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 AТ Exclusive Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 AТ AMG Line Premium Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 300 AТ Exclusive Premium Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "OM 656",
+"fuel": "дизель",
+"hp": 367,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 367 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"name": "E 450d AТ 4MATIC Avantgarde Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 450d AТ 4MATIC AMG Line Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 450d AТ 4MATIC AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 450d AТ 4MATIC AMG Line Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 450d AТ 4MATIC Exclusive Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 450d AТ 4MATIC AMG Line Premium Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 450d AТ 4MATIC Exclusive Premium Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M 256 E 30 DEH LA G R",
+"fuel": "бензин",
+"hp": 381,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 381 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"name": "E 450 AТ 4MATIC Avantgarde Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 450 AТ 4MATIC AMG Line Advanced",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 450 AТ 4MATIC AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 450 AТ 4MATIC AMG Line Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 450 AТ 4MATIC Exclusive Premium",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 450 AТ 4MATIC AMG Line Premium Plus",
+"to": null
+},
+{
+"from": 202310,
+"name": "E 450 AТ 4MATIC Exclusive Premium Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M 256 E 30 DEH LA G",
+"fuel": "бензин",
+"hp": 449,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 449 л.с., параллельный подзаряжаемый (PHEV) гибрид, 163 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"name": "AMG E 53 AТ Hybrid 4MATIC Advanced Plus",
+"to": null
+}
+]
+}
+],
+"market": "Европа",
+"to": null
+},
+"mercedes-benz/e-class/g_2023_23192": {
+"from": 202304,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "M254.920",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 204 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202312,
+"name": "E 260 L 4MATIC",
+"to": 202503
+},
+{
+"from": 202312,
+"name": "E 260 L 4MATIC Sport",
+"to": 202503
+},
+{
+"from": 202503,
+"name": "E 260 L 4MATIC",
+"to": 202511
+},
+{
+"from": 202503,
+"name": "E 260 L 4MATIC Sport",
+"to": 202511
+},
+{
+"from": 202511,
+"name": "E 260 L 4MATIC",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M254.920",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 204 л.с., мягкий гибрид, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202312,
+"name": "E 260 L",
+"to": 202503
+},
+{
+"from": 202312,
+"name": "E 260 L Sport",
+"to": 202503
+},
+{
+"from": 202503,
+"name": "E 260 L",
+"to": 202511
+},
+{
+"from": 202503,
+"name": "E 260 L Sport",
+"to": 202511
+},
+{
+"from": 202511,
+"name": "E 260 L Classic",
+"to": null
+},
+{
+"from": 202511,
+"name": "E 260 L",
+"to": null
+},
+{
+"from": 202511,
+"name": "E 260 Sport",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M254.920",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 204 л.с., параллельный подзаряжаемый (PHEV) гибрид, 129 л.с., АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202406,
+"name": "E 350 e L",
+"to": null
+},
+{
+"from": 202406,
+"name": "E 350 e L Sport",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M254.920",
+"fuel": "бензин",
+"hp": 258,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 258 л.с., мягкий гибрид, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202312,
+"name": "E 300 L Fashion",
+"to": 202503
+},
+{
+"from": 202312,
+"name": "E 300 L Fashion Sport",
+"to": 202503
+},
+{
+"from": 202312,
+"name": "E 300 L Luxury",
+"to": 202503
+},
+{
+"from": 202312,
+"name": "E 300 L Luxury Sport",
+"to": 202503
+},
+{
+"from": 202403,
+"name": "E 300 L Excellence",
+"to": 202503
+},
+{
+"from": 202403,
+"name": "E 300 L Excellence Sport",
+"to": 202503
+},
+{
+"from": 202503,
+"name": "E 300 L Fashion",
+"to": 202511
+},
+{
+"from": 202503,
+"name": "E 300 L Fashion Sport",
+"to": 202511
+},
+{
+"from": 202503,
+"name": "E 300 L Luxury",
+"to": 202511
+},
+{
+"from": 202503,
+"name": "E 300 L Luxury Sport",
+"to": 202511
+},
+{
+"from": 202503,
+"name": "E 300 L Excellence",
+"to": 202511
+},
+{
+"from": 202503,
+"name": "E 300 L Excellence Sport",
+"to": 202511
+},
+{
+"from": 202511,
+"name": "E 300 Fashion Sport",
+"to": null
+},
+{
+"from": 202511,
+"name": "E 300 L Fashion",
+"to": null
+},
+{
+"from": 202511,
+"name": "E 300 L Sport",
+"to": null
+},
+{
+"from": 202511,
+"name": "E 300 Luxury Sport",
+"to": null
+},
+{
+"from": 202511,
+"name": "E 300 L Luxury",
+"to": null
+},
+{
+"from": 202511,
+"name": "E 300 L Luxury Sport",
+"to": null
+},
+{
+"from": 202511,
+"name": "E 300 L Premium",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
 },
 "mercedes-benz/eqb/g_202111_13970": {
 "from": 202104,
@@ -5525,6 +8985,18 @@
 ],
 "market": "Китай",
 "to": 202604
+},
+"tesla/model_y/g_2019_18011": {
+"from": 201903,
+"groups": [],
+"market": "Китай",
+"to": 202501
+},
+"tesla/model_y/g_202003_15352": {
+"from": 201903,
+"groups": [],
+"market": "Европа",
+"to": 202501
 },
 "volvo/xc40/g_201709_7858": {
 "from": 201709,
@@ -7359,6 +10831,42 @@
 "market": "Китай",
 "to": null
 },
+"wey/p8/g_2017_19947": {
+"from": 201711,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4C20A",
+"fuel": "бензин",
+"hp": 234,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 234 л.с., параллельный подзаряжаемый (PHEV) гибрид, 116 л.с., робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201804,
+"name": "2.0 T DCT 4WD Premium",
+"to": 201911
+},
+{
+"from": 201804,
+"name": "2.0 T DCT 4WD Exclusive",
+"to": 201911
+},
+{
+"from": 201804,
+"name": "2.0 T DCT 4WD Flagship",
+"to": 201911
+}
+]
+}
+],
+"market": "Китай",
+"to": 202011
+},
 "wey/vv7/g_2017_19048": {
 "from": 201704,
 "groups": [
@@ -7626,6 +11134,24 @@
 "market": "Китай",
 "to": null
 },
+"zeekr/001/g_202110_15801": {
+"from": 202110,
+"groups": [],
+"market": "Китай",
+"to": 202402
+},
+"zeekr/001/g_202309_20240": {
+"from": 202309,
+"groups": [],
+"market": "Китай",
+"to": null
+},
+"zeekr/009/g_202211_16132": {
+"from": 202208,
+"groups": [],
+"market": "Китай",
+"to": null
+},
 "zeekr/8x/g_2025_24130": {
 "from": 202502,
 "groups": [
@@ -7688,6 +11214,86 @@
 {
 "from": 202604,
 "name": "PHEV 2.0 DHT 70 kWh Obsidian",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"zeekr/9x/g_202509_22527": {
+"from": 202504,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "DHE20-PFZ",
+"fuel": "бензин",
+"hp": 279,
+"hp_total": 1400,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 279 л.с., параллельный подзаряжаемый (PHEV) гибрид, 1400 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202509,
+"name": "PHEV 2.0 DHT Ultra 70 kWh",
+"to": null
+},
+{
+"from": 202509,
+"name": "PHEV 2.0 DHT Hyper 70 kWh",
+"to": null
+},
+{
+"from": 202509,
+"name": "PHEV 2.0 DHT Black Obsidian 70 kWh",
+"to": null
+},
+{
+"from": 202607,
+"name": "PHEV 2.0 DHT Hyper 70 kWh 5 seats",
+"to": null
+},
+{
+"from": 202607,
+"name": "PHEV 2.0 DHT Ultra 70 kWh 5 seats",
+"to": null
+},
+{
+"from": 202607,
+"name": "PHEV 2.0 DHT Black Obsidian 70 kWh 5 seats",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "DHE20-PFZ",
+"fuel": "бензин",
+"hp": 279,
+"hp_total": 897,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 279 л.с., параллельный подзаряжаемый (PHEV) гибрид, 897 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202509,
+"name": "PHEV 2.0 DHT Ultra 55 kWh",
+"to": null
+},
+{
+"from": 202509,
+"name": "PHEV 2.0 DHT Max 55 kWh",
+"to": null
+},
+{
+"from": 202607,
+"name": "PHEV 2.0 DHT Ultra 55 kWh 5 seats",
 "to": null
 }
 ]
@@ -7872,6 +11478,62 @@
 "x55": "x55",
 "x75": "x75",
 "двигателиbaic": "engine"
+},
+"buick": {
+"buickcascada": "cascada",
+"buickcentury": "century",
+"buickenclave": "enclave",
+"buickencore": "encore",
+"buickencoregx": "encore_gx",
+"buickenvision": "envision",
+"buickenvista": "envista",
+"buickgl8": "gl8",
+"buickregal": "regal",
+"buickrendezvous": "rendezvous",
+"cascada": "cascada",
+"century": "century",
+"electrae5": "electra_e5",
+"electrae7": "electra_e7",
+"electral7": "electra_l7",
+"enclave": "enclave",
+"encore": "encore",
+"encoregx": "encore_gx",
+"engine": "engine",
+"envision": "envision",
+"envisionplus": "envision_plus",
+"envista": "envista",
+"excelle": "excelle",
+"excellegt": "excelle_gt",
+"excellegx": "excelle_gx",
+"excellext": "excelle_xt",
+"frame": "frame",
+"gl6": "gl6",
+"gl8": "gl8",
+"gl8avenir": "gl8_avenir",
+"gl8century": "gl8_century",
+"gl8encasa": "gl8_encasa",
+"gl8es": "gl8_es",
+"gl8firstland": "gl8_firstland",
+"lacrosse": "lacrosse",
+"lesabre": "lesabre",
+"lucerne": "lucerne",
+"parkavenue": "park_avenue",
+"rainier": "rainier",
+"regal": "regal",
+"rendezvous": "rendezvous",
+"riviera": "riviera",
+"sail": "sail",
+"skylark": "skylark",
+"special": "special",
+"terraza": "terraza",
+"velite5": "velite_5",
+"velite6": "velite_6",
+"velite7": "velite_7",
+"verano": "verano",
+"veranogs": "verano_gs",
+"veranopro": "verano_pro",
+"двигателиbuick": "engine",
+"кузоваbuick": "frame"
 },
 "byd": {
 "atto3": "atto_3",
@@ -8358,6 +12020,108 @@
 "двигателиdongfeng": "engine",
 "кузоваdongfeng": "frame"
 },
+"faw": {
+"6350": "6350",
+"6371": "6371",
+"bestuneb70": "bestune_b70",
+"bestuneb70s": "bestune_b70s",
+"bestunee01": "bestune_e01",
+"bestunem9": "bestune_m9",
+"bestunenat": "bestune_nat",
+"bestunepony": "bestune_pony",
+"bestunet33": "bestune_t33",
+"bestunet55": "bestune_t55",
+"bestunet77": "bestune_t77",
+"bestunet90": "bestune_t90",
+"bestunet99": "bestune_t99",
+"bestuneyueyi07": "bestune_yueyi_07",
+"besturnb30": "besturn_b30",
+"besturnb50": "besturn_b50",
+"besturnb70": "besturn_b70",
+"besturnx40": "besturn_x40",
+"besturnx40ev": "besturn_x40_ev",
+"besturnx80": "besturn_x80",
+"engine": "engine",
+"fawbestuneb70": "bestune_b70",
+"fawbestunet55": "bestune_t55",
+"fawbestunet77": "bestune_t77",
+"fawbestunet90": "bestune_t90",
+"fawbestunet99": "bestune_t99",
+"fawbesturnb50": "besturn_b50",
+"fawbesturnx40": "besturn_x40",
+"fawbesturnx80": "besturn_x80",
+"fawv5": "v5",
+"fawvita": "vita",
+"frame": "frame",
+"jinn": "jinn",
+"junpaid60": "junpai_d60",
+"landmark": "landmark_old",
+"landmarkold": "landmark_old",
+"oley": "oley",
+"seniar7": "senia_r7",
+"seniar9": "senia_r9",
+"v2": "v2",
+"v5": "v5",
+"vita": "vita",
+"двигателиfaw": "engine",
+"кузоваfaw": "frame"
+},
+"ferrari": {
+"12cilindri": "12cilindri",
+"296gtb": "296_gtb",
+"296gts": "296_gts",
+"296speciale": "296_speciale",
+"328": "328",
+"348": "348",
+"360": "360",
+"458&nbsp;speciale": "458_speciale",
+"458italia": "458_italia",
+"458speciale": "458_speciale",
+"458spider": "458_spider",
+"488&nbsp;pista": "488_pista",
+"488gtb": "488_gtb",
+"488pista": "488_pista",
+"575mmaranello": "575m_maranello",
+"599gtbfiorano": "599_gtb_fiorano",
+"599gto": "599_gto",
+"612scaglietti": "612_scaglietti",
+"849testarossa": "849_testarossa",
+"amalfi": "amalfi",
+"california": "california",
+"daytonasp3": "daytona_sp3",
+"engine": "engine",
+"enzoferrari": "enzo_ferrari",
+"f12berlinetta": "f12_berlinetta",
+"f12tdf": "f12_tdf",
+"f355": "f355",
+"f40": "f40",
+"f430": "f430",
+"f50": "f50",
+"f80": "f80",
+"f8spider": "f8_spider",
+"f8tributo": "f8_tributo",
+"ferrari296gtb": "296_gtb",
+"ferrari296gts": "296_gts",
+"ferrari458italia": "458_italia",
+"ferrari612scaglietti": "612_scaglietti",
+"ferraricalifornia": "california",
+"ferrarif8spider": "f8_spider",
+"ferrarif8tributo": "f8_tributo",
+"ferraripurosangue": "purosangue",
+"ferrariroma": "roma",
+"ferrarisf90stradale": "sf90_stradale",
+"ff": "ff",
+"frame": "frame",
+"laferrari": "laferrari",
+"luce": "luce",
+"monzasp": "monza_sp",
+"purosangue": "purosangue",
+"roma": "roma",
+"sf90stradale": "sf90_stradale",
+"testarossa": "testarossa",
+"двигателиferrari": "engine",
+"кузоваferrari": "frame"
+},
 "fiat": {
 "124": "124",
 "124spider": "124_spider",
@@ -8801,6 +12565,98 @@
 "двигателиhongqi": "engine",
 "кузоваhongqi": "frame"
 },
+"im_motors": {
+"engine": "engine",
+"frame": "frame",
+"immotorsls7": "ls7",
+"immotorsls9": "ls9",
+"l7": "l7",
+"ls6": "ls6",
+"ls7": "ls7",
+"ls8": "ls8",
+"ls9": "ls9",
+"двигателиimmotors": "engine",
+"кузоваimmotors": "frame"
+},
+"jac": {
+"binyue": "binyue",
+"engine": "engine",
+"frame": "frame",
+"iev": "iev",
+"iev4": "iev",
+"iev5": "iev5",
+"iev6e": "iev6e",
+"iev6esport": "iev6e_sport",
+"iev6s": "iev6s",
+"iev7l": "iev7l",
+"iev7s": "iev7s",
+"ieva50": "ieva50",
+"ievs4": "ievs4",
+"j2": "j2",
+"j3": "j3",
+"j5": "j5",
+"j6": "j6",
+"j7": "j7",
+"jacj7": "j7",
+"jacjs3": "js3",
+"jacjs6": "js6",
+"jacrf8": "rf8",
+"jacs3": "s3",
+"jacs5": "s5",
+"jact6": "t6",
+"jact8": "t8",
+"jact8pro": "t8_pro",
+"jact9": "t9",
+"jiayuea5": "jiayue_a5",
+"js2pro": "js2_pro",
+"js3": "js3",
+"js4": "js4",
+"js5": "js5",
+"js6": "js6",
+"js9": "js9",
+"m1": "m1",
+"refine": "refine",
+"refinea60": "refine_a60",
+"refinel6max": "refine_l6_max",
+"refinem3": "refine_m3",
+"refinem4": "refine_m4",
+"refinem5": "refine_m5",
+"refinem6": "refine_m6",
+"refiner3": "refine_r3",
+"refinerf8": "refine_rf8",
+"refines2": "refine_s2",
+"refines3": "refine_s3",
+"refines4": "refine_s4",
+"refines5": "refine_s5",
+"refines7": "refine_s7",
+"rein": "rein",
+"rf8": "rf8",
+"s1": "s1",
+"s3": "s3",
+"s3pro": "s3_pro",
+"s5": "s5",
+"s7": "s7",
+"sehola5": "sehol_a5",
+"sehola5plus": "sehol_a5_plus",
+"seholaipao": "sehol_aipao",
+"sehole10x": "sehol_e10x",
+"sehole20x": "sehol_e20x",
+"sehole40x": "sehol_e40x",
+"seholqx": "sehol_qx",
+"seholx4": "sehol_x4",
+"seholx6": "sehol_x6",
+"seholx7": "sehol_x7",
+"seholx8": "sehol_x8",
+"seholx8plus": "sehol_x8_plus",
+"t40": "t40",
+"t6": "t6",
+"t8": "t8",
+"t8pro": "t8_pro",
+"t9": "t9",
+"yttrium3": "yttrium_3",
+"двигателиjac": "engine",
+"кузоваjac": "frame"
+},
 "jeep": {
 "avenger": "avenger",
 "cherokee": "cherokee",
@@ -8843,6 +12699,30 @@
 "yuhu9": "yuhu_9",
 "двигателиjmc": "engine",
 "кузоваjmc": "frame"
+},
+"lamborghini": {
+"aventador": "aventador",
+"countach": "countach",
+"diablo": "diablo",
+"engine": "engine",
+"frame": "frame",
+"gallardo": "gallardo",
+"huracan": "huracan",
+"lamborghiniaventador": "aventador",
+"lamborghinigallardo": "gallardo",
+"lamborghinihuracan": "huracan",
+"lamborghinimurcielago": "murcielago",
+"lamborghinirevuelto": "revuelto",
+"lamborghinitemerario": "temerario",
+"lamborghiniurus": "urus",
+"lm002": "lm_002",
+"murcielago": "murcielago",
+"revuelto": "revuelto",
+"sian": "sian",
+"temerario": "temerario",
+"urus": "urus",
+"двигателиlamborghini": "engine",
+"кузоваlamborghini": "frame"
 },
 "leapmotor": {
 "a05": "a05",
@@ -9650,6 +13530,33 @@
 "xc90": "xc90",
 "двигателиvolvo": "engine",
 "кузоваvolvo": "frame"
+},
+"voyah": {
+"courage": "courage",
+"dream9": "dreamer_9",
+"dreamer": "dreamer",
+"dreamer9": "dreamer_9",
+"dreamplus": "dream_plus",
+"engine": "engine",
+"frame": "frame",
+"free": "free",
+"freeplus": "free_plus",
+"passion": "passion",
+"passionev": "passion_ev",
+"passionl": "passion_l",
+"passions": "passion_s",
+"taishan": "taishan_l9",
+"taishanl9": "taishan_l9",
+"taishanx8": "taishan_x8",
+"voyahdream": "dreamer",
+"voyahfree": "free",
+"voyahfreeplus": "free_plus",
+"voyahpassionev": "passion_ev",
+"voyahpassionevr": "passion",
+"voyahtaishan": "taishan_l9",
+"voyahtaishanx8": "taishan_x8",
+"двигателиvoyah": "engine",
+"кузоваvoyah": "frame"
 },
 "wey": {
 "03": "03",
