@@ -490,6 +490,13 @@
 "g_202107_15022"
 ]
 },
+"byd/yuan_up/china": {
+"day": 739883,
+"gens": [
+"g_202403_20166",
+"g_202502_25119"
+]
+},
 "changan/uni-z/china": {
 "day": 739883,
 "gens": [
@@ -521,6 +528,14 @@
 "day": 739883,
 "gens": [
 "g_2024_24280"
+]
+},
+"deepal/s05/china": {
+"day": 739883,
+"gens": [
+"g_202410_24550",
+"g_2024_24281",
+"g_202608_24907"
 ]
 },
 "deepal/s07/china": {
@@ -563,6 +578,12 @@
 "g_2024_21634"
 ]
 },
+"denza/z9_gt/china": {
+"day": 739883,
+"gens": [
+"g_202409_21312"
+]
+},
 "ford/bronco/china": {
 "day": 739883,
 "gens": [
@@ -603,6 +624,15 @@
 "g_2023_18821"
 ]
 },
+"land_rover/range_rover_velar/china": {
+"day": 739883,
+"gens": [
+"g_201703_7498",
+"g_2017_24794",
+"g_202302_20786",
+"g_2023_22450"
+]
+},
 "leapmotor/b01/china": {
 "day": 739883,
 "gens": [
@@ -626,6 +656,12 @@
 "day": 739883,
 "gens": [
 "g_2025_23349"
+]
+},
+"leapmotor/t03/china": {
+"day": 739883,
+"gens": [
+"g_2020_17124"
 ]
 },
 "luxeed/r7/china": {
@@ -696,6 +732,12 @@
 "gens": [
 "g_202109_13971",
 "g_2021_19449"
+]
+},
+"mg/ezs/china": {
+"day": 739883,
+"gens": [
+"g_2018_18342"
 ]
 },
 "nio/es7/china": {
@@ -4258,6 +4300,130 @@
 "market": "Китай",
 "to": 202501
 },
+"byd/tang/g_202402_21457": {
+"from": 202402,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQC",
+"fuel": "бензин",
+"hp": 139,
+"hp_total": 218,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 139 л.с., параллельный подзаряжаемый (PHEV) гибрид, 218 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202402,
+"name": "DM-i Honor 1.5 CVT 112KM Premium",
+"to": 202501
+},
+{
+"from": 202402,
+"name": "DM-i Honor 1.5 CVT 112KM Prestige",
+"to": 202501
+},
+{
+"from": 202402,
+"name": "DM-i Honor 1.5 CVT 112KM Flagship",
+"to": 202501
+},
+{
+"from": 202402,
+"name": "DM-i Honor 1.5 CVT 200KM Flagship",
+"to": 202501
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD476ZQC",
+"fuel": "бензин",
+"hp": 139,
+"hp_total": 489,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 139 л.с., параллельный подзаряжаемый (PHEV) гибрид, 489 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202404,
+"name": "DM-p Honor 1.5 CVT 215KM 4WD Prestige",
+"to": 202501
+},
+{
+"from": 202404,
+"name": "DM-p Honor 1.5 CVT 215KM 4WD God Of War",
+"to": 202501
+},
+{
+"from": 202404,
+"name": "DM-p Honor 1.5 CVT 215KM 4WD Flagship",
+"to": 202501
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472ZQB",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 272,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 272 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202410,
+"name": "DM-i 1.5 CVT 115KM Premium",
+"to": null
+},
+{
+"from": 202410,
+"name": "DM-i 1.5 CVT 115KM Prestige",
+"to": null
+},
+{
+"from": 202410,
+"name": "DM-i 1.5 CVT 115KM Flagship",
+"to": null
+},
+{
+"from": 202410,
+"name": "DM-i 1.5 CVT 115KM Yunnian Flagship",
+"to": null
+},
+{
+"from": 202502,
+"name": "DM-i 1.5 CVT 115KM Intelligent Driving Premium",
+"to": null
+},
+{
+"from": 202502,
+"name": "DM-i 1.5 CVT 115KM Intelligent Driving Prestige",
+"to": null
+},
+{
+"from": 202502,
+"name": "DM-i 1.5 CVT 115KM Intelligent Driving Flagship",
+"to": null
+},
+{
+"from": 202502,
+"name": "DM-i 1.5 CVT 115KM Intelligent Driving LiDAR Flagship",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
 "byd/tang_l/g_202503_21931": {
 "from": 202501,
 "groups": [
@@ -4374,6 +4540,18 @@
 "groups": [],
 "market": "Китай",
 "to": 202409
+},
+"byd/yuan_up/g_202403_20166": {
+"from": 202402,
+"groups": [],
+"market": "Китай",
+"to": 202501
+},
+"byd/yuan_up/g_202502_25119": {
+"from": 202502,
+"groups": [],
+"market": "Китай",
+"to": null
 },
 "changan/uni-z/g_202403_20436": {
 "from": 202403,
@@ -4773,6 +4951,62 @@
 {
 "from": 202502,
 "name": "Extended Range 1.5 300 Ultra ADS SE",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"deepal/s05/g_202410_24550": {
+"from": 202405,
+"groups": [],
+"market": "Россия",
+"to": null
+},
+"deepal/s05/g_2024_24281": {
+"from": 202405,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": "JL469Q1",
+"fuel": "бензин",
+"hp": 98,
+"hp_total": 218,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 98 л.с., последовательный подзаряжаемый (PHEV) гибрид, 218 л.с., редуктор, задний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202410,
+"name": "Extended Range 1.5 200 Max",
+"to": 202508
+},
+{
+"from": 202410,
+"name": "Extended Range 1.5 200 Ultra",
+"to": 202508
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "JL469Q1",
+"fuel": "бензин",
+"hp": 98,
+"hp_total": 238,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 98 л.с., последовательный подзаряжаемый (PHEV) гибрид, 238 л.с., редуктор, задний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202509,
+"name": "Extended Range 1.5 215 Max",
 "to": null
 }
 ]
@@ -5230,6 +5464,52 @@
 {
 "from": 202411,
 "name": "2.0T E-CVT AWD PHEV 1100 Ultra",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"denza/z9_gt/g_202409_21312": {
+"from": 202404,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD479ZQA",
+"fuel": "бензин",
+"hp": 207,
+"hp_total": 870,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 207 л.с., параллельный подзаряжаемый (PHEV) гибрид, 870 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202409,
+"name": "2.0T E-CVT AWD PHEV 1100 Pro",
+"to": 202602
+},
+{
+"from": 202409,
+"name": "2.0T E-CVT AWD PHEV 1100 Ultra",
+"to": 202602
+},
+{
+"from": 202409,
+"name": "2.0T E-CVT AWD PHEV 1100 Max",
+"to": 202602
+},
+{
+"from": 202603,
+"name": "2.0T E-CVT AWD PHEV Easy3 Flash Charge Premium",
+"to": null
+},
+{
+"from": 202603,
+"name": "2.0T E-CVT AWD PHEV Easy3 Flash Charge Flagship",
 "to": null
 }
 ]
@@ -6454,6 +6734,1004 @@
 "market": "Китай",
 "to": null
 },
+"land_rover/range_rover_velar/g_201703_7498": {
+"from": 201703,
+"groups": [
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "D180",
+"fuel": "дизель",
+"hp": 180,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 180 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201705,
+"name": "2.0 TD Base",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "2.0 TD R-Dynamic",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "2.0 TD S",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "2.0 TD R-Dynamic S",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "2.0 TD SE",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "2.0 TD R-Dynamic SE",
+"to": 202011
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "D199",
+"fuel": "дизель",
+"hp": 199,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 199 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202012,
+"name": "2.0 TD Standard",
+"to": 202204
+},
+{
+"from": 202012,
+"name": "2.0 TD R-Dynamic Standard",
+"to": 202204
+},
+{
+"from": 202012,
+"name": "2.0 TD S",
+"to": 202204
+},
+{
+"from": 202012,
+"name": "2.0 TD R-Dynamic S",
+"to": 202204
+},
+{
+"from": 202012,
+"name": "2.0 TD SE",
+"to": 202204
+},
+{
+"from": 202012,
+"name": "2.0 TD R-Dynamic SE",
+"to": 202204
+},
+{
+"from": 202108,
+"name": "2.0 TD Auric Edition",
+"to": 202204
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "D240",
+"fuel": "дизель",
+"hp": 240,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 240 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201705,
+"name": "2.0 TD S",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "2.0 TD R-Dynamic S",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "2.0 TD SE",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "2.0 TD R-Dynamic SE",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "2.0 TD R-Dynamic HSE",
+"to": 202011
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "P249",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 249 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202012,
+"name": "2.0 S",
+"to": 202204
+},
+{
+"from": 202012,
+"name": "2.0 R-Dynamic S",
+"to": 202204
+},
+{
+"from": 202012,
+"name": "2.0 SE",
+"to": 202204
+},
+{
+"from": 202012,
+"name": "2.0 R-Dynamic SE",
+"to": 202204
+},
+{
+"from": 202108,
+"name": "2.0 Standard",
+"to": 202204
+},
+{
+"from": 202108,
+"name": "2.0 R-Dynamic Standard",
+"to": 202204
+},
+{
+"from": 202108,
+"name": "2.0 Auric Edition",
+"to": 202204
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "P250",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 250 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201705,
+"name": "2.0 Base",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "2.0 R-Dynamic",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "2.0 S",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "2.0 R-Dynamic S",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "2.0 SE",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "2.0 R-Dynamic SE",
+"to": 202011
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "P300",
+"fuel": "бензин",
+"hp": 300,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 300 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201708,
+"name": "2.0 S",
+"to": 201908
+},
+{
+"from": 201708,
+"name": "2.0 R-Dynamic S",
+"to": 201908
+},
+{
+"from": 201708,
+"name": "2.0 SE",
+"to": 201908
+},
+{
+"from": 201708,
+"name": "2.0 R-Dynamic SE",
+"to": 201908
+},
+{
+"from": 201708,
+"name": "2.0 R-Dynamic HSE",
+"to": 201908
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "D275",
+"fuel": "дизель",
+"hp": 275,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 275 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"name": "3.0 TD Base",
+"to": 201908
+},
+{
+"from": 201811,
+"name": "3.0 TD R-Dynamic",
+"to": 201908
+},
+{
+"from": 201811,
+"name": "3.0 TD S",
+"to": 201908
+},
+{
+"from": 201811,
+"name": "3.0 TD R-Dynamic S",
+"to": 201908
+},
+{
+"from": 201811,
+"name": "3.0 TD SE",
+"to": 201908
+},
+{
+"from": 201811,
+"name": "3.0 TD R-Dynamic SE",
+"to": 201908
+},
+{
+"from": 201811,
+"name": "3.0 TD R-Dynamic HSE",
+"to": 201908
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "D300",
+"fuel": "дизель",
+"hp": 300,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 300 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201705,
+"name": "3.0 TD R-Dynamic S",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "3.0 TD SE",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "3.0 TD R-Dynamic SE",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "3.0 TD R-Dynamic HSE",
+"to": 202011
+},
+{
+"from": 201705,
+"name": "3.0 TD First Edition",
+"to": 201811
+},
+{
+"from": 202012,
+"name": "3.0 TD R-Dynamic S",
+"to": 202204
+},
+{
+"from": 202012,
+"name": "3.0 TD SE",
+"to": 202204
+},
+{
+"from": 202012,
+"name": "3.0 TD R-Dynamic SE",
+"to": 202204
+},
+{
+"from": 202012,
+"name": "3.0 TD R-Dynamic HSE",
+"to": 202204
+},
+{
+"from": 202108,
+"name": "3.0 TD Auric Edition",
+"to": 202204
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "P340",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 340 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"name": "3.0 R-Dynamic S",
+"to": 202011
+},
+{
+"from": 201811,
+"name": "3.0 SE",
+"to": 202011
+},
+{
+"from": 201811,
+"name": "3.0 R-Dynamic SE",
+"to": 202011
+},
+{
+"from": 201811,
+"name": "3.0 R-Dynamic HSE",
+"to": 202011
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "P380",
+"fuel": "бензин",
+"hp": 380,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 380 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201705,
+"name": "3.0 R-Dynamic S",
+"to": 201908
+},
+{
+"from": 201705,
+"name": "3.0 SE",
+"to": 201908
+},
+{
+"from": 201705,
+"name": "3.0 R-Dynamic SE",
+"to": 201908
+},
+{
+"from": 201705,
+"name": "3.0 R-Dynamic HSE",
+"to": 201908
+},
+{
+"from": 201705,
+"name": "3.0 First Edition",
+"to": 201811
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "P400",
+"fuel": "бензин",
+"hp": 400,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 400 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202012,
+"name": "3.0 MHEV AT R-Dynamic S",
+"to": 202204
+},
+{
+"from": 202012,
+"name": "3.0 MHEV AT R-Dynamic SE",
+"to": 202204
+},
+{
+"from": 202012,
+"name": "3.0 MHEV AT SE",
+"to": 202204
+},
+{
+"from": 202012,
+"name": "3.0 MHEV AT R-Dynamic HSE",
+"to": 202204
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "LR-V8",
+"fuel": "бензин",
+"hp": 550,
+"hp_total": null,
+"hybrid": null,
+"liters": 5.0,
+"text": "5.0 л, 550 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201902,
+"name": "5.0 S/C SVAutobiography Dynamic",
+"to": 202011
+}
+]
+}
+],
+"market": "Россия",
+"to": 202204
+},
+"land_rover/range_rover_velar/g_2017_24794": {
+"from": 201703,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "PT204",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 250 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201709,
+"name": "P250 2.0L АТ AWD S",
+"to": 201712
+},
+{
+"from": 201712,
+"name": "P250 2.0L АТ AWD S",
+"to": 201811
+},
+{
+"from": 201811,
+"name": "P250 2.0L АТ AWD",
+"to": 201909
+},
+{
+"from": 201811,
+"name": "P250 2.0L АТ AWD R-Dynamic S",
+"to": 201909
+},
+{
+"from": 201811,
+"name": "P250 2.0L АТ AWD R-Dynamic S",
+"to": 202302
+},
+{
+"from": 201909,
+"name": "P250 2.0L АТ AWD",
+"to": 202103
+},
+{
+"from": 202103,
+"name": "P250 2.0L АТ AWD Black Limited",
+"to": 202209
+},
+{
+"from": 202103,
+"name": "P250 2.0L АТ AWD",
+"to": 202112
+},
+{
+"from": 202112,
+"name": "P250 2.0L АТ AWD Gold Limited",
+"to": 202302
+},
+{
+"from": 202112,
+"name": "P250 2.0L АТ AWD",
+"to": 202209
+},
+{
+"from": 202209,
+"name": "P250 2.0L АТ AWD",
+"to": 202302
+},
+{
+"from": 202209,
+"name": "P250 2.0L АТ AWD Black Limited",
+"to": 202302
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "PT204",
+"fuel": "бензин",
+"hp": 300,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 300 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201712,
+"name": "P300 2.0L АТ AWD S",
+"to": 201811
+},
+{
+"from": 201712,
+"name": "P300 2.0L АТ AWD R-Dynamic S",
+"to": 201811
+},
+{
+"from": 201811,
+"name": "P300 2.0L АТ AWD R-Dynamic S",
+"to": 201909
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "306PS",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 340 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"name": "P340 3.0L АТ AWD R-Dynamic S",
+"to": 202302
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "PT306",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 340 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202103,
+"name": "P340 3.0L АТ AWD R-Dynamic SE",
+"to": 202303
+},
+{
+"from": 202112,
+"name": "P340 3.0L АТ AWD HSE R-Dynamic",
+"to": 202209
+},
+{
+"from": 202209,
+"name": "P340 3.0L АТ AWD HSE R-Dynamic",
+"to": 202302
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "306PS",
+"fuel": "бензин",
+"hp": 380,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 380 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201709,
+"name": "P380 3.0L АТ AWD R-Dynamic S",
+"to": 201712
+},
+{
+"from": 201709,
+"name": "P380 3.0L АТ AWD S",
+"to": 201712
+},
+{
+"from": 201709,
+"name": "P380 3.0L АТ AWD R-Dynamic SE",
+"to": 201712
+},
+{
+"from": 201709,
+"name": "P380 3.0L АТ AWD R-Dynamic HSE",
+"to": 201712
+},
+{
+"from": 201709,
+"name": "P380 3.0L АТ AWD First Edition",
+"to": 201712
+},
+{
+"from": 201712,
+"name": "P380 3.0L АТ AWD R-Dynamic S",
+"to": 201811
+},
+{
+"from": 201712,
+"name": "P380 3.0L АТ AWD S",
+"to": 201811
+},
+{
+"from": 201712,
+"name": "P380 3.0L АТ AWD R-Dynamic SE",
+"to": 201811
+},
+{
+"from": 201712,
+"name": "P380 3.0L АТ AWD R-Dynamic HSE",
+"to": 201811
+},
+{
+"from": 201712,
+"name": "P380 3.0L АТ AWD First Edition Limited",
+"to": 201811
+},
+{
+"from": 201811,
+"name": "P380 3.0L АТ AWD R-Dynamic SE",
+"to": 201909
+},
+{
+"from": 201811,
+"name": "P380 3.0L АТ AWD R-Dynamic HSE",
+"to": 201909
+},
+{
+"from": 201909,
+"name": "P380 3.0L АТ AWD R-Dynamic HSE",
+"to": 202103
+},
+{
+"from": 201909,
+"name": "P380 3.0L АТ AWD R-Dynamic SE",
+"to": 202303
+}
+]
+}
+],
+"market": "Китай",
+"to": 202302
+},
+"land_rover/range_rover_velar/g_202302_20786": {
+"from": 202302,
+"groups": [
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "AJ200D",
+"fuel": "дизель",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 204 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202302,
+"name": "2.0TD AT D200 S",
+"to": null
+},
+{
+"from": 202302,
+"name": "2.0TD AT D200 R-Dynamic SE",
+"to": null
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "AJ200",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 250 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202302,
+"name": "2.0T AT P250 S",
+"to": null
+},
+{
+"from": 202302,
+"name": "2.0T AT P250 R-Dynamic SE",
+"to": null
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "AJ200",
+"fuel": "бензин",
+"hp": 300,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 300 л.с., параллельный подзаряжаемый (PHEV) гибрид, 103 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202302,
+"name": "PHEV 2.0T AT P400e S",
+"to": null
+},
+{
+"from": 202302,
+"name": "PHEV 2.0T AT P400e R-Dynamic SE",
+"to": null
+},
+{
+"from": 202302,
+"name": "PHEV 2.0T AT P400e R-Dynamic HSE",
+"to": null
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "AJ300D",
+"fuel": "дизель",
+"hp": 300,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 300 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202302,
+"name": "3.0TD AT D300 R-Dynamic SE",
+"to": null
+},
+{
+"from": 202302,
+"name": "3.0TD AT D300 R-Dynamic HSE",
+"to": null
+},
+{
+"from": 202302,
+"name": "3.0TD AT D300 Autobiography",
+"to": null
+}
+]
+},
+{
+"body": [
+"L560"
+],
+"drive": "4wd",
+"engine": "AJ300",
+"fuel": "бензин",
+"hp": 400,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 400 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202302,
+"name": "3.0T AT P400 R-Dynamic HSE",
+"to": null
+},
+{
+"from": 202302,
+"name": "3.0T AT P400 Autobiography",
+"to": null
+}
+]
+}
+],
+"market": "Европа",
+"to": null
+},
+"land_rover/range_rover_velar/g_2023_22450": {
+"from": 202302,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "PT204",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 250 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202410,
+"name": "2.0 АТ S",
+"to": null
+},
+{
+"from": 202410,
+"name": "2.0 АТ Dynamic SE",
+"to": null
+},
+{
+"from": 202410,
+"name": "2.0 АТ Dynamic HSE",
+"to": null
+},
+{
+"from": 202306,
+"name": "2.0 АТ S",
+"to": 202410
+},
+{
+"from": 202306,
+"name": "2.0 АТ Dynamic SE",
+"to": 202410
+},
+{
+"from": 202306,
+"name": "2.0 АТ Dynamic HSE",
+"to": 202410
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "PT306",
+"fuel": "бензин",
+"hp": 400,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 400 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202306,
+"name": "3.0 АТ Model Classic Edition",
+"to": 202410
+},
+{
+"from": 202410,
+"name": "3.0 АТ Model Classic Edition",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
 "leapmotor/b01/g_2025_22397": {
 "from": 202504,
 "groups": [],
@@ -6569,6 +7847,12 @@
 },
 "leapmotor/lafa_5/g_2025_23349": {
 "from": 202509,
+"groups": [],
+"market": "Китай",
+"to": null
+},
+"leapmotor/t03/g_2020_17124": {
+"from": 202005,
 "groups": [],
 "market": "Китай",
 "to": null
@@ -9865,6 +11149,12 @@
 "groups": [],
 "market": "Китай",
 "to": null
+},
+"mg/ezs/g_2018_18342": {
+"from": 201811,
+"groups": [],
+"market": "Китай",
+"to": 202206
 },
 "nio/es7/g_202206_16059": {
 "from": 202206,
@@ -15246,6 +16536,30 @@
 "двигателиlamborghini": "engine",
 "кузоваlamborghini": "frame"
 },
+"land_rover": {
+"defender": "defender",
+"discovery": "discovery",
+"discoverysport": "discovery_sport",
+"engine": "engine",
+"frame": "frame",
+"freelander": "freelander",
+"landroverdefender": "defender",
+"landroverdiscovery": "discovery",
+"landroverdiscoverysport": "discovery_sport",
+"landroverfreelander": "freelander",
+"landroverrangerover": "range_rover",
+"landroverrangeroverevoque": "range_rover_evoque",
+"landroverrangeroversport": "range_rover_sport",
+"landroverrangerovervelar": "range_rover_velar",
+"rangerover": "range_rover",
+"rangeroverevoque": "range_rover_evoque",
+"rangeroversport": "range_rover_sport",
+"rangerovervelar": "range_rover_velar",
+"series3": "series_3",
+"seriesiii": "series_3",
+"двигателиlandrover": "engine",
+"кузоваlandrover": "frame"
+},
 "leapmotor": {
 "a05": "a05",
 "a10": "a10",
@@ -15641,6 +16955,42 @@
 "w21": "w21",
 "двигателиmercedesbenz": "engine",
 "кузоваmercedesbenz": "frame"
+},
+"mg": {
+"07": "07",
+"3": "3",
+"4ev": "4_ev",
+"4x": "4x",
+"5": "5",
+"5scorpio": "5_scorpio",
+"6": "6",
+"6pro": "6_pro",
+"7": "7",
+"cyberster": "cyberster",
+"engine": "engine",
+"es5": "es5",
+"ezs": "ezs",
+"f": "f",
+"hs": "hs",
+"mg5": "5",
+"mg6": "6",
+"mg7": "7",
+"mgb": "mgb",
+"mgcyberster": "cyberster",
+"mgmulan": "mulan",
+"mgzs": "zs",
+"mulan": "mulan",
+"one": "one",
+"pilot": "pilot",
+"ruiteng": "rui_teng",
+"rx5plus": "rx5_plus",
+"rx8": "rx8",
+"rx9": "rx9",
+"sharp": "sharp",
+"tf": "tf",
+"u9": "u9",
+"zs": "zs",
+"двигателиmg": "engine"
 },
 "mini": {
 "aceman": "aceman",
