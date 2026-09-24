@@ -1,8 +1,8 @@
 """
-Проверка каталога drom.ru: пускает ли сервер (напрямую и через российский
-прокси), как устроены страницы марки → модели → поколения → комплектации и
-есть ли на них мощность. Ничего не отправляет на сайт — только сохраняет в
-drom_debug/ HTML и сводку (артефакт GitHub Actions «drom-probe»).
+Проверка каталога drom.ru: как устроены страницы рынка (Япония / Корея / Китай),
+поколения (группы комплектаций с мощностью, объёмом, КПП, приводом, кузовом)
+и одной комплектации. Всё нужное печатается в лог; HTML — в drom_debug/
+(артефакт «drom-probe»). Ничего не отправляет на сайт.
 """
 
 import json
@@ -16,89 +16,57 @@ from playwright.sync_api import sync_playwright
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "drom_debug")
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36")
-START = [
-    "https://www.drom.ru/catalog/",
-    "https://www.drom.ru/catalog/hyundai/avante/",
-    "https://www.drom.ru/catalog/kia/k5/",
-    "https://www.drom.ru/catalog/toyota/camry/",
-    "https://www.drom.ru/catalog/geely/monjaro/",
-    "https://www.drom.ru/catalog/haval/h6/",
+MARKETS = [
+    "https://www.drom.ru/catalog/honda/fit/japan/",
+    "https://www.drom.ru/catalog/hyundai/avante/south-korea/",
+    "https://www.drom.ru/catalog/geely/monjaro/china/",
 ]
-POWER_RE = re.compile(r"(\d{2,4})\s*л\.\s*с\.")
 
 
 def save(name, content):
     os.makedirs(OUT, exist_ok=True)
-    mode = "w" if isinstance(content, str) else "wb"
-    with open(os.path.join(OUT, name), mode, **({"encoding": "utf-8"} if mode == "w" else {})) as f:
+    with open(os.path.join(OUT, name), "w", encoding="utf-8") as f:
         f.write(content)
 
 
-def links_under(html, base, prefix):
-    out = []
-    for href in re.findall(r'href="([^"#?]+)"', html):
-        url = urljoin(base, href)
-        if url.startswith(prefix) and url.rstrip("/") != prefix.rstrip("/"):
-            out.append(url)
-    return list(dict.fromkeys(out))
-
-
-def probe(p, proxy, label):
-    print(f"\n===== drom.ru / {label} =====")
-    browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
-    context = browser.new_context(user_agent=UA, locale="ru-RU", timezone_id="Asia/Vladivostok", proxy=proxy,
-                                  extra_http_headers={"Accept-Language": "ru-RU,ru;q=0.9"})
-    page = context.new_page()
-    summary = []
-    n = 0
-
-    def visit(url, depth):
-        nonlocal n
-        n += 1
-        info = {"url": url, "depth": depth}
-        try:
-            resp = page.goto(url, wait_until="domcontentloaded", timeout=60_000)
-            page.wait_for_timeout(2500)
-            html = page.content()
-            text = page.inner_text("body")
-            info.update({"status": resp.status if resp else None, "final": page.url, "title": page.title(),
-                         "bytes": len(html), "power_values": POWER_RE.findall(text)[:15],
-                         "text": text[:1500]})
-            save(f"{label}_{n:02d}.html", html)
-            info["links"] = links_under(html, url, url if depth else "https://www.drom.ru/catalog/")[:40]
-        except Exception as error:
-            info["error"] = str(error).splitlines()[0][:300]
-        print(json.dumps({k: v for k, v in info.items() if k not in ("text", "links")}, ensure_ascii=False))
-        print("  ссылки:", (info.get("links") or [])[:12])
-        summary.append(info)
-        time.sleep(3)
-        return info
-
-    for url in START:
-        top = visit(url, 0)
-        if url != START[0]:
-            # Вглубь: поколение → комплектация (первые ссылки под адресом модели)
-            for sub in (top.get("links") or [])[:2]:
-                mid = visit(sub, 1)
-                for leaf in (mid.get("links") or [])[:2]:
-                    visit(leaf, 2)
-    save(f"summary_{label}.json", json.dumps(summary, ensure_ascii=False, indent=2))
-    browser.close()
+def around(html, needle, width=1500):
+    i = html.find(needle)
+    return html[max(0, i - width // 3): i + width] if i >= 0 else ""
 
 
 def main():
-    server = os.environ.get("PROXY_SERVER") or ""
-    proxy = None
-    if server:
-        proxy = {"server": server}
-        if os.environ.get("PROXY_USERNAME"):
-            proxy["username"] = os.environ["PROXY_USERNAME"]
-        if os.environ.get("PROXY_PASSWORD"):
-            proxy["password"] = os.environ["PROXY_PASSWORD"]
     with sync_playwright() as p:
-        probe(p, None, "direct")
-        if proxy:
-            probe(p, proxy, "proxy")
+        browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
+        page = browser.new_context(user_agent=UA, locale="ru-RU", timezone_id="Asia/Vladivostok",
+                                   extra_http_headers={"Accept-Language": "ru-RU,ru;q=0.9"}).new_page()
+
+        def open_(url, name):
+            page.goto(url, wait_until="domcontentloaded", timeout=60_000)
+            page.wait_for_timeout(2500)
+            html = page.content()
+            save(name + ".html", html)
+            time.sleep(3)
+            return html, page.inner_text("body")
+
+        for n, url in enumerate(MARKETS, 1):
+            print(f"\n######## Рынок: {url}")
+            html, text = open_(url, f"m{n}_market")
+            gens = list(dict.fromkeys(urljoin(url, h) for h in re.findall(r'href="([^"]*/g_\d+_\d+/)"', html)))
+            print("Поколения:", gens[:15])
+            print("--- текст страницы рынка (начало) ---\n", text[:2500])
+            if not gens:
+                continue
+            g_html, g_text = open_(gens[0], f"m{n}_generation")
+            print(f"\n=== Поколение {gens[0]} ===\n--- текст ---\n", g_text[:7000])
+            print("--- HTML вокруг первой группы («л.с.») ---\n", around(g_html, "л.с.", 2500))
+            mods = list(dict.fromkeys(urljoin(gens[0], h) for h in re.findall(r'href="([^"]+)"', g_html)
+                                      if re.search(r"/catalog/[^/]+/[^/]+/\d+/?$", urljoin(gens[0], h))))
+            print("Ссылки на комплектации:", mods[:10])
+            if mods:
+                m_html, m_text = open_(mods[0], f"m{n}_modification")
+                print(f"\n=== Комплектация {mods[0]} ===\n--- текст ---\n", m_text[:5000])
+                print("--- HTML вокруг «Мощность» ---\n", around(m_html, "Мощность", 1500))
+        browser.close()
 
 
 if __name__ == "__main__":
