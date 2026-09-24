@@ -930,6 +930,168 @@ class AutohomePower:
             json.dump(self.cache, f, ensure_ascii=False, indent=0, sort_keys=True)
 
 
+
+# ---------- оборудование комплектации (Autohome) ----------
+# Номер опции на странице конфигурации Autohome → пункт блока «Комплектация» на сайте
+# (сайт хранит пункты под корейскими названиями encar — так блок одинаковый для всех стран).
+# Названия опций на странице частично спрятаны (символы в CSS), поэтому сверяем по номерам —
+# они постоянные. Значение «●» — есть, «○» — за доплату (у конкретной машины неизвестно),
+# «-» — нет; у составных опций — подпункты: 1 — есть, 2 — за доплату.
+AH_PLAIN = {
+    2: "브레이크 잠김 방지(ABS)", 10: "미끄럼 방지(TCS)", 11: "차체자세 제어장치(ESC)",
+    13: "차선이탈 경보 시스템(LDWS)", 14: "긴급 제동 보조(AEB)", 29: "차선 유지 보조(LKA)",
+    12: "후측방 경보 시스템", 31: "주차감지센서(전방, 후방)", 35: "주차 보조 시스템",
+    83: "블랙박스", 107: "내비게이션", 115: "블루투스", 82: "헤드업 디스플레이(HUD)", 8411: "하이패스",
+    57: "파워 전동 트렁크", 60: "루프랙", 63: "도난 방지 시스템", 64: "파워 도어록", 67: "스마트키",
+    128: "오토 하이빔", 129: "오토 라이트", 137: "파워 윈도우", 73: "스티어링 휠 리모컨",
+    74: "패들 시프트", 76: "열선 스티어링 휠", 89: "전동시트(운전석, 동승석)", 145: "커튼/블라인드(뒷좌석, 후방)",
+    28: "에어백(운전석, 동승석)", 27: "에어백(사이드)", 26: "에어백(커튼)", 42: "전자제어 서스펜션(ECS)",
+}
+# Составные опции: номер → [(признак подпункта, пункт)]; признак — подстрока видимой части названия
+# подпункта, None — любой подпункт. У подогрева сидений («加热») все символы обычно спрятаны —
+# узнаём его по пустому названию.
+_HEAT = lambda t: t == "" or "热" in t
+AH_SUB = {
+    21: [(None, "타이어 공기압센서(TPMS)")],
+    32: [("倒车", "후방 카메라"), ("360", "후방 카메라"), ("全景", "후방 카메라"), ("360", "360도 어라운드 뷰"),
+         ("全景", "360도 어라운드 뷰")],
+    34: [(None, "크루즈 컨트롤(일반, 어댑티브)")],
+    41: [(None, "전자제어 서스펜션(ECS)")],
+    50: [(lambda t: "天窗" in t and "不可" not in t, "선루프"), ("全景", "파노라마 선루프")],
+    66: [("遥控", "무선도어 잠금장치")],
+    72: [("电动", "전동 조절 스티어링 휠")],
+    86: [(None, "무선 충전")],
+    92: [(None, "메모리 시트(운전석, 동승석)")],
+    93: [(_HEAT, "열선시트(앞좌석, 뒷좌석)"), ("通", "통풍시트(운전석, 동승석)"), ("按摩", "마사지 시트")],
+    94: [(_HEAT, "열선시트(앞좌석, 뒷좌석)"), ("通", "통풍시트(뒷좌석)")],
+    99: [(None, "전동시트(뒷좌석)")],
+    116: [("CarPlay", "카플레이"), ("Android", "카플레이")],
+    122: [("USB", "USB 단자"), ("Type-C", "USB 단자")],
+    124: [("LED", "헤드램프(HID, LED)"), ("氙", "헤드램프(HID, LED)"), ("激光", "헤드램프(HID, LED)")],
+    142: [("折叠", "전동접이 사이드 미러")],
+    143: [("防眩", "ECM 룸미러")],
+    149: [("雨量", "레인센서")],
+    150: [("自动", "자동 에어컨")],
+}
+# Эти пункты показываем, только если они есть («нет» — неинтересно или не наверняка)
+AH_ONLY_IF_ON = {"마사지 시트", "파노라마 선루프", "360도 어라운드 뷰", "전동시트(뒷좌석)", "통풍시트(뒷좌석)",
+                 "커튼/블라인드(뒷좌석, 후방)", "메모리 시트(운전석, 동승석)"}
+_SPAN = re.compile(r"<span[^>]*>\s*</span>")
+
+
+def _ah_text(s) -> str:
+    return _SPAN.sub("", str(s or "")).replace("&nbsp;", " ").strip()
+
+
+def autohome_tokens(html: str) -> dict:
+    """{specid: «номер:значение;…»} для всех комплектаций на странице конфигурации: значение «+», «-», «o»
+    или «+подпункт|подпункт» (видимые символы подпунктов, которые есть)."""
+    at = html.find("var option")
+    start = html.find("{", at) if at >= 0 else -1
+    if start < 0:
+        return {}
+    try:
+        data, _ = json.JSONDecoder().raw_decode(html, start)
+    except ValueError:
+        return {}
+    wanted = set(AH_PLAIN) | set(AH_SUB)
+    out = {}
+    for group in (data.get("result") or {}).get("configtypeitems") or []:
+        for item in group.get("configitems") or []:
+            if item.get("id") not in wanted:
+                continue
+            for v in item.get("valueitems") or []:
+                spec = str(v.get("specid"))
+                subs = v.get("sublist") or []
+                if subs:
+                    on = [_ah_text(x.get("subname")).replace("|", "/") for x in subs if x.get("subvalue") == 1]
+                    token = ("+" + "|".join(on)) if on else "o"
+                else:
+                    value = _ah_text(v.get("value"))
+                    token = "+" if "●" in value else "o" if "○" in value else "-" if value.startswith("-") else ""
+                if token:
+                    out.setdefault(spec, []).append(f"{item['id']}:{token}")
+    return {k: ";".join(v) for k, v in out.items()}
+
+
+def options_from_tokens(tokens: str) -> dict | None:
+    """«номер:значение;…» → {"names": [есть], "known": [о чём известно]} для сайта."""
+    have, known = set(), set()
+    for part in (tokens or "").split(";"):
+        num, _, token = part.partition(":")
+        if not num.isdigit() or not token or token == "o":
+            continue          # за доплату — у конкретной машины неизвестно
+        num = int(num)
+        on = token.startswith("+")
+        subs = token[1:].split("|") if on and len(token) > 1 else []
+        if num in AH_PLAIN:
+            known.add(AH_PLAIN[num])
+            if on:
+                have.add(AH_PLAIN[num])
+        for needle, key in AH_SUB.get(num, []):
+            test = needle if callable(needle) else (lambda t, n=needle: n is None or n in t)
+            hit = on and any(test(t) for t in (subs or [""]))
+            if hit:
+                have.add(key)
+            # «Нет» — только если нет всей опции (или любой подпункт годится); у подпунктов часть
+            # символов спрятана — отсутствие нужного названия ещё не значит, что его нет.
+            # Исключение — сиденья: подогрев спрятан целиком, остальное видно
+            if hit or token == "-" or needle is None or num in (93, 94):
+                known.add(key)
+    known -= {k for k in AH_ONLY_IF_ON if k not in have}
+    if not have:
+        return None
+    return {"names": sorted(have), "known": sorted(known | have)}
+
+
+class AutohomeOptions:
+    """Оборудование комплектации: страница car.autohome.com.cn/config/spec/<specid>.html — на ней
+    вся линейка модели, запоминаем все комплектации (autohome_options.json), чтобы следующие
+    машины той же модели не открывать. limit — сколько страниц открыть за прогон."""
+
+    def __init__(self, path, limit=800):
+        self.path, self.limit = path, limit
+        self.s = requests.Session()
+        self.s.headers.update({"User-Agent": UA, "Referer": "https://car.autohome.com.cn/",
+                               "Accept-Language": "zh-CN,zh;q=0.9"})
+        try:
+            with open(path, encoding="utf-8") as f:
+                self.cache = json.load(f)
+        except (OSError, ValueError):
+            self.cache = {}
+        self.stats = {"cache": 0, "fetched": 0, "missing": 0}
+        self.failed = set()
+
+    def get(self, specid) -> dict | None:
+        specid = str(specid or "")
+        if not specid or specid == "0" or specid in self.failed:
+            return None
+        if specid in self.cache:
+            self.stats["cache"] += 1
+            return options_from_tokens(self.cache[specid])
+        if self.stats["fetched"] + self.stats["missing"] >= self.limit:
+            return None
+        time.sleep(random.uniform(1.0, 2.5))
+        tokens = {}
+        try:
+            resp = self.s.get(f"https://car.autohome.com.cn/config/spec/{specid}.html", timeout=30)
+            if resp.status_code == 200:
+                tokens = autohome_tokens(resp.text)
+        except Exception:
+            pass
+        if specid not in tokens:
+            self.stats["missing"] += 1
+            self.failed.add(specid)
+            return None
+        self.stats["fetched"] += 1
+        self.cache.update(tokens)
+        return options_from_tokens(tokens[specid])
+
+    def save(self):
+        with open(self.path, "w", encoding="utf-8") as f:
+            json.dump(self.cache, f, ensure_ascii=False, indent=0, sort_keys=True)
+
+
 def drom_car(car: dict, make: str, model: str) -> dict:
     """Машина che168 → признаки для поиска комплектации на drom.ru."""
     import drom_specs
@@ -1177,6 +1339,13 @@ def main():
         # (его таблицы дорисовываются скриптом — открываем в браузере, без прокси)
         import drom_specs
         autohome = AutohomePower(os.path.join(ROOT, "autohome_cache.json"))
+        # Оборудование для блока «Комплектация» — по номеру комплектации с Autohome
+        equipment = AutohomeOptions(os.path.join(ROOT, "autohome_options.json"),
+                                    limit=int(os.environ.get("AUTOHOME_OPTION_PAGES") or "600"))
+
+        def no_options(infoid):
+            """Машина на сайте без блока «Комплектация» (добавлена раньше) — дошлём оборудование."""
+            return items.get(str(infoid), {}).get("has_options") is False
         drom_context = browser.new_context(user_agent=UA, locale="ru-RU", timezone_id="Asia/Vladivostok")
         drom = drom_specs.DromCatalog(os.path.join(ROOT, "drom_cache.json"), drom_specs.playwright_fetcher(drom_context),
                                       max_requests=int(os.environ.get("DROM_MAX_PAGES") or "300"))
@@ -1194,11 +1363,12 @@ def main():
                 from_list += 1
             make, model = brand_model(car["name"], body or "", car.get("brandid"))
             add_power(d["spec"], car, make, model, autohome, drom, power_counts)
+            opts = equipment.get(car.get("specid"))
             listings.append({
                 "external_id": car["infoid"], "make": make, "model": model, "title": car["name"],
                 "year": car["year"], "mileage_km": car["mileage_km"], "price_value": car["price_cny"],
                 "photo_url": fetch_photo(session, d["photos"] + photo_candidates(car.get("image"))),
-                "spec": d["spec"] or None, "source_url": url,
+                "spec": d["spec"] or None, "source_url": url, **({"options": opts} if opts else {}),
             })
             done += 1
             src = "из списка" if body is None else "из объявления"
@@ -1221,8 +1391,9 @@ def main():
                 fails_in_row = 0
             url = f"https://www.che168.com/dealer/{car['dealerid']}/{car['infoid']}.html"
             if car["infoid"] in known:
+                opts = equipment.get(car.get("specid")) if no_options(car["infoid"]) else None
                 listings.append({"external_id": car["infoid"], "price_value": car["price_cny"],
-                                 "mileage_km": car["mileage_km"], "source_url": url})
+                                 "mileage_km": car["mileage_km"], "source_url": url, **({"options": opts} if opts else {})})
                 continue
             if list_only:
                 add(car, url)
@@ -1280,7 +1451,23 @@ def main():
                 # Темп человека: перерыв 1–2,5 мин каждые 25–40 машин
                 human_pause(60, 150)
                 breaks = done + random.randint(25, 40)
+        # Машинам с сайта, встреченным в обходе, без блока «Комплектация» — оборудование
+        sent_ids = {x["external_id"] for x in listings}
+        backfill = 0
+        for c in {c["infoid"]: c for c in touched}.values():
+            if c["infoid"] in sent_ids or not no_options(c["infoid"]):
+                continue
+            if time.time() - started > (RUN_MINUTES + 12) * 60:
+                break     # не упереться в лимит GitHub (355 мин): остальным — в следующий прогон
+            opts = equipment.get(c.get("specid"))
+            if opts:
+                listings.append({"external_id": c["infoid"], "price_value": c["price_cny"], "mileage_km": c["mileage_km"],
+                                 "source_url": f"https://www.che168.com/dealer/{c['dealerid']}/{c['infoid']}.html",
+                                 "options": opts})
+                backfill += 1
+        print(f"Оборудование (Autohome): {equipment.stats}, дослано машинам с сайта {backfill}")
         autohome.save()
+        equipment.save()
         drom.save()
         print(f"Мощность: из Autohome {power_counts['autohome']}, из drom.ru {power_counts['drom']} "
               f"(совпадений drom.ru: {drom.stats}, страниц drom.ru {drom.requests}), не найдена {power_counts['none']}; "
