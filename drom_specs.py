@@ -22,7 +22,7 @@ import time
 from datetime import date
 
 BASE = "https://www.drom.ru/catalog/"
-MARKETS = {"china": "Китай", "south-korea": "Южная Корея", "japan": "Япония"}
+MARKETS = {"china": "Китай", "south-korea": "Южная Корея", "japan": "Япония", "europe": "Европа", "usa": "США"}
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36")
 GEN_LIST_TTL_DAYS = 30
@@ -257,7 +257,7 @@ class DromCatalog:
         return [g for g in gens if g.get("market") == MARKETS.get(market, market)]
 
     def power(self, car: dict) -> dict | None:
-        """car: make, model, market (china/south-korea/japan), year, month?, cc, fuel (petrol/diesel/
+        """car: make, model, market (china/south-korea/japan) или markets [по очереди], year, month?, cc, fuel (petrol/diesel/
         hybrid/electric/phev), drive (fwd/rwd/4wd)?, trans (auto/manual/cvt/robot)?, trim?, body?.
         → {"hp", "hp_total", "source"} или None."""
         path = self.model_path(car["make"], car["model"]) if car.get("make") and car.get("model") else None
@@ -266,12 +266,16 @@ class DromCatalog:
             return None
         ym = car["year"] * 100 + (car.get("month") or 6)
         cands = []
-        for gen in self.generations(path, car["market"]):
-            for g in gen["groups"]:
-                trims = [t for t in g["trims"] if t["from"] - 100 <= ym <= (t["to"] or 999999) + 100] or (
-                    [] if g["trims"] else [None])
-                if trims and _fits(g, car):
-                    cands.append((g, [t for t in trims if t]))
+        # Рынки по очереди (импорт в Корее — «south-korea», потом «europe»): берём первый, где нашлось
+        for market in car.get("markets") or [car["market"]]:
+            for gen in self.generations(path, market):
+                for g in gen["groups"]:
+                    trims = [t for t in g["trims"] if t["from"] - 100 <= ym <= (t["to"] or 999999) + 100] or (
+                        [] if g["trims"] else [None])
+                    if trims and _fits(g, car):
+                        cands.append((g, [t for t in trims if t]))
+            if cands:
+                break
         hps = {(g["hp"], g.get("hp_total")) for g, _ in cands}
         if len(hps) == 1:
             self.stats["exact"] += 1
