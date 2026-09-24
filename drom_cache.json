@@ -599,6 +599,13 @@
 "g_2020_24955"
 ]
 },
+"haval/xiaolong_max/china": {
+"day": 739883,
+"gens": [
+"g_2023_19173",
+"g_202503_21876"
+]
+},
 "honda/cr-v/china": {
 "day": 739883,
 "gens": [
@@ -851,6 +858,17 @@
 "g_2017_18012",
 "g_202310_21174",
 "g_2023_19222"
+]
+},
+"tesla/model_s/china": {
+"day": 739883,
+"gens": [
+"g_201206_15356",
+"g_2012_24738",
+"g_201604_15357",
+"g_2016_24739",
+"g_202101_18071",
+"g_2021_24740"
 ]
 },
 "tesla/model_x/china": {
@@ -5756,6 +5774,42 @@
 ],
 "market": "Китай",
 "to": null
+},
+"haval/xiaolong_max/g_2023_19173": {
+"from": 202304,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4B15H",
+"fuel": "бензин",
+"hp": 116,
+"hp_total": 299,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 116 л.с., параллельный гибрид, 299 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202305,
+"name": "1.5 DHT AWD Hi4 105 Elite",
+"to": 202506
+},
+{
+"from": 202305,
+"name": "1.5 DHT AWD Hi4 105 Pilot",
+"to": 202506
+},
+{
+"from": 202305,
+"name": "1.5 DHT AWD Hi4 105 Intelligent Flagship",
+"to": 202506
+}
+]
+}
+],
+"market": "Китай",
+"to": 202506
 },
 "honda/cr-v/g_201112_10573": {
 "from": 201112,
@@ -13124,6 +13178,42 @@
 },
 "tesla/model_3/g_2023_19222": {
 "from": 202309,
+"groups": [],
+"market": "Китай",
+"to": null
+},
+"tesla/model_s/g_201206_15356": {
+"from": 201201,
+"groups": [],
+"market": "Европа",
+"to": 201611
+},
+"tesla/model_s/g_2012_24738": {
+"from": 201201,
+"groups": [],
+"market": "Китай",
+"to": 201604
+},
+"tesla/model_s/g_201604_15357": {
+"from": 201604,
+"groups": [],
+"market": "Европа",
+"to": 202105
+},
+"tesla/model_s/g_2016_24739": {
+"from": 201604,
+"groups": [],
+"market": "Китай",
+"to": 202106
+},
+"tesla/model_s/g_202101_18071": {
+"from": 202101,
+"groups": [],
+"market": "Европа",
+"to": null
+},
+"tesla/model_s/g_2021_24740": {
+"from": 202101,
 "groups": [],
 "market": "Китай",
 "to": null
