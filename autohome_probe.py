@@ -28,8 +28,12 @@ def main():
         browser = p.chromium.launch()
         page = browser.new_page(user_agent=UA, locale="zh-CN")
         for n, spec in enumerate(SPECS):
-            page.goto(f"https://car.autohome.com.cn/config/spec/{spec}.html", wait_until="load", timeout=60000)
-            page.wait_for_timeout(2500)
+            try:
+                page.goto(f"https://car.autohome.com.cn/config/spec/{spec}.html", wait_until="domcontentloaded", timeout=90000)
+            except Exception as e:
+                print(f"spec {spec}: {e}")
+                continue
+            page.wait_for_timeout(8000)
             html = page.content()
             raw = page.evaluate("() => document.documentElement.outerHTML")
             kw = page.evaluate("""() => {
