@@ -785,6 +785,84 @@ def brand_model(name: str, body: str, brandid: str | None = None):
     return None, None
 
 
+# ---------- точная мощность ----------
+
+class AutohomePower:
+    """Мощность комплектации по её номеру в справочнике Autohome (specid из карточки che168):
+    страница www.autohome.com.cn/spec/<specid>/ — «280kW 最大功率». Ответы запоминаются в
+    autohome_cache.json (комплектация не меняется)."""
+
+    def __init__(self, path):
+        self.path = path
+        self.s = requests.Session()
+        self.s.headers.update({"User-Agent": UA, "Referer": "https://www.autohome.com.cn/",
+                               "Accept-Language": "zh-CN,zh;q=0.9"})
+        try:
+            with open(path, encoding="utf-8") as f:
+                self.cache = json.load(f)
+        except (OSError, ValueError):
+            self.cache = {}
+        self.stats = {"cache": 0, "fetched": 0, "missing": 0}
+
+    def kw(self, specid):
+        if not specid or specid == "0":
+            return None
+        if specid in self.cache:
+            self.stats["cache"] += 1
+            return self.cache[specid]
+        time.sleep(random.uniform(1.0, 2.5))
+        kw = None
+        try:
+            resp = self.s.get(f"https://www.autohome.com.cn/spec/{specid}/", timeout=30)
+            if resp.status_code == 200:
+                m = re.search(r">\s*(\d{2,4}(?:\.\d)?)\s*kW\s*</div>\s*<div>\s*最大功率", resp.text)
+                kw = float(m.group(1)) if m else None
+        except Exception:
+            pass
+        self.stats["fetched" if kw else "missing"] += 1
+        if kw is not None:
+            self.cache[specid] = kw   # не нашли — не запоминаем, в следующий раз попробуем снова
+        return kw
+
+    def save(self):
+        with open(self.path, "w", encoding="utf-8") as f:
+            json.dump(self.cache, f, ensure_ascii=False, indent=0, sort_keys=True)
+
+
+def drom_car(car: dict, make: str, model: str) -> dict:
+    """Машина che168 → признаки для поиска комплектации на drom.ru."""
+    import drom_specs
+    name = car["name"]
+    model_year = re.search(r"(20\d{2})\s*款", name)
+    fuel = fuel_of(name, "")
+    return {
+        "make": make, "model": model, "market": "china",
+        "year": int(model_year.group(1)) if model_year else car["year"],
+        "cc": guess_cc(name) if fuel != "Электро" else None,
+        "fuel": drom_specs.norm_fuel(fuel), "drive": drom_specs.norm_drive(name),
+        "trans": drom_specs.norm_trans(name), "trim": latin_trim(name),
+    }
+
+
+def add_power(spec: dict, car: dict, make, model, autohome, drom, counts):
+    """Точная мощность в характеристики: Autohome по номеру комплектации, иначе drom.ru."""
+    if spec.get("Максимальная мощность (кВт)") or spec.get("Мощность, л.с."):
+        return
+    kw = autohome.kw(car.get("specid")) if autohome else None
+    if kw:
+        spec["Максимальная мощность (кВт)"] = f"{kw:g}"
+        counts["autohome"] += 1
+        return
+    found = drom.power(drom_car(car, make, model)) if (drom and make and model) else None
+    if found:
+        spec["Мощность, л.с."] = str(found["hp"])
+        if found.get("hp_total"):
+            spec["Суммарная мощность гибрида, л.с."] = str(found["hp_total"])
+        counts["drom"] += 1
+        return
+    counts["none"] += 1
+
+
 # ---------- bn-auto ----------
 
 def http_session():
@@ -919,6 +997,15 @@ def main():
             cars = gather(page, known)
         print(f"Отобрано: {len(cars)} (уже на сайте: {sum(c['infoid'] in known for c in cars)}), марок по номерам: {len(BRAND_IDS)}")
 
+        # Точная мощность: Autohome по номеру комплектации, запасной путь — каталог drom.ru
+        # (его таблицы дорисовываются скриптом — открываем в браузере, без прокси)
+        import drom_specs
+        autohome = AutohomePower(os.path.join(ROOT, "autohome_cache.json"))
+        drom_context = browser.new_context(user_agent=UA, locale="ru-RU", timezone_id="Asia/Vladivostok")
+        drom = drom_specs.DromCatalog(os.path.join(ROOT, "drom_cache.json"), drom_specs.playwright_fetcher(drom_context),
+                                      max_requests=int(os.environ.get("DROM_MAX_PAGES") or "300"))
+        power_counts = {"autohome": 0, "drom": 0, "none": 0}
+
         done = failed = degraded = degraded_saved = from_list = 0
         list_only = False   # объявления закрыты капчей — дальше только данные списка
         breaks = random.randint(20, 30)
@@ -929,6 +1016,7 @@ def main():
                 d = {"spec": spec_from_name(car), "photos": []}
                 from_list += 1
             make, model = brand_model(car["name"], body or "", car.get("brandid"))
+            add_power(d["spec"], car, make, model, autohome, drom, power_counts)
             listings.append({
                 "external_id": car["infoid"], "make": make, "model": model, "title": car["name"],
                 "year": car["year"], "mileage_km": car["mileage_km"], "price_value": car["price_cny"],
@@ -1003,6 +1091,11 @@ def main():
             if done >= breaks:
                 human_pause(25, 45)
                 breaks = done + random.randint(20, 30)
+        autohome.save()
+        drom.save()
+        print(f"Мощность: из Autohome {power_counts['autohome']}, из drom.ru {power_counts['drom']} "
+              f"(совпадений drom.ru: {drom.stats}, страниц drom.ru {drom.requests}), не найдена {power_counts['none']}; "
+              f"Autohome: {autohome.stats}")
         browser.close()
 
     print(f"Итого: новых {sum('spec' in x for x in listings)} (из них только по списку {from_list}), "

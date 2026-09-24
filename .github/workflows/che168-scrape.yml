@@ -18,6 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     # Обход марок и моделей (до 2 ч) + 1000 машин порциями по 100 с паузой 10 минут
     timeout-minutes: 355
+    # Сохранить в репозиторий найденную мощность (кэш Autohome и drom.ru)
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -57,3 +60,16 @@ jobs:
             che168_batch.json
           retention-days: 14
           if-no-files-found: ignore
+      # Мощность, найденная на Autohome и drom.ru, — чтобы в следующий раз не спрашивать
+      - name: Save power cache
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for f in autohome_cache.json drom_cache.json; do [ -f "$f" ] && git add -f "$f"; done
+          git commit -m "chore: кэш мощности (Autohome, drom.ru) [skip ci]" || exit 0
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep $((i * 10))
+          done
+          exit 1
