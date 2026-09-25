@@ -361,6 +361,10 @@
 "g_2021_24605"
 ]
 },
+"audi/e-tron/china": {
+"day": 739884,
+"gens": []
+},
 "audi/q3/china": {
 "day": 739884,
 "gens": [
@@ -503,6 +507,34 @@
 "g_202106_13065"
 ]
 },
+"bmw/x1/china": {
+"day": 739884,
+"gens": [
+"g_200910_4535",
+"g_201207_1608",
+"g_201510_18226",
+"g_2016_9697",
+"g_201907_9882",
+"g_2019_16274",
+"g_202207_15605",
+"g_2022_20880"
+]
+},
+"bmw/x3/china": {
+"day": 739884,
+"gens": [
+"g_200302_5576",
+"g_200610_5582",
+"g_201011_4017",
+"g_201406_1609",
+"g_201710_7685",
+"g_2017_21447",
+"g_202106_19867",
+"g_2021_21448",
+"g_202408_21755",
+"g_2024_22239"
+]
+},
 "bmw/x5/china": {
 "day": 739884,
 "gens": [
@@ -516,6 +548,21 @@
 "g_202304_18115",
 "g_2023_20942",
 "g_202607_24755"
+]
+},
+"bmw/x6/china": {
+"day": 739884,
+"gens": [
+"g_2007_22267",
+"g_200803_1611",
+"g_201204_4273",
+"g_2012_22268",
+"g_201408_2229",
+"g_2014_22269",
+"g_201810_10021",
+"g_2019_22270",
+"g_202303_21062",
+"g_2023_22271"
 ]
 },
 "bmw/x7/china": {
@@ -744,6 +791,17 @@
 "g_202502_25119"
 ]
 },
+"cadillac/escalade/china": {
+"day": 739884,
+"gens": []
+},
+"cadillac/xt6/china": {
+"day": 739884,
+"gens": [
+"g_201903_10778",
+"g_2019_18725"
+]
+},
 "changan/eado/china": {
 "day": 739884,
 "gens": [
@@ -797,6 +855,10 @@
 "g_2016_20123",
 "g_2016_20125"
 ]
+},
+"chevrolet/suburban/china": {
+"day": 739884,
+"gens": []
 },
 "citroen/c5_x/china": {
 "day": 739884,
@@ -901,6 +963,10 @@
 "g_2020_24955"
 ]
 },
+"ford/f150/china": {
+"day": 739884,
+"gens": []
+},
 "ford/ranger/china": {
 "day": 739884,
 "gens": [
@@ -914,6 +980,14 @@
 "g_2021_21025",
 "g_202308_24297"
 ]
+},
+"geely/boyue_l/china": {
+"day": 739884,
+"gens": []
+},
+"geely/emgrand/china": {
+"day": 739884,
+"gens": []
 },
 "geely/emgrand_l/china": {
 "day": 739884,
@@ -931,6 +1005,22 @@
 "g_2025_24368"
 ]
 },
+"genesis/gv80/china": {
+"day": 739884,
+"gens": []
+},
+"haval/dargo/china": {
+"day": 739884,
+"gens": [
+"g_202007_15380",
+"g_2020_23074",
+"g_2022_23076",
+"g_202307_23075",
+"g_202507_24052",
+"g_2025_23077",
+"g_2025_23105"
+]
+},
 "haval/f7/china": {
 "day": 739884,
 "gens": [
@@ -939,6 +1029,16 @@
 "g_202009_17695",
 "g_202202_14994",
 "g_202408_21066"
+]
+},
+"haval/f7x/china": {
+"day": 739884,
+"gens": [
+"g_201904_10424",
+"g_2019_17735",
+"g_202009_17736",
+"g_202202_14995",
+"g_202504_22423"
 ]
 },
 "haval/xiaolong_max/china": {
@@ -966,6 +1066,10 @@
 "g_2022_19297"
 ]
 },
+"honda/n-box/china": {
+"day": 739884,
+"gens": []
+},
 "hongqi/hq9/china": {
 "day": 739883,
 "gens": [
@@ -978,6 +1082,16 @@
 "gens": [
 "g_202307_20825",
 "g_2023_19934"
+]
+},
+"hongqi/hs5/china": {
+"day": 739884,
+"gens": [
+"g_2018_16714",
+"g_201906_18471",
+"g_202305_20822",
+"g_2023_20823",
+"g_2026_25032"
 ]
 },
 "hongqi/hs6/china": {
@@ -998,6 +1112,23 @@
 "g_2015_24679",
 "g_201608_3892"
 ]
+},
+"infiniti/qx50/china": {
+"day": 739884,
+"gens": [
+"g_201308_2042",
+"g_201509_24271",
+"g_201711_7981",
+"g_2017_21963"
+]
+},
+"infiniti/qx80/china": {
+"day": 739884,
+"gens": []
+},
+"jeep/wrangler/china": {
+"day": 739884,
+"gens": []
 },
 "jetour/l6/china": {
 "day": 739884,
@@ -1044,6 +1175,18 @@
 "g_2016_15783",
 "g_201911_15784"
 ]
+},
+"lamborghini/revuelto/china": {
+"day": 739884,
+"gens": []
+},
+"lamborghini/urus/china": {
+"day": 739884,
+"gens": []
+},
+"land_rover/defender/china": {
+"day": 739884,
+"gens": []
 },
 "land_rover/range_rover_velar/china": {
 "day": 739883,
@@ -1123,6 +1266,14 @@
 "g_2020_17124"
 ]
 },
+"lincoln/aviator/china": {
+"day": 739884,
+"gens": [
+"g_200204_3929",
+"g_2018_23236",
+"g_2024_23237"
+]
+},
 "lincoln/mkz/china": {
 "day": 739884,
 "gens": [
@@ -1158,6 +1309,14 @@
 "gens": [
 "g_2024_23669"
 ]
+},
+"maserati/ghibli/china": {
+"day": 739884,
+"gens": []
+},
+"maserati/granturismo/china": {
+"day": 739884,
+"gens": []
 },
 "maxus/t90/china": {
 "day": 739883,
@@ -1201,6 +1360,10 @@
 "gens": [
 "g_202509_22329"
 ]
+},
+"mazda/mx-5/china": {
+"day": 739884,
+"gens": []
 },
 "mercedes-benz/c-class/china": {
 "day": 739884,
@@ -1295,6 +1458,10 @@
 "g_2018_18342"
 ]
 },
+"mitsubishi/delica/china": {
+"day": 739884,
+"gens": []
+},
 "nio/ec6/china": {
 "day": 739884,
 "gens": [
@@ -1381,6 +1548,14 @@
 "g_201607_20058",
 "g_202511_23251"
 ]
+},
+"porsche/panamera/china": {
+"day": 739884,
+"gens": []
+},
+"porsche/taycan/china": {
+"day": 739884,
+"gens": []
 },
 "roewe/i5/china": {
 "day": 739884,
@@ -1483,6 +1658,20 @@
 "g_2023_19313"
 ]
 },
+"toyota/avalon/china": {
+"day": 739884,
+"gens": [
+"g_199409_3834",
+"g_199710_7275",
+"g_199908_3835",
+"g_200412_3836",
+"g_200708_7183",
+"g_201211_3837",
+"g_201510_7185",
+"g_201801_16195",
+"g_202201_16196"
+]
+},
 "toyota/granvia/china": {
 "day": 739884,
 "gens": [
@@ -1522,6 +1711,14 @@
 "g_2023_20447",
 "g_202401_24313"
 ]
+},
+"toyota/sequoia/china": {
+"day": 739884,
+"gens": []
+},
+"toyota/tundra/china": {
+"day": 739884,
+"gens": []
 },
 "toyota/wildlander/china": {
 "day": 739884,
@@ -14657,6 +14854,3401 @@
 "market": "Россия",
 "to": 202303
 },
+"bmw/x1/g_201207_1608": {
+"from": 201207,
+"groups": [
+{
+"body": [
+"E84"
+],
+"drive": "rwd",
+"engine": "N46B20",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201207,
+"id": "69860",
+"name": "sDrive 18i MT Базовая",
+"to": 201307
+}
+]
+},
+{
+"body": [
+"E84"
+],
+"drive": "rwd",
+"engine": "N46B20",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201207,
+"id": "69858",
+"name": "sDrive 18i AT Базовая",
+"to": 201307
+},
+{
+"from": 201207,
+"id": "69859",
+"name": "sDrive 18i AT",
+"to": 201505
+}
+]
+},
+{
+"body": [
+"E84"
+],
+"drive": "4wd",
+"engine": "N20B20",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201207,
+"id": "69857",
+"name": "xDrive 20i MT Базовая",
+"to": 201403
+}
+]
+},
+{
+"body": [
+"E84"
+],
+"drive": "4wd",
+"engine": "N20B20",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201207,
+"id": "69853",
+"name": "xDrive 20i AT xLine",
+"to": 201307
+},
+{
+"from": 201207,
+"id": "69854",
+"name": "xDrive 20i AT Sport Line",
+"to": 201307
+},
+{
+"from": 201207,
+"id": "69856",
+"name": "xDrive 20i AT",
+"to": 201505
+},
+{
+"from": 201308,
+"id": "72953",
+"name": "xDrive 20i AT Business",
+"to": 201505
+}
+]
+},
+{
+"body": [
+"E84"
+],
+"drive": "4wd",
+"engine": "N47D20",
+"fuel": "дизель",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201207,
+"id": "69851",
+"name": "xDrive 20d MT",
+"to": 201505
+}
+]
+},
+{
+"body": [
+"E84"
+],
+"drive": "4wd",
+"engine": "N47D20",
+"fuel": "дизель",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201207,
+"id": "69847",
+"name": "xDrive 20d AT",
+"to": 201505
+},
+{
+"from": 201207,
+"id": "69847",
+"name": "xDrive 20d AT",
+"to": 201505
+},
+{
+"from": 201207,
+"id": "69850",
+"name": "xDrive 20d AT xLine",
+"to": 201307
+},
+{
+"from": 201207,
+"id": "69849",
+"name": "xDrive 20d AT Sport Line",
+"to": 201307
+},
+{
+"from": 201308,
+"id": "72954",
+"name": "xDrive 20d AT Business",
+"to": 201505
+}
+]
+},
+{
+"body": [
+"E84"
+],
+"drive": "4wd",
+"engine": "N47D20",
+"fuel": "дизель",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201207,
+"id": "69846",
+"name": "xDrive 25d MT",
+"to": 201505
+}
+]
+},
+{
+"body": [
+"E84"
+],
+"drive": "4wd",
+"engine": "N47D20",
+"fuel": "дизель",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201207,
+"id": "69845",
+"name": "xDrive 25d AT",
+"to": 201505
+}
+]
+},
+{
+"body": [
+"E84"
+],
+"drive": "4wd",
+"engine": "N20B20",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201207,
+"id": "69852",
+"name": "xDrive 28i AT xLine",
+"to": 201307
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x1/g_201207_1608",
+"market": "Россия",
+"to": 201505
+},
+"bmw/x1/g_201510_18226": {
+"from": 201506,
+"groups": [
+{
+"body": [
+"HT51"
+],
+"drive": "fwd",
+"engine": "B37C15U0",
+"fuel": "дизель",
+"hp": 116,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 116 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201510,
+"id": "460747",
+"name": "sDrive16d MT",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460784",
+"name": "sDrive16d MT Advantage",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460802",
+"name": "sDrive16d MT Sport Line",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460820",
+"name": "sDrive16d MT xLine",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460838",
+"name": "sDrive16d MT M Sport",
+"to": 201906
+}
+]
+},
+{
+"body": [
+"HS11"
+],
+"drive": "fwd",
+"engine": "B38A15M0",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 136 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201511,
+"id": "460720",
+"name": "sDrive18i MT",
+"to": 201707
+},
+{
+"from": 201511,
+"id": "460776",
+"name": "sDrive18i MT Advantage",
+"to": 201707
+},
+{
+"from": 201511,
+"id": "460794",
+"name": "sDrive18i MT Sport Line",
+"to": 201707
+},
+{
+"from": 201511,
+"id": "460812",
+"name": "sDrive18i MT xLine",
+"to": 201707
+},
+{
+"from": 201511,
+"id": "460830",
+"name": "sDrive18i MT M Sport",
+"to": 201707
+}
+]
+},
+{
+"body": [
+"HS11"
+],
+"drive": "fwd",
+"engine": "B38A15M0",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 136 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201511,
+"id": "460722",
+"name": "sDrive18i AT",
+"to": 201707
+},
+{
+"from": 201511,
+"id": "460777",
+"name": "sDrive18i AT Advantage",
+"to": 201707
+},
+{
+"from": 201511,
+"id": "460795",
+"name": "sDrive18i AT Sport Line",
+"to": 201707
+},
+{
+"from": 201511,
+"id": "460813",
+"name": "sDrive18i AT xLine",
+"to": 201707
+},
+{
+"from": 201511,
+"id": "460831",
+"name": "sDrive18i AT M Sport",
+"to": 201707
+}
+]
+},
+{
+"body": [
+"JG11"
+],
+"drive": "fwd",
+"engine": "B38A15M1",
+"fuel": "бензин",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 140 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201708,
+"id": "460720",
+"name": "sDrive18i MT",
+"to": 201906
+},
+{
+"from": 201708,
+"id": "460776",
+"name": "sDrive18i MT Advantage",
+"to": 201906
+},
+{
+"from": 201708,
+"id": "460794",
+"name": "sDrive18i MT Sport Line",
+"to": 201906
+},
+{
+"from": 201708,
+"id": "460812",
+"name": "sDrive18i MT xLine",
+"to": 201906
+},
+{
+"from": 201708,
+"id": "460830",
+"name": "sDrive18i MT M Sport",
+"to": 201906
+}
+]
+},
+{
+"body": [
+"JG11"
+],
+"drive": "fwd",
+"engine": "B38A15M1",
+"fuel": "бензин",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 140 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201708,
+"id": "460723",
+"name": "sDrive18i DKG",
+"to": 201906
+},
+{
+"from": 201708,
+"id": "460772",
+"name": "sDrive18i DKG Advantage",
+"to": 201906
+},
+{
+"from": 201708,
+"id": "460790",
+"name": "sDrive18i DKG Sport Line",
+"to": 201906
+},
+{
+"from": 201708,
+"id": "460808",
+"name": "sDrive18i DKG xLine",
+"to": 201906
+},
+{
+"from": 201708,
+"id": "460826",
+"name": "sDrive18i DKG M Sport",
+"to": 201906
+}
+]
+},
+{
+"body": [
+"HT71"
+],
+"drive": "fwd",
+"engine": "B47C20U0",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201510,
+"id": "460748",
+"name": "sDrive18d MT",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460785",
+"name": "sDrive18d MT Advantage",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460803",
+"name": "sDrive18d MT Sport Line",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460821",
+"name": "sDrive18d MT xLine",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460839",
+"name": "sDrive18d MT M Sport",
+"to": 201906
+}
+]
+},
+{
+"body": [
+"HT91"
+],
+"drive": "4wd",
+"engine": "B47C20U0",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201510,
+"id": "460750",
+"name": "xDrive18d MT",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460778",
+"name": "xDrive18d MT Advantage",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460796",
+"name": "xDrive18d MT Sport Line",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460815",
+"name": "xDrive18d MT xLine",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460832",
+"name": "xDrive18d MT M Sport",
+"to": 201906
+}
+]
+},
+{
+"body": [
+"HT71"
+],
+"drive": "fwd",
+"engine": "B47C20U0",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201510,
+"id": "460749",
+"name": "sDrive18d AT",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460786",
+"name": "sDrive18d AT Advantage",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460804",
+"name": "sDrive18d AT Sport Line",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460822",
+"name": "sDrive18d AT xLine",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460840",
+"name": "sDrive18d AT M Sport",
+"to": 201906
+}
+]
+},
+{
+"body": [
+"HT91"
+],
+"drive": "4wd",
+"engine": "B47C20U0",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201510,
+"id": "460751",
+"name": "xDrive18d AT",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460779",
+"name": "xDrive18d AT Advantage",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460797",
+"name": "xDrive18d AT Sport Line",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460814",
+"name": "xDrive18d AT xLine",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460833",
+"name": "xDrive18d AT M Sport",
+"to": 201906
+}
+]
+},
+{
+"body": [
+"HU11"
+],
+"drive": "fwd",
+"engine": "B47C20O0",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201607,
+"id": "460757",
+"name": "sDrive20d MT",
+"to": 201810
+},
+{
+"from": 201607,
+"id": "460774",
+"name": "sDrive20d MT Advantage",
+"to": 201810
+},
+{
+"from": 201607,
+"id": "460792",
+"name": "sDrive20d MT Sport Line",
+"to": 201810
+},
+{
+"from": 201607,
+"id": "460810",
+"name": "sDrive20d MT xLine",
+"to": 201810
+},
+{
+"from": 201607,
+"id": "460828",
+"name": "sDrive20d MT M Sport",
+"to": 201810
+}
+]
+},
+{
+"body": [
+"HU11"
+],
+"drive": "fwd",
+"engine": "B47C20O0, B47C20O1",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201607,
+"id": "460758",
+"name": "sDrive20d AT",
+"to": 201810
+},
+{
+"from": 201607,
+"id": "460775",
+"name": "sDrive20d AT Advantage",
+"to": 201810
+},
+{
+"from": 201607,
+"id": "460793",
+"name": "sDrive20d AT Sport Line",
+"to": 201810
+},
+{
+"from": 201607,
+"id": "460811",
+"name": "sDrive20d AT xLine",
+"to": 201810
+},
+{
+"from": 201607,
+"id": "460829",
+"name": "sDrive20d AT M Sport",
+"to": 201810
+},
+{
+"from": 201811,
+"id": "460758",
+"name": "sDrive20d AT",
+"to": 201906
+},
+{
+"from": 201811,
+"id": "460775",
+"name": "sDrive20d AT Advantage",
+"to": 201906
+},
+{
+"from": 201811,
+"id": "460793",
+"name": "sDrive20d AT Sport Line",
+"to": 201906
+},
+{
+"from": 201811,
+"id": "460811",
+"name": "sDrive20d AT xLine",
+"to": 201906
+},
+{
+"from": 201811,
+"id": "460829",
+"name": "sDrive20d AT M Sport",
+"to": 201906
+}
+]
+},
+{
+"body": [
+"HU31"
+],
+"drive": "4wd",
+"engine": "B47C20O0, B47C20O1",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201510,
+"id": "460762",
+"name": "xDrive20d AT",
+"to": 201710
+},
+{
+"from": 201510,
+"id": "460780",
+"name": "xDrive20d AT Advantage",
+"to": 201710
+},
+{
+"from": 201510,
+"id": "460798",
+"name": "xDrive20d AT Sport Line",
+"to": 201710
+},
+{
+"from": 201510,
+"id": "460816",
+"name": "xDrive20d AT xLine",
+"to": 201710
+},
+{
+"from": 201510,
+"id": "460834",
+"name": "xDrive20d AT M Sport",
+"to": 201710
+},
+{
+"from": 201711,
+"id": "460762",
+"name": "xDrive20d AT",
+"to": 201906
+},
+{
+"from": 201711,
+"id": "460780",
+"name": "xDrive20d AT Advantage",
+"to": 201906
+},
+{
+"from": 201711,
+"id": "460798",
+"name": "xDrive20d AT Sport Line",
+"to": 201906
+},
+{
+"from": 201711,
+"id": "460816",
+"name": "xDrive20d AT xLine",
+"to": 201906
+},
+{
+"from": 201711,
+"id": "460834",
+"name": "xDrive20d AT M Sport",
+"to": 201906
+}
+]
+},
+{
+"body": [
+"HS71"
+],
+"drive": "fwd",
+"engine": "B48A20M1",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201707,
+"id": "460744",
+"name": "sDrive20i DKG",
+"to": 201906
+},
+{
+"from": 201707,
+"id": "460773",
+"name": "sDrive20i DKG Advantage",
+"to": 201906
+},
+{
+"from": 201707,
+"id": "460791",
+"name": "sDrive20i DKG Sport Line",
+"to": 201906
+},
+{
+"from": 201707,
+"id": "460809",
+"name": "sDrive20i DKG xLine",
+"to": 201906
+},
+{
+"from": 201707,
+"id": "460827",
+"name": "sDrive20i DKG M Sport",
+"to": 201906
+}
+]
+},
+{
+"body": [
+"HS91"
+],
+"drive": "4wd",
+"engine": "B48A20M0",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201510,
+"id": "460745",
+"name": "xDrive20i AT",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460782",
+"name": "xDrive20i AT Advantage",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460800",
+"name": "xDrive20i AT Sport Line",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460818",
+"name": "xDrive20i AT xLine",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460836",
+"name": "xDrive20i AT M Sport",
+"to": 201906
+}
+]
+},
+{
+"body": [
+"HT11"
+],
+"drive": "4wd",
+"engine": "B48B20O0",
+"fuel": "бензин",
+"hp": 231,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 231 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201510,
+"id": "460783",
+"name": "xDrive25i AT Advantage",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460801",
+"name": "xDrive25i AT Sport Line",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460819",
+"name": "xDrive25i AT xLine",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460837",
+"name": "xDrive25i AT M Sport",
+"to": 201906
+}
+]
+},
+{
+"body": [
+"HU51"
+],
+"drive": "4wd",
+"engine": "B47C20T0",
+"fuel": "дизель",
+"hp": 231,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 231 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201510,
+"id": "460781",
+"name": "xDrive25d AT Advantage",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460799",
+"name": "xDrive25d AT Sport Line",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460817",
+"name": "xDrive25d AT xLine",
+"to": 201906
+},
+{
+"from": 201510,
+"id": "460835",
+"name": "xDrive25d AT M Sport",
+"to": 201906
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x1/g_201510_18226",
+"market": "Европа",
+"to": 201906
+},
+"bmw/x1/g_2016_9697": {
+"from": 201604,
+"groups": [
+{
+"body": [
+"F49"
+],
+"drive": "fwd",
+"engine": "B38A15M0",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 136 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201609,
+"id": "243502",
+"name": "sDrive 18Li AT Advantage",
+"to": 201810
+},
+{
+"from": 201609,
+"id": "243569",
+"name": "sDrive 18Li AT Privilege X",
+"to": 201810
+},
+{
+"from": 201609,
+"id": "243559",
+"name": "sDrive 18Li AT Exclusive",
+"to": 201907
+},
+{
+"from": 201811,
+"id": "243502",
+"name": "sDrive 18Li AT Advantage",
+"to": 201907
+}
+]
+},
+{
+"body": [
+"F49"
+],
+"drive": "4wd",
+"engine": "B38A15M0",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 136 л.с., параллельный подзаряжаемый (PHEV) гибрид, 95 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201609,
+"id": "243566",
+"name": "xDrive 25Le AT iPerformance",
+"to": 201812
+},
+{
+"from": 201903,
+"id": "243567",
+"name": "xDrive 25Le AT iPerformance Luxury",
+"to": 201907
+}
+]
+},
+{
+"body": [
+"F49"
+],
+"drive": "fwd",
+"engine": "B48A20M0",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"id": "243564",
+"name": "sDrive 20Li AT Leading",
+"to": 201907
+},
+{
+"from": 201609,
+"id": "243564",
+"name": "sDrive 20Li AT Leading",
+"to": 201810
+}
+]
+},
+{
+"body": [
+"F49"
+],
+"drive": "4wd",
+"engine": "B48A20M0",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201609,
+"id": "243560",
+"name": "xDrive 20Li AT Exclusive",
+"to": 201907
+},
+{
+"from": 201811,
+"id": "243565",
+"name": "xDrive 20Li AT Deluxe",
+"to": 201907
+},
+{
+"from": 201609,
+"id": "243571",
+"name": "xDrive 20Li AT Privilege X",
+"to": 201810
+},
+{
+"from": 201609,
+"id": "243572",
+"name": "xDrive 20Li AT Luxury",
+"to": 201810
+}
+]
+},
+{
+"body": [
+"F49"
+],
+"drive": "4wd",
+"engine": "B48A20",
+"fuel": "бензин",
+"hp": 231,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 231 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201609,
+"id": "243573",
+"name": "xDrive 25Li AT Luxury",
+"to": 201810
+},
+{
+"from": 201609,
+"id": "243575",
+"name": "xDrive 25Li AT Luxury Sport",
+"to": 201810
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x1/g_2016_9697",
+"market": "Китай",
+"to": 201907
+},
+"bmw/x1/g_201907_9882": {
+"from": 201905,
+"groups": [
+{
+"body": [
+"F48"
+],
+"drive": "fwd",
+"engine": "B38A15M0",
+"fuel": "бензин",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 140 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201907,
+"id": "250253",
+"name": "sDrive 18i SAT Base",
+"to": 202203
+},
+{
+"from": 201907,
+"id": "275460",
+"name": "sDrive 18i SAT Advantage",
+"to": 202203
+},
+{
+"from": 202004,
+"id": "291891",
+"name": "sDrive 18i SAT SE",
+"to": 202110
+},
+{
+"from": 202203,
+"id": "425544",
+"name": "sDrive 18i SAT M Sport Edition",
+"to": 202203
+}
+]
+},
+{
+"body": [
+"F48"
+],
+"drive": "4wd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201907,
+"id": "250255",
+"name": "xDrive 18d AT Base",
+"to": 202203
+},
+{
+"from": 201907,
+"id": "275498",
+"name": "xDrive 18d AT Advantage",
+"to": 202203
+},
+{
+"from": 202002,
+"id": "275501",
+"name": "xDrive 18d AT Sport Line",
+"to": 202203
+},
+{
+"from": 202002,
+"id": "275512",
+"name": "xDrive 18d AT Advantage Plus",
+"to": 202203
+},
+{
+"from": 202002,
+"id": "275513",
+"name": "xDrive 18d AT M Sport",
+"to": 202203
+}
+]
+},
+{
+"body": [
+"F48"
+],
+"drive": "4wd",
+"engine": "B48A20M0",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201907,
+"id": "250254",
+"name": "xDrive 20i AT Base",
+"to": 202203
+},
+{
+"from": 201907,
+"id": "275468",
+"name": "xDrive 20i AT Advantage",
+"to": 202203
+},
+{
+"from": 201907,
+"id": "275476",
+"name": "xDrive 20i AT M Sport",
+"to": 202203
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x1/g_201907_9882",
+"market": "Россия",
+"to": 202203
+},
+"bmw/x1/g_2019_16274": {
+"from": 201905,
+"groups": [
+{
+"body": [
+"F49"
+],
+"drive": "4wd",
+"engine": "B38A15M0",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 136 л.с., параллельный подзаряжаемый (PHEV) гибрид, 95 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201910,
+"id": "527639",
+"name": "xDrive 30Le AT Premium",
+"to": 202303
+}
+]
+},
+{
+"body": [
+"F49"
+],
+"drive": "fwd",
+"engine": "B38A15M0",
+"fuel": "бензин",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 140 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201908,
+"id": "439926",
+"name": "sDrive 20Li SAT Fashion",
+"to": 202303
+},
+{
+"from": 201908,
+"id": "439927",
+"name": "sDrive 20Li SAT Exclusive",
+"to": 202303
+}
+]
+},
+{
+"body": [
+"F49"
+],
+"drive": "4wd",
+"engine": "B48A20M0",
+"fuel": "бензин",
+"gen_key": "bmw/x1/g_2019_16274",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201908,
+"id": "439929",
+"name": "xDrive 25Li AT Exclusive",
+"to": 202303
+}
+]
+},
+{
+"body": [
+"F49"
+],
+"drive": "fwd",
+"engine": "B48A20M0",
+"fuel": "бензин",
+"gen_key": "bmw/x1/g_2019_16274",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201908,
+"id": "439928",
+"name": "sDrive 25Li SAT Leading",
+"to": 202303
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x1/g_2019_16274",
+"market": "Китай",
+"to": 202303
+},
+"bmw/x1/g_202207_15605": {
+"from": 202206,
+"groups": [
+{
+"body": [
+"U11"
+],
+"drive": "fwd",
+"engine": "B38A15M0",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 136 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202207,
+"id": "439771",
+"name": "sDrive18i SAT",
+"to": null
+},
+{
+"from": 202207,
+"id": "439775",
+"name": "sDrive18i SAT Edition Essence",
+"to": null
+},
+{
+"from": 202207,
+"id": "439787",
+"name": "sDrive18i SAT Essence xLine",
+"to": null
+},
+{
+"from": 202207,
+"id": "439777",
+"name": "sDrive18i SAT Edition Balance",
+"to": null
+},
+{
+"from": 202207,
+"id": "439788",
+"name": "sDrive18i SAT Balance xLine",
+"to": null
+},
+{
+"from": 202207,
+"id": "439799",
+"name": "sDrive18i SAT Essence M Sportpaket",
+"to": null
+},
+{
+"from": 202207,
+"id": "439801",
+"name": "sDrive18i SAT Balance M Sportpaket",
+"to": null
+},
+{
+"from": 202207,
+"id": "439781",
+"name": "sDrive18i SAT Edition Excellence",
+"to": null
+},
+{
+"from": 202207,
+"id": "439789",
+"name": "sDrive18i SAT Excellence xLine",
+"to": null
+},
+{
+"from": 202207,
+"id": "439802",
+"name": "sDrive18i SAT Excellence M Sportpaket",
+"to": null
+}
+]
+},
+{
+"body": [
+"U11"
+],
+"drive": "4wd",
+"engine": "B38A15M0",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 136 л.с., параллельный подзаряжаемый (PHEV) гибрид, 109 л.с., робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202211,
+"id": "439830",
+"name": "xDrive25e SAT",
+"to": null
+},
+{
+"from": 202211,
+"id": "439834",
+"name": "xDrive25e SAT xLine",
+"to": null
+},
+{
+"from": 202211,
+"id": "439836",
+"name": "xDrive25e SAT M Sportpaket",
+"to": null
+}
+]
+},
+{
+"body": [
+"U11"
+],
+"drive": "4wd",
+"engine": "B38A15M0",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": 177,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 150 л.с., параллельный подзаряжаемый (PHEV) гибрид, 177 л.с., робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202211,
+"id": "439832",
+"name": "xDrive30e SAT",
+"to": null
+},
+{
+"from": 202211,
+"id": "439835",
+"name": "xDrive30e SAT xLine",
+"to": null
+},
+{
+"from": 202211,
+"id": "439837",
+"name": "xDrive30e SAT M Sportpaket",
+"to": null
+}
+]
+},
+{
+"body": [
+"U11"
+],
+"drive": "fwd",
+"engine": "B38A15P",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., мягкий гибрид, 20 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202211,
+"id": "542249",
+"name": "sDrive20i SAT",
+"to": null
+},
+{
+"from": 202211,
+"id": "542250",
+"name": "sDrive20i SAT Edition Essence",
+"to": null
+},
+{
+"from": 202211,
+"id": "542253",
+"name": "sDrive20i SAT Essence xLine",
+"to": null
+},
+{
+"from": 202211,
+"id": "542251",
+"name": "sDrive20i SAT Edition Balance",
+"to": null
+},
+{
+"from": 202211,
+"id": "542254",
+"name": "sDrive20i SAT Balance xLine",
+"to": null
+},
+{
+"from": 202211,
+"id": "542256",
+"name": "sDrive20i SAT Essence M Sportpaket",
+"to": null
+},
+{
+"from": 202211,
+"id": "542257",
+"name": "sDrive20i SAT Balance M Sportpaket",
+"to": null
+},
+{
+"from": 202211,
+"id": "542252",
+"name": "sDrive20i SAT Edition Excellence",
+"to": null
+},
+{
+"from": 202211,
+"id": "542255",
+"name": "sDrive20i SAT Excellence xLine",
+"to": null
+},
+{
+"from": 202211,
+"id": "542258",
+"name": "sDrive20i SAT Excellence M Sportpaket",
+"to": null
+}
+]
+},
+{
+"body": [
+"U11"
+],
+"drive": "fwd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202207,
+"id": "439772",
+"name": "sDrive18d SAT",
+"to": null
+},
+{
+"from": 202207,
+"id": "439776",
+"name": "sDrive18d SAT Edition Essence",
+"to": null
+},
+{
+"from": 202207,
+"id": "439790",
+"name": "sDrive18d SAT Essence xLine",
+"to": null
+},
+{
+"from": 202207,
+"id": "439778",
+"name": "sDrive18d SAT Edition Balance",
+"to": null
+},
+{
+"from": 202207,
+"id": "439791",
+"name": "sDrive18d SAT Balance xLine",
+"to": null
+},
+{
+"from": 202207,
+"id": "439803",
+"name": "sDrive18d SAT Essence M Sportpaket",
+"to": null
+},
+{
+"from": 202207,
+"id": "439804",
+"name": "sDrive18d SAT Balance M Sportpaket",
+"to": null
+},
+{
+"from": 202207,
+"id": "439782",
+"name": "sDrive18d SAT Edition Excellence",
+"to": null
+},
+{
+"from": 202207,
+"id": "439792",
+"name": "sDrive18d SAT Excellence xLine",
+"to": null
+},
+{
+"from": 202207,
+"id": "439805",
+"name": "sDrive18d SAT Excellence M Sportpaket",
+"to": null
+}
+]
+},
+{
+"body": [
+"U11"
+],
+"drive": "fwd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, дизель, 150 л.с., мягкий гибрид, 20 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202407,
+"id": "542229",
+"name": "sDrive20d SAT",
+"to": null
+},
+{
+"from": 202407,
+"id": "542230",
+"name": "sDrive20d SAT Edition Essence",
+"to": null
+},
+{
+"from": 202407,
+"id": "542233",
+"name": "sDrive20d SAT Essence xLine",
+"to": null
+},
+{
+"from": 202407,
+"id": "542231",
+"name": "sDrive20d SAT Edition Balance",
+"to": null
+},
+{
+"from": 202407,
+"id": "542234",
+"name": "sDrive20d SAT Balance xLine",
+"to": null
+},
+{
+"from": 202407,
+"id": "542236",
+"name": "sDrive20d SAT Essence M Sportpaket",
+"to": null
+},
+{
+"from": 202407,
+"id": "542237",
+"name": "sDrive20d SAT Balance M Sportpaket",
+"to": null
+},
+{
+"from": 202407,
+"id": "542232",
+"name": "sDrive20d SAT Edition Excellence",
+"to": null
+},
+{
+"from": 202407,
+"id": "542235",
+"name": "sDrive20d SAT Excellence xLine",
+"to": null
+},
+{
+"from": 202407,
+"id": "542238",
+"name": "sDrive20d SAT Excellence M Sportpaket",
+"to": null
+}
+]
+},
+{
+"body": [
+"U11"
+],
+"drive": "4wd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, дизель, 150 л.с., мягкий гибрид, 20 л.с., робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202211,
+"id": "542239",
+"name": "xDrive20d SAT",
+"to": null
+},
+{
+"from": 202211,
+"id": "542240",
+"name": "xDrive20d SAT Edition Essence",
+"to": null
+},
+{
+"from": 202211,
+"id": "542243",
+"name": "xDrive20d SAT Essence xLine",
+"to": null
+},
+{
+"from": 202211,
+"id": "542241",
+"name": "xDrive20d SAT Edition Balance",
+"to": null
+},
+{
+"from": 202211,
+"id": "542244",
+"name": "xDrive20d SAT Balance xLine",
+"to": null
+},
+{
+"from": 202211,
+"id": "542246",
+"name": "xDrive20d SAT Essence M Sportpaket",
+"to": null
+},
+{
+"from": 202211,
+"id": "542247",
+"name": "xDrive20d SAT Balance M Sportpaket",
+"to": null
+},
+{
+"from": 202211,
+"id": "542242",
+"name": "xDrive20d SAT Edition Excellence",
+"to": null
+},
+{
+"from": 202211,
+"id": "542245",
+"name": "xDrive20d SAT Excellence xLine",
+"to": null
+},
+{
+"from": 202211,
+"id": "542248",
+"name": "xDrive20d SAT Excellence M Sportpaket",
+"to": null
+}
+]
+},
+{
+"body": [
+"U11"
+],
+"drive": "4wd",
+"engine": "B47C20",
+"fuel": "дизель",
+"hp": 197,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, дизель, 197 л.с., мягкий гибрид, 19 л.с., робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202207,
+"id": "439774",
+"name": "xDrive23d SAT",
+"to": null
+},
+{
+"from": 202207,
+"id": "439780",
+"name": "xDrive23d SAT Edition Balance",
+"to": null
+},
+{
+"from": 202207,
+"id": "439795",
+"name": "xDrive23d SAT Balance xLine",
+"to": null
+},
+{
+"from": 202207,
+"id": "439808",
+"name": "xDrive23d SAT Balance M Sportpaket",
+"to": null
+},
+{
+"from": 202207,
+"id": "439784",
+"name": "xDrive23d SAT Edition Excellence",
+"to": null
+},
+{
+"from": 202207,
+"id": "439796",
+"name": "xDrive23d SAT Excellence xLine",
+"to": null
+},
+{
+"from": 202207,
+"id": "439809",
+"name": "xDrive23d SAT Excellence M Sportpaket",
+"to": null
+}
+]
+},
+{
+"body": [
+"U11"
+],
+"drive": "4wd",
+"engine": "B48A20",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 204 л.с., мягкий гибрид, 20 л.с., робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202207,
+"id": "439773",
+"name": "xDrive23i SAT",
+"to": null
+},
+{
+"from": 202207,
+"id": "439779",
+"name": "xDrive23i SAT Edition Balance",
+"to": null
+},
+{
+"from": 202207,
+"id": "439793",
+"name": "xDrive23i SAT Balance xLine",
+"to": null
+},
+{
+"from": 202207,
+"id": "439806",
+"name": "xDrive23i SAT Balance M Sportpaket",
+"to": null
+},
+{
+"from": 202207,
+"id": "439783",
+"name": "xDrive23i SAT Edition Excellence",
+"to": null
+},
+{
+"from": 202207,
+"id": "439794",
+"name": "xDrive23i SAT Excellence xLine",
+"to": null
+},
+{
+"from": 202207,
+"id": "439807",
+"name": "xDrive23i SAT Excellence M Sportpaket",
+"to": null
+}
+]
+},
+{
+"body": [
+"U11"
+],
+"drive": "4wd",
+"engine": "B48A20H",
+"fuel": "бензин",
+"hp": 300,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 300 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202311,
+"id": "542259",
+"name": "M35i xDrive",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x1/g_202207_15605",
+"market": "Европа",
+"to": null
+},
+"bmw/x1/g_2022_20880": {
+"from": 202206,
+"groups": [
+{
+"body": [
+"U12"
+],
+"drive": "fwd",
+"engine": "B38A15R",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 156 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202304,
+"id": "507114",
+"name": "sDrive 20Li SAT X Design",
+"to": null
+}
+]
+},
+{
+"body": [
+"U12"
+],
+"drive": "fwd",
+"engine": "B48A20R",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 204 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202304,
+"id": "507115",
+"name": "sDrive 25Li SAT X Design",
+"to": null
+},
+{
+"from": 202304,
+"id": "507116",
+"name": "sDrive 25Li SAT M Sport",
+"to": null
+}
+]
+},
+{
+"body": [
+"U12"
+],
+"drive": "4wd",
+"engine": "B48A20R",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 204 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202304,
+"id": "507117",
+"name": "xDrive 25Li SAT X Design",
+"to": null
+},
+{
+"from": 202308,
+"id": "507118",
+"name": "xDrive 25Li SAT M Sport",
+"to": null
+}
+]
+},
+{
+"body": [
+"U12"
+],
+"drive": "4wd",
+"engine": "B48A20H",
+"fuel": "бензин",
+"hp": 300,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 300 л.с., мягкий гибрид, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202408,
+"id": "527640",
+"name": "M35Li",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x1/g_2022_20880",
+"market": "Китай",
+"to": null
+},
+"bmw/x3/g_201406_1609": {
+"from": 201406,
+"groups": [
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N20B20U0",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201406,
+"id": "76529",
+"name": "xDrive 20i MT",
+"to": 201711
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N20B20U0",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"id": "76535",
+"name": "xDrive 20i AT",
+"to": 201709
+},
+{
+"from": 201406,
+"id": "76535",
+"name": "xDrive 20i AT",
+"to": 201711
+},
+{
+"from": 201406,
+"id": "76536",
+"name": "xDrive 20i AT M Sport",
+"to": 201711
+},
+{
+"from": 201510,
+"id": "89138",
+"name": "xDrive 20i AT Urban",
+"to": 201711
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201406,
+"id": "76530",
+"name": "xDrive 20d MT",
+"to": 201711
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"id": "76537",
+"name": "xDrive 20d AT",
+"to": 201709
+},
+{
+"from": 201406,
+"id": "76538",
+"name": "xDrive 20d AT Special Edition",
+"to": 201510
+},
+{
+"from": 201510,
+"id": "76537",
+"name": "xDrive 20d AT",
+"to": 201711
+},
+{
+"from": 201510,
+"id": "89137",
+"name": "xDrive 20d AT Urban",
+"to": 201711
+},
+{
+"from": 201510,
+"id": "89136",
+"name": "xDrive 20d AT xLine",
+"to": 201711
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N20B20O0",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"id": "76531",
+"name": "xDrive 28i AT",
+"to": 201711
+},
+{
+"from": 201406,
+"id": "76539",
+"name": "xDrive 28i AT Lifestyle",
+"to": 201711
+},
+{
+"from": 201406,
+"id": "76541",
+"name": "xDrive 28i AT Exclusive",
+"to": 201711
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N57D30OL",
+"fuel": "дизель",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 249 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"id": "76532",
+"name": "xDrive 30d AT",
+"to": 201603
+},
+{
+"from": 201406,
+"id": "76540",
+"name": "xDrive 30d AT Exclusive",
+"to": 201711
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N55B30M0",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 306 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"id": "76533",
+"name": "xDrive 35i AT",
+"to": 201711
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N57D30TOP",
+"fuel": "дизель",
+"hp": 313,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 313 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"id": "76534",
+"name": "xDrive 35d AT",
+"to": 201603
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x3/g_201406_1609",
+"market": "Россия",
+"to": 201711
+},
+"bmw/x3/g_201710_7685": {
+"from": 201706,
+"groups": [
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201712,
+"id": "185627",
+"name": "xDrive 20i AT Base",
+"to": 202106
+},
+{
+"from": 201712,
+"id": "202761",
+"name": "xDrive 20i AT Urban",
+"to": 202106
+},
+{
+"from": 201712,
+"id": "202762",
+"name": "xDrive 20i AT Luxury",
+"to": 202106
+},
+{
+"from": 201712,
+"id": "311562",
+"name": "xDrive 20i AT M Sport",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201711,
+"id": "185629",
+"name": "xDrive 20d AT Base",
+"to": 202106
+},
+{
+"from": 201712,
+"id": "202756",
+"name": "xDrive 20d AT Urban",
+"to": 202106
+},
+{
+"from": 201712,
+"id": "202757",
+"name": "xDrive 20d AT M Sport",
+"to": 202106
+},
+{
+"from": 201712,
+"id": "202758",
+"name": "xDrive 20d AT xLine",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 249 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201712,
+"id": "185628",
+"name": "xDrive 30i AT Base",
+"to": 202106
+},
+{
+"from": 201712,
+"id": "202753",
+"name": "xDrive 30i AT M Sport",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B57D30",
+"fuel": "дизель",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 249 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201711,
+"id": "185633",
+"name": "xDrive 30d AT Base",
+"to": 202106
+},
+{
+"from": 201712,
+"id": "202759",
+"name": "xDrive 30d AT Luxury",
+"to": 202106
+},
+{
+"from": 201712,
+"id": "202760",
+"name": "xDrive 30d AT M Sport",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B57D30",
+"fuel": "дизель",
+"hp": 326,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 326 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "208357",
+"name": "xDrive M40d AT Base",
+"to": 202106
+},
+{
+"from": 202002,
+"id": "275545",
+"name": "xDrive M40d AT M Special",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B58B30",
+"fuel": "бензин",
+"hp": 360,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 360 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201712,
+"id": "185634",
+"name": "xDrive M40i AT Base",
+"to": 202101
+},
+{
+"from": 202002,
+"id": "275531",
+"name": "xDrive M40i AT M Special",
+"to": 202101
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B58B30",
+"fuel": "бензин",
+"hp": 387,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 387 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202102,
+"id": "185634",
+"name": "xDrive M40i AT Base",
+"to": 202106
+},
+{
+"from": 202102,
+"id": "275531",
+"name": "xDrive M40i AT M Special",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"F97"
+],
+"drive": "4wd",
+"engine": "S58",
+"fuel": "бензин",
+"hp": 480,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 480 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201907,
+"id": "260117",
+"name": "M Special Edition",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"F97"
+],
+"drive": "4wd",
+"engine": "S58",
+"fuel": "бензин",
+"hp": 510,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 510 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201904,
+"id": "239904",
+"name": "M Competition",
+"to": 202106
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x3/g_201710_7685",
+"market": "Россия",
+"to": 202106
+},
+"bmw/x3/g_2017_21447": {
+"from": 201706,
+"groups": [
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B48B20C",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201804,
+"id": "515931",
+"name": "xDrive 25i AT Luxury V",
+"to": 201812
+},
+{
+"from": 201804,
+"id": "515934",
+"name": "xDrive 25i AT M Sport V",
+"to": 201812
+},
+{
+"from": 201812,
+"id": "515932",
+"name": "xDrive 25i AT Luxury VI",
+"to": 201905
+},
+{
+"from": 201812,
+"id": "515935",
+"name": "xDrive 25i AT M Sport VI",
+"to": 201905
+},
+{
+"from": 201905,
+"id": "515948",
+"name": "xDrive 25i AT Luxury",
+"to": 201910
+},
+{
+"from": 201905,
+"id": "515952",
+"name": "xDrive 25i AT M Sport",
+"to": 201910
+},
+{
+"from": 201910,
+"id": "515948",
+"name": "xDrive 25i AT Luxury",
+"to": 202009
+},
+{
+"from": 201910,
+"id": "515952",
+"name": "xDrive 25i AT M Sport",
+"to": 202009
+},
+{
+"from": 202009,
+"id": "515948",
+"name": "xDrive 25i AT Luxury",
+"to": 202105
+},
+{
+"from": 202009,
+"id": "515952",
+"name": "xDrive 25i AT M Sport",
+"to": 202105
+},
+{
+"from": 202105,
+"id": "515948",
+"name": "xDrive 25i AT Luxury",
+"to": 202108
+},
+{
+"from": 202105,
+"id": "515952",
+"name": "xDrive 25i AT M Sport",
+"to": 202108
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B48B20D",
+"fuel": "бензин",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201807,
+"id": "515936",
+"name": "xDrive 28i AT Luxury V",
+"to": 201812
+},
+{
+"from": 201807,
+"id": "515938",
+"name": "xDrive 28i AT M Sport V",
+"to": 201812
+},
+{
+"from": 201812,
+"id": "515937",
+"name": "xDrive 28i AT Luxury VI",
+"to": 201905
+},
+{
+"from": 201812,
+"id": "515939",
+"name": "xDrive 28i AT M Sport VI",
+"to": 201905
+},
+{
+"from": 201905,
+"id": "515949",
+"name": "xDrive 28i AT Luxury",
+"to": 201910
+},
+{
+"from": 201905,
+"id": "515953",
+"name": "xDrive 28i AT M Sport",
+"to": 201910
+},
+{
+"from": 201910,
+"id": "515949",
+"name": "xDrive 28i AT Luxury",
+"to": 202009
+},
+{
+"from": 201910,
+"id": "515953",
+"name": "xDrive 28i AT M Sport",
+"to": 202009
+},
+{
+"from": 202009,
+"id": "515949",
+"name": "xDrive 28i AT Luxury",
+"to": 202105
+},
+{
+"from": 202009,
+"id": "515953",
+"name": "xDrive 28i AT M Sport",
+"to": 202105
+},
+{
+"from": 202105,
+"id": "515949",
+"name": "xDrive 28i AT Luxury",
+"to": 202108
+},
+{
+"from": 202105,
+"id": "515953",
+"name": "xDrive 28i AT M Sport",
+"to": 202108
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B48B20D",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 252 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201804,
+"id": "515944",
+"name": "xDrive 30i AT Leading M Sport V",
+"to": 201812
+},
+{
+"from": 201804,
+"id": "515946",
+"name": "xDrive 30i AT Premium M Sport V",
+"to": 201812
+},
+{
+"from": 201812,
+"id": "515945",
+"name": "xDrive 30i AT Leading M Sport VI",
+"to": 201905
+},
+{
+"from": 201812,
+"id": "515947",
+"name": "xDrive 30i AT Premium M Sport VI",
+"to": 201905
+},
+{
+"from": 201905,
+"id": "515950",
+"name": "xDrive 30i AT Leading M Sport",
+"to": 201910
+},
+{
+"from": 201905,
+"id": "515951",
+"name": "xDrive 30i AT Premium M Sport",
+"to": 201910
+},
+{
+"from": 201910,
+"id": "515950",
+"name": "xDrive 30i AT Leading M Sport",
+"to": 202105
+},
+{
+"from": 202105,
+"id": "515950",
+"name": "xDrive 30i AT Leading M Sport",
+"to": 202108
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x3/g_2017_21447",
+"market": "Китай",
+"to": 202203
+},
+"bmw/x3/g_202106_19867": {
+"from": 202106,
+"groups": [
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 184 л.с., параллельный подзаряжаемый (PHEV) гибрид, 109 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202108,
+"id": "484314",
+"name": "xDrive 30e AT (Австралия)",
+"to": 202503
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "rwd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202108,
+"id": "484315",
+"name": "sDrive 20i AT (Австралия)",
+"to": 202503
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202108,
+"id": "484319",
+"name": "xDrive 20d AT (Австралия)",
+"to": 202503
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202108,
+"id": "484316",
+"name": "xDrive 30i AT (Австралия)",
+"to": 202503
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B57D30",
+"fuel": "дизель",
+"hp": 286,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 286 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202108,
+"id": "484320",
+"name": "xDrive 30d AT (Австралия)",
+"to": 202503
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B58B30",
+"fuel": "бензин",
+"hp": 360,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 360 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202108,
+"id": "484317",
+"name": "xDrive M40i AT (Австралия)",
+"to": 202503
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x3/g_202106_19867",
+"market": null,
+"to": 202503
+},
+"bmw/x3/g_2021_21448": {
+"from": 202106,
+"groups": [
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B48B20C",
+"fuel": "бензин",
+"gen_key": "bmw/x3/g_2021_21448",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202108,
+"id": "515968",
+"name": "xDrive 25i AT M Sport",
+"to": 202208
+},
+{
+"from": 202208,
+"id": "515968",
+"name": "xDrive 25i AT M Sport",
+"to": null
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B48B20G",
+"fuel": "бензин",
+"gen_key": "bmw/x3/g_2021_21448",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202309,
+"id": "515976",
+"name": "xDrive 30i AT Leading M Night",
+"to": null
+},
+{
+"from": 202309,
+"id": "515977",
+"name": "xDrive 30i AT Premium M Night",
+"to": null
+}
+]
+},
+{
+"body": [
+"G01"
+],
+"drive": "4wd",
+"engine": "B48B20D",
+"fuel": "бензин",
+"gen_key": "bmw/x3/g_2021_21448",
+"hp": 252,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 252 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202108,
+"id": "515976",
+"name": "xDrive 30i AT Leading M Night",
+"to": 202204
+},
+{
+"from": 202108,
+"id": "515977",
+"name": "xDrive 30i AT Premium M Night",
+"to": 202110
+},
+{
+"from": 202204,
+"id": "515976",
+"name": "xDrive 30i AT Leading M Night",
+"to": 202208
+},
+{
+"from": 202110,
+"id": "515977",
+"name": "xDrive 30i AT Premium M Night",
+"to": 202309
+},
+{
+"from": 202208,
+"id": "515976",
+"name": "xDrive 30i AT Leading M Night",
+"to": 202309
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x3/g_2021_21448",
+"market": "Китай",
+"to": null
+},
+"bmw/x3/g_202408_21755": {
+"from": 202408,
+"groups": [
+{
+"body": [
+"G45"
+],
+"drive": "4wd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 190 л.с., параллельный подзаряжаемый (PHEV) гибрид, 184 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202408,
+"id": "519866",
+"name": "xDrive 30e AT",
+"to": null
+},
+{
+"from": 202408,
+"id": "519883",
+"name": "xDrive 30e AT M Sport",
+"to": null
+}
+]
+},
+{
+"body": [
+"G45"
+],
+"drive": "4wd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 190 л.с., мягкий гибрид, 18 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202408,
+"id": "519872",
+"name": "xDrive 20 AT",
+"to": null
+},
+{
+"from": 202408,
+"id": "519882",
+"name": "xDrive 20 AT M Sport",
+"to": null
+}
+]
+},
+{
+"body": [
+"G45"
+],
+"drive": "4wd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 197,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, дизель, 197 л.с., мягкий гибрид, 11 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202408,
+"id": "519874",
+"name": "xDrive 20d AT",
+"to": null
+},
+{
+"from": 202408,
+"id": "519881",
+"name": "xDrive 20d AT M Sport",
+"to": null
+}
+]
+},
+{
+"body": [
+"G45"
+],
+"drive": "4wd",
+"engine": "B57D30O2",
+"fuel": "дизель",
+"hp": 286,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, дизель, 286 л.с., мягкий гибрид, 18 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202504,
+"id": "542747",
+"name": "xDrive 40d AT",
+"to": null
+},
+{
+"from": 202504,
+"id": "542748",
+"name": "xDrive 40d AT M Sport",
+"to": null
+}
+]
+},
+{
+"body": [
+"G45"
+],
+"drive": "4wd",
+"engine": "B58B30",
+"fuel": "бензин",
+"hp": 381,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 381 л.с., мягкий гибрид, 18 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202408,
+"id": "519879",
+"name": "xDrive M50 AT",
+"to": null
+},
+{
+"from": 202408,
+"id": "519892",
+"name": "xDrive M50 AT M Sport Pro",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x3/g_202408_21755",
+"market": "Европа",
+"to": null
+},
+"bmw/x3/g_2024_22239": {
+"from": 202408,
+"groups": [
+{
+"body": [
+"G48"
+],
+"drive": "4wd",
+"engine": "B48B20H",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202502,
+"id": "525733",
+"name": "xDrive25Li AT Luxury",
+"to": null
+}
+]
+},
+{
+"body": [
+"G48"
+],
+"drive": "4wd",
+"engine": "B48B20W",
+"fuel": "бензин",
+"hp": 258,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 258 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202502,
+"id": "525734",
+"name": "xDrive30Li AT Leading M Sport",
+"to": null
+},
+{
+"from": 202502,
+"id": "525735",
+"name": "xDrive30Li AT Premium M Sport",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x3/g_2024_22239",
+"market": "Китай",
+"to": null
+},
 "bmw/x5/g_201310_2087": {
 "from": 201310,
 "groups": [
@@ -15589,6 +19181,1266 @@
 ],
 "ids": true,
 "key": "bmw/x5/g_2023_20942",
+"market": "Китай",
+"to": null
+},
+"bmw/x6/g_201204_4273": {
+"from": 201204,
+"groups": [
+{
+"body": [
+"E71"
+],
+"drive": "4wd",
+"engine": "N57D30OL",
+"fuel": "дизель",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 245 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201206,
+"id": "104143",
+"name": "xDrive 30d AT",
+"to": 201405
+}
+]
+},
+{
+"body": [
+"E71"
+],
+"drive": "4wd",
+"engine": "N55B30",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 306 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201206,
+"id": "104140",
+"name": "xDrive 35i AT",
+"to": 201405
+}
+]
+},
+{
+"body": [
+"E71"
+],
+"drive": "4wd",
+"engine": "N57D30TOP",
+"fuel": "дизель",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 306 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201206,
+"id": "104142",
+"name": "xDrive 40d AT",
+"to": 201405
+}
+]
+},
+{
+"body": [
+"E71"
+],
+"drive": "4wd",
+"engine": "N57D30S1",
+"fuel": "дизель",
+"hp": 381,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 381 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201206,
+"id": "104141",
+"name": "xDrive M50d AT",
+"to": 201405
+}
+]
+},
+{
+"body": [
+"E71"
+],
+"drive": "4wd",
+"engine": "N63B44",
+"fuel": "бензин",
+"hp": 407,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 407 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201206,
+"id": "104139",
+"name": "xDrive 50i AT",
+"to": 201405
+}
+]
+},
+{
+"body": [
+"E71"
+],
+"drive": "4wd",
+"engine": "S63B44",
+"fuel": "бензин",
+"hp": 555,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 555 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201206,
+"id": "104138",
+"name": "M",
+"to": 201405
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x6/g_201204_4273",
+"market": "Россия",
+"to": 201405
+},
+"bmw/x6/g_2012_22268": {
+"from": 201204,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "N55B30",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 306 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201204,
+"id": "526018",
+"name": "xDrive35i",
+"to": 201305
+},
+{
+"from": 201305,
+"id": "526018",
+"name": "xDrive35i",
+"to": 201411
+},
+{
+"from": 201411,
+"id": "526023",
+"name": "xDrive35i Sport",
+"to": 201411
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "N63B44",
+"fuel": "бензин",
+"hp": 408,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 408 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201204,
+"id": "526019",
+"name": "xDrive50i",
+"to": 201411
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "S63B44",
+"fuel": "бензин",
+"hp": 555,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 555 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201306,
+"id": "526022",
+"name": "X6 M",
+"to": 201411
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x6/g_2012_22268",
+"market": "Китай",
+"to": 201411
+},
+"bmw/x6/g_201408_2229": {
+"from": 201406,
+"groups": [
+{
+"body": [
+"F16"
+],
+"drive": "4wd",
+"engine": "N57D30L",
+"fuel": "дизель",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 249 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201409,
+"id": "76415",
+"name": "xDrive 30d AT",
+"to": 202001
+},
+{
+"from": 201412,
+"id": "82120",
+"name": "xDrive 30d AT Prestige",
+"to": 201508
+},
+{
+"from": 201412,
+"id": "82121",
+"name": "xDrive 30d AT Luxury",
+"to": 201508
+},
+{
+"from": 201602,
+"id": "82120",
+"name": "xDrive 30d AT Prestige",
+"to": 201804
+},
+{
+"from": 201602,
+"id": "82121",
+"name": "xDrive 30d AT Luxury",
+"to": 202001
+},
+{
+"from": 201604,
+"id": "119047",
+"name": "xDrive 30d AT M Sport",
+"to": 202001
+},
+{
+"from": 201604,
+"id": "119048",
+"name": "xDrive 30d AT Pure Extravagance",
+"to": 201902
+},
+{
+"from": 201805,
+"id": "205711",
+"name": "xDrive 30d AT M Sport Pure",
+"to": 202001
+},
+{
+"from": 201807,
+"id": "211372",
+"name": "xDrive 30d AT Business",
+"to": 202001
+}
+]
+},
+{
+"body": [
+"F16"
+],
+"drive": "4wd",
+"engine": "N55B30",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 306 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201412,
+"id": "79093",
+"name": "xDrive 35i AT",
+"to": 202001
+},
+{
+"from": 201504,
+"id": "82118",
+"name": "xDrive 35i AT Prestige",
+"to": 201508
+},
+{
+"from": 201504,
+"id": "82119",
+"name": "xDrive 35i AT Luxury",
+"to": 201508
+},
+{
+"from": 201511,
+"id": "82118",
+"name": "xDrive 35i AT Prestige",
+"to": 201710
+},
+{
+"from": 201511,
+"id": "82119",
+"name": "xDrive 35i AT Luxury",
+"to": 202001
+},
+{
+"from": 201604,
+"id": "450542",
+"name": "xDrive 35i AT M Sport",
+"to": 202001
+}
+]
+},
+{
+"body": [
+"F16"
+],
+"drive": "4wd",
+"engine": "N57D30TOP",
+"fuel": "дизель",
+"hp": 313,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 313 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201412,
+"id": "79092",
+"name": "xDrive 40d AT",
+"to": 202001
+},
+{
+"from": 201604,
+"id": "119049",
+"name": "xDrive 40d AT M Sport",
+"to": 202001
+},
+{
+"from": 201710,
+"id": "189139",
+"name": "xDrive 40d AT M Sport Extravagance",
+"to": 202001
+}
+]
+},
+{
+"body": [
+"F16"
+],
+"drive": "4wd",
+"engine": "N57D30S1",
+"fuel": "дизель",
+"hp": 381,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 381 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201409,
+"id": "76416",
+"name": "xDrive M50d AT",
+"to": 202001
+}
+]
+},
+{
+"body": [
+"F16"
+],
+"drive": "4wd",
+"engine": "N63B44",
+"fuel": "бензин",
+"hp": 450,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 450 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201409,
+"id": "76417",
+"name": "xDrive 50i AT",
+"to": 202001
+}
+]
+},
+{
+"body": [
+"F86"
+],
+"drive": "4wd",
+"engine": "S63B44",
+"fuel": "бензин",
+"hp": 575,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 575 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201503,
+"id": "81098",
+"name": "M",
+"to": 201909
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x6/g_201408_2229",
+"market": "Россия",
+"to": 202001
+},
+"bmw/x6/g_2014_22269": {
+"from": 201410,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "N20B20A",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201509,
+"id": "526031",
+"name": "xDrive28i",
+"to": 201612
+},
+{
+"from": 201612,
+"id": "526031",
+"name": "xDrive28i",
+"to": 201801
+},
+{
+"from": 201801,
+"id": "526031",
+"name": "xDrive28i",
+"to": 201911
+},
+{
+"from": 201901,
+"id": "526046",
+"name": "xDrive28i M Sport",
+"to": 201911
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "N55B30A",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 306 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201411,
+"id": "526032",
+"name": "xDrive35i Leading",
+"to": 201612
+},
+{
+"from": 201411,
+"id": "526033",
+"name": "xDrive35i Luxury",
+"to": 201612
+},
+{
+"from": 201411,
+"id": "526034",
+"name": "xDrive35i Premium",
+"to": 201612
+},
+{
+"from": 201612,
+"id": "526032",
+"name": "xDrive35i Leading",
+"to": 201801
+},
+{
+"from": 201612,
+"id": "526033",
+"name": "xDrive35i Luxury",
+"to": 201801
+},
+{
+"from": 201612,
+"id": "526034",
+"name": "xDrive35i Premium",
+"to": 201801
+},
+{
+"from": 201703,
+"id": "526040",
+"name": "xDrive35i M Luxury Sport",
+"to": 201801
+},
+{
+"from": 201801,
+"id": "526032",
+"name": "xDrive35i Leading",
+"to": 201911
+},
+{
+"from": 201801,
+"id": "526044",
+"name": "xDrive35i M Sports Luxury",
+"to": 201911
+},
+{
+"from": 201801,
+"id": "526034",
+"name": "xDrive35i Premium",
+"to": 201911
+},
+{
+"from": 201901,
+"id": "526047",
+"name": "xDrive35i M Sport",
+"to": 201911
+},
+{
+"from": 201901,
+"id": "526048",
+"name": "xDrive35i Premium M Sport",
+"to": 201911
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "N63B40A",
+"fuel": "бензин",
+"hp": 408,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.0,
+"text": "4.0 л, 408 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201411,
+"id": "526035",
+"name": "xDrive50i M Sport",
+"to": 201612
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "S63B44",
+"fuel": "бензин",
+"hp": 575,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 575 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201504,
+"id": "526036",
+"name": "X6 M",
+"to": 201911
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x6/g_2014_22269",
+"market": "Китай",
+"to": 201911
+},
+"bmw/x6/g_201810_10021": {
+"from": 201907,
+"groups": [
+{
+"body": [
+"G06"
+],
+"drive": "4wd",
+"engine": "B57D30",
+"fuel": "дизель",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 249 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201907,
+"id": "257059",
+"name": "xDrive 30d AT Base",
+"to": 202303
+},
+{
+"from": 201911,
+"id": "275976",
+"name": "xDrive 30d AT Business Plus",
+"to": 202303
+},
+{
+"from": 201911,
+"id": "275983",
+"name": "xDrive 30d AT M Sport Plus",
+"to": 202303
+},
+{
+"from": 201911,
+"id": "275985",
+"name": "xDrive 30d AT M Sport Pro",
+"to": 202303
+},
+{
+"from": 201911,
+"id": "275980",
+"name": "xDrive 30d AT Exclusive",
+"to": 202108
+},
+{
+"from": 202108,
+"id": "386144",
+"name": "xDrive 30d AT M Sport Edition 21",
+"to": 202303
+},
+{
+"from": 202108,
+"id": "386145",
+"name": "xDrive 30d AT M Sport Max",
+"to": 202203
+}
+]
+},
+{
+"body": [
+"G06"
+],
+"drive": "4wd",
+"engine": "B58B30M0",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 340 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201907,
+"id": "257056",
+"name": "xDrive 40i AT Base",
+"to": 202303
+},
+{
+"from": 202002,
+"id": "275952",
+"name": "xDrive 40i AT M Sport Pure",
+"to": 202108
+},
+{
+"from": 202002,
+"id": "275947",
+"name": "xDrive 40i AT Luxury",
+"to": 202108
+},
+{
+"from": 202002,
+"id": "275955",
+"name": "xDrive 40i AT M Sport Pro",
+"to": 202303
+},
+{
+"from": 202108,
+"id": "386146",
+"name": "xDrive 40i AT M Sport Edition 21",
+"to": 202303
+}
+]
+},
+{
+"body": [
+"G06"
+],
+"drive": "4wd",
+"engine": "B57D30",
+"fuel": "дизель",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 340 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202004,
+"id": "290530",
+"name": "xDrive 40d AT Base",
+"to": 202303
+},
+{
+"from": 202004,
+"id": "290531",
+"name": "xDrive 40d AT M Sport Pro",
+"to": 202303
+}
+]
+},
+{
+"body": [
+"G06"
+],
+"drive": "4wd",
+"engine": "B57D30S0",
+"fuel": "дизель",
+"hp": 400,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 400 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201907,
+"id": "257060",
+"name": "xDrive M50d AT Base",
+"to": 202303
+},
+{
+"from": 202002,
+"id": "275990",
+"name": "xDrive M50d AT M Special",
+"to": 202303
+},
+{
+"from": 202002,
+"id": "275992",
+"name": "xDrive M50d AT M Special by Individual",
+"to": 202108
+},
+{
+"from": 202107,
+"id": "371328",
+"name": "xDrive M50d AT Black Vermilion Edition",
+"to": 202108
+},
+{
+"from": 202202,
+"id": "425549",
+"name": "xDrive M50d AT M 50 Years Special Edition",
+"to": 202303
+}
+]
+},
+{
+"body": [
+"G06"
+],
+"drive": "4wd",
+"engine": "N63B44",
+"fuel": "бензин",
+"hp": 530,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 530 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201907,
+"id": "257057",
+"name": "xDrive M50i AT Base",
+"to": 202303
+},
+{
+"from": 202002,
+"id": "275963",
+"name": "xDrive M50i AT M Special",
+"to": 202303
+},
+{
+"from": 202002,
+"id": "275964",
+"name": "xDrive M50i AT M Special by Individual",
+"to": 202108
+},
+{
+"from": 202202,
+"id": "425548",
+"name": "xDrive M50i AT M 50 Years Special Edition",
+"to": 202303
+}
+]
+},
+{
+"body": [
+"F96"
+],
+"drive": "4wd",
+"engine": "S63B44Tx",
+"fuel": "бензин",
+"hp": 600,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 600 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201910,
+"id": "265072",
+"name": "M SE",
+"to": 202110
+}
+]
+},
+{
+"body": [
+"F96"
+],
+"drive": "4wd",
+"engine": "S63B44Tx",
+"fuel": "бензин",
+"hp": 625,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 625 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201910,
+"id": "265073",
+"name": "M Competition",
+"to": 202303
+},
+{
+"from": 202004,
+"id": "290532",
+"name": "M Competition M Special",
+"to": 202303
+},
+{
+"from": 202011,
+"id": "307913",
+"name": "M Competition First Edition",
+"to": 202108
+},
+{
+"from": 202202,
+"id": "425640",
+"name": "M Competition M 50 Years Special Edition",
+"to": 202303
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x6/g_201810_10021",
+"market": "Россия",
+"to": 202303
+},
+"bmw/x6/g_2019_22270": {
+"from": 201907,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "B48B20B",
+"fuel": "бензин",
+"gen_key": "bmw/x6/g_2019_22270",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202206,
+"id": "526055",
+"name": "xDrive30i M Sport",
+"to": 202306
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B48B20B",
+"fuel": "бензин",
+"hp": 265,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 265 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201911,
+"id": "526055",
+"name": "xDrive30i M Sport",
+"to": 202010
+},
+{
+"from": 202010,
+"id": "526055",
+"name": "xDrive30i M Sport",
+"to": 202111
+},
+{
+"from": 202111,
+"id": "526055",
+"name": "xDrive30i M Sport",
+"to": 202206
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B58B30C",
+"fuel": "бензин",
+"hp": 333,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 333 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202204,
+"id": "526058",
+"name": "xDrive40i M Sport",
+"to": 202206
+},
+{
+"from": 202204,
+"id": "526063",
+"name": "xDrive40i Premium M Sport",
+"to": 202206
+},
+{
+"from": 202206,
+"id": "526058",
+"name": "xDrive40i M Sport",
+"to": 202306
+},
+{
+"from": 202206,
+"id": "526063",
+"name": "xDrive40i Premium M Sport",
+"to": 202306
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B58B30C",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 340 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201911,
+"id": "526058",
+"name": "xDrive40i M Sport",
+"to": 202010
+},
+{
+"from": 201911,
+"id": "526063",
+"name": "xDrive40i Premium M Sport",
+"to": 202010
+},
+{
+"from": 202010,
+"id": "526058",
+"name": "xDrive40i M Sport",
+"to": 202111
+},
+{
+"from": 202111,
+"id": "526058",
+"name": "xDrive40i M Sport",
+"to": 202204
+},
+{
+"from": 202111,
+"id": "526063",
+"name": "xDrive40i Premium M Sport",
+"to": 202204
+},
+{
+"from": 202010,
+"id": "526063",
+"name": "xDrive40i Premium M Sport",
+"to": 202105
+},
+{
+"from": 202105,
+"id": "526063",
+"name": "xDrive40i Premium M Sport",
+"to": 202111
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "S63B44B",
+"fuel": "бензин",
+"hp": 600,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 600 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202004,
+"id": "526052",
+"name": "X6 M",
+"to": 202306
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x6/g_2019_22270",
+"market": "Китай",
+"to": 202306
+},
+"bmw/x6/g_202303_21062": {
+"from": 202304,
+"groups": [
+{
+"body": [
+"3CA-12EY30S"
+],
+"drive": "4wd",
+"engine": "B57D30B",
+"fuel": "дизель",
+"hp": 286,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, дизель, 286 л.с., мягкий гибрид, 12 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202304,
+"id": "510679",
+"name": "xDrive35d M Sport",
+"to": 202407
+},
+{
+"from": 202408,
+"id": "510679",
+"name": "xDrive35d M Sport",
+"to": null
+}
+]
+},
+{
+"body": [
+"3AA-42EX44"
+],
+"drive": "4wd",
+"engine": "S68B44A",
+"fuel": "бензин",
+"hp": 530,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 4.4,
+"text": "4.4 л, бензин, 530 л.с., мягкий гибрид, 12 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202304,
+"id": "510678",
+"name": "M60i xDrive",
+"to": 202407
+},
+{
+"from": 202408,
+"id": "510678",
+"name": "M60i xDrive",
+"to": null
+}
+]
+},
+{
+"body": [
+"3AA-12ET44"
+],
+"drive": "4wd",
+"engine": "S68B44A",
+"fuel": "бензин",
+"hp": 625,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 4.4,
+"text": "4.4 л, бензин, 625 л.с., мягкий гибрид, 12 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202304,
+"id": "510869",
+"name": "M Competition",
+"to": 202407
+},
+{
+"from": 202408,
+"id": "510869",
+"name": "M Competition",
+"to": 202512
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x6/g_202303_21062",
+"market": "Япония",
+"to": null
+},
+"bmw/x6/g_2023_22271": {
+"from": 202302,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "B48B20S",
+"fuel": "бензин",
+"gen_key": "bmw/x6/g_2023_22271",
+"hp": 258,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 258 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202306,
+"id": "526065",
+"name": "xDrive30i M Sport",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B58B30P",
+"fuel": "бензин",
+"hp": 381,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 381 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"id": "526066",
+"name": "xDrive40i M Sport",
+"to": null
+},
+{
+"from": 202306,
+"id": "526067",
+"name": "xDrive40i Premium M Sport",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "S68B44A",
+"fuel": "бензин",
+"hp": 626,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 626 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202306,
+"id": "526068",
+"name": "X6 M Thunder Edition",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x6/g_2023_22271",
 "market": "Китай",
 "to": null
 },
@@ -20516,6 +25368,7 @@
 ]
 }
 ],
+"key": "byd/song_pro/g_201907_16852",
 "market": "Китай",
 "to": 202304
 },
@@ -20596,6 +25449,7 @@
 ]
 }
 ],
+"key": "byd/song_pro/g_202111_19032",
 "market": "Китай",
 "to": 202509
 },
@@ -20616,92 +25470,111 @@
 "trims": [
 {
 "from": 202409,
+"id": "512891",
 "name": "DM-i 1.5 CVT 75KM Leading",
 "to": 202501
 },
 {
 "from": 202409,
+"id": "512892",
 "name": "DM-i 1.5 CVT 75KM Beyond",
 "to": 202501
 },
 {
 "from": 202409,
+"id": "512894",
 "name": "DM-i 1.5 CVT 115KM Beyond",
 "to": 202501
 },
 {
 "from": 202409,
+"id": "512897",
 "name": "DM-i 1.5 CVT 115KM Excellence",
 "to": 202501
 },
 {
 "from": 202502,
+"id": "537857",
 "name": "DM-i 1.5 CVT 75KM Intelligent Driving Leading",
 "to": 202601
 },
 {
 "from": 202502,
+"id": "537858",
 "name": "DM-i 1.5 CVT 75KM Intelligent Driving Beyond",
 "to": 202601
 },
 {
 "from": 202502,
+"id": "537859",
 "name": "DM-i 1.5 CVT 115KM Intelligent Driving Beyond",
 "to": 202601
 },
 {
 "from": 202502,
+"id": "537860",
 "name": "DM-i 1.5 CVT 115KM Intelligent Driving Excellence",
 "to": 202601
 },
 {
 "from": 202510,
+"id": "541983",
 "name": "DM-i 1.5 CVT 133KM Progressive",
 "to": null
 },
 {
 "from": 202510,
+"id": "541984",
 "name": "DM-i 1.5 CVT 133KM Beyond",
 "to": null
 },
 {
 "from": 202510,
+"id": "541985",
 "name": "DM-i 1.5 CVT 133KM Excellence",
 "to": 202601
 },
 {
 "from": 202601,
+"id": "546498",
 "name": "DM-i 1.5 CVT 220KM Beyond",
 "to": null
 },
 {
 "from": 202601,
+"id": "546499",
 "name": "DM-i 1.5 CVT 220KM Excellence",
 "to": null
 },
 {
 "from": 202604,
+"id": "552849",
 "name": "DM-i 1.5 CVT Flying 220KM Leading",
 "to": null
 },
 {
 "from": 202604,
+"id": "552851",
 "name": "DM-i 1.5 CVT Flying 220KM Superior",
 "to": null
 },
 {
 "from": 202604,
+"id": "552854",
 "name": "DM-i 1.5 CVT Flying 301KM Superior",
 "to": null
 },
 {
 "from": 202604,
+"id": "552861",
 "name": "DM-i 1.5 CVT Flying 301KM Excellent",
 "to": null
 }
 ]
 }
 ],
+"ids": true,
+"key": "byd/song_pro/g_202409_21199",
 "market": "Китай",
 "to": null
 },
@@ -21766,6 +26639,281 @@
 "market": "Китай",
 "to": null
 },
+"cadillac/xt6/g_201903_10778": {
+"from": 201901,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "LSY",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 200 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202006,
+"id": "271700",
+"name": "2.0 AT XT6 Premium Luxury 7-seats",
+"to": 202204
+},
+{
+"from": 202006,
+"id": "274984",
+"name": "2.0 AT XT6 Sport 7-seats",
+"to": 202204
+},
+{
+"from": 202006,
+"id": "271699",
+"name": "2.0 AT XT6 Premium Luxury 6-seats",
+"to": 202204
+},
+{
+"from": 202006,
+"id": "274983",
+"name": "2.0 AT XT6 Sport 6-seats",
+"to": 202204
+}
+]
+}
+],
+"ids": true,
+"key": "cadillac/xt6/g_201903_10778",
+"market": "Россия",
+"to": 202204
+},
+"cadillac/xt6/g_2019_18725": {
+"from": 201901,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "LSY, LXH",
+"fuel": "бензин",
+"hp": 237,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 237 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202006,
+"id": "466182",
+"name": "2.0T AT 28T Fashion",
+"to": 202101
+},
+{
+"from": 202006,
+"id": "466184",
+"name": "2.0T AT 28T Luxury",
+"to": 202101
+},
+{
+"from": 202007,
+"id": "466198",
+"name": "2.0T AT 28T Luxury Sport Supreme Safety",
+"to": 202101
+},
+{
+"from": 202102,
+"id": "466202",
+"name": "2.0T AT Fashion",
+"to": 202411
+},
+{
+"from": 202102,
+"id": "466209",
+"name": "2.0T AT AWD Fashion",
+"to": 202411
+},
+{
+"from": 202102,
+"id": "466210",
+"name": "2.0T AT Luxury",
+"to": 202411
+},
+{
+"from": 202102,
+"id": "466211",
+"name": "2.0T AT AWD Luxury",
+"to": 202411
+},
+{
+"from": 202102,
+"id": "466213",
+"name": "2.0T AT AWD Premium",
+"to": 202411
+},
+{
+"from": 202102,
+"id": "466214",
+"name": "2.0T AT AWD Platinum",
+"to": 202411
+},
+{
+"from": 202202,
+"id": "466212",
+"name": "2.0T AT AWD Luxury Standard",
+"to": 202411
+},
+{
+"from": 202301,
+"id": "466215",
+"name": "2.0T AT AWD Platinum Black Diamond",
+"to": 202411
+},
+{
+"from": 202411,
+"id": "549631",
+"name": "2.0T AT AWD Luxury Executive Classic",
+"to": null
+},
+{
+"from": 202411,
+"id": "549632",
+"name": "2.0T AT AWD Premium Executive Black Label",
+"to": null
+},
+{
+"from": 202411,
+"id": "549633",
+"name": "2.0T AT AWD Platinum Executive Black Label",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "LSY",
+"fuel": "бензин",
+"gen_key": "cadillac/xt6/g_2019_18725",
+"hp": 237,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 237 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202006,
+"id": "466183",
+"name": "2.0T AT AWD 28T Fashion",
+"to": 202101
+},
+{
+"from": 202006,
+"id": "466185",
+"name": "2.0T AT AWD 28T Luxury",
+"to": 202101
+},
+{
+"from": 202006,
+"id": "466187",
+"name": "2.0T AT AWD 28T Leading",
+"to": 202009
+},
+{
+"from": 202006,
+"id": "466186",
+"name": "2.0T AT AWD 28T Luxury Sport",
+"to": 202009
+},
+{
+"from": 202006,
+"id": "466188",
+"name": "2.0T AT AWD 28T Leading Sport",
+"to": 202009
+},
+{
+"from": 202006,
+"id": "466189",
+"name": "2.0T AT AWD 28T Platinum Sport",
+"to": 202009
+},
+{
+"from": 202007,
+"id": "466201",
+"name": "2.0T AT 28T AWD Luxury Premium Audio",
+"to": 202101
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LSY",
+"fuel": "бензин",
+"hp": 241,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 241 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201907,
+"id": "466184",
+"name": "2.0T AT 28T Luxury",
+"to": 202005
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "LSY",
+"fuel": "бензин",
+"hp": 241,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 241 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201907,
+"id": "466185",
+"name": "2.0T AT AWD 28T Luxury",
+"to": 202005
+},
+{
+"from": 201907,
+"id": "466186",
+"name": "2.0T AT AWD 28T Luxury Sport",
+"to": 202005
+},
+{
+"from": 201907,
+"id": "466188",
+"name": "2.0T AT AWD 28T Leading Sport",
+"to": 202005
+},
+{
+"from": 201907,
+"id": "466189",
+"name": "2.0T AT AWD 28T Platinum Sport",
+"to": 202005
+},
+{
+"from": 201909,
+"id": "466187",
+"name": "2.0T AT AWD 28T Leading",
+"to": 202005
+}
+]
+}
+],
+"ids": true,
+"key": "cadillac/xt6/g_2019_18725",
+"market": "Китай",
+"to": null
+},
 "changan/eado/g_201109_2117": {
 "from": 201312,
 "groups": [
@@ -22260,6 +27408,7 @@
 "drive": "fwd",
 "engine": "JL473ZQ9",
 "fuel": "бензин",
+"gen_key": "changan/eado/g_2018_17103",
 "hp": 156,
 "hp_total": null,
 "hybrid": null,
@@ -22357,31 +27506,37 @@
 "trims": [
 {
 "from": 202403,
+"id": "497764",
 "name": "IDD PHEV 1.5 Leading",
 "to": 202504
 },
 {
 "from": 202403,
+"id": "497770",
 "name": "IDD PHEV 1.5 Beyond",
 "to": 202504
 },
 {
 "from": 202403,
+"id": "497782",
 "name": "IDD PHEV 1.5 Excellent",
 "to": 202504
 },
 {
 "from": 202502,
+"id": "525213",
 "name": "PHEV 1.5 Smart Blue Whale Battleship",
 "to": 202504
 },
 {
 "from": 202505,
+"id": "555080",
 "name": "PHEV 1.5 Smart Blue Whale 125km Battleship+",
 "to": null
 },
 {
 "from": 202505,
+"id": "555081",
 "name": "PHEV 1.5 Smart Blue Whale 125km Super Performance",
 "to": null
 }
@@ -22401,16 +27556,19 @@
 "trims": [
 {
 "from": 202408,
+"id": "512110",
 "name": "1.5T DCT Longteng",
 "to": 202504
 },
 {
 "from": 202408,
+"id": "512109",
 "name": "1.5T DCT Luxury",
 "to": 202504
 },
 {
 "from": 202408,
+"id": "512108",
 "name": "1.5T DCT Premium",
 "to": 202504
 }
@@ -22430,17 +27588,21 @@
 "trims": [
 {
 "from": 202505,
+"id": "555073",
 "name": "1.5T DCT Smart New Blue Whale 500Bar Pro",
 "to": null
 },
 {
 "from": 202505,
+"id": "555074",
 "name": "1.5T DCT Smart New Blue Whale 500Bar Max",
 "to": null
 }
 ]
 }
 ],
+"ids": true,
+"key": "changan/uni-z/g_202403_20436",
 "market": "Китай",
 "to": null
 },
@@ -26609,6 +31771,577 @@
 "market": "Китай",
 "to": null
 },
+"haval/dargo/g_202007_15380": {
+"from": 202204,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4N20",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202204,
+"id": "423581",
+"name": "2.0 GDIT DCT Comfort",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4N20",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202204,
+"id": "423582",
+"name": "2.0 GDIT DCT AWD Elite",
+"to": 202602
+},
+{
+"from": 202204,
+"id": "430007",
+"name": "2.0 GDIT DCT AWD Premium",
+"to": null
+},
+{
+"from": 202204,
+"id": "430008",
+"name": "2.0 GDIT DCT AWD Tech Plus",
+"to": null
+},
+{
+"from": 202302,
+"id": "454632",
+"name": "X 2.0 GDIT DCT AWD Elite",
+"to": 202602
+},
+{
+"from": 202302,
+"id": "454633",
+"name": "X 2.0 GDIT DCT AWD Premium",
+"to": null
+},
+{
+"from": 202603,
+"id": "550634",
+"name": "2.0 GDIT DCT AWD Оптимум",
+"to": null
+},
+{
+"from": 202603,
+"id": "550635",
+"name": "X 2.0 GDIT DCT AWD Оптимум",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "haval/dargo/g_202007_15380",
+"market": "Россия",
+"to": null
+},
+"haval/dargo/g_2020_23074": {
+"from": 202007,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4B15A",
+"fuel": "бензин",
+"hp": 169,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 169 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202007,
+"id": "537416",
+"name": "Big Dog DaGou 1.5 GDIT EVO DCT Husky Edition",
+"to": 202306
+},
+{
+"from": 202007,
+"id": "537417",
+"name": "Big Dog DaGou 1.5 GDIT EVO DCT Labrador Edition",
+"to": 202306
+},
+{
+"from": 202007,
+"id": "537420",
+"name": "Big Dog DaGou 1.5 GDIT EVO DCT Side Shepherd-Wangcai Edition",
+"to": 202306
+},
+{
+"from": 202007,
+"id": "537418",
+"name": "Big Dog DaGou 1.5 GDIT EVO DCT Side Shepherd Edition",
+"to": 202306
+},
+{
+"from": 202007,
+"id": "537421",
+"name": "Big Dog DaGou 1.5 GDIT EVO DCT Horse and Dog-Wangcai Version",
+"to": 202306
+},
+{
+"from": 202007,
+"id": "537419",
+"name": "Big Dog DaGou 1.5 GDIT EVO DCT Horse and Dog Version",
+"to": 202306
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4N20",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202007,
+"id": "537413",
+"name": "Big Dog DaGou 2.0 GDIT DCT Chinese Retriever Edition",
+"to": 202306
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4N20",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202007,
+"id": "537414",
+"name": "Big Dog DaGou 2.0 GDIT DCT AWD Chinese Garden Edition",
+"to": 202306
+},
+{
+"from": 202007,
+"id": "537415",
+"name": "Big Dog DaGou 2.0 GDIT DCT AWD Asthma Edition",
+"to": 202306
+}
+]
+}
+],
+"ids": true,
+"key": "haval/dargo/g_2020_23074",
+"market": "Китай",
+"to": 202306
+},
+"haval/dargo/g_2022_23076": {
+"from": 202206,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4B15D",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": 177,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 154 л.с., параллельный подзаряжаемый (PHEV) гибрид, 177 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202302,
+"id": "537430",
+"name": "Big Dog DaGou 1.5T PHEV DHT 50km Tide Electric",
+"to": null
+},
+{
+"from": 202302,
+"id": "537431",
+"name": "Big Dog DaGou 1.5T PHEV DHT 105km Tide Electric Plus",
+"to": null
+},
+{
+"from": 202309,
+"id": "537432",
+"name": "Big Dog DaGou 1.5T PHEV DHT 105km Tide Electric",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4B15E",
+"fuel": "бензин",
+"hp": 167,
+"hp_total": 299,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 167 л.с., параллельный подзаряжаемый (PHEV) гибрид, 299 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202403,
+"id": "537433",
+"name": "Big Dog DaGou 1.5T PHEV Hi4 DHT 102km Tide Electric Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4B15L",
+"fuel": "бензин",
+"gen_key": "haval/dargo/g_2022_23076",
+"hp": 185,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 185 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202302,
+"id": "537426",
+"name": "Big Dog DaGou 1.5T DCT Tide Wild Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4N20A",
+"fuel": "бензин",
+"hp": 238,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 238 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202302,
+"id": "537427",
+"name": "Big Dog DaGou 2.0T DCT Tide Wild",
+"to": null
+},
+{
+"from": 202302,
+"id": "537428",
+"name": "Big Dog DaGou 2.0T DCT Tide Wild Plus",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4N20A",
+"fuel": "бензин",
+"hp": 238,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 238 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202302,
+"id": "537429",
+"name": "Big Dog DaGou 2.0T DCT AWD Tide Wild Plus",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "haval/dargo/g_2022_23076",
+"market": "Китай",
+"to": null
+},
+"haval/dargo/g_202307_23075": {
+"from": 202307,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4B15L",
+"fuel": "бензин",
+"gen_key": "haval/dargo/g_202307_23075",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 184 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202307,
+"id": "537423",
+"name": "Big Dog DaGou 1.5T DCT Labrador",
+"to": 202506
+},
+{
+"from": 202307,
+"id": "537424",
+"name": "Big Dog DaGou 1.5T DCT Border Shepherd",
+"to": 202506
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4N20A",
+"fuel": "бензин",
+"hp": 238,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 238 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202307,
+"id": "537425",
+"name": "Big Dog DaGou 2.0T DCT AWD Chinese Pastoral Dog",
+"to": 202506
+}
+]
+}
+],
+"ids": true,
+"key": "haval/dargo/g_202307_23075",
+"market": "Китай",
+"to": 202506
+},
+"haval/dargo/g_202507_24052": {
+"from": 202507,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4N20A",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 200 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202604,
+"id": "547370",
+"name": "2.0T DCT AWD Оптимум",
+"to": null
+},
+{
+"from": 202604,
+"id": "551949",
+"name": "2.0T DCT AWD Премиум",
+"to": null
+},
+{
+"from": 202604,
+"id": "551950",
+"name": "2.0T DCT AWD Техно+",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "haval/dargo/g_202507_24052",
+"market": "Россия",
+"to": null
+},
+"haval/dargo/g_2025_23077": {
+"from": 202504,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4B15M",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 299,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 299 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202509,
+"id": "537434",
+"name": "Big Dog DaGou Plus 1.5T PHEV Hi4 DHT 18.74kWh Trendy",
+"to": null
+},
+{
+"from": 202509,
+"id": "540562",
+"name": "Big Dog DaGou Plus 1.5T PHEV Hi4 DHT 27.54kWh Trendy",
+"to": null
+},
+{
+"from": 202605,
+"id": "554463",
+"name": "Big Dog DaGou Plus 1.5T PHEV Hi4 DHT 33.7kWh Long Range",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4B15L",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 184 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202509,
+"id": "540563",
+"name": "Big Dog DaGou Plus 1.5T DCT Trendy",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4N20A",
+"fuel": "бензин",
+"hp": 238,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 238 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202509,
+"id": "540564",
+"name": "Big Dog DaGou Plus 2.0T DCT Trendy Wild",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4N20A",
+"fuel": "бензин",
+"hp": 238,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 238 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202509,
+"id": "540565",
+"name": "Big Dog DaGou Plus 2.0T DCT AWD Trendy Wild",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "haval/dargo/g_2025_23077",
+"market": "Китай",
+"to": null
+},
+"haval/dargo/g_2025_23105": {
+"from": 202507,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4B15L",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 184 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202507,
+"id": "537780",
+"name": "Big Dog DaGou 1.5T DCT Labrador",
+"to": null
+},
+{
+"from": 202507,
+"id": "538293",
+"name": "Big Dog DaGou 1.5T DCT Border Collie",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4N20A",
+"fuel": "бензин",
+"hp": 238,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 238 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202507,
+"id": "537786",
+"name": "Big Dog DaGou 2.0T DCT AWD Chinese Pastoral Dog",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "haval/dargo/g_2025_23105",
+"market": "Китай",
+"to": null
+},
 "haval/f7/g_201811_9576": {
 "from": 201808,
 "groups": [
@@ -27043,6 +32776,319 @@
 ],
 "ids": true,
 "key": "haval/f7/g_202009_17695",
+"market": "Китай",
+"to": 202111
+},
+"haval/f7x/g_201904_10424": {
+"from": 201910,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4B15",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202006,
+"id": "295048",
+"name": "1.5 2WD SAT Comfort",
+"to": 202207
+},
+{
+"from": 202006,
+"id": "295049",
+"name": "1.5 2WD SAT Elite",
+"to": 202207
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4B15",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 150 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202006,
+"id": "295050",
+"name": "1.5 4WD SAT Premium",
+"to": 202207
+},
+{
+"from": 202012,
+"id": "312498",
+"name": "1.5 4WD SAT Elite",
+"to": 202207
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4C20NT",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201911,
+"id": "267270",
+"name": "2.0 2WD SAT Comfort",
+"to": 202006
+},
+{
+"from": 201911,
+"id": "267272",
+"name": "2.0 2WD SAT Premium",
+"to": 202006
+},
+{
+"from": 201911,
+"id": "267271",
+"name": "2.0 2WD SAT Elite",
+"to": 202203
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4C20NT",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201911,
+"id": "267273",
+"name": "2.0 4WD SAT Comfort",
+"to": 202006
+},
+{
+"from": 201911,
+"id": "267274",
+"name": "2.0 4WD SAT Elite",
+"to": 202207
+},
+{
+"from": 201911,
+"id": "267275",
+"name": "2.0 4WD SAT Premium",
+"to": 202207
+},
+{
+"from": 202008,
+"id": "300591",
+"name": "2.0 4WD SAT Tech Plus",
+"to": 202207
+}
+]
+}
+],
+"ids": true,
+"key": "haval/f7x/g_201904_10424",
+"market": "Россия",
+"to": 202207
+},
+"haval/f7x/g_2019_17735": {
+"from": 201904,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4B15A",
+"fuel": "бензин",
+"hp": 169,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 169 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201904,
+"id": "457307",
+"name": "1.5T DCT Smart Play Lite",
+"to": 202008
+},
+{
+"from": 201904,
+"id": "457308",
+"name": "1.5T DCT Smart Play",
+"to": 202008
+},
+{
+"from": 201904,
+"id": "457309",
+"name": "1.5T DCT Smart Technology",
+"to": 202008
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"gen_key": "haval/f7x/g_2019_17735",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201904,
+"id": "457310",
+"name": "2.0T DCT Smart Play",
+"to": 202008
+},
+{
+"from": 201904,
+"id": "457311",
+"name": "2.0T DCT Smart Technology",
+"to": 202008
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"gen_key": "haval/f7x/g_2019_17735",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201905,
+"id": "457312",
+"name": "2.0T DCT AWD Smart Sport",
+"to": 202008
+},
+{
+"from": 201911,
+"id": "457313",
+"name": "2.0T DCT AWD Smart Performance",
+"to": 202008
+}
+]
+}
+],
+"ids": true,
+"key": "haval/f7x/g_2019_17735",
+"market": "Китай",
+"to": 202008
+},
+"haval/f7x/g_202009_17736": {
+"from": 202009,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4B15A",
+"fuel": "бензин",
+"hp": 169,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 169 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202009,
+"id": "457314",
+"name": "1.5T DCT Smart Play Lite",
+"to": 202111
+},
+{
+"from": 202009,
+"id": "457316",
+"name": "1.5T DCT Smart Play",
+"to": 202111
+},
+{
+"from": 202009,
+"id": "457317",
+"name": "1.5T DCT Smart Technology",
+"to": 202111
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202009,
+"id": "457318",
+"name": "2.0T DCT Smart Play",
+"to": 202111
+},
+{
+"from": 202009,
+"id": "457319",
+"name": "2.0T DCT Smart Technology",
+"to": 202111
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202009,
+"id": "457320",
+"name": "2.0T DCT AWD Smart Performance",
+"to": 202111
+}
+]
+}
+],
+"ids": true,
+"key": "haval/f7x/g_202009_17736",
 "market": "Китай",
 "to": 202111
 },
@@ -27977,6 +34023,7 @@
 ]
 }
 ],
+"key": "hongqi/hq9/g_202209_22029",
 "market": "Россия",
 "to": null
 },
@@ -28096,6 +34143,7 @@
 ]
 }
 ],
+"key": "hongqi/hq9/g_2022_16733",
 "market": "Китай",
 "to": null
 },
@@ -28309,6 +34357,304 @@
 ],
 "market": "Китай",
 "to": null
+},
+"hongqi/hs5/g_2018_16714": {
+"from": 201811,
+"groups": [
+{
+"body": [
+"CA6472HA6"
+],
+"drive": "fwd",
+"engine": "CA4GC20TD",
+"fuel": "бензин",
+"hp": 221,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 221 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201906,
+"id": "446044",
+"name": "2.0 AT Base",
+"to": 202305
+},
+{
+"from": 201906,
+"id": "505047",
+"name": "2.0 AT Flagship",
+"to": 202305
+},
+{
+"from": 201906,
+"id": "446046",
+"name": "2.0 AT Smart Flagship",
+"to": 202305
+}
+]
+},
+{
+"body": [
+"CA6472HA6"
+],
+"drive": "4wd",
+"engine": "CA4GC20TD",
+"fuel": "бензин",
+"gen_key": "hongqi/hs5/g_2018_16714",
+"hp": 221,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 221 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201906,
+"id": "505047",
+"name": "2.0 AT Flagship",
+"to": 202305
+},
+{
+"from": 201906,
+"id": "446046",
+"name": "2.0 AT Smart Flagship",
+"to": 202305
+}
+]
+}
+],
+"ids": true,
+"key": "hongqi/hs5/g_2018_16714",
+"market": "Китай",
+"to": 202304
+},
+"hongqi/hs5/g_201906_18471": {
+"from": 201811,
+"groups": [
+{
+"body": [
+"CA6472HA6"
+],
+"drive": "4wd",
+"engine": "CA4GC20TD",
+"fuel": "бензин",
+"hp": 215,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 215 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202212,
+"id": "462302",
+"name": "2.0 AT Comfort",
+"to": 202601
+},
+{
+"from": 202212,
+"id": "462297",
+"name": "2.0 AT Deluxe/Flagship",
+"to": 202601
+}
+]
+}
+],
+"ids": true,
+"key": "hongqi/hs5/g_201906_18471",
+"market": "Россия",
+"to": 202601
+},
+"hongqi/hs5/g_202305_20822": {
+"from": 202305,
+"groups": [
+{
+"body": [
+"CA6472HA6"
+],
+"drive": "4wd",
+"engine": "CA4GC20TD",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202406,
+"id": "504989",
+"name": "2.0 AT Comfort",
+"to": null
+},
+{
+"from": 202406,
+"id": "504994",
+"name": "2.0 AT Deluxe",
+"to": 202511
+},
+{
+"from": 202512,
+"id": "504994",
+"name": "2.0 AT Deluxe",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "hongqi/hs5/g_202305_20822",
+"market": "Россия",
+"to": null
+},
+"hongqi/hs5/g_2023_20823": {
+"from": 202305,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "CA4GC20TD",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 252 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202305,
+"id": "505012",
+"name": "2.0 AT QiYue Pro",
+"to": 202410
+},
+{
+"from": 202305,
+"id": "505041",
+"name": "2.0 AT QiXiang Pro",
+"to": 202410
+},
+{
+"from": 202305,
+"id": "517512",
+"name": "2.0 AT QiLing Pro",
+"to": 202410
+},
+{
+"from": 202411,
+"id": "505012",
+"name": "2.0 AT QiYue Pro",
+"to": 202507
+},
+{
+"from": 202411,
+"id": "505041",
+"name": "2.0 AT QiXiang Pro",
+"to": 202507
+},
+{
+"from": 202411,
+"id": "517514",
+"name": "2.0 AT Shadow",
+"to": 202507
+},
+{
+"from": 202411,
+"id": "517512",
+"name": "2.0 AT QiLing Pro",
+"to": 202507
+},
+{
+"from": 202508,
+"id": "557875",
+"name": "2.0 AT QiYun Pro",
+"to": 202607
+},
+{
+"from": 202508,
+"id": "557877",
+"name": "2.0 AT XuanYing",
+"to": 202607
+},
+{
+"from": 202508,
+"id": "505041",
+"name": "2.0 AT QiXiang Pro",
+"to": 202607
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "CA4GC20TD",
+"fuel": "бензин",
+"gen_key": "hongqi/hs5/g_2023_20823",
+"hp": 252,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 252 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202305,
+"id": "505041",
+"name": "2.0 AT QiXiang Pro",
+"to": 202410
+},
+{
+"from": 202305,
+"id": "517512",
+"name": "2.0 AT QiLing Pro",
+"to": 202410
+},
+{
+"from": 202411,
+"id": "505041",
+"name": "2.0 AT QiXiang Pro",
+"to": 202507
+},
+{
+"from": 202411,
+"id": "517514",
+"name": "2.0 AT Shadow",
+"to": 202507
+},
+{
+"from": 202411,
+"id": "517518",
+"name": "2.0 AT Qiling Pro",
+"to": 202507
+},
+{
+"from": 202508,
+"id": "557877",
+"name": "2.0 AT XuanYing",
+"to": 202607
+},
+{
+"from": 202508,
+"id": "505041",
+"name": "2.0 AT QiXiang Pro",
+"to": 202607
+},
+{
+"from": 202508,
+"id": "557880",
+"name": "2.0 AT 2-Million Unit Commemoration",
+"to": 202607
+}
+]
+}
+],
+"ids": true,
+"key": "hongqi/hs5/g_2023_20823",
+"market": "Китай",
+"to": 202607
 },
 "hongqi/hs6/g_2025_23264": {
 "from": 202508,
@@ -28631,6 +34977,453 @@
 "key": "infiniti/qx30/g_201608_3892",
 "market": "Россия",
 "to": 201905
+},
+"infiniti/qx50/g_201308_2042": {
+"from": 201309,
+"groups": [
+{
+"body": [
+"J50"
+],
+"drive": "4wd",
+"engine": "VQ25HR",
+"fuel": "бензин",
+"hp": 222,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 222 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201309,
+"id": "73185",
+"name": "2.5 Elite AWD",
+"to": 201603
+},
+{
+"from": 201309,
+"id": "73186",
+"name": "2.5 Hi-Tech AWD",
+"to": 201603
+}
+]
+},
+{
+"body": [
+"J50"
+],
+"drive": "4wd",
+"engine": "VQ37VHR",
+"fuel": "бензин",
+"hp": 330,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.7,
+"text": "3.7 л, 330 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201309,
+"id": "73187",
+"name": "3.7 Hi-Tech AWD",
+"to": 201601
+},
+{
+"from": 201309,
+"id": "78732",
+"name": "3.7 Elite AWD",
+"to": 201312
+}
+]
+}
+],
+"ids": true,
+"key": "infiniti/qx50/g_201308_2042",
+"market": "Россия",
+"to": 201603
+},
+"infiniti/qx50/g_201509_24271": {
+"from": 201509,
+"groups": [
+{
+"body": [
+"J50"
+],
+"drive": "4wd",
+"engine": "VQ37VHR",
+"fuel": "бензин",
+"hp": 325,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.7,
+"text": "3.7 л, 325 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201509,
+"id": "550952",
+"name": "3.7 AT AWD",
+"to": 201710
+}
+]
+},
+{
+"body": [
+"J50"
+],
+"drive": "rwd",
+"engine": "VQ37VHR",
+"fuel": "бензин",
+"hp": 325,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.7,
+"text": "3.7 л, 325 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201509,
+"id": "550951",
+"name": "3.7 AT RWD",
+"to": 201710
+}
+]
+}
+],
+"ids": true,
+"key": "infiniti/qx50/g_201509_24271",
+"market": "США",
+"to": 201710
+},
+"infiniti/qx50/g_201711_7981": {
+"from": 201711,
+"groups": [
+{
+"body": [
+"J55"
+],
+"drive": "4wd",
+"engine": "KR20DDET",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 249 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201807,
+"id": "191188",
+"name": "2.0 CVT Pure",
+"to": 202102
+},
+{
+"from": 201807,
+"id": "209887",
+"name": "2.0 CVT Luxe",
+"to": 202102
+},
+{
+"from": 201807,
+"id": "215411",
+"name": "2.0 CVT Luxe Essential",
+"to": 202102
+},
+{
+"from": 201807,
+"id": "215443",
+"name": "2.0 CVT Luxe Proactive",
+"to": 202102
+},
+{
+"from": 201807,
+"id": "215412",
+"name": "2.0 CVT Luxe Proassist",
+"to": 202102
+},
+{
+"from": 201807,
+"id": "209888",
+"name": "2.0 CVT Sensory",
+"to": 202102
+},
+{
+"from": 201807,
+"id": "209889",
+"name": "2.0 CVT Autograph Proactive",
+"to": 202102
+},
+{
+"from": 201807,
+"id": "215448",
+"name": "2.0 CVT Sensory Proassist",
+"to": 202102
+},
+{
+"from": 201807,
+"id": "215449",
+"name": "2.0 CVT Sensory Proactive",
+"to": 202102
+},
+{
+"from": 202012,
+"id": "191188",
+"name": "2.0 CVT Pure",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "209887",
+"name": "2.0 CVT Luxe",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "321817",
+"name": "2.0 CVT Luxe Navi",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "314978",
+"name": "2.0 CVT Essential",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "209888",
+"name": "2.0 CVT Sensory",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "321818",
+"name": "2.0 CVT Essential Proassist",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "321820",
+"name": "2.0 CVT Essential Proactive",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "215448",
+"name": "2.0 CVT Sensory Proassist",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "314980",
+"name": "2.0 CVT Autograph",
+"to": 202211
+},
+{
+"from": 202011,
+"id": "215449",
+"name": "2.0 CVT Sensory Proactive",
+"to": 202211
+}
+]
+}
+],
+"ids": true,
+"key": "infiniti/qx50/g_201711_7981",
+"market": "Россия",
+"to": 202211
+},
+"infiniti/qx50/g_2017_21963": {
+"from": 201711,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "KR20DDET",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202109,
+"id": "523280",
+"name": "2.0 CVT Fashion",
+"to": null
+},
+{
+"from": 202311,
+"id": "523281",
+"name": "2.0 CVT Pilot",
+"to": null
+},
+{
+"from": 202109,
+"id": "523289",
+"name": "2.0 CVT Elite",
+"to": 202310
+},
+{
+"from": 202109,
+"id": "523281",
+"name": "2.0 CVT Pilot",
+"to": 202310
+},
+{
+"from": 202207,
+"id": "523291",
+"name": "2.0 CVT Wave",
+"to": 202310
+},
+{
+"from": 201806,
+"id": "523289",
+"name": "2.0 CVT Elite",
+"to": 202108
+},
+{
+"from": 202004,
+"id": "523280",
+"name": "2.0 CVT Fashion",
+"to": 202108
+},
+{
+"from": 201806,
+"id": "523280",
+"name": "2.0 CVT Fashion",
+"to": 202003
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "KR20DDET",
+"fuel": "бензин",
+"gen_key": "infiniti/qx50/g_2017_21963",
+"hp": 261,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 261 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202311,
+"id": "523282",
+"name": "2.0 CVT 4WD Luxury",
+"to": null
+},
+{
+"from": 202109,
+"id": "523290",
+"name": "2.0 CVT 4WD Elite",
+"to": 202310
+},
+{
+"from": 202109,
+"id": "523292",
+"name": "2.0 CVT 4WD Pilot",
+"to": 202310
+},
+{
+"from": 202109,
+"id": "523293",
+"name": "2.0 CVT 4WD Smart",
+"to": 202310
+},
+{
+"from": 202109,
+"id": "523282",
+"name": "2.0 CVT 4WD Luxury",
+"to": 202310
+},
+{
+"from": 202109,
+"id": "523294",
+"name": "2.0 CVT 4WD Flagship",
+"to": 202310
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "KR20DDET",
+"fuel": "бензин",
+"hp": 272,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 272 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202004,
+"id": "523290",
+"name": "2.0 CVT 4WD Elite",
+"to": 202108
+},
+{
+"from": 202004,
+"id": "523292",
+"name": "2.0 CVT 4WD Pilot",
+"to": 202108
+},
+{
+"from": 202004,
+"id": "523293",
+"name": "2.0 CVT 4WD Smart",
+"to": 202108
+},
+{
+"from": 202004,
+"id": "523282",
+"name": "2.0 CVT 4WD Luxury",
+"to": 202108
+},
+{
+"from": 202004,
+"id": "523294",
+"name": "2.0 CVT 4WD Flagship",
+"to": 202108
+},
+{
+"from": 201806,
+"id": "523290",
+"name": "2.0 CVT 4WD Elite",
+"to": 202003
+},
+{
+"from": 201806,
+"id": "523293",
+"name": "2.0 CVT 4WD Smart",
+"to": 202003
+},
+{
+"from": 201806,
+"id": "523282",
+"name": "2.0 CVT 4WD Luxury",
+"to": 202003
+},
+{
+"from": 201806,
+"id": "523294",
+"name": "2.0 CVT 4WD Flagship",
+"to": 202003
+}
+]
+}
+],
+"ids": true,
+"key": "infiniti/qx50/g_2017_21963",
+"market": "Китай",
+"to": null
 },
 "jetour/l6/g_2023_21656": {
 "from": 202310,
@@ -31877,6 +38670,230 @@
 }
 ],
 "key": "leapmotor/t03/g_2020_17124",
+"market": "Китай",
+"to": null
+},
+"lincoln/aviator/g_2018_23236": {
+"from": 201811,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "Ford EcoBoost Q96",
+"fuel": "бензин",
+"gen_key": "lincoln/aviator/g_2018_23236",
+"hp": 355,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 355 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202007,
+"id": "539366",
+"name": "3.0T AT AWD Reserve+",
+"to": 202207
+},
+{
+"from": 202007,
+"id": "539367",
+"name": "3.0T AT AWD Chalet",
+"to": 202107
+},
+{
+"from": 202007,
+"id": "539368",
+"name": "3.0T AT AWD Executive",
+"to": 202107
+},
+{
+"from": 202007,
+"id": "539369",
+"name": "3.0T AT AWD President",
+"to": 202107
+},
+{
+"from": 202107,
+"id": "539367",
+"name": "3.0T AT AWD Chalet",
+"to": 202205
+},
+{
+"from": 202107,
+"id": "539368",
+"name": "3.0T AT AWD Executive",
+"to": 202205
+},
+{
+"from": 202108,
+"id": "539372",
+"name": "3.0T AT AWD MONO Limited",
+"to": 202207
+},
+{
+"from": 202107,
+"id": "539369",
+"name": "3.0T AT AWD President",
+"to": 202207
+},
+{
+"from": 202207,
+"id": "539366",
+"name": "3.0T AT AWD Reserve+",
+"to": 202309
+},
+{
+"from": 202205,
+"id": "539367",
+"name": "3.0T AT AWD Chalet",
+"to": 202309
+},
+{
+"from": 202205,
+"id": "539368",
+"name": "3.0T AT AWD Executive",
+"to": 202309
+},
+{
+"from": 202205,
+"id": "539369",
+"name": "3.0T AT AWD President",
+"to": 202309
+},
+{
+"from": 202212,
+"id": "539379",
+"name": "3.0T AT AWD Centennial Limited",
+"to": 202309
+},
+{
+"from": 202309,
+"id": "539382",
+"name": "3.0T AT AWD Reserve 7-seats",
+"to": 202408
+},
+{
+"from": 202309,
+"id": "539381",
+"name": "3.0T AT AWD Reserve 6-seats",
+"to": 202408
+},
+{
+"from": 202309,
+"id": "539386",
+"name": "3.0T AT AWD Reserve+ 7-seats",
+"to": 202408
+},
+{
+"from": 202309,
+"id": "539385",
+"name": "3.0T AT AWD Reserve+ 6-seats",
+"to": 202408
+},
+{
+"from": 202309,
+"id": "539387",
+"name": "3.0T AT AWD Executive 6-seats",
+"to": 202408
+},
+{
+"from": 202309,
+"id": "539388",
+"name": "3.0T AT AWD President 6-seats",
+"to": 202408
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "Ford EcoBoost Q96",
+"fuel": "бензин",
+"hp": 355,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 355 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202007,
+"id": "539365",
+"name": "3.0T AT Reserve",
+"to": 202207
+},
+{
+"from": 202207,
+"id": "539365",
+"name": "3.0T AT Reserve",
+"to": 202309
+}
+]
+}
+],
+"ids": true,
+"key": "lincoln/aviator/g_2018_23236",
+"market": "Китай",
+"to": 202408
+},
+"lincoln/aviator/g_2024_23237": {
+"from": 202402,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "Ford EcoBoost QA6",
+"fuel": "бензин",
+"gen_key": "lincoln/aviator/g_2024_23237",
+"hp": 367,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 367 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202408,
+"id": "539390",
+"name": "3.0T AT AWD Elegance 7-seats",
+"to": null
+},
+{
+"from": 202408,
+"id": "539389",
+"name": "3.0T AT AWD Elegance 6-seats",
+"to": null
+},
+{
+"from": 202408,
+"id": "539392",
+"name": "3.0T AT AWD Premium 7-seats",
+"to": null
+},
+{
+"from": 202408,
+"id": "539391",
+"name": "3.0T AT AWD Premium 6-seats",
+"to": null
+},
+{
+"from": 202408,
+"id": "539393",
+"name": "3.0T AT AWD Luxury 6-seats",
+"to": null
+},
+{
+"from": 202408,
+"id": "539394",
+"name": "3.0T AT AWD President 6-seats",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "lincoln/aviator/g_2024_23237",
 "market": "Китай",
 "to": null
 },
@@ -43217,16 +50234,19 @@
 "trims": [
 {
 "from": 202411,
+"id": "542564",
 "name": "PHEV 1.5T DMH Comfort",
 "to": null
 },
 {
 "from": 202411,
+"id": "542565",
 "name": "PHEV 1.5T DMH Supreme",
 "to": null
 },
 {
 "from": 202411,
+"id": "542566",
 "name": "PHEV 1.5T DMH Luxury",
 "to": null
 }
@@ -43246,51 +50266,61 @@
 "trims": [
 {
 "from": 202010,
+"id": "455120",
 "name": "2.0 AT Flagship",
 "to": 202302
 },
 {
 "from": 202010,
+"id": "455121",
 "name": "2.0 AT Gathering",
 "to": 202302
 },
 {
 "from": 202010,
+"id": "455122",
 "name": "2.0 AT Respect",
 "to": 202302
 },
 {
 "from": 202010,
+"id": "455129",
 "name": "2.0 AT Premium",
 "to": 202302
 },
 {
 "from": 202210,
+"id": "455130",
 "name": "2.0 AT Exclusive",
 "to": null
 },
 {
 "from": 202303,
+"id": "531793",
 "name": "2.0L AT Comfort Enjoy",
 "to": null
 },
 {
 "from": 202303,
+"id": "531792",
 "name": "2.0L AT Premium Enjoy",
 "to": null
 },
 {
 "from": 202303,
+"id": "531814",
 "name": "2.0L AT Yuexiang",
 "to": null
 },
 {
 "from": 202303,
+"id": "531813",
 "name": "2.0L AT Supreme Enjoy",
 "to": null
 },
 {
 "from": 202303,
+"id": "531812",
 "name": "2.0L AT Premium",
 "to": null
 }
@@ -43310,32 +50340,38 @@
 "trims": [
 {
 "from": 202210,
+"id": "455137",
 "name": "90 kWh Silver",
 "to": null
 },
 {
 "from": 202210,
+"id": "455138",
 "name": "90 kWh Gold",
 "to": null
 },
 {
 "from": 202210,
+"id": "455139",
 "name": "90 kWh Platinum",
 "to": null
 },
 {
 "from": 202210,
+"id": "455140",
 "name": "90 kWh Titanium",
 "to": null
 },
 {
 "from": 202210,
+"id": "455141",
 "name": "90 kWh Diamond",
 "to": null
 }
 ]
 }
 ],
+"ids": true,
 "key": "roewe/imax8/g_202010_16709",
 "market": "Китай",
 "to": null
@@ -46881,6 +53917,425 @@
 ],
 "ids": true,
 "key": "toyota/alphard/g_2023_19313",
+"market": "Китай",
+"to": null
+},
+"toyota/avalon/g_201211_3837": {
+"from": 201211,
+"groups": [
+{
+"body": [
+"AVX40"
+],
+"drive": "fwd",
+"engine": "2AR-FXE",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 154 л.с., параллельный гибрид, 120 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201211,
+"id": "88304",
+"name": "2.5 Hybrid CVT XLE Premium",
+"to": 201510
+},
+{
+"from": 201211,
+"id": "88305",
+"name": "2.5 Hybrid CVT XLE Touring",
+"to": 201510
+},
+{
+"from": 201211,
+"id": "88303",
+"name": "2.5 Hybrid CVT Limited",
+"to": 201510
+}
+]
+},
+{
+"body": [
+"GSX40"
+],
+"drive": "fwd",
+"engine": "2GR-FE",
+"fuel": "бензин",
+"hp": 268,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 268 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201211,
+"id": "88300",
+"name": "3.5 AT XLE",
+"to": 201510
+},
+{
+"from": 201211,
+"id": "88301",
+"name": "3.5 AT XLE Premium",
+"to": 201510
+},
+{
+"from": 201211,
+"id": "88302",
+"name": "3.5 AT XLE Touring",
+"to": 201510
+},
+{
+"from": 201211,
+"id": "447030",
+"name": "3.5 AT XLE Touring Sport Edition",
+"to": 201510
+},
+{
+"from": 201211,
+"id": "447029",
+"name": "3.5 AT XLE Limited",
+"to": 201510
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/avalon/g_201211_3837",
+"market": "США",
+"to": 201501
+},
+"toyota/avalon/g_201510_7185": {
+"from": 201502,
+"groups": [
+{
+"body": [
+"AVX40"
+],
+"drive": "fwd",
+"engine": "2AR-FXE",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 154 л.с., параллельный гибрид, 120 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201510,
+"id": "447064",
+"name": "2.5 Hybrid CVT XLE Plus",
+"to": 201804
+},
+{
+"from": 201510,
+"id": "447066",
+"name": "2.5 Hybrid CVT XLE Premium",
+"to": 201804
+},
+{
+"from": 201510,
+"id": "447070",
+"name": "2.5 Hybrid CVT XLE Limited",
+"to": 201804
+}
+]
+},
+{
+"body": [
+"GSX40"
+],
+"drive": "fwd",
+"engine": "2GR-FE",
+"fuel": "бензин",
+"hp": 268,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 268 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201510,
+"id": "447065",
+"name": "3.5 AT XLE",
+"to": 201804
+},
+{
+"from": 201510,
+"id": "447063",
+"name": "3.5 AT XLE Plus",
+"to": 201804
+},
+{
+"from": 201510,
+"id": "447068",
+"name": "3.5 AT XLE Premium",
+"to": 201804
+},
+{
+"from": 201510,
+"id": "447069",
+"name": "3.5 AT XLE Touring",
+"to": 201804
+},
+{
+"from": 201510,
+"id": "447071",
+"name": "3.5 AT XLE Limited",
+"to": 201804
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/avalon/g_201510_7185",
+"market": "США",
+"to": 201805
+},
+"toyota/avalon/g_201801_16195": {
+"from": 201801,
+"groups": [
+{
+"body": [
+"AXXH50"
+],
+"drive": "fwd",
+"engine": "A25A-FXS",
+"fuel": "бензин",
+"hp": 176,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 176 л.с., параллельный гибрид, 120 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201801,
+"id": "441683",
+"name": "2.5 E-CVT Hybrid XLE",
+"to": 202203
+},
+{
+"from": 201801,
+"id": "441685",
+"name": "2.5 E-CVT Hybrid Limited",
+"to": 202203
+},
+{
+"from": 201801,
+"id": "441684",
+"name": "2.5 E-CVT Hybrid XSE",
+"to": 202106
+},
+{
+"from": 202107,
+"id": "441686",
+"name": "2.5 E-CVT Hybrid XSE Nightshade",
+"to": 202203
+}
+]
+},
+{
+"body": [
+"GSX50"
+],
+"drive": "4wd",
+"engine": "A25A-FKS",
+"fuel": "бензин",
+"hp": 205,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 205 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202005,
+"id": "441680",
+"name": "2.5 AT AWD Limited",
+"to": 202106
+},
+{
+"from": 202005,
+"id": "441679",
+"name": "2.5 AT AWD XLE",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"GSX50"
+],
+"drive": "fwd",
+"engine": "2GR-FKS",
+"fuel": "бензин",
+"hp": 301,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 301 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201801,
+"id": "441675",
+"name": "3.5 AT XLE",
+"to": 202203
+},
+{
+"from": 201801,
+"id": "441678",
+"name": "3.5 AT Limited",
+"to": 202203
+},
+{
+"from": 201801,
+"id": "441677",
+"name": "3.5 AT Touring",
+"to": 202203
+},
+{
+"from": 201801,
+"id": "441676",
+"name": "3.5 AT XSE",
+"to": 202004
+},
+{
+"from": 202005,
+"id": "441681",
+"name": "3.5 AT XSE Nightshade",
+"to": 202106
+},
+{
+"from": 201906,
+"id": "441682",
+"name": "3.5 AT TRD",
+"to": 202106
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/avalon/g_201801_16195",
+"market": "США",
+"to": 202203
+},
+"toyota/avalon/g_202201_16196": {
+"from": 202201,
+"groups": [
+{
+"body": [
+"MXXA50"
+],
+"drive": "fwd",
+"engine": "M20A-FKS",
+"fuel": "бензин",
+"hp": 176,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 176 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202201,
+"id": "446062",
+"name": "2.0 CVT Progressive",
+"to": null
+},
+{
+"from": 202201,
+"id": "446063",
+"name": "2.0 CVT Luxury",
+"to": null
+},
+{
+"from": 202201,
+"id": "446064",
+"name": "2.0 CVT XLE Premium",
+"to": null
+}
+]
+},
+{
+"body": [
+"AXXH50"
+],
+"drive": "fwd",
+"engine": "A25A-FXS",
+"fuel": "бензин",
+"gen_key": "toyota/avalon/g_202201_16196",
+"hp": 177,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 177 л.с., параллельный гибрид, 120 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202201,
+"id": "446068",
+"name": "2.5h CVT Luxury",
+"to": null
+},
+{
+"from": 202201,
+"id": "446069",
+"name": "2.5h CVT XLE Premium",
+"to": null
+},
+{
+"from": 202201,
+"id": "446070",
+"name": "2.5h CVT Limited Ultimate",
+"to": null
+}
+]
+},
+{
+"body": [
+"AXXA50"
+],
+"drive": "fwd",
+"engine": "A25A-FKS",
+"fuel": "бензин",
+"hp": 207,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 207 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202201,
+"id": "446065",
+"name": "2.5 AT Progressive",
+"to": null
+},
+{
+"from": 202201,
+"id": "446066",
+"name": "2.5 AT Luxury",
+"to": null
+},
+{
+"from": 202201,
+"id": "446067",
+"name": "2.5 AT Touring",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/avalon/g_202201_16196",
 "market": "Китай",
 "to": null
 },
@@ -54582,6 +62037,7 @@
 "drive": "4wd",
 "engine": "B420T2, B4204T23",
 "fuel": "бензин",
+"gen_key": "volvo/xc90/g_2019_22448",
 "hp": 250,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -54646,6 +62102,7 @@
 "drive": "4wd",
 "engine": "B420T",
 "fuel": "бензин",
+"gen_key": "volvo/xc90/g_2019_22448",
 "hp": 299,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -54696,6 +62153,7 @@
 "drive": "4wd",
 "engine": "B4204T34",
 "fuel": "бензин",
+"gen_key": "volvo/xc90/g_2019_22448",
 "hp": 303,
 "hp_total": null,
 "hybrid": "параллельный подзаряжаемый (phev) гибрид",
@@ -58658,6 +66116,7 @@
 "двигателиdongfeng": "engine",
 "кузоваdongfeng": "frame"
 },
+"fangchengbao": {},
 "faw": {
 "6350": "6350",
 "6371": "6371",
@@ -59136,6 +66595,27 @@
 "двигателиgeely": "engine",
 "кузоваgeely": "frame"
 },
+"genesis": {
+"engine": "engine",
+"eq900": "eq900",
+"frame": "frame",
+"g70": "g70",
+"g80": "g80",
+"g90": "g90",
+"genesisg70": "g70",
+"genesisg80": "g80",
+"genesisg90": "g90",
+"genesisgv70": "gv70",
+"genesisgv80": "gv80",
+"genesisgv80coupe": "gv80_coupe",
+"gv60": "gv60",
+"gv70": "gv70",
+"gv80": "gv80",
+"gv80coupe": "gv80_coupe",
+"gv90": "gv90",
+"двигателиgenesis": "engine",
+"кузоваgenesis": "frame"
+},
 "haval": {
 "bigdog": "big_dog",
 "bigdogdagou": "big_dog",
@@ -59502,6 +66982,35 @@
 "yttrium3": "yttrium_3",
 "двигателиjac": "engine",
 "кузоваjac": "frame"
+},
+"jeep": {
+"avenger": "avenger",
+"cherokee": "cherokee",
+"commander": "commander",
+"compass": "compass",
+"engine": "engine",
+"frame": "frame",
+"gladiator": "gladiator",
+"grandcherokee": "grand_cherokee",
+"grandcommander": "grand_commander",
+"grandwagoneer": "grand_wagoneer",
+"jeepcherokee": "cherokee",
+"jeepcommander": "commander",
+"jeepcompass": "compass",
+"jeepgladiator": "gladiator",
+"jeepgrandcherokee": "grand_cherokee",
+"jeepgrandwagoneer": "grand_wagoneer",
+"jeepliberty": "liberty",
+"jeeppatriot": "patriot",
+"jeeprenegade": "renegade",
+"jeepwrangler": "wrangler",
+"liberty": "liberty",
+"patriot": "patriot",
+"renegade": "renegade",
+"wagoneer": "wagoneer",
+"wrangler": "wrangler",
+"двигателиjeep": "engine",
+"кузоваjeep": "frame"
 },
 "jetour": {
 "dasheng": "dasheng",
@@ -59879,6 +67388,7 @@
 "двигателиlincoln": "engine",
 "кузоваlincoln": "frame"
 },
+"lixiang": {},
 "luxeed": {
 "engine": "engine",
 "luxeedr7": "r7",
@@ -61292,6 +68802,233 @@
 ],
 "name": "2.0 AT Youth"
 },
+"439929": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"8,1 с"
+],
+[
+"Максимальная скорость",
+"217 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"192 л.с. (141 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"280 Н·м при 4600 об/мин"
+],
+[
+"Модель двигателя",
+"B48A20M0"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,6 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4565 × 1821 × 1620 мм"
+],
+[
+"Колёсная база",
+"2780 мм"
+],
+[
+"Клиренс",
+"183 мм"
+],
+[
+"Масса",
+"1560 кг"
+],
+[
+"Топливный бак",
+"61 л"
+],
+[
+"Багажник",
+"505 (1650) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"245/45 R19"
+],
+[
+"Радиус разворота",
+"5,7 м"
+]
+]
+]
+],
+"name": "xDrive 25Li AT Exclusive"
+},
+"446068": {
+"groups": [
+[
+"Двигатель",
+[
+[
+"Мощность",
+"177 л.с. (130 кВт) при 5700 об/мин"
+],
+[
+"Крутящий момент",
+"221 Н·м при 3600 об/мин"
+],
+[
+"Модель двигателя",
+"A25A-FXS"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"4,7 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4990 × 1849 × 1450 мм"
+],
+[
+"Колёсная база",
+"2870 мм"
+],
+[
+"Клиренс",
+"135 мм"
+],
+[
+"Масса",
+"1655 кг"
+],
+[
+"Топливный бак",
+"49 л"
+],
+[
+"Багажник",
+"455 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/55 R17"
+],
+[
+"Радиус разворота",
+"5,8 м"
+]
+]
+]
+],
+"name": "2.5h CVT Luxury"
+},
 "451899": {
 "groups": [
 [
@@ -61638,6 +69375,112 @@
 ],
 "name": "1.4 TSI 280 AT Pioneer"
 },
+"455120": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,3 с"
+],
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"234 л.с. (172 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"360 Н·м при 1500 об/мин"
+],
+[
+"Модель двигателя",
+"20A4E"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"8,4 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5016 × 1909 × 1782 мм"
+],
+[
+"Колёсная база",
+"3000 мм"
+],
+[
+"Масса",
+"2058 кг"
+],
+[
+"Топливный бак",
+"70 л"
+],
+[
+"Мест",
+"7"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/55 R18"
+]
+]
+]
+],
+"name": "2.0 AT Flagship"
+},
 "455682": {
 "groups": [
 [
@@ -61866,6 +69709,120 @@
 ],
 "name": "1.5T DCT i-Show"
 },
+"457310": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"8,8 с"
+],
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"224 л.с. (165 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"385 Н·м при 3600 об/мин"
+],
+[
+"Модель двигателя",
+"GW4C20B"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,1 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4620 × 1846 × 1660 мм"
+],
+[
+"Колёсная база",
+"2725 мм"
+],
+[
+"Клиренс",
+"169 мм"
+],
+[
+"Масса",
+"1660 кг"
+],
+[
+"Топливный бак",
+"56 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/55 R19"
+]
+]
+]
+],
+"name": "2.0T DCT Smart Play"
+},
 "458576": {
 "groups": [
 [
@@ -61957,6 +69914,102 @@
 ]
 ],
 "name": "1.6 AT Pioneer"
+},
+"458579": {
+"groups": [
+[
+"Двигатель",
+[
+[
+"Мощность",
+"156 л.с. (115 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"260 Н·м при 1500 об/мин"
+],
+[
+"Модель двигателя",
+"JL473ZQ9"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4710 × 1820 × 1505 мм"
+],
+[
+"Колёсная база",
+"2700 мм"
+],
+[
+"Клиренс",
+"160 мм"
+],
+[
+"Масса",
+"1365 кг"
+],
+[
+"Топливный бак",
+"53 л"
+],
+[
+"Багажник",
+"500 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/50 R17"
+]
+]
+]
+],
+"name": "1.4 AMT Speed"
 },
 "459005": {
 "groups": [
@@ -62181,6 +70234,128 @@
 ]
 ],
 "name": "1.5 AMT"
+},
+"466183": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"8,6 с"
+],
+[
+"Максимальная скорость",
+"210 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"237 л.с. (174 кВт) при 5000 об/мин"
+],
+[
+"Крутящий момент",
+"350 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"LSY"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"8,2 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5056 × 1964 × 1780 мм"
+],
+[
+"Колёсная база",
+"2863 мм"
+],
+[
+"Клиренс",
+"147 мм"
+],
+[
+"Масса",
+"2070 кг"
+],
+[
+"Топливный бак",
+"82 л"
+],
+[
+"Багажник",
+"257 (922) л"
+],
+[
+"Мест",
+"6"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"235/65 R18"
+],
+[
+"Радиус разворота",
+"5,85 м"
+]
+]
+]
+],
+"name": "2.0T AT AWD 28T Fashion"
 },
 "468256": {
 "groups": [
@@ -63744,6 +71919,116 @@
 ],
 "name": "L 1.4 35 TFSI S Tronic Progressive"
 },
+"512110": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"7,8 с"
+],
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"188 л.с. (138 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"300 Н·м при 1500 об/мин"
+],
+[
+"Модель двигателя",
+"JL473ZQ7"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,9 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4730 × 1890 × 1660 мм"
+],
+[
+"Колёсная база",
+"2795 мм"
+],
+[
+"Масса",
+"1500 кг"
+],
+[
+"Топливный бак",
+"55 л"
+],
+[
+"Багажник",
+"638 (1425) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/55 R19"
+]
+]
+]
+],
+"name": "1.5T DCT Longteng"
+},
 "512875": {
 "groups": [
 [
@@ -64496,6 +72781,120 @@
 ]
 ],
 "name": "PHEV 1.5 SSR Extended Range Basic Model"
+},
+"523282": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"220 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"261 л.с. (192 кВт) при 5600 об/мин"
+],
+[
+"Крутящий момент",
+"380 Н·м при 4400 об/мин"
+],
+[
+"Модель двигателя",
+"KR20DDET"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"9,1 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4705 × 1903 × 1678 мм"
+],
+[
+"Колёсная база",
+"2798 мм"
+],
+[
+"Клиренс",
+"220 мм"
+],
+[
+"Масса",
+"1861 кг"
+],
+[
+"Топливный бак",
+"60 л"
+],
+[
+"Багажник",
+"565 (1139) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"255/45 R20"
+],
+[
+"Радиус разворота",
+"5,5 м"
+]
+]
+]
+],
+"name": "2.0 CVT 4WD Luxury"
 },
 "524179": {
 "groups": [
@@ -65398,6 +73797,116 @@
 ]
 ],
 "name": "PHEV 2.0 T8 AWD Geartronic Long Range Momentum Luxury"
+},
+"537857": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"8,3 с"
+],
+[
+"Максимальная скорость",
+"180 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"101 л.с. (74 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"126 Н·м при 4500 об/мин"
+],
+[
+"Модель двигателя",
+"BYD472QC"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"3,4 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4735 × 1860 × 1710 мм"
+],
+[
+"Колёсная база",
+"2712 мм"
+],
+[
+"Масса",
+"1670 кг"
+],
+[
+"Топливный бак",
+"52 л"
+],
+[
+"Багажник",
+"407 (1430) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/60 R18"
+],
+[
+"Радиус разворота",
+"5,8 м"
+]
+]
+]
+],
+"name": "DM-i 1.5 CVT 75KM Intelligent Driving Leading"
 },
 "538990": {
 "groups": [
