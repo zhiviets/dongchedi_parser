@@ -530,6 +530,13 @@
 "g_202312_20078"
 ]
 },
+"byd/song_max/china": {
+"day": 739884,
+"gens": [
+"g_201709_16857",
+"g_202008_16858"
+]
+},
 "byd/song_plus/china": {
 "day": 739884,
 "gens": [
@@ -1097,6 +1104,13 @@
 "day": 739884,
 "gens": [
 "g_2021_15337"
+]
+},
+"volkswagen/id7/china": {
+"day": 739884,
+"gens": [
+"g_202308_18079",
+"g_2023_20127"
 ]
 },
 "volvo/xc40/china": {
@@ -7154,6 +7168,569 @@
 "market": "Китай",
 "to": null
 },
+"byd/song_max/g_201709_16857": {
+"from": 201709,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "163 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 201910,
+"name": "EV 59 kWh Luxury",
+"to": 202208
+},
+{
+"from": 201910,
+"name": "EV 59 kWh Flagship",
+"to": 202208
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 154 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201709,
+"name": "1.5 MT Comfort 7 seats",
+"to": 201906
+},
+{
+"from": 201709,
+"name": "1.5 MT Intelligent Connected Luxury 7 seats",
+"to": 201906
+},
+{
+"from": 201709,
+"name": "1.5 MT",
+"to": 201906
+},
+{
+"from": 201903,
+"name": "1.5 MT Intelligent Connected Elite 6 seats",
+"to": 202203
+},
+{
+"from": 201903,
+"name": "1.5 MT Intelligent Connected Elite 7 seats",
+"to": 202203
+},
+{
+"from": 201903,
+"name": "1.5 MT Intelligent Connected Ruiyi 7 seats",
+"to": 202203
+},
+{
+"from": 201903,
+"name": "1.5 MT Intelligent Elite 6 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 MT Intelligent Connected Elite Sunroof 7 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 MT Intelligent Connected Ruiyi Sunroof 6 seats",
+"to": 202203
+},
+{
+"from": 201804,
+"name": "1.5 MT Comfort 6 seats",
+"to": 201906
+},
+{
+"from": 201804,
+"name": "1.5 MT Intelligent Luxury 6 seats",
+"to": 201906
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 154 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201709,
+"name": "1.5 DCT Comfort 7 seats",
+"to": 201906
+},
+{
+"from": 201709,
+"name": "1.5 DCT Intelligent Connected Luxury 7 seats",
+"to": 201906
+},
+{
+"from": 201709,
+"name": "1.5 DCT Intelligent Connected Elite 7 seats",
+"to": 201906
+},
+{
+"from": 201709,
+"name": "1.5 DCT Intelligent Connected Premium 7 seats",
+"to": 201906
+},
+{
+"from": 201709,
+"name": "1.5 DCT",
+"to": 201906
+},
+{
+"from": 201804,
+"name": "1.5 DCT Comfort 6 seats",
+"to": 201906
+},
+{
+"from": 201804,
+"name": "1.5 DCT Intelligent Connected Luxury 6 seats",
+"to": 201906
+},
+{
+"from": 201804,
+"name": "1.5 DCT Intelligent Connected Elite 6 seats",
+"to": 201906
+},
+{
+"from": 201804,
+"name": "1.5 DCT Intelligent Connected Premium 7 seats",
+"to": 201906
+},
+{
+"from": 201804,
+"name": "1.5 DCT Intelligent Connected Premium 6 seats",
+"to": 201906
+},
+{
+"from": 201804,
+"name": "1.5 DCT Intelligent Connected Flagship 7 seats",
+"to": 201906
+},
+{
+"from": 201804,
+"name": "1.5 DCT Intelligent Connected Flagship 6 seats",
+"to": 201906
+},
+{
+"from": 201903,
+"name": "1.5 DCT Intelligent Connected Fashion 7 seats",
+"to": 202203
+},
+{
+"from": 201903,
+"name": "1.5 DCT Intelligent Connected Fashion 6 seats",
+"to": 202203
+},
+{
+"from": 201903,
+"name": "1.5 DCT Intelligent Connected Ruiyi 7 seats",
+"to": 202203
+},
+{
+"from": 201903,
+"name": "1.5 DCT Intelligent Connected Elite 7 seats",
+"to": 202203
+},
+{
+"from": 201903,
+"name": "1.5 DCT Intelligent Connected Ruiyi 6 seats",
+"to": 202203
+},
+{
+"from": 201903,
+"name": "1.5 DCT Intelligent Connected Elite 6 seats",
+"to": 202203
+},
+{
+"from": 201903,
+"name": "1.5 DCT Intelligent Connected Dynamic 7 seats",
+"to": 202203
+},
+{
+"from": 201903,
+"name": "1.5 DCT Intelligent Connected Dynamic 6 seats",
+"to": 202203
+},
+{
+"from": 201903,
+"name": "1.5 DCT Intelligent Connected Ruiyao 7 seats",
+"to": 202203
+},
+{
+"from": 201903,
+"name": "1.5 DCT Intelligent Connected Ruiyao 6 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Intelligent Connected Ruiyi Sunroof 7 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Intelligent Connected Ruiyi Sunroof 6 seats",
+"to": 202203
+},
+{
+"from": 201909,
+"name": "1.5 DCT Intelligent Connected Dynamic Yuexiang 7 seats",
+"to": 202203
+},
+{
+"from": 201909,
+"name": "1.5 DCT Intelligent Connected Dynamic Yuexiang 6 seats",
+"to": 202203
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 154 л.с., параллельный подзаряжаемый (PHEV) гибрид, 150 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201903,
+"name": "DM PHEV 1.5 AMT 51 km",
+"to": 202208
+},
+{
+"from": 201903,
+"name": "DM PHEV 1.5 AMT 81 km",
+"to": 202208
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA , BYD476ZQB",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 160 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201903,
+"name": "1.5 MT",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 MT Intelligent Connected Sharp 7 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 MT Intelligent Connected Sharp 6 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 MT Intelligent Connected Ruiyi 7 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 MT Intelligent Connected Ruiyi Sunroof 7 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 MT Intelligent Connected Ruiyi 6 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 MT Intelligent Connected Ruiyi Sunroof 6 seats",
+"to": 202203
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA , BYD476ZQB",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 160 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201903,
+"name": "1.5 DCT",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Intelligent Connected Elite 7 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Intelligent Connected Elite 6 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Intelligent Connected Ruiyi 7 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Intelligent Connected Ruiyi Sunroof 7 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Intelligent Elite 7 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Intelligent Connected Ruiyi 6 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Intelligent Connected Ruiyi Sunroof 6 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Intelligent Elite 6 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Intelligent Connected Dynamic 7 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Navigation Edition 7 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Intelligent Connected Dynamic 6 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Pilot Edition 6 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Intelligent Connected Ruiyao 7 seats",
+"to": 202203
+},
+{
+"from": 201907,
+"name": "1.5 DCT Intelligent Connected Ruiyao 6 seats",
+"to": 202203
+},
+{
+"from": 201909,
+"name": "1.5 DCT Intelligent Connected Dynamic Yuexiang 7 seats",
+"to": 202203
+},
+{
+"from": 201909,
+"name": "1.5 DCT Intelligent Connected Dynamic Yuexiang 6 seats",
+"to": 202203
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 160 л.с., параллельный подзаряжаемый (PHEV) гибрид, 150 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201903,
+"name": "DM PHEV 1.5 AMT 51 km",
+"to": 202208
+},
+{
+"from": 201903,
+"name": "DM PHEV 1.5 AMT 81 km",
+"to": 202208
+}
+]
+}
+],
+"market": "Китай",
+"to": 202208
+},
+"byd/song_max/g_202008_16858": {
+"from": 202008,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472QA",
+"fuel": "бензин",
+"hp": 110,
+"hp_total": 179,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 110 л.с., параллельный подзаряжаемый (PHEV) гибрид, 179 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202201,
+"name": "DM-i PHEV 1.5 Luxury",
+"to": null
+},
+{
+"from": 202201,
+"name": "DM-i PHEV 1.5 Distinguished",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472QA",
+"fuel": "бензин",
+"hp": 110,
+"hp_total": 197,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 110 л.с., параллельный подзаряжаемый (PHEV) гибрид, 197 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202201,
+"name": "DM-i PHEV 1.5 Honor",
+"to": null
+},
+{
+"from": 202201,
+"name": "DM-i PHEV 1.5 Flagship",
+"to": null
+},
+{
+"from": 202201,
+"name": "DM-i PHEV 1.5 Executive",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQB",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 160 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202008,
+"name": "1.5L MT Upgraded Luxury Type",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQB",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 160 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202008,
+"name": "1.5L DCT Upgraded Luxury Type",
+"to": null
+},
+{
+"from": 202008,
+"name": "1.5L DCT Upgraded Premium Type",
+"to": null
+},
+{
+"from": 202008,
+"name": "1.5L DCT Upgraded Luxury Type",
+"to": null
+},
+{
+"from": 202008,
+"name": "1.5L DCT Upgraded Premium Type",
+"to": null
+},
+{
+"from": 202008,
+"name": "1.5L DCT Upgraded Flagship Type",
+"to": null
+},
+{
+"from": 202008,
+"name": "1.5L DCT Upgraded Flagship Type",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
 "byd/song_plus/g_202009_16682": {
 "from": 202009,
 "groups": [
@@ -7280,6 +7857,219 @@
 ],
 "market": "Китай",
 "to": 202306
+},
+"byd/song_plus/g_202306_20023": {
+"from": 202306,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "204 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202306,
+"name": "EV 72 kWh Champion Edition Luxury",
+"to": 202402
+},
+{
+"from": 202306,
+"name": "EV 72 kWh Champion Edition Premium",
+"to": 202402
+},
+{
+"from": 202306,
+"name": "EV 72 kWh Champion Edition Flagship",
+"to": 202402
+},
+{
+"from": 202402,
+"name": "EV 71.8 kWh Honor Edition Luxury",
+"to": 202501
+},
+{
+"from": 202402,
+"name": "EV 71.8 kWh Honor Edition Premium",
+"to": 202501
+},
+{
+"from": 202402,
+"name": "EV 71.8 kWh Honor Edition Flagship",
+"to": 202501
+},
+{
+"from": 202502,
+"name": "EV 71.8 kWh Intelligent Driving Luxury",
+"to": 202512
+},
+{
+"from": 202502,
+"name": "EV 71.8 kWh Intelligent Driving Premium",
+"to": 202512
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "218 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202306,
+"name": "EV 87 kWh Champion Edition Flagship Plus",
+"to": 202402
+},
+{
+"from": 202402,
+"name": "EV 87 kWh Honor Edition Flagship Plus",
+"to": 202501
+},
+{
+"from": 202502,
+"name": "EV 87.04 kWh Intelligent Driving Flagship",
+"to": 202512
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472QC",
+"fuel": "бензин",
+"hp": 101,
+"hp_total": 218,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 101 л.с., параллельный подзаряжаемый (PHEV) гибрид, 218 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202407,
+"name": "DM-i PHEV 12.9 kWh 1.5 CVT Luxury",
+"to": 202501
+},
+{
+"from": 202407,
+"name": "DM-i PHEV 18.3 kWh 1.5 CVT Premium",
+"to": 202501
+},
+{
+"from": 202407,
+"name": "DM-i PHEV 18.3 kWh 1.5 CVT Honor",
+"to": 202501
+},
+{
+"from": 202407,
+"name": "DM-i PHEV 26.6 kWh 1.5 CVT Flagship",
+"to": 202501
+},
+{
+"from": 202407,
+"name": "DM-i PHEV 26.6 kWh 1.5 CVT Flagship Plus",
+"to": 202501
+},
+{
+"from": 202502,
+"name": "DM-i PHEV 12.9 kWh 1.5 CVT Intelligent Driving Luxury",
+"to": 202512
+},
+{
+"from": 202502,
+"name": "DM-i PHEV 18.3 kWh 1.5 CVT Intelligent Driving Premium",
+"to": 202512
+},
+{
+"from": 202502,
+"name": "DM-i PHEV 18.3 kWh 1.5 CVT Intelligent Driving Honor",
+"to": 202512
+},
+{
+"from": 202502,
+"name": "DM-i PHEV 26.6 kWh 1.5 CVT Intelligent Driving Flagship",
+"to": 202512
+},
+{
+"from": 202502,
+"name": "DM-i PHEV 26.6 kWh 1.5 CVT Intelligent Driving Flagship Plus",
+"to": 202512
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472QA",
+"fuel": "бензин",
+"hp": 110,
+"hp_total": 197,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 110 л.с., параллельный подзаряжаемый (PHEV) гибрид, 197 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202306,
+"name": "DM-i PHEV 18.3 kWh 1.5 CVT Champion Edition Flagship",
+"to": 202402
+},
+{
+"from": 202306,
+"name": "DM-i PHEV 18.3 kWh 1.5 CVT Champion Edition Flagship Plus",
+"to": 202402
+},
+{
+"from": 202306,
+"name": "DM-i PHEV 26.6 kWh 1.5 CVT Champion Edition Flagship Plus",
+"to": 202402
+},
+{
+"from": 202306,
+"name": "DM-i PHEV 26.6 kWh 1.5 CVT Champion Edition Flagship Plus 5G",
+"to": 202402
+},
+{
+"from": 202402,
+"name": "DM-i PHEV 12.9 kWh 1.5 CVT Honor Edition Luxury",
+"to": 202412
+},
+{
+"from": 202402,
+"name": "DM-i PHEV 18.3 kWh 1.5 CVT Honor Edition Flagship",
+"to": 202412
+},
+{
+"from": 202402,
+"name": "DM-i PHEV 18.3 kWh 1.5 CVT Honor Edition Flagship Plus",
+"to": 202412
+},
+{
+"from": 202402,
+"name": "DM-i PHEV 26.6 kWh 1.5 CVT Honor Edition Flagship Plus",
+"to": 202412
+},
+{
+"from": 202402,
+"name": "DM-i PHEV 26.6 kWh 1.5 CVT Honor Edition Flagship Plus 5G",
+"to": 202412
+}
+]
+}
+],
+"market": "Китай",
+"to": 202512
 },
 "byd/song_pro/g_201907_16852": {
 "from": 201907,
@@ -8275,6 +9065,252 @@
 {
 "from": 202309,
 "name": "60 kWh Excellence",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"byd/yuan_plus/g_2025_22140": {
+"from": 202502,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "204 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202503,
+"name": "50 kWh Leading",
+"to": null
+},
+{
+"from": 202503,
+"name": "50 kWh Beyond",
+"to": null
+},
+{
+"from": 202503,
+"name": "60 kWh Leading",
+"to": null
+},
+{
+"from": 202503,
+"name": "60 kWh Beyond",
+"to": null
+},
+{
+"from": 202503,
+"name": "60 kWh Excellence",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"byd/yuan_pro/g_202107_15022": {
+"from": 202101,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 95,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "95 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202305,
+"name": "38 kWh Luxury",
+"to": 202409
+},
+{
+"from": 202305,
+"name": "47 kWh Luxury",
+"to": 202409
+},
+{
+"from": 202305,
+"name": "47 kWh Premium",
+"to": 202409
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "136 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202107,
+"name": "39 kWh Comfort",
+"to": 202304
+},
+{
+"from": 202107,
+"name": "50 kWh Luxury",
+"to": 202304
+},
+{
+"from": 202107,
+"name": "50 kWh Distinguished",
+"to": 202304
+}
+]
+}
+],
+"market": "Китай",
+"to": 202409
+},
+"byd/yuan_up/g_202403_20166": {
+"from": 202402,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "32 kWh Leading",
+"fuel": "electric",
+"hp": 95,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "95 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202403,
+"name": "32 kWh Leading",
+"to": 202501
+},
+{
+"from": 202407,
+"name": "45 kWh Vitality",
+"to": 202501
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "Цена б/у:",
+"fuel": "electric",
+"hp": 177,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "177 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202403,
+"name": "45 kWh Leading",
+"to": 202501
+},
+{
+"from": 202403,
+"name": "45 kWh Beyond",
+"to": 202501
+}
+]
+}
+],
+"market": "Китай",
+"to": 202501
+},
+"byd/yuan_up/g_202502_25119": {
+"from": 202502,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 95,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "95 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202502,
+"name": "45 kWh Intelligent Driving Vitality",
+"to": null
+},
+{
+"from": 202507,
+"name": "32 kWh Intelligent Driving Pilot",
+"to": null
+},
+{
+"from": 202609,
+"name": "32 kWh Feichi Navigator",
+"to": null
+},
+{
+"from": 202609,
+"name": "45 kWh Feichi Navigator",
+"to": null
+},
+{
+"from": 202609,
+"name": "45 kWh Feichi Vitality",
+"to": null
+},
+{
+"from": 202609,
+"name": "51 kWh Feichi Superior",
+"to": null
+},
+{
+"from": 202609,
+"name": "51 kWh Feichi Excellent",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 177,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "177 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202502,
+"name": "45 kWh Intelligent Driving Leading",
+"to": null
+},
+{
+"from": 202502,
+"name": "45 kWh Intelligent Driving Beyond",
 "to": null
 }
 ]
@@ -18387,6 +19423,32 @@
 "market": "Китай",
 "to": null
 },
+"nio/et9/g_2024_20742": {
+"from": 202406,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 707,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "707 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202412,
+"name": "100 kWh",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
 "nissan/nx8/g_2025_23755": {
 "from": 202512,
 "groups": [
@@ -22088,6 +23150,87 @@
 {
 "from": 202106,
 "name": "84.8 kWh X Prime",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"volkswagen/id7/g_202308_18079": {
+"from": 202304,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 286,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "286 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202308,
+"name": "77 kWh Pro",
+"to": null
+}
+]
+}
+],
+"market": "Европа",
+"to": null
+},
+"volkswagen/id7/g_2023_20127": {
+"from": 202304,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "204 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202312,
+"name": "Vizzion 85 kWh Air",
+"to": null
+},
+{
+"from": 202312,
+"name": "Vizzion 85 kWh First Edition",
+"to": null
+},
+{
+"from": 202312,
+"name": "Vizzion 85 kWh Pro",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 313,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "313 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202312,
+"name": "Vizzion 85 kWh Prime",
 "to": null
 }
 ]
@@ -26477,6 +27620,70 @@
 {
 "from": 202412,
 "name": "93.7 kWh Ultra",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"xiaomi/yu7/g_2024_21749": {
+"from": 202412,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 320,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "320 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202505,
+"name": "96.3 kWh",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 496,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "496 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202505,
+"name": "96.3 kWh Pro",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 690,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "690 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202505,
+"name": "101.7 kWh Max",
 "to": null
 }
 ]
