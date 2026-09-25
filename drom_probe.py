@@ -34,38 +34,36 @@ CARS = [
 
 # Страницы для просмотра как есть (DROM_PROBE_PAGES=1): строки групп комплектаций и ссылки на модели
 PAGES = [
-    "https://www.drom.ru/catalog/hyundai/ioniq_5/g_2021_13909/",
-    "https://www.drom.ru/catalog/kia/ev6/g_202103_14557/",
-    "https://www.drom.ru/catalog/tesla/model_3/g_2017_7723/",
-    "https://www.drom.ru/catalog/kia/",
-    "https://www.drom.ru/catalog/hyundai/",
-    "https://www.drom.ru/catalog/bmw/",
-    "https://www.drom.ru/catalog/renault_samsung/",
-    "https://www.drom.ru/catalog/ssang_yong/",
+    "https://www.drom.ru/catalog/hyundai/avante/g_2020_13900/",
+    "https://www.drom.ru/catalog/porsche/718/",
 ]
 
 
 def probe_pages(browser):
+    """Страница поколения: ссылки на комплектации; страница комплектации — текст целиком."""
+    import re
     fetch = drom_specs.playwright_fetcher(browser.new_context(user_agent=UA, locale="ru-RU"))
-    for url in PAGES:
-        try:
-            html, text = fetch(url)
-        except Exception as error:
-            print(f"\n{url}: {error}")
-            continue
-        lines = drom_specs.text_lines(text)
-        heads = [ln for ln in lines if "л.с." in ln and "привод" in ln and len(ln) < 200]
-        print(f"\n{url}: строк {len(lines)}, похожих на группы {len(heads)}")
-        for ln in heads[:8]:
-            print("   группа:", ln, "→", drom_specs.parse_header(ln))
-        path = url.split("/catalog/", 1)[1]
-        if path.count("/") == 1:
-            import re
-            slugs = sorted(set(re.findall(rf'/catalog/{re.escape(path)}([a-z0-9_\-~]+)/', html)))
-            print(f"   ссылок на модели {len(slugs)}: {' '.join(slugs)}")
-            for m in re.finditer(rf'<a[^>]+/catalog/{re.escape(path)}(?:carnival|palisade|seltos|4-series|sm6|tivoli)/[^>]*>.{{0,300}}', html, re.S):
-                print("   разметка:", m.group(0)[:300].replace("\n", " "))
-                break
+    html, text = fetch("https://www.drom.ru/catalog/hyundai/avante/")
+    gens = sorted(set(re.findall(r'/catalog/hyundai/avante/(g_\d+_\d+)/', html)))
+    print("поколения avante:", gens)
+    gen = next((g for g in gens if g.startswith("g_2020")), gens[-1] if gens else None)
+    html, text = fetch(f"https://www.drom.ru/catalog/hyundai/avante/{gen}/")
+    links = sorted(set(re.findall(r'href="((?:https://www\.drom\.ru)?/catalog/hyundai/avante/[^"#?]+)"', html)))
+    print(f"ссылки на странице поколения {gen} ({len(links)}):")
+    for u in links[:60]:
+        print("  ", u)
+    trims = [u for u in links if re.search(r"/avante/\d+/?$", u)]
+    lines = drom_specs.text_lines(text)
+    i = next((k for k, ln in enumerate(lines) if "л.с." in ln and "привод" in ln), 0)
+    print("строки вокруг первой группы:")
+    for ln in lines[max(i - 3, 0):i + 25]:
+        print("   |", ln)
+    for u in trims[:2]:
+        url = u if u.startswith("http") else "https://www.drom.ru" + u
+        html2, text2 = fetch(url)
+        print(f"\n=== комплектация {url}")
+        for ln in drom_specs.text_lines(text2)[:260]:
+            print("   |", ln)
 
 
 def main():
