@@ -653,13 +653,16 @@ def pick_models(groups: dict, total: int, on_site: dict | None = None, have: dic
             del open_cells[cell]
             continue
         take(c)
+    # Каких-то лет не хватило — добираем машинами тех же классов других лет, которых каталогу
+    # ещё не хватает (переполненные годы не берём)
     for kind in KINDS:
         more = candidates(kind, None)
         while len(picked) < total and total_of(kind) < sum(v for (k, _), v in want.items() if k == kind):
             c = next(more, None)
             if c is None:
                 break
-            take(c)
+            if want.get((kind, year_band(c["year"]))):
+                take(c)
     share = total_of("le160") / len(picked) if picked else 0
     years = {name: sum(v for (_, b), v in count.items() if b == name) for name, *_ in YEAR_BANDS}
     print(f"Выбрано: новых моделей {covered} (на сайте нет {len(new_models)} из {len(groups)}), "
