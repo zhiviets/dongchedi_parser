@@ -72,6 +72,8 @@ def main():
         browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
         if os.environ.get("DROM_PROBE_PAGES", "1") == "1":
             probe_pages(browser)
+            browser.close()
+            return
         drom = drom_specs.DromCatalog(cache, drom_specs.playwright_fetcher(browser.new_context(user_agent=UA, locale="ru-RU")))
         for car in CARS:
             path = drom.model_path(car["make"], car["model"])
