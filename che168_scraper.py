@@ -1145,10 +1145,22 @@ def drom_car(car: dict, make: str, model: str) -> dict:
     }
 
 
+def drom_tech(car: dict, make, model, drom, counts, found=None):
+    """Технические характеристики комплектации с drom.ru (разгон, расход, размеры…) или None."""
+    if not (drom and make and model):
+        return None
+    found = found or drom.power(drom_car(car, make, model))
+    tech = drom.tech(found.get("trim")) if found else None
+    if tech:
+        counts["tech"] = counts.get("tech", 0) + 1
+    return tech
+
+
 def add_power(spec: dict, car: dict, make, model, autohome, drom, counts):
-    """Точная мощность в характеристики: Autohome по номеру комплектации, иначе drom.ru."""
+    """Точная мощность в характеристики: Autohome по номеру комплектации, иначе drom.ru.
+    → технические характеристики комплектации с drom.ru (или None)."""
     if spec.get("Максимальная мощность (кВт)") or spec.get("Мощность, л.с."):
-        return
+        return drom_tech(car, make, model, drom, counts)
     info = autohome.info(car.get("specid")) if autohome else {}
     # Объём и коробка с Autohome — у машин «из списка» (объявление закрыто капчей) их иначе нет,
     # а без объёма не посчитать таможню
@@ -1161,15 +1173,16 @@ def add_power(spec: dict, car: dict, make, model, autohome, drom, counts):
     if kw:
         spec["Максимальная мощность (кВт)"] = f"{kw:g}"
         counts["autohome"] += 1
-        return
+        return drom_tech(car, make, model, drom, counts)
     found = drom.power(drom_car(car, make, model)) if (drom and make and model) else None
     if found:
         spec["Мощность, л.с."] = str(found["hp"])
         if found.get("hp_total"):
             spec["Суммарная мощность гибрида, л.с."] = str(found["hp_total"])
         counts["drom"] += 1
-        return
+        return drom_tech(car, make, model, drom, counts, found)
     counts["none"] += 1
+    return None
 
 
 # ---------- bn-auto ----------
@@ -1405,13 +1418,14 @@ def main():
                 d = {"spec": spec_from_name(car), "photos": []}
                 from_list += 1
             make, model = brand_model(car["name"], body or "", car.get("brandid"))
-            add_power(d["spec"], car, make, model, autohome, drom, power_counts)
+            tech = add_power(d["spec"], car, make, model, autohome, drom, power_counts)
             opts = equipment.get(car.get("specid"))
             listings.append({
                 "external_id": car["infoid"], "make": make, "model": model, "title": car["name"],
                 "year": car["year"], "mileage_km": car["mileage_km"], "price_value": car["price_cny"],
                 "photo_url": fetch_photo(session, d["photos"] + photo_candidates(car.get("image"))),
                 "spec": d["spec"] or None, "source_url": url, **({"options": opts} if opts else {}),
+                **({"tech": tech} if tech else {}),
             })
             done += 1
             src = "из списка" if body is None else "из объявления"
@@ -1514,6 +1528,7 @@ def main():
         drom.save()
         print(f"Мощность: из Autohome {power_counts['autohome']}, из drom.ru {power_counts['drom']} "
               f"(совпадений drom.ru: {drom.stats}, страниц drom.ru {drom.requests}), не найдена {power_counts['none']}; "
+              f"технические характеристики с drom.ru у {power_counts.get('tech', 0)}; "
               f"Autohome: {autohome.stats}")
         browser.close()
 
