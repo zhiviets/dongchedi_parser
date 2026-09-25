@@ -4391,6 +4391,37 @@
 "market": "Китай",
 "to": null
 },
+"byd/d1/g_2020_22852": {
+"from": 202011,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "136 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202211,
+"name": "53.6 kWh Standard Edition",
+"to": null
+},
+{
+"from": 202306,
+"name": "53.6 kWh Beyond Edition",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
 "byd/destroyer_05/g_2021_16850": {
 "from": 202111,
 "groups": [
@@ -11876,6 +11907,61 @@
 {
 "from": 202410,
 "name": "3.0 АТ Model Classic Edition",
+"to": null
+}
+]
+}
+],
+"market": "Китай",
+"to": null
+},
+"leapmotor/a10/g_2025_23630": {
+"from": 202511,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 95,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "95 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202603,
+"name": "39.8 kWh Comfort",
+"to": null
+},
+{
+"from": 202603,
+"name": "39.8 kWh Enjoy",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "122 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202603,
+"name": "53 kWh Enjoy",
+"to": null
+},
+{
+"from": 202603,
+"name": "53 kWh LiDAR",
 "to": null
 }
 ]
@@ -28127,6 +28213,55 @@
 "двигателиferrari": "engine",
 "кузоваferrari": "frame"
 },
+"fiat": {
+"124": "124",
+"124spider": "124_spider",
+"125": "125",
+"128": "128",
+"500": "500",
+"500x": "500x",
+"600": "600",
+"albea": "albea",
+"brava": "brava",
+"bravo": "bravo",
+"coupe": "coupe-model",
+"coupemodel": "coupe-model",
+"croma": "croma",
+"doblo": "doblo",
+"engine": "engine",
+"fiat500": "500",
+"fiatalbea": "albea",
+"fiatdoblo": "doblo",
+"fiatfullback": "fullback",
+"fiatlinea": "linea",
+"fiatpanda": "panda",
+"fiatpunto": "punto",
+"fiatscudo": "scudo",
+"fiattipo": "tipo",
+"frame": "frame",
+"freemont": "freemont",
+"fullback": "fullback",
+"grandepunto": "grande_punto",
+"linea": "linea",
+"multipla": "multipla",
+"palio": "palio",
+"panda": "panda",
+"punto": "punto",
+"qubo": "qubo",
+"regata": "regata",
+"ritmo": "ritmo",
+"scudo": "scudo",
+"sedici": "sedici",
+"seicento": "seicento",
+"stilo": "stilo",
+"strada": "strada",
+"talento": "talento",
+"tipo": "tipo",
+"ulysse": "ulysse",
+"uno": "uno",
+"двигателиfiat": "engine",
+"кузоваfiat": "frame"
+},
 "ford": {
 "aerostar": "aerostar",
 "aspire": "aspire",
@@ -28337,6 +28472,53 @@
 "way": "way",
 "двигателиgac": "engine",
 "кузоваgac": "frame"
+},
+"haval": {
+"bigdog": "big_dog",
+"bigdogdagou": "big_dog",
+"chitu": "chitu",
+"cooldog": "cool_dog",
+"cooldogkugou": "cool_dog",
+"dargo": "dargo",
+"engine": "engine",
+"f5": "f5",
+"f7": "f7",
+"f7x": "f7x",
+"greatwallh10": "h10",
+"h1": "h1",
+"h10": "h10",
+"h2": "h2",
+"h2s": "h2s",
+"h3": "h3",
+"h4": "h4",
+"h4pro": "h4_pro",
+"h5": "h5",
+"h6": "h6",
+"h6coupe": "h6_coupe",
+"h6l": "h6l",
+"h6s": "h6s",
+"h7": "h7",
+"h8": "h8",
+"h9": "h9",
+"havaldargo": "dargo",
+"havalf7": "f7",
+"havalf7x": "f7x",
+"havalh3": "h3",
+"havalh5": "h5",
+"havalh6": "h6",
+"havalh7": "h7",
+"havalh9": "h9",
+"havaljolion": "jolion",
+"havalm6": "m6",
+"hdog": "h_dog",
+"jolion": "jolion",
+"m6": "m6",
+"m6plus": "m6_plus",
+"raptor": "raptor",
+"shenshou": "shenshou",
+"xiaolong": "xiaolong",
+"xiaolongmax": "xiaolong_max",
+"двигателиhaval": "engine"
 },
 "hongqi": {
 "eh7": "eh7",
