@@ -32,10 +32,48 @@ CARS = [
 ]
 
 
+# Страницы для просмотра как есть (DROM_PROBE_PAGES=1): строки групп комплектаций и ссылки на модели
+PAGES = [
+    "https://www.drom.ru/catalog/hyundai/ioniq_5/g_2021_13909/",
+    "https://www.drom.ru/catalog/kia/ev6/g_202103_14557/",
+    "https://www.drom.ru/catalog/tesla/model_3/g_2017_7723/",
+    "https://www.drom.ru/catalog/kia/",
+    "https://www.drom.ru/catalog/hyundai/",
+    "https://www.drom.ru/catalog/bmw/",
+    "https://www.drom.ru/catalog/renault_samsung/",
+    "https://www.drom.ru/catalog/ssang_yong/",
+]
+
+
+def probe_pages(browser):
+    fetch = drom_specs.playwright_fetcher(browser.new_context(user_agent=UA, locale="ru-RU"))
+    for url in PAGES:
+        try:
+            html, text = fetch(url)
+        except Exception as error:
+            print(f"\n{url}: {error}")
+            continue
+        lines = drom_specs.text_lines(text)
+        heads = [ln for ln in lines if "л.с." in ln and "привод" in ln and len(ln) < 200]
+        print(f"\n{url}: строк {len(lines)}, похожих на группы {len(heads)}")
+        for ln in heads[:8]:
+            print("   группа:", ln, "→", drom_specs.parse_header(ln))
+        path = url.split("/catalog/", 1)[1]
+        if path.count("/") == 1:
+            import re
+            slugs = sorted(set(re.findall(rf'/catalog/{re.escape(path)}([a-z0-9_\-~]+)/', html)))
+            print(f"   ссылок на модели {len(slugs)}: {' '.join(slugs)}")
+            for m in re.finditer(rf'<a[^>]+/catalog/{re.escape(path)}(?:carnival|palisade|seltos|4-series|sm6|tivoli)/[^>]*>.{{0,300}}', html, re.S):
+                print("   разметка:", m.group(0)[:300].replace("\n", " "))
+                break
+
+
 def main():
     cache = os.path.join(os.path.dirname(os.path.abspath(__file__)), "drom_cache.json")
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
+        if os.environ.get("DROM_PROBE_PAGES", "1") == "1":
+            probe_pages(browser)
         drom = drom_specs.DromCatalog(cache, drom_specs.playwright_fetcher(browser.new_context(user_agent=UA, locale="ru-RU")))
         for car in CARS:
             path = drom.model_path(car["make"], car["model"])
