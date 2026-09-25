@@ -20,7 +20,6 @@
 
 import html as html_lib
 import json
-import math
 import os
 import random
 import re
@@ -547,28 +546,69 @@ def year_band(year):
     return next((name for name, lo, hi, _ in YEAR_BANDS if year and lo <= year <= hi), None)
 
 
-def pick_models(groups: dict, total: int, on_site: dict | None = None) -> list[dict]:
-    """Не больше total машин: 75% до 160 л.с., 25% мощнее (электро, гибриды), по годам — YEAR_BANDS.
+KINDS = ("le160", "other")
 
-    1) каждая модель, у которой есть машина до 160 л.с., — одна такая машина;
-    2) добор «до 160» по кругу по моделям до 75%, внутри — по долям лет;
-    3) модели, где есть только мощные, — по одной, сколько влезает в 25%. Их порядок
-       случайный: от прогона к прогону на сайт попадают разные, а не попавшие через
-       20 дней скрываются — со временем на сайте бывают все модели;
-    4) добор мощных до 25%.
-    Модели, которых на сайте меньше (on_site), идут первыми; по машине без очереди (1 и 3)
-    получают только модели, которых на сайте ещё нет.
+
+def catalog_have(items) -> dict:
+    """Состав каталога: {(класс мощности, годы): машин} — по опубликованным полным машинам с
+    сайта (мощность и «электро» — как их считает сайт)."""
+    have = {}
+    for i in items:
+        if not (i.get("complete") and i.get("published")):
+            continue
+        power = i.get("power") or 0
+        if not power and not i.get("electric"):
+            continue
+        kind = "other" if power > 160 or i.get("electric") else "le160"
+        band = year_band(int(i["year"]) if i.get("year") else None)
+        if band:
+            have[(kind, band)] = have.get((kind, band), 0) + 1
+    return have
+
+
+def run_wants(total: int, have: dict) -> dict:
+    """Сколько машин каждой клетки (класс мощности, годы) взять за прогон, чтобы доли (75% до
+    160 л.с., YEAR_BANDS) держались для каталога целиком: прошлый перекос выправляется,
+    переполненные клетки в этот прогон не берём."""
+    final = sum(have.values()) + total
+    need = {(k, name): max(0, round(final * (SHARE_160 if k == "le160" else 1 - SHARE_160) * w) - have.get((k, name), 0))
+            for k in KINDS for name, _, _, w in YEAR_BANDS}
+    s = sum(need.values())
+    if s > total:
+        exact = {c: v * total / s for c, v in need.items()}
+        # Округление с сохранением суммы: целые части, остаток — самым большим дробным
+        need = {c: int(v) for c, v in exact.items()}
+        for c in sorted(exact, key=lambda c: exact[c] - need[c], reverse=True)[:total - sum(need.values())]:
+            need[c] += 1
+    return need
+
+
+def pick_models(groups: dict, total: int, on_site: dict | None = None, have: dict | None = None) -> list[dict]:
+    """Не больше total машин: 75% до 160 л.с., 25% мощнее (электро, гибриды), по годам — YEAR_BANDS.
+    Доли — для каталога целиком (have — состав сайта, см. run_wants).
+
+    1) каждой модели, которой на сайте ещё нет, — по машине: класс и годы — из клетки
+       «класс × годы», набранной меньше всего;
+    2) добор по кругу по моделям, клетки вперемешку;
+    3) каких-то лет не хватило — машины тех же классов любых лет.
+    Модели, которых на сайте меньше (on_site), идут первыми, при равенстве — в случайном
+    порядке: от прогона к прогону на сайт попадают разные модели.
     """
     on_site = on_site or {}
     order = sorted(groups, key=lambda k: (on_site.get(k, 0), random.random()))
     groups = {k: groups[k] for k in order}
-    picked, used = [], set()
-    count = {}
+    picked, used, count, taken = [], set(), {}, {}
     rank = {name: i for i, (name, *_) in enumerate(YEAR_BANDS)}
-    quota = {"le160": round(total * SHARE_160)}
-    quota["other"] = total - quota["le160"]
+    want = run_wants(total, have or {})
+    print("Нужно за прогон: " + ", ".join(f"{'до 160' if k == 'le160' else 'мощнее'} {b} — {v}"
+                                            for (k, b), v in want.items()))
 
-    taken = {}
+    def fill_ratio(car):
+        cell = (car["power"], year_band(car["year"]))
+        return count.get(cell, 0) / want[cell] if want.get(cell) else 9
+
+    def total_of(kind):
+        return sum(v for (k, _), v in count.items() if k == kind)
 
     def take(c):
         key = (series_key(c["name"]), c["power"])
@@ -578,59 +618,52 @@ def pick_models(groups: dict, total: int, on_site: dict | None = None) -> list[d
         k = (c["power"], year_band(c["year"]))
         count[k] = count.get(k, 0) + 1
 
-    def total_of(kind):
-        return sum(v for (k, _), v in count.items() if k == kind)
-
     for cars in groups.values():
-        # Сначала 2022–2024, потом 2025–2026, потом старше; уже на сайте — первыми (порядок сохраняется)
+        # Сначала 2022–2024, потом 2025–2026, потом старше
         cars.sort(key=lambda c: rank.get(year_band(c["year"]), 9))
-    le_models = [cars for k, cars in groups.items() if any(c["power"] == "le160" for c in cars) and not on_site.get(k)]
-    other_models = [cars for k, cars in groups.items() if not any(c["power"] == "le160" for c in cars)
-                    and not on_site.get(k)]
-    for cars in le_models:
-        if total_of("le160") < quota["le160"]:
-            take(next(c for c in cars if c["power"] == "le160"))
+    new_models = [cars for k, cars in groups.items() if not on_site.get(k)]
+    for cars in new_models:
+        if len(picked) >= total:
+            break
+        best = min(cars, key=fill_ratio)
+        if fill_ratio(best) < 1:
+            take(best)
+    covered = len(picked)
 
-    def fill(kind, band, need):
+    def candidates(kind, band):
+        """Следующая машина класса kind и лет band — по кругу моделей, по машине с модели за круг."""
         pools = {k: iter([c for c in v if c["power"] == kind and (band is None or year_band(c["year"]) == band)])
                  for k, v in groups.items()}
         progress = True
-        while need() and progress:
+        while progress:
             progress = False
             for key, it in pools.items():
-                if not need():
-                    break
                 if taken.get((key, kind), 0) >= PER_MODEL_RUN[kind]:
                     continue   # разнообразие: не больше PER_MODEL_RUN машин модели за прогон
                 c = next((c for c in it if c["infoid"] not in used), None)
                 if c:
-                    take(c)
                     progress = True
+                    yield c
 
-    def fill_kind(kind, target):
-        # С лимитом на модель больше не взять: доли лет считаем от реально доступного
-        room = sum(min(PER_MODEL_RUN[kind] - taken.get((k, kind), 0),
-                       sum(1 for c in cars if c.get("power") in (kind, None) and c["infoid"] not in used))
-                   for k, cars in groups.items())
-        target = min(target, total_of(kind) + max(room, 0))
-        for name, _, _, w in YEAR_BANDS:
-            want = round(target * w)
-            fill(kind, name, lambda: count.get((kind, name), 0) < want and total_of(kind) < target)
-        fill(kind, None, lambda: total_of(kind) < target)   # в какой-то группе лет машин не хватило
-
-    fill_kind("le160", quota["le160"])
-    ratio = (1 - SHARE_160) / SHARE_160 if SHARE_160 else 0
-    # Мощных — не больше трети от «до 160» (если «до 160» не хватило, мощных тоже меньше)
-    other_target = min(quota["other"], math.floor(total_of("le160") * ratio))
-    for cars in other_models:
-        if total_of("other") < other_target:
-            take(cars[0])
-    covered = len({series_key(c["name"]) for c in picked})
-    fill_kind("other", other_target)
+    open_cells = {cell: candidates(*cell) for cell, v in want.items() if v > 0}
+    while open_cells and len(picked) < total:
+        cell = min(open_cells, key=lambda c: count.get(c, 0) / want[c])
+        c = next(open_cells[cell], None) if count.get(cell, 0) < want[cell] else None
+        if c is None:
+            del open_cells[cell]
+            continue
+        take(c)
+    for kind in KINDS:
+        more = candidates(kind, None)
+        while len(picked) < total and total_of(kind) < sum(v for (k, _), v in want.items() if k == kind):
+            c = next(more, None)
+            if c is None:
+                break
+            take(c)
     share = total_of("le160") / len(picked) if picked else 0
     years = {name: sum(v for (_, b), v in count.items() if b == name) for name, *_ in YEAR_BANDS}
-    print(f"Выбрано: моделей {covered} из {len(groups)} (новых на сайте: с машинами до 160 л.с. {len(le_models)}, только мощные "
-          f"{len(other_models)}), машин {len(picked)} — до 160 л.с. {total_of('le160')} ({share:.0%}), "
+    print(f"Выбрано: новых моделей {covered} (на сайте нет {len(new_models)} из {len(groups)}), "
+          f"машин {len(picked)} — до 160 л.с. {total_of('le160')} ({share:.0%}), "
           f"мощнее или электро/гибрид {total_of('other')}; по годам: " + ", ".join(f"{k} — {v}" for k, v in years.items()))
     return picked
 
@@ -1292,7 +1325,12 @@ def gather(page, known: set, total: int, items: dict, touched: list) -> list[dic
             for key, cars in groups.items():
                 make, model = brand_model(cars[0]["name"], "", cars[0].get("brandid"))[:2]
                 on_site[key] = by_name.get((make, model), 0)
-            return pick_models(groups, total, on_site)
+            have = catalog_have(items.values())
+            print("На сайте по годам: " + ", ".join(f"{name} — {sum(v for (_, b), v in have.items() if b == name)}"
+                                                    for name, *_ in YEAR_BANDS)
+                  + f"; до 160 л.с. {sum(v for (k, _), v in have.items() if k == 'le160')}, "
+                    f"мощнее {sum(v for (k, _), v in have.items() if k == 'other')}")
+            return pick_models(groups, total, on_site, have)
     return collect(page, known, total)
 
 
