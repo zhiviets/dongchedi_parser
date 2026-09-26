@@ -819,6 +819,14 @@
 "g_202602_24551"
 ]
 },
+"chery/tiggo_3x/china": {
+"day": 739885,
+"gens": [
+"g_2016_19060",
+"g_202008_19061",
+"g_2023_19059"
+]
+},
 "chery/tiggo_5x/china": {
 "day": 739884,
 "gens": [
@@ -1126,6 +1134,14 @@
 "day": 739884,
 "gens": []
 },
+"jaguar/xj/china": {
+"day": 739884,
+"gens": []
+},
+"jeep/compass/china": {
+"day": 739884,
+"gens": []
+},
 "jeep/wrangler/china": {
 "day": 739884,
 "gens": []
@@ -1147,6 +1163,12 @@
 "gens": [
 "g_2023_21655",
 "g_2025_22887"
+]
+},
+"jetta/va7/china": {
+"day": 739885,
+"gens": [
+"g_2024_23624"
 ]
 },
 "jetta/vs5/china": {
@@ -1525,6 +1547,20 @@
 "g_2025_23755"
 ]
 },
+"nissan/qashqai/china": {
+"day": 739885,
+"gens": [
+"g_200612_4115",
+"g_201003_1269",
+"g_201402_2151",
+"g_201709_8251",
+"g_2017_20944",
+"g_202106_12975",
+"g_2021_20945",
+"g_202406_20423",
+"g_202410_21267"
+]
+},
 "nissan/sylphy/china": {
 "day": 739884,
 "gens": [
@@ -1547,6 +1583,16 @@
 "g_201402_2127",
 "g_201607_20058",
 "g_202511_23251"
+]
+},
+"nissan/tiida/china": {
+"day": 739885,
+"gens": [
+"g_200409_5267",
+"g_200801_1012",
+"g_201104_3582",
+"g_2011_21338",
+"g_201605_21339"
 ]
 },
 "porsche/panamera/china": {
@@ -25461,6 +25507,7 @@
 "drive": "fwd",
 "engine": "BYD472QC",
 "fuel": "бензин",
+"gen_key": "byd/song_pro/g_202409_21199",
 "hp": 101,
 "hp_total": 163,
 "hybrid": "параллельный подзаряжаемый (phev) гибрид",
@@ -26433,6 +26480,7 @@
 ]
 }
 ],
+"key": "byd/yuan_plus/g_2025_22140",
 "market": "Китай",
 "to": null
 },
@@ -27605,6 +27653,603 @@
 "key": "changan/uni-z/g_202403_20436",
 "market": "Китай",
 "to": null
+},
+"chery/tiggo_3x/g_2016_19060": {
+"from": 201604,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRD4G15B",
+"fuel": "бензин",
+"hp": 106,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 106 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201803,
+"id": "476838",
+"name": "1.5 MT Comfort",
+"to": 202012
+},
+{
+"from": 201803,
+"id": "476860",
+"name": "1.5 MT Elite",
+"to": 202012
+},
+{
+"from": 201611,
+"id": "476839",
+"name": "1.5 MT Urban",
+"to": 202012
+},
+{
+"from": 201611,
+"id": "476842",
+"name": "1.5 MT Fashion",
+"to": 202012
+},
+{
+"from": 201611,
+"id": "476843",
+"name": "1.5 MT Luxury",
+"to": 202012
+},
+{
+"from": 201611,
+"id": "476844",
+"name": "1.5 MT Premium",
+"to": 202012
+},
+{
+"from": 201704,
+"id": "476841",
+"name": "1.5 MT Urban Leading",
+"to": 202012
+},
+{
+"from": 201701,
+"id": "476845",
+"name": "1.5 MT Smart Luxury",
+"to": 202012
+},
+{
+"from": 201706,
+"id": "476838",
+"name": "1.5 MT Comfort",
+"to": 201802
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRD4G15B",
+"fuel": "бензин",
+"hp": 106,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 106 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201803,
+"id": "476850",
+"name": "1.5 AT Comfort",
+"to": 202012
+},
+{
+"from": 201803,
+"id": "476862",
+"name": "1.5 AT Elite",
+"to": 202012
+},
+{
+"from": 201803,
+"id": "476857",
+"name": "1.5 AT Luxury",
+"to": 202012
+},
+{
+"from": 201704,
+"id": "476851",
+"name": "1.5 AT Urban Leading",
+"to": 202012
+},
+{
+"from": 201701,
+"id": "476852",
+"name": "1.5 AT Smart Luxury",
+"to": 202012
+},
+{
+"from": 201611,
+"id": "476853",
+"name": "1.5 AT Urban",
+"to": 202012
+},
+{
+"from": 201611,
+"id": "476854",
+"name": "1.5 AT Fashion",
+"to": 202012
+},
+{
+"from": 201611,
+"id": "476856",
+"name": "1.5 AT Premium",
+"to": 202012
+},
+{
+"from": 201611,
+"id": "476857",
+"name": "1.5 AT Luxury",
+"to": 201802
+},
+{
+"from": 201706,
+"id": "476850",
+"name": "1.5 AT Comfort",
+"to": 201802
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4G15C",
+"fuel": "бензин",
+"hp": 116,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 116 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201912,
+"id": "476839",
+"name": "1.5 MT Urban",
+"to": 202012
+},
+{
+"from": 201912,
+"id": "476843",
+"name": "1.5 MT Luxury",
+"to": 202012
+},
+{
+"from": 201912,
+"id": "476844",
+"name": "1.5 MT Premium",
+"to": 202012
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4G15C",
+"fuel": "бензин",
+"hp": 116,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 116 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201912,
+"id": "476886",
+"name": "1.5 CVT Urban",
+"to": 202012
+},
+{
+"from": 201912,
+"id": "476887",
+"name": "1.5 CVT Luxury",
+"to": 202012
+},
+{
+"from": 201912,
+"id": "476888",
+"name": "1.5 CVT Premium",
+"to": 202012
+}
+]
+}
+],
+"ids": true,
+"key": "chery/tiggo_3x/g_2016_19060",
+"market": "Китай",
+"to": 202012
+},
+"chery/tiggo_3x/g_202008_19061": {
+"from": 202004,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4G15C",
+"fuel": "бензин",
+"hp": 116,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 116 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202008,
+"id": "476932",
+"name": "1.5 MT Plus Happy Cashew",
+"to": 202111
+},
+{
+"from": 202008,
+"id": "476937",
+"name": "1.5 MT Plus Happy Red Date",
+"to": 202111
+},
+{
+"from": 202008,
+"id": "476939",
+"name": "1.5 MT Plus Fun Pine Nut",
+"to": 202106
+},
+{
+"from": 202107,
+"id": "476942",
+"name": "1.5 MT Plus Queen",
+"to": 202111
+},
+{
+"from": 202107,
+"id": "476947",
+"name": "1.5 MT Diamond Edition Queen",
+"to": 202111
+},
+{
+"from": 202107,
+"id": "476939",
+"name": "1.5 MT Plus Fun Pine Nut",
+"to": 202111
+},
+{
+"from": 202103,
+"id": "476943",
+"name": "1.5 MT Diamond Edition 1 carat",
+"to": 202111
+},
+{
+"from": 202103,
+"id": "476944",
+"name": "1.5 MT Diamond Edition 2 carat",
+"to": 202111
+},
+{
+"from": 202112,
+"id": "476932",
+"name": "1.5 MT Plus Happy Cashew",
+"to": 202311
+},
+{
+"from": 202112,
+"id": "476943",
+"name": "1.5 MT Diamond Edition 1 carat",
+"to": 202311
+},
+{
+"from": 202112,
+"id": "476937",
+"name": "1.5 MT Plus Happy Red Date",
+"to": 202311
+},
+{
+"from": 202112,
+"id": "476942",
+"name": "1.5 MT Plus Queen",
+"to": 202311
+},
+{
+"from": 202112,
+"id": "476944",
+"name": "1.5 MT Diamond Edition 2 carat",
+"to": 202311
+},
+{
+"from": 202112,
+"id": "476947",
+"name": "1.5 MT Diamond Edition Queen",
+"to": 202311
+},
+{
+"from": 202112,
+"id": "476939",
+"name": "1.5 MT Plus Fun Pine Nut",
+"to": 202311
+},
+{
+"from": 202205,
+"id": "476973",
+"name": "1.5 MT Plus Urban",
+"to": 202311
+},
+{
+"from": 202205,
+"id": "476975",
+"name": "1.5 MT Plus Fashion",
+"to": 202311
+},
+{
+"from": 202205,
+"id": "476976",
+"name": "1.5 MT Diamond Edition Elite",
+"to": 202311
+},
+{
+"from": 202306,
+"id": "476977",
+"name": "1.5 MT E-Commerce",
+"to": 202307
+},
+{
+"from": 202308,
+"id": "476977",
+"name": "1.5 MT E-Commerce",
+"to": 202311
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4G15C",
+"fuel": "бензин",
+"gen_key": "chery/tiggo_3x/g_202008_19061",
+"hp": 116,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 116 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202008,
+"id": "476954",
+"name": "1.5 CVT Plus Happy Red Date",
+"to": 202111
+},
+{
+"from": 202008,
+"id": "476958",
+"name": "1.5 CVT Plus Fun Pine Nut",
+"to": 202111
+},
+{
+"from": 202109,
+"id": "476956",
+"name": "1.5 CVT Plus Happy Red Date Type-II",
+"to": 202111
+},
+{
+"from": 202109,
+"id": "476961",
+"name": "1.5 CVT Diamond Edition 3 carat Type-II",
+"to": 202111
+},
+{
+"from": 202107,
+"id": "476959",
+"name": "1.5 CVT Plus Queen",
+"to": 202111
+},
+{
+"from": 202103,
+"id": "476960",
+"name": "1.5 CVT Diamond Edition 3 carat",
+"to": 202111
+},
+{
+"from": 202103,
+"id": "476962",
+"name": "1.5 CVT Diamond Edition Queen",
+"to": 202111
+},
+{
+"from": 202112,
+"id": "476978",
+"name": "1.5 CVT Plus Happy Red Date Type-I",
+"to": 202311
+},
+{
+"from": 202112,
+"id": "476956",
+"name": "1.5 CVT Plus Happy Red Date Type-II",
+"to": 202311
+},
+{
+"from": 202112,
+"id": "476980",
+"name": "1.5 CVT Plus Siberia",
+"to": 202311
+},
+{
+"from": 202112,
+"id": "477001",
+"name": "1.5 CVT Diamond Edition 3 carat Type-I",
+"to": 202311
+},
+{
+"from": 202112,
+"id": "476961",
+"name": "1.5 CVT Diamond Edition 3 carat Type-II",
+"to": 202311
+},
+{
+"from": 202112,
+"id": "477003",
+"name": "1.5 CVT Diamond Edition Siberia",
+"to": 202311
+},
+{
+"from": 202112,
+"id": "476958",
+"name": "1.5 CVT Plus Fun Pine Nut",
+"to": 202311
+},
+{
+"from": 202112,
+"id": "476959",
+"name": "1.5 CVT Plus Queen",
+"to": 202204
+},
+{
+"from": 202112,
+"id": "476962",
+"name": "1.5 CVT Diamond Edition Queen",
+"to": 202204
+},
+{
+"from": 202205,
+"id": "477008",
+"name": "1.5 CVT Plus Fashion",
+"to": 202311
+},
+{
+"from": 202205,
+"id": "477006",
+"name": "1.5 CVT Diamond Edition Elite",
+"to": 202311
+},
+{
+"from": 202205,
+"id": "477009",
+"name": "1.5 CVT Plus Fashion+",
+"to": 202311
+},
+{
+"from": 202205,
+"id": "477007",
+"name": "1.5 CVT Diamond Edition Elite+",
+"to": 202311
+},
+{
+"from": 202205,
+"id": "477000",
+"name": "1.5 CVT Plus Luxury",
+"to": 202311
+},
+{
+"from": 202205,
+"id": "476959",
+"name": "1.5 CVT Plus Queen",
+"to": 202311
+},
+{
+"from": 202205,
+"id": "476962",
+"name": "1.5 CVT Diamond Edition Queen",
+"to": 202311
+},
+{
+"from": 202408,
+"id": "521647",
+"name": "1.5 CVT Excellent",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "chery/tiggo_3x/g_202008_19061",
+"market": "Китай",
+"to": null
+},
+"chery/tiggo_3x/g_2023_19059": {
+"from": 202305,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4G15C",
+"fuel": "бензин",
+"hp": 116,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 116 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202305,
+"id": "477011",
+"name": "1.5 MT Fashion",
+"to": 202410
+},
+{
+"from": 202404,
+"id": "521646",
+"name": "1.5 MT Urban",
+"to": 202410
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4G15C",
+"fuel": "бензин",
+"gen_key": "chery/tiggo_3x/g_2023_19059",
+"hp": 116,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 116 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202310,
+"id": "477012",
+"name": "1.5 CVT Elite",
+"to": 202404
+},
+{
+"from": 202305,
+"id": "477013",
+"name": "1.5 CVT Fashion",
+"to": 202410
+},
+{
+"from": 202305,
+"id": "477014",
+"name": "1.5 CVT Shiny Edition",
+"to": 202404
+},
+{
+"from": 202308,
+"id": "477015",
+"name": "1.5 CVT Smart",
+"to": 202404
+},
+{
+"from": 202308,
+"id": "477016",
+"name": "1.5 CVT New Dynamic",
+"to": 202404
+}
+]
+}
+],
+"ids": true,
+"key": "chery/tiggo_3x/g_2023_19059",
+"market": "Китай",
+"to": 202410
 },
 "chery/tiggo_5x/g_2017_19282": {
 "from": 201704,
@@ -29540,6 +30185,7 @@
 ]
 }
 ],
+"key": "deepal/l06/g_2025_24279",
 "market": "Китай",
 "to": null
 },
@@ -35645,6 +36291,48 @@
 }
 ],
 "key": "jetour/l9/g_2025_22887",
+"market": "Китай",
+"to": null
+},
+"jetta/va7/g_2024_23624": {
+"from": 202411,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "DLE",
+"fuel": "бензин",
+"gen_key": "jetta/va7/g_2024_23624",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202501,
+"id": "543317",
+"name": "1.4 DSG Listen to Advice",
+"to": null
+},
+{
+"from": 202501,
+"id": "543319",
+"name": "1.4 DSG First Come, First Served",
+"to": null
+},
+{
+"from": 202501,
+"id": "543320",
+"name": "1.4 DSG Super Featured",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "jetta/va7/g_2024_23624",
 "market": "Китай",
 "to": null
 },
@@ -48757,6 +49445,1736 @@
 "market": "Китай",
 "to": null
 },
+"nissan/qashqai/g_201402_2151": {
+"from": 201311,
+"groups": [
+{
+"body": [
+"J11"
+],
+"drive": "fwd",
+"engine": "H5FT",
+"fuel": "бензин",
+"hp": 115,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.2,
+"text": "1.2 л, 115 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201404,
+"id": "75416",
+"name": "1.2 MT XE",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75424",
+"name": "1.2 MT SE+",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75422",
+"name": "1.2 MT SE",
+"to": 201601
+},
+{
+"from": 201602,
+"id": "75416",
+"name": "1.2 MT XE",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "75422",
+"name": "1.2 MT SE",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "75424",
+"name": "1.2 MT SE+",
+"to": 201701
+},
+{
+"from": 201702,
+"id": "75416",
+"name": "1.2 MT XE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "75422",
+"name": "1.2 MT SE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "75424",
+"name": "1.2 MT SE+",
+"to": 201912
+}
+]
+},
+{
+"body": [
+"J11"
+],
+"drive": "fwd",
+"engine": "H5FT",
+"fuel": "бензин",
+"hp": 115,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.2,
+"text": "1.2 л, 115 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201410,
+"id": "78204",
+"name": "1.2 CVT XE",
+"to": 201601
+},
+{
+"from": 201410,
+"id": "78205",
+"name": "1.2 CVT SE",
+"to": 201601
+},
+{
+"from": 201410,
+"id": "78206",
+"name": "1.2 CVT SE+",
+"to": 201601
+},
+{
+"from": 201602,
+"id": "78204",
+"name": "1.2 CVT XE",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "78205",
+"name": "1.2 CVT SE",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "78206",
+"name": "1.2 CVT SE+",
+"to": 201701
+},
+{
+"from": 201702,
+"id": "78204",
+"name": "1.2 CVT XE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "78205",
+"name": "1.2 CVT SE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "78206",
+"name": "1.2 CVT SE+",
+"to": 201912
+}
+]
+},
+{
+"body": [
+"J11"
+],
+"drive": "fwd",
+"engine": "R9M",
+"fuel": "дизель",
+"hp": 130,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 130 л.с., дизель, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201404,
+"id": "75436",
+"name": "1.6 dCi CVT SE",
+"to": 201503
+},
+{
+"from": 201404,
+"id": "75437",
+"name": "1.6 dCi CVT LE",
+"to": 201503
+},
+{
+"from": 201404,
+"id": "75438",
+"name": "1.6 dCi CVT LE+",
+"to": 201503
+},
+{
+"from": 201512,
+"id": "75436",
+"name": "1.6 dCi CVT SE",
+"to": 201601
+},
+{
+"from": 201512,
+"id": "75437",
+"name": "1.6 dCi CVT LE",
+"to": 201601
+},
+{
+"from": 201512,
+"id": "75438",
+"name": "1.6 dCi CVT LE+",
+"to": 201601
+},
+{
+"from": 201602,
+"id": "75436",
+"name": "1.6 dCi CVT SE",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "92688",
+"name": "1.6 dCi CVT LE Roof",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "75437",
+"name": "1.6 dCi CVT LE",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "75438",
+"name": "1.6 dCi CVT LE+",
+"to": 201701
+},
+{
+"from": 201702,
+"id": "75436",
+"name": "1.6 dCi CVT SE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "75437",
+"name": "1.6 dCi CVT LE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "75438",
+"name": "1.6 dCi CVT LE+",
+"to": 201912
+}
+]
+},
+{
+"body": [
+"J11"
+],
+"drive": "fwd",
+"engine": "MR20DD",
+"fuel": "бензин",
+"hp": 144,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 144 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201404,
+"id": "75420",
+"name": "2.0 MT XE",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75425",
+"name": "2.0 MT SE+",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75423",
+"name": "2.0 MT SE",
+"to": 201601
+},
+{
+"from": 201602,
+"id": "75420",
+"name": "2.0 MT XE",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "75423",
+"name": "2.0 MT SE",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "75425",
+"name": "2.0 MT SE+",
+"to": 201701
+},
+{
+"from": 201702,
+"id": "75420",
+"name": "2.0 MT XE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "75423",
+"name": "2.0 MT SE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "75425",
+"name": "2.0 MT SE+",
+"to": 201912
+},
+{
+"from": 201806,
+"id": "210702",
+"name": "2.0 MT SE Яндекс.Авто",
+"to": 201912
+}
+]
+},
+{
+"body": [
+"J11"
+],
+"drive": "fwd",
+"engine": "MR20DD",
+"fuel": "бензин",
+"hp": 144,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 144 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201404,
+"id": "75421",
+"name": "2.0 CVT XE",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75426",
+"name": "2.0 CVT SE",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75429",
+"name": "2.0 CVT SE+",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75431",
+"name": "2.0 CVT LE",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75433",
+"name": "2.0 CVT LE+",
+"to": 201601
+},
+{
+"from": 201602,
+"id": "75421",
+"name": "2.0 CVT XE",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "75426",
+"name": "2.0 CVT SE",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "75429",
+"name": "2.0 CVT SE+",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "92686",
+"name": "2.0 CVT LE Roof",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "75431",
+"name": "2.0 CVT LE",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "75433",
+"name": "2.0 CVT LE+",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "92699",
+"name": "2.0 CVT LE Top",
+"to": 201604
+},
+{
+"from": 201605,
+"id": "129412",
+"name": "2.0 CVT LE Sport",
+"to": 201701
+},
+{
+"from": 201611,
+"id": "173860",
+"name": "2.0 CVT CITY",
+"to": 201701
+},
+{
+"from": 201611,
+"id": "173861",
+"name": "2.0 CVT CITY 360",
+"to": 201701
+},
+{
+"from": 201702,
+"id": "75421",
+"name": "2.0 CVT XE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "75426",
+"name": "2.0 CVT SE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "75429",
+"name": "2.0 CVT SE+",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "178724",
+"name": "2.0 CVT QE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "178726",
+"name": "2.0 CVT QE+",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "75431",
+"name": "2.0 CVT LE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "75433",
+"name": "2.0 CVT LE+",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "129412",
+"name": "2.0 CVT LE Sport",
+"to": 202001
+},
+{
+"from": 201702,
+"id": "92686",
+"name": "2.0 CVT LE Roof",
+"to": 201802
+},
+{
+"from": 201806,
+"id": "210703",
+"name": "2.0 CVT SE Яндекс.Авто",
+"to": 201912
+},
+{
+"from": 201806,
+"id": "210706",
+"name": "2.0 CVT QE Яндекс.Авто",
+"to": 201912
+}
+]
+},
+{
+"body": [
+"J11"
+],
+"drive": "4wd",
+"engine": "MR20DD",
+"fuel": "бензин",
+"hp": 144,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 144 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201404,
+"id": "75428",
+"name": "2.0 CVT 4WD SE",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75430",
+"name": "2.0 CVT 4WD SE+",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75432",
+"name": "2.0 CVT 4WD LE",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75434",
+"name": "2.0 CVT 4WD LE+",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75435",
+"name": "2.0 CVT 4WD LE Sport",
+"to": 201601
+},
+{
+"from": 201602,
+"id": "75428",
+"name": "2.0 CVT 4WD SE",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "75430",
+"name": "2.0 CVT 4WD SE+",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "92687",
+"name": "2.0 CVT 4WD LE Roof",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "75432",
+"name": "2.0 CVT 4WD LE",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "75434",
+"name": "2.0 CVT 4WD LE+",
+"to": 201701
+},
+{
+"from": 201602,
+"id": "92700",
+"name": "2.0 CVT 4WD LE Top",
+"to": 201602
+},
+{
+"from": 201605,
+"id": "75435",
+"name": "2.0 CVT 4WD LE Sport",
+"to": 201701
+},
+{
+"from": 201611,
+"id": "173858",
+"name": "2.0 CVT 4WD CITY",
+"to": 201701
+},
+{
+"from": 201611,
+"id": "173863",
+"name": "2.0 CVT 4WD CITY 360",
+"to": 201701
+},
+{
+"from": 201702,
+"id": "75428",
+"name": "2.0 CVT 4WD SE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "75430",
+"name": "2.0 CVT 4WD SE+",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "178725",
+"name": "2.0 CVT 4WD QE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "178727",
+"name": "2.0 CVT 4WD QE+",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "75432",
+"name": "2.0 CVT 4WD LE",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "75435",
+"name": "2.0 CVT 4WD LE Sport",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "75434",
+"name": "2.0 CVT 4WD LE+",
+"to": 201912
+},
+{
+"from": 201702,
+"id": "92687",
+"name": "2.0 CVT 4WD LE Roof",
+"to": 201802
+},
+{
+"from": 201806,
+"id": "210707",
+"name": "2.0 CVT 4WD SE Яндекс.Авто",
+"to": 201912
+},
+{
+"from": 201806,
+"id": "210708",
+"name": "2.0 CVT 4WD QE Яндекс.Авто",
+"to": 201912
+}
+]
+}
+],
+"ids": true,
+"key": "nissan/qashqai/g_201402_2151",
+"market": "Россия",
+"to": 201912
+},
+"nissan/qashqai/g_201709_8251": {
+"from": 201703,
+"groups": [
+{
+"body": [
+"J11"
+],
+"drive": "fwd",
+"engine": "HRA2",
+"fuel": "бензин",
+"hp": 115,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.2,
+"text": "1.2 л, 115 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201903,
+"id": "201296",
+"name": "1.2 DIG-T MT XE",
+"to": 202210
+},
+{
+"from": 201903,
+"id": "241500",
+"name": "1.2 DIG-T MT SE",
+"to": 202210
+},
+{
+"from": 201903,
+"id": "241502",
+"name": "1.2 DIG-T MT SE+",
+"to": 202011
+},
+{
+"from": 202009,
+"id": "241502",
+"name": "1.2 DIG-T MT SE+",
+"to": 202210
+}
+]
+},
+{
+"body": [
+"J11"
+],
+"drive": "fwd",
+"engine": "HRA2",
+"fuel": "бензин",
+"hp": 115,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.2,
+"text": "1.2 л, 115 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201903,
+"id": "241507",
+"name": "1.2 DIG-T CVT XE",
+"to": 202210
+},
+{
+"from": 201903,
+"id": "241508",
+"name": "1.2 DIG-T CVT SE",
+"to": 202210
+},
+{
+"from": 201903,
+"id": "241509",
+"name": "1.2 DIG-T CVT SE+",
+"to": 202011
+},
+{
+"from": 202009,
+"id": "241509",
+"name": "1.2 DIG-T CVT SE+",
+"to": 202210
+}
+]
+},
+{
+"body": [
+"J11"
+],
+"drive": "fwd",
+"engine": "MR20DD",
+"fuel": "бензин",
+"hp": 144,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 144 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201903,
+"id": "201299",
+"name": "2.0 MT XE",
+"to": 202210
+},
+{
+"from": 201903,
+"id": "241511",
+"name": "2.0 MT SE",
+"to": 202210
+},
+{
+"from": 201903,
+"id": "241512",
+"name": "2.0 MT SE Яндекс.Авто",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "241513",
+"name": "2.0 MT SE+",
+"to": 202011
+},
+{
+"from": 202009,
+"id": "241513",
+"name": "2.0 MT SE+",
+"to": 202210
+}
+]
+},
+{
+"body": [
+"J11"
+],
+"drive": "fwd",
+"engine": "MR20DD",
+"fuel": "бензин",
+"hp": 144,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 144 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201903,
+"id": "241514",
+"name": "2.0 CVT SE Яндекс.Авто",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "241515",
+"name": "2.0 CVT SE+",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "241521",
+"name": "2.0 CVT QE",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "241522",
+"name": "2.0 CVT QE Яндекс.Авто",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "241523",
+"name": "2.0 CVT QE+",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "241524",
+"name": "2.0 CVT LE",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "241525",
+"name": "2.0 CVT LE+",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "242968",
+"name": "2.0 CVT LE Top",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "241516",
+"name": "2.0 CVT XE",
+"to": 202210
+},
+{
+"from": 201903,
+"id": "241517",
+"name": "2.0 CVT SE",
+"to": 202210
+},
+{
+"from": 202009,
+"id": "241515",
+"name": "2.0 CVT SE+",
+"to": 202210
+},
+{
+"from": 202009,
+"id": "303330",
+"name": "2.0 CVT SE Top",
+"to": 202210
+},
+{
+"from": 202009,
+"id": "241514",
+"name": "2.0 CVT SE Яндекс.Авто",
+"to": 202107
+},
+{
+"from": 202009,
+"id": "303353",
+"name": "2.0 CVT LE Яндекс.Авто",
+"to": 202107
+},
+{
+"from": 202009,
+"id": "242968",
+"name": "2.0 CVT LE Top",
+"to": 202107
+},
+{
+"from": 202105,
+"id": "241524",
+"name": "2.0 CVT LE",
+"to": 202210
+},
+{
+"from": 202105,
+"id": "242968",
+"name": "2.0 CVT LE Top",
+"to": 202210
+},
+{
+"from": 202105,
+"id": "241525",
+"name": "2.0 CVT LE+",
+"to": 202210
+}
+]
+},
+{
+"body": [
+"J11"
+],
+"drive": "4wd",
+"engine": "MR20DD",
+"fuel": "бензин",
+"hp": 144,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 144 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201903,
+"id": "241537",
+"name": "2.0 CVT 4WD SE Яндекс.Авто",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "241536",
+"name": "2.0 CVT 4WD SE+",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "241533",
+"name": "2.0 CVT 4WD QE",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "241532",
+"name": "2.0 CVT 4WD QE Яндекс.Авто",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "241531",
+"name": "2.0 CVT 4WD QE+",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "241530",
+"name": "2.0 CVT 4WD LE",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "241529",
+"name": "2.0 CVT 4WD LE+",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "242969",
+"name": "2.0 CVT 4WD LE Top",
+"to": 202011
+},
+{
+"from": 201903,
+"id": "252014",
+"name": "2.0 CVT 4WD XE",
+"to": 202210
+},
+{
+"from": 201903,
+"id": "241534",
+"name": "2.0 CVT 4WD SE",
+"to": 202210
+},
+{
+"from": 202009,
+"id": "241536",
+"name": "2.0 CVT 4WD SE+",
+"to": 202210
+},
+{
+"from": 202009,
+"id": "303331",
+"name": "2.0 CVT 4WD SE Top",
+"to": 202210
+},
+{
+"from": 202009,
+"id": "241537",
+"name": "2.0 CVT 4WD SE Яндекс.Авто",
+"to": 202107
+},
+{
+"from": 202009,
+"id": "303354",
+"name": "2.0 CVT 4WD LE Яндекс.Авто",
+"to": 202107
+},
+{
+"from": 202009,
+"id": "242969",
+"name": "2.0 CVT 4WD LE Top",
+"to": 202107
+},
+{
+"from": 202105,
+"id": "241530",
+"name": "2.0 CVT 4WD LE",
+"to": 202210
+},
+{
+"from": 202105,
+"id": "242969",
+"name": "2.0 CVT 4WD LE Top",
+"to": 202210
+},
+{
+"from": 202105,
+"id": "241529",
+"name": "2.0 CVT 4WD LE+",
+"to": 202210
+}
+]
+}
+],
+"ids": true,
+"key": "nissan/qashqai/g_201709_8251",
+"market": "Россия",
+"to": 202210
+},
+"nissan/qashqai/g_2017_20944": {
+"from": 201703,
+"groups": [
+{
+"body": [
+"J11"
+],
+"drive": "fwd",
+"engine": "MR20DD",
+"fuel": "бензин",
+"hp": 151,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 151 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202307,
+"id": "508610",
+"name": "Classic 2.0 CVT XV Comfort",
+"to": 202409
+},
+{
+"from": 202307,
+"id": "508626",
+"name": "Classic 2.0 CVT XV+ Leading",
+"to": 202409
+},
+{
+"from": 202307,
+"id": "508636",
+"name": "Classic 2.0 CVT XV Prem Smart",
+"to": 202409
+},
+{
+"from": 202109,
+"id": "508691",
+"name": "2.0 CVT XV Smart",
+"to": 202306
+},
+{
+"from": 202109,
+"id": "508692",
+"name": "2.0 CVT XV Prem Luxury",
+"to": 202306
+},
+{
+"from": 202109,
+"id": "508695",
+"name": "2.0 CVT XV Prem.Pro Luxury",
+"to": 202306
+},
+{
+"from": 202109,
+"id": "508696",
+"name": "2.0 CVT XV TOP Flagship",
+"to": 202306
+}
+]
+},
+{
+"body": [
+"J11"
+],
+"drive": "fwd",
+"engine": "MR20DD",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 154 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201904,
+"id": "508699",
+"name": "2.0 CVT Smart",
+"to": 202108
+},
+{
+"from": 201904,
+"id": "508698",
+"name": "2.0 CVT Luxury",
+"to": 202108
+},
+{
+"from": 201904,
+"id": "508697",
+"name": "2.0 CVT Flagship",
+"to": 202108
+}
+]
+}
+],
+"ids": true,
+"key": "nissan/qashqai/g_2017_20944",
+"market": "Китай",
+"to": 202409
+},
+"nissan/qashqai/g_202106_12975": {
+"from": 202102,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR13DDT",
+"fuel": "бензин",
+"hp": 140,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.3,
+"text": "1.3 л, бензин, 140 л.с., мягкий гибрид, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202106,
+"id": "528633",
+"name": "1.3 DIG-T MT Visia",
+"to": 202405
+},
+{
+"from": 202106,
+"id": "528634",
+"name": "1.3 DIG-T MT Acenta",
+"to": 202405
+},
+{
+"from": 202106,
+"id": "528635",
+"name": "1.3 DIG-T MT N-Connecta",
+"to": 202405
+},
+{
+"from": 202106,
+"id": "528636",
+"name": "1.3 DIG-T MT Tekna",
+"to": 202405
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR13DDT",
+"fuel": "бензин",
+"hp": 158,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.3,
+"text": "1.3 л, бензин, 158 л.с., мягкий гибрид, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202106,
+"id": "528634",
+"name": "1.3 DIG-T MT Acenta",
+"to": 202405
+},
+{
+"from": 202106,
+"id": "528635",
+"name": "1.3 DIG-T MT N-Connecta",
+"to": 202405
+},
+{
+"from": 202106,
+"id": "528636",
+"name": "1.3 DIG-T MT Tekna",
+"to": 202405
+},
+{
+"from": 202106,
+"id": "528640",
+"name": "1.3 DIG-T MT Tekna+",
+"to": 202405
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR13DDT",
+"fuel": "бензин",
+"hp": 158,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.3,
+"text": "1.3 л, бензин, 158 л.с., мягкий гибрид, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202106,
+"id": "528641",
+"name": "1.3 DIG-T CVT Acenta",
+"to": 202405
+},
+{
+"from": 202106,
+"id": "528642",
+"name": "1.3 DIG-T CVT N-Connecta",
+"to": 202405
+},
+{
+"from": 202106,
+"id": "528643",
+"name": "1.3 DIG-T CVT Tekna",
+"to": 202405
+},
+{
+"from": 202106,
+"id": "528644",
+"name": "1.3 DIG-T CVT Tekna+",
+"to": 202405
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "HR13DDT",
+"fuel": "бензин",
+"hp": 158,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.3,
+"text": "1.3 л, бензин, 158 л.с., мягкий гибрид, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202106,
+"id": "528645",
+"name": "1.3 DIG-T CVT 4x4 N-Connecta",
+"to": 202405
+},
+{
+"from": 202106,
+"id": "528646",
+"name": "1.3 DIG-T CVT 4x4 Black Edition",
+"to": 202405
+},
+{
+"from": 202106,
+"id": "528647",
+"name": "1.3 DIG-T CVT 4x4 Tekna",
+"to": 202405
+},
+{
+"from": 202106,
+"id": "528648",
+"name": "1.3 DIG-T CVT 4x4 Tekna+",
+"to": 202405
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "KR15DDT",
+"fuel": "бензин",
+"hp": 158,
+"hp_total": 190,
+"hybrid": "последовательный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 158 л.с., последовательный гибрид, 190 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202207,
+"id": "528649",
+"name": "1.5 VC-T e-POWER N-Connecta",
+"to": 202405
+},
+{
+"from": 202207,
+"id": "528650",
+"name": "1.5 VC-T e-POWER Black Edition",
+"to": 202405
+},
+{
+"from": 202207,
+"id": "528651",
+"name": "1.5 VC-T e-POWER Tekna",
+"to": 202405
+},
+{
+"from": 202207,
+"id": "528652",
+"name": "1.5 VC-T e-POWER Tekna+",
+"to": 202405
+}
+]
+}
+],
+"ids": true,
+"key": "nissan/qashqai/g_202106_12975",
+"market": "Европа",
+"to": 202405
+},
+"nissan/qashqai/g_2021_20945": {
+"from": 202102,
+"groups": [
+{
+"body": [
+"J12"
+],
+"drive": "fwd",
+"engine": "HR13DDT",
+"fuel": "бензин",
+"hp": 158,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.3,
+"text": "1.3 л, 158 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202308,
+"id": "508646",
+"name": "1.3 CVT Elite",
+"to": 202408
+},
+{
+"from": 202308,
+"id": "508657",
+"name": "1.3 CVT Luxury",
+"to": 202408
+},
+{
+"from": 202308,
+"id": "508667",
+"name": "1.3 CVT Navigator",
+"to": 202408
+},
+{
+"from": 202308,
+"id": "508680",
+"name": "1.3 CVT Ultimate",
+"to": 202408
+},
+{
+"from": 202408,
+"id": "528473",
+"name": "1.3 CVT Black Gold",
+"to": 202408
+}
+]
+}
+],
+"ids": true,
+"key": "nissan/qashqai/g_2021_20945",
+"market": "Китай",
+"to": 202408
+},
+"nissan/qashqai/g_202406_20423": {
+"from": 202404,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR13DDT",
+"fuel": "бензин",
+"hp": 140,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.3,
+"text": "1.3 л, бензин, 140 л.с., мягкий гибрид, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202406,
+"id": "528916",
+"name": "1.3 DIG-T MT Acenta",
+"to": 202509
+},
+{
+"from": 202406,
+"id": "528917",
+"name": "1.3 DIG-T MT N-Connecta",
+"to": 202509
+},
+{
+"from": 202406,
+"id": "528918",
+"name": "1.3 DIG-T MT N-Design",
+"to": 202509
+},
+{
+"from": 202406,
+"id": "528919",
+"name": "1.3 DIG-T MT Tekna",
+"to": 202509
+},
+{
+"from": 202510,
+"id": "528916",
+"name": "1.3 DIG-T MT Acenta",
+"to": null
+},
+{
+"from": 202510,
+"id": "528917",
+"name": "1.3 DIG-T MT N-Connecta",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR13DDT",
+"fuel": "бензин",
+"hp": 158,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.3,
+"text": "1.3 л, бензин, 158 л.с., мягкий гибрид, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202406,
+"id": "528916",
+"name": "1.3 DIG-T MT Acenta",
+"to": null
+},
+{
+"from": 202406,
+"id": "528917",
+"name": "1.3 DIG-T MT N-Connecta",
+"to": null
+},
+{
+"from": 202406,
+"id": "528918",
+"name": "1.3 DIG-T MT N-Design",
+"to": 202509
+},
+{
+"from": 202406,
+"id": "528919",
+"name": "1.3 DIG-T MT Tekna",
+"to": 202509
+},
+{
+"from": 202406,
+"id": "528924",
+"name": "1.3 DIG-T MT Tekna+",
+"to": 202509
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR13DDT",
+"fuel": "бензин",
+"hp": 158,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.3,
+"text": "1.3 л, бензин, 158 л.с., мягкий гибрид, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202406,
+"id": "528925",
+"name": "1.3 DIG-T CVT Acenta",
+"to": null
+},
+{
+"from": 202406,
+"id": "528926",
+"name": "1.3 DIG-T CVT N-Connecta",
+"to": null
+},
+{
+"from": 202406,
+"id": "528927",
+"name": "1.3 DIG-T CVT N-Design",
+"to": null
+},
+{
+"from": 202406,
+"id": "528928",
+"name": "1.3 DIG-T CVT Tekna",
+"to": 202509
+},
+{
+"from": 202406,
+"id": "528929",
+"name": "1.3 DIG-T CVT Tekna+",
+"to": 202509
+},
+{
+"from": 202510,
+"id": "544316",
+"name": "1.3 DIG-T CVT N-Way",
+"to": null
+},
+{
+"from": 202510,
+"id": "528928",
+"name": "1.3 DIG-T CVT Tekna",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "HR13DDT",
+"fuel": "бензин",
+"hp": 158,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.3,
+"text": "1.3 л, бензин, 158 л.с., мягкий гибрид, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202406,
+"id": "528930",
+"name": "1.3 DIG-T CVT 4x4 N-Connecta",
+"to": null
+},
+{
+"from": 202406,
+"id": "528931",
+"name": "1.3 DIG-T CVT 4x4 N-Design",
+"to": null
+},
+{
+"from": 202406,
+"id": "528932",
+"name": "1.3 DIG-T CVT 4x4 Tekna",
+"to": 202509
+},
+{
+"from": 202406,
+"id": "528933",
+"name": "1.3 DIG-T CVT 4x4 Tekna+",
+"to": 202509
+},
+{
+"from": 202510,
+"id": "528932",
+"name": "1.3 DIG-T CVT 4x4 Tekna",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "KR15DDT",
+"fuel": "бензин",
+"hp": 158,
+"hp_total": 190,
+"hybrid": "последовательный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 158 л.с., последовательный гибрид, 190 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202406,
+"id": "528934",
+"name": "1.5 VC-T e-POWER Acenta",
+"to": 202509
+},
+{
+"from": 202406,
+"id": "528935",
+"name": "1.5 VC-T e-POWER N-Connecta",
+"to": 202509
+},
+{
+"from": 202406,
+"id": "528936",
+"name": "1.5 VC-T e-POWER N-Design",
+"to": 202509
+},
+{
+"from": 202406,
+"id": "528937",
+"name": "1.5 VC-T e-POWER Tekna",
+"to": 202509
+},
+{
+"from": 202406,
+"id": "528938",
+"name": "1.5 VC-T e-POWER Tekna+",
+"to": 202509
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "бензин",
+"hp": 158,
+"hp_total": 205,
+"hybrid": "последовательный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 158 л.с., последовательный гибрид, 205 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202510,
+"id": "528934",
+"name": "1.5 VC-T e-POWER Acenta",
+"to": null
+},
+{
+"from": 202510,
+"id": "528935",
+"name": "1.5 VC-T e-POWER N-Connecta",
+"to": null
+},
+{
+"from": 202510,
+"id": "528936",
+"name": "1.5 VC-T e-POWER N-Design",
+"to": null
+},
+{
+"from": 202510,
+"id": "544322",
+"name": "1.5 VC-T e-POWER N-Way",
+"to": null
+},
+{
+"from": 202510,
+"id": "528937",
+"name": "1.5 VC-T e-POWER Tekna",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "nissan/qashqai/g_202406_20423",
+"market": "Европа",
+"to": null
+},
+"nissan/qashqai/g_202410_21267": {
+"from": 202409,
+"groups": [
+{
+"body": [
+"J11"
+],
+"drive": "fwd",
+"engine": "MR20DD",
+"fuel": "бензин",
+"gen_key": "nissan/qashqai/g_202410_21267",
+"hp": 151,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 151 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202410,
+"id": "515077",
+"name": "Glory / Honor 2.0 CVT XV True",
+"to": 202506
+},
+{
+"from": 202410,
+"id": "515085",
+"name": "Glory / Honor 2.0 CVT XV+ Leading",
+"to": 202506
+},
+{
+"from": 202507,
+"id": "515077",
+"name": "Glory / Honor 2.0 CVT XV True",
+"to": null
+},
+{
+"from": 202507,
+"id": "515085",
+"name": "Glory / Honor 2.0 CVT XV+ Leading",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "nissan/qashqai/g_202410_21267",
+"market": "Китай",
+"to": null
+},
 "nissan/sylphy/g_201204_1945": {
 "from": 201212,
 "groups": [
@@ -49776,6 +52194,466 @@
 "key": "nissan/teana/g_201607_20058",
 "market": "Китай",
 "to": 201712
+},
+"nissan/tiida/g_201104_3582": {
+"from": 201503,
+"groups": [
+{
+"body": [
+"C13"
+],
+"drive": "fwd",
+"engine": "HR16DE",
+"fuel": "бензин",
+"hp": 117,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 117 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201503,
+"id": "80718",
+"name": "1.6 MT Welcome",
+"to": 201605
+},
+{
+"from": 201503,
+"id": "80719",
+"name": "1.6 MT Comfort",
+"to": 201605
+},
+{
+"from": 201503,
+"id": "80720",
+"name": "1.6 MT Elegance",
+"to": 201605
+},
+{
+"from": 201503,
+"id": "80826",
+"name": "1.6 MT Elegance Connect",
+"to": 201605
+},
+{
+"from": 201503,
+"id": "80823",
+"name": "1.6 MT Elegance Plus",
+"to": 201605
+},
+{
+"from": 201503,
+"id": "80828",
+"name": "1.6 MT Elegance Plus Connect",
+"to": 201605
+}
+]
+},
+{
+"body": [
+"C13"
+],
+"drive": "fwd",
+"engine": "HR16DE",
+"fuel": "бензин",
+"hp": 117,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 117 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201503,
+"id": "80721",
+"name": "1.6 CVT Comfort",
+"to": 201605
+},
+{
+"from": 201503,
+"id": "80722",
+"name": "1.6 CVT Elegance",
+"to": 201605
+},
+{
+"from": 201503,
+"id": "80825",
+"name": "1.6 CVT Elegance Connect",
+"to": 201605
+},
+{
+"from": 201503,
+"id": "80824",
+"name": "1.6 CVT Elegance Plus",
+"to": 201605
+},
+{
+"from": 201503,
+"id": "80827",
+"name": "1.6 CVT Elegance Plus Connect",
+"to": 201605
+},
+{
+"from": 201503,
+"id": "80723",
+"name": "1.6 CVT Tekna",
+"to": 201605
+}
+]
+}
+],
+"ids": true,
+"key": "nissan/tiida/g_201104_3582",
+"market": "Россия",
+"to": 201605
+},
+"nissan/tiida/g_2011_21338": {
+"from": 201104,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR16DE",
+"fuel": "бензин",
+"hp": 126,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 126 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201411,
+"id": "514680",
+"name": "1.6 MT Comfort",
+"to": 201604
+},
+{
+"from": 201411,
+"id": "514685",
+"name": "1.6 MT Intelligent",
+"to": 201604
+},
+{
+"from": 201104,
+"id": "514680",
+"name": "1.6 MT Comfort",
+"to": 201307
+},
+{
+"from": 201104,
+"id": "514685",
+"name": "1.6 MT Intelligent",
+"to": 201307
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR16DE",
+"fuel": "бензин",
+"hp": 126,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 126 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201409,
+"id": "514682",
+"name": "1.6 CVT Cool",
+"to": 201604
+},
+{
+"from": 201411,
+"id": "514683",
+"name": "1.6 CVT Comfort",
+"to": 201604
+},
+{
+"from": 201411,
+"id": "514684",
+"name": "1.6 CVT Intelligent",
+"to": 201604
+},
+{
+"from": 201411,
+"id": "514686",
+"name": "1.6 CVT Luxury",
+"to": 201604
+},
+{
+"from": 201308,
+"id": "514682",
+"name": "1.6 CVT Cool",
+"to": 201408
+},
+{
+"from": 201104,
+"id": "514683",
+"name": "1.6 CVT Comfort",
+"to": 201307
+},
+{
+"from": 201104,
+"id": "514684",
+"name": "1.6 CVT Intelligent",
+"to": 201307
+},
+{
+"from": 201104,
+"id": "514686",
+"name": "1.6 CVT Luxury",
+"to": 201307
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "MR16DDT",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 190 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201105,
+"id": "514698",
+"name": "1.6T MT Dynamic",
+"to": 201307
+},
+{
+"from": 201105,
+"id": "514700",
+"name": "1.6T MT Cool",
+"to": 201307
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "MR16DDT",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 190 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201207,
+"id": "514688",
+"name": "1.6T GTS Speed",
+"to": 201212
+},
+{
+"from": 201104,
+"id": "514692",
+"name": "1.6T M-CVT Cool",
+"to": 201307
+},
+{
+"from": 201105,
+"id": "514699",
+"name": "1.6T M-CVT Dynamic",
+"to": 201307
+}
+]
+}
+],
+"ids": true,
+"key": "nissan/tiida/g_2011_21338",
+"market": "Китай",
+"to": 201604
+},
+"nissan/tiida/g_201605_21339": {
+"from": 201604,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR16DE",
+"fuel": "бензин",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 122 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202007,
+"id": "514652",
+"name": "1.6 MT Sport",
+"to": 202211
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR16DE",
+"fuel": "бензин",
+"gen_key": "nissan/tiida/g_201605_21339",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 122 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202212,
+"id": "514573",
+"name": "1.6 CVT Cool",
+"to": null
+},
+{
+"from": 202212,
+"id": "514574",
+"name": "1.6 CVT Smart",
+"to": null
+},
+{
+"from": 202212,
+"id": "514575",
+"name": "1.6 CVT Premium",
+"to": null
+},
+{
+"from": 202007,
+"id": "514573",
+"name": "1.6 CVT Cool",
+"to": 202211
+},
+{
+"from": 202007,
+"id": "514574",
+"name": "1.6 CVT Smart",
+"to": 202211
+},
+{
+"from": 202007,
+"id": "514575",
+"name": "1.6 CVT Premium",
+"to": 202211
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR16DE",
+"fuel": "бензин",
+"hp": 126,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 126 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201903,
+"id": "514652",
+"name": "1.6 MT Sport",
+"to": 202006
+},
+{
+"from": 201605,
+"id": "514652",
+"name": "1.6 MT Sport",
+"to": 201910
+},
+{
+"from": 201605,
+"id": "514676",
+"name": "1.6 MT Cool",
+"to": 201810
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR16DE",
+"fuel": "бензин",
+"hp": 126,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 126 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201903,
+"id": "514573",
+"name": "1.6 CVT Cool",
+"to": 202006
+},
+{
+"from": 201903,
+"id": "514574",
+"name": "1.6 CVT Smart",
+"to": 202006
+},
+{
+"from": 201903,
+"id": "514575",
+"name": "1.6 CVT Premium",
+"to": 202006
+},
+{
+"from": 201811,
+"id": "514573",
+"name": "1.6 CVT Cool",
+"to": 201910
+},
+{
+"from": 201811,
+"id": "514574",
+"name": "1.6 CVT Smart",
+"to": 201910
+},
+{
+"from": 201811,
+"id": "514575",
+"name": "1.6 CVT Premium",
+"to": 201910
+},
+{
+"from": 201605,
+"id": "514573",
+"name": "1.6 CVT Cool",
+"to": 201810
+},
+{
+"from": 201605,
+"id": "514574",
+"name": "1.6 CVT Smart",
+"to": 201810
+},
+{
+"from": 201605,
+"id": "514575",
+"name": "1.6 CVT Premium",
+"to": 201810
+}
+]
+}
+],
+"ids": true,
+"key": "nissan/tiida/g_201605_21339",
+"market": "Китай",
+"to": null
 },
 "roewe/i5/g_2017_17510": {
 "from": 201704,
@@ -66983,6 +69861,41 @@
 "двигателиjac": "engine",
 "кузоваjac": "frame"
 },
+"jaguar": {
+"240": "240",
+"340": "340",
+"engine": "engine",
+"epace": "e-pace",
+"fpace": "f-pace",
+"frame": "frame",
+"ftype": "f-type",
+"ipace": "i-pace",
+"jaguarepace": "e-pace",
+"jaguarfpace": "f-pace",
+"jaguarftype": "f-type",
+"jaguaripace": "i-pace",
+"jaguarstype": "s-type",
+"jaguarxe": "xe",
+"jaguarxf": "xf",
+"jaguarxj": "xj",
+"jaguarxk": "xk",
+"jaguarxtype": "x-type",
+"marki": "mark_i",
+"markii": "mark_ii",
+"markix": "mark_ix",
+"sovereign": "sovereign",
+"stype": "s-type",
+"xe": "xe",
+"xf": "xf",
+"xgs": "xgs",
+"xj": "xj",
+"xj220": "xj220",
+"xjs": "xgs",
+"xk": "xk",
+"xtype": "x-type",
+"двигателиjaguar": "engine",
+"кузоваjaguar": "frame"
+},
 "jeep": {
 "avenger": "avenger",
 "cherokee": "cherokee",
@@ -70662,6 +73575,116 @@
 ],
 "name": "77 kWh Urban Fit Pro"
 },
+"476978": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"165 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"116 л.с. (85 кВт) при 6150 об/мин"
+],
+[
+"Крутящий момент",
+"143 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"SQRE4G15C"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,7 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4200 × 1760 × 1570 мм"
+],
+[
+"Колёсная база",
+"2555 мм"
+],
+[
+"Клиренс",
+"186 мм"
+],
+[
+"Масса",
+"1270 кг"
+],
+[
+"Топливный бак",
+"48 л"
+],
+[
+"Багажник",
+"420 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"205/55 R16"
+]
+]
+]
+],
+"name": "1.5 CVT Plus Happy Red Date Type-I"
+},
 "477232": {
 "groups": [
 [
@@ -72135,6 +75158,234 @@
 ],
 "name": "DM-i 1.5 CVT 75KM Luxury"
 },
+"514573": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"12,1 с"
+],
+[
+"Максимальная скорость",
+"179 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"122 л.с. (90 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"155 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"HR16DE"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,1 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4393 × 1766 × 1539 мм"
+],
+[
+"Колёсная база",
+"2700 мм"
+],
+[
+"Клиренс",
+"168 мм"
+],
+[
+"Масса",
+"1217 кг"
+],
+[
+"Топливный бак",
+"50 л"
+],
+[
+"Багажник",
+"435 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"195/60 R16"
+],
+[
+"Радиус разворота",
+"5,2 м"
+]
+]
+]
+],
+"name": "1.6 CVT Cool"
+},
+"515077": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"10,1 с"
+],
+[
+"Максимальная скорость",
+"186 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"151 л.с. (111 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"194 Н·м при 4400 об/мин"
+],
+[
+"Модель двигателя",
+"MR20DD"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,7 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4407 × 1837 × 1610 мм"
+],
+[
+"Колёсная база",
+"2646 мм"
+],
+[
+"Клиренс",
+"181 мм"
+],
+[
+"Масса",
+"1424 кг"
+],
+[
+"Топливный бак",
+"57 л"
+],
+[
+"Багажник",
+"486 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"215/60 R17"
+],
+[
+"Радиус разворота",
+"5,45 м"
+]
+]
+]
+],
+"name": "Glory / Honor 2.0 CVT XV True"
+},
 "516144": {
 "groups": [
 [
@@ -72679,6 +75930,116 @@
 ]
 ],
 "name": "1.6T DCT AWD Star"
+},
+"521647": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"165 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"116 л.с. (85 кВт) при 6150 об/мин"
+],
+[
+"Крутящий момент",
+"143 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"SQRE4G15C"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,9 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4200 × 1760 × 1570 мм"
+],
+[
+"Колёсная база",
+"2555 мм"
+],
+[
+"Клиренс",
+"186 мм"
+],
+[
+"Масса",
+"1270 кг"
+],
+[
+"Топливный бак",
+"48 л"
+],
+[
+"Багажник",
+"420 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"205/55 R16"
+]
+]
+]
+],
+"name": "1.5 CVT Excellent"
 },
 "522262": {
 "groups": [
@@ -74342,6 +77703,124 @@
 ]
 ],
 "name": "1.4 TSI 280TSI AT All-Round"
+},
+"543317": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,2 с"
+],
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"150 л.с. (110 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"250 Н·м при 1750 об/мин"
+],
+[
+"Модель двигателя",
+"DLE"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"5,9 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4773 × 1789 × 1469 мм"
+],
+[
+"Колёсная база",
+"2731 мм"
+],
+[
+"Клиренс",
+"113 мм"
+],
+[
+"Масса",
+"1361 кг"
+],
+[
+"Топливный бак",
+"51 л"
+],
+[
+"Багажник",
+"553 л"
+],
+[
+"Мест",
+"4"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"205/60 R16"
+],
+[
+"Радиус разворота",
+"5,8 м"
+]
+]
+]
+],
+"name": "1.4 DSG Listen to Advice"
 },
 "551042": {
 "groups": [
