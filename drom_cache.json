@@ -454,6 +454,13 @@
 "g_202311_20929"
 ]
 },
+"baic/beijing_bj60/china": {
+"day": 739885,
+"gens": [
+"g_202211_21946",
+"g_2022_16848"
+]
+},
 "baic/beijing_bj80/china": {
 "day": 739883,
 "gens": [
@@ -1070,6 +1077,10 @@
 "day": 739885,
 "gens": []
 },
+"ford/mustang/china": {
+"day": 739885,
+"gens": []
+},
 "ford/ranger/china": {
 "day": 739884,
 "gens": [
@@ -1642,11 +1653,28 @@
 "g_2024_22393"
 ]
 },
+"mercedes-benz/v-class/china": {
+"day": 739885,
+"gens": [
+"g_199610_9151",
+"g_199901_17114",
+"g_201404_2189",
+"g_2014_17927",
+"g_201904_21058",
+"g_2019_17928",
+"g_202307_21059",
+"g_2023_22190"
+]
+},
 "mg/ezs/china": {
 "day": 739883,
 "gens": [
 "g_2018_18342"
 ]
+},
+"mini/clubman/china": {
+"day": 739885,
+"gens": []
 },
 "mitsubishi/asx/china": {
 "day": 739885,
@@ -9673,6 +9701,116 @@
 }
 ],
 "key": "baic/beijing_bj40/g_202311_20929",
+"market": "Китай",
+"to": null
+},
+"baic/beijing_bj60/g_202211_21946": {
+"from": 202204,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "4F20TC30",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, дизель, 163 л.с., мягкий гибрид, 14 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202508,
+"id": "523098",
+"name": "2.0T AT AWD Эксклюзив",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "baic/beijing_bj60/g_202211_21946",
+"market": "Россия",
+"to": null
+},
+"baic/beijing_bj60/g_2022_16848": {
+"from": 202204,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "4F20TC30",
+"fuel": "дизель",
+"gen_key": "baic/beijing_bj60/g_2022_16848",
+"hp": 163,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, дизель, 163 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202309,
+"id": "517598",
+"name": "2.0T AT AWD Qianli (5 seats)",
+"to": null
+},
+{
+"from": 202309,
+"id": "517599",
+"name": "2.0T AT AWD Qianli (7 seats)",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "4K31TD",
+"fuel": "бензин",
+"gen_key": "baic/beijing_bj60/g_2022_16848",
+"hp": 267,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 267 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202211,
+"id": "463644",
+"name": "2.0T AT AWD Weekend Edition (5 seats)",
+"to": null
+},
+{
+"from": 202211,
+"id": "463645",
+"name": "2.0T AT AWD May Day Edition (5 seats)",
+"to": null
+},
+{
+"from": 202211,
+"id": "463647",
+"name": "2.0T AT AWD Eleven Edition (5 seats)",
+"to": null
+},
+{
+"from": 202211,
+"id": "463646",
+"name": "2.0T AT AWD May Day Edition (7 seats)",
+"to": null
+},
+{
+"from": 202211,
+"id": "463648",
+"name": "2.0T AT AWD Eleven Edition (7 seats)",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "baic/beijing_bj60/g_2022_16848",
 "market": "Китай",
 "to": null
 },
@@ -27131,6 +27269,7 @@
 "drive": "fwd",
 "engine": "BYD472QA",
 "fuel": "бензин",
+"gen_key": "byd/song_pro/g_202111_19032",
 "hp": 110,
 "hp_total": 197,
 "hybrid": "параллельный подзаряжаемый (phev) гибрид",
@@ -32502,9 +32641,120 @@
 {
 "body": [],
 "drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "218 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202402,
+"id": "551071",
+"name": "58.89 kWh 530 Plus",
+"to": 202410
+},
+{
+"from": 202402,
+"id": "551072",
+"name": "58.89 kWh 530 Max",
+"to": 202410
+},
+{
+"from": 202308,
+"id": "551079",
+"name": "79.97 kWh 705 Max",
+"to": 202401
+},
+{
+"from": 202311,
+"id": "551080",
+"name": "i 79.97 kWh 705 Max",
+"to": 202401
+},
+{
+"from": 202207,
+"id": "551082",
+"name": "79.97 kWh 705",
+"to": 202307
+},
+{
+"from": 202207,
+"id": "551084",
+"name": "PHEV 29 kWh Hydrogen",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 258,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "258 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202503,
+"id": "551065",
+"name": "56.1 kWh Elite",
+"to": null
+},
+{
+"from": 202409,
+"id": "551066",
+"name": "56.1 kWh Sport",
+"to": null
+},
+{
+"from": 202411,
+"id": "551065",
+"name": "56.1 kWh Elite",
+"to": 202502
+},
+{
+"from": 202412,
+"id": "551070",
+"name": "58.1 kWh Classic",
+"to": 202502
+},
+{
+"from": 202402,
+"id": "551073",
+"name": "66.8 kWh 610 Max",
+"to": 202410
+},
+{
+"from": 202308,
+"id": "551077",
+"name": "58.1 kWh 515 Max",
+"to": 202401
+},
+{
+"from": 202311,
+"id": "551078",
+"name": "i 58.1 kWh 515 Max",
+"to": 202401
+},
+{
+"from": 202207,
+"id": "551081",
+"name": "58.1 kWh 515",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
 "engine": "JL473QJ",
 "fuel": "бензин",
-"gen_key": "deepal/sl03/g_202207_24286",
 "hp": 95,
 "hp_total": 238,
 "hybrid": "последовательный подзаряжаемый (phev) гибрид",
@@ -32514,26 +32764,31 @@
 "trims": [
 {
 "from": 202503,
+"id": "551063",
 "name": "Extended Range 1.5 Elite",
 "to": null
 },
 {
 "from": 202409,
+"id": "551068",
 "name": "Extended Range 1.5 Standard",
 "to": 202502
 },
 {
 "from": 202409,
+"id": "551063",
 "name": "Extended Range 1.5 Elite",
 "to": 202502
 },
 {
 "from": 202402,
+"id": "551074",
 "name": "Extended Range 1.5 135 Pro",
 "to": 202408
 },
 {
 "from": 202308,
+"id": "551075",
 "name": "Extended Range 1.5 135 Plus",
 "to": 202408
 }
@@ -32544,7 +32799,6 @@
 "drive": "rwd",
 "engine": "JL473QJ",
 "fuel": "бензин",
-"gen_key": "deepal/sl03/g_202207_24286",
 "hp": 95,
 "hp_total": 218,
 "hybrid": "последовательный подзаряжаемый (phev) гибрид",
@@ -32554,22 +32808,26 @@
 "trims": [
 {
 "from": 202409,
+"id": "551064",
 "name": "Extended Range 1.5 Sport",
 "to": null
 },
 {
 "from": 202308,
+"id": "551076",
 "name": "Extended Range 1.5 200 Max",
 "to": 202408
 },
 {
 "from": 202207,
+"id": "551083",
 "name": "Extended Range 1.5 1200",
 "to": 202307
 }
 ]
 }
 ],
+"ids": true,
 "key": "deepal/sl03/g_202207_24286",
 "market": "Китай",
 "to": null
@@ -53142,6 +53400,386 @@
 "market": "Китай",
 "to": null
 },
+"mercedes-benz/eqb/g_202111_13970": {
+"from": 202104,
+"groups": [
+{
+"body": [
+"X243"
+],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "190 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202202,
+"id": "442563",
+"name": "EQB 250",
+"to": 202204
+},
+{
+"from": 202210,
+"id": "442564",
+"name": "EQB 250+",
+"to": 202401
+},
+{
+"from": 202205,
+"id": "442563",
+"name": "EQB 250",
+"to": 202401
+}
+]
+},
+{
+"body": [
+"X243"
+],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 228,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "228 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202111,
+"id": "442565",
+"name": "EQB 300 4MATIC",
+"to": 202401
+}
+]
+},
+{
+"body": [
+"X243"
+],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 292,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "292 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202111,
+"id": "442566",
+"name": "EQB 350 4MATIC",
+"to": 202401
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/eqb/g_202111_13970",
+"market": "Европа",
+"to": 202401
+},
+"mercedes-benz/eqb/g_2021_19448": {
+"from": 202104,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "190 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202204,
+"id": "473966",
+"name": "EQB 260",
+"to": 202308
+},
+{
+"from": 202309,
+"id": "473966",
+"name": "EQB 260",
+"to": 202408
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 292,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "292 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202204,
+"id": "473968",
+"name": "EQB 350 4MATIC",
+"to": 202302
+},
+{
+"from": 202303,
+"id": "473968",
+"name": "EQB 350 4MATIC",
+"to": 202308
+},
+{
+"from": 202309,
+"id": "473968",
+"name": "EQB 350 4MATIC",
+"to": 202408
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/eqb/g_2021_19448",
+"market": "Китай",
+"to": 202408
+},
+"mercedes-benz/eqb/g_202310_23650": {
+"from": 202308,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "190 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202310,
+"id": "543826",
+"name": "EQB 250+ Progressive",
+"to": null
+},
+{
+"from": 202310,
+"id": "543829",
+"name": "EQB 250+ Progressive Advanced",
+"to": null
+},
+{
+"from": 202310,
+"id": "543832",
+"name": "EQB 250+ Progressive Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"id": "543835",
+"name": "EQB 250+ Electric Art Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"id": "543838",
+"name": "EQB 250+ AMG Line Advanced",
+"to": null
+},
+{
+"from": 202310,
+"id": "543841",
+"name": "EQB 250+ AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"id": "543844",
+"name": "EQB 250+ AMG Line Premium",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 228,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "228 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202310,
+"id": "543827",
+"name": "EQB 300 4MATIC Progressive",
+"to": null
+},
+{
+"from": 202310,
+"id": "543830",
+"name": "EQB 300 4MATIC Progressive Advanced",
+"to": null
+},
+{
+"from": 202310,
+"id": "543833",
+"name": "EQB 300 4MATIC Progressive Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"id": "543836",
+"name": "EQB 300 4MATIC Electric Art Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"id": "543839",
+"name": "EQB 300 4MATIC AMG Line Advanced",
+"to": null
+},
+{
+"from": 202310,
+"id": "543842",
+"name": "EQB 300 4MATIC AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"id": "543845",
+"name": "EQB 300 4MATIC AMG Line Premium",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 292,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "292 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202310,
+"id": "543828",
+"name": "EQB 350 4MATIC Progressive",
+"to": null
+},
+{
+"from": 202310,
+"id": "543831",
+"name": "EQB 350 4MATIC Progressive Advanced",
+"to": null
+},
+{
+"from": 202310,
+"id": "543834",
+"name": "EQB 350 4MATIC Progressive Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"id": "543837",
+"name": "EQB 350 4MATIC Electric Art Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"id": "543840",
+"name": "EQB 350 4MATIC AMG Line Advanced",
+"to": null
+},
+{
+"from": 202310,
+"id": "543843",
+"name": "EQB 350 4MATIC AMG Line Advanced Plus",
+"to": null
+},
+{
+"from": 202310,
+"id": "543846",
+"name": "EQB 350 4MATIC AMG Line Premium",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/eqb/g_202310_23650",
+"market": "Европа",
+"to": null
+},
+"mercedes-benz/eqb/g_2023_23673": {
+"from": 202308,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "190 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202408,
+"id": "543978",
+"name": "EQB 260",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 292,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "292 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202408,
+"id": "543981",
+"name": "EQB 350 4MATIC",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/eqb/g_2023_23673",
+"market": "Китай",
+"to": null
+},
 "mercedes-benz/eqe/g_202109_13971": {
 "from": 202109,
 "groups": [
@@ -54405,6 +55043,1451 @@
 }
 ],
 "key": "mercedes-benz/g-class/g_2024_22393",
+"market": "Китай",
+"to": null
+},
+"mercedes-benz/v-class/g_201404_2189": {
+"from": 201404,
+"groups": [
+{
+"body": [
+"W447"
+],
+"drive": "rwd",
+"engine": "M 274 DE 20 AL",
+"fuel": "бензин",
+"hp": 211,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 211 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201610,
+"id": "171925",
+"name": "250 AT Avantgarde Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201610,
+"id": "171926",
+"name": "250 AT Avantgarde Длинный",
+"to": 202002
+},
+{
+"from": 201606,
+"id": "172441",
+"name": "250 AT Exclusive Длинный",
+"to": 202002
+},
+{
+"from": 201606,
+"id": "188549",
+"name": "250 AT Avantgarde Edition Длинный",
+"to": 201802
+},
+{
+"from": 201803,
+"id": "205895",
+"name": "250 AT Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201803,
+"id": "205896",
+"name": "250 AT Длинный",
+"to": 202002
+}
+]
+},
+{
+"body": [
+"W447"
+],
+"drive": "rwd",
+"engine": "OM 651 DE 22 LA",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.1,
+"text": "2.1 л, 136 л.с., дизель, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201412,
+"id": "78845",
+"name": "200 d MT Длинный",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "80889",
+"name": "200 d MT Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "89167",
+"name": "200 d MT Короткий",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "80879",
+"name": "200 d MT Avantgarde Длинный",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "80885",
+"name": "200 d MT Avantgarde Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "78846",
+"name": "200 d MT Avantgarde Короткий",
+"to": 202002
+},
+{
+"from": 201503,
+"id": "80892",
+"name": "200 d MT Marco Polo Длинный",
+"to": 202002
+}
+]
+},
+{
+"body": [
+"W447"
+],
+"drive": "4wd",
+"engine": "OM 651 DE 22 LA",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.1,
+"text": "2.1 л, 136 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201412,
+"id": "83744",
+"name": "200 d AT 4MATIC Длинный",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "83747",
+"name": "200 d AT 4MATIC Короткий",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "83748",
+"name": "200 d AT 4MATIC Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "83745",
+"name": "200 d AT 4MATIC Avantgarde Длинный",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "83746",
+"name": "200 d AT 4MATIC Avantgarde Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "83749",
+"name": "200 d AT 4MATIC Avantgarde Короткий",
+"to": 202002
+},
+{
+"from": 201503,
+"id": "452005",
+"name": "200 d AT 4MATIC Marco Polo Длинный",
+"to": 202002
+}
+]
+},
+{
+"body": [
+"W447"
+],
+"drive": "rwd",
+"engine": "OM 651 DE 22 LA",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.1,
+"text": "2.1 л, 136 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201412,
+"id": "80699",
+"name": "200 d AT Короткий",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "83740",
+"name": "200 d AT Длинный",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "83743",
+"name": "200 d AT Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "83741",
+"name": "200 d AT Avantgarde Длинный",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "83742",
+"name": "200 d AT Avantgarde Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201412,
+"id": "80700",
+"name": "200 d AT Avantgarde Короткий",
+"to": 202002
+},
+{
+"from": 201503,
+"id": "83992",
+"name": "200 d AT Entry Special Edition Короткий",
+"to": 201604
+}
+]
+},
+{
+"body": [
+"W447"
+],
+"drive": "rwd",
+"engine": "OM 651 DE 22 LA",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.1,
+"text": "2.1 л, 163 л.с., дизель, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201404,
+"id": "80878",
+"name": "220 d MT Avantgarde Длинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "75552",
+"name": "220 d MT Короткий",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "80881",
+"name": "220 d MT Длинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "80887",
+"name": "220 d MT Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "80888",
+"name": "220 d MT Avantgarde Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "75553",
+"name": "220 d MT Avantgarde Короткий",
+"to": 202002
+},
+{
+"from": 201503,
+"id": "80893",
+"name": "220 d MT Marco Polo Длинный",
+"to": 202002
+}
+]
+},
+{
+"body": [
+"W447"
+],
+"drive": "4wd",
+"engine": "OM 651 DE 22 LA",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.1,
+"text": "2.1 л, 163 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201404,
+"id": "83736",
+"name": "220 d AT 4MATIC Avantgarde Длинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "83734",
+"name": "220 d AT 4MATIC Короткий",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "83737",
+"name": "220 d AT 4MATIC Длинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "83738",
+"name": "220 d AT 4MATIC Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "83739",
+"name": "220 d AT 4MATIC Avantgarde Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "83735",
+"name": "220 d AT 4MATIC Avantgarde Короткий",
+"to": 202002
+},
+{
+"from": 201606,
+"id": "171927",
+"name": "220 d AT 4MATIC Fleet Длинный",
+"to": 201706
+},
+{
+"from": 201606,
+"id": "158292",
+"name": "220 d AT 4MATIC Family Длинный",
+"to": 201706
+},
+{
+"from": 201606,
+"id": "171928",
+"name": "220 d AT 4MATIC Avantgarde Comfort Длинный",
+"to": 201802
+},
+{
+"from": 201705,
+"id": "188548",
+"name": "220 d AT 4MATIC AMG Длинный",
+"to": 202002
+},
+{
+"from": 201503,
+"id": "452007",
+"name": "220 d AT 4MATIC Marco Polo Длинный",
+"to": 202002
+}
+]
+},
+{
+"body": [
+"W447"
+],
+"drive": "rwd",
+"engine": "OM 651 DE 22 LA",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.1,
+"text": "2.1 л, 163 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201404,
+"id": "78888",
+"name": "220 d AT Короткий",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "83732",
+"name": "220 d AT Длинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "83733",
+"name": "220 d AT Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "83730",
+"name": "220 d AT Avantgarde Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "78889",
+"name": "220 d AT Avantgarde Короткий",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "83731",
+"name": "220 d AT Avantgarde Длинный",
+"to": 202002
+},
+{
+"from": 201503,
+"id": "83994",
+"name": "220 d AT Entry Special Edition Короткий",
+"to": 201604
+},
+{
+"from": 201503,
+"id": "84094",
+"name": "220 d AT Entry Special Edition Длинный",
+"to": 201604
+},
+{
+"from": 201503,
+"id": "83995",
+"name": "220 d AT Avantgarde Comfort Special Edition Короткий",
+"to": 201604
+},
+{
+"from": 201503,
+"id": "84092",
+"name": "220 d AT Avantgarde Comfort Special Edition Длинный",
+"to": 202002
+},
+{
+"from": 201606,
+"id": "158223",
+"name": "220 d AT Exclusive Длинный",
+"to": 202002
+}
+]
+},
+{
+"body": [
+"W447"
+],
+"drive": "4wd",
+"engine": "OM 651 DE 22 LA",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.1,
+"text": "2.1 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201404,
+"id": "83725",
+"name": "250 d AT 4MATIC Длинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "83726",
+"name": "250 d AT 4MATIC Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "83728",
+"name": "250 d AT 4MATIC Короткий",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "83727",
+"name": "250 d AT 4MATIC Avantgarde Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "83729",
+"name": "250 d AT 4MATIC Avantgarde Короткий",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "83724",
+"name": "250 d AT 4MATIC Avantgarde Длинный",
+"to": 202002
+},
+{
+"from": 201503,
+"id": "452006",
+"name": "250 d AT 4MATIC Marco Polo Длинный",
+"to": 202002
+},
+{
+"from": 201503,
+"id": "84060",
+"name": "250 d AT 4MATIC Avantgarde Edition Special Edition Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201503,
+"id": "85941",
+"name": "250 d AT 4MATIC Avantgarde Edition Special Edition Длинный",
+"to": 202002
+},
+{
+"from": 201706,
+"id": "188208",
+"name": "250 d AT 4MATIC VIP Длинный",
+"to": 201806
+},
+{
+"from": 201706,
+"id": "188209",
+"name": "250 d AT 4MATIC VIP Сверхдлинный",
+"to": 201710
+}
+]
+},
+{
+"body": [
+"W447"
+],
+"drive": "rwd",
+"engine": "OM 651 DE 22 LA",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.1,
+"text": "2.1 л, 190 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201404,
+"id": "75554",
+"name": "250 d AT Короткий",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "80880",
+"name": "250 d AT Длинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "80884",
+"name": "250 d AT Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "75555",
+"name": "250 d AT Avantgarde Короткий",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "80877",
+"name": "250 d AT Avantgarde Длинный",
+"to": 202002
+},
+{
+"from": 201404,
+"id": "78891",
+"name": "250 d AT Edition1 Короткий",
+"to": 201502
+},
+{
+"from": 201503,
+"id": "80894",
+"name": "250 d AT Marco Polo Длинный",
+"to": 202002
+},
+{
+"from": 201503,
+"id": "80886",
+"name": "250 d AT Avantgarde Сверхдлинный",
+"to": 202002
+},
+{
+"from": 201503,
+"id": "84093",
+"name": "250 d AT Avantgarde Edition Special Edition Длинный",
+"to": 202002
+},
+{
+"from": 201503,
+"id": "83997",
+"name": "250 d AT Avantgarde Comfort Special Edition Короткий",
+"to": 201604
+},
+{
+"from": 201503,
+"id": "83998",
+"name": "250 d AT Avantgarde Edition Special Edition Короткий",
+"to": 201604
+},
+{
+"from": 201503,
+"id": "85063",
+"name": "250 d AT Avantgarde Comfort Special Edition Длинный",
+"to": 201812
+},
+{
+"from": 201503,
+"id": "83999",
+"name": "250 d AT Avantgarde Edition Special Edition Сверхдлинный",
+"to": 201812
+},
+{
+"from": 201606,
+"id": "172440",
+"name": "250 d AT Exclusive Длинный",
+"to": 202002
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/v-class/g_201404_2189",
+"market": "Россия",
+"to": 202002
+},
+"mercedes-benz/v-class/g_2014_17927": {
+"from": 201404,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": "M 274 DE 20 AL",
+"fuel": "бензин",
+"hp": 211,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 211 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201603,
+"id": "458149",
+"name": "V 260 Pilot Edition",
+"to": 201705
+},
+{
+"from": 201603,
+"id": "458150",
+"name": "V 260 Premium Edition",
+"to": 201705
+},
+{
+"from": 201603,
+"id": "458151",
+"name": "V 260L Premium Extended Edition",
+"to": 201705
+},
+{
+"from": 201706,
+"id": "458149",
+"name": "V 260 Pilot Edition",
+"to": 201806
+},
+{
+"from": 201706,
+"id": "458150",
+"name": "V 260 Premium Edition",
+"to": 201806
+},
+{
+"from": 201706,
+"id": "458151",
+"name": "V 260L Premium Extended Edition",
+"to": 201806
+},
+{
+"from": 201706,
+"id": "458155",
+"name": "V 260L Collection Edition",
+"to": 201806
+},
+{
+"from": 201807,
+"id": "458149",
+"name": "V 260 Pilot Edition",
+"to": 201904
+},
+{
+"from": 201807,
+"id": "458150",
+"name": "V 260 Premium Edition",
+"to": 201904
+},
+{
+"from": 201807,
+"id": "458151",
+"name": "V 260L Premium Extended Edition",
+"to": 201904
+},
+{
+"from": 201808,
+"id": "458160",
+"name": "V 260 AMG Sports Edition",
+"to": 201904
+},
+{
+"from": 201905,
+"id": "458149",
+"name": "V 260 Pilot Edition",
+"to": 202008
+},
+{
+"from": 201905,
+"id": "458150",
+"name": "V 260 Premium Edition",
+"to": 202008
+},
+{
+"from": 201905,
+"id": "458151",
+"name": "V 260L Premium Extended Edition",
+"to": 202008
+},
+{
+"from": 201905,
+"id": "458160",
+"name": "V 260 AMG Sports Edition",
+"to": 202008
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/v-class/g_2014_17927",
+"market": "Китай",
+"to": 202008
+},
+"mercedes-benz/v-class/g_201904_21058": {
+"from": 201902,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "OM 654Q DE 20 SCR",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201904,
+"id": "510740",
+"name": "220 d AT 4MATIC Compact Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510741",
+"name": "220 d AT 4MATIC Long Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510742",
+"name": "220 d AT 4MATIC Extra Long Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510732",
+"name": "220 d AT 4MATIC Compact Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510733",
+"name": "220 d AT 4MATIC Long Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510734",
+"name": "220 d AT 4MATIC Extra Long Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "537460",
+"name": "220 d AT 4MATIC Long Marco Polo",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510764",
+"name": "220 d AT 4MATIC Compact Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510765",
+"name": "220 d AT 4MATIC Long Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510766",
+"name": "220 d AT 4MATIC Extra Long Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510770",
+"name": "220 d AT 4MATIC Compact Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510771",
+"name": "220 d AT 4MATIC Long Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510772",
+"name": "220 d AT 4MATIC Extra Long Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510784",
+"name": "220 d AT 4MATIC Long Exclusive",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "OM 654Q DE 20 SCR",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201904,
+"id": "510738",
+"name": "220 d AT Compact Rise",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510739",
+"name": "220 d AT Long Rise",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510747",
+"name": "220 d AT Compact Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510749",
+"name": "220 d AT Long Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510751",
+"name": "220 d AT Extra Long Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510746",
+"name": "220 d AT Compact Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510748",
+"name": "220 d AT Long Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510750",
+"name": "220 d AT Extra Long Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "537457",
+"name": "220 d AT Long Marco Polo",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510758",
+"name": "220 d AT Compact Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510759",
+"name": "220 d AT Long Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510760",
+"name": "220 d AT Extra Long Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510776",
+"name": "220 d AT Compact Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510777",
+"name": "220 d AT Long Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510778",
+"name": "220 d AT Extra Long Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510790",
+"name": "220 d AT Long Exclusive",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "OM 654Q DE 20 SCR",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201904,
+"id": "510743",
+"name": "250 d AT 4MATIC Compact Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510744",
+"name": "250 d AT 4MATIC Long Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510745",
+"name": "250 d AT 4MATIC Extra Long Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510735",
+"name": "250 d AT 4MATIC Compact Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510736",
+"name": "250 d AT 4MATIC Long Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510737",
+"name": "250 d AT 4MATIC Extra Long Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "537461",
+"name": "250 d AT 4MATIC Long Marco Polo",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510767",
+"name": "250 d AT 4MATIC Compact Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510768",
+"name": "250 d AT 4MATIC Long Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510769",
+"name": "250 d AT 4MATIC Extra Long Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510773",
+"name": "250 d AT 4MATIC Compact Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510774",
+"name": "250 d AT 4MATIC Long Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510775",
+"name": "250 d AT 4MATIC Extra Long Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510787",
+"name": "250 d AT 4MATIC Long Exclusive",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510795",
+"name": "250 d AT 4MATIC Long Exclusive Edition",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "OM 654Q DE 20 SCR",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201904,
+"id": "510753",
+"name": "250 d AT Compact Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510755",
+"name": "250 d AT Long Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510757",
+"name": "250 d AT Extra Long Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510752",
+"name": "250 d AT Compact Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510754",
+"name": "250 d AT Long Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510756",
+"name": "250 d AT Extra Long Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "537458",
+"name": "250 d AT Long Marco Polo",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510761",
+"name": "250 d AT Compact Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510762",
+"name": "250 d AT Long Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510763",
+"name": "250 d AT Extra Long Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510779",
+"name": "250 d AT Compact Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510780",
+"name": "250 d AT Long Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510781",
+"name": "250 d AT Extra Long Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510793",
+"name": "250 d AT Long Exclusive",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510796",
+"name": "250 d AT Long Exclusive Edition",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "OM 654Q DE 20 LA",
+"fuel": "дизель",
+"hp": 239,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 239 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201904,
+"id": "510814",
+"name": "300 d AT 4MATIC Compact Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510815",
+"name": "300 d AT 4MATIC Long Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510816",
+"name": "300 d AT 4MATIC Extra Long Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510811",
+"name": "300 d AT 4MATIC Compact Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510812",
+"name": "300 d AT 4MATIC Long Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510813",
+"name": "300 d AT 4MATIC Extra Long Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "537462",
+"name": "300 d AT 4MATIC Long Marco Polo",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510817",
+"name": "300 d AT 4MATIC Compact Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510818",
+"name": "300 d AT 4MATIC Long Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510819",
+"name": "300 d AT 4MATIC Extra Long Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510820",
+"name": "300 d AT 4MATIC Compact Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510821",
+"name": "300 d AT 4MATIC Long Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510822",
+"name": "300 d AT 4MATIC Extra Long Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510823",
+"name": "300 d AT 4MATIC Long Exclusive",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510824",
+"name": "300 d AT 4MATIC Long Exclusive Edition",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "OM 654Q DE 20 LA",
+"fuel": "дизель",
+"hp": 239,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 239 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201904,
+"id": "510798",
+"name": "300 d AT Compact Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510800",
+"name": "300 d AT Long Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510802",
+"name": "300 d AT Extra Long Base",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510797",
+"name": "300 d AT Compact Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510799",
+"name": "300 d AT Long Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510801",
+"name": "300 d AT Extra Long Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "537459",
+"name": "300 d AT Long Marco Polo",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510803",
+"name": "300 d AT Compact Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510804",
+"name": "300 d AT Long Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510805",
+"name": "300 d AT Extra Long Avantgarde",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510806",
+"name": "300 d AT Compact Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510807",
+"name": "300 d AT Long Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510808",
+"name": "300 d AT Extra Long Avantgarde Edition",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510809",
+"name": "300 d AT Long Exclusive",
+"to": 202307
+},
+{
+"from": 201904,
+"id": "510810",
+"name": "300 d AT Long Exclusive Edition",
+"to": 202307
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/v-class/g_201904_21058",
+"market": "Европа",
+"to": 202307
+},
+"mercedes-benz/v-class/g_2019_17928": {
+"from": 201902,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": "M 274 DE 20 AL",
+"fuel": "бензин",
+"gen_key": "mercedes-benz/v-class/g_2019_17928",
+"hp": 211,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 211 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202009,
+"id": "458165",
+"name": "V 260 Pilot",
+"to": null
+},
+{
+"from": 202009,
+"id": "458166",
+"name": "V 260 Premium",
+"to": 202108
+},
+{
+"from": 202009,
+"id": "458167",
+"name": "V 260L Luxury",
+"to": 202108
+},
+{
+"from": 202109,
+"id": "458166",
+"name": "V 260 Premium",
+"to": null
+},
+{
+"from": 202109,
+"id": "458169",
+"name": "V 260L Premium",
+"to": null
+},
+{
+"from": 202109,
+"id": "458167",
+"name": "V 260L Luxury",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/v-class/g_2019_17928",
 "market": "Китай",
 "to": null
 },
@@ -81493,6 +83576,120 @@
 ],
 "name": "2.0T DCT Smart Play"
 },
+"458165": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"185 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"211 л.с. (155 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"350 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"M 274 DE 20 AL"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"8,8 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5140 × 1928 × 1880 мм"
+],
+[
+"Колёсная база",
+"3200 мм"
+],
+[
+"Клиренс",
+"125 мм"
+],
+[
+"Масса",
+"1675 кг"
+],
+[
+"Топливный бак",
+"70 л"
+],
+[
+"Багажник",
+"1030 л"
+],
+[
+"Мест",
+"7"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"245/50 R18"
+]
+]
+]
+],
+"name": "V 260 Pilot"
+},
 "458418": {
 "groups": [
 [
@@ -88988,6 +91185,108 @@
 ]
 ],
 "name": "Extended Range 1.5 121 Pro"
+},
+"551083": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"7,5 с"
+],
+[
+"Максимальная скорость",
+"170 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"95 л.с. (70 кВт) при 0 об/мин"
+],
+[
+"Модель двигателя",
+"JL473QJ"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"4,4 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4820 × 1890 × 1480 мм"
+],
+[
+"Колёсная база",
+"2900 мм"
+],
+[
+"Масса",
+"1760 кг"
+],
+[
+"Топливный бак",
+"45 л"
+],
+[
+"Багажник",
+"473 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"245/45 R19"
+]
+]
+]
+],
+"name": "Extended Range 1.5 1200"
 },
 "552176": {
 "groups": [
