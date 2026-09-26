@@ -975,6 +975,10 @@
 "day": 739884,
 "gens": []
 },
+"ford/gt/china": {
+"day": 739885,
+"gens": []
+},
 "ford/ranger/china": {
 "day": 739884,
 "gens": [
@@ -1078,6 +1082,18 @@
 "day": 739884,
 "gens": []
 },
+"honda/vezel/china": {
+"day": 739885,
+"gens": [
+"g_201312_2100",
+"g_2013_19375",
+"g_201802_8083",
+"g_2018_19376",
+"g_202104_12968",
+"g_2021_19377",
+"g_202404_20226"
+]
+},
 "hongqi/hq9/china": {
 "day": 739883,
 "gens": [
@@ -1106,6 +1122,13 @@
 "day": 739884,
 "gens": [
 "g_2025_23264"
+]
+},
+"im_motors/ls6/china": {
+"day": 739885,
+"gens": [
+"g_2023_22959",
+"g_2024_22883"
 ]
 },
 "im_motors/ls7/china": {
@@ -1280,6 +1303,12 @@
 "day": 739883,
 "gens": [
 "g_2025_23349"
+]
+},
+"leapmotor/s01/china": {
+"day": 739885,
+"gens": [
+"g_201906_17125"
 ]
 },
 "leapmotor/t03/china": {
@@ -1690,6 +1719,10 @@
 "g_202003_15352",
 "g_2025_21884"
 ]
+},
+"toyota/4runner/china": {
+"day": 739885,
+"gens": []
 },
 "toyota/alphard/china": {
 "day": 739884,
@@ -7677,6 +7710,7 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "avatr/06/g_2024_21754",
 "hp": 343,
 "hp_total": null,
 "hybrid": null,
@@ -7697,6 +7731,7 @@
 "drive": "4wd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "avatr/06/g_2024_21754",
 "hp": 598,
 "hp_total": null,
 "hybrid": null,
@@ -34636,6 +34671,1381 @@
 "market": "Китай",
 "to": null
 },
+"honda/vezel/g_201312_2100": {
+"from": 201312,
+"groups": [
+{
+"body": [
+"DBA-RU1"
+],
+"drive": "fwd",
+"engine": "L15B",
+"fuel": "бензин",
+"hp": 131,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 131 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201312,
+"id": "74419",
+"name": "1.5 G",
+"to": 201503
+},
+{
+"from": 201312,
+"id": "74417",
+"name": "1.5 X",
+"to": 201503
+},
+{
+"from": 201312,
+"id": "74418",
+"name": "1.5 S",
+"to": 201503
+},
+{
+"from": 201504,
+"id": "74419",
+"name": "1.5 G",
+"to": 201601
+},
+{
+"from": 201504,
+"id": "74417",
+"name": "1.5 X",
+"to": 201601
+},
+{
+"from": 201504,
+"id": "74418",
+"name": "1.5 S",
+"to": 201601
+},
+{
+"from": 201602,
+"id": "74419",
+"name": "1.5 G",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "471768",
+"name": "1.5 X (without Honda Sensing)",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "181715",
+"name": "1.5 X Honda Sensing",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "471770",
+"name": "1.5 RS (without Honda Sensing)",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "181717",
+"name": "1.5 RS Honda Sensing",
+"to": 201801
+}
+]
+},
+{
+"body": [
+"DBA-RU2"
+],
+"drive": "4wd",
+"engine": "L15B",
+"fuel": "бензин",
+"hp": 131,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 131 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201312,
+"id": "74420",
+"name": "1.5 G 4WD",
+"to": 201503
+},
+{
+"from": 201504,
+"id": "74420",
+"name": "1.5 G 4WD",
+"to": 201601
+},
+{
+"from": 201504,
+"id": "82411",
+"name": "1.5 X 4WD",
+"to": 201601
+},
+{
+"from": 201602,
+"id": "74420",
+"name": "1.5 G 4WD",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "471769",
+"name": "1.5 X (without Honda Sensing) 4WD",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "181716",
+"name": "1.5 X Honda Sensing 4WD",
+"to": 201801
+}
+]
+},
+{
+"body": [
+"DAA-RU3"
+],
+"drive": "fwd",
+"engine": "LEB",
+"fuel": "бензин",
+"hp": 132,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 132 л.с., параллельный гибрид, 30 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201312,
+"id": "74421",
+"name": "1.5 Hybrid",
+"to": 201503
+},
+{
+"from": 201312,
+"id": "74423",
+"name": "1.5 Hybrid X",
+"to": 201503
+},
+{
+"from": 201312,
+"id": "74426",
+"name": "1.5 Hybrid Z",
+"to": 201503
+},
+{
+"from": 201504,
+"id": "74421",
+"name": "1.5 Hybrid",
+"to": 201601
+},
+{
+"from": 201504,
+"id": "74423",
+"name": "1.5 Hybrid X",
+"to": 201601
+},
+{
+"from": 201504,
+"id": "74426",
+"name": "1.5 Hybrid Z",
+"to": 201601
+},
+{
+"from": 201509,
+"id": "88262",
+"name": "1.5 Hybrid Z Style Edition",
+"to": 201601
+},
+{
+"from": 201602,
+"id": "74421",
+"name": "1.5 Hybrid",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "471771",
+"name": "1.5 Hybrid X (without Honda Sensing)",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "181707",
+"name": "1.5 Hybrid X Honda Sensing",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "471775",
+"name": "1.5 Hybrid RS (without Honda Sensing)",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "471773",
+"name": "1.5 Hybrid Z (without Honda Sensing)",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "181712",
+"name": "1.5 Hybrid RS Honda Sensing",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "181709",
+"name": "1.5 Hybrid Z Honda Sensing",
+"to": 201801
+},
+{
+"from": 201707,
+"id": "186127",
+"name": "1.5 Hybrid X Honda Sensing Brilliant Style Edition",
+"to": 201801
+}
+]
+},
+{
+"body": [
+"DAA-RU4"
+],
+"drive": "4wd",
+"engine": "LEB",
+"fuel": "бензин",
+"hp": 132,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 132 л.с., параллельный гибрид, 30 л.с., робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201312,
+"id": "74422",
+"name": "1.5 Hybrid 4WD",
+"to": 201503
+},
+{
+"from": 201312,
+"id": "74424",
+"name": "1.5 Hybrid X 4WD",
+"to": 201503
+},
+{
+"from": 201312,
+"id": "74425",
+"name": "1.5 Hybrid X L Package 4WD",
+"to": 201503
+},
+{
+"from": 201504,
+"id": "74422",
+"name": "1.5 Hybrid 4WD",
+"to": 201601
+},
+{
+"from": 201504,
+"id": "74424",
+"name": "1.5 Hybrid X 4WD",
+"to": 201601
+},
+{
+"from": 201504,
+"id": "74425",
+"name": "1.5 Hybrid X L Package 4WD",
+"to": 201601
+},
+{
+"from": 201509,
+"id": "88261",
+"name": "1.5 Hybrid X Style Edition 4WD",
+"to": 201601
+},
+{
+"from": 201602,
+"id": "74422",
+"name": "1.5 Hybrid 4WD",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "471772",
+"name": "1.5 Hybrid X (without Honda Sensing) 4WD",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "181708",
+"name": "1.5 Hybrid X Honda Sensing 4WD",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "471774",
+"name": "1.5 Hybrid Z (without Honda Sensing) 4WD",
+"to": 201801
+},
+{
+"from": 201602,
+"id": "181710",
+"name": "1.5 Hybrid Z Honda Sensing 4WD",
+"to": 201801
+},
+{
+"from": 201707,
+"id": "186128",
+"name": "1.5 Hybrid X Honda Sensing Brilliant Style Edition 4WD",
+"to": 201801
+}
+]
+}
+],
+"ids": true,
+"key": "honda/vezel/g_201312_2100",
+"market": "Япония",
+"to": 201801
+},
+"honda/vezel/g_2013_19375": {
+"from": 201312,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "L15B",
+"fuel": "бензин",
+"hp": 131,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 131 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201503,
+"id": "472952",
+"name": "1.5 MT Comfort",
+"to": 201612
+},
+{
+"from": 201701,
+"id": "472952",
+"name": "1.5 MT Comfort",
+"to": 201905
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "L15B",
+"fuel": "бензин",
+"hp": 131,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 131 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201503,
+"id": "472953",
+"name": "1.5 CVT Comfort",
+"to": 201612
+},
+{
+"from": 201701,
+"id": "472953",
+"name": "1.5 CVT Comfort",
+"to": 201905
+},
+{
+"from": 201709,
+"id": "472968",
+"name": "1.5 CVT Elite",
+"to": 201905
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "R18Z7",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 136 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201410,
+"id": "472954",
+"name": "1.8 MT Elite",
+"to": 201612
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "R18Z7",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 136 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201410,
+"id": "472955",
+"name": "1.8 CVT Elite",
+"to": 201612
+},
+{
+"from": 201410,
+"id": "472956",
+"name": "1.8 CVT Luxury",
+"to": 201612
+},
+{
+"from": 201511,
+"id": "472958",
+"name": "1.8 CVT Pioneer",
+"to": 201612
+},
+{
+"from": 201701,
+"id": "472955",
+"name": "1.8 CVT Elite",
+"to": 201905
+},
+{
+"from": 201701,
+"id": "472958",
+"name": "1.8 CVT Pioneer",
+"to": 201905
+},
+{
+"from": 201701,
+"id": "472956",
+"name": "1.8 CVT Luxury",
+"to": 201905
+},
+{
+"from": 201703,
+"id": "472966",
+"name": "1.8 CVT Smart",
+"to": 201905
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "R18Z7",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 136 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201410,
+"id": "472957",
+"name": "1.8 CVT AWD Flagship",
+"to": 201612
+},
+{
+"from": 201701,
+"id": "472957",
+"name": "1.8 CVT AWD Flagship",
+"to": 201905
+}
+]
+}
+],
+"ids": true,
+"key": "honda/vezel/g_2013_19375",
+"market": "Китай",
+"to": 201905
+},
+"honda/vezel/g_201802_8083": {
+"from": 201802,
+"groups": [
+{
+"body": [
+"DBA-RU1",
+"6BA-RU1"
+],
+"drive": "fwd",
+"engine": "L15B",
+"fuel": "бензин",
+"hp": 131,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 131 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201802,
+"id": "471780",
+"name": "1.5 G (without Honda Sensing)",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "196708",
+"name": "1.5 G Honda Sensing",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "471782",
+"name": "1.5 X (without Honda Sensing)",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "196710",
+"name": "1.5 X Honda Sensing",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "196712",
+"name": "1.5 RS Honda Sensing",
+"to": 202006
+},
+{
+"from": 202007,
+"id": "196708",
+"name": "1.5 G Honda Sensing",
+"to": 202103
+},
+{
+"from": 202007,
+"id": "196710",
+"name": "1.5 X Honda Sensing",
+"to": 202103
+},
+{
+"from": 202007,
+"id": "196712",
+"name": "1.5 RS Honda Sensing",
+"to": 202103
+}
+]
+},
+{
+"body": [
+"DBA-RU2",
+"6BA-RU2"
+],
+"drive": "4wd",
+"engine": "L15B",
+"fuel": "бензин",
+"hp": 131,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 131 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201802,
+"id": "471781",
+"name": "1.5 G (without Honda Sensing) 4WD",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "196709",
+"name": "1.5 G Honda Sensing 4WD",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "471783",
+"name": "1.5 X (without Honda Sensing) 4WD",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "196711",
+"name": "1.5 X Honda Sensing 4WD",
+"to": 202006
+},
+{
+"from": 202007,
+"id": "196709",
+"name": "1.5 G Honda Sensing 4WD",
+"to": 202103
+},
+{
+"from": 202007,
+"id": "196711",
+"name": "1.5 X Honda Sensing 4WD",
+"to": 202103
+}
+]
+},
+{
+"body": [
+"DAA-RU3",
+"6AA-RU3"
+],
+"drive": "fwd",
+"engine": "LEB",
+"fuel": "бензин",
+"hp": 132,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 132 л.с., параллельный гибрид, 30 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201802,
+"id": "471776",
+"name": "1.5 Hybrid (without Honda Sensing)",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "196693",
+"name": "1.5 Hybrid Honda Sensing",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "471778",
+"name": "1.5 Hybrid X (without Honda Sensing)",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "196703",
+"name": "1.5 Hybrid X Honda Sensing",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "196707",
+"name": "1.5 Hybrid RS Honda Sensing",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "196705",
+"name": "1.5 Hybrid Z Honda Sensing",
+"to": 202006
+},
+{
+"from": 201911,
+"id": "268339",
+"name": "1.5 Hybrid Modulo X Honda Sensing",
+"to": 202006
+},
+{
+"from": 202007,
+"id": "196693",
+"name": "1.5 Hybrid Honda Sensing",
+"to": 202103
+},
+{
+"from": 202007,
+"id": "196703",
+"name": "1.5 Hybrid X Honda Sensing",
+"to": 202103
+},
+{
+"from": 202007,
+"id": "196707",
+"name": "1.5 Hybrid RS Honda Sensing",
+"to": 202103
+},
+{
+"from": 202007,
+"id": "196705",
+"name": "1.5 Hybrid Z Honda Sensing",
+"to": 202103
+},
+{
+"from": 202007,
+"id": "268339",
+"name": "1.5 Hybrid Modulo X Honda Sensing",
+"to": 202103
+}
+]
+},
+{
+"body": [
+"DAA-RU4",
+"6AA-RU4"
+],
+"drive": "4wd",
+"engine": "LEB",
+"fuel": "бензин",
+"hp": 132,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 132 л.с., параллельный гибрид, 30 л.с., робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201802,
+"id": "471777",
+"name": "1.5 Hybrid (without Honda Sensing) 4WD",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "196702",
+"name": "1.5 Hybrid Honda Sensing 4WD",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "471779",
+"name": "1.5 Hybrid X (without Honda Sensing) 4WD",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "196704",
+"name": "1.5 Hybrid X Honda Sensing 4WD",
+"to": 202006
+},
+{
+"from": 201802,
+"id": "196706",
+"name": "1.5 Hybrid Z Honda Sensing 4WD",
+"to": 202006
+},
+{
+"from": 201911,
+"id": "268340",
+"name": "1.5 Hybrid Modulo X Honda Sensing 4WD",
+"to": 202006
+},
+{
+"from": 202007,
+"id": "196702",
+"name": "1.5 Hybrid Honda Sensing 4WD",
+"to": 202103
+},
+{
+"from": 202007,
+"id": "196704",
+"name": "1.5 Hybrid X Honda Sensing 4WD",
+"to": 202103
+},
+{
+"from": 202007,
+"id": "196706",
+"name": "1.5 Hybrid Z Honda Sensing 4WD",
+"to": 202103
+},
+{
+"from": 202007,
+"id": "268340",
+"name": "1.5 Hybrid Modulo X Honda Sensing 4WD",
+"to": 202103
+}
+]
+},
+{
+"body": [
+"DBA-RU1",
+"6BA-RU1"
+],
+"drive": "fwd",
+"engine": "L15B",
+"fuel": "бензин",
+"hp": 172,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 172 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201901,
+"id": "238422",
+"name": "1.5 Touring Honda Sensing",
+"to": 202006
+},
+{
+"from": 201911,
+"id": "268338",
+"name": "1.5 Touring Modulo X Honda Sensing",
+"to": 202006
+},
+{
+"from": 202007,
+"id": "238422",
+"name": "1.5 Touring Honda Sensing",
+"to": 202103
+},
+{
+"from": 202007,
+"id": "268338",
+"name": "1.5 Touring Modulo X Honda Sensing",
+"to": 202103
+}
+]
+}
+],
+"ids": true,
+"key": "honda/vezel/g_201802_8083",
+"market": "Япония",
+"to": 202103
+},
+"honda/vezel/g_2018_19376": {
+"from": 201802,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "L15B, L15B3",
+"fuel": "бензин",
+"hp": 131,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 131 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201906,
+"id": "472974",
+"name": "1.5 MT Comfort V",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "472975",
+"name": "1.5 MT Comfort VI",
+"to": 202002
+},
+{
+"from": 202003,
+"id": "472986",
+"name": "1.5 MT Comfort",
+"to": 202210
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "L15B, L15B3",
+"fuel": "бензин",
+"hp": 131,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 131 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201906,
+"id": "472976",
+"name": "1.5 CVT Pioneer V",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "472977",
+"name": "1.5 CVT Pioneer VI",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "472978",
+"name": "1.5 CVT Luxury V",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "472979",
+"name": "1.5 CVT Luxury VI",
+"to": 202002
+},
+{
+"from": 202003,
+"id": "472987",
+"name": "1.5 CVT Elite",
+"to": 202210
+},
+{
+"from": 202003,
+"id": "472988",
+"name": "1.5 CVT Pioneer",
+"to": 202210
+},
+{
+"from": 202003,
+"id": "472989",
+"name": "1.5 CVT Luxury",
+"to": 202210
+},
+{
+"from": 202201,
+"id": "472994",
+"name": "1.5 CVT Elite Smart",
+"to": 202210
+},
+{
+"from": 202110,
+"id": "472995",
+"name": "1.5 CVT Phantom Night Pioneer",
+"to": 202210
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "L15BP",
+"fuel": "бензин",
+"hp": 177,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 177 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201906,
+"id": "472980",
+"name": "1.5T CVT 220T Elite V",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "472981",
+"name": "1.5T CVT 220T Elite VI",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "472982",
+"name": "1.5T CVT 220T Luxury V",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "472983",
+"name": "1.5T CVT 220T Luxury VI",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "472984",
+"name": "1.5T CVT 220T Flagship V",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "472985",
+"name": "1.5T CVT 220T Flagship VI",
+"to": 202002
+},
+{
+"from": 202003,
+"id": "472990",
+"name": "1.5T CVT 220T Elite",
+"to": 202210
+},
+{
+"from": 202003,
+"id": "472991",
+"name": "1.5T CVT 220T Luxury",
+"to": 202210
+},
+{
+"from": 202003,
+"id": "472992",
+"name": "1.5T CVT 220T Flagship",
+"to": 202210
+}
+]
+}
+],
+"ids": true,
+"key": "honda/vezel/g_2018_19376",
+"market": "Китай",
+"to": 202210
+},
+"honda/vezel/g_202104_12968": {
+"from": 202102,
+"groups": [
+{
+"body": [
+"6AA-RV5"
+],
+"drive": "fwd",
+"engine": "LEC",
+"fuel": "бензин",
+"hp": 106,
+"hp_total": 131,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 106 л.с., параллельный гибрид, 131 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202104,
+"id": "336458",
+"name": "1.5 e:HEV X",
+"to": 202403
+},
+{
+"from": 202104,
+"id": "336464",
+"name": "1.5 e:HEV PLaY",
+"to": 202403
+},
+{
+"from": 202104,
+"id": "336469",
+"name": "1.5 e:HEV Z",
+"to": 202303
+},
+{
+"from": 202304,
+"id": "336469",
+"name": "1.5 e:HEV Z",
+"to": 202403
+}
+]
+},
+{
+"body": [
+"6AA-RV6"
+],
+"drive": "4wd",
+"engine": "LEC",
+"fuel": "бензин",
+"hp": 106,
+"hp_total": 131,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 106 л.с., параллельный гибрид, 131 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202104,
+"id": "336459",
+"name": "1.5 e:HEV X 4WD",
+"to": 202403
+},
+{
+"from": 202104,
+"id": "336463",
+"name": "1.5 e:HEV Z 4WD",
+"to": 202303
+},
+{
+"from": 202304,
+"id": "336463",
+"name": "1.5 e:HEV Z 4WD",
+"to": 202403
+}
+]
+},
+{
+"body": [
+"6BA-RV3"
+],
+"drive": "fwd",
+"engine": "L15Z",
+"fuel": "бензин",
+"hp": 118,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 118 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202104,
+"id": "336467",
+"name": "1.5 G",
+"to": 202403
+}
+]
+},
+{
+"body": [
+"6BA-RV4"
+],
+"drive": "4wd",
+"engine": "L15Z",
+"fuel": "бензин",
+"hp": 118,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 118 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202104,
+"id": "336468",
+"name": "1.5 G 4WD",
+"to": 202403
+}
+]
+}
+],
+"ids": true,
+"key": "honda/vezel/g_202104_12968",
+"market": "Япония",
+"to": 202403
+},
+"honda/vezel/g_2021_19377": {
+"from": 202102,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "L15CC",
+"fuel": "бензин",
+"gen_key": "honda/vezel/g_2021_19377",
+"hp": 124,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 124 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202211,
+"id": "472997",
+"name": "1.5 CVT Elite",
+"to": 202511
+},
+{
+"from": 202211,
+"id": "472999",
+"name": "1.5 CVT Pioneer",
+"to": 202511
+},
+{
+"from": 202211,
+"id": "473000",
+"name": "1.5 CVT Luxury",
+"to": 202511
+},
+{
+"from": 202303,
+"id": "472998",
+"name": "1.5 CVT Technology",
+"to": 202511
+},
+{
+"from": 202409,
+"id": "550070",
+"name": "1.5 CVT Comfort",
+"to": 202511
+},
+{
+"from": 202511,
+"id": "472997",
+"name": "1.5 CVT Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "472999",
+"name": "1.5 CVT Pioneer",
+"to": null
+},
+{
+"from": 202511,
+"id": "473000",
+"name": "1.5 CVT Luxury",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "honda/vezel/g_2021_19377",
+"market": "Китай",
+"to": null
+},
+"honda/vezel/g_202404_20226": {
+"from": 202403,
+"groups": [
+{
+"body": [
+"6AA-RV5"
+],
+"drive": "fwd",
+"engine": "LEC",
+"fuel": "бензин",
+"hp": 106,
+"hp_total": 131,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 106 л.с., параллельный гибрид, 131 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202404,
+"id": "497931",
+"name": "1.5 e:HEV X",
+"to": 202509
+},
+{
+"from": 202404,
+"id": "497935",
+"name": "1.5 e:HEV X HuNT Package",
+"to": 202509
+},
+{
+"from": 202404,
+"id": "497938",
+"name": "1.5 e:HEV Z",
+"to": null
+},
+{
+"from": 202404,
+"id": "497940",
+"name": "1.5 e:HEV Z PLaY Package",
+"to": null
+},
+{
+"from": 202510,
+"id": "497931",
+"name": "1.5 e:HEV X",
+"to": null
+},
+{
+"from": 202510,
+"id": "497935",
+"name": "1.5 e:HEV X HuNT Package",
+"to": null
+},
+{
+"from": 202510,
+"id": "541941",
+"name": "1.5 e:HEV RS",
+"to": null
+}
+]
+},
+{
+"body": [
+"6AA-RV6"
+],
+"drive": "4wd",
+"engine": "LEC",
+"fuel": "бензин",
+"hp": 106,
+"hp_total": 131,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 106 л.с., параллельный гибрид, 131 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202404,
+"id": "497933",
+"name": "1.5 e:HEV X 4WD",
+"to": 202509
+},
+{
+"from": 202404,
+"id": "497936",
+"name": "1.5 e:HEV X HuNT Package 4WD",
+"to": 202509
+},
+{
+"from": 202404,
+"id": "497939",
+"name": "1.5 e:HEV Z 4WD",
+"to": null
+},
+{
+"from": 202404,
+"id": "497941",
+"name": "1.5 e:HEV Z PLaY Package 4WD",
+"to": null
+},
+{
+"from": 202510,
+"id": "497933",
+"name": "1.5 e:HEV X 4WD",
+"to": null
+},
+{
+"from": 202510,
+"id": "497936",
+"name": "1.5 e:HEV X HuNT Package 4WD",
+"to": null
+},
+{
+"from": 202510,
+"id": "541943",
+"name": "1.5 e:HEV RS 4WD",
+"to": null
+}
+]
+},
+{
+"body": [
+"5BA-RV4"
+],
+"drive": "4wd",
+"engine": "L15Z",
+"fuel": "бензин",
+"hp": 118,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 118 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202404,
+"id": "497942",
+"name": "1.5 G 4WD",
+"to": 202509
+},
+{
+"from": 202510,
+"id": "497942",
+"name": "1.5 G 4WD",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "honda/vezel/g_202404_20226",
+"market": "Япония",
+"to": null
+},
 "hongqi/hq9/g_202209_22029": {
 "from": 202208,
 "groups": [
@@ -34840,6 +36250,7 @@
 ]
 }
 ],
+"key": "hongqi/hs3/g_202307_20825",
 "market": "Россия",
 "to": null
 },
@@ -34860,21 +36271,25 @@
 "trims": [
 {
 "from": 202508,
+"id": "541478",
 "name": "1.5 PHEV 117 km",
 "to": null
 },
 {
 "from": 202508,
+"id": "541480",
 "name": "1.5 PHEV 125 km 2-Millionth Commemorative Edition",
 "to": null
 },
 {
 "from": 202508,
+"id": "541481",
 "name": "1.5 PHEV 125 km Plus 2-Millionth Commemorative Edition",
 "to": null
 },
 {
 "from": 202506,
+"id": "541479",
 "name": "1.5 PHEV 117 km Plus",
 "to": null
 }
@@ -34894,26 +36309,31 @@
 "trims": [
 {
 "from": 202307,
+"id": "486107",
 "name": "1.5 DCT Brave",
 "to": 202407
 },
 {
 "from": 202307,
+"id": "486108",
 "name": "1.5 DCT Good",
 "to": 202407
 },
 {
 "from": 202408,
+"id": "486107",
 "name": "1.5 DCT Brave",
 "to": null
 },
 {
 "from": 202408,
+"id": "517956",
 "name": "1.5 DCT Zhiwei",
 "to": null
 },
 {
 "from": 202408,
+"id": "517957",
 "name": "1.5 DCT Shanwei",
 "to": null
 }
@@ -34933,6 +36353,7 @@
 "trims": [
 {
 "from": 202307,
+"id": "486109",
 "name": "1.5 Good HEV",
 "to": 202408
 }
@@ -34952,6 +36373,7 @@
 "trims": [
 {
 "from": 202409,
+"id": "512197",
 "name": "1.5 PHEV 115 km",
 "to": 202507
 }
@@ -34971,6 +36393,7 @@
 "trims": [
 {
 "from": 202307,
+"id": "486110",
 "name": "2.0 AT",
 "to": 202407
 }
@@ -34990,17 +36413,21 @@
 "trims": [
 {
 "from": 202307,
+"id": "486111",
 "name": "2.0 AT 4WD",
 "to": 202407
 },
 {
 "from": 202408,
+"id": "486111",
 "name": "2.0 AT 4WD",
 "to": null
 }
 ]
 }
 ],
+"ids": true,
+"key": "hongqi/hs3/g_2023_19934",
 "market": "Китай",
 "to": null
 },
@@ -35357,6 +36784,224 @@
 }
 ],
 "key": "hongqi/hs6/g_2025_23264",
+"market": "Китай",
+"to": null
+},
+"im_motors/ls6/g_2023_22959": {
+"from": 202310,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 314,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "314 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202310,
+"id": "535205",
+"name": "71 kWh Max Standard",
+"to": 202409
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "340 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202310,
+"id": "535206",
+"name": "90 kWh Max Long Range",
+"to": 202409
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 515,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "515 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202310,
+"id": "535208",
+"name": "100 kWh Max Ultra Long Range",
+"to": 202409
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 787,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "787 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202310,
+"id": "535210",
+"name": "100 kWh Max Ultra Performance",
+"to": 202409
+}
+]
+}
+],
+"ids": true,
+"key": "im_motors/ls6/g_2023_22959",
+"market": "Китай",
+"to": 202409
+},
+"im_motors/ls6/g_2024_22883": {
+"from": 202409,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"gen_key": "im_motors/ls6/g_2024_22883",
+"hp": 294,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "294 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202409,
+"id": "535209",
+"name": "75 kWh Intelligent Drive",
+"to": null
+},
+{
+"from": 202502,
+"id": "535234",
+"name": "75 kWh Lizard Intelligent Drive Theater",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"gen_key": "im_motors/ls6/g_2024_22883",
+"hp": 337,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "337 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202409,
+"id": "535203",
+"name": "83 kWh Long Range Lizard Intelligent Drive",
+"to": null
+},
+{
+"from": 202409,
+"id": "535204",
+"name": "83 kWh Long Range Lizard Smart Enjoy",
+"to": null
+},
+{
+"from": 202502,
+"id": "535237",
+"name": "83 kWh Long Range Lizard Intelligent Drive Theater",
+"to": null
+},
+{
+"from": 202502,
+"id": "535235",
+"name": "83 kWh Long Range Lizard Smart Theater",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"gen_key": "im_motors/ls6/g_2024_22883",
+"hp": 408,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "408 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202409,
+"id": "535202",
+"name": "100 kWh Ultra Long Range Lizard Intelligent Drive",
+"to": null
+},
+{
+"from": 202502,
+"id": "535236",
+"name": "100 kWh Ultra Long Range Lizard Intelligent Drive Theater",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"gen_key": "im_motors/ls6/g_2024_22883",
+"hp": 787,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "787 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202409,
+"id": "535207",
+"name": "100 kWh Super Performance Lizard Smart Enjoy",
+"to": null
+},
+{
+"from": 202502,
+"id": "535238",
+"name": "100 kWh Ultra Performance Lizard Smart Theater",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "im_motors/ls6/g_2024_22883",
 "market": "Китай",
 "to": null
 },
@@ -38422,6 +40067,7 @@
 "drive": "rwd",
 "engine": "H15R",
 "fuel": "бензин",
+"gen_key": "leapmotor/c01/g_2022_17127",
 "hp": 95,
 "hp_total": 272,
 "hybrid": "последовательный подзаряжаемый (phev) гибрид",
@@ -39170,6 +40816,53 @@
 "key": "leapmotor/lafa_5/g_2025_23349",
 "market": "Китай",
 "to": null
+},
+"leapmotor/s01/g_201906_17125": {
+"from": 201906,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 170,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "170 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 201906,
+"id": "452251",
+"name": "35.6 kWh 380 Standard",
+"to": 202208
+},
+{
+"from": 201906,
+"id": "452252",
+"name": "35.6 kWh 380 Pro",
+"to": 202208
+},
+{
+"from": 201906,
+"id": "452249",
+"name": "48 kWh 460 Standard",
+"to": 202208
+},
+{
+"from": 201906,
+"id": "452250",
+"name": "48 kWh 460 Pro",
+"to": 202208
+}
+]
+}
+],
+"ids": true,
+"key": "leapmotor/s01/g_201906_17125",
+"market": "Китай",
+"to": 202208
 },
 "leapmotor/t03/g_2020_17124": {
 "from": 202005,
@@ -70311,6 +72004,7 @@
 "v9": "v9",
 "двигателиluxeed": "engine"
 },
+"lynk_co": {},
 "m-hero": {
 "engine": "engine",
 "frame": "frame",
@@ -73575,6 +75269,120 @@
 ],
 "name": "77 kWh Urban Fit Pro"
 },
+"472997": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"11,5 с"
+],
+[
+"Максимальная скорость",
+"178 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"124 л.с. (91 кВт) при 6600 об/мин"
+],
+[
+"Крутящий момент",
+"145 Н·м при 4700 об/мин"
+],
+[
+"Модель двигателя",
+"L15CC"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,3 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4380 × 1790 × 1590 мм"
+],
+[
+"Колёсная база",
+"2610 мм"
+],
+[
+"Клиренс",
+"150 мм"
+],
+[
+"Масса",
+"1295 кг"
+],
+[
+"Топливный бак",
+"40 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/60 R17"
+],
+[
+"Радиус разворота",
+"5,5 м"
+]
+]
+]
+],
+"name": "1.5 CVT Elite"
+},
 "476978": {
 "groups": [
 [
@@ -74022,6 +75830,120 @@
 ]
 ],
 "name": "1.4 280 TSI DSG R-Line Lite 5dr."
+},
+"486107": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,9 с"
+],
+[
+"Максимальная скорость",
+"195 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"169 л.с. (124 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"258 Н·м при 1500 об/мин"
+],
+[
+"Модель двигателя",
+"CA4GB15TD-30"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,8 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4655 × 1900 × 1668 мм"
+],
+[
+"Колёсная база",
+"2770 мм"
+],
+[
+"Клиренс",
+"150 мм"
+],
+[
+"Масса",
+"1660 кг"
+],
+[
+"Топливный бак",
+"64 л"
+],
+[
+"Багажник",
+"352 (706) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"235/60 R18"
+]
+]
+]
+],
+"name": "1.5 DCT Brave"
 },
 "487948": {
 "groups": [
