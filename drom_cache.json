@@ -471,6 +471,12 @@
 "g_201604_16845"
 ]
 },
+"baic/beijing_bj90/china": {
+"day": 739885,
+"gens": [
+"g_2017_16844"
+]
+},
 "baojun/rc-6/china": {
 "day": 739885,
 "gens": [
@@ -868,6 +874,14 @@
 "day": 739885,
 "gens": []
 },
+"cadillac/ct5/china": {
+"day": 739885,
+"gens": [
+"g_201910_12790",
+"g_2019_19856",
+"g_2023_19857"
+]
+},
 "cadillac/escalade/china": {
 "day": 739884,
 "gens": []
@@ -1131,6 +1145,12 @@
 "day": 739884,
 "gens": []
 },
+"haima/7x/china": {
+"day": 739885,
+"gens": [
+"g_2019_18734"
+]
+},
 "haval/dargo/china": {
 "day": 739884,
 "gens": [
@@ -1296,6 +1316,16 @@
 "g_2017_21963"
 ]
 },
+"infiniti/qx60/china": {
+"day": 739885,
+"gens": [
+"g_201309_2152",
+"g_201602_6992",
+"g_202106_16130",
+"g_2021_16127",
+"g_202507_22546"
+]
+},
 "infiniti/qx80/china": {
 "day": 739884,
 "gens": []
@@ -1369,6 +1399,24 @@
 "g_2015_15782",
 "g_2016_15783",
 "g_201911_15784"
+]
+},
+"kia/sportage/china": {
+"day": 739885,
+"gens": [
+"g_199305_7837",
+"g_200408_5673",
+"g_200704_5674",
+"g_200804_5675",
+"g_201008_4112",
+"g_201404_1291",
+"g_201509_3817",
+"g_201807_8385",
+"g_2018_19215",
+"g_202103_13525",
+"g_2021_19214",
+"g_2021_19248",
+"g_202411_22968"
 ]
 },
 "lamborghini/revuelto/china": {
@@ -1548,6 +1596,14 @@
 "g_202109_17015",
 "g_2021_19181",
 "g_202506_23118"
+]
+},
+"mazda/cx-8/china": {
+"day": 739885,
+"gens": [
+"g_201712_7830",
+"g_2018_21486",
+"g_202212_16614"
 ]
 },
 "mazda/ez-6/china": {
@@ -1806,6 +1862,14 @@
 "g_2011_21338",
 "g_201605_21339"
 ]
+},
+"porsche/911/china": {
+"day": 739885,
+"gens": []
+},
+"porsche/macan/china": {
+"day": 739885,
+"gens": []
 },
 "porsche/panamera/china": {
 "day": 739884,
@@ -10015,6 +10079,104 @@
 ]
 }
 ],
+"market": "Китай",
+"to": null
+},
+"baic/beijing_bj90/g_2017_16844": {
+"from": 201708,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "M 276 DE 30 AL",
+"fuel": "бензин",
+"hp": 333,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 333 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201708,
+"id": "463667",
+"name": "3.0T SAT AWD Government Affairs Edition",
+"to": 202006
+},
+{
+"from": 202007,
+"id": "463669",
+"name": "3.0T SAT AWD Executive",
+"to": 202211
+},
+{
+"from": 202007,
+"id": "463670",
+"name": "3.0T SAT AWD Pilot",
+"to": 202211
+},
+{
+"from": 202007,
+"id": "463671",
+"name": "3.0T SAT AWD Chief",
+"to": 202211
+},
+{
+"from": 202107,
+"id": "463674",
+"name": "3.0T SAT AWD Honor",
+"to": 202211
+},
+{
+"from": 202212,
+"id": "463675",
+"name": "3.0T SAT AWD Shanhe Classic Knight Edition",
+"to": null
+},
+{
+"from": 202212,
+"id": "463676",
+"name": "3.0T SAT AWD Shanhe Classic Extreme Edition",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "M 176 DE 40 AL",
+"fuel": "бензин",
+"gen_key": "baic/beijing_bj90/g_2017_16844",
+"hp": 422,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.0,
+"text": "4.0 л, 422 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201708,
+"id": "463668",
+"name": "4.0T SAT AWD Government Affairs Edition",
+"to": 202006
+},
+{
+"from": 202007,
+"id": "463672",
+"name": "4.0T SAT AWD Honor",
+"to": 202211
+},
+{
+"from": 202007,
+"id": "463673",
+"name": "4.0T SAT AWD Premium",
+"to": 202211
+}
+]
+}
+],
+"ids": true,
+"key": "baic/beijing_bj90/g_2017_16844",
 "market": "Китай",
 "to": null
 },
@@ -28643,6 +28805,425 @@
 "market": "Китай",
 "to": null
 },
+"cadillac/ct5/g_201910_12790": {
+"from": 201904,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "GM Ecotec LSY",
+"fuel": "бензин",
+"hp": 237,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 237 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201910,
+"id": "312276",
+"name": "2.0T AT AWD Luxury",
+"to": null
+},
+{
+"from": 201910,
+"id": "312277",
+"name": "2.0T AT AWD Premium Luxury",
+"to": null
+},
+{
+"from": 201910,
+"id": "312278",
+"name": "2.0T AT AWD Sport",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GM Ecotec LSY",
+"fuel": "бензин",
+"hp": 237,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 237 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201910,
+"id": "312273",
+"name": "2.0T AT Luxury",
+"to": null
+},
+{
+"from": 201910,
+"id": "312274",
+"name": "2.0T AT Premium Luxury",
+"to": null
+},
+{
+"from": 201910,
+"id": "312275",
+"name": "2.0T AT Sport",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GM LGY",
+"fuel": "бензин",
+"hp": 335,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 335 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201910,
+"id": "312280",
+"name": "3.0T AT AWD Premium Luxury",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GM LGY",
+"fuel": "бензин",
+"hp": 335,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 335 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201910,
+"id": "312279",
+"name": "3.0T AT Premium Luxury",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GM LGY",
+"fuel": "бензин",
+"hp": 355,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 355 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201910,
+"id": "312282",
+"name": "3.0T AT AWD CT5-V",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GM LGY",
+"fuel": "бензин",
+"hp": 355,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 355 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201910,
+"id": "312281",
+"name": "3.0T AT CT5-V",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "cadillac/ct5/g_201910_12790",
+"market": "США",
+"to": null
+},
+"cadillac/ct5/g_2019_19856": {
+"from": 201904,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": "GM Ecotec LSY",
+"fuel": "бензин",
+"gen_key": "cadillac/ct5/g_2019_19856",
+"hp": 237,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 237 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202007,
+"id": "484104",
+"name": "2.0T AT 28T Technical",
+"to": 202104
+},
+{
+"from": 202007,
+"id": "484105",
+"name": "2.0T AT 28T Fashion",
+"to": 202104
+},
+{
+"from": 202007,
+"id": "484106",
+"name": "2.0T AT 28T Fashion Sports",
+"to": 202111
+},
+{
+"from": 202007,
+"id": "484107",
+"name": "2.0T AT 28T Luxury",
+"to": 202111
+},
+{
+"from": 202007,
+"id": "484108",
+"name": "2.0T AT 28T Leading Sports",
+"to": 202111
+},
+{
+"from": 202007,
+"id": "484109",
+"name": "2.0T AT 28T Platinum Sports",
+"to": 202012
+},
+{
+"from": 202105,
+"id": "484110",
+"name": "2.0T AT 28T Platinum",
+"to": 202111
+},
+{
+"from": 202101,
+"id": "484109",
+"name": "2.0T AT 28T Platinum Sports",
+"to": 202104
+},
+{
+"from": 202105,
+"id": "484112",
+"name": "2.0T AT 28T Premium",
+"to": 202109
+},
+{
+"from": 202105,
+"id": "484105",
+"name": "2.0T AT 28T Fashion",
+"to": 202110
+},
+{
+"from": 202110,
+"id": "484112",
+"name": "2.0T AT 28T Premium",
+"to": 202111
+},
+{
+"from": 202111,
+"id": "484105",
+"name": "2.0T AT 28T Fashion",
+"to": 202303
+},
+{
+"from": 202111,
+"id": "484112",
+"name": "2.0T AT 28T Premium",
+"to": 202303
+},
+{
+"from": 202111,
+"id": "484107",
+"name": "2.0T AT 28T Luxury",
+"to": 202112
+},
+{
+"from": 202201,
+"id": "484107",
+"name": "2.0T AT 28T Luxury",
+"to": 202303
+},
+{
+"from": 202111,
+"id": "484110",
+"name": "2.0T AT 28T Platinum",
+"to": null
+},
+{
+"from": 202208,
+"id": "484127",
+"name": "2.0T AT 28T Platinum Super Assisted Driving Edition",
+"to": null
+},
+{
+"from": 202304,
+"id": "484105",
+"name": "2.0T AT 28T Fashion",
+"to": null
+},
+{
+"from": 202304,
+"id": "484107",
+"name": "2.0T AT 28T Luxury",
+"to": null
+},
+{
+"from": 202304,
+"id": "484112",
+"name": "2.0T AT 28T Premium",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GM Ecotec LSY",
+"fuel": "бензин",
+"hp": 241,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 241 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201911,
+"id": "484104",
+"name": "2.0T AT 28T Technical",
+"to": 202006
+},
+{
+"from": 201911,
+"id": "484105",
+"name": "2.0T AT 28T Fashion",
+"to": 202006
+},
+{
+"from": 201911,
+"id": "484106",
+"name": "2.0T AT 28T Fashion Sports",
+"to": 202006
+},
+{
+"from": 201911,
+"id": "484107",
+"name": "2.0T AT 28T Luxury",
+"to": 202006
+},
+{
+"from": 201911,
+"id": "484108",
+"name": "2.0T AT 28T Leading Sports",
+"to": 202006
+},
+{
+"from": 201911,
+"id": "484109",
+"name": "2.0T AT 28T Platinum Sports",
+"to": 202006
+}
+]
+}
+],
+"ids": true,
+"key": "cadillac/ct5/g_2019_19856",
+"market": "Китай",
+"to": null
+},
+"cadillac/ct5/g_2023_19857": {
+"from": 202309,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": "GM Ecotec LSY",
+"fuel": "бензин",
+"gen_key": "cadillac/ct5/g_2023_19857",
+"hp": 237,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 237 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202312,
+"id": "484133",
+"name": "2.0T AT 28T Luxury",
+"to": 202503
+},
+{
+"from": 202312,
+"id": "484134",
+"name": "2.0T AT 28T Luxury Pro",
+"to": 202503
+},
+{
+"from": 202312,
+"id": "484136",
+"name": "2.0T AT 28T Premium",
+"to": 202503
+},
+{
+"from": 202312,
+"id": "484138",
+"name": "2.0T AT 28T Platinum",
+"to": 202503
+},
+{
+"from": 202506,
+"id": "549622",
+"name": "2.0T AT 28T Urban Style",
+"to": null
+},
+{
+"from": 202503,
+"id": "549623",
+"name": "2.0T AT 28T Urban Sport",
+"to": null
+},
+{
+"from": 202503,
+"id": "549624",
+"name": "2.0T AT 28T Track Performance",
+"to": null
+},
+{
+"from": 202503,
+"id": "549625",
+"name": "2.0T AT 28T Track Performance + Apex Track Package",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "cadillac/ct5/g_2023_19857",
+"market": "Китай",
+"to": null
+},
 "cadillac/xt6/g_201903_10778": {
 "from": 201901,
 "groups": [
@@ -34750,6 +35331,86 @@
 ],
 "ids": true,
 "key": "geely/preface/g_2022_17734",
+"market": "Китай",
+"to": null
+},
+"haima/7x/g_2019_18734": {
+"from": 201911,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "HM474Q-T",
+"fuel": "бензин",
+"hp": 165,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 165 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202008,
+"id": "465379",
+"name": "1.5T AT Elite",
+"to": 202302
+},
+{
+"from": 202303,
+"id": "465391",
+"name": "1.5T AT Comfort",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "HMA GA16-YF",
+"fuel": "бензин",
+"gen_key": "haima/7x/g_2019_18734",
+"hp": 195,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 195 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202008,
+"id": "465388",
+"name": "1.6TGDI AT Luxury",
+"to": 202302
+},
+{
+"from": 202008,
+"id": "465390",
+"name": "1.6TGDI AT Flagship",
+"to": 202302
+},
+{
+"from": 202303,
+"id": "465388",
+"name": "1.6TGDI AT Luxury",
+"to": null
+},
+{
+"from": 202303,
+"id": "465390",
+"name": "1.6TGDI AT Flagship",
+"to": null
+},
+{
+"from": 202303,
+"id": "465396",
+"name": "1.6TGDI AT Intelligent",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "haima/7x/g_2019_18734",
 "market": "Китай",
 "to": null
 },
@@ -41630,6 +42291,577 @@
 "market": "Китай",
 "to": null
 },
+"infiniti/qx60/g_201309_2152": {
+"from": 201312,
+"groups": [
+{
+"body": [
+"L50"
+],
+"drive": "4wd",
+"engine": "QR25DER",
+"fuel": "бензин",
+"hp": 231,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 231 л.с., параллельный гибрид, 20 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201312,
+"id": "75463",
+"name": "2.5 Elite HEV",
+"to": 201406
+},
+{
+"from": 201312,
+"id": "75461",
+"name": "2.5 Hi-Tech HEV",
+"to": 201406
+},
+{
+"from": 201312,
+"id": "75462",
+"name": "2.5 Elegance HEV",
+"to": 201608
+},
+{
+"from": 201312,
+"id": "75464",
+"name": "2.5 Premium HEV",
+"to": 201508
+},
+{
+"from": 201407,
+"id": "77592",
+"name": "2.5 Elegance + Roof Rail HEV",
+"to": 201608
+},
+{
+"from": 201407,
+"id": "77593",
+"name": "2.5 Premium + Roof Rail HEV",
+"to": 201608
+},
+{
+"from": 201407,
+"id": "77594",
+"name": "2.5 Elite + Roof Rail HEV",
+"to": 201608
+},
+{
+"from": 201407,
+"id": "77595",
+"name": "2.5 Hi-Tech + Roof Rail HEV",
+"to": 201608
+}
+]
+},
+{
+"body": [
+"L50"
+],
+"drive": "4wd",
+"engine": "VQ35DE",
+"fuel": "бензин",
+"hp": 262,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 262 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201312,
+"id": "75458",
+"name": "3.5 Elite",
+"to": 201406
+},
+{
+"from": 201312,
+"id": "75457",
+"name": "3.5 Hi-Tech",
+"to": 201406
+},
+{
+"from": 201312,
+"id": "75459",
+"name": "3.5 Premium",
+"to": 201508
+},
+{
+"from": 201312,
+"id": "75460",
+"name": "3.5 Elegance",
+"to": 201608
+},
+{
+"from": 201407,
+"id": "77588",
+"name": "3.5 Elegance + Roof Rail",
+"to": 201608
+},
+{
+"from": 201407,
+"id": "77589",
+"name": "3.5 Premium + Roof Rail",
+"to": 201608
+},
+{
+"from": 201407,
+"id": "77590",
+"name": "3.5 Elite + Roof Rail",
+"to": 201608
+},
+{
+"from": 201407,
+"id": "77591",
+"name": "3.5 Hi-Tech + Roof Rail",
+"to": 201608
+}
+]
+}
+],
+"ids": true,
+"key": "infiniti/qx60/g_201309_2152",
+"market": "Россия",
+"to": 201608
+},
+"infiniti/qx60/g_201602_6992": {
+"from": 201609,
+"groups": [
+{
+"body": [
+"L50"
+],
+"drive": "4wd",
+"engine": "QR25DER",
+"fuel": "бензин",
+"hp": 231,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 231 л.с., параллельный гибрид, 20 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201609,
+"id": "167952",
+"name": "2.5 Elegance HEV",
+"to": 201705
+},
+{
+"from": 201609,
+"id": "167956",
+"name": "2.5 Elite + Roof Rail HEV",
+"to": 201901
+},
+{
+"from": 201609,
+"id": "167955",
+"name": "2.5 Hi-Tech + Roof Rail HEV",
+"to": 201901
+},
+{
+"from": 201609,
+"id": "167961",
+"name": "2.5 Elegance + Roof Rail HEV",
+"to": 201804
+},
+{
+"from": 201609,
+"id": "167958",
+"name": "2.5 Premium + Roof Rail HEV",
+"to": 201804
+},
+{
+"from": 201906,
+"id": "250723",
+"name": "2.5 CVT Elite HEV",
+"to": 202107
+},
+{
+"from": 201906,
+"id": "250724",
+"name": "2.5 CVT Hi-Tech HEV",
+"to": 202107
+}
+]
+},
+{
+"body": [
+"L50"
+],
+"drive": "4wd",
+"engine": "VQ35DE",
+"fuel": "бензин",
+"hp": 262,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 262 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201609,
+"id": "167953",
+"name": "3.5 Elegance",
+"to": 201705
+},
+{
+"from": 201609,
+"id": "167960",
+"name": "3.5 Elegance + Roof Rail",
+"to": 201905
+},
+{
+"from": 201609,
+"id": "167959",
+"name": "3.5 Premium + Roof Rail",
+"to": 201905
+},
+{
+"from": 201609,
+"id": "167957",
+"name": "3.5 Elite + Roof Rail",
+"to": 201905
+},
+{
+"from": 201609,
+"id": "167954",
+"name": "3.5 Hi-Tech + Roof Rail",
+"to": 201905
+}
+]
+},
+{
+"body": [
+"L50"
+],
+"drive": "4wd",
+"engine": "VQ35DE",
+"fuel": "бензин",
+"hp": 283,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 283 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201906,
+"id": "250712",
+"name": "3.5 CVT Elegance",
+"to": 202112
+},
+{
+"from": 201906,
+"id": "250720",
+"name": "3.5 CVT Premium",
+"to": 202112
+},
+{
+"from": 201906,
+"id": "250721",
+"name": "3.5 CVT Elite",
+"to": 202112
+},
+{
+"from": 201906,
+"id": "250722",
+"name": "3.5 CVT Hi-Tech",
+"to": 202112
+}
+]
+}
+],
+"ids": true,
+"key": "infiniti/qx60/g_201602_6992",
+"market": "Россия",
+"to": 202112
+},
+"infiniti/qx60/g_202106_16130": {
+"from": 202106,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "KR20DDET",
+"fuel": "бензин",
+"hp": 268,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 268 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202406,
+"id": "522228",
+"name": "2.0 AT Pure",
+"to": 202506
+},
+{
+"from": 202406,
+"id": "522229",
+"name": "2.0 AT Luxe",
+"to": 202506
+},
+{
+"from": 202406,
+"id": "522230",
+"name": "2.0 AT Sensory",
+"to": 202506
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "KR20DDET",
+"fuel": "бензин",
+"hp": 268,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 268 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202406,
+"id": "522228",
+"name": "2.0 AT Pure",
+"to": 202506
+},
+{
+"from": 202406,
+"id": "522229",
+"name": "2.0 AT Luxe",
+"to": 202506
+},
+{
+"from": 202406,
+"id": "522230",
+"name": "2.0 AT Sensory",
+"to": 202506
+},
+{
+"from": 202406,
+"id": "522231",
+"name": "2.0 AT Autograph",
+"to": 202506
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "VQ35DD",
+"fuel": "бензин",
+"hp": 295,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 295 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202107,
+"id": "437748",
+"name": "3.5 AT Pure",
+"to": 202208
+},
+{
+"from": 202107,
+"id": "437749",
+"name": "3.5 AT Luxe",
+"to": 202208
+},
+{
+"from": 202107,
+"id": "437750",
+"name": "3.5 AT Sensory",
+"to": 202208
+},
+{
+"from": 202107,
+"id": "437751",
+"name": "3.5 AT Autograph",
+"to": 202208
+},
+{
+"from": 202209,
+"id": "437748",
+"name": "3.5 AT Pure",
+"to": 202405
+},
+{
+"from": 202209,
+"id": "437749",
+"name": "3.5 AT Luxe",
+"to": 202405
+},
+{
+"from": 202209,
+"id": "437750",
+"name": "3.5 AT Sensory",
+"to": 202405
+},
+{
+"from": 202209,
+"id": "437751",
+"name": "3.5 AT Autograph",
+"to": 202405
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "VQ35DD",
+"fuel": "бензин",
+"hp": 295,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 295 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202107,
+"id": "437748",
+"name": "3.5 AT Pure",
+"to": 202208
+},
+{
+"from": 202107,
+"id": "437749",
+"name": "3.5 AT Luxe",
+"to": 202208
+},
+{
+"from": 202107,
+"id": "437750",
+"name": "3.5 AT Sensory",
+"to": 202208
+},
+{
+"from": 202107,
+"id": "437751",
+"name": "3.5 AT Autograph",
+"to": 202208
+},
+{
+"from": 202209,
+"id": "437748",
+"name": "3.5 AT Pure",
+"to": 202405
+},
+{
+"from": 202209,
+"id": "437749",
+"name": "3.5 AT Luxe",
+"to": 202405
+},
+{
+"from": 202209,
+"id": "437750",
+"name": "3.5 AT Sensory",
+"to": 202405
+},
+{
+"from": 202209,
+"id": "437751",
+"name": "3.5 AT Autograph",
+"to": 202405
+}
+]
+}
+],
+"ids": true,
+"key": "infiniti/qx60/g_202106_16130",
+"market": "США",
+"to": 202506
+},
+"infiniti/qx60/g_2021_16127": {
+"from": 202106,
+"groups": [
+{
+"body": [
+"L51"
+],
+"drive": "fwd",
+"engine": "KR20DDET",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 252 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202112,
+"id": "437697",
+"name": "2.0 AT Classic",
+"to": null
+},
+{
+"from": 202112,
+"id": "437716",
+"name": "2.0 AT Comfort",
+"to": null
+}
+]
+},
+{
+"body": [
+"L51"
+],
+"drive": "4wd",
+"engine": "KR20DDET",
+"fuel": "бензин",
+"gen_key": "infiniti/qx60/g_2021_16127",
+"hp": 252,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 252 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202112,
+"id": "437719",
+"name": "2.0 AT Excellent",
+"to": null
+},
+{
+"from": 202112,
+"id": "437720",
+"name": "2.0 AT Deluxe",
+"to": null
+},
+{
+"from": 202112,
+"id": "437721",
+"name": "2.0 AT Premium",
+"to": null
+},
+{
+"from": 202112,
+"id": "437722",
+"name": "2.0 AT Ultimate",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "infiniti/qx60/g_2021_16127",
+"market": "Китай",
+"to": null
+},
 "jetour/l6/g_2023_21656": {
 "from": 202310,
 "groups": [
@@ -43065,6 +44297,1955 @@
 "key": "kia/kx3/g_201911_15784",
 "market": "Китай",
 "to": 202305
+},
+"kia/sportage/g_201404_1291": {
+"from": 201404,
+"groups": [
+{
+"body": [
+"SL"
+],
+"drive": "4wd",
+"engine": "D4HA",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 136 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201404,
+"id": "75206",
+"name": "2.0D AT 4WD Comfort",
+"to": 201504
+},
+{
+"from": 201409,
+"id": "77871",
+"name": "2.0D AT 4WD Comfort Cruise",
+"to": 201502
+},
+{
+"from": 201412,
+"id": "75206",
+"name": "2.0D AT 4WD Comfort",
+"to": 201504
+}
+]
+},
+{
+"body": [
+"SL"
+],
+"drive": "fwd",
+"engine": "G4NU",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201404,
+"id": "75195",
+"name": "2.0 MT 2WD Classic",
+"to": 201411
+},
+{
+"from": 201412,
+"id": "75195",
+"name": "2.0 MT 2WD Classic",
+"to": 201504
+},
+{
+"from": 201412,
+"id": "79095",
+"name": "2.0 MT 2WD Comfort",
+"to": 201504
+},
+{
+"from": 201404,
+"id": "75195",
+"name": "2.0 MT 2WD Classic",
+"to": 201504
+},
+{
+"from": 201404,
+"id": "79095",
+"name": "2.0 MT 2WD Comfort",
+"to": 201504
+},
+{
+"from": 201404,
+"id": "75198",
+"name": "2.0 MT 2WD Luxe",
+"to": 201504
+},
+{
+"from": 201412,
+"id": "75195",
+"name": "2.0 MT 2WD Classic",
+"to": 201602
+},
+{
+"from": 201505,
+"id": "75195",
+"name": "2.0 MT 2WD Classic",
+"to": 201602
+},
+{
+"from": 201505,
+"id": "79095",
+"name": "2.0 MT 2WD Comfort",
+"to": 201602
+},
+{
+"from": 201505,
+"id": "75198",
+"name": "2.0 MT 2WD Luxe",
+"to": 201602
+}
+]
+},
+{
+"body": [
+"SL"
+],
+"drive": "4wd",
+"engine": "G4NU",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201404,
+"id": "75202",
+"name": "2.0 MT 4WD Luxe",
+"to": 201504
+},
+{
+"from": 201409,
+"id": "77885",
+"name": "2.0 MT 4WD Classic",
+"to": 201504
+},
+{
+"from": 201412,
+"id": "77885",
+"name": "2.0 MT 4WD Classic",
+"to": 201504
+},
+{
+"from": 201505,
+"id": "77885",
+"name": "2.0 MT 4WD Classic",
+"to": 201602
+},
+{
+"from": 201505,
+"id": "75202",
+"name": "2.0 MT 4WD Luxe",
+"to": 201602
+}
+]
+},
+{
+"body": [
+"SL"
+],
+"drive": "fwd",
+"engine": "G4NU",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201404,
+"id": "75199",
+"name": "2.0 AT 2WD Classic",
+"to": 201504
+},
+{
+"from": 201404,
+"id": "75200",
+"name": "2.0 AT 2WD Comfort",
+"to": 201504
+},
+{
+"from": 201404,
+"id": "75201",
+"name": "2.0 AT 2WD Luxe",
+"to": 201504
+},
+{
+"from": 201409,
+"id": "77873",
+"name": "2.0 AT 2WD Comfort Cruise",
+"to": 201502
+},
+{
+"from": 201412,
+"id": "75199",
+"name": "2.0 AT 2WD Classic",
+"to": 201504
+},
+{
+"from": 201412,
+"id": "75200",
+"name": "2.0 AT 2WD Comfort",
+"to": 201504
+},
+{
+"from": 201505,
+"id": "75199",
+"name": "2.0 AT 2WD Classic",
+"to": 201602
+},
+{
+"from": 201505,
+"id": "75200",
+"name": "2.0 AT 2WD Comfort",
+"to": 201602
+},
+{
+"from": 201505,
+"id": "75201",
+"name": "2.0 AT 2WD Luxe",
+"to": 201602
+}
+]
+},
+{
+"body": [
+"SL"
+],
+"drive": "4wd",
+"engine": "G4NU",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201404,
+"id": "75203",
+"name": "2.0 AT 4WD Luxe",
+"to": 201504
+},
+{
+"from": 201404,
+"id": "75204",
+"name": "2.0 AT 4WD Prestige",
+"to": 201602
+},
+{
+"from": 201404,
+"id": "75205",
+"name": "2.0 AT 4WD Premium",
+"to": 201602
+},
+{
+"from": 201405,
+"id": "76359",
+"name": "2.0 AT 4WD FIFA",
+"to": 201408
+},
+{
+"from": 201409,
+"id": "77874",
+"name": "2.0 AT 4WD Luxe Cruise",
+"to": 201502
+},
+{
+"from": 201409,
+"id": "77887",
+"name": "2.0 AT 4WD Comfort",
+"to": 201504
+},
+{
+"from": 201412,
+"id": "77887",
+"name": "2.0 AT 4WD Comfort",
+"to": 201504
+},
+{
+"from": 201505,
+"id": "77887",
+"name": "2.0 AT 4WD Comfort",
+"to": 201602
+},
+{
+"from": 201505,
+"id": "75203",
+"name": "2.0 AT 4WD Luxe",
+"to": 201602
+}
+]
+},
+{
+"body": [
+"SL"
+],
+"drive": "4wd",
+"engine": "D4HA",
+"fuel": "дизель",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201404,
+"id": "75207",
+"name": "2.0D AT 4WD Luxe",
+"to": 201504
+},
+{
+"from": 201404,
+"id": "75208",
+"name": "2.0D AT 4WD Prestige",
+"to": 201504
+},
+{
+"from": 201404,
+"id": "75209",
+"name": "2.0D AT 4WD Premium",
+"to": 201602
+},
+{
+"from": 201405,
+"id": "76358",
+"name": "2.0D AT 4WD FIFA",
+"to": 201408
+},
+{
+"from": 201409,
+"id": "77872",
+"name": "2.0D AT 4WD Luxe Cruise",
+"to": 201502
+}
+]
+}
+],
+"ids": true,
+"key": "kia/sportage/g_201404_1291",
+"market": "Россия",
+"to": 201603
+},
+"kia/sportage/g_201509_3817": {
+"from": 201603,
+"groups": [
+{
+"body": [
+"QL"
+],
+"drive": "4wd",
+"engine": "G4FJ",
+"fuel": "бензин",
+"hp": 177,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 177 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201603,
+"id": "100975",
+"name": "1.6 T DCT 4WD GT-Line",
+"to": 201612
+},
+{
+"from": 201701,
+"id": "100975",
+"name": "1.6 T DCT 4WD GT-Line",
+"to": 201712
+},
+{
+"from": 201801,
+"id": "100975",
+"name": "1.6 T DCT 4WD GT-Line",
+"to": 201901
+}
+]
+},
+{
+"body": [
+"QL"
+],
+"drive": "fwd",
+"engine": "G4NA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201603,
+"id": "100295",
+"name": "2.0 MT 2WD Classic",
+"to": 201612
+},
+{
+"from": 201603,
+"id": "100437",
+"name": "2.0 MT 2WD Classic Теплые опции",
+"to": 201612
+},
+{
+"from": 201608,
+"id": "164837",
+"name": "2.0 MT 2WD Comfort",
+"to": 201612
+},
+{
+"from": 201701,
+"id": "100295",
+"name": "2.0 MT 2WD Classic",
+"to": 201712
+},
+{
+"from": 201701,
+"id": "100437",
+"name": "2.0 MT 2WD Classic Теплые опции",
+"to": 201712
+},
+{
+"from": 201701,
+"id": "164837",
+"name": "2.0 MT 2WD Comfort",
+"to": 201712
+},
+{
+"from": 201801,
+"id": "100295",
+"name": "2.0 MT 2WD Classic",
+"to": 201901
+},
+{
+"from": 201801,
+"id": "100437",
+"name": "2.0 MT 2WD Classic Теплые опции",
+"to": 201901
+},
+{
+"from": 201801,
+"id": "164837",
+"name": "2.0 MT 2WD Comfort",
+"to": 201901
+}
+]
+},
+{
+"body": [
+"QL"
+],
+"drive": "4wd",
+"engine": "G4NA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201603,
+"id": "100539",
+"name": "2.0 MT 4WD Luxe",
+"to": 201612
+},
+{
+"from": 201608,
+"id": "164848",
+"name": "2.0 MT 4WD Classic Теплые опции",
+"to": 201612
+},
+{
+"from": 201701,
+"id": "164848",
+"name": "2.0 MT 4WD Classic Теплые опции",
+"to": 201712
+},
+{
+"from": 201701,
+"id": "100539",
+"name": "2.0 MT 4WD Luxe",
+"to": 201712
+},
+{
+"from": 201801,
+"id": "164848",
+"name": "2.0 MT 4WD Classic Теплые опции",
+"to": 201901
+},
+{
+"from": 201801,
+"id": "193660",
+"name": "2.0 MT 4WD Comfort",
+"to": 201901
+},
+{
+"from": 201801,
+"id": "100539",
+"name": "2.0 MT 4WD Luxe",
+"to": 201901
+}
+]
+},
+{
+"body": [
+"QL"
+],
+"drive": "fwd",
+"engine": "G4NA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201603,
+"id": "100537",
+"name": "2.0 AT 2WD Comfort",
+"to": 201612
+},
+{
+"from": 201603,
+"id": "100538",
+"name": "2.0 AT 2WD Luxe",
+"to": 201612
+},
+{
+"from": 201608,
+"id": "164843",
+"name": "2.0 AT 2WD Classic Теплые опции",
+"to": 201612
+},
+{
+"from": 201701,
+"id": "164843",
+"name": "2.0 AT 2WD Classic Теплые опции",
+"to": 201712
+},
+{
+"from": 201701,
+"id": "100537",
+"name": "2.0 AT 2WD Comfort",
+"to": 201712
+},
+{
+"from": 201701,
+"id": "100538",
+"name": "2.0 AT 2WD Luxe",
+"to": 201712
+},
+{
+"from": 201705,
+"id": "183655",
+"name": "2.0 AT 2WD Comfort FCC 2017",
+"to": 201709
+},
+{
+"from": 201710,
+"id": "188541",
+"name": "2.0 AT 2WD Comfort RED Line",
+"to": 201712
+},
+{
+"from": 201801,
+"id": "164843",
+"name": "2.0 AT 2WD Classic Теплые опции",
+"to": 201901
+},
+{
+"from": 201801,
+"id": "100537",
+"name": "2.0 AT 2WD Comfort",
+"to": 201901
+},
+{
+"from": 201801,
+"id": "100538",
+"name": "2.0 AT 2WD Luxe",
+"to": 201901
+},
+{
+"from": 201801,
+"id": "193661",
+"name": "2.0 AT 2WD Prestige",
+"to": 201901
+},
+{
+"from": 201804,
+"id": "202317",
+"name": "2.0 AT 2WD Comfort 2018 FWC",
+"to": 201901
+}
+]
+},
+{
+"body": [
+"QL"
+],
+"drive": "4wd",
+"engine": "G4NA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201603,
+"id": "100540",
+"name": "2.0 AT 4WD Comfort",
+"to": 201612
+},
+{
+"from": 201603,
+"id": "100541",
+"name": "2.0 AT 4WD Luxe",
+"to": 201612
+},
+{
+"from": 201603,
+"id": "100895",
+"name": "2.0 AT 4WD Prestige",
+"to": 201612
+},
+{
+"from": 201603,
+"id": "100935",
+"name": "2.0 AT 4WD Premium",
+"to": 201612
+},
+{
+"from": 201701,
+"id": "100540",
+"name": "2.0 AT 4WD Comfort",
+"to": 201712
+},
+{
+"from": 201701,
+"id": "100541",
+"name": "2.0 AT 4WD Luxe",
+"to": 201712
+},
+{
+"from": 201701,
+"id": "100895",
+"name": "2.0 AT 4WD Prestige",
+"to": 201712
+},
+{
+"from": 201701,
+"id": "100935",
+"name": "2.0 AT 4WD Premium",
+"to": 201712
+},
+{
+"from": 201705,
+"id": "183656",
+"name": "2.0 AT 4WD Comfort FFC 2017",
+"to": 201709
+},
+{
+"from": 201710,
+"id": "188542",
+"name": "2.0 AT 4WD Comfort RED Line",
+"to": 201712
+},
+{
+"from": 201801,
+"id": "100540",
+"name": "2.0 AT 4WD Comfort",
+"to": 201901
+},
+{
+"from": 201801,
+"id": "100541",
+"name": "2.0 AT 4WD Luxe",
+"to": 201901
+},
+{
+"from": 201801,
+"id": "100895",
+"name": "2.0 AT 4WD Prestige",
+"to": 201901
+},
+{
+"from": 201801,
+"id": "201093",
+"name": "2.0 AT 4WD GT-Line",
+"to": 201901
+},
+{
+"from": 201801,
+"id": "100935",
+"name": "2.0 AT 4WD Premium",
+"to": 201901
+},
+{
+"from": 201804,
+"id": "202318",
+"name": "2.0 AT 4WD Comfort 2018 FWC",
+"to": 201901
+}
+]
+},
+{
+"body": [
+"QL"
+],
+"drive": "4wd",
+"engine": "D4HA",
+"fuel": "дизель",
+"hp": 185,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 185 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201603,
+"id": "100976",
+"name": "2.0 CRDi AT 4WD Prestige",
+"to": 201612
+},
+{
+"from": 201603,
+"id": "100977",
+"name": "2.0 CRDi AT 4WD Premium",
+"to": 201612
+},
+{
+"from": 201603,
+"id": "100978",
+"name": "2.0 CRDi AT 4WD GT-Line",
+"to": 201612
+},
+{
+"from": 201701,
+"id": "100976",
+"name": "2.0 CRDi AT 4WD Prestige",
+"to": 201712
+},
+{
+"from": 201701,
+"id": "100978",
+"name": "2.0 CRDi AT 4WD GT-Line",
+"to": 201712
+},
+{
+"from": 201701,
+"id": "100977",
+"name": "2.0 CRDi AT 4WD Premium",
+"to": 201712
+},
+{
+"from": 201801,
+"id": "100978",
+"name": "2.0 CRDi AT 4WD GT-Line",
+"to": 201901
+},
+{
+"from": 201801,
+"id": "100977",
+"name": "2.0 CRDi AT 4WD Premium",
+"to": 201901
+}
+]
+}
+],
+"ids": true,
+"key": "kia/sportage/g_201509_3817",
+"market": "Россия",
+"to": 201901
+},
+"kia/sportage/g_201807_8385": {
+"from": 201805,
+"groups": [
+{
+"body": [
+"QL"
+],
+"drive": "fwd",
+"engine": "G4NA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201811,
+"id": "229178",
+"name": "2.0 MT 2WD Classic",
+"to": 202104
+},
+{
+"from": 201811,
+"id": "229205",
+"name": "2.0 MT 2WD Classic Теплые опции",
+"to": 202104
+},
+{
+"from": 201811,
+"id": "229206",
+"name": "2.0 MT 2WD Comfort",
+"to": 202112
+}
+]
+},
+{
+"body": [
+"QL"
+],
+"drive": "4wd",
+"engine": "G4NA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201811,
+"id": "229225",
+"name": "2.0 MT 4WD Comfort",
+"to": 202112
+},
+{
+"from": 201811,
+"id": "229227",
+"name": "2.0 MT 4WD Luxe",
+"to": 202112
+},
+{
+"from": 201811,
+"id": "229226",
+"name": "2.0 MT 4WD Classic Теплые опции",
+"to": 202104
+}
+]
+},
+{
+"body": [
+"QL"
+],
+"drive": "fwd",
+"engine": "G4NA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"id": "229217",
+"name": "2.0 AT 2WD Comfort",
+"to": 202210
+},
+{
+"from": 201811,
+"id": "229219",
+"name": "2.0 AT 2WD Luxe",
+"to": 202210
+},
+{
+"from": 201811,
+"id": "258136",
+"name": "2.0 AT 2WD Luxe+",
+"to": 202210
+},
+{
+"from": 201811,
+"id": "229218",
+"name": "2.0 AT 2WD Classic Теплые опции",
+"to": 202112
+},
+{
+"from": 201811,
+"id": "229224",
+"name": "2.0 AT 2WD Prestige",
+"to": 202003
+},
+{
+"from": 201904,
+"id": "245093",
+"name": "2.0 AT 2WD Специальная серия \"Лига Европы\"",
+"to": 202009
+},
+{
+"from": 201909,
+"id": "263639",
+"name": "2.0 AT 2WD Специальная серия \"Edition Plus\"",
+"to": 202110
+}
+]
+},
+{
+"body": [
+"QL"
+],
+"drive": "4wd",
+"engine": "G4NA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"id": "229234",
+"name": "2.0 AT 4WD Comfort",
+"to": 202210
+},
+{
+"from": 201811,
+"id": "229235",
+"name": "2.0 AT 4WD Luxe",
+"to": 202210
+},
+{
+"from": 201811,
+"id": "258137",
+"name": "2.0 AT 4WD Luxe+",
+"to": 202210
+},
+{
+"from": 201811,
+"id": "229236",
+"name": "2.0 AT 4WD Prestige",
+"to": 202210
+},
+{
+"from": 201904,
+"id": "245094",
+"name": "2.0 AT 4WD Специальная серия \"Лига Европы\"",
+"to": 202009
+},
+{
+"from": 201909,
+"id": "263640",
+"name": "2.0 AT 4WD Специальная серия \"Edition Plus\"",
+"to": 202110
+}
+]
+},
+{
+"body": [
+"QL"
+],
+"drive": "4wd",
+"engine": "D4HA",
+"fuel": "дизель",
+"hp": 185,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 185 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"id": "229241",
+"name": "2.0 CRDi AT 4WD Premium",
+"to": 201911
+}
+]
+},
+{
+"body": [
+"QL"
+],
+"drive": "4wd",
+"engine": "G4KJ",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"id": "229237",
+"name": "2.4 AT 4WD Prestige",
+"to": 202210
+},
+{
+"from": 201811,
+"id": "229238",
+"name": "2.4 AT 4WD Luxe",
+"to": 202002
+},
+{
+"from": 201811,
+"id": "258138",
+"name": "2.4 AT 4WD Luxe+",
+"to": 202203
+},
+{
+"from": 201811,
+"id": "229239",
+"name": "2.4 AT 4WD GT-Line",
+"to": 202203
+},
+{
+"from": 201811,
+"id": "229240",
+"name": "2.4 AT 4WD Premium",
+"to": 202203
+},
+{
+"from": 201904,
+"id": "245095",
+"name": "2.4 AT 4WD Специальная серия \"Лига Европы\"",
+"to": 202009
+},
+{
+"from": 201909,
+"id": "263641",
+"name": "2.4 AT 4WD Специальная серия \"Edition Plus\"",
+"to": 202110
+}
+]
+}
+],
+"ids": true,
+"key": "kia/sportage/g_201807_8385",
+"market": "Россия",
+"to": 202210
+},
+"kia/sportage/g_2018_19215": {
+"from": 201804,
+"groups": [
+{
+"body": [
+"NP"
+],
+"drive": "fwd",
+"engine": "G4LD",
+"fuel": "бензин",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 140 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201903,
+"id": "491371",
+"name": "1.4 T DCT 2WD Fashion Edition GL",
+"to": 202107
+},
+{
+"from": 201903,
+"id": "491372",
+"name": "1.4 T DCT 2WD Smart Deluxe Edition GLS",
+"to": 202107
+},
+{
+"from": 201909,
+"id": "491373",
+"name": "1.4 T DCT 2WD Smart, Luxury and Comfortable Edition",
+"to": 202107
+}
+]
+},
+{
+"body": [
+"NP"
+],
+"drive": "fwd",
+"engine": "G4NA",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 160 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201908,
+"id": "491374",
+"name": "2.0 MT 2WD Fashion Edition",
+"to": 202107
+},
+{
+"from": 201804,
+"id": "491374",
+"name": "2.0 MT 2WD Fashion Edition",
+"to": 201908
+}
+]
+},
+{
+"body": [
+"NP"
+],
+"drive": "fwd",
+"engine": "G4NA",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 160 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201908,
+"id": "491375",
+"name": "2.0 AT 2WD Smart Enjoy Deluxe Edition",
+"to": 202107
+},
+{
+"from": 201909,
+"id": "491376",
+"name": "2.0 AT 2WD Smart Luxury Enhanced Edition",
+"to": 202107
+},
+{
+"from": 201804,
+"id": "491375",
+"name": "2.0 AT 2WD Smart Enjoy Deluxe Edition",
+"to": 201908
+}
+]
+}
+],
+"ids": true,
+"key": "kia/sportage/g_2018_19215",
+"market": "Китай",
+"to": 202107
+},
+"kia/sportage/g_202103_13525": {
+"from": 202106,
+"groups": [
+{
+"body": [
+"NQ5"
+],
+"drive": "fwd",
+"engine": "G4NL",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202208,
+"id": "437421",
+"name": "2.0 MPI MT 2WD Classic",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "4wd",
+"engine": "G4NL",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202208,
+"id": "437412",
+"name": "2.0 MPI MT 4WD Comfort",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "fwd",
+"engine": "G4NL",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202208,
+"id": "437408",
+"name": "2.0 MPI AT 2WD Classic",
+"to": 202212
+},
+{
+"from": 202208,
+"id": "437416",
+"name": "2.0 MPI AT 2WD Comfort",
+"to": 202212
+},
+{
+"from": 202208,
+"id": "437420",
+"name": "2.0 MPI AT 2WD Luxe",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "4wd",
+"engine": "G4NL",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202208,
+"id": "437407",
+"name": "2.0 MPI AT 4WD Comfort",
+"to": 202212
+},
+{
+"from": 202208,
+"id": "437411",
+"name": "2.0 MPI AT 4WD Luxe",
+"to": 202212
+},
+{
+"from": 202208,
+"id": "437410",
+"name": "2.0 MPI AT 4WD Prestige",
+"to": 202212
+},
+{
+"from": 202208,
+"id": "437409",
+"name": "2.0 MPI AT 4WD Style",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "4wd",
+"engine": "G4KN",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 190 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202208,
+"id": "437406",
+"name": "2.5 GDI AT 4WD Luxe",
+"to": 202212
+},
+{
+"from": 202208,
+"id": "437392",
+"name": "2.5 GDI AT 4WD Prestige",
+"to": 202212
+},
+{
+"from": 202208,
+"id": "437391",
+"name": "2.5 GDI AT 4WD Style",
+"to": 202212
+},
+{
+"from": 202208,
+"id": "437390",
+"name": "2.5 GDI AT 4WD X-Line",
+"to": 202212
+},
+{
+"from": 202208,
+"id": "437367",
+"name": "2.5 GDI AT 4WD X-Line+",
+"to": 202212
+}
+]
+}
+],
+"ids": true,
+"key": "kia/sportage/g_202103_13525",
+"market": "Россия",
+"to": 202212
+},
+"kia/sportage/g_2021_19214": {
+"from": 202107,
+"groups": [
+{
+"body": [
+"NP"
+],
+"drive": "fwd",
+"engine": "G4FS",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 200 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202107,
+"id": "491369",
+"name": "Ace 1.5 T DCT 2WD GT Line Fusion Edition",
+"to": null
+},
+{
+"from": 202107,
+"id": "491370",
+"name": "Ace 1.5 T DCT 2WD GT Line Super Edition",
+"to": null
+}
+]
+},
+{
+"body": [
+"NP"
+],
+"drive": "fwd",
+"engine": "G4NJ",
+"fuel": "бензин",
+"gen_key": "kia/sportage/g_2021_19214",
+"hp": 161,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 161 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202107,
+"id": "491359",
+"name": "Ace 2.0 AT 2WD Discovery Edition",
+"to": null
+},
+{
+"from": 202107,
+"id": "491360",
+"name": "Ace 2.0 AT 2WD Challenge Edition",
+"to": null
+},
+{
+"from": 202107,
+"id": "491364",
+"name": "Ace 2.0 AT 2WD Wonderful Edition",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "kia/sportage/g_2021_19214",
+"market": "Китай",
+"to": null
+},
+"kia/sportage/g_2021_19248": {
+"from": 202106,
+"groups": [
+{
+"body": [
+"NQ5"
+],
+"drive": "fwd",
+"engine": "G4FS",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 200 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202211,
+"id": "491623",
+"name": "1.5 T AT 2WD Luxury Edition",
+"to": null
+},
+{
+"from": 202211,
+"id": "491622",
+"name": "1.5 T AT 2WD Premium Edition",
+"to": null
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "fwd",
+"engine": "G4NR",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 150 л.с., параллельный гибрид, 60 л.с., АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202211,
+"id": "491644",
+"name": "HEV 2.0 AT 2WD Luxury Edition",
+"to": null
+},
+{
+"from": 202211,
+"id": "491643",
+"name": "HEV 2.0 AT 2WD Premium Edition",
+"to": null
+},
+{
+"from": 202211,
+"id": "491642",
+"name": "HEV 2.0 AT 2WD Flagship Edition",
+"to": null
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "fwd",
+"engine": "G4NN",
+"fuel": "бензин",
+"gen_key": "kia/sportage/g_2021_19248",
+"hp": 236,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 236 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202211,
+"id": "491606",
+"name": "2.0 T AT 2WD Luxury Edition",
+"to": null
+},
+{
+"from": 202211,
+"id": "491605",
+"name": "2.0 T AT 2WD Premium Edition",
+"to": null
+},
+{
+"from": 202211,
+"id": "491604",
+"name": "2.0 T AT 2WD Flagship Edition",
+"to": null
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "4wd",
+"engine": "G4NN",
+"fuel": "бензин",
+"gen_key": "kia/sportage/g_2021_19248",
+"hp": 236,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 236 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202211,
+"id": "491603",
+"name": "2.0 T AT 4WD Luxury Edition",
+"to": null
+},
+{
+"from": 202211,
+"id": "491600",
+"name": "2.0 T AT 4WD Premium Edition",
+"to": null
+},
+{
+"from": 202211,
+"id": "491589",
+"name": "2.0 T AT 4WD Flagship Edition",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "kia/sportage/g_2021_19248",
+"market": "Китай",
+"to": null
+},
+"kia/sportage/g_202411_22968": {
+"from": 202411,
+"groups": [
+{
+"body": [
+"NQ5"
+],
+"drive": "fwd",
+"engine": "D4FE",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.6,
+"text": "1.6 л, дизель, 136 л.с., мягкий гибрид, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202506,
+"id": "539682",
+"name": "MHEV 1.6 CRDI SCR MT 2WD Exclusive",
+"to": null
+},
+{
+"from": 202506,
+"id": "539686",
+"name": "MHEV 1.6 CRDI SCR MT 2WD Top",
+"to": null
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "fwd",
+"engine": "D4FE",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.6,
+"text": "1.6 л, дизель, 136 л.с., мягкий гибрид, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202506,
+"id": "539683",
+"name": "MHEV 1.6 CRDI SCR DCT 2WD Exclusive",
+"to": null
+},
+{
+"from": 202506,
+"id": "539687",
+"name": "MHEV 1.6 CRDI SCR DCT 2WD Top",
+"to": null
+},
+{
+"from": 202506,
+"id": "539690",
+"name": "MHEV 1.6 CRDI SCR DCT 2WD GT-Line",
+"to": null
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "fwd",
+"engine": "G4FT",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 150 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202506,
+"id": "539718",
+"name": "1.6 T-GDI MT 2WD M",
+"to": null
+},
+{
+"from": 202506,
+"id": "539647",
+"name": "1.6 T-GDI GPF MT 2WD Comfort",
+"to": null
+},
+{
+"from": 202506,
+"id": "539677",
+"name": "1.6 T-GDI GPF MT 2WD Exclusive",
+"to": null
+},
+{
+"from": 202506,
+"id": "539725",
+"name": "1.6 T-GDI MT 2WD L",
+"to": null
+},
+{
+"from": 202506,
+"id": "539678",
+"name": "1.6 T-GDI GPF MT 2WD Top",
+"to": null
+},
+{
+"from": 202506,
+"id": "539732",
+"name": "1.6 T-GDI MT 2WD Business Line",
+"to": null
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "fwd",
+"engine": "G4FT",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202506,
+"id": "539719",
+"name": "1.6 T-GDI DCT 2WD M",
+"to": null
+},
+{
+"from": 202506,
+"id": "539680",
+"name": "1.6 T-GDI GPF DCT 2WD Exclusive",
+"to": null
+},
+{
+"from": 202506,
+"id": "539726",
+"name": "1.6 T-GDI DCT 2WD L",
+"to": null
+},
+{
+"from": 202506,
+"id": "539684",
+"name": "1.6 T-GDI GPF DCT 2WD Top",
+"to": null
+},
+{
+"from": 202506,
+"id": "539733",
+"name": "1.6 T-GDI DCT 2WD Business Line",
+"to": null
+},
+{
+"from": 202506,
+"id": "539688",
+"name": "1.6 T-GDI GPF DCT 2WD GT-Line",
+"to": null
+},
+{
+"from": 202506,
+"id": "539749",
+"name": "1.6 T-GDI DCT 2WD GT-Line",
+"to": null
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "fwd",
+"engine": "G4FT",
+"fuel": "бензин",
+"hp": 180,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 1.6,
+"text": "1.6 л, бензин, 180 л.с., параллельный гибрид, 60 л.с., АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202506,
+"id": "539721",
+"name": "HEV 1.6 T-GDI AT 2WD M",
+"to": null
+},
+{
+"from": 202506,
+"id": "539728",
+"name": "HEV 1.6 T-GDI AT 2WD L",
+"to": null
+},
+{
+"from": 202506,
+"id": "539740",
+"name": "HEV 1.6 T-GDI AT 2WD Business Line",
+"to": null
+},
+{
+"from": 202506,
+"id": "539757",
+"name": "HEV 1.6 T-GDI AT 2WD GT-Line",
+"to": null
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "fwd",
+"engine": "G4FT",
+"fuel": "бензин",
+"hp": 180,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.6,
+"text": "1.6 л, бензин, 180 л.с., параллельный подзаряжаемый (PHEV) гибрид, 90 л.с., АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202506,
+"id": "539723",
+"name": "PHEV 1.6 T-GDI AT 2WD M",
+"to": null
+},
+{
+"from": 202506,
+"id": "539730",
+"name": "PHEV 1.6 T-GDI AT 2WD L",
+"to": null
+},
+{
+"from": 202506,
+"id": "539741",
+"name": "PHEV 1.6 T-GDI AT 2WD Business Line",
+"to": null
+},
+{
+"from": 202506,
+"id": "539763",
+"name": "PHEV 1.6 T-GDI AT 2WD GT-Line",
+"to": null
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "4wd",
+"engine": "G4FT",
+"fuel": "бензин",
+"hp": 180,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 1.6,
+"text": "1.6 л, бензин, 180 л.с., параллельный гибрид, 60 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202506,
+"id": "539722",
+"name": "HEV 1.6 T-GDI AT 4WD M",
+"to": null
+},
+{
+"from": 202506,
+"id": "539729",
+"name": "HEV 1.6 T-GDI AT 4WD L",
+"to": null
+},
+{
+"from": 202506,
+"id": "539747",
+"name": "HEV 1.6 T-GDI AT 4WD Business Line",
+"to": null
+},
+{
+"from": 202506,
+"id": "539762",
+"name": "HEV 1.6 T-GDI AT 4WD GT-Line",
+"to": null
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "4wd",
+"engine": "G4FT",
+"fuel": "бензин",
+"hp": 180,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.6,
+"text": "1.6 л, бензин, 180 л.с., параллельный подзаряжаемый (PHEV) гибрид, 90 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202506,
+"id": "539724",
+"name": "PHEV 1.6 T-GDI AT 4WD M",
+"to": null
+},
+{
+"from": 202506,
+"id": "539731",
+"name": "PHEV 1.6 T-GDI AT 4WD L",
+"to": null
+},
+{
+"from": 202506,
+"id": "539748",
+"name": "PHEV 1.6 T-GDI AT 4WD Business Line",
+"to": null
+},
+{
+"from": 202506,
+"id": "539764",
+"name": "PHEV 1.6 T-GDI AT 4WD GT-Line",
+"to": null
+}
+]
+},
+{
+"body": [
+"NQ5"
+],
+"drive": "4wd",
+"engine": "G4FT",
+"fuel": "бензин",
+"hp": 180,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 180 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202506,
+"id": "539720",
+"name": "1.6 T-GDI DCT 4WD M",
+"to": null
+},
+{
+"from": 202506,
+"id": "539681",
+"name": "1.6 T-GDI GPF DCT 4WD Exclusive",
+"to": null
+},
+{
+"from": 202506,
+"id": "539727",
+"name": "1.6 T-GDI DCT 4WD L",
+"to": null
+},
+{
+"from": 202506,
+"id": "539685",
+"name": "1.6 T-GDI GPF DCT 4WD Top",
+"to": null
+},
+{
+"from": 202506,
+"id": "539738",
+"name": "1.6 T-GDI DCT 4WD Business Line",
+"to": null
+},
+{
+"from": 202506,
+"id": "539689",
+"name": "1.6 T-GDI GPF DCT 4WD GT-Line",
+"to": null
+},
+{
+"from": 202506,
+"id": "539755",
+"name": "1.6 T-GDI DCT 4WD GT-Line Польша",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "kia/sportage/g_202411_22968",
+"market": "Европа",
+"to": null
 },
 "land_rover/range_rover_velar/g_201703_7498": {
 "from": 201703,
@@ -48789,6 +51970,773 @@
 "key": "mazda/cx-5/g_202506_23118",
 "market": "Европа",
 "to": null
+},
+"mazda/cx-8/g_201712_7830": {
+"from": 201709,
+"groups": [
+{
+"body": [
+"3DA-KG2P"
+],
+"drive": "fwd",
+"engine": "SH-VPTS",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.2,
+"text": "2.2 л, 190 л.с., дизель, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201712,
+"id": "187552",
+"name": "2.2 XD Diesel Turbo 7 seat",
+"to": 201810
+},
+{
+"from": 201712,
+"id": "187554",
+"name": "2.2 XD Diesel Turbo 6 seat",
+"to": 201810
+},
+{
+"from": 201712,
+"id": "187556",
+"name": "2.2 XD PROACTIVE Diesel Turbo 7 seat",
+"to": 201810
+},
+{
+"from": 201712,
+"id": "187558",
+"name": "2.2 XD PROACTIVE Diesel Turbo 6 seat",
+"to": 201810
+},
+{
+"from": 201712,
+"id": "187560",
+"name": "2.2 XD L Package Diesel Turbo 6 seat",
+"to": 201810
+},
+{
+"from": 201806,
+"id": "207893",
+"name": "2.2 XD L Package Diesel Turbo 7 seat",
+"to": 201810
+},
+{
+"from": 201811,
+"id": "187556",
+"name": "2.2 XD PROACTIVE Diesel Turbo 7 seat",
+"to": 201910
+},
+{
+"from": 201811,
+"id": "187558",
+"name": "2.2 XD PROACTIVE Diesel Turbo 6 seat",
+"to": 201910
+},
+{
+"from": 201811,
+"id": "207893",
+"name": "2.2 XD L Package Diesel Turbo 7 seat",
+"to": 201910
+},
+{
+"from": 201811,
+"id": "187560",
+"name": "2.2 XD L Package Diesel Turbo 6 seat",
+"to": 201910
+},
+{
+"from": 201911,
+"id": "187556",
+"name": "2.2 XD PROACTIVE Diesel Turbo 7 seat",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "187558",
+"name": "2.2 XD PROACTIVE Diesel Turbo 6 seat",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "207893",
+"name": "2.2 XD L Package Diesel Turbo 7 seat",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "187560",
+"name": "2.2 XD L Package Diesel Turbo 6 seat",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "266579",
+"name": "2.2 XD Exclusive Mode Diesel Turbo",
+"to": 202011
+},
+{
+"from": 202001,
+"id": "266564",
+"name": "2.2 XD PROACTIVE S Package Diesel Turbo 7 seat",
+"to": 202011
+},
+{
+"from": 202001,
+"id": "266565",
+"name": "2.2 XD PROACTIVE S Package Diesel Turbo 6 seat",
+"to": 202011
+},
+{
+"from": 202007,
+"id": "288456",
+"name": "2.2 XD 100th Anniversary Diesel Turbo",
+"to": 202011
+},
+{
+"from": 202008,
+"id": "308323",
+"name": "2.2 XD Smart Edition Diesel Turbo 7 seat",
+"to": 202011
+},
+{
+"from": 202008,
+"id": "308324",
+"name": "2.2 XD Smart Edition Diesel Turbo 6 seat",
+"to": 202011
+}
+]
+},
+{
+"body": [
+"3DA-KG2P"
+],
+"drive": "4wd",
+"engine": "SH-VPTS",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.2,
+"text": "2.2 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201712,
+"id": "187553",
+"name": "2.2 XD Diesel Turbo 7 seat 4WD",
+"to": 201810
+},
+{
+"from": 201712,
+"id": "187555",
+"name": "2.2 XD Diesel Turbo 6 seat 4WD",
+"to": 201810
+},
+{
+"from": 201712,
+"id": "187557",
+"name": "2.2 XD PROACTIVE Diesel Turbo 7 seat 4WD",
+"to": 201810
+},
+{
+"from": 201712,
+"id": "187559",
+"name": "2.2 XD PROACTIVE Diesel Turbo 6 seat 4WD",
+"to": 201810
+},
+{
+"from": 201712,
+"id": "187561",
+"name": "2.2 XD L Package Diesel Turbo 6 seat 4WD",
+"to": 201810
+},
+{
+"from": 201806,
+"id": "207904",
+"name": "2.2 XD L Package Diesel Turbo 7 seat 4WD",
+"to": 201810
+},
+{
+"from": 201811,
+"id": "187553",
+"name": "2.2 XD Diesel Turbo 7 seat 4WD",
+"to": 201910
+},
+{
+"from": 201811,
+"id": "187555",
+"name": "2.2 XD Diesel Turbo 6 seat 4WD",
+"to": 201910
+},
+{
+"from": 201811,
+"id": "187557",
+"name": "2.2 XD PROACTIVE Diesel Turbo 7 seat 4WD",
+"to": 201910
+},
+{
+"from": 201811,
+"id": "187559",
+"name": "2.2 XD PROACTIVE Diesel Turbo 6 seat 4WD",
+"to": 201910
+},
+{
+"from": 201811,
+"id": "207904",
+"name": "2.2 XD L Package Diesel Turbo 7 seat 4WD",
+"to": 201910
+},
+{
+"from": 201811,
+"id": "187561",
+"name": "2.2 XD L Package Diesel Turbo 6 seat 4WD",
+"to": 201910
+},
+{
+"from": 201911,
+"id": "187557",
+"name": "2.2 XD PROACTIVE Diesel Turbo 7 seat 4WD",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "187559",
+"name": "2.2 XD PROACTIVE Diesel Turbo 6 seat 4WD",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "207904",
+"name": "2.2 XD L Package Diesel Turbo 7 seat 4WD",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "187561",
+"name": "2.2 XD L Package Diesel Turbo 6 seat 4WD",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "266580",
+"name": "2.2 XD Exclusive Mode Diesel Turbo 4WD",
+"to": 202011
+},
+{
+"from": 202001,
+"id": "266568",
+"name": "2.2 XD PROACTIVE S Package Diesel Turbo 7 seat 4WD",
+"to": 202011
+},
+{
+"from": 202001,
+"id": "266569",
+"name": "2.2 XD PROACTIVE S Package Diesel Turbo 6 seat 4WD",
+"to": 202011
+},
+{
+"from": 202007,
+"id": "288457",
+"name": "2.2 XD 100th Anniversary Diesel Turbo 4WD",
+"to": 202011
+}
+]
+},
+{
+"body": [
+"3DA-KG2P"
+],
+"drive": "fwd",
+"engine": "SH-VPTS",
+"fuel": "дизель",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.2,
+"text": "2.2 л, 200 л.с., дизель, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202012,
+"id": "187552",
+"name": "2.2 XD Diesel Turbo 7 seat",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "308323",
+"name": "2.2 XD Smart Edition Diesel Turbo 7 seat",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "308324",
+"name": "2.2 XD Smart Edition Diesel Turbo 6 seat",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "187556",
+"name": "2.2 XD PROACTIVE Diesel Turbo 7 seat",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "187558",
+"name": "2.2 XD PROACTIVE Diesel Turbo 6 seat",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "309055",
+"name": "2.2 XD Black Tone Edition Diesel Turbo 7 seat",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "309056",
+"name": "2.2 XD Black Tone Edition Diesel Turbo 6 seat",
+"to": 202211
+},
+{
+"from": 202102,
+"id": "207893",
+"name": "2.2 XD L Package Diesel Turbo 7 seat",
+"to": 202211
+},
+{
+"from": 202102,
+"id": "312650",
+"name": "2.2 XD Exclusive Mode Diesel Turbo 7 seat",
+"to": 202211
+},
+{
+"from": 202102,
+"id": "187560",
+"name": "2.2 XD L Package Diesel Turbo 6 seat",
+"to": 202211
+},
+{
+"from": 202102,
+"id": "312651",
+"name": "2.2 XD Exclusive Mode Diesel Turbo 6 seat",
+"to": 202211
+},
+{
+"from": 202102,
+"id": "288456",
+"name": "2.2 XD 100th Anniversary Diesel Turbo",
+"to": 202112
+}
+]
+},
+{
+"body": [
+"3DA-KG2P"
+],
+"drive": "4wd",
+"engine": "SH-VPTS",
+"fuel": "дизель",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.2,
+"text": "2.2 л, 200 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202012,
+"id": "187553",
+"name": "2.2 XD Diesel Turbo 7 seat 4WD",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "309049",
+"name": "2.2 XD Smart Edition Diesel Turbo 7 seat 4WD",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "309050",
+"name": "2.2 XD Smart Edition Diesel Turbo 6 seat 4WD",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "187557",
+"name": "2.2 XD PROACTIVE Diesel Turbo 7 seat 4WD",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "187559",
+"name": "2.2 XD PROACTIVE Diesel Turbo 6 seat 4WD",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "309057",
+"name": "2.2 XD Black Tone Edition Diesel Turbo 7 seat 4WD",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "309058",
+"name": "2.2 XD Black Tone Edition Diesel Turbo 6 seat 4WD",
+"to": 202211
+},
+{
+"from": 202102,
+"id": "207904",
+"name": "2.2 XD L Package Diesel Turbo 7 seat 4WD",
+"to": 202211
+},
+{
+"from": 202102,
+"id": "312652",
+"name": "2.2 XD Exclusive Mode Diesel Turbo 7 seat 4WD",
+"to": 202211
+},
+{
+"from": 202102,
+"id": "187561",
+"name": "2.2 XD L Package Diesel Turbo 6 seat 4WD",
+"to": 202211
+},
+{
+"from": 202102,
+"id": "312653",
+"name": "2.2 XD Exclusive Mode Diesel Turbo 6 seat 4WD",
+"to": 202211
+},
+{
+"from": 202102,
+"id": "288457",
+"name": "2.2 XD 100th Anniversary Diesel Turbo 4WD",
+"to": 202112
+}
+]
+},
+{
+"body": [
+"6BA-KG5P"
+],
+"drive": "fwd",
+"engine": "PY-VPS",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 190 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"id": "229602",
+"name": "2.5 25S 7 seat",
+"to": 201910
+},
+{
+"from": 201811,
+"id": "229603",
+"name": "2.5 25S 6 seat",
+"to": 201910
+},
+{
+"from": 201811,
+"id": "229604",
+"name": "2.5 25S PROACTIVE 7 seat",
+"to": 201910
+},
+{
+"from": 201811,
+"id": "229605",
+"name": "2.5 25S PROACTIVE 6 seat",
+"to": 201910
+},
+{
+"from": 201812,
+"id": "229606",
+"name": "2.5 25S L Package 7 seat",
+"to": 201910
+},
+{
+"from": 201812,
+"id": "229607",
+"name": "2.5 25S L Package 6 seat",
+"to": 201910
+},
+{
+"from": 201911,
+"id": "229602",
+"name": "2.5 25S 7 seat",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "229603",
+"name": "2.5 25S 6 seat",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "229604",
+"name": "2.5 25S PROACTIVE 7 seat",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "229605",
+"name": "2.5 25S PROACTIVE 6 seat",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "229606",
+"name": "2.5 25S L Package 7 seat",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "229607",
+"name": "2.5 25S L Package 6 seat",
+"to": 202011
+},
+{
+"from": 202007,
+"id": "308321",
+"name": "2.5 25S Smart Edition 7 seat",
+"to": 202011
+},
+{
+"from": 202007,
+"id": "308322",
+"name": "2.5 25S Smart Edition 6 seat",
+"to": 202011
+},
+{
+"from": 202007,
+"id": "288452",
+"name": "2.5 25S 100th Anniversary",
+"to": 202011
+},
+{
+"from": 202012,
+"id": "229602",
+"name": "2.5 25S 7 seat",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "308321",
+"name": "2.5 25S Smart Edition 7 seat",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "308322",
+"name": "2.5 25S Smart Edition 6 seat",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "229604",
+"name": "2.5 25S PROACTIVE 7 seat",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "229605",
+"name": "2.5 25S PROACTIVE 6 seat",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "309041",
+"name": "2.5 25S Black Tone Edition 7 seat",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "309042",
+"name": "2.5 25S Black Tone Edition 6 seat",
+"to": 202211
+},
+{
+"from": 202102,
+"id": "229606",
+"name": "2.5 25S L Package 7 seat",
+"to": 202211
+},
+{
+"from": 202102,
+"id": "229607",
+"name": "2.5 25S L Package 6 seat",
+"to": 202211
+},
+{
+"from": 202102,
+"id": "288452",
+"name": "2.5 25S 100th Anniversary",
+"to": 202112
+},
+{
+"from": 202201,
+"id": "414416",
+"name": "2.5 25S Exclusive Mode 7 seat",
+"to": 202211
+},
+{
+"from": 202201,
+"id": "414417",
+"name": "2.5 25S Exclusive Mode 6 seat",
+"to": 202211
+}
+]
+},
+{
+"body": [
+"6BA-KG5P"
+],
+"drive": "4wd",
+"engine": "PY-VPS",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 190 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201911,
+"id": "266539",
+"name": "2.5 25S 7 seat 4WD",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "266540",
+"name": "2.5 25S 6 seat 4WD",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "266543",
+"name": "2.5 25S PROACTIVE 7 seat 4WD",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "266544",
+"name": "2.5 25S PROACTIVE 6 seat 4WD",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "266547",
+"name": "2.5 25S L Package 7 seat 4WD",
+"to": 202011
+},
+{
+"from": 201911,
+"id": "266548",
+"name": "2.5 25S L Package 6 seat 4WD",
+"to": 202011
+},
+{
+"from": 202007,
+"id": "288453",
+"name": "2.5 25S 100th Anniversary 4WD",
+"to": 202011
+},
+{
+"from": 202012,
+"id": "266539",
+"name": "2.5 25S 7 seat 4WD",
+"to": 202211
+},
+{
+"from": 202012,
+"id": "309035",
+"name": "2.5 25S Smart Edition 7 seat 4WD",
+"to": 202211
+}
+]
+}
+],
+"ids": true,
+"key": "mazda/cx-8/g_201712_7830",
+"market": "Япония",
+"to": 202211
+},
+"mazda/cx-8/g_2018_21486": {
+"from": 201812,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "PY-VPS",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 192 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201812,
+"id": "516244",
+"name": "2.5 AT 2WD Luxury",
+"to": 202306
+},
+{
+"from": 201812,
+"id": "516247",
+"name": "2.5 AT 2WD Premium",
+"to": 202306
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "PY-VPS",
+"fuel": "бензин",
+"gen_key": "mazda/cx-8/g_2018_21486",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 192 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201812,
+"id": "516248",
+"name": "2.5 AT 4WD Premium",
+"to": 202306
+},
+{
+"from": 201812,
+"id": "516249",
+"name": "2.5 AT 4WD Flagship",
+"to": 202306
+}
+]
+}
+],
+"ids": true,
+"key": "mazda/cx-8/g_2018_21486",
+"market": "Китай",
+"to": 202306
 },
 "mazda/ez-6/g_202410_20464": {
 "from": 202404,
@@ -80842,6 +84790,30 @@
 "двигателиgenesis": "engine",
 "кузоваgenesis": "frame"
 },
+"haima": {
+"2": "2",
+"3": "3",
+"6p": "6p",
+"7": "7",
+"7x": "7x",
+"7xe": "7x-e",
+"8s": "8s",
+"aishangev": "aishang_ev",
+"e3": "e3",
+"engine": "engine",
+"family": "family",
+"familyf5": "family_f5",
+"familyf7": "family_f7",
+"freema": "freema",
+"haima2": "2",
+"haima3": "3",
+"haima7": "7",
+"haima7x": "7x",
+"haima8s": "8s",
+"haimam3": "m3",
+"m3": "m3",
+"двигателиhaima": "engine"
+},
 "haval": {
 "bigdog": "big_dog",
 "bigdogdagou": "big_dog",
@@ -83299,6 +87271,111 @@
 ],
 "name": "2.0 AT Youth"
 },
+"437719": {
+"groups": [
+[
+"Двигатель",
+[
+[
+"Мощность",
+"252 л.с. (185 кВт) при 5600 об/мин"
+],
+[
+"Крутящий момент",
+"376 Н·м при 4400 об/мин"
+],
+[
+"Модель двигателя",
+"KR20DDET"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"9,8 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5127 × 1960 × 1767 мм"
+],
+[
+"Колёсная база",
+"2900 мм"
+],
+[
+"Масса",
+"2160 кг"
+],
+[
+"Топливный бак",
+"70 л"
+],
+[
+"Багажник",
+"326 (2352) л"
+],
+[
+"Мест",
+"7"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"255/50 R20"
+],
+[
+"Радиус разворота",
+"6 м"
+]
+]
+]
+],
+"name": "2.0 AT Excellent"
+},
 "439929": {
 "groups": [
 [
@@ -85273,6 +89350,221 @@
 ],
 "name": "44.5 kWh E-Base"
 },
+"463672": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"6,5 с"
+],
+[
+"Максимальная скорость",
+"250 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"422 л.с. (310 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"600 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"M 176 DE 40 AL"
+],
+[
+"Тип двигателя",
+"V-образный, 8-цилиндровый"
+],
+[
+"Наддув",
+"Двойной турбонаддув"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5171 × 1995 × 1902 мм"
+],
+[
+"Колёсная база",
+"3100 мм"
+],
+[
+"Клиренс",
+"200 мм"
+],
+[
+"Масса",
+"2515 кг"
+],
+[
+"Топливный бак",
+"85 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"275/50 R20"
+]
+]
+]
+],
+"name": "4.0T SAT AWD Honor"
+},
+"465388": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"165 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"195 л.с. (143 кВт) при 5000 об/мин"
+],
+[
+"Крутящий момент",
+"293 Н·м при 4500 об/мин"
+],
+[
+"Модель двигателя",
+"HMA GA16-YF"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,6 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4815 × 1874 × 1720 мм"
+],
+[
+"Колёсная база",
+"2860 мм"
+],
+[
+"Клиренс",
+"170 мм"
+],
+[
+"Масса",
+"1670 кг"
+],
+[
+"Топливный бак",
+"55 л"
+],
+[
+"Мест",
+"7"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/55 R18"
+]
+]
+]
+],
+"name": "1.6TGDI AT Luxury"
+},
 "466183": {
 "groups": [
 [
@@ -86709,6 +91001,124 @@
 ]
 ],
 "name": "1.4 280 TSI DSG R-Line Lite 5dr."
+},
+"484105": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"7,3 с"
+],
+[
+"Максимальная скорость",
+"240 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"237 л.с. (174 кВт) при 5000 об/мин"
+],
+[
+"Крутящий момент",
+"350 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"GM Ecotec LSY"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,9 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4924 × 1883 × 1453 мм"
+],
+[
+"Колёсная база",
+"2947 мм"
+],
+[
+"Клиренс",
+"104 мм"
+],
+[
+"Масса",
+"1640 кг"
+],
+[
+"Топливный бак",
+"66 л"
+],
+[
+"Багажник",
+"384 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"245/45 R18"
+]
+]
+]
+],
+"name": "2.0T AT 28T Fashion"
 },
 "486107": {
 "groups": [
@@ -88727,6 +93137,104 @@
 ]
 ],
 "name": "2.0 CVT 2WD Vitality"
+},
+"516248": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"191 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"192 л.с. (141 кВт) при 6100 об/мин"
+],
+[
+"Крутящий момент",
+"252 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"PY-VPS"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"8,3 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4955 × 1842 × 1733 мм"
+],
+[
+"Колёсная база",
+"2930 мм"
+],
+[
+"Клиренс",
+"185 мм"
+],
+[
+"Масса",
+"1862 кг"
+],
+[
+"Мест",
+"7"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/55 R19"
+]
+]
+]
+],
+"name": "2.5 AT 4WD Premium"
 },
 "518323": {
 "groups": [
