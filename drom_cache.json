@@ -460,6 +460,12 @@
 "g_201604_16845"
 ]
 },
+"baojun/rc-6/china": {
+"day": 739885,
+"gens": [
+"g_2019_18487"
+]
+},
 "bmw/2-series/china": {
 "day": 739884,
 "gens": [
@@ -993,6 +999,13 @@
 "g_202208_17990",
 "g_202412_24311",
 "g_2026_24312"
+]
+},
+"denza/n7/china": {
+"day": 739885,
+"gens": [
+"g_2023_17991",
+"g_2024_21874"
 ]
 },
 "denza/n8/china": {
@@ -9823,6 +9836,80 @@
 ],
 "market": "Китай",
 "to": null
+},
+"baojun/rc-6/g_2019_18487": {
+"from": 201909,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "LJO",
+"fuel": "бензин",
+"hp": 147,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 147 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201909,
+"id": "530148",
+"name": "1.5L MT 24-Hour Online Elite",
+"to": 202112
+},
+{
+"from": 201909,
+"id": "530149",
+"name": "1.5L MT 24-Hour Online Luxury",
+"to": 202112
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LJO",
+"fuel": "бензин",
+"gen_key": "baojun/rc-6/g_2019_18487",
+"hp": 147,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 147 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201909,
+"id": "530147",
+"name": "1.5L CVT 24h Online Elite",
+"to": 202112
+},
+{
+"from": 201909,
+"id": "530146",
+"name": "1.5L CVT 24-Hour Online Luxury",
+"to": 202112
+},
+{
+"from": 201909,
+"id": "530145",
+"name": "1.5L CVT 24-Hour Online Premium",
+"to": 202112
+},
+{
+"from": 201909,
+"id": "530132",
+"name": "1.5L CVT 24-Hour Online Flagship",
+"to": 202112
+}
+]
+}
+],
+"ids": true,
+"key": "baojun/rc-6/g_2019_18487",
+"market": "Китай",
+"to": 202112
 },
 "bmw/2-series/g_201402_2138": {
 "from": 201403,
@@ -24249,6 +24336,7 @@
 "drive": "fwd",
 "engine": "BYD472QC",
 "fuel": "бензин",
+"gen_key": "byd/sea-lion-05/g_2025_22275",
 "hp": 101,
 "hp_total": 163,
 "hybrid": "параллельный подзаряжаемый (phev) гибрид",
@@ -30578,6 +30666,7 @@
 "drive": "rwd",
 "engine": "SQRH4J15",
 "fuel": "бензин",
+"gen_key": "cheryexeed/ex7/g_2026_24420",
 "hp": 156,
 "hp_total": 309,
 "hybrid": "последовательный подзаряжаемый (phev) гибрид",
@@ -32714,6 +32803,178 @@
 ],
 "ids": true,
 "key": "denza/d9/g_202412_24311",
+"market": "Китай",
+"to": null
+},
+"denza/n7/g_2023_17991": {
+"from": 202303,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 313,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "313 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202307,
+"id": "465638",
+"name": "91.3 kWh Long Life (Air Edition)",
+"to": 202403
+},
+{
+"from": 202307,
+"id": "465639",
+"name": "91.3 kWh Long Life",
+"to": 202403
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 530,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "530 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202307,
+"id": "465649",
+"name": "91.3 kWh 4WD Long Life Performance (Air Edition)",
+"to": 202403
+},
+{
+"from": 202307,
+"id": "465653",
+"name": "91.3 kWh 4WD Long Life Performance",
+"to": 202403
+},
+{
+"from": 202307,
+"id": "465655",
+"name": "91.3 kWh 4WD Long Life Performance Max",
+"to": 202403
+},
+{
+"from": 202307,
+"id": "465659",
+"name": "91.3 kWh 4WD N-Sport",
+"to": 202403
+}
+]
+}
+],
+"ids": true,
+"key": "denza/n7/g_2023_17991",
+"market": "Китай",
+"to": 202403
+},
+"denza/n7/g_2024_21874": {
+"from": 202403,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 231,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "231 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202404,
+"id": "522124",
+"name": "71.8 kWh Pro",
+"to": 202501
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 313,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "313 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202404,
+"id": "522125",
+"name": "91.3 kWh Pro",
+"to": 202501
+},
+{
+"from": 202408,
+"id": "522127",
+"name": "91.3 kWh Pro Hunter",
+"to": 202501
+},
+{
+"from": 202502,
+"id": "524858",
+"name": "91.3 kWh Dual Laser Premium",
+"to": null
+},
+{
+"from": 202502,
+"id": "524859",
+"name": "91.3 kWh Dual Laser Hunter",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 530,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "530 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202404,
+"id": "522128",
+"name": "91.3 kWh 4WD Max",
+"to": 202501
+},
+{
+"from": 202404,
+"id": "522129",
+"name": "91.3 kWh 4WD Ultra",
+"to": 202501
+},
+{
+"from": 202502,
+"id": "524860",
+"name": "91.3 kWh 4WD Dual Laser Flagship",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "denza/n7/g_2024_21874",
 "market": "Китай",
 "to": null
 },
@@ -74921,6 +75182,33 @@
 "x75": "x75",
 "двигателиbaic": "engine"
 },
+"baojun": {
+"310": "310",
+"360": "360",
+"510": "510",
+"530": "530",
+"730": "730",
+"baojun530": "530",
+"baojunrm5": "rm-5",
+"baojunyep": "yep",
+"e100": "e100",
+"e200": "e200",
+"e300": "e300",
+"engine": "engine",
+"kiwiev": "kiwi_ev",
+"rc5": "rc-5",
+"rc6": "rc-6",
+"rm5": "rm-5",
+"rs3": "rs-3",
+"rs5": "rs-5",
+"rs7": "rs-7",
+"valli": "valli",
+"yep": "yep",
+"yepplus": "yep_plus",
+"yunduo": "yunduo",
+"yunduocloud": "yunduo",
+"двигателиbaojun": "engine"
+},
 "bentley": {
 "arnage": "arnage",
 "azure": "azure",
@@ -85343,6 +85631,112 @@
 ]
 ],
 "name": "2.0 АТ S"
+},
+"530147": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"170 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"147 л.с. (108 кВт) при 5200 об/мин"
+],
+[
+"Крутящий момент",
+"250 Н·м при 3400 об/мин"
+],
+[
+"Модель двигателя",
+"LJO"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,3 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4925 × 1880 × 1580 мм"
+],
+[
+"Колёсная база",
+"2800 мм"
+],
+[
+"Масса",
+"1470 кг"
+],
+[
+"Топливный бак",
+"50 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/55 R18"
+]
+]
+]
+],
+"name": "1.5L CVT 24h Online Elite"
 },
 "532043": {
 "groups": [
