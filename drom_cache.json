@@ -1651,6 +1651,10 @@
 "day": 739885,
 "gens": []
 },
+"mclaren/p1/china": {
+"day": 739886,
+"gens": []
+},
 "mercedes-benz/c-class/china": {
 "day": 739884,
 "gens": [
@@ -9399,11 +9403,13 @@
 "trims": [
 {
 "from": 202103,
+"id": "463627",
 "name": "2.0TD AT AWD Blade Hero Pioneer",
 "to": null
 },
 {
 "from": 202103,
+"id": "463628",
 "name": "2.0TD AT AWD Blade Hero Knight",
 "to": null
 }
@@ -9423,16 +9429,19 @@
 "trims": [
 {
 "from": 201912,
+"id": "463575",
 "name": "2.0T AT AWD City Hunter",
 "to": 202004
 },
 {
 "from": 201904,
+"id": "463575",
 "name": "2.0T AT AWD City Hunter",
 "to": 201911
 },
 {
 "from": 201904,
+"id": "463577",
 "name": "2.0T AT AWD City Hunter Flagship",
 "to": 202004
 }
@@ -9453,41 +9462,49 @@
 "trims": [
 {
 "from": 202005,
+"id": "463603",
 "name": "2.0T AT AWD City Hunter Knight",
 "to": 202206
 },
 {
 "from": 202005,
+"id": "463605",
 "name": "2.0T AT AWD City Hunter Supreme",
 "to": 202206
 },
 {
 "from": 202108,
+"id": "463621",
 "name": "2.0T AT AWD Ring Tower Champion",
 "to": null
 },
 {
 "from": 202203,
+"id": "463622",
 "name": "2.0T AT AWD Business",
 "to": null
 },
 {
 "from": 202207,
+"id": "463603",
 "name": "2.0T AT AWD City Hunter Knight",
 "to": null
 },
 {
 "from": 202207,
+"id": "463605",
 "name": "2.0T AT AWD City Hunter Supreme",
 "to": null
 },
 {
 "from": 202208,
+"id": "463629",
 "name": "2.0T AT AWD Meta 40",
 "to": null
 },
 {
 "from": 202208,
+"id": "463630",
 "name": "2.0T AT AWD Meta 40 Pro",
 "to": null
 }
@@ -9498,6 +9515,7 @@
 "drive": "rwd",
 "engine": "HY4C20B",
 "fuel": "бензин",
+"gen_key": "baic/beijing_bj40/g_2018_18654",
 "hp": 224,
 "hp_total": null,
 "hybrid": null,
@@ -9507,21 +9525,25 @@
 "trims": [
 {
 "from": 202005,
+"id": "463591",
 "name": "2.0T AT City Hunter Pioneer",
 "to": 202206
 },
 {
 "from": 202005,
+"id": "463592",
 "name": "2.0T AT City Hunter Knight",
 "to": 202206
 },
 {
 "from": 202207,
+"id": "463591",
 "name": "2.0T AT City Hunter Pioneer",
 "to": null
 },
 {
 "from": 202207,
+"id": "463592",
 "name": "2.0T AT City Hunter Knight",
 "to": null
 }
@@ -9541,6 +9563,7 @@
 "trims": [
 {
 "from": 202103,
+"id": "463579",
 "name": "2.3T MT AWD Blade Hero Pioneer",
 "to": null
 }
@@ -9560,36 +9583,43 @@
 "trims": [
 {
 "from": 201907,
+"id": "463571",
 "name": "2.3T AT AWD City Hunter",
 "to": 202107
 },
 {
 "from": 201907,
+"id": "463570",
 "name": "2.3T AT AWD Ring Tower Champion",
 "to": 202107
 },
 {
 "from": 201907,
+"id": "463572",
 "name": "2.3T AT AWD City Hunter Flagship",
 "to": 202107
 },
 {
 "from": 201910,
+"id": "463573",
 "name": "2.3T AT AWD Shengshi Huazhang",
 "to": 202107
 },
 {
 "from": 202007,
+"id": "463578",
 "name": "2.3T AT AWD Rainforest Crossing",
 "to": null
 },
 {
 "from": 202103,
+"id": "463580",
 "name": "2.3T AT AWD Blade Hero Supreme",
 "to": null
 },
 {
 "from": 202203,
+"id": "463581",
 "name": "2.3T AT AWD Excellent",
 "to": null
 }
@@ -9609,17 +9639,20 @@
 "trims": [
 {
 "from": 201808,
+"id": "463570",
 "name": "2.3T AT AWD Ring Tower Champion",
 "to": 201906
 },
 {
 "from": 201911,
+"id": "463574",
 "name": "2.3T AT AWD Off-Road",
 "to": 202107
 }
 ]
 }
 ],
+"ids": true,
 "key": "baic/beijing_bj40/g_2018_18654",
 "market": "Китай",
 "to": null
@@ -9693,6 +9726,7 @@
 "drive": "4wd",
 "engine": "HY4C20B",
 "fuel": "бензин",
+"gen_key": "baic/beijing_bj40/g_2020_18653",
 "hp": 224,
 "hp_total": null,
 "hybrid": null,
@@ -91706,6 +91740,120 @@
 ]
 ],
 "name": "44.5 kWh E-Base"
+},
+"463603": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"160 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"224 л.с. (165 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"380 Н·м при 4500 об/мин"
+],
+[
+"Модель двигателя",
+"HY4C20B"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"9,9 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4630 × 1925 × 1871 мм"
+],
+[
+"Колёсная база",
+"2745 мм"
+],
+[
+"Клиренс",
+"220 мм"
+],
+[
+"Масса",
+"2080 кг"
+],
+[
+"Топливный бак",
+"75 л"
+],
+[
+"Багажник",
+"532 (965) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Зависимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"245/70 R17"
+]
+]
+]
+],
+"name": "2.0T AT AWD City Hunter Knight"
 },
 "463672": {
 "groups": [
