@@ -527,6 +527,28 @@
 "g_2022_20939"
 ]
 },
+"bmw/5-series/china": {
+"day": 739886,
+"gens": [
+"g_198711_7865",
+"g_199512_5129",
+"g_200009_5131",
+"g_200307_5138",
+"g_2003_21895",
+"g_200703_5139",
+"g_2007_21896",
+"g_2009_21897",
+"g_201001_4652",
+"g_201309_1596",
+"g_2013_21898",
+"g_201610_7380",
+"g_2016_21899",
+"g_202005_11556",
+"g_2020_21900",
+"g_202307_19459",
+"g_2023_21901"
+]
+},
 "bmw/7-series/china": {
 "day": 739884,
 "gens": [
@@ -1198,6 +1220,10 @@
 "g_2025_24368"
 ]
 },
+"genesis/g80/china": {
+"day": 739886,
+"gens": []
+},
 "genesis/gv80/china": {
 "day": 739884,
 "gens": []
@@ -1409,6 +1435,10 @@
 "g_2021_16127",
 "g_202507_22546"
 ]
+},
+"infiniti/qx70/china": {
+"day": 739886,
+"gens": []
 },
 "infiniti/qx80/china": {
 "day": 739884,
@@ -2086,6 +2116,14 @@
 "day": 739883,
 "gens": [
 "g_2024_21833"
+]
+},
+"tank/300/china": {
+"day": 739886,
+"gens": [
+"g_202012_17346",
+"g_2020_16804",
+"g_2026_24760"
 ]
 },
 "tank/400/china": {
@@ -14011,6 +14049,2027 @@
 ],
 "ids": true,
 "key": "bmw/3-series/g_2022_20939",
+"market": "Китай",
+"to": null
+},
+"bmw/5-series/g_201309_1596": {
+"from": 201309,
+"groups": [
+{
+"body": [
+"F10"
+],
+"drive": "rwd",
+"engine": "N20B20",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201504,
+"id": "81623",
+"name": "520i MT",
+"to": 201702
+}
+]
+},
+{
+"body": [
+"F10"
+],
+"drive": "rwd",
+"engine": "N20B20",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201403,
+"id": "75577",
+"name": "520i AT M Sport",
+"to": 201702
+},
+{
+"from": 201311,
+"id": "85898",
+"name": "520i AT",
+"to": 201702
+},
+{
+"from": 201508,
+"id": "85898",
+"name": "520i AT",
+"to": 201702
+},
+{
+"from": 201511,
+"id": "89456",
+"name": "520i AT Luxury Line",
+"to": 201702
+},
+{
+"from": 201512,
+"id": "90235",
+"name": "520i AT Special Edition",
+"to": 201702
+},
+{
+"from": 201311,
+"id": "206297",
+"name": "520i AT Business",
+"to": 201403
+}
+]
+},
+{
+"body": [
+"F10"
+],
+"drive": "rwd",
+"engine": "N47D20",
+"fuel": "дизель",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201311,
+"id": "88319",
+"name": "520d AT",
+"to": 201406
+},
+{
+"from": 201311,
+"id": "88319",
+"name": "520d AT",
+"to": 201406
+}
+]
+},
+{
+"body": [
+"F10"
+],
+"drive": "rwd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201508,
+"id": "86518",
+"name": "520d MT",
+"to": 201702
+}
+]
+},
+{
+"body": [
+"F10"
+],
+"drive": "rwd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201407,
+"id": "88319",
+"name": "520d AT",
+"to": 201702
+},
+{
+"from": 201407,
+"id": "88319",
+"name": "520d AT",
+"to": 201702
+},
+{
+"from": 201512,
+"id": "90236",
+"name": "520d AT Special Edition",
+"to": 201702
+},
+{
+"from": 201604,
+"id": "120851",
+"name": "520d AT 100 Years Edition",
+"to": 201702
+},
+{
+"from": 201609,
+"id": "170262",
+"name": "520d AT Executive Edition",
+"to": 201702
+}
+]
+},
+{
+"body": [
+"F10"
+],
+"drive": "4wd",
+"engine": "N47D20, N47D20D",
+"fuel": "дизель",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201504,
+"id": "81624",
+"name": "525d AT xDrive",
+"to": 201702
+},
+{
+"from": 201311,
+"id": "206284",
+"name": "525d AT xDrive Business",
+"to": 201403
+}
+]
+},
+{
+"body": [
+"F10"
+],
+"drive": "4wd",
+"engine": "N20B20",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201403,
+"id": "75578",
+"name": "528i AT xDrive M Sport",
+"to": 201702
+},
+{
+"from": 201504,
+"id": "81625",
+"name": "528i AT xDrive",
+"to": 201702
+},
+{
+"from": 201504,
+"id": "85906",
+"name": "528i AT xDrive Business",
+"to": 201702
+},
+{
+"from": 201311,
+"id": "85903",
+"name": "528i AT xDrive Luxury",
+"to": 201702
+},
+{
+"from": 201311,
+"id": "89457",
+"name": "528i AT xDrive Luxury Line",
+"to": 201702
+},
+{
+"from": 201604,
+"id": "120852",
+"name": "528i AT xDrive 100 Years Edition",
+"to": 201702
+},
+{
+"from": 201609,
+"id": "170263",
+"name": "528i AT xDrive Executive Edition",
+"to": 201702
+},
+{
+"from": 201311,
+"id": "85906",
+"name": "528i AT xDrive Business",
+"to": 201503
+}
+]
+},
+{
+"body": [
+"F10"
+],
+"drive": "4wd",
+"engine": "N57D30",
+"fuel": "дизель",
+"hp": 258,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 258 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201311,
+"id": "85904",
+"name": "530d AT xDrive Luxury",
+"to": 201702
+}
+]
+},
+{
+"body": [
+"F10"
+],
+"drive": "4wd",
+"engine": "N55B30",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 306 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201311,
+"id": "74060",
+"name": "535i AT xDrive",
+"to": 201702
+}
+]
+},
+{
+"body": [
+"F10"
+],
+"drive": "4wd",
+"engine": "N57D30S1",
+"fuel": "дизель",
+"hp": 381,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 381 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201311,
+"id": "74062",
+"name": "М550d xDrive",
+"to": 201702
+}
+]
+},
+{
+"body": [
+"F10"
+],
+"drive": "4wd",
+"engine": "N63B44",
+"fuel": "бензин",
+"hp": 450,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 450 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201311,
+"id": "74061",
+"name": "550i AT xDrive",
+"to": 201702
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/5-series/g_201309_1596",
+"market": "Россия",
+"to": 201702
+},
+"bmw/5-series/g_2013_21898": {
+"from": 201309,
+"groups": [
+{
+"body": [
+"F18"
+],
+"drive": "rwd",
+"engine": "N20B20",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201309,
+"id": "522537",
+"name": "520Li AT Elegant",
+"to": 201607
+},
+{
+"from": 201607,
+"id": "522537",
+"name": "520Li AT Elegant",
+"to": 201802
+}
+]
+},
+{
+"body": [
+"F18"
+],
+"drive": "rwd",
+"engine": "N20B20",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201309,
+"id": "522538",
+"name": "525Li AT Leading",
+"to": 201607
+},
+{
+"from": 201309,
+"id": "522540",
+"name": "525Li AT Fashion",
+"to": 201607
+},
+{
+"from": 201309,
+"id": "522539",
+"name": "525Li AT Luxury",
+"to": 201607
+},
+{
+"from": 201607,
+"id": "522538",
+"name": "525Li AT Leading",
+"to": 201802
+},
+{
+"from": 201607,
+"id": "522539",
+"name": "525Li AT Luxury",
+"to": 201802
+}
+]
+},
+{
+"body": [
+"F18"
+],
+"drive": "4wd",
+"engine": "N20B20",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201405,
+"id": "522544",
+"name": "528Li AT xDrive Leading",
+"to": 201607
+},
+{
+"from": 201405,
+"id": "522546",
+"name": "528Li AT xDrive Fashion",
+"to": 201607
+},
+{
+"from": 201405,
+"id": "522545",
+"name": "528Li AT xDrive Luxury",
+"to": 201607
+},
+{
+"from": 201607,
+"id": "522544",
+"name": "528Li AT xDrive Leading",
+"to": 201802
+},
+{
+"from": 201607,
+"id": "522545",
+"name": "528Li AT xDrive Luxury",
+"to": 201802
+}
+]
+},
+{
+"body": [
+"F18"
+],
+"drive": "rwd",
+"engine": "N20B20",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201405,
+"id": "522541",
+"name": "528Li AT Leading",
+"to": 201607
+},
+{
+"from": 201405,
+"id": "522542",
+"name": "528Li AT Luxury",
+"to": 201607
+},
+{
+"from": 201405,
+"id": "522543",
+"name": "528Li AT Fashion",
+"to": 201607
+},
+{
+"from": 201607,
+"id": "522541",
+"name": "528Li AT Leading",
+"to": 201802
+},
+{
+"from": 201607,
+"id": "522542",
+"name": "528Li AT Luxury",
+"to": 201802
+}
+]
+},
+{
+"body": [
+"F18"
+],
+"drive": "rwd",
+"engine": "N52B30",
+"fuel": "бензин",
+"hp": 258,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 258 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201309,
+"id": "522547",
+"name": "530Li AT Leading",
+"to": 201607
+},
+{
+"from": 201309,
+"id": "522548",
+"name": "530Li AT Luxury",
+"to": 201607
+},
+{
+"from": 201309,
+"id": "522549",
+"name": "530Li AT Fashion",
+"to": 201607
+}
+]
+},
+{
+"body": [
+"F18"
+],
+"drive": "rwd",
+"engine": "N55B30A",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 306 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201309,
+"id": "522550",
+"name": "535Li AT Leading",
+"to": 201602
+},
+{
+"from": 201309,
+"id": "522551",
+"name": "535Li AT Luxury",
+"to": 201607
+},
+{
+"from": 201309,
+"id": "522553",
+"name": "535Li AT Executive Fashion",
+"to": 201607
+},
+{
+"from": 201309,
+"id": "522552",
+"name": "535Li AT Executive Luxury",
+"to": 201607
+},
+{
+"from": 201602,
+"id": "522550",
+"name": "535Li AT Leading",
+"to": 201607
+},
+{
+"from": 201607,
+"id": "522550",
+"name": "535Li AT Leading",
+"to": 201802
+},
+{
+"from": 201607,
+"id": "522552",
+"name": "535Li AT Executive Luxury",
+"to": 201802
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/5-series/g_2013_21898",
+"market": "Китай",
+"to": 201802
+},
+"bmw/5-series/g_201610_7380": {
+"from": 201610,
+"groups": [
+{
+"body": [
+"G30"
+],
+"drive": "rwd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201707,
+"id": "185132",
+"name": "520i AT Base",
+"to": 202005
+},
+{
+"from": 201710,
+"id": "189140",
+"name": "520i AT Business",
+"to": 202005
+}
+]
+},
+{
+"body": [
+"G30"
+],
+"drive": "4wd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201701,
+"id": "177680",
+"name": "520d AT xDrive Base",
+"to": 202005
+},
+{
+"from": 201710,
+"id": "189142",
+"name": "520d AT xDrive Business",
+"to": 202005
+},
+{
+"from": 201710,
+"id": "189146",
+"name": "520d AT xDrive M Sport",
+"to": 202005
+},
+{
+"from": 201710,
+"id": "189143",
+"name": "520d AT xDrive Exclusive",
+"to": 202001
+}
+]
+},
+{
+"body": [
+"G30"
+],
+"drive": "rwd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201701,
+"id": "177679",
+"name": "520d AT Base",
+"to": 202005
+},
+{
+"from": 201710,
+"id": "189141",
+"name": "520d AT Executive",
+"to": 202005
+},
+{
+"from": 201710,
+"id": "189144",
+"name": "520d AT Sport Line",
+"to": 202001
+}
+]
+},
+{
+"body": [
+"G30"
+],
+"drive": "4wd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 249 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201701,
+"id": "177683",
+"name": "530i AT xDrive Base",
+"to": 202005
+},
+{
+"from": 201710,
+"id": "189145",
+"name": "530i AT xDrive Luxury",
+"to": 202001
+},
+{
+"from": 201710,
+"id": "189147",
+"name": "530i AT xDrive M Sport",
+"to": 202005
+}
+]
+},
+{
+"body": [
+"G30"
+],
+"drive": "rwd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 249 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201701,
+"id": "177682",
+"name": "530i AT",
+"to": 201710
+}
+]
+},
+{
+"body": [
+"G30"
+],
+"drive": "4wd",
+"engine": "B57D30",
+"fuel": "дизель",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 249 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201701,
+"id": "177681",
+"name": "530d AT xDrive Base",
+"to": 202005
+},
+{
+"from": 201710,
+"id": "189148",
+"name": "530d AT xDrive M Sport",
+"to": 202005
+},
+{
+"from": 202002,
+"id": "275109",
+"name": "530d AT xDrive M Sport Pro",
+"to": 202005
+}
+]
+},
+{
+"body": [
+"G30"
+],
+"drive": "4wd",
+"engine": "B58B30",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 340 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201701,
+"id": "177684",
+"name": "540i AT xDrive Base",
+"to": 202005
+},
+{
+"from": 202002,
+"id": "275079",
+"name": "540i AT xDrive M Sport Pro",
+"to": 202005
+}
+]
+},
+{
+"body": [
+"G30"
+],
+"drive": "4wd",
+"engine": "B57D30S0",
+"fuel": "дизель",
+"hp": 400,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 400 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201707,
+"id": "185131",
+"name": "M550d AT xDrive Base",
+"to": 202005
+},
+{
+"from": 202002,
+"id": "275110",
+"name": "M550d AT xDrive M Special",
+"to": 202005
+}
+]
+},
+{
+"body": [
+"G30"
+],
+"drive": "4wd",
+"engine": "N63B44",
+"fuel": "бензин",
+"hp": 462,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 462 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201701,
+"id": "177685",
+"name": "M550i AT xDrive Base",
+"to": 202005
+},
+{
+"from": 201701,
+"id": "275080",
+"name": "M550i AT xDrive M Special",
+"to": 202005
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/5-series/g_201610_7380",
+"market": "Россия",
+"to": 202005
+},
+"bmw/5-series/g_2016_21899": {
+"from": 201610,
+"groups": [
+{
+"body": [
+"G38"
+],
+"drive": "rwd",
+"engine": "B48B20C",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201803,
+"id": "522615",
+"name": "525Li AT Luxury",
+"to": 201812
+},
+{
+"from": 201803,
+"id": "522616",
+"name": "525Li AT M Sport",
+"to": 201812
+},
+{
+"from": 201812,
+"id": "522615",
+"name": "525Li AT Luxury",
+"to": 201910
+},
+{
+"from": 201812,
+"id": "522616",
+"name": "525Li AT M Sport",
+"to": 201910
+},
+{
+"from": 201910,
+"id": "522615",
+"name": "525Li AT Luxury",
+"to": 202009
+},
+{
+"from": 201910,
+"id": "522616",
+"name": "525Li AT M Sport",
+"to": 202009
+}
+]
+},
+{
+"body": [
+"G38"
+],
+"drive": "rwd",
+"engine": "B48B20D",
+"fuel": "бензин",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201706,
+"id": "522618",
+"name": "528Li AT Special Edition",
+"to": 201812
+}
+]
+},
+{
+"body": [
+"G38"
+],
+"drive": "4wd",
+"engine": "B48B20D",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 252 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201706,
+"id": "522627",
+"name": "530Li AT xDrive Luxury",
+"to": 201812
+},
+{
+"from": 201706,
+"id": "522628",
+"name": "530Li AT xDrive M Sport",
+"to": 201812
+},
+{
+"from": 201812,
+"id": "522627",
+"name": "530Li AT xDrive Luxury",
+"to": 201910
+},
+{
+"from": 201812,
+"id": "522628",
+"name": "530Li AT xDrive M Sport",
+"to": 201910
+},
+{
+"from": 201910,
+"id": "522627",
+"name": "530Li AT xDrive Luxury",
+"to": 202009
+},
+{
+"from": 201910,
+"id": "522628",
+"name": "530Li AT xDrive M Sport",
+"to": 202009
+}
+]
+},
+{
+"body": [
+"G38"
+],
+"drive": "rwd",
+"engine": "B48B20D",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 252 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201706,
+"id": "522619",
+"name": "530Li AT Leading Luxury",
+"to": 201812
+},
+{
+"from": 201706,
+"id": "522624",
+"name": "530Li AT Leading M Sport",
+"to": 201812
+},
+{
+"from": 201706,
+"id": "522625",
+"name": "530Li AT Premium Luxury",
+"to": 201812
+},
+{
+"from": 201706,
+"id": "522626",
+"name": "530Li AT Premium M Sport",
+"to": 201812
+},
+{
+"from": 201812,
+"id": "522619",
+"name": "530Li AT Leading Luxury",
+"to": 201910
+},
+{
+"from": 201812,
+"id": "522624",
+"name": "530Li AT Leading M Sport",
+"to": 201910
+},
+{
+"from": 201812,
+"id": "522625",
+"name": "530Li AT Premium Luxury",
+"to": 201910
+},
+{
+"from": 201812,
+"id": "522626",
+"name": "530Li AT Premium M Sport",
+"to": 201910
+},
+{
+"from": 201910,
+"id": "522619",
+"name": "530Li AT Leading Luxury",
+"to": 202009
+},
+{
+"from": 201910,
+"id": "522624",
+"name": "530Li AT Leading M Sport",
+"to": 202009
+},
+{
+"from": 201910,
+"id": "522626",
+"name": "530Li AT Premium M Sport",
+"to": 202009
+},
+{
+"from": 201910,
+"id": "522625",
+"name": "530Li AT Premium Luxury",
+"to": 202009
+},
+{
+"from": 201910,
+"id": "522764",
+"name": "530Li AT Executive Luxury",
+"to": 202009
+},
+{
+"from": 201910,
+"id": "522765",
+"name": "530Li AT Executive M Sport",
+"to": 202009
+}
+]
+},
+{
+"body": [
+"G38"
+],
+"drive": "rwd",
+"engine": "B58B30A",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 340 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201706,
+"id": "522629",
+"name": "540Li AT Executive",
+"to": 201812
+},
+{
+"from": 201812,
+"id": "522629",
+"name": "540Li AT Executive",
+"to": 201910
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/5-series/g_2016_21899",
+"market": "Китай",
+"to": 202009
+},
+"bmw/5-series/g_202005_11556": {
+"from": 202005,
+"groups": [
+{
+"body": [
+"G30"
+],
+"drive": "rwd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202005,
+"id": "292876",
+"name": "520i AT Base",
+"to": 202303
+},
+{
+"from": 202005,
+"id": "293119",
+"name": "520i AT Business",
+"to": 202303
+}
+]
+},
+{
+"body": [
+"G30"
+],
+"drive": "4wd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 195,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 195 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202005,
+"id": "293146",
+"name": "520d AT xDrive Business",
+"to": 202303
+},
+{
+"from": 202005,
+"id": "292881",
+"name": "520d AT xDrive Base",
+"to": 202303
+},
+{
+"from": 202005,
+"id": "293147",
+"name": "520d AT xDrive M Sport Pure",
+"to": 202303
+}
+]
+},
+{
+"body": [
+"G30"
+],
+"drive": "rwd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 195,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 195 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202005,
+"id": "292880",
+"name": "520d AT Base",
+"to": 202303
+},
+{
+"from": 202005,
+"id": "293145",
+"name": "520d AT Executive",
+"to": 202303
+}
+]
+},
+{
+"body": [
+"G30"
+],
+"drive": "4wd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 249 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202005,
+"id": "292877",
+"name": "530i AT xDrive Base",
+"to": 202303
+},
+{
+"from": 202005,
+"id": "293120",
+"name": "530i AT xDrive M Sport Plus",
+"to": 202303
+}
+]
+},
+{
+"body": [
+"G30"
+],
+"drive": "4wd",
+"engine": "B57D30",
+"fuel": "дизель",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 249 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202005,
+"id": "292882",
+"name": "530d AT xDrive Base",
+"to": 202303
+},
+{
+"from": 202005,
+"id": "293148",
+"name": "530d AT xDrive M Sport Plus",
+"to": 202303
+},
+{
+"from": 202005,
+"id": "293149",
+"name": "530d AT xDrive M Sport Pro",
+"to": 202303
+},
+{
+"from": 202005,
+"id": "293150",
+"name": "530d AT xDrive M Sport Edition",
+"to": 202108
+},
+{
+"from": 202108,
+"id": "386165",
+"name": "530d AT xDrive M Sport Plus Edition 21",
+"to": 202203
+},
+{
+"from": 202108,
+"id": "386166",
+"name": "530d AT xDrive M Sport Pro Edition 21",
+"to": 202203
+}
+]
+},
+{
+"body": [
+"G30"
+],
+"drive": "4wd",
+"engine": "B58B30",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 340 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202005,
+"id": "292878",
+"name": "540i AT xDrive Base",
+"to": 202303
+},
+{
+"from": 202005,
+"id": "293143",
+"name": "540i AT xDrive M Sport Pro",
+"to": 202303
+},
+{
+"from": 202108,
+"id": "386163",
+"name": "540i AT xDrive M Sport Pro Edition 21",
+"to": 202203
+}
+]
+},
+{
+"body": [
+"G30"
+],
+"drive": "4wd",
+"engine": "N63B44",
+"fuel": "бензин",
+"hp": 530,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 530 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202005,
+"id": "292879",
+"name": "M550i AT xDrive Base",
+"to": 202303
+},
+{
+"from": 202005,
+"id": "293144",
+"name": "M550i AT xDrive M Special",
+"to": 202303
+},
+{
+"from": 202108,
+"id": "386164",
+"name": "M550i AT xDrive M Special Edition 21",
+"to": 202203
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/5-series/g_202005_11556",
+"market": "Россия",
+"to": 202303
+},
+"bmw/5-series/g_2020_21900": {
+"from": 202005,
+"groups": [
+{
+"body": [
+"G38"
+],
+"drive": "rwd",
+"engine": "B48B20C",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202009,
+"id": "522894",
+"name": "525Li AT Luxury",
+"to": 202108
+},
+{
+"from": 202009,
+"id": "522895",
+"name": "525Li AT M Sport",
+"to": 202108
+},
+{
+"from": 202108,
+"id": "522894",
+"name": "525Li AT Luxury",
+"to": 202301
+},
+{
+"from": 202108,
+"id": "522895",
+"name": "525Li AT M Sport",
+"to": 202301
+}
+]
+},
+{
+"body": [
+"G38"
+],
+"drive": "4wd",
+"engine": "B48B20G",
+"fuel": "бензин",
+"gen_key": "bmw/5-series/g_2020_21900",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202301,
+"id": "522920",
+"name": "530Li AT xDrive Luxury",
+"to": 202401
+},
+{
+"from": 202301,
+"id": "522921",
+"name": "530Li AT xDrive M Sport",
+"to": 202401
+}
+]
+},
+{
+"body": [
+"G38"
+],
+"drive": "rwd",
+"engine": "B48B20G",
+"fuel": "бензин",
+"gen_key": "bmw/5-series/g_2020_21900",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202301,
+"id": "522914",
+"name": "530Li AT Leading Luxury",
+"to": 202401
+},
+{
+"from": 202301,
+"id": "522915",
+"name": "530Li AT Leading M Sport",
+"to": 202401
+},
+{
+"from": 202301,
+"id": "522916",
+"name": "530Li AT Premium Luxury",
+"to": 202401
+},
+{
+"from": 202301,
+"id": "522917",
+"name": "530Li AT Premium M Sport",
+"to": 202401
+},
+{
+"from": 202301,
+"id": "522918",
+"name": "530Li AT Executive Luxury",
+"to": 202401
+},
+{
+"from": 202301,
+"id": "522919",
+"name": "530Li AT Executive M Sport",
+"to": 202401
+}
+]
+},
+{
+"body": [
+"G38"
+],
+"drive": "4wd",
+"engine": "B48B20D",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 252 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202009,
+"id": "522921",
+"name": "530Li AT xDrive M Sport",
+"to": 202108
+},
+{
+"from": 202009,
+"id": "522920",
+"name": "530Li AT xDrive Luxury",
+"to": 202108
+},
+{
+"from": 202108,
+"id": "522920",
+"name": "530Li AT xDrive Luxury",
+"to": 202301
+},
+{
+"from": 202108,
+"id": "522921",
+"name": "530Li AT xDrive M Sport",
+"to": 202301
+}
+]
+},
+{
+"body": [
+"G38"
+],
+"drive": "rwd",
+"engine": "B48B20D",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 252 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202009,
+"id": "522915",
+"name": "530Li AT Leading M Sport",
+"to": 202108
+},
+{
+"from": 202009,
+"id": "522914",
+"name": "530Li AT Leading Luxury",
+"to": 202108
+},
+{
+"from": 202009,
+"id": "522916",
+"name": "530Li AT Premium Luxury",
+"to": 202108
+},
+{
+"from": 202009,
+"id": "522917",
+"name": "530Li AT Premium M Sport",
+"to": 202108
+},
+{
+"from": 202009,
+"id": "522918",
+"name": "530Li AT Executive Luxury",
+"to": 202108
+},
+{
+"from": 202009,
+"id": "522919",
+"name": "530Li AT Executive M Sport",
+"to": 202108
+},
+{
+"from": 202108,
+"id": "522914",
+"name": "530Li AT Leading Luxury",
+"to": 202301
+},
+{
+"from": 202108,
+"id": "522915",
+"name": "530Li AT Leading M Sport",
+"to": 202301
+},
+{
+"from": 202108,
+"id": "522916",
+"name": "530Li AT Premium Luxury",
+"to": 202301
+},
+{
+"from": 202108,
+"id": "522917",
+"name": "530Li AT Premium M Sport",
+"to": 202301
+},
+{
+"from": 202108,
+"id": "522918",
+"name": "530Li AT Executive Luxury",
+"to": 202301
+},
+{
+"from": 202108,
+"id": "522919",
+"name": "530Li AT Executive M Sport",
+"to": 202301
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/5-series/g_2020_21900",
+"market": "Китай",
+"to": 202401
+},
+"bmw/5-series/g_202307_19459": {
+"from": 202305,
+"groups": [
+{
+"body": [
+"G60"
+],
+"drive": "rwd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 188,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 188 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"id": "474119",
+"name": "520i AT",
+"to": null
+},
+{
+"from": 202310,
+"id": "474120",
+"name": "520i AT M Sport",
+"to": null
+},
+{
+"from": 202310,
+"id": "474121",
+"name": "520i AT M Sport Pro",
+"to": null
+}
+]
+},
+{
+"body": [
+"G60"
+],
+"drive": "4wd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 188,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 188 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"id": "474125",
+"name": "520d AT xDrive",
+"to": null
+},
+{
+"from": 202310,
+"id": "474127",
+"name": "520d AT xDrive M Sport Pro",
+"to": null
+},
+{
+"from": 202310,
+"id": "474126",
+"name": "520d AT xDrive M Sport",
+"to": null
+}
+]
+},
+{
+"body": [
+"G60"
+],
+"drive": "rwd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 188,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 188 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"id": "474122",
+"name": "520d AT",
+"to": null
+},
+{
+"from": 202310,
+"id": "474123",
+"name": "520d AT M Sport",
+"to": null
+},
+{
+"from": 202310,
+"id": "474124",
+"name": "520d AT M Sport Pro",
+"to": null
+}
+]
+},
+{
+"body": [
+"G60"
+],
+"drive": "4wd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 190 л.с., параллельный подзаряжаемый (PHEV) гибрид, 184 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202411,
+"id": "519315",
+"name": "530e AT xDrive",
+"to": null
+}
+]
+},
+{
+"body": [
+"G60"
+],
+"drive": "rwd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 190 л.с., параллельный подзаряжаемый (PHEV) гибрид, 184 л.с., АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202411,
+"id": "519314",
+"name": "530e AT",
+"to": null
+}
+]
+},
+{
+"body": [
+"G60"
+],
+"drive": "4wd",
+"engine": "B47D20B",
+"fuel": "дизель",
+"hp": 197,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 197 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202310,
+"id": "524995",
+"name": "523d AT xDrive",
+"to": null
+},
+{
+"from": 202310,
+"id": "524996",
+"name": "523d AT xDrive M Sport",
+"to": null
+},
+{
+"from": 202310,
+"id": "524997",
+"name": "523d AT xDrive M Sport Pro",
+"to": null
+}
+]
+},
+{
+"body": [
+"G60"
+],
+"drive": "4wd",
+"engine": "B57D30",
+"fuel": "дизель",
+"hp": 303,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 303 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202411,
+"id": "519317",
+"name": "540d AT xDrive",
+"to": null
+}
+]
+},
+{
+"body": [
+"G60"
+],
+"drive": "4wd",
+"engine": "B58B30",
+"fuel": "бензин",
+"hp": 313,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 313 л.с., параллельный подзаряжаемый (PHEV) гибрид, 197 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202411,
+"id": "519316",
+"name": "550e AT xDrive",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/5-series/g_202307_19459",
+"market": "Европа",
+"to": null
+},
+"bmw/5-series/g_2023_21901": {
+"from": 202305,
+"groups": [
+{
+"body": [
+"G68"
+],
+"drive": "rwd",
+"engine": "B48B20R",
+"fuel": "бензин",
+"gen_key": "bmw/5-series/g_2023_21901",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202401,
+"id": "522935",
+"name": "525Li AT M Sport",
+"to": null
+},
+{
+"from": 202401,
+"id": "522934",
+"name": "525Li AT Luxury",
+"to": null
+}
+]
+},
+{
+"body": [
+"G68"
+],
+"drive": "4wd",
+"engine": "B48B20T",
+"fuel": "бензин",
+"gen_key": "bmw/5-series/g_2023_21901",
+"hp": 258,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 258 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202401,
+"id": "522941",
+"name": "530Li AT xDrive Luxury",
+"to": null
+},
+{
+"from": 202401,
+"id": "522942",
+"name": "530Li AT xDrive M Sport",
+"to": null
+}
+]
+},
+{
+"body": [
+"G68"
+],
+"drive": "rwd",
+"engine": "B48B20T",
+"fuel": "бензин",
+"gen_key": "bmw/5-series/g_2023_21901",
+"hp": 258,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 258 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202401,
+"id": "522937",
+"name": "530Li AT Leading Luxury",
+"to": null
+},
+{
+"from": 202401,
+"id": "522938",
+"name": "530Li AT Leading M Sport",
+"to": null
+},
+{
+"from": 202401,
+"id": "522939",
+"name": "530Li AT Premium Luxury",
+"to": null
+},
+{
+"from": 202401,
+"id": "522940",
+"name": "530Li AT Premium M Sport",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/5-series/g_2023_21901",
 "market": "Китай",
 "to": null
 },
@@ -31397,6 +33456,7 @@
 "drive": "fwd",
 "engine": "JL473ZQ7",
 "fuel": "бензин",
+"gen_key": "changan/uni-z/g_202403_20436",
 "hp": 188,
 "hp_total": null,
 "hybrid": null,
@@ -67264,47 +69324,57 @@
 "trims": [
 {
 "from": 202212,
+"id": "456573",
 "name": "75 kWh",
 "to": 202402
 },
 {
 "from": 202212,
+"id": "456574",
 "name": "100 kWh",
 "to": 202402
 },
 {
 "from": 202212,
+"id": "456575",
 "name": "100 kWh First Edition",
 "to": 202402
 },
 {
 "from": 202303,
+"id": "456576",
 "name": "150 kWh",
 "to": null
 },
 {
 "from": 202303,
+"id": "456577",
 "name": "150 kWh First Edition",
 "to": null
 },
 {
 "from": 202402,
+"id": "456573",
 "name": "75 kWh",
 "to": null
 },
 {
 "from": 202402,
+"id": "531949",
 "name": "100 kWh Signature Edition",
 "to": null
 },
 {
 "from": 202402,
+"id": "456574",
 "name": "100 kWh",
 "to": null
 }
 ]
 }
 ],
+"ids": true,
+"key": "nio/ec7/g_202212_17505",
 "market": "Китай",
 "to": null
 },
@@ -74184,8 +76254,51 @@
 ]
 }
 ],
+"key": "roewe/i6/g_2016_17492",
 "market": "Китай",
 "to": 201903
+},
+"roewe/i6/g_2026_25101": {
+"from": 202603,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "15FCD",
+"fuel": "бензин",
+"gen_key": "roewe/i6/g_2026_25101",
+"hp": 129,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 129 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202604,
+"id": "562334",
+"name": "1.5 CVT Classic",
+"to": null
+},
+{
+"from": 202604,
+"id": "562335",
+"name": "1.5 CVT Luxury",
+"to": null
+},
+{
+"from": 202604,
+"id": "562336",
+"name": "1.5 CVT Premium",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "roewe/i6/g_2026_25101",
+"market": "Китай",
+"to": null
 },
 "roewe/imax8/g_202010_16709": {
 "from": 202009,
@@ -74904,6 +77017,383 @@
 "market": "Китай",
 "to": null
 },
+"tank/300/g_202012_17346": {
+"from": 202302,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "E20CB",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202603,
+"id": "550342",
+"name": "2.0 AT 4WD Драйв",
+"to": null
+},
+{
+"from": 202603,
+"id": "550344",
+"name": "2.0 AT 4WD Сити Драйв",
+"to": null
+},
+{
+"from": 202603,
+"id": "550343",
+"name": "2.0 AT 4WD Премиум",
+"to": null
+},
+{
+"from": 202603,
+"id": "550345",
+"name": "2.0 AT 4WD Сити Премиум",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "E20CB",
+"fuel": "бензин",
+"hp": 220,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 220 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202302,
+"id": "454968",
+"name": "2.0 AT 4WD Adventure",
+"to": 202512
+},
+{
+"from": 202302,
+"id": "454972",
+"name": "2.0 AT 4WD Premium",
+"to": 202512
+},
+{
+"from": 202309,
+"id": "472852",
+"name": "2.0 AT 4WD City Adventure",
+"to": 202512
+},
+{
+"from": 202309,
+"id": "472853",
+"name": "2.0 AT 4WD City Premium",
+"to": 202512
+},
+{
+"from": 202511,
+"id": "454968",
+"name": "2.0 AT 4WD Adventure",
+"to": null
+},
+{
+"from": 202511,
+"id": "472852",
+"name": "2.0 AT 4WD City Adventure",
+"to": null
+},
+{
+"from": 202511,
+"id": "454972",
+"name": "2.0 AT 4WD Premium",
+"to": null
+},
+{
+"from": 202511,
+"id": "472853",
+"name": "2.0 AT 4WD City Premium",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "tank/300/g_202012_17346",
+"market": "Россия",
+"to": null
+},
+"tank/300/g_2020_16804": {
+"from": 202007,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "E20CB",
+"fuel": "бензин",
+"gen_key": "tank/300/g_2020_16804",
+"hp": 227,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 227 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202012,
+"id": "507208",
+"name": "2.0T AT 4WD Off-road Explorer",
+"to": 202107
+},
+{
+"from": 202012,
+"id": "507225",
+"name": "2.0T AT 4WD Off-Road Challenger",
+"to": 202107
+},
+{
+"from": 202012,
+"id": "507238",
+"name": "2.0T AT 4WD Off-Road Conqueror",
+"to": 202107
+},
+{
+"from": 202012,
+"id": "507214",
+"name": "2.0T AT 4WD Tribute to Monet Limited Edition",
+"to": 202107
+},
+{
+"from": 202108,
+"id": "507220",
+"name": "2.0T AT 4WD Tank Ranger",
+"to": 202208
+},
+{
+"from": 202111,
+"id": "507221",
+"name": "2.0T AT 4WD Forest Wind Iron Cavalry",
+"to": 202208
+},
+{
+"from": 202107,
+"id": "507239",
+"name": "2.0T AT 4WD City Edition My Look",
+"to": 202208
+},
+{
+"from": 202107,
+"id": "507240",
+"name": "2.0T AT 4WD City Edition Very Stylish",
+"to": 202208
+},
+{
+"from": 202107,
+"id": "507241",
+"name": "2.0T AT 4WD City Edition Must-Have Model",
+"to": 202208
+},
+{
+"from": 202207,
+"id": "507220",
+"name": "2.0T AT 4WD Tank Ranger",
+"to": 202308
+},
+{
+"from": 202206,
+"id": "507243",
+"name": "2.0T AT 4WD Border Limited Edition",
+"to": 202308
+},
+{
+"from": 202208,
+"id": "507225",
+"name": "2.0T AT 4WD Off-Road Challenger",
+"to": 202308
+},
+{
+"from": 202208,
+"id": "507238",
+"name": "2.0T AT 4WD Off-Road Conqueror",
+"to": 202308
+},
+{
+"from": 202208,
+"id": "507239",
+"name": "2.0T AT 4WD City Edition My Look",
+"to": 202308
+},
+{
+"from": 202208,
+"id": "507240",
+"name": "2.0T AT 4WD City Edition Very Stylish",
+"to": 202308
+},
+{
+"from": 202208,
+"id": "507241",
+"name": "2.0T AT 4WD City Edition Must-Have Model",
+"to": 202308
+},
+{
+"from": 202211,
+"id": "507262",
+"name": "2.0T AT 4WD 200 000 Commemorative Edition",
+"to": 202212
+},
+{
+"from": 202308,
+"id": "507263",
+"name": "2.0T AT 4WD Third Anniversary Limited Edition",
+"to": 202309
+},
+{
+"from": 202308,
+"id": "507264",
+"name": "2.0T AT 4WD Challenger",
+"to": 202502
+},
+{
+"from": 202308,
+"id": "507266",
+"name": "2.0T AT 4WD Conqueror",
+"to": 202502
+},
+{
+"from": 202211,
+"id": "507267",
+"name": "2.0T AT 4WD Iron Cavalry 02",
+"to": 202502
+},
+{
+"from": 202503,
+"id": "507264",
+"name": "2.0T AT 4WD Challenger",
+"to": 202606
+},
+{
+"from": 202503,
+"id": "507266",
+"name": "2.0T AT 4WD Conqueror",
+"to": 202606
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "E20NA",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 252 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202308,
+"id": "507273",
+"name": "MHEV 2.0T AT 4WD Traverse",
+"to": 202502
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "E20NB",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 252 л.с., параллельный подзаряжаемый (PHEV) гибрид, 163 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202404,
+"id": "507282",
+"name": "PHEV 2.0T AT 4WD Hi4-T 37.1kWh",
+"to": 202502
+},
+{
+"from": 202503,
+"id": "507282",
+"name": "PHEV 2.0T AT 4WD Hi4-T 37.1kWh",
+"to": 202606
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "E20NB",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 252 л.с., параллельный подзаряжаемый (PHEV) гибрид, 177 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202512,
+"id": "545050",
+"name": "PHEV 2.0T AT 4WD Hi4-T 36.7kWh",
+"to": 202606
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "E24D",
+"fuel": "дизель",
+"hp": 186,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 186 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202503,
+"id": "525601",
+"name": "2.4TD AT 4WD",
+"to": 202606
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "E30Z",
+"fuel": "бензин",
+"hp": 354,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 354 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202403,
+"id": "507274",
+"name": "MHEV 3.0T AT 4WD 330 V6",
+"to": 202502
+}
+]
+}
+],
+"ids": true,
+"key": "tank/300/g_2020_16804",
+"market": "Китай",
+"to": 202606
+},
 "tank/400/g_202309_21993": {
 "from": 202308,
 "groups": [
@@ -75157,6 +77647,7 @@
 ]
 }
 ],
+"key": "tank/500/g_202108_17697",
 "market": "Россия",
 "to": null
 },
@@ -75256,6 +77747,7 @@
 ]
 }
 ],
+"key": "tank/500/g_2021_16805",
 "market": "Китай",
 "to": null
 },
@@ -75330,6 +77822,7 @@
 ]
 }
 ],
+"key": "tank/500/g_2025_23283",
 "market": "Китай",
 "to": null
 },
@@ -87895,6 +90388,7 @@
 "drive": "4wd",
 "engine": "B420T2, B420T11",
 "fuel": "бензин",
+"gen_key": "volvo/xc60/g_2021_22232",
 "hp": 250,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -88049,6 +90543,7 @@
 "drive": "4wd",
 "engine": "B4204T56",
 "fuel": "бензин",
+"gen_key": "volvo/xc60/g_2021_22232",
 "hp": 310,
 "hp_total": null,
 "hybrid": "параллельный подзаряжаемый (phev) гибрид",
@@ -93996,6 +96491,41 @@
 "двигателиgenesis": "engine",
 "кузоваgenesis": "frame"
 },
+"great_wall": {
+"coolbear": "coolbear",
+"cowry": "cowry",
+"engine": "engine",
+"florid": "florid",
+"frame": "frame",
+"greatwallhover": "hover",
+"greatwallhoverh3": "hover_h3",
+"greatwallhoverh5": "hover_h5",
+"greatwallhoverh6": "hover_h6",
+"greatwallpoer": "poer",
+"greatwallpoerkingkong": "poer_kingkong",
+"greatwallsafe": "safe",
+"greatwallwingle": "wingle",
+"greatwallwingle7": "wingle_7",
+"hover": "hover",
+"hoverh3": "hover_h3",
+"hoverh5": "hover_h5",
+"hoverh6": "hover_h6",
+"hoverm2": "hover_m2",
+"hoverm4": "hover_m4",
+"pao": "pao",
+"peri": "peri",
+"poer": "poer",
+"poerkingkong": "poer_kingkong",
+"safe": "safe",
+"sailor": "sailor",
+"shanhaipoer": "shanhai_poer",
+"sing": "sing",
+"voleexc30": "voleex_c30",
+"wingle": "wingle",
+"wingle7": "wingle_7",
+"двигателиgreatwall": "engine",
+"кузоваgreatwall": "frame"
+},
 "haima": {
 "2": "2",
 "3": "3",
@@ -98050,6 +100580,91 @@
 ]
 ],
 "name": "1.5T DCT iCool V"
+},
+"456573": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"3,8 с"
+],
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Тип двигателя",
+"Электродвигатель"
+],
+[
+"Топливо",
+"Электричество"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4968 × 1974 × 1714 мм"
+],
+[
+"Колёсная база",
+"2960 мм"
+],
+[
+"Клиренс",
+"200 мм"
+],
+[
+"Масса",
+"2399 кг"
+],
+[
+"Багажник",
+"442 (1449) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"255/50 R20"
+]
+]
+]
+],
+"name": "75 kWh"
 },
 "457279": {
 "groups": [
@@ -103118,6 +105733,116 @@
 ],
 "name": "C 260 L 4MATIC Haoye Sport"
 },
+"507220": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"160 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"227 л.с. (167 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"387 Н·м при 3600 об/мин"
+],
+[
+"Модель двигателя",
+"E20CB"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"11,0 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4762 × 1973 × 1947 мм"
+],
+[
+"Колёсная база",
+"2750 мм"
+],
+[
+"Клиренс",
+"244 мм"
+],
+[
+"Масса",
+"2270 кг"
+],
+[
+"Топливный бак",
+"80 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Зависимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"265/70 R17"
+]
+]
+]
+],
+"name": "2.0T AT 4WD Tank Ranger"
+},
 "507296": {
 "groups": [
 [
@@ -105201,6 +107926,124 @@
 ]
 ],
 "name": "PHEV 1.5 SSR Extended Range Basic Model"
+},
+"522935": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"8,2 с"
+],
+[
+"Максимальная скорость",
+"225 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"190 л.с. (140 кВт) при 5000 об/мин"
+],
+[
+"Крутящий момент",
+"310 Н·м при 1500 об/мин"
+],
+[
+"Модель двигателя",
+"B48B20R"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,5 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5175 × 1900 × 1520 мм"
+],
+[
+"Колёсная база",
+"3105 мм"
+],
+[
+"Клиренс",
+"149 мм"
+],
+[
+"Масса",
+"1790 кг"
+],
+[
+"Топливный бак",
+"60 л"
+],
+[
+"Багажник",
+"520 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"245/45 R19"
+]
+]
+]
+],
+"name": "525Li AT M Sport"
 },
 "523282": {
 "groups": [
@@ -110130,6 +112973,104 @@
 ]
 ],
 "name": "81 kWh 2WD Pure Electric Max"
+},
+"562334": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"180 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"129 л.с. (95 кВт) при 6000 об/мин"
+],
+[
+"Модель двигателя",
+"15FCD"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,0 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4767 × 1828 × 1498 мм"
+],
+[
+"Колёсная база",
+"2755 мм"
+],
+[
+"Масса",
+"1230 кг"
+],
+[
+"Топливный бак",
+"50 л"
+],
+[
+"Багажник",
+"545 (1253) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"195/60 R16"
+]
+]
+]
+],
+"name": "1.5 CVT Classic"
 }
 },
 "version": 3
