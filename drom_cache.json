@@ -319,6 +319,10 @@
 "g_202312_20390"
 ]
 },
+"aston_martin/vanquish/china": {
+"day": 739886,
+"gens": []
+},
 "audi/a3/china": {
 "day": 739884,
 "gens": [
@@ -2383,6 +2387,7 @@
 "drive": "4wd",
 "engine": "H15RT",
 "fuel": "бензин",
+"gen_key": "aito/m5/g_2021_17568",
 "hp": 125,
 "hp_total": 428,
 "hybrid": "последовательный подзаряжаемый (phev) гибрид",
@@ -2402,6 +2407,7 @@
 "drive": "4wd",
 "engine": "H15RT",
 "fuel": "бензин",
+"gen_key": "aito/m5/g_2021_17568",
 "hp": 125,
 "hp_total": 496,
 "hybrid": "последовательный подзаряжаемый (phev) гибрид",
@@ -30084,6 +30090,139 @@
 "key": "changan/eado/g_2018_17103",
 "market": "Китай",
 "to": 202301
+},
+"changan/eado/g_202403_21506": {
+"from": 202403,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL469Q1",
+"fuel": "бензин",
+"hp": 98,
+"hp_total": 190,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 98 л.с., параллельный подзаряжаемый (PHEV) гибрид, 190 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202503,
+"id": "526632",
+"name": "PHEV 1.5 CVT Smart New Blue Whale 70 km Beyond",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL469Q1",
+"fuel": "бензин",
+"hp": 98,
+"hp_total": 215,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 98 л.с., параллельный подзаряжаемый (PHEV) гибрид, 215 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202503,
+"id": "526634",
+"name": "PHEV 1.5 CVT Smart New Blue Whale 145 km High Energy",
+"to": null
+},
+{
+"from": 202503,
+"id": "526633",
+"name": "PHEV 1.5 CVT Smart New Blue Whale 145 km Battleship",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL473ZQA",
+"fuel": "бензин",
+"hp": 168,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 168 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202403,
+"id": "516617",
+"name": "1.5T GDI DCT Enjoy",
+"to": null
+},
+{
+"from": 202403,
+"id": "516618",
+"name": "1.5T GDI DCT Premium",
+"to": null
+},
+{
+"from": 202403,
+"id": "516619",
+"name": "1.5T GDI DCT Flagship",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL473ZQA",
+"fuel": "бензин",
+"hp": 170,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 170 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202504,
+"id": "527459",
+"name": "1.5T GDI DCT High Energy",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL473ZQD",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 192 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202504,
+"id": "527457",
+"name": "1.5T GDI DCT 500Bar Premium",
+"to": null
+},
+{
+"from": 202504,
+"id": "527458",
+"name": "1.5T GDI DCT 500Bar Flagship",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "changan/eado/g_202403_21506",
+"market": "Китай",
+"to": null
 },
 "changan/uni-z/g_202403_20436": {
 "from": 202403,
@@ -67249,6 +67388,52 @@
 {
 "body": [],
 "drive": "rwd",
+"engine": "TZ210XYA03",
+"fuel": "electric",
+"hp": 313,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "313 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202408,
+"id": "521633",
+"name": "100 kWh Max",
+"to": 202503
+},
+{
+"from": 202411,
+"id": "534855",
+"name": "100 kWh Ultra Long Range Edition",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "TZ210XYA03, YS210XYA03",
+"fuel": "electric",
+"hp": 530,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "530 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202408,
+"id": "521637",
+"name": "100 kWh Ultra",
+"to": 202503
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
 "engine": "A156T2H",
 "fuel": "бензин",
 "hp": 160,
@@ -67260,22 +67445,26 @@
 "trims": [
 {
 "from": 202504,
+"id": "535369",
 "name": "1.5L SSR Max Extended Range",
 "to": null
 },
 {
 "from": 202504,
+"id": "535365",
 "name": "1.5L SSR Max+ Extended Range",
 "to": null
 },
 {
 "from": 202504,
+"id": "535371",
 "name": "1.5L SSR Ultra Extended Range Rear-wheel Drive",
 "to": null
 }
 ]
 }
 ],
+"ids": true,
 "key": "stelato/s9/g_2024_21833",
 "market": "Китай",
 "to": null
@@ -77046,6 +77235,86 @@
 "market": "Китай",
 "to": 202505
 },
+"volvo/s90/g_2025_23018": {
+"from": 202504,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "B420T11",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 250 л.с., мягкий гибрид, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202505,
+"id": "536765",
+"name": "2.0 B5 Geartronic Momentum Luxury",
+"to": null
+},
+{
+"from": 202505,
+"id": "536766",
+"name": "2.0 B5 Geartronic Inscription Luxury",
+"to": null
+},
+{
+"from": 202505,
+"id": "536767",
+"name": "2.0 B5 Geartronic Inscription Sport",
+"to": null
+},
+{
+"from": 202505,
+"id": "536768",
+"name": "2.0 B5 Geartronic R-Design Luxury",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B4204T56",
+"fuel": "бензин",
+"gen_key": "volvo/s90/g_2025_23018",
+"hp": 310,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 310 л.с., параллельный подзаряжаемый (PHEV) гибрид, 145 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202505,
+"id": "536762",
+"name": "PHEV 2.0 AWD Geartronic Long Range Momentum Luxury",
+"to": null
+},
+{
+"from": 202505,
+"id": "536763",
+"name": "PHEV 2.0 AWD Geartronic Long Range Inscription Luxury",
+"to": null
+},
+{
+"from": 202505,
+"id": "536764",
+"name": "PHEV 2.0 AWD Geartronic Long Range R-Design Luxury",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "volvo/s90/g_2025_23018",
+"market": "Китай",
+"to": null
+},
 "volvo/xc40/g_201709_7858": {
 "from": 201709,
 "groups": [
@@ -83950,6 +84219,35 @@
 "lite": "lite",
 "wendaov9": "wendao_v9",
 "двигателиarcfox": "engine"
+},
+"aston_martin": {
+"ar1": "ar1",
+"astonmartindb11": "db11",
+"astonmartindb9": "db9",
+"astonmartindbs": "dbs",
+"astonmartindbx": "dbx",
+"astonmartinvanquish": "vanquish",
+"astonmartinvantage": "vantage",
+"astonmartinvirage": "virage",
+"cygnet": "cygnet",
+"db11": "db11",
+"db12": "db12",
+"db5": "db5",
+"db7": "db7",
+"db9": "db9",
+"dbs": "dbs",
+"dbx": "dbx",
+"engine": "engine",
+"lagonda": "lagonda",
+"one77": "one-77",
+"rapide": "rapide",
+"tickfordcapri": "tickford_capri",
+"valen": "valen",
+"vanquish": "vanquish",
+"vantage": "vantage",
+"virage": "virage",
+"zagato": "zagato",
+"двигателиastonmartin": "engine"
 },
 "audi": {
 "100": "100",
@@ -96021,6 +96319,107 @@
 ],
 "name": "1.5 DCT Comfort 7 seats"
 },
+"535369": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"7,2 с"
+],
+[
+"Максимальная скорость",
+"204 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"160 л.с. (118 кВт) при 0 об/мин"
+],
+[
+"Модель двигателя",
+"A156T2H"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5160 × 2005 × 1486 мм"
+],
+[
+"Колёсная база",
+"3050 мм"
+],
+[
+"Масса",
+"2330 кг"
+],
+[
+"Топливный бак",
+"52 л"
+],
+[
+"Багажник",
+"375 (задний), 50 (передний) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"245/45 R20"
+]
+]
+]
+],
+"name": "1.5L SSR Max Extended Range"
+},
 "535530": {
 "groups": [
 [
@@ -96584,6 +96983,124 @@
 ]
 ],
 "name": "PHEV 2.0 T8 AWD Geartronic Long Range Momentum Luxury"
+},
+"536762": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"4,9 с"
+],
+[
+"Максимальная скорость",
+"180 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"310 л.с. (228 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"400 Н·м при 3000 об/мин"
+],
+[
+"Модель двигателя",
+"B4204T56"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"1,8 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5090 × 1879 × 1453 мм"
+],
+[
+"Колёсная база",
+"3061 мм"
+],
+[
+"Клиренс",
+"150 мм"
+],
+[
+"Масса",
+"2105 кг"
+],
+[
+"Топливный бак",
+"55 л"
+],
+[
+"Багажник",
+"436 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"245/45 R18"
+]
+]
+]
+],
+"name": "PHEV 2.0 AWD Geartronic Long Range Momentum Luxury"
 },
 "537857": {
 "groups": [
