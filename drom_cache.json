@@ -31353,6 +31353,7 @@
 "drive": "fwd",
 "engine": "SQRE4G15C",
 "fuel": "бензин",
+"gen_key": "chery/tiggo_5x/g_2019_19275",
 "hp": 116,
 "hp_total": null,
 "hybrid": null,
@@ -31415,6 +31416,7 @@
 "drive": "fwd",
 "engine": "SQRE4T15C",
 "fuel": "бензин",
+"gen_key": "chery/tiggo_5x/g_2019_19275",
 "hp": 156,
 "hp_total": null,
 "hybrid": null,
@@ -33384,6 +33386,7 @@
 "drive": "rwd",
 "engine": "JL473QJ",
 "fuel": "бензин",
+"gen_key": "deepal/s07/g_2023_24282",
 "hp": 95,
 "hp_total": 258,
 "hybrid": "последовательный подзаряжаемый (phev) гибрид",
@@ -33462,6 +33465,131 @@
 "key": "deepal/s07/g_2023_24282",
 "market": "Китай",
 "to": 202508
+},
+"deepal/s07/g_202509_24283": {
+"from": 202509,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 258,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "258 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202512,
+"id": "551017",
+"name": "77.94 kWh 630 Max Huawei Qiankun ADS SE",
+"to": null
+},
+{
+"from": 202512,
+"id": "551018",
+"name": "77.94 kWh 630 Ultra Huawei Qiankun ADS SE",
+"to": null
+},
+{
+"from": 202604,
+"id": "553260",
+"name": "77.94 kWh 630 Max+ Huawei Qiankun Laser",
+"to": null
+},
+{
+"from": 202604,
+"id": "553261",
+"name": "77.94 kWh 630 Ultra Huawei Qiankun Laser",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 272,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "272 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202509,
+"id": "551020",
+"name": "68.82 kWh 550 Max Huawei Qiankun ADS SE",
+"to": null
+},
+{
+"from": 202509,
+"id": "551019",
+"name": "68.82 kWh 550 Ultra Huawei Qiankun ADS SE",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "JL469Q1",
+"fuel": "бензин",
+"hp": 98,
+"hp_total": 258,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 98 л.с., последовательный подзаряжаемый (PHEV) гибрид, 258 л.с., редуктор, задний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202509,
+"id": "551021",
+"name": "Extended Range 1.5 230 Max Huawei Qiankun ADS SE",
+"to": null
+},
+{
+"from": 202509,
+"id": "551022",
+"name": "Extended Range 1.5 230 Ultra Huawei Qiankun ADS SE",
+"to": null
+},
+{
+"from": 202510,
+"id": "551023",
+"name": "Extended Range 1.5 230 Plus Huawei Qiankun ADS SE",
+"to": 202603
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "JL469Q1",
+"fuel": "бензин",
+"hp": 98,
+"hp_total": 272,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 98 л.с., последовательный подзаряжаемый (PHEV) гибрид, 272 л.с., редуктор, задний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202509,
+"id": "551024",
+"name": "Extended Range 1.5 300 Ultra Huawei Qiankun ADS SE",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "deepal/s07/g_202509_24283",
+"market": "Китай",
+"to": null
 },
 "deepal/s09/g_2024_24285": {
 "from": 202412,
@@ -84796,6 +84924,7 @@
 ]
 }
 ],
+"key": "wey/p8/g_2017_19947",
 "market": "Китай",
 "to": 202011
 },
