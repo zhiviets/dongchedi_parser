@@ -685,6 +685,13 @@
 "g_202502_22187"
 ]
 },
+"byd/e2/china": {
+"day": 739886,
+"gens": [
+"g_201909_16867",
+"g_202305_18166"
+]
+},
 "byd/e9/china": {
 "day": 739884,
 "gens": [
@@ -23757,6 +23764,73 @@
 "key": "byd/dolphin/g_202502_22187",
 "market": "Китай",
 "to": null
+},
+"byd/e2/g_201909_16867": {
+"from": 201904,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 94,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "94 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202104,
+"id": "460055",
+"name": "33 kWh",
+"to": 202304
+},
+{
+"from": 202104,
+"id": "460054",
+"name": "43 kWh",
+"to": 202304
+},
+{
+"from": 201909,
+"id": "460057",
+"name": "35 kWh",
+"to": 202104
+},
+{
+"from": 201909,
+"id": "460056",
+"name": "47 kWh",
+"to": 202104
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "136 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202105,
+"id": "460054",
+"name": "43 kWh",
+"to": 202304
+}
+]
+}
+],
+"ids": true,
+"key": "byd/e2/g_201909_16867",
+"market": "Китай",
+"to": 202304
 },
 "byd/e9/g_2022_22851": {
 "from": 202211,
@@ -87804,11 +87878,13 @@
 "trims": [
 {
 "from": 202106,
+"id": "525861",
 "name": "2.0 B4 Geartronic Momentum Luxury",
 "to": 202207
 },
 {
 "from": 202207,
+"id": "525861",
 "name": "2.0 B4 Geartronic Momentum Luxury",
 "to": 202305
 }
@@ -87819,7 +87895,6 @@
 "drive": "4wd",
 "engine": "B420T2, B420T11",
 "fuel": "бензин",
-"gen_key": "volvo/xc60/g_2021_22232",
 "hp": 250,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -87829,91 +87904,109 @@
 "trims": [
 {
 "from": 202106,
+"id": "525862",
 "name": "2.0 B5 Geartronic AWD Momentum Luxury",
 "to": 202207
 },
 {
 "from": 202106,
+"id": "525863",
 "name": "2.0 B5 Geartronic AWD Momentum Sport",
 "to": 202207
 },
 {
 "from": 202106,
+"id": "525864",
 "name": "2.0 B5 Geartronic AWD Inscription Luxury",
 "to": 202207
 },
 {
 "from": 202106,
+"id": "525865",
 "name": "2.0 B5 Geartronic AWD Inscription Sport",
 "to": 202207
 },
 {
 "from": 202106,
+"id": "525866",
 "name": "2.0 B5 Geartronic AWD Inscription Pro Luxury",
 "to": 202207
 },
 {
 "from": 202207,
+"id": "525862",
 "name": "2.0 B5 Geartronic AWD Momentum Luxury",
 "to": 202305
 },
 {
 "from": 202207,
+"id": "525863",
 "name": "2.0 B5 Geartronic AWD Momentum Sport",
 "to": 202305
 },
 {
 "from": 202207,
+"id": "525864",
 "name": "2.0 B5 Geartronic AWD Inscription Luxury",
 "to": 202305
 },
 {
 "from": 202207,
+"id": "525865",
 "name": "2.0 B5 Geartronic AWD Inscription Sport",
 "to": 202305
 },
 {
 "from": 202207,
+"id": "525866",
 "name": "2.0 B5 Geartronic AWD Inscription Pro Luxury",
 "to": 202305
 },
 {
 "from": 202305,
+"id": "525862",
 "name": "2.0 B5 Geartronic AWD Momentum Luxury",
 "to": 202406
 },
 {
 "from": 202305,
+"id": "525864",
 "name": "2.0 B5 Geartronic AWD Inscription Luxury",
 "to": 202406
 },
 {
 "from": 202305,
+"id": "525865",
 "name": "2.0 B5 Geartronic AWD Inscription Sport",
 "to": 202406
 },
 {
 "from": 202305,
+"id": "525876",
 "name": "2.0 B5 Geartronic AWD Fjord Edition",
 "to": 202406
 },
 {
 "from": 202406,
+"id": "525862",
 "name": "2.0 B5 Geartronic AWD Momentum Luxury",
 "to": null
 },
 {
 "from": 202406,
+"id": "525864",
 "name": "2.0 B5 Geartronic AWD Inscription Luxury",
 "to": null
 },
 {
 "from": 202406,
+"id": "525865",
 "name": "2.0 B5 Geartronic AWD Inscription Sport",
 "to": null
 },
 {
 "from": 202411,
+"id": "525880",
 "name": "2.0 B5 Geartronic AWD Inscription Midnight Black Edition",
 "to": null
 }
@@ -87933,16 +88026,19 @@
 "trims": [
 {
 "from": 202106,
+"id": "541431",
 "name": "PHEV 2.0 T8 Geartronic AWD Zhiyuan Sport 11.6 kWh",
 "to": 202303
 },
 {
 "from": 202106,
+"id": "541434",
 "name": "PHEV 2.0 T8 Geartronic AWD Zhiyuan Luxury 11.6 kWh",
 "to": 202303
 },
 {
 "from": 202106,
+"id": "541430",
 "name": "PHEV 2.0 T8 Geartronic AWD Zhiya Luxury 11.6 kWh",
 "to": 202303
 }
@@ -87953,7 +88049,6 @@
 "drive": "4wd",
 "engine": "B4204T56",
 "fuel": "бензин",
-"gen_key": "volvo/xc60/g_2021_22232",
 "hp": 310,
 "hp_total": null,
 "hybrid": "параллельный подзаряжаемый (phev) гибрид",
@@ -87963,42 +88058,50 @@
 "trims": [
 {
 "from": 202201,
+"id": "541432",
 "name": "PHEV 2.0 T8 Geartronic AWD Long Range Zhiyuan Sport 18.8 kWh",
 "to": 202406
 },
 {
 "from": 202201,
+"id": "541433",
 "name": "PHEV 2.0 T8 Geartronic AWD Long Range Zhiyuan Luxury 18.8 kWh",
 "to": 202406
 },
 {
 "from": 202201,
+"id": "541429",
 "name": "PHEV 2.0 T8 Geartronic AWD Long Range Zhiya Luxury 18.8 kWh",
 "to": 202406
 },
 {
 "from": 202406,
+"id": "548919",
 "name": "PHEV 2.0 Geartronic AWD Long Range Zhiyuan Luxury",
 "to": null
 },
 {
 "from": 202406,
+"id": "548920",
 "name": "PHEV 2.0 Geartronic AWD Long Range Zhiyuan Sport",
 "to": null
 },
 {
 "from": 202406,
+"id": "548921",
 "name": "PHEV 2.0 Geartronic AWD Long Range Zhiyuan Night Black Edition",
 "to": null
 },
 {
 "from": 202406,
+"id": "548922",
 "name": "PHEV 2.0 Geartronic AWD Long Range Zhiya Luxury",
 "to": null
 }
 ]
 }
 ],
+"ids": true,
 "key": "volvo/xc60/g_2021_22232",
 "market": "Китай",
 "to": null
@@ -107652,6 +107755,128 @@
 ]
 ],
 "name": "DM-i 1.5 CVT 230KM Premium"
+},
+"541432": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"5 с"
+],
+[
+"Максимальная скорость",
+"180 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"310 л.с. (228 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"400 Н·м при 3000 об/мин"
+],
+[
+"Модель двигателя",
+"B4204T56"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,4 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4708 × 1902 × 1658 мм"
+],
+[
+"Колёсная база",
+"2865 мм"
+],
+[
+"Клиренс",
+"209 мм"
+],
+[
+"Масса",
+"2158 кг"
+],
+[
+"Топливный бак",
+"55 л"
+],
+[
+"Багажник",
+"468 (1395) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"255/40 R21"
+],
+[
+"Радиус разворота",
+"5,85 м"
+]
+]
+]
+],
+"name": "PHEV 2.0 T8 Geartronic AWD Long Range Zhiyuan Sport 18.8 kWh"
 },
 "541475": {
 "groups": [
