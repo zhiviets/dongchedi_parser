@@ -1751,6 +1751,17 @@
 "g_2023_22190"
 ]
 },
+"mg/6/china": {
+"day": 739886,
+"gens": [
+"g_2009_17409",
+"g_2010_17418",
+"g_2014_17410",
+"g_201711_19353",
+"g_2017_17411",
+"g_202007_17413"
+]
+},
 "mg/ezs/china": {
 "day": 739883,
 "gens": [
@@ -61088,6 +61099,940 @@
 "market": "Китай",
 "to": null
 },
+"mg/6/g_2009_17409": {
+"from": 200904,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "18K4C",
+"fuel": "бензин",
+"hp": 133,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 133 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200912,
+"id": "460499",
+"name": "1.8 MT Comfort",
+"to": 201107
+},
+{
+"from": 201007,
+"id": "460500",
+"name": "1.8 MT Lunar New Year Edition",
+"to": 201107
+},
+{
+"from": 201108,
+"id": "460499",
+"name": "1.8 MT Comfort",
+"to": 201307
+},
+{
+"from": 201108,
+"id": "460507",
+"name": "1.8 MT Driving Value",
+"to": 201307
+},
+{
+"from": 201308,
+"id": "460499",
+"name": "1.8 MT Comfort",
+"to": 201407
+},
+{
+"from": 201308,
+"id": "460507",
+"name": "1.8 MT Driving Value",
+"to": 201407
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "18K4C",
+"fuel": "бензин",
+"hp": 133,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 133 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201007,
+"id": "460501",
+"name": "1.8 AT Lunar New Year Edition",
+"to": 201107
+},
+{
+"from": 200912,
+"id": "460502",
+"name": "1.8 AT Elite",
+"to": 201107
+},
+{
+"from": 201108,
+"id": "460508",
+"name": "1.8 AT Comfort",
+"to": 201209
+},
+{
+"from": 201108,
+"id": "460509",
+"name": "1.8 AT Driving Value",
+"to": 201307
+},
+{
+"from": 201108,
+"id": "460502",
+"name": "1.8 AT Elite",
+"to": 201307
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "18K4C",
+"fuel": "бензин",
+"hp": 133,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 133 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201308,
+"id": "460522",
+"name": "1.8 DCT Driving Value",
+"to": 201407
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "18K4G",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 160 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200912,
+"id": "460503",
+"name": "1.8T MT Comfort",
+"to": 201107
+},
+{
+"from": 201207,
+"id": "460511",
+"name": "1.8T MT Performance",
+"to": 201209
+},
+{
+"from": 201108,
+"id": "460503",
+"name": "1.8T MT Comfort",
+"to": 201209
+},
+{
+"from": 201210,
+"id": "460516",
+"name": "1.8T MT GT Premium",
+"to": 201307
+},
+{
+"from": 201308,
+"id": "460511",
+"name": "1.8T MT Performance",
+"to": 201407
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "18K4G",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 160 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200912,
+"id": "460504",
+"name": "1.8T AT Elite",
+"to": 201107
+},
+{
+"from": 200912,
+"id": "460505",
+"name": "1.8T AT Luxury",
+"to": 201107
+},
+{
+"from": 201207,
+"id": "460513",
+"name": "1.8T AT Performance",
+"to": 201209
+},
+{
+"from": 201108,
+"id": "460504",
+"name": "1.8T AT Elite",
+"to": 201209
+},
+{
+"from": 201108,
+"id": "460505",
+"name": "1.8T AT Luxury",
+"to": 201209
+},
+{
+"from": 201210,
+"id": "460517",
+"name": "1.8T AT GT Premium",
+"to": 201307
+},
+{
+"from": 201210,
+"id": "460504",
+"name": "1.8T AT Elite",
+"to": 201307
+},
+{
+"from": 201210,
+"id": "460505",
+"name": "1.8T AT Luxury",
+"to": 201307
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "18K4G",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 160 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201308,
+"id": "460524",
+"name": "1.8T DCT Performance",
+"to": 201407
+},
+{
+"from": 201308,
+"id": "460525",
+"name": "1.8T DCT Elite",
+"to": 201407
+},
+{
+"from": 201308,
+"id": "460526",
+"name": "1.8T DCT Luxury",
+"to": 201407
+}
+]
+}
+],
+"ids": true,
+"key": "mg/6/g_2009_17409",
+"market": "Китай",
+"to": 201407
+},
+"mg/6/g_2010_17418": {
+"from": 201012,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "18K4C",
+"fuel": "бензин",
+"hp": 133,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 133 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201101,
+"id": "460533",
+"name": "1.8 MT Comfort",
+"to": 201209
+},
+{
+"from": 201210,
+"id": "460533",
+"name": "1.8 MT Comfort",
+"to": 201407
+},
+{
+"from": 201210,
+"id": "460540",
+"name": "1.8 MT Premium",
+"to": 201407
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "18K4C",
+"fuel": "бензин",
+"hp": 133,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 133 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201101,
+"id": "460534",
+"name": "1.8 AT Comfort",
+"to": 201209
+},
+{
+"from": 201101,
+"id": "460535",
+"name": "1.8 AT Elite",
+"to": 201209
+},
+{
+"from": 201210,
+"id": "460534",
+"name": "1.8 AT Comfort",
+"to": 201407
+},
+{
+"from": 201210,
+"id": "460542",
+"name": "1.8 AT Premium",
+"to": 201407
+},
+{
+"from": 201210,
+"id": "460535",
+"name": "1.8 AT Elite",
+"to": 201407
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "18K4G",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 160 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201101,
+"id": "460536",
+"name": "1.8T MT Elite",
+"to": 201209
+},
+{
+"from": 201210,
+"id": "460536",
+"name": "1.8T MT Elite",
+"to": 201407
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "18K4G",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 160 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201101,
+"id": "460537",
+"name": "1.8T AT Elite",
+"to": 201209
+},
+{
+"from": 201101,
+"id": "460538",
+"name": "1.8T AT Luxury",
+"to": 201209
+},
+{
+"from": 201210,
+"id": "460537",
+"name": "1.8T AT Elite",
+"to": 201407
+},
+{
+"from": 201210,
+"id": "460538",
+"name": "1.8T AT Luxury",
+"to": 201407
+}
+]
+}
+],
+"ids": true,
+"key": "mg/6/g_2010_17418",
+"market": "Китай",
+"to": 201407
+},
+"mg/6/g_2014_17410": {
+"from": 201404,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "18K4C",
+"fuel": "бензин",
+"hp": 133,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 133 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201510,
+"id": "460547",
+"name": "1.8 MT Comfort 90th Anniversary Track Champion Edition",
+"to": 201710
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "18K4C",
+"fuel": "бензин",
+"hp": 133,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 133 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201510,
+"id": "460548",
+"name": "1.8 DCT Comfort 90th Anniversary Track Champion Edition",
+"to": 201710
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "18K4G",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 160 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201408,
+"id": "460549",
+"name": "1.8T DCT Elite 90th Anniversary Track Champion Edition",
+"to": 201710
+},
+{
+"from": 201408,
+"id": "460550",
+"name": "1.8T DCT Flagship 90th Anniversary Track Champion Edition",
+"to": 201710
+}
+]
+}
+],
+"ids": true,
+"key": "mg/6/g_2014_17410",
+"market": "Китай",
+"to": 201710
+},
+"mg/6/g_201711_19353": {
+"from": 201711,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "15E4E",
+"fuel": "бензин",
+"hp": 148,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 148 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202309,
+"id": "471961",
+"name": "1.5T DCT Comfort",
+"to": 202312
+},
+{
+"from": 202309,
+"id": "471962",
+"name": "1.5T DCT Deluxe",
+"to": 202312
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15E4E",
+"fuel": "бензин",
+"hp": 168,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 168 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202312,
+"id": "471961",
+"name": "1.5T DCT Comfort",
+"to": null
+},
+{
+"from": 202312,
+"id": "471962",
+"name": "1.5T DCT Deluxe",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "mg/6/g_201711_19353",
+"market": "Россия",
+"to": null
+},
+"mg/6/g_2017_17411": {
+"from": 201711,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "10E4E",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": 228,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.0,
+"text": "1.0 л, бензин, 125 л.с., параллельный подзаряжаемый (PHEV) гибрид, 228 л.с., АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201804,
+"id": "460588",
+"name": "1.0T AT E-DRIVE Smart Exclusive Internet Edition 45T",
+"to": 202006
+},
+{
+"from": 201804,
+"id": "460589",
+"name": "1.0T AT E-DRIVE Smart PILOT Exclusive Internet Edition 45T",
+"to": 202006
+},
+{
+"from": 201804,
+"id": "460590",
+"name": "1.0T AT E-DRIVE Smart PILOT Super Internet Edition 45T",
+"to": 202006
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15E4E",
+"fuel": "бензин",
+"gen_key": "mg/6/g_2017_17411",
+"hp": 169,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 169 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201711,
+"id": "460553",
+"name": "1.5T MT Elite Smart 20T",
+"to": 201903
+},
+{
+"from": 201711,
+"id": "460555",
+"name": "1.5T MT Luxury Smart 20T",
+"to": 201903
+},
+{
+"from": 201904,
+"id": "460561",
+"name": "1.5T MT Starlight 20T",
+"to": 202006
+},
+{
+"from": 201904,
+"id": "460563",
+"name": "1.5T MT Sport 20T",
+"to": 202006
+},
+{
+"from": 201907,
+"id": "460566",
+"name": "1.5T MT Trophy High-speed Rail 20T",
+"to": 202006
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15E4E",
+"fuel": "бензин",
+"gen_key": "mg/6/g_2017_17411",
+"hp": 169,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 169 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201711,
+"id": "460554",
+"name": "1.5T DCT Elite Smart 20T",
+"to": 201903
+},
+{
+"from": 201711,
+"id": "460556",
+"name": "1.5T DCT Luxury Smart 20T",
+"to": 201903
+},
+{
+"from": 201711,
+"id": "460557",
+"name": "1.5T DCT Exclusive Internet Edition 20T",
+"to": 201903
+},
+{
+"from": 201711,
+"id": "460558",
+"name": "1.5T DCT Trophy Exclusive Internet Edition 20T",
+"to": 201903
+},
+{
+"from": 201711,
+"id": "460559",
+"name": "1.5T DCT Trophy Super Sport Internet Edition 20T",
+"to": 201903
+},
+{
+"from": 201810,
+"id": "460560",
+"name": "1.5T DCT Tmall 20T",
+"to": 201903
+},
+{
+"from": 201904,
+"id": "460562",
+"name": "1.5T DCT Starlight 20T",
+"to": 202006
+},
+{
+"from": 201904,
+"id": "460564",
+"name": "1.5T DCT Sport 20T",
+"to": 202006
+},
+{
+"from": 201904,
+"id": "460565",
+"name": "1.5T DCT Super Internet Edition 20T",
+"to": 202006
+},
+{
+"from": 201904,
+"id": "460568",
+"name": "1.5T DCT Trophy Competitive Edition + BOSE Audio Luxury Package 20T",
+"to": 202006
+},
+{
+"from": 201904,
+"id": "460569",
+"name": "1.5T DCT Trophy Competitive Edition + Sports Tail Row Racing Set 20T",
+"to": 202006
+},
+{
+"from": 201904,
+"id": "460570",
+"name": "1.5T DCT Trophy Extreme Intelligence Competitive 20T",
+"to": 202006
+},
+{
+"from": 201911,
+"id": "460567",
+"name": "1.5T DCT Trophy 10th Anniversary Edition 20T",
+"to": 202006
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15E4E",
+"fuel": "бензин",
+"hp": 169,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 169 л.с., параллельный подзаряжаемый (PHEV) гибрид, 109 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201904,
+"id": "460592",
+"name": "1.5T AMT Plus 50T",
+"to": 202006
+},
+{
+"from": 201904,
+"id": "460593",
+"name": "1.5T AMT Pro 50T",
+"to": 202006
+},
+{
+"from": 201904,
+"id": "460594",
+"name": "1.5T AMT Trophy 5-second Edition 50T",
+"to": 202006
+}
+]
+}
+],
+"ids": true,
+"key": "mg/6/g_2017_17411",
+"market": "Китай",
+"to": 202006
+},
+"mg/6/g_202007_17413": {
+"from": 202007,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "15E4E",
+"fuel": "бензин",
+"hp": 169,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 169 л.с., параллельный подзаряжаемый (PHEV) гибрид, 109 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202009,
+"id": "460595",
+"name": "1.5T AMT Hybrid Trendy",
+"to": 202303
+},
+{
+"from": 202009,
+"id": "460596",
+"name": "1.5T AMT Hybrid Trendy Luxury",
+"to": 202303
+},
+{
+"from": 202009,
+"id": "460597",
+"name": "1.5T AMT Hybrid Trophy Ultimate",
+"to": 202311
+},
+{
+"from": 202009,
+"id": "460598",
+"name": "1.5T AMT Hybrid Trophy Smart Drive Ultimate",
+"to": 202311
+},
+{
+"from": 202011,
+"id": "460599",
+"name": "1.5T AMT Hybrid Trophy Digital Mamba Ultimate",
+"to": 202303
+},
+{
+"from": 202011,
+"id": "460600",
+"name": "1.5T AMT Hybrid Trophy Digital Mamba Smart Drive Ultimate",
+"to": 202303
+},
+{
+"from": 202107,
+"id": "460602",
+"name": "1.5T AMT Hybrid X POWER Master Edition",
+"to": 202311
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15C4E",
+"fuel": "бензин",
+"hp": 181,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 181 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202007,
+"id": "460571",
+"name": "1.5T MT Trendy Fashion",
+"to": 202107
+},
+{
+"from": 202007,
+"id": "460573",
+"name": "1.5T MT Trendy Luxury",
+"to": 202107
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15C4E",
+"fuel": "бензин",
+"hp": 181,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 181 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202007,
+"id": "460572",
+"name": "1.5T DCT Trendy Fashion",
+"to": 202107
+},
+{
+"from": 202007,
+"id": "460574",
+"name": "1.5T DCT Trendy Luxury",
+"to": 202107
+},
+{
+"from": 202007,
+"id": "460575",
+"name": "1.5T DCT Trophy Luxury",
+"to": 202107
+},
+{
+"from": 202007,
+"id": "460576",
+"name": "1.5T DCT Trophy Ultimate",
+"to": 202107
+},
+{
+"from": 202007,
+"id": "460577",
+"name": "1.5T DCT Trophy Smart Driving Ultimate",
+"to": 202107
+},
+{
+"from": 202011,
+"id": "460578",
+"name": "1.5T DCT Trophy Digital Mamba Deluxe",
+"to": 202107
+},
+{
+"from": 202011,
+"id": "460579",
+"name": "1.5T DCT Trophy Digital Mamba Ultimate",
+"to": 202107
+},
+{
+"from": 202011,
+"id": "460580",
+"name": "1.5T DCT Trophy Digital Mamba Smart Driving Ultimate",
+"to": 202107
+},
+{
+"from": 202108,
+"id": "460581",
+"name": "1.5T DCT Trendy",
+"to": 202303
+},
+{
+"from": 202104,
+"id": "460582",
+"name": "1.5T DCT Trendy Smart",
+"to": 202303
+},
+{
+"from": 202304,
+"id": "460583",
+"name": "1.5T DCT Сlassic",
+"to": null
+},
+{
+"from": 202311,
+"id": "551211",
+"name": "1.5T DCT XLINE Hunter Shark",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "mg/6/g_202007_17413",
+"market": "Китай",
+"to": null
+},
 "mg/ezs/g_2018_18342": {
 "from": 201811,
 "groups": [
@@ -81361,6 +82306,7 @@
 "drive": "4wd",
 "engine": "SFG15TR",
 "fuel": "бензин",
+"gen_key": "voyah/free/g_2020_15673",
 "hp": 109,
 "hp_total": 693,
 "hybrid": "последовательный подзаряжаемый (phev) гибрид",
@@ -90560,6 +91506,120 @@
 ]
 ],
 "name": "1.5 AMT"
+},
+"460566": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"210 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"169 л.с. (124 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"250 Н·м при 4300 об/мин"
+],
+[
+"Модель двигателя",
+"15E4E"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"5,9 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4695 × 1848 × 1462 мм"
+],
+[
+"Колёсная база",
+"2715 мм"
+],
+[
+"Клиренс",
+"135 мм"
+],
+[
+"Масса",
+"1300 кг"
+],
+[
+"Топливный бак",
+"50 л"
+],
+[
+"Багажник",
+"499 (1383) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/45 R18"
+]
+]
+]
+],
+"name": "1.5T MT Trophy High-speed Rail 20T"
 },
 "461342": {
 "groups": [
