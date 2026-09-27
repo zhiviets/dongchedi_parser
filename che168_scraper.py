@@ -1130,8 +1130,23 @@ class AutohomeOptions:
             json.dump(self.cache, f, ensure_ascii=False, indent=0, sort_keys=True)
 
 
-def drom_car(car: dict, make: str, model: str) -> dict:
-    """Машина che168 → признаки для поиска комплектации на drom.ru."""
+def cc_fix(car: dict, items: dict, autohome) -> dict:
+    """Машине с сайта — точный объём с Autohome (из кэша, без запросов), если на сайте другой:
+    раньше при закрытом объявлении объём угадывался по названию («35 TFSI» → 1.4 вместо 1.5)."""
+    info = autohome.cache.get(str(car.get("specid") or "")) if autohome else None
+    item = items.get(str(car["infoid"])) or {}
+    if not isinstance(info, dict) or not info.get("cc") or item.get("electric"):
+        return {}
+    try:
+        have = round(float(item.get("cc") or 0))
+    except ValueError:
+        have = 0
+    return {"cc": info["cc"]} if have and have != info["cc"] else {}
+
+
+def drom_car(car: dict, make: str, model: str, cc=None) -> dict:
+    """Машина che168 → признаки для поиска комплектации на drom.ru.
+    cc — точный объём (объявление, Autohome); без него — догадка по названию."""
     import drom_specs
     name = car["name"]
     model_year = re.search(r"(20\d{2})\s*款", name)
@@ -1139,17 +1154,17 @@ def drom_car(car: dict, make: str, model: str) -> dict:
     return {
         "make": make, "model": model, "market": "china",
         "year": int(model_year.group(1)) if model_year else car["year"],
-        "cc": guess_cc(name) if fuel != "Электро" else None,
+        "cc": (cc or guess_cc(name)) if fuel != "Электро" else None,
         "fuel": drom_specs.norm_fuel(fuel), "drive": drom_specs.norm_drive(name),
         "trans": drom_specs.norm_trans(name), "trim": latin_trim(name),
     }
 
 
-def drom_tech(car: dict, make, model, drom, counts, found=None):
+def drom_tech(car: dict, make, model, drom, counts, found=None, cc=None):
     """Технические характеристики комплектации с drom.ru (разгон, расход, размеры…) или None."""
     if not (drom and make and model):
         return None
-    found = found or drom.power(drom_car(car, make, model))
+    found = found or drom.power(drom_car(car, make, model, cc))
     tech = drom.tech(found.get("trim")) if found else None
     if tech:
         counts["tech"] = counts.get("tech", 0) + 1
@@ -1159,12 +1174,14 @@ def drom_tech(car: dict, make, model, drom, counts, found=None):
 def add_power(spec: dict, car: dict, make, model, autohome, drom, counts):
     """Точная мощность в характеристики: Autohome по номеру комплектации, иначе drom.ru.
     → технические характеристики комплектации с drom.ru (или None)."""
+    cc = lambda: int(spec.get("Рабочий объём цилиндров (см³)") or 0) or None
     if spec.get("Максимальная мощность (кВт)") or spec.get("Мощность, л.с."):
-        return drom_tech(car, make, model, drom, counts)
+        return drom_tech(car, make, model, drom, counts, cc=cc())
     info = autohome.info(car.get("specid")) if autohome else {}
     # Объём и коробка с Autohome — у машин «из списка» (объявление закрыто капчей) их иначе нет,
-    # а без объёма не посчитать таможню
-    if info.get("cc") and not spec.get("Рабочий объём цилиндров (см³)") and spec.get("Тип топлива") != "Электро":
+    # а без объёма не посчитать таможню. Объём комплектации Autohome точнее догадки по названию:
+    # «Q3 2024款 35 TFSI» — это уже 1.5T, а не 1.4T, как у прежних 35 TFSI
+    if info.get("cc") and spec.get("Тип топлива") != "Электро":
         spec["Рабочий объём цилиндров (см³)"] = str(info["cc"])
     if info.get("gearbox") and not spec.get("Коробка передач"):
         box = info["gearbox"]
@@ -1173,8 +1190,8 @@ def add_power(spec: dict, car: dict, make, model, autohome, drom, counts):
     if kw:
         spec["Максимальная мощность (кВт)"] = f"{kw:g}"
         counts["autohome"] += 1
-        return drom_tech(car, make, model, drom, counts)
-    found = drom.power(drom_car(car, make, model)) if (drom and make and model) else None
+        return drom_tech(car, make, model, drom, counts, cc=cc())
+    found = drom.power(drom_car(car, make, model, cc())) if (drom and make and model) else None
     if found:
         spec["Мощность, л.с."] = str(found["hp"])
         if found.get("hp_total"):
@@ -1386,15 +1403,17 @@ def main():
             page = context.new_page()
             cars = gather(page, known, total, items, touched)
         print(f"Отобрано новых: {len(cars)}, машин с сайта встречено в обходе: {len(touched)}, марок по номерам: {len(BRAND_IDS)}")
-        # Отметка «ещё в продаже» машинам с сайта, встреченным в обходе
-        push([{"external_id": c["infoid"], "price_value": c["price_cny"], "mileage_km": c["mileage_km"],
-               "source_url": f"https://www.che168.com/dealer/{c['dealerid']}/{c['infoid']}.html"}
-              for c in {c["infoid"]: c for c in touched}.values()])
-
         # Точная мощность: Autohome по номеру комплектации, запасной путь — каталог drom.ru
         # (его таблицы дорисовываются скриптом — открываем в браузере, без прокси)
         import drom_specs
         autohome = AutohomePower(os.path.join(ROOT, "autohome_cache.json"))
+        # Отметка «ещё в продаже» машинам с сайта, встреченным в обходе (и исправленный объём)
+        seen_cars = [{"external_id": c["infoid"], "price_value": c["price_cny"], "mileage_km": c["mileage_km"],
+                      "source_url": f"https://www.che168.com/dealer/{c['dealerid']}/{c['infoid']}.html",
+                      **cc_fix(c, items, autohome)}
+                     for c in {c["infoid"]: c for c in touched}.values()]
+        print(f"Объём исправлен по Autohome у машин с сайта: {sum('cc' in x for x in seen_cars)}")
+        push(seen_cars)
         # Оборудование для блока «Комплектация» — по номеру комплектации с Autohome
         equipment = AutohomeOptions(os.path.join(ROOT, "autohome_options.json"),
                                     limit=int(os.environ.get("AUTOHOME_OPTION_PAGES") or "600"))
@@ -1450,7 +1469,8 @@ def main():
             if car["infoid"] in known:
                 opts = equipment.get(car.get("specid")) if no_options(car["infoid"]) else None
                 listings.append({"external_id": car["infoid"], "price_value": car["price_cny"],
-                                 "mileage_km": car["mileage_km"], "source_url": url, **({"options": opts} if opts else {})})
+                                 "mileage_km": car["mileage_km"], "source_url": url, **({"options": opts} if opts else {}),
+                                 **cc_fix(car, items, autohome)})
                 continue
             if list_only:
                 add(car, url)
