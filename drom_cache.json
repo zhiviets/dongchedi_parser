@@ -81180,6 +81180,7 @@
 "drive": "fwd",
 "engine": "BHE15-BFZ",
 "fuel": "бензин",
+"gen_key": "volvo/xc70/g_202509_24078",
 "hp": 156,
 "hp_total": null,
 "hybrid": "параллельный подзаряжаемый (phev) гибрид",
