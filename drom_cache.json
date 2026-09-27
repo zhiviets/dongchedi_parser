@@ -934,6 +934,15 @@
 "g_2019_18725"
 ]
 },
+"changan/cs35_plus/china": {
+"day": 739886,
+"gens": [
+"g_201810_10190",
+"g_2018_21723",
+"g_202103_16430",
+"g_2021_21724"
+]
+},
 "changan/cs75_plus/china": {
 "day": 739886,
 "gens": [
@@ -32037,6 +32046,451 @@
 ],
 "ids": true,
 "key": "cadillac/xt6/g_2019_18725",
+"market": "Китай",
+"to": null
+},
+"changan/cs35_plus/g_201810_10190": {
+"from": 201809,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL478QEP",
+"fuel": "бензин",
+"hp": 117,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 117 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202308,
+"id": "469284",
+"name": "1.6 MT Comfort",
+"to": 202401
+},
+{
+"from": 202308,
+"id": "469287",
+"name": "1.6 MT Luxury",
+"to": 202401
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL478QEP",
+"fuel": "бензин",
+"hp": 117,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 117 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202308,
+"id": "469286",
+"name": "1.6 AT Comfort",
+"to": 202401
+},
+{
+"from": 202308,
+"id": "469285",
+"name": "1.6 AT Luxury",
+"to": 202401
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL478QEP",
+"fuel": "бензин",
+"hp": 128,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 128 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201908,
+"id": "469284",
+"name": "1.6 MT Comfort",
+"to": 202307
+},
+{
+"from": 201908,
+"id": "469287",
+"name": "1.6 MT Luxury",
+"to": 202007
+},
+{
+"from": 202008,
+"id": "469287",
+"name": "1.6 MT Luxury",
+"to": 202307
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL478QEP",
+"fuel": "бензин",
+"hp": 128,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 128 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201908,
+"id": "469286",
+"name": "1.6 AT Comfort",
+"to": 202007
+},
+{
+"from": 201908,
+"id": "469285",
+"name": "1.6 AT Luxury",
+"to": 202007
+},
+{
+"from": 202008,
+"id": "469286",
+"name": "1.6 AT Comfort",
+"to": 202307
+},
+{
+"from": 202008,
+"id": "469285",
+"name": "1.6 AT Luxury",
+"to": 202307
+}
+]
+}
+],
+"ids": true,
+"key": "changan/cs35_plus/g_201810_10190",
+"market": "Россия",
+"to": 202401
+},
+"changan/cs35_plus/g_2018_21723": {
+"from": 201809,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL473ZQ3",
+"fuel": "бензин",
+"hp": 158,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 158 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202003,
+"id": "519338",
+"name": "1.4 AMT Yuelian Blue Whale",
+"to": 202112
+},
+{
+"from": 201907,
+"id": "519339",
+"name": "1.4 AMT Changlian Blue Whale",
+"to": 202112
+},
+{
+"from": 201907,
+"id": "519340",
+"name": "1.4 AMT Cool Link Blue Whale",
+"to": 202112
+},
+{
+"from": 201907,
+"id": "519349",
+"name": "1.4 AMT Smart Blue Whale",
+"to": 202112
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL478QEP",
+"fuel": "бензин",
+"hp": 128,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 128 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202011,
+"id": "519333",
+"name": "1.6 MT Elite",
+"to": 202112
+},
+{
+"from": 202011,
+"id": "519335",
+"name": "1.6 MT Deluxe",
+"to": 202112
+},
+{
+"from": 201810,
+"id": "519353",
+"name": "1.6 MT Yuelian",
+"to": 202010
+},
+{
+"from": 201810,
+"id": "519357",
+"name": "1.6 MT Changlian",
+"to": 202010
+},
+{
+"from": 201810,
+"id": "519358",
+"name": "1.6 MT Cool Link",
+"to": 202010
+},
+{
+"from": 201810,
+"id": "519365",
+"name": "1.6 MT Smart",
+"to": 202010
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL478QEP",
+"fuel": "бензин",
+"hp": 128,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 128 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201810,
+"id": "519363",
+"name": "1.6 AT Yuelian",
+"to": 202010
+},
+{
+"from": 201810,
+"id": "519364",
+"name": "1.6 AT Changlian",
+"to": 202010
+},
+{
+"from": 201810,
+"id": "519366",
+"name": "1.6 AT Cool Link",
+"to": 202010
+},
+{
+"from": 201810,
+"id": "519367",
+"name": "1.6 AT Smart",
+"to": 202010
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL478QEP",
+"fuel": "бензин",
+"hp": 128,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 128 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202011,
+"id": "519336",
+"name": "1.6 CVT Elite",
+"to": 202112
+},
+{
+"from": 202011,
+"id": "519337",
+"name": "1.6 CVT Deluxe",
+"to": 202112
+}
+]
+}
+],
+"ids": true,
+"key": "changan/cs35_plus/g_2018_21723",
+"market": "Китай",
+"to": 202112
+},
+"changan/cs35_plus/g_202103_16430": {
+"from": 202101,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL473ZQ9",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202212,
+"id": "450860",
+"name": "1.4 AMT Advance",
+"to": 202602
+},
+{
+"from": 202212,
+"id": "450861",
+"name": "1.4 AMT Tech",
+"to": null
+},
+{
+"from": 202603,
+"id": "550654",
+"name": "1.4 AMT Комфорт",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "changan/cs35_plus/g_202103_16430",
+"market": "Россия",
+"to": null
+},
+"changan/cs35_plus/g_2021_21724": {
+"from": 202101,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL473ZQ9",
+"fuel": "бензин",
+"gen_key": "changan/cs35_plus/g_2021_21724",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 160 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202309,
+"id": "519318",
+"name": "1.4 AMT Blue Whale Super",
+"to": null
+},
+{
+"from": 202304,
+"id": "519319",
+"name": "1.4 AMT Blue Whale Luxury",
+"to": null
+},
+{
+"from": 202304,
+"id": "519320",
+"name": "1.4 AMT Blue Whale Premium",
+"to": null
+},
+{
+"from": 202103,
+"id": "519319",
+"name": "1.4 AMT Blue Whale Luxury",
+"to": 202303
+},
+{
+"from": 202103,
+"id": "519320",
+"name": "1.4 AMT Blue Whale Premium",
+"to": 202303
+},
+{
+"from": 202103,
+"id": "519323",
+"name": "1.4 AMT Blue Whale Pilot",
+"to": 202303
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL478QEP",
+"fuel": "бензин",
+"hp": 128,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 128 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202109,
+"id": "519328",
+"name": "1.6 MT Elite",
+"to": 202303
+},
+{
+"from": 202109,
+"id": "519327",
+"name": "1.6 MT Luxury",
+"to": 202303
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL478QEP",
+"fuel": "бензин",
+"hp": 128,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 128 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202205,
+"id": "519325",
+"name": "1.6 CVT Elite",
+"to": 202303
+},
+{
+"from": 202205,
+"id": "519324",
+"name": "1.6 CVT Luxury",
+"to": 202303
+}
+]
+}
+],
+"ids": true,
+"key": "changan/cs35_plus/g_2021_21724",
 "market": "Китай",
 "to": null
 },
@@ -107393,6 +107847,116 @@
 ]
 ],
 "name": "EREV 1.5 216km Comfort"
+},
+"519318": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"160 л.с. (118 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"260 Н·м при 1500 об/мин"
+],
+[
+"Модель двигателя",
+"JL473ZQ9"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,7 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4330 × 1825 × 1660 мм"
+],
+[
+"Колёсная база",
+"2600 мм"
+],
+[
+"Клиренс",
+"180 мм"
+],
+[
+"Масса",
+"1365 кг"
+],
+[
+"Топливный бак",
+"53 л"
+],
+[
+"Багажник",
+"403 (950) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/60 R16"
+]
+]
+]
+],
+"name": "1.4 AMT Blue Whale Super"
 },
 "519950": {
 "groups": [
