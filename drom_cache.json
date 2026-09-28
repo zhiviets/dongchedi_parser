@@ -1434,6 +1434,15 @@
 "g_2023_18821"
 ]
 },
+"infiniti/q50/china": {
+"day": 739887,
+"gens": [
+"g_201303_2017",
+"g_2014_24184",
+"g_201706_9268",
+"g_2018_21982"
+]
+},
 "infiniti/qx30/china": {
 "day": 739884,
 "gens": [
@@ -1747,6 +1756,13 @@
 "maserati/granturismo/china": {
 "day": 739884,
 "gens": []
+},
+"maxus/t70/china": {
+"day": 739887,
+"gens": [
+"g_2019_19825",
+"g_2022_19826"
+]
 },
 "maxus/t90/china": {
 "day": 739883,
@@ -47679,6 +47695,266 @@
 "market": "Китай",
 "to": null
 },
+"infiniti/q50/g_201303_2017": {
+"from": 201404,
+"groups": [
+{
+"body": [
+"V37"
+],
+"drive": "rwd",
+"engine": "M 274 DE 20 AL",
+"fuel": "бензин",
+"hp": 211,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 211 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201404,
+"id": "75387",
+"name": "2.0 Base",
+"to": 201707
+},
+{
+"from": 201404,
+"id": "75388",
+"name": "2.0 Elegance",
+"to": 201711
+},
+{
+"from": 201404,
+"id": "75389",
+"name": "2.0 Elegance + NAVI",
+"to": 201711
+},
+{
+"from": 201404,
+"id": "75390",
+"name": "2.0 Premium",
+"to": 201711
+},
+{
+"from": 201404,
+"id": "75391",
+"name": "2.0 Premium + NAVI",
+"to": 201711
+},
+{
+"from": 201404,
+"id": "75392",
+"name": "2.0 Elite",
+"to": 201711
+},
+{
+"from": 201404,
+"id": "75393",
+"name": "2.0 GT",
+"to": 201711
+},
+{
+"from": 201404,
+"id": "75394",
+"name": "2.0 Hi-Tech",
+"to": 201711
+},
+{
+"from": 201404,
+"id": "75395",
+"name": "2.0 Hi-Tech +",
+"to": 201711
+},
+{
+"from": 201508,
+"id": "87121",
+"name": "2.0 Business",
+"to": 201711
+},
+{
+"from": 201508,
+"id": "87122",
+"name": "2.0 Business + NAVI",
+"to": 201711
+}
+]
+},
+{
+"body": [
+"V37"
+],
+"drive": "4wd",
+"engine": "VR30DDTT",
+"fuel": "бензин",
+"hp": 405,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 405 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201609,
+"id": "167990",
+"name": "3.0 Sport",
+"to": 201711
+},
+{
+"from": 201609,
+"id": "168000",
+"name": "3.0 Hi-Tech +",
+"to": 201711
+},
+{
+"from": 201609,
+"id": "167998",
+"name": "3.0 Sport + NAVI",
+"to": 201711
+},
+{
+"from": 201609,
+"id": "167999",
+"name": "3.0 Hi-Tech",
+"to": 201711
+}
+]
+},
+{
+"body": [
+"V37"
+],
+"drive": "4wd",
+"engine": "VQ35HR",
+"fuel": "бензин",
+"hp": 298,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 3.5,
+"text": "3.5 л, бензин, 298 л.с., параллельный гибрид, 68 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201404,
+"id": "72470",
+"name": "3.5 Sport HEV",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75384",
+"name": "3.5 Sport + NAVI HEV",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75385",
+"name": "3.5 Hi-Tech HEV",
+"to": 201601
+},
+{
+"from": 201404,
+"id": "75386",
+"name": "3.5 Hi-Tech + HEV",
+"to": 201501
+}
+]
+}
+],
+"ids": true,
+"key": "infiniti/q50/g_201303_2017",
+"market": "Россия",
+"to": 201711
+},
+"infiniti/q50/g_2014_24184": {
+"from": 201411,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": "M 274 DE 20 AL",
+"fuel": "бензин",
+"hp": 211,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 211 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201604,
+"id": "549113",
+"name": "L 2.0 AT Comfort",
+"to": 201802
+},
+{
+"from": 201604,
+"id": "549114",
+"name": "L 2.0 AT Enjoy",
+"to": 201802
+},
+{
+"from": 201604,
+"id": "549115",
+"name": "L 2.0 AT Entry Level",
+"to": 201802
+},
+{
+"from": 201604,
+"id": "549116",
+"name": "L 2.0 AT Elite Sport",
+"to": 201802
+},
+{
+"from": 201604,
+"id": "549117",
+"name": "L 2.0 AT Luxury",
+"to": 201802
+},
+{
+"from": 201604,
+"id": "549118",
+"name": "L 2.0 AT Luxury Sport",
+"to": 201802
+},
+{
+"from": 201411,
+"id": "549113",
+"name": "L 2.0 AT Comfort",
+"to": 201603
+},
+{
+"from": 201411,
+"id": "549114",
+"name": "L 2.0 AT Enjoy",
+"to": 201603
+},
+{
+"from": 201411,
+"id": "549121",
+"name": "L 2.0 AT Sport",
+"to": 201603
+},
+{
+"from": 201411,
+"id": "549117",
+"name": "L 2.0 AT Luxury",
+"to": 201603
+},
+{
+"from": 201411,
+"id": "549118",
+"name": "L 2.0 AT Luxury Sport",
+"to": 201603
+}
+]
+}
+],
+"ids": true,
+"key": "infiniti/q50/g_2014_24184",
+"market": "Китай",
+"to": 201802
+},
 "infiniti/qx30/g_2015_24679": {
 "from": 201511,
 "groups": [
@@ -57616,6 +57892,714 @@
 }
 ],
 "key": "maextro/s800/g_2024_23669",
+"market": "Китай",
+"to": null
+},
+"maxus/t70/g_2019_19825": {
+"from": 201906,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "SC20M136Q6A",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 136 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202209,
+"id": "483494",
+"name": "2.0TD MT 4x4 Standard Box High-Chassis Comfort Fifth Anniversary Edition",
+"to": null
+},
+{
+"from": 202209,
+"id": "483496",
+"name": "2.0TD MT 4x4 Long Box High-Chassis Comfort Fifth Anniversary Edition",
+"to": null
+},
+{
+"from": 202209,
+"id": "483495",
+"name": "2.0TD MT 4x4 Standard Box High-Chassis Elite Fifth Anniversary Edition",
+"to": null
+},
+{
+"from": 202209,
+"id": "483497",
+"name": "2.0TD MT 4x4 Long Box High-Chassis Elite Fifth Anniversary Edition",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "SC20M136Q6A",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 136 л.с., дизель, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202209,
+"id": "483486",
+"name": "2.0TD MT Standard Box High-Chassis Comfort Fifth Anniversary Edition",
+"to": null
+},
+{
+"from": 202209,
+"id": "483490",
+"name": "2.0TD MT Long Box High-Chassis Comfort Fifth Anniversary Edition",
+"to": null
+},
+{
+"from": 202209,
+"id": "483489",
+"name": "2.0TD MT Standard Box High-Chassis Elite Fifth Anniversary Edition",
+"to": null
+},
+{
+"from": 202209,
+"id": "483491",
+"name": "2.0TD MT Long Box High-Chassis Elite Fifth Anniversary Edition",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "SC20M163Q6A",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201906,
+"id": "483380",
+"name": "2.0TD MT 4x4 Standard Box High-Chassis Comfort",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "483387",
+"name": "2.0TD MT 4x4 Long Box High-Chassis Comfort",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "483381",
+"name": "2.0TD MT 4x4 Standard Box High-Chassis Elite",
+"to": 202012
+},
+{
+"from": 201906,
+"id": "483388",
+"name": "2.0TD MT 4x4 Long Box High-Chassis Elite",
+"to": 202012
+},
+{
+"from": 201906,
+"id": "483382",
+"name": "2.0TD MT 4x4 Standard Box High-Chassis Luxury",
+"to": 202004
+},
+{
+"from": 201906,
+"id": "483389",
+"name": "2.0TD MT 4x4 Long Box High-Chassis Luxury",
+"to": 202004
+},
+{
+"from": 202009,
+"id": "483406",
+"name": "2.0TD MT 4x4 Standard Box High-Chassis Australian Edition",
+"to": 202108
+},
+{
+"from": 202009,
+"id": "483412",
+"name": "2.0TD MT 4x4 Long Box High-Chassis Australian Edition",
+"to": 202108
+},
+{
+"from": 202005,
+"id": "483408",
+"name": "2.0TD MT 4x4 Standard Box High-Chassis Commemorative Edition",
+"to": null
+},
+{
+"from": 202005,
+"id": "483416",
+"name": "2.0TD MT 4x4 Long Box High-Chassis Commemorative Edition",
+"to": null
+},
+{
+"from": 202003,
+"id": "483380",
+"name": "2.0TD MT 4x4 Standard Box High-Chassis Comfort",
+"to": null
+},
+{
+"from": 202003,
+"id": "483387",
+"name": "2.0TD MT 4x4 Long Box High-Chassis Comfort",
+"to": null
+},
+{
+"from": 202101,
+"id": "483429",
+"name": "2.0TD MT 4x4 Standard Box High-Chassis Enterprising Edition",
+"to": 202110
+},
+{
+"from": 202101,
+"id": "483433",
+"name": "2.0TD MT 4x4 Long Box High-Chassis Enterprising Edition",
+"to": 202110
+},
+{
+"from": 202101,
+"id": "483382",
+"name": "2.0TD MT 4x4 Standard Box High-Chassis Luxury",
+"to": 202204
+},
+{
+"from": 202101,
+"id": "483389",
+"name": "2.0TD MT 4x4 Long Box High-Chassis Luxury",
+"to": 202204
+},
+{
+"from": 202104,
+"id": "483456",
+"name": "2.0TD MT 4x4 Long Box High-Chassis Travel",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "SC20M163Q6A",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201906,
+"id": "483374",
+"name": "2.0TD MT Standard Box High-Chassis Comfort",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "483394",
+"name": "2.0TD MT Long Box High-Chassis Comfort",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "483375",
+"name": "2.0TD MT Standard Box High-Chassis Elite",
+"to": 202012
+},
+{
+"from": 201906,
+"id": "483395",
+"name": "2.0TD MT Long Box High-Chassis Elite",
+"to": 202012
+},
+{
+"from": 201906,
+"id": "483376",
+"name": "2.0TD MT Standard Box High-Chassis Luxury",
+"to": 202004
+},
+{
+"from": 201906,
+"id": "483396",
+"name": "2.0TD MT Long Box High-Chassis Luxury",
+"to": 202004
+},
+{
+"from": 202003,
+"id": "483374",
+"name": "2.0TD MT Standard Box High-Chassis Comfort",
+"to": null
+},
+{
+"from": 202003,
+"id": "483394",
+"name": "2.0TD MT Long Box High-Chassis Comfort",
+"to": null
+},
+{
+"from": 202009,
+"id": "483401",
+"name": "2.0TD MT Standard Box High-Chassis Australian Edition",
+"to": 202108
+},
+{
+"from": 202009,
+"id": "483414",
+"name": "2.0TD MT Long Box High-Chassis Australian Edition",
+"to": 202108
+},
+{
+"from": 202005,
+"id": "483402",
+"name": "2.0TD MT Standard Box High-Chassis Commemorative Edition",
+"to": null
+},
+{
+"from": 202005,
+"id": "483418",
+"name": "2.0TD MT Long Box High-Chassis Commemorative Edition",
+"to": null
+},
+{
+"from": 202101,
+"id": "483424",
+"name": "2.0TD MT Standard Box High-Chassis Enterprising Edition",
+"to": 202110
+},
+{
+"from": 202101,
+"id": "483437",
+"name": "2.0TD MT Long Box High-Chassis Enterprising Edition",
+"to": 202110
+},
+{
+"from": 202101,
+"id": "483376",
+"name": "2.0TD MT Standard Box High-Chassis Luxury",
+"to": 202204
+},
+{
+"from": 202101,
+"id": "483396",
+"name": "2.0TD MT Long Box High-Chassis Luxury",
+"to": 202204
+},
+{
+"from": 202104,
+"id": "483468",
+"name": "2.0TD MT Standard Box High-Chassis Chuangling Edition",
+"to": null
+},
+{
+"from": 202104,
+"id": "483479",
+"name": "2.0TD MT Long Box High-Chassis Chuangling Edition",
+"to": null
+},
+{
+"from": 202104,
+"id": "483454",
+"name": "2.0TD MT Long Box High-Chassis Travel",
+"to": null
+},
+{
+"from": 202104,
+"id": "483469",
+"name": "2.0TD MT Standard Box High-Chassis Smart",
+"to": null
+},
+{
+"from": 202104,
+"id": "483480",
+"name": "2.0TD MT Long Box High-Chassis Smart",
+"to": null
+},
+{
+"from": 202111,
+"id": "483424",
+"name": "2.0TD MT Standard Box High-Chassis Enterprising Edition",
+"to": null
+},
+{
+"from": 202111,
+"id": "483437",
+"name": "2.0TD MT Long Box High-Chassis Enterprising Edition",
+"to": null
+},
+{
+"from": 202101,
+"id": "483375",
+"name": "2.0TD MT Standard Box High-Chassis Elite",
+"to": null
+},
+{
+"from": 202101,
+"id": "483395",
+"name": "2.0TD MT Long Box High-Chassis Elite",
+"to": null
+},
+{
+"from": 202109,
+"id": "483401",
+"name": "2.0TD MT Standard Box High-Chassis Australian Edition",
+"to": null
+},
+{
+"from": 202109,
+"id": "483414",
+"name": "2.0TD MT Long Box High-Chassis Australian Edition",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "SC20M163Q6A",
+"fuel": "дизель",
+"gen_key": "maxus/t70/g_2019_19825",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201906,
+"id": "483383",
+"name": "2.0TD AT 4x4 Standard Box High-Chassis Comfort",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "483390",
+"name": "2.0TD AT 4x4 Long Box High-Chassis Comfort",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "483384",
+"name": "2.0TD AT 4x4 Standard Box High-Chassis Elite",
+"to": 202012
+},
+{
+"from": 201906,
+"id": "483391",
+"name": "2.0TD AT 4x4 Long Box High-Chassis Elite",
+"to": 202012
+},
+{
+"from": 201906,
+"id": "483385",
+"name": "2.0TD AT 4x4 Standard Box High-Chassis Luxury",
+"to": 202004
+},
+{
+"from": 201906,
+"id": "483392",
+"name": "2.0TD AT 4x4 Long Box High-Chassis Luxury",
+"to": 202004
+},
+{
+"from": 201906,
+"id": "483386",
+"name": "2.0TD AT 4x4 Standard Box High-Chassis Flagship",
+"to": 202004
+},
+{
+"from": 201906,
+"id": "483393",
+"name": "2.0TD AT 4x4 Long Box High-Chassis Flagship",
+"to": 202004
+},
+{
+"from": 202009,
+"id": "483407",
+"name": "2.0TD AT 4x4 Standard Box High-Chassis Australian Edition",
+"to": 202108
+},
+{
+"from": 202009,
+"id": "483413",
+"name": "2.0TD AT 4x4 Long Box High-Chassis Australian Edition",
+"to": 202108
+},
+{
+"from": 202005,
+"id": "483409",
+"name": "2.0TD AT 4x4 Standard Box High-Chassis Commemorative Edition",
+"to": null
+},
+{
+"from": 202005,
+"id": "483417",
+"name": "2.0TD AT 4x4 Long Box High-Chassis Commemorative Edition",
+"to": null
+},
+{
+"from": 202003,
+"id": "483383",
+"name": "2.0TD AT 4x4 Standard Box High-Chassis Comfort",
+"to": null
+},
+{
+"from": 202003,
+"id": "483390",
+"name": "2.0TD AT 4x4 Long Box High-Chassis Comfort",
+"to": null
+},
+{
+"from": 202101,
+"id": "483431",
+"name": "2.0TD AT 4x4 Standard Box High-Chassis Enterprising Edition",
+"to": 202110
+},
+{
+"from": 202101,
+"id": "483435",
+"name": "2.0TD AT 4x4 Long Box High-Chassis Enterprising Edition",
+"to": 202110
+},
+{
+"from": 202101,
+"id": "483385",
+"name": "2.0TD AT 4x4 Standard Box High-Chassis Luxury",
+"to": 202204
+},
+{
+"from": 202101,
+"id": "483392",
+"name": "2.0TD AT 4x4 Long Box High-Chassis Luxury",
+"to": 202204
+},
+{
+"from": 202012,
+"id": "483441",
+"name": "2.0TD AT 4x4 Standard Box High-Chassis Off-Road Edition",
+"to": 202204
+},
+{
+"from": 202104,
+"id": "483457",
+"name": "2.0TD AT 4x4 Long Box High-Chassis Travel",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "SC20M163Q6A",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201906,
+"id": "483377",
+"name": "2.0TD AT Standard Box High-Chassis Comfort",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "483397",
+"name": "2.0TD AT Long Box High-Chassis Comfort",
+"to": 202002
+},
+{
+"from": 201906,
+"id": "483378",
+"name": "2.0TD AT Standard Box High-Chassis Elite",
+"to": 202012
+},
+{
+"from": 201906,
+"id": "483398",
+"name": "2.0TD AT Long Box High-Chassis Elite",
+"to": 202012
+},
+{
+"from": 201906,
+"id": "483379",
+"name": "2.0TD AT Standard Box High-Chassis Luxury",
+"to": 202004
+},
+{
+"from": 201906,
+"id": "483399",
+"name": "2.0TD AT Long Box High-Chassis Luxury",
+"to": 202004
+},
+{
+"from": 202003,
+"id": "483377",
+"name": "2.0TD AT Standard Box High-Chassis Comfort",
+"to": null
+},
+{
+"from": 202003,
+"id": "483397",
+"name": "2.0TD AT Long Box High-Chassis Comfort",
+"to": null
+},
+{
+"from": 202009,
+"id": "483404",
+"name": "2.0TD AT Standard Box High-Chassis Australian Edition",
+"to": 202108
+},
+{
+"from": 202009,
+"id": "483415",
+"name": "2.0TD AT Long Box High-Chassis Australian Edition",
+"to": 202108
+},
+{
+"from": 202005,
+"id": "483405",
+"name": "2.0TD AT Standard Box High-Chassis Commemorative Edition",
+"to": null
+},
+{
+"from": 202005,
+"id": "483419",
+"name": "2.0TD AT Long Box High-Chassis Commemorative Edition",
+"to": null
+},
+{
+"from": 202101,
+"id": "483427",
+"name": "2.0TD AT Standard Box High-Chassis Enterprising Edition",
+"to": 202110
+},
+{
+"from": 202101,
+"id": "483439",
+"name": "2.0TD AT Long Box High-Chassis Enterprising Edition",
+"to": 202110
+},
+{
+"from": 202101,
+"id": "483379",
+"name": "2.0TD AT Standard Box High-Chassis Luxury",
+"to": 202204
+},
+{
+"from": 202101,
+"id": "483399",
+"name": "2.0TD AT Long Box High-Chassis Luxury",
+"to": 202204
+},
+{
+"from": 202104,
+"id": "483472",
+"name": "2.0TD AT Standard Box High-Chassis Chuangling Edition",
+"to": null
+},
+{
+"from": 202104,
+"id": "483481",
+"name": "2.0TD AT Long Box High-Chassis Chuangling Edition",
+"to": null
+},
+{
+"from": 202104,
+"id": "483455",
+"name": "2.0TD AT Long Box High-Chassis Travel",
+"to": null
+},
+{
+"from": 202104,
+"id": "483473",
+"name": "2.0TD AT Standard Box High-Chassis Smart",
+"to": null
+},
+{
+"from": 202104,
+"id": "483482",
+"name": "2.0TD AT Long Box High-Chassis Smart",
+"to": null
+},
+{
+"from": 202111,
+"id": "483427",
+"name": "2.0TD AT Standard Box High-Chassis Enterprising Edition",
+"to": null
+},
+{
+"from": 202111,
+"id": "483439",
+"name": "2.0TD AT Long Box High-Chassis Enterprising Edition",
+"to": null
+},
+{
+"from": 202109,
+"id": "483404",
+"name": "2.0TD AT Standard Box High-Chassis Australian Edition",
+"to": null
+},
+{
+"from": 202109,
+"id": "483415",
+"name": "2.0TD AT Long Box High-Chassis Australian Edition",
+"to": null
+},
+{
+"from": 202101,
+"id": "483378",
+"name": "2.0TD AT Standard Box High-Chassis Elite",
+"to": null
+},
+{
+"from": 202101,
+"id": "483398",
+"name": "2.0TD AT Long Box High-Chassis Elite",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "20L4E",
+"fuel": "бензин",
+"hp": 214,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 214 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202009,
+"id": "483546",
+"name": "2.0T MT 4x4 Standard Box High-Chassis Australian Edition",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "maxus/t70/g_2019_19825",
 "market": "Китай",
 "to": null
 },
@@ -106307,6 +107291,90 @@
 ]
 ],
 "name": "1.4 280 TSI DSG R-Line Lite 5dr."
+},
+"483383": {
+"groups": [
+[
+"Двигатель",
+[
+[
+"Мощность",
+"163 л.с. (120 кВт) при 4000 об/мин"
+],
+[
+"Крутящий момент",
+"375 Н·м при 2400 об/мин"
+],
+[
+"Модель двигателя",
+"SC20M163Q6A"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Дизельное топливо"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5365 × 1900 × 1809 мм"
+],
+[
+"Колёсная база",
+"3155 мм"
+],
+[
+"Клиренс",
+"215 мм"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Зависимая, рессорная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"245/70 R16"
+]
+]
+]
+],
+"name": "2.0TD AT 4x4 Standard Box High-Chassis Comfort"
 },
 "484105": {
 "groups": [
