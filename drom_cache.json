@@ -1719,6 +1719,17 @@
 "day": 739885,
 "gens": []
 },
+"lexus/rx450hplus/china": {
+"day": 739887,
+"gens": [
+"g_202211_15595",
+"g_2022_23439"
+]
+},
+"lexus/ux300e/china": {
+"day": 739887,
+"gens": []
+},
 "lincoln/aviator/china": {
 "day": 739884,
 "gens": [
@@ -1729,6 +1740,10 @@
 },
 "lincoln/mkc/china": {
 "day": 739886,
+"gens": []
+},
+"lincoln/mkx/china": {
+"day": 739887,
 "gens": []
 },
 "lincoln/mkz/china": {
@@ -1996,6 +2011,20 @@
 "mini/clubman/china": {
 "day": 739885,
 "gens": []
+},
+"mini/hatch/china": {
+"day": 739887,
+"gens": [
+"g_200107_9229",
+"g_200611_1719",
+"g_201004_6877",
+"g_201401_12804",
+"g_201801_2110",
+"g_202103_12867",
+"g_202310_19226",
+"g_2024_24791",
+"g_2024_24792"
+]
 },
 "mitsubishi/asx/china": {
 "day": 739885,
@@ -34460,6 +34489,7 @@
 "drive": "fwd",
 "engine": "JL469Q1",
 "fuel": "бензин",
+"gen_key": "changan/eado/g_2025_23249",
 "hp": 98,
 "hp_total": 218,
 "hybrid": "параллельный гибрид",
@@ -40930,6 +40960,7 @@
 "drive": "fwd",
 "engine": "HM474Q-T",
 "fuel": "бензин",
+"gen_key": "haima/7x/g_2019_18734",
 "hp": 165,
 "hp_total": null,
 "hybrid": null,
@@ -43071,6 +43102,7 @@
 "drive": "fwd",
 "engine": "L15BL",
 "fuel": "бензин",
+"gen_key": "honda/cr-v/g_2016_20904",
 "hp": 193,
 "hp_total": null,
 "hybrid": null,
@@ -43100,6 +43132,7 @@
 "drive": "fwd",
 "engine": "L15BL",
 "fuel": "бензин",
+"gen_key": "honda/cr-v/g_2016_20904",
 "hp": 193,
 "hp_total": null,
 "hybrid": null,
@@ -43164,6 +43197,7 @@
 "drive": "4wd",
 "engine": "L15BL",
 "fuel": "бензин",
+"gen_key": "honda/cr-v/g_2016_20904",
 "hp": 193,
 "hp_total": null,
 "hybrid": null,
@@ -57007,6 +57041,86 @@
 "market": "Китай",
 "to": null
 },
+"lexus/rx450hplus/g_202211_15595": {
+"from": 202205,
+"groups": [
+{
+"body": [
+"AALH16"
+],
+"drive": "4wd",
+"engine": "A25A-FXS",
+"fuel": "бензин",
+"hp": 185,
+"hp_total": 237,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 185 л.с., параллельный подзаряжаемый (PHEV) гибрид, 237 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202211,
+"id": "448003",
+"name": "2.5h CVT PHEV",
+"to": null
+},
+{
+"from": 202211,
+"id": "429096",
+"name": "2.5h CVT PHEV Business Line",
+"to": null
+},
+{
+"from": 202211,
+"id": "447980",
+"name": "2.5h CVT PHEV Executive Line",
+"to": null
+},
+{
+"from": 202211,
+"id": "447997",
+"name": "2.5h CVT PHEV Luxury Line",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "lexus/rx450hplus/g_202211_15595",
+"market": "Европа",
+"to": null
+},
+"lexus/rx450hplus/g_2022_23439": {
+"from": 202205,
+"groups": [
+{
+"body": [
+"AALH16"
+],
+"drive": "4wd",
+"engine": "A25B-FXS",
+"fuel": "бензин",
+"hp": 182,
+"hp_total": 237,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 182 л.с., параллельный подзаряжаемый (PHEV) гибрид, 237 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202509,
+"id": "541599",
+"name": "PHEV 2.5h CVT",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "lexus/rx450hplus/g_2022_23439",
+"market": "Китай",
+"to": null
+},
 "lincoln/aviator/g_2018_23236": {
 "from": 201811,
 "groups": [
@@ -59294,6 +59408,7 @@
 "drive": "4wd",
 "engine": "20L4E",
 "fuel": "бензин",
+"gen_key": "maxus/t90/g_2021_17530",
 "hp": 214,
 "hp_total": null,
 "hybrid": null,
@@ -59328,6 +59443,7 @@
 "drive": "rwd",
 "engine": "20L4E",
 "fuel": "бензин",
+"gen_key": "maxus/t90/g_2021_17530",
 "hp": 214,
 "hp_total": null,
 "hybrid": null,
@@ -59509,6 +59625,7 @@
 ]
 }
 ],
+"key": "maxus/t90/g_2021_17530",
 "market": "Китай",
 "to": 202310
 },
@@ -72264,6 +72381,683 @@
 "key": "mg/ezs/g_2018_18342",
 "market": "Китай",
 "to": 202206
+},
+"mini/hatch/g_201401_12804": {
+"from": 201311,
+"groups": [
+{
+"body": [
+"F56"
+],
+"drive": "fwd",
+"engine": "B38A15A",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 136 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201401,
+"id": "74955",
+"name": "1.5 MT Cooper 3dr.",
+"to": 201801
+}
+]
+},
+{
+"body": [
+"F56"
+],
+"drive": "fwd",
+"engine": "B38A15A",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 136 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201401,
+"id": "74956",
+"name": "1.5 AT Cooper 3dr.",
+"to": 201801
+}
+]
+},
+{
+"body": [
+"F56"
+],
+"drive": "fwd",
+"engine": "B48A20A",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201401,
+"id": "74957",
+"name": "2.0 MТ Cooper S 3dr.",
+"to": 201801
+}
+]
+},
+{
+"body": [
+"F56"
+],
+"drive": "fwd",
+"engine": "B48A20A",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201401,
+"id": "74958",
+"name": "2.0 AТ Cooper S 3dr.",
+"to": 201801
+}
+]
+},
+{
+"body": [
+"F56"
+],
+"drive": "fwd",
+"engine": "B48A20B",
+"fuel": "бензин",
+"hp": 231,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 231 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201501,
+"id": "80477",
+"name": "2.0 MТ John Cooper Works 3dr.",
+"to": 201508
+}
+]
+},
+{
+"body": [
+"F56"
+],
+"drive": "fwd",
+"engine": "B48A20B",
+"fuel": "бензин",
+"hp": 231,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 231 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201501,
+"id": "80478",
+"name": "2.0 AТ John Cooper Works 3dr.",
+"to": 201512
+},
+{
+"from": 201602,
+"id": "80478",
+"name": "2.0 AТ John Cooper Works 3dr.",
+"to": 201801
+}
+]
+}
+],
+"ids": true,
+"key": "mini/hatch/g_201401_12804",
+"market": "Россия",
+"to": 201802
+},
+"mini/hatch/g_201801_2110": {
+"from": 201801,
+"groups": [
+{
+"body": [
+"F55"
+],
+"drive": "fwd",
+"engine": "B38A15A",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 136 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201803,
+"id": "227246",
+"name": "1.5 MT Cooper 5dr.",
+"to": 202104
+}
+]
+},
+{
+"body": [
+"F55"
+],
+"drive": "fwd",
+"engine": "B38A15A",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 136 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201803,
+"id": "205675",
+"name": "1.5 SAT Cooper Urban 5dr.",
+"to": 201812
+},
+{
+"from": 201803,
+"id": "205701",
+"name": "1.5 SAT Cooper 5dr.",
+"to": 202104
+}
+]
+},
+{
+"body": [
+"F55"
+],
+"drive": "fwd",
+"engine": "B48A20A",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201803,
+"id": "205702",
+"name": "2.0 SAT Cooper S 5dr.",
+"to": 201809
+}
+]
+}
+],
+"ids": true,
+"key": "mini/hatch/g_201801_2110",
+"market": "Россия",
+"to": 202104
+},
+"mini/hatch/g_202103_12867": {
+"from": 202101,
+"groups": [
+{
+"body": [
+"F56"
+],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "184 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202205,
+"id": "396966",
+"name": "28.9 kWh Cooper SE 3dr.",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"F56"
+],
+"drive": "fwd",
+"engine": "B38A15A",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 136 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202105,
+"id": "313236",
+"name": "1.5 MT Cooper 3dr.",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"F56"
+],
+"drive": "fwd",
+"engine": "B38A15A",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 136 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202105,
+"id": "313239",
+"name": "1.5 SAT Cooper 3dr.",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"F56"
+],
+"drive": "fwd",
+"engine": "B48A20A",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202105,
+"id": "313237",
+"name": "2.0 MТ Cooper S 3dr.",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"F56"
+],
+"drive": "fwd",
+"engine": "B48A20A",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202105,
+"id": "313240",
+"name": "2.0 SAT Cooper S 3dr.",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"F56"
+],
+"drive": "fwd",
+"engine": "B48A20B",
+"fuel": "бензин",
+"hp": 231,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 231 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202105,
+"id": "313238",
+"name": "2.0 AT John Cooper Works 3dr.",
+"to": 202212
+}
+]
+}
+],
+"ids": true,
+"key": "mini/hatch/g_202103_12867",
+"market": "Россия",
+"to": 202212
+},
+"mini/hatch/g_202310_19226": {
+"from": 202309,
+"groups": [
+{
+"body": [
+"J01"
+],
+"drive": "fwd",
+"engine": "IB1P23M0",
+"fuel": "electric",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "184 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202310,
+"id": "470729",
+"name": "40.7 kWh Cooper E EV 3dr.",
+"to": null
+}
+]
+},
+{
+"body": [
+"J01"
+],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "218 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202310,
+"id": "470730",
+"name": "54.2 kWh Cooper SE EV 3dr.",
+"to": null
+}
+]
+},
+{
+"body": [
+"F66"
+],
+"drive": "fwd",
+"engine": "B38A15",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 156 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202403,
+"id": "503257",
+"name": "1.5 SAT Cooper C 3dr.",
+"to": null
+}
+]
+},
+{
+"body": [
+"F66"
+],
+"drive": "fwd",
+"engine": "B48A20",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 204 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202403,
+"id": "503261",
+"name": "2.0 SAT Cooper S 3dr.",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "mini/hatch/g_202310_19226",
+"market": "Европа",
+"to": null
+},
+"mini/hatch/g_2024_24791": {
+"from": 202404,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "B38A15P",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 156 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202411,
+"id": "558540",
+"name": "1.5 SAT Cooper Classic",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B48A20P",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 204 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202411,
+"id": "558541",
+"name": "2.0 SAT Cooper Artist",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "mini/hatch/g_2024_24791",
+"market": "Китай",
+"to": null
+},
+"mini/hatch/g_2024_24792": {
+"from": 202404,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"gen_key": "mini/hatch/g_2024_24792",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "184 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202512,
+"id": "558542",
+"name": "51.5 kWh Cooper E Classic",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"gen_key": "mini/hatch/g_2024_24792",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "218 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202606,
+"id": "558543",
+"name": "51.5 kWh Cooper SE Classic Plus",
+"to": null
+},
+{
+"from": 202512,
+"id": "558544",
+"name": "51.5 kWh Cooper SE Artist",
+"to": null
+},
+{
+"from": 202603,
+"id": "558545",
+"name": "51.5 kWh Cooper SE Racer",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"gen_key": "mini/hatch/g_2024_24792",
+"hp": 258,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "258 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202510,
+"id": "558688",
+"name": "51.5 kWh John Cooper Works",
+"to": null
+},
+{
+"from": 202504,
+"id": "558688",
+"name": "51.5 kWh John Cooper Works",
+"to": 202509
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B38A15P",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 156 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202411,
+"id": "558535",
+"name": "1.5 SAT Cooper Classic",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B48A20P",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 204 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202607,
+"id": "558533",
+"name": "2.0 SAT Cooper S Silver FM Radio",
+"to": null
+},
+{
+"from": 202411,
+"id": "558537",
+"name": "2.0 SAT Cooper S Racer",
+"to": null
+},
+{
+"from": 202411,
+"id": "558536",
+"name": "2.0 SAT Cooper S Artist",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B48A20S",
+"fuel": "бензин",
+"hp": 231,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 231 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202411,
+"id": "558691",
+"name": "2.0 SAT John Cooper Works",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "mini/hatch/g_2024_24792",
+"market": "Китай",
+"to": null
 },
 "mitsubishi/asx/g_201003_4373": {
 "from": 201003,
@@ -117660,6 +118454,116 @@
 ],
 "name": "1.5T SSR AWD Extended Range Max"
 },
+"553235": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"7,56 с"
+],
+[
+"Максимальная скорость",
+"180 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"98 л.с. (72 кВт) при 5600 об/мин"
+],
+[
+"Крутящий момент",
+"125 Н·м при 3000 об/мин"
+],
+[
+"Модель двигателя",
+"JL469Q1"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"3,8 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4785 × 1840 × 1460 мм"
+],
+[
+"Колёсная база",
+"2765 мм"
+],
+[
+"Масса",
+"1385 кг"
+],
+[
+"Топливный бак",
+"51 л"
+],
+[
+"Багажник",
+"500 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/55 R17"
+],
+[
+"Радиус разворота",
+"5,7 м"
+]
+]
+]
+],
+"name": "1.5 Blue Whale Super Engine Sport"
+},
 "554427": {
 "groups": [
 [
@@ -118066,6 +118970,91 @@
 ]
 ],
 "name": "1.6T DCT 2WD Fashion"
+},
+"558688": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"6,3 с"
+],
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Тип двигателя",
+"Электродвигатель"
+],
+[
+"Топливо",
+"Электричество"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"3858 × 1756 × 1458 мм"
+],
+[
+"Колёсная база",
+"2526 мм"
+],
+[
+"Масса",
+"1670 кг"
+],
+[
+"Багажник",
+"210 (800) л"
+],
+[
+"Мест",
+"4"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/40 R18"
+],
+[
+"Радиус разворота",
+"5,4 м"
+]
+]
+]
+],
+"name": "51.5 kWh John Cooper Works"
 },
 "560830": {
 "groups": [
