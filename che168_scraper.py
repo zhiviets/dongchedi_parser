@@ -1130,6 +1130,18 @@ class AutohomeOptions:
             json.dump(self.cache, f, ensure_ascii=False, indent=0, sort_keys=True)
 
 
+def drom_cc(car: dict, make, model, drom, hp) -> int | None:
+    """Объём с drom.ru для сверки: комплектация машины без фильтра по объёму — если она одна
+    и её мощность совпадает с известной (hp), её объём. Autohome у части комплектаций пишет
+    не тот объём: «Q3 2024款 35 TFSI» — «1.4T» при 118 кВт, а 160 л.с. — это уже 1.5."""
+    if not (drom and make and model and hp):
+        return None
+    found = drom.power(drom_car(car, make, model, guess=False))
+    if found and found.get("liters") and abs(found["hp"] - hp) <= 2:
+        return round(found["liters"] * 1000)
+    return None
+
+
 def cc_fix(car: dict, items: dict, autohome, drom=None) -> dict:
     """Машине с сайта — точный объём, если на сайте другой: раньше при закрытом объявлении
     объём угадывался по названию («35 TFSI» → 1.4 вместо 1.5). Источник — Autohome по номеру
@@ -1146,7 +1158,12 @@ def cc_fix(car: dict, items: dict, autohome, drom=None) -> dict:
         return {}
     info = autohome.cache.get(str(car.get("specid") or "")) if autohome else None
     if isinstance(info, dict) and info.get("cc"):
-        return {"cc": info["cc"]} if have != info["cc"] else {}
+        cc = info["cc"]
+        if drom and info.get("kw"):
+            make, model = brand_model(car["name"], "", car.get("brandid"))[:2]
+            with drom.cached_only():
+                cc = drom_cc(car, make, model, drom, round(info["kw"] * 1.35962)) or cc
+        return {"cc": cc} if have != cc else {}
     # drom.ru — только у машин из списка (объём по названию, мощность по нему же с drom.ru);
     # объём со страницы объявления точный, его не трогаем
     if not (drom and item.get("detail_spec") is False and item.get("hp")):
@@ -1213,6 +1230,11 @@ def add_power(spec: dict, car: dict, make, model, autohome, drom, counts, cc_exa
     if kw:
         spec["Максимальная мощность (кВт)"] = f"{kw:g}"
         counts["autohome"] += 1
+        if spec.get("Тип топлива") != "Электро":
+            checked = drom_cc(car, make, model, drom, round(kw * 1.35962))
+            if checked and checked != cc():
+                spec["Рабочий объём цилиндров (см³)"] = str(checked)
+                counts["cc_drom"] = counts.get("cc_drom", 0) + 1
         return drom_tech(car, make, model, drom, counts, cc=cc())
     found = None
     if drom and make and model and not cc_exact and spec.get("Тип топлива") != "Электро":
