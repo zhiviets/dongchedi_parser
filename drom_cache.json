@@ -92026,6 +92026,7 @@
 ]
 }
 ],
+"key": "volvo/xc40/g_201709_7858",
 "market": "Россия",
 "to": 202204
 },
@@ -92037,6 +92038,7 @@
 "drive": "fwd",
 "engine": "B3154T2",
 "fuel": "бензин",
+"gen_key": "volvo/xc40/g_2017_22457",
 "hp": 163,
 "hp_total": null,
 "hybrid": null,
@@ -92076,6 +92078,7 @@
 "drive": "4wd",
 "engine": "B4204T47, B4204T51",
 "fuel": "бензин",
+"gen_key": "volvo/xc40/g_2017_22457",
 "hp": 190,
 "hp_total": null,
 "hybrid": null,
@@ -92194,6 +92197,7 @@
 ]
 }
 ],
+"key": "volvo/xc40/g_2017_22457",
 "market": "Китай",
 "to": 202207
 },
@@ -92503,6 +92507,7 @@
 ]
 }
 ],
+"key": "volvo/xc40/g_202202_24154",
 "market": "Европа",
 "to": null
 },
@@ -92638,6 +92643,7 @@
 ]
 }
 ],
+"key": "volvo/xc40/g_2022_22458",
 "market": "Китай",
 "to": null
 },
