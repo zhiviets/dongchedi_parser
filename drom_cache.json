@@ -1544,6 +1544,20 @@
 "g_202310_23728"
 ]
 },
+"kia/k3/china": {
+"day": 739887,
+"gens": [
+"g_201207_15771",
+"g_201209_2817",
+"g_2014_19894",
+"g_201511_17093",
+"g_201611_15772",
+"g_201802_17089",
+"g_201905_15773",
+"g_202104_17091",
+"g_202212_21160"
+]
+},
 "kia/kx3/china": {
 "day": 739884,
 "gens": [
@@ -50536,6 +50550,994 @@
 ],
 "ids": true,
 "key": "kia/carnival/g_2020_20280",
+"market": "Китай",
+"to": null
+},
+"kia/k3/g_201207_15771": {
+"from": 201207,
+"groups": [
+{
+"body": [
+"YD"
+],
+"drive": "fwd",
+"engine": "G4FG",
+"fuel": "бензин",
+"hp": 128,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 128 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201207,
+"id": "435571",
+"name": "1.6MPi MT Base",
+"to": 201610
+},
+{
+"from": 201207,
+"id": "435583",
+"name": "1.6MPi MT Multimedia",
+"to": 201610
+},
+{
+"from": 201207,
+"id": "435582",
+"name": "1.6MPi MT Cruise Multimedia",
+"to": 201610
+},
+{
+"from": 201207,
+"id": "435581",
+"name": "1.6MPi MT LED Cruise Multimedia",
+"to": 201610
+},
+{
+"from": 201207,
+"id": "435580",
+"name": "1.6MPi MT Safe Packet",
+"to": 201610
+},
+{
+"from": 201207,
+"id": "435579",
+"name": "1.6MPi MT Premium Safe Packet",
+"to": 201610
+}
+]
+},
+{
+"body": [
+"YD"
+],
+"drive": "fwd",
+"engine": "G4FG",
+"fuel": "бензин",
+"hp": 128,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 128 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201207,
+"id": "435578",
+"name": "1.6MPi AT Base",
+"to": 201610
+},
+{
+"from": 201207,
+"id": "435577",
+"name": "1.6MPi AT Multimedia",
+"to": 201610
+},
+{
+"from": 201207,
+"id": "435572",
+"name": "1.6MPi AT Cruise Multimedia",
+"to": 201610
+},
+{
+"from": 201207,
+"id": "435573",
+"name": "1.6MPi AT LED Cruise Multimedia",
+"to": 201610
+},
+{
+"from": 201207,
+"id": "435574",
+"name": "1.6MPi AT Safe Packet",
+"to": 201610
+},
+{
+"from": 201207,
+"id": "435575",
+"name": "1.6MPi AT Premium Safe Packet",
+"to": 201610
+}
+]
+},
+{
+"body": [
+"YD"
+],
+"drive": "fwd",
+"engine": "G4NB",
+"fuel": "бензин",
+"hp": 146,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 146 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201207,
+"id": "435576",
+"name": "1.8 DCT GT-Line",
+"to": 201610
+}
+]
+}
+],
+"ids": true,
+"key": "kia/k3/g_201207_15771",
+"market": "Китай",
+"to": 201610
+},
+"kia/k3/g_201209_2817": {
+"from": 201209,
+"groups": [
+{
+"body": [
+"YD"
+],
+"drive": "fwd",
+"engine": "D4FB",
+"fuel": "дизель",
+"hp": 128,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 128 л.с., дизель, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201312,
+"id": "451567",
+"name": "1.6 VGT AT Luxury",
+"to": 201511
+},
+{
+"from": 201312,
+"id": "451568",
+"name": "1.6 VGT AT Prestige",
+"to": 201511
+},
+{
+"from": 201312,
+"id": "451569",
+"name": "1.6 VGT AT Nobless",
+"to": 201511
+},
+{
+"from": 201404,
+"id": "451573",
+"name": "1.6 VGT AT Trendy",
+"to": 201511
+}
+]
+},
+{
+"body": [
+"YD"
+],
+"drive": "fwd",
+"engine": "G4FD",
+"fuel": "бензин",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 140 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201209,
+"id": "451286",
+"name": "1.6 GDi MT Deluxe",
+"to": 201511
+}
+]
+},
+{
+"body": [
+"YD"
+],
+"drive": "fwd",
+"engine": "G4FD",
+"fuel": "бензин",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 140 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201209,
+"id": "451288",
+"name": "1.6 GDi AT Deluxe",
+"to": 201511
+},
+{
+"from": 201209,
+"id": "451287",
+"name": "1.6 GDi AT Luxury",
+"to": 201511
+},
+{
+"from": 201209,
+"id": "451291",
+"name": "1.6 GDi AT Prestige",
+"to": 201511
+},
+{
+"from": 201209,
+"id": "451292",
+"name": "1.6 GDi AT Nobless",
+"to": 201511
+},
+{
+"from": 201209,
+"id": "451290",
+"name": "1.6 GDi AT Trendy",
+"to": 201412
+}
+]
+}
+],
+"ids": true,
+"key": "kia/k3/g_201209_2817",
+"market": "Южная Корея",
+"to": 201511
+},
+"kia/k3/g_2014_19894": {
+"from": 201404,
+"groups": [
+{
+"body": [
+"YD"
+],
+"drive": "fwd",
+"engine": "G4FG",
+"fuel": "бензин",
+"hp": 128,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 128 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201404,
+"id": "484626",
+"name": "1.6 MT 2WD GL",
+"to": 201610
+},
+{
+"from": 201404,
+"id": "484628",
+"name": "1.6 MT 2WD GLS",
+"to": 201610
+}
+]
+},
+{
+"body": [
+"YD"
+],
+"drive": "fwd",
+"engine": "G4FG",
+"fuel": "бензин",
+"hp": 128,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 128 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201404,
+"id": "484627",
+"name": "1.6 AT 2WD GL",
+"to": 201610
+},
+{
+"from": 201404,
+"id": "484629",
+"name": "1.6 AT 2WD GLS",
+"to": 201610
+},
+{
+"from": 201404,
+"id": "484630",
+"name": "1.6 AT 2WD DLX",
+"to": 201610
+},
+{
+"from": 201404,
+"id": "484631",
+"name": "1.6 AT 2WD Premium",
+"to": 201610
+}
+]
+}
+],
+"ids": true,
+"key": "kia/k3/g_2014_19894",
+"market": "Китай",
+"to": 201610
+},
+"kia/k3/g_201511_17093": {
+"from": 201511,
+"groups": [
+{
+"body": [
+"YD"
+],
+"drive": "fwd",
+"engine": "G4FD",
+"fuel": "бензин",
+"hp": 132,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 132 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201511,
+"id": "451658",
+"name": "1.6 GDi MT Deluxe",
+"to": 201706
+}
+]
+},
+{
+"body": [
+"YD"
+],
+"drive": "fwd",
+"engine": "G4FD",
+"fuel": "бензин",
+"hp": 132,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 132 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201511,
+"id": "451873",
+"name": "1.6 GDi AT Deluxe",
+"to": 201806
+},
+{
+"from": 201511,
+"id": "451874",
+"name": "1.6 GDi AT Trendy",
+"to": 201806
+},
+{
+"from": 201511,
+"id": "451876",
+"name": "1.6 GDi AT Prestige Special",
+"to": 201806
+},
+{
+"from": 201511,
+"id": "451875",
+"name": "1.6 GDi AT Prestige",
+"to": 201706
+},
+{
+"from": 201511,
+"id": "451877",
+"name": "1.6 GDi AT Nobless",
+"to": 201706
+},
+{
+"from": 201607,
+"id": "451883",
+"name": "1.6 GDi AT Trendy Style",
+"to": 201806
+}
+]
+},
+{
+"body": [
+"YD"
+],
+"drive": "fwd",
+"engine": "D4FB",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 136 л.с., дизель, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201511,
+"id": "451878",
+"name": "1.6 VGT DCT Deluxe",
+"to": 201806
+},
+{
+"from": 201511,
+"id": "451879",
+"name": "1.6 VGT DCT Trendy",
+"to": 201806
+},
+{
+"from": 201511,
+"id": "451880",
+"name": "1.6 VGT DCT Prestige",
+"to": 201706
+},
+{
+"from": 201511,
+"id": "451881",
+"name": "1.6 VGT DCT Prestige Special",
+"to": 201706
+},
+{
+"from": 201511,
+"id": "451882",
+"name": "1.6 VGT DCT Nobless",
+"to": 201706
+},
+{
+"from": 201607,
+"id": "451884",
+"name": "1.6 VGT DCT Trendy Style",
+"to": 201806
+}
+]
+}
+],
+"ids": true,
+"key": "kia/k3/g_201511_17093",
+"market": "Южная Корея",
+"to": 201806
+},
+"kia/k3/g_201611_15772": {
+"from": 201611,
+"groups": [
+{
+"body": [
+"YD"
+],
+"drive": "fwd",
+"engine": "G4FG",
+"fuel": "бензин",
+"hp": 128,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 128 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201611,
+"id": "435521",
+"name": "1.6MPi MT Base",
+"to": 201905
+},
+{
+"from": 201611,
+"id": "435530",
+"name": "1.6MPi MT Multimedia",
+"to": 201905
+},
+{
+"from": 201611,
+"id": "435531",
+"name": "1.6MPi MT Cruise Multimedia",
+"to": 201905
+},
+{
+"from": 201611,
+"id": "435532",
+"name": "1.6MPi MT LED Cruise Multimedia",
+"to": 201905
+},
+{
+"from": 201611,
+"id": "435533",
+"name": "1.6MPi MT Safe Packet",
+"to": 201905
+},
+{
+"from": 201611,
+"id": "435534",
+"name": "1.6MPi MT Premium Safe Packet",
+"to": 201905
+}
+]
+},
+{
+"body": [
+"YD"
+],
+"drive": "fwd",
+"engine": "G4FG",
+"fuel": "бензин",
+"hp": 128,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 128 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201611,
+"id": "435565",
+"name": "1.6MPi AT Base",
+"to": 201905
+},
+{
+"from": 201611,
+"id": "435566",
+"name": "1.6MPi AT Multimedia",
+"to": 201905
+},
+{
+"from": 201611,
+"id": "435567",
+"name": "1.6MPi AT Cruise Multimedia",
+"to": 201905
+},
+{
+"from": 201611,
+"id": "435568",
+"name": "1.6MPi AT LED Cruise Multimedia",
+"to": 201905
+},
+{
+"from": 201611,
+"id": "435569",
+"name": "1.6MPi AT Safe Packet",
+"to": 201905
+},
+{
+"from": 201611,
+"id": "435570",
+"name": "1.6MPi AT Premium Safe Packet",
+"to": 201905
+}
+]
+},
+{
+"body": [
+"YD"
+],
+"drive": "fwd",
+"engine": "G4NB",
+"fuel": "бензин",
+"hp": 146,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 146 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201611,
+"id": "435537",
+"name": "1.8 DCT GT-Line",
+"to": 201905
+}
+]
+}
+],
+"ids": true,
+"key": "kia/k3/g_201611_15772",
+"market": "Китай",
+"to": 201905
+},
+"kia/k3/g_201802_17089": {
+"from": 201802,
+"groups": [
+{
+"body": [
+"BD"
+],
+"drive": "fwd",
+"engine": "G4FM",
+"fuel": "бензин",
+"hp": 123,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 123 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201802,
+"id": "451183",
+"name": "1.6 MPi CVT Trendy",
+"to": 202004
+},
+{
+"from": 201802,
+"id": "451192",
+"name": "1.6 MPi CVT Luxury",
+"to": 202004
+},
+{
+"from": 201802,
+"id": "451195",
+"name": "1.6 MPi CVT Prestige",
+"to": 202004
+},
+{
+"from": 201802,
+"id": "451199",
+"name": "1.6 MPi CVT Nobless",
+"to": 202004
+},
+{
+"from": 202004,
+"id": "451200",
+"name": "1.6 MPi CVT Standard",
+"to": 202104
+},
+{
+"from": 202004,
+"id": "451195",
+"name": "1.6 MPi CVT Prestige",
+"to": 202104
+},
+{
+"from": 202004,
+"id": "451203",
+"name": "1.6 MPi CVT Signature",
+"to": 202104
+},
+{
+"from": 202007,
+"id": "451205",
+"name": "1.6 MPi CVT Standard LED",
+"to": 202104
+}
+]
+},
+{
+"body": [
+"BD"
+],
+"drive": "fwd",
+"engine": "G4FJ",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 204 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201810,
+"id": "451267",
+"name": "1.6 T-GDI MT GT",
+"to": 202004
+}
+]
+},
+{
+"body": [
+"BD"
+],
+"drive": "fwd",
+"engine": "G4FJ",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 204 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201810,
+"id": "451265",
+"name": "1.6 T-GDI DCT GT",
+"to": 202004
+},
+{
+"from": 201810,
+"id": "451266",
+"name": "1.6 T-GDI DCT GT+",
+"to": 202004
+}
+]
+}
+],
+"ids": true,
+"key": "kia/k3/g_201802_17089",
+"market": "Южная Корея",
+"to": 202104
+},
+"kia/k3/g_201905_15773": {
+"from": 201905,
+"groups": [
+{
+"body": [
+"BDC"
+],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "184 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 201905,
+"id": "434174",
+"name": "EV 135 kWt Comfort Edition",
+"to": 202212
+},
+{
+"from": 201905,
+"id": "434178",
+"name": "EV 135 kWt Smart Internet Edition",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"BDC"
+],
+"drive": "fwd",
+"engine": "G4LD",
+"fuel": "бензин",
+"hp": 130,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 130 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201905,
+"id": "434142",
+"name": "1.4T DCT GT-Line Struggle Internet Edition",
+"to": 202212
+},
+{
+"from": 201905,
+"id": "434143",
+"name": "1.4T DCT GT-Line Smart Driving Sports Edition",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"BDC"
+],
+"drive": "fwd",
+"engine": "G4FL",
+"fuel": "бензин",
+"gen_key": "kia/k3/g_201905_15773",
+"hp": 115,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 115 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201905,
+"id": "434139",
+"name": "1.5 CVT Youth Edition",
+"to": 202212
+},
+{
+"from": 201905,
+"id": "434140",
+"name": "1.5 CVT Fashion Edition",
+"to": 202212
+},
+{
+"from": 201905,
+"id": "434141",
+"name": "1.5 CVT Refresh Edition",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"BDC"
+],
+"drive": "fwd",
+"engine": "G4LE",
+"fuel": "бензин",
+"hp": 105,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.6,
+"text": "1.6 л, бензин, 105 л.с., параллельный подзаряжаемый (PHEV) гибрид, 61 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201905,
+"id": "434144",
+"name": "PHEV 1.6 DCT Comfort Edition",
+"to": 202212
+},
+{
+"from": 201905,
+"id": "434173",
+"name": "PHEV 1.6 DCT Smart Sharing Internet Edition",
+"to": 202212
+}
+]
+}
+],
+"ids": true,
+"key": "kia/k3/g_201905_15773",
+"market": "Китай",
+"to": 202212
+},
+"kia/k3/g_202104_17091": {
+"from": 202104,
+"groups": [
+{
+"body": [
+"BD"
+],
+"drive": "fwd",
+"engine": "G4FM",
+"fuel": "бензин",
+"hp": 123,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 123 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202104,
+"id": "451268",
+"name": "1.6 MPi CVT Trendy",
+"to": null
+},
+{
+"from": 202104,
+"id": "451279",
+"name": "1.6 MPi CVT Prestige",
+"to": null
+},
+{
+"from": 202104,
+"id": "451281",
+"name": "1.6 MPi CVT Signature",
+"to": null
+},
+{
+"from": 202104,
+"id": "451280",
+"name": "1.6 MPi CVT Nobless",
+"to": 202209
+}
+]
+}
+],
+"ids": true,
+"key": "kia/k3/g_202104_17091",
+"market": "Южная Корея",
+"to": null
+},
+"kia/k3/g_202212_21160": {
+"from": 202212,
+"groups": [
+{
+"body": [
+"BDC"
+],
+"drive": "fwd",
+"engine": "G4LD",
+"fuel": "бензин",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 140 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202212,
+"id": "512125",
+"name": "1.4 T-GDI DCT Deluxe Edition",
+"to": null
+},
+{
+"from": 202212,
+"id": "512124",
+"name": "1.4 T-GDI DCT Premium Edition",
+"to": null
+},
+{
+"from": 202212,
+"id": "512123",
+"name": "1.4 T-GDI DCT Premium Luxury Edition",
+"to": null
+}
+]
+},
+{
+"body": [
+"BDC"
+],
+"drive": "fwd",
+"engine": "G4FL",
+"fuel": "бензин",
+"hp": 115,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 115 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202212,
+"id": "512128",
+"name": "1.5 MPi CVT Comfort Edition",
+"to": null
+},
+{
+"from": 202212,
+"id": "512127",
+"name": "1.5 MPi CVT Deluxe Edition",
+"to": null
+},
+{
+"from": 202212,
+"id": "512126",
+"name": "1.5 MPi CVT Premium Edition",
+"to": null
+},
+{
+"from": 202402,
+"id": "512130",
+"name": "1.5 MPi CVT Comfort Premium Edition",
+"to": null
+},
+{
+"from": 202402,
+"id": "512129",
+"name": "1.5 MPi CVT Luxury Smart Edition",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "kia/k3/g_202212_21160",
 "market": "Китай",
 "to": null
 },
@@ -99802,6 +100804,120 @@
 }
 },
 "trims": {
+"434139": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"190 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"115 л.с. (85 кВт) при 6300 об/мин"
+],
+[
+"Крутящий момент",
+"144 Н·м при 4500 об/мин"
+],
+[
+"Модель двигателя",
+"G4FL"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"5,4 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4660 × 1780 × 1450 мм"
+],
+[
+"Колёсная база",
+"2700 мм"
+],
+[
+"Клиренс",
+"170 мм"
+],
+[
+"Масса",
+"1230 кг"
+],
+[
+"Топливный бак",
+"53 л"
+],
+[
+"Багажник",
+"502 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/45 R17"
+],
+[
+"Радиус разворота",
+"5,3 м"
+]
+]
+]
+],
+"name": "1.5 CVT Youth Edition"
+},
 "434229": {
 "groups": [
 [
