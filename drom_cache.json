@@ -422,6 +422,10 @@
 "g_2023_25065"
 ]
 },
+"audi/r8/china": {
+"day": 739887,
+"gens": []
+},
 "audi/s4/china": {
 "day": 739885,
 "gens": []
@@ -6545,6 +6549,7 @@
 "drive": "4wd",
 "engine": "DTK",
 "fuel": "бензин",
+"gen_key": "audi/a7/g_2021_24605",
 "hp": 245,
 "hp_total": null,
 "hybrid": null,
@@ -7637,6 +7642,7 @@
 "drive": "fwd",
 "engine": "DTH, DPL",
 "fuel": "бензин",
+"gen_key": "audi/q3/g_2018_20892",
 "hp": 186,
 "hp_total": null,
 "hybrid": null,
@@ -7671,6 +7677,7 @@
 "drive": "4wd",
 "engine": "DTH, DPL, DTH",
 "fuel": "бензин",
+"gen_key": "audi/q3/g_2018_20892",
 "hp": 186,
 "hp_total": null,
 "hybrid": null,
@@ -7705,6 +7712,7 @@
 "drive": "4wd",
 "engine": "DTJ, DKX",
 "fuel": "бензин",
+"gen_key": "audi/q3/g_2018_20892",
 "hp": 220,
 "hp_total": null,
 "hybrid": null,
@@ -9835,6 +9843,7 @@
 "drive": "4wd",
 "engine": "B237R",
 "fuel": "бензин",
+"gen_key": "baic/beijing_bj40/g_2018_18654",
 "hp": 211,
 "hp_total": null,
 "hybrid": null,
@@ -9855,6 +9864,7 @@
 "drive": "4wd",
 "engine": "B237R",
 "fuel": "бензин",
+"gen_key": "baic/beijing_bj40/g_2018_18654",
 "hp": 231,
 "hp_total": null,
 "hybrid": null,
@@ -10334,6 +10344,7 @@
 "drive": "4wd",
 "engine": "B231R",
 "fuel": "бензин",
+"gen_key": "baic/beijing_bj80/g_201604_16845",
 "hp": 250,
 "hp_total": null,
 "hybrid": null,
@@ -10432,6 +10443,7 @@
 ]
 }
 ],
+"key": "baic/beijing_bj80/g_201604_16845",
 "market": "Китай",
 "to": null
 },
@@ -10443,6 +10455,7 @@
 "drive": "4wd",
 "engine": "M 276 DE 30 AL",
 "fuel": "бензин",
+"gen_key": "baic/beijing_bj90/g_2017_16844",
 "hp": 333,
 "hp_total": null,
 "hybrid": null,
@@ -25702,6 +25715,7 @@
 "drive": "fwd",
 "engine": "LI6",
 "fuel": "бензин",
+"gen_key": "buick/excelle_gt/g_2017_17279",
 "hp": 163,
 "hp_total": null,
 "hybrid": null,
@@ -28911,6 +28925,7 @@
 "drive": "fwd",
 "engine": "BYD472QC",
 "fuel": "бензин",
+"gen_key": "byd/seal_07/g_2023_21424",
 "hp": 101,
 "hp_total": 218,
 "hybrid": "параллельный подзаряжаемый (phev) гибрид",
@@ -29023,6 +29038,7 @@
 "drive": "fwd",
 "engine": "BYD472ZQB",
 "fuel": "бензин",
+"gen_key": "byd/seal_07/g_2023_21424",
 "hp": 156,
 "hp_total": 272,
 "hybrid": "параллельный подзаряжаемый (phev) гибрид",
@@ -33024,6 +33040,7 @@
 "drive": "fwd",
 "engine": "JL478QEP",
 "fuel": "бензин",
+"gen_key": "changan/cs35_plus/g_2021_21724",
 "hp": 128,
 "hp_total": null,
 "hybrid": null,
@@ -33307,6 +33324,7 @@
 "drive": "fwd",
 "engine": "JL486ZQ5",
 "fuel": "бензин",
+"gen_key": "changan/cs75_plus/g_202204_15980",
 "hp": 233,
 "hp_total": null,
 "hybrid": null,
@@ -33566,6 +33584,7 @@
 "drive": "fwd",
 "engine": "JL486ZQ5",
 "fuel": "бензин",
+"gen_key": "changan/cs75_plus/g_2023_21574",
 "hp": 233,
 "hp_total": null,
 "hybrid": null,
@@ -34285,6 +34304,7 @@
 "drive": "fwd",
 "engine": "JL469Q1",
 "fuel": "бензин",
+"gen_key": "changan/eado/g_202403_21506",
 "hp": 98,
 "hp_total": 190,
 "hybrid": "параллельный подзаряжаемый (phev) гибрид",
@@ -34305,6 +34325,7 @@
 "drive": "fwd",
 "engine": "JL469Q1",
 "fuel": "бензин",
+"gen_key": "changan/eado/g_202403_21506",
 "hp": 98,
 "hp_total": 215,
 "hybrid": "параллельный подзаряжаемый (phev) гибрид",
@@ -34331,6 +34352,7 @@
 "drive": "fwd",
 "engine": "JL473ZQA",
 "fuel": "бензин",
+"gen_key": "changan/eado/g_202403_21506",
 "hp": 168,
 "hp_total": null,
 "hybrid": null,
@@ -34697,6 +34719,7 @@
 "drive": "fwd",
 "engine": "SQRD4G15B",
 "fuel": "бензин",
+"gen_key": "chery/tiggo_3x/g_2016_19060",
 "hp": 106,
 "hp_total": null,
 "hybrid": null,
@@ -41072,6 +41095,7 @@
 "drive": "fwd",
 "engine": "GW4B15A",
 "fuel": "бензин",
+"gen_key": "haval/dargo/g_2020_23074",
 "hp": 169,
 "hp_total": null,
 "hybrid": null,
@@ -41122,6 +41146,7 @@
 "drive": "fwd",
 "engine": "GW4N20",
 "fuel": "бензин",
+"gen_key": "haval/dargo/g_2020_23074",
 "hp": 192,
 "hp_total": null,
 "hybrid": null,
@@ -41142,6 +41167,7 @@
 "drive": "4wd",
 "engine": "GW4N20",
 "fuel": "бензин",
+"gen_key": "haval/dargo/g_2020_23074",
 "hp": 192,
 "hp_total": null,
 "hybrid": null,
@@ -45978,6 +46004,7 @@
 "drive": "fwd",
 "engine": "L15B, L15B3",
 "fuel": "бензин",
+"gen_key": "honda/vezel/g_2018_19376",
 "hp": 131,
 "hp_total": null,
 "hybrid": null,
@@ -46046,6 +46073,7 @@
 "drive": "fwd",
 "engine": "L15BP",
 "fuel": "бензин",
+"gen_key": "honda/vezel/g_2018_19376",
 "hp": 177,
 "hp_total": null,
 "hybrid": null,
@@ -46626,6 +46654,7 @@
 "drive": "fwd",
 "engine": "L15B5",
 "fuel": "бензин",
+"gen_key": "honda/xr-v/g_201907_19516",
 "hp": 131,
 "hp_total": null,
 "hybrid": null,
@@ -46688,6 +46717,7 @@
 "drive": "fwd",
 "engine": "L15BS",
 "fuel": "бензин",
+"gen_key": "honda/xr-v/g_201907_19516",
 "hp": 177,
 "hp_total": null,
 "hybrid": null,
@@ -50621,6 +50651,7 @@
 "drive": "fwd",
 "engine": "DLE",
 "fuel": "бензин",
+"gen_key": "jetta/vs7/g_2019_17128",
 "hp": 150,
 "hp_total": null,
 "hybrid": null,
@@ -51320,6 +51351,7 @@
 "drive": "fwd",
 "engine": "G4FG",
 "fuel": "бензин",
+"gen_key": "kia/k3/g_201207_15771",
 "hp": 128,
 "hp_total": null,
 "hybrid": null,
@@ -51372,6 +51404,7 @@
 "drive": "fwd",
 "engine": "G4FG",
 "fuel": "бензин",
+"gen_key": "kia/k3/g_201207_15771",
 "hp": 128,
 "hp_total": null,
 "hybrid": null,
@@ -51424,6 +51457,7 @@
 "drive": "fwd",
 "engine": "G4NB",
 "fuel": "бензин",
+"gen_key": "kia/k3/g_201207_15771",
 "hp": 146,
 "hp_total": null,
 "hybrid": null,
@@ -51572,6 +51606,7 @@
 "drive": "fwd",
 "engine": "G4FG",
 "fuel": "бензин",
+"gen_key": "kia/k3/g_2014_19894",
 "hp": 128,
 "hp_total": null,
 "hybrid": null,
@@ -51600,6 +51635,7 @@
 "drive": "fwd",
 "engine": "G4FG",
 "fuel": "бензин",
+"gen_key": "kia/k3/g_2014_19894",
 "hp": 128,
 "hp_total": null,
 "hybrid": null,
@@ -51784,6 +51820,7 @@
 "drive": "fwd",
 "engine": "G4FG",
 "fuel": "бензин",
+"gen_key": "kia/k3/g_201611_15772",
 "hp": 128,
 "hp_total": null,
 "hybrid": null,
@@ -51836,6 +51873,7 @@
 "drive": "fwd",
 "engine": "G4FG",
 "fuel": "бензин",
+"gen_key": "kia/k3/g_201611_15772",
 "hp": 128,
 "hp_total": null,
 "hybrid": null,
@@ -51888,6 +51926,7 @@
 "drive": "fwd",
 "engine": "G4NB",
 "fuel": "бензин",
+"gen_key": "kia/k3/g_201611_15772",
 "hp": 146,
 "hp_total": null,
 "hybrid": null,
@@ -52070,6 +52109,7 @@
 "drive": "fwd",
 "engine": "G4LD",
 "fuel": "бензин",
+"gen_key": "kia/k3/g_201905_15773",
 "hp": 130,
 "hp_total": null,
 "hybrid": null,
@@ -52219,6 +52259,7 @@
 "drive": "fwd",
 "engine": "G4LD",
 "fuel": "бензин",
+"gen_key": "kia/k3/g_202212_21160",
 "hp": 140,
 "hp_total": null,
 "hybrid": null,
@@ -52253,6 +52294,7 @@
 "drive": "fwd",
 "engine": "G4FL",
 "fuel": "бензин",
+"gen_key": "kia/k3/g_202212_21160",
 "hp": 115,
 "hp_total": null,
 "hybrid": null,
@@ -59910,6 +59952,7 @@
 "drive": "fwd",
 "engine": "PE-VPS",
 "fuel": "бензин",
+"gen_key": "mazda/cx-4/g_2016_16073",
 "hp": 158,
 "hp_total": null,
 "hybrid": null,
@@ -59930,6 +59973,7 @@
 "drive": "4wd",
 "engine": "PY-VPS",
 "fuel": "бензин",
+"gen_key": "mazda/cx-4/g_2016_16073",
 "hp": 192,
 "hp_total": null,
 "hybrid": null,
@@ -60578,6 +60622,7 @@
 "drive": "4wd",
 "engine": "PE-VPS",
 "fuel": "бензин",
+"gen_key": "mazda/cx-5/g_2016_24510",
 "hp": 155,
 "hp_total": null,
 "hybrid": null,
@@ -60618,6 +60663,7 @@
 "drive": "fwd",
 "engine": "PY-VPS",
 "fuel": "бензин",
+"gen_key": "mazda/cx-5/g_2016_24510",
 "hp": 196,
 "hp_total": null,
 "hybrid": null,
@@ -60694,6 +60740,7 @@
 "drive": "4wd",
 "engine": "PY-VPS",
 "fuel": "бензин",
+"gen_key": "mazda/cx-5/g_2016_24510",
 "hp": 196,
 "hp_total": null,
 "hybrid": null,
@@ -61168,6 +61215,7 @@
 "drive": "fwd",
 "engine": "PY-VPS",
 "fuel": "бензин",
+"gen_key": "mazda/cx-5/g_2021_19181",
 "hp": 196,
 "hp_total": null,
 "hybrid": null,
@@ -61208,6 +61256,7 @@
 "drive": "4wd",
 "engine": "PY-VPS",
 "fuel": "бензин",
+"gen_key": "mazda/cx-5/g_2021_19181",
 "hp": 196,
 "hp_total": null,
 "hybrid": null,
@@ -61389,6 +61438,7 @@
 "drive": "fwd",
 "engine": "PY-VPS",
 "fuel": "бензин",
+"gen_key": "mazda/cx-50/g_2021_19799",
 "hp": 188,
 "hp_total": null,
 "hybrid": null,
@@ -62304,6 +62354,7 @@
 "drive": "fwd",
 "engine": "PY-VPS",
 "fuel": "бензин",
+"gen_key": "mazda/cx-8/g_2018_21486",
 "hp": 192,
 "hp_total": null,
 "hybrid": null,
@@ -68368,6 +68419,7 @@
 "drive": "4wd",
 "engine": "M264.920",
 "fuel": "бензин",
+"gen_key": "mercedes-benz/g-class/g_2018_22392",
 "hp": 258,
 "hp_total": null,
 "hybrid": null,
@@ -72077,6 +72129,7 @@
 "drive": "fwd",
 "engine": "15C4E",
 "fuel": "бензин",
+"gen_key": "mg/6/g_202007_17413",
 "hp": 181,
 "hp_total": null,
 "hybrid": null,
@@ -72584,6 +72637,7 @@
 "drive": "fwd",
 "engine": "4B11",
 "fuel": "бензин",
+"gen_key": "mitsubishi/asx/g_2012_23779",
 "hp": 167,
 "hp_total": null,
 "hybrid": null,
@@ -72628,6 +72682,7 @@
 "drive": "4wd",
 "engine": "4B11",
 "fuel": "бензин",
+"gen_key": "mitsubishi/asx/g_2012_23779",
 "hp": 167,
 "hp_total": null,
 "hybrid": null,
@@ -72774,6 +72829,7 @@
 "drive": "fwd",
 "engine": "4B11",
 "fuel": "бензин",
+"gen_key": "mitsubishi/asx/g_2016_23778",
 "hp": 167,
 "hp_total": null,
 "hybrid": null,
@@ -78074,6 +78130,353 @@
 "market": "Китай",
 "to": null
 },
+"nissan/x-trail/g_201007_1007": {
+"from": 201007,
+"groups": [
+{
+"body": [
+"T31"
+],
+"drive": "4wd",
+"engine": "MR20DE",
+"fuel": "бензин",
+"hp": 141,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 141 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201012,
+"id": "66967",
+"name": "2.0 MT XE, -----",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "66968",
+"name": "2.0 MT SE, --B--",
+"to": 201212
+},
+{
+"from": 201212,
+"id": "71624",
+"name": "2.0 MT XE",
+"to": 201501
+},
+{
+"from": 201212,
+"id": "71625",
+"name": "2.0 MT SE Mid",
+"to": 201501
+},
+{
+"from": 201401,
+"id": "74734",
+"name": "2.0 MT SE Base",
+"to": 201501
+}
+]
+},
+{
+"body": [
+"T31"
+],
+"drive": "4wd",
+"engine": "MR20DE",
+"fuel": "бензин",
+"hp": 141,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 141 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201012,
+"id": "66966",
+"name": "2.0 CVT XE, -----",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "66964",
+"name": "2.0 CVT SE, --B--",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "66965",
+"name": "2.0 CVT SE, --F--",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "66963",
+"name": "2.0 CVT LE, -----",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "66962",
+"name": "2.0 CVT LE, ---C-",
+"to": 201212
+},
+{
+"from": 201212,
+"id": "71630",
+"name": "2.0 CVT XE",
+"to": 201501
+},
+{
+"from": 201212,
+"id": "71631",
+"name": "2.0 CVT SE Mid",
+"to": 201501
+},
+{
+"from": 201212,
+"id": "71633",
+"name": "2.0 CVT LE Base",
+"to": 201501
+},
+{
+"from": 201212,
+"id": "71634",
+"name": "2.0 CVT LE High",
+"to": 201501
+},
+{
+"from": 201401,
+"id": "74735",
+"name": "2.0 CVT SE Base",
+"to": 201501
+},
+{
+"from": 201401,
+"id": "71632",
+"name": "2.0 CVT SE High",
+"to": 201501
+},
+{
+"from": 201212,
+"id": "71643",
+"name": "2.0 CVT LE Platinum",
+"to": 201408
+}
+]
+},
+{
+"body": [
+"T31"
+],
+"drive": "4wd",
+"engine": "M9R",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201012,
+"id": "66961",
+"name": "2.0D MT SE, -----",
+"to": 201212
+},
+{
+"from": 201212,
+"id": "71626",
+"name": "2.0D MT SE Base",
+"to": 201501
+}
+]
+},
+{
+"body": [
+"T31"
+],
+"drive": "4wd",
+"engine": "M9R",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201012,
+"id": "66960",
+"name": "2.0D AT SE, -----",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "66959",
+"name": "2.0D AT SE, -BC-A",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "66958",
+"name": "2.0D AT LE, ---E-",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "66957",
+"name": "2.0D AT LE, --D--",
+"to": 201212
+},
+{
+"from": 201212,
+"id": "71627",
+"name": "2.0D AT SE Mid",
+"to": 201501
+},
+{
+"from": 201212,
+"id": "71629",
+"name": "2.0D AT LE High",
+"to": 201501
+},
+{
+"from": 201212,
+"id": "71628",
+"name": "2.0D AT LE",
+"to": 201312
+}
+]
+},
+{
+"body": [
+"T31"
+],
+"drive": "4wd",
+"engine": "QR25DE",
+"fuel": "бензин",
+"hp": 169,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 169 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201012,
+"id": "66954",
+"name": "2.5, CVT, SE, --DD-",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "66955",
+"name": "2.5, CVT, SE, -----",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "66952",
+"name": "2.5, CVT, SE, --D--",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "66953",
+"name": "2.5, CVT, SE, ---D-",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "66950",
+"name": "2.5, CVT, LE, ---E-",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "63775",
+"name": "2.5, CVT, LE, ---D-",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "66949",
+"name": "2.5, CVT, LE, -----",
+"to": 201212
+},
+{
+"from": 201012,
+"id": "67493",
+"name": "2.5, CVT, LE, --DE-",
+"to": 201212
+},
+{
+"from": 201212,
+"id": "71635",
+"name": "2.5 CVT SE Base",
+"to": 201501
+},
+{
+"from": 201212,
+"id": "71637",
+"name": "2.5 CVT SE High",
+"to": 201501
+},
+{
+"from": 201212,
+"id": "71640",
+"name": "2.5 CVT LE Base",
+"to": 201501
+},
+{
+"from": 201212,
+"id": "71642",
+"name": "2.5 CVT LE High",
+"to": 201501
+},
+{
+"from": 201211,
+"id": "71636",
+"name": "2.5 CVT SE Mid",
+"to": 201501
+},
+{
+"from": 201212,
+"id": "71638",
+"name": "2.5 CVT SE",
+"to": 201312
+},
+{
+"from": 201212,
+"id": "71639",
+"name": "2.5 CVT LE",
+"to": 201312
+},
+{
+"from": 201212,
+"id": "71639",
+"name": "2.5 CVT LE",
+"to": 201312
+},
+{
+"from": 201212,
+"id": "71644",
+"name": "2.5 CVT LE Platinum",
+"to": 201408
+}
+]
+}
+],
+"ids": true,
+"key": "nissan/x-trail/g_201007_1007",
+"market": "Россия",
+"to": 201501
+},
 "nissan/x-trail/g_201312_2893": {
 "from": 201309,
 "groups": [
@@ -78841,6 +79244,7 @@
 "drive": "4wd",
 "engine": "QR25DE",
 "fuel": "бензин",
+"gen_key": "nissan/x-trail/g_2016_20262",
 "hp": 186,
 "hp_total": null,
 "hybrid": null,
@@ -79532,6 +79936,7 @@
 "drive": "fwd",
 "engine": "KR15DDT",
 "fuel": "бензин",
+"gen_key": "nissan/x-trail/g_2021_13210",
 "hp": 204,
 "hp_total": null,
 "hybrid": null,
@@ -79572,6 +79977,7 @@
 "drive": "4wd",
 "engine": "KR15DDT",
 "fuel": "бензин",
+"gen_key": "nissan/x-trail/g_2021_13210",
 "hp": 204,
 "hp_total": null,
 "hybrid": null,
@@ -86419,6 +86825,7 @@
 "drive": "fwd",
 "engine": "M15A-FKS",
 "fuel": "бензин",
+"gen_key": "toyota/corolla/g_2020_23220",
 "hp": 121,
 "hp_total": null,
 "hybrid": null,
@@ -96368,6 +96775,7 @@
 "drive": "fwd",
 "engine": "GW4C20A",
 "fuel": "бензин",
+"gen_key": "wey/vv7/g_2017_19048",
 "hp": 234,
 "hp_total": null,
 "hybrid": null,
@@ -96408,6 +96816,7 @@
 ]
 }
 ],
+"key": "wey/vv7/g_2017_19048",
 "market": "Китай",
 "to": 201911
 },
