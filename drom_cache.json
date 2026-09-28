@@ -493,6 +493,10 @@
 "g_2017_16844"
 ]
 },
+"baic/x35/china": {
+"day": 739887,
+"gens": []
+},
 "baojun/rc-6/china": {
 "day": 739885,
 "gens": [
@@ -1000,6 +1004,13 @@
 "g_202310_21838"
 ]
 },
+"chery/e5/china": {
+"day": 739887,
+"gens": [
+"g_201104_12491",
+"g_201407_12492"
+]
+},
 "chery/tiggo_3x/china": {
 "day": 739885,
 "gens": [
@@ -1056,6 +1067,10 @@
 "g_2016_20123",
 "g_2016_20125"
 ]
+},
+"chevrolet/malibu/china": {
+"day": 739887,
+"gens": []
 },
 "chevrolet/suburban/china": {
 "day": 739884,
@@ -1210,9 +1225,40 @@
 "day": 739884,
 "gens": []
 },
+"ford/focus/china": {
+"day": 739887,
+"gens": [
+"g_199807_5171",
+"g_200110_5172",
+"g_200408_5082",
+"g_200802_1459",
+"g_201001_8498",
+"g_201402_4043",
+"g_201805_8321",
+"g_2018_23325",
+"g_202110_14286",
+"g_2022_23272",
+"g_2022_23273"
+]
+},
 "ford/gt/china": {
 "day": 739885,
 "gens": []
+},
+"ford/mondeo/china": {
+"day": 739887,
+"gens": [
+"g_199309_6298",
+"g_199609_5252",
+"g_200009_5244",
+"g_200306_5237",
+"g_200709_5204",
+"g_201009_1468",
+"g_201408_2263",
+"g_201902_15386",
+"g_202204_18774",
+"g_2025_24501"
+]
 },
 "ford/mustang/china": {
 "day": 739885,
@@ -1280,6 +1326,10 @@
 "gens": [
 "g_2019_18734"
 ]
+},
+"haima/m3/china": {
+"day": 739887,
+"gens": []
 },
 "haval/dargo/china": {
 "day": 739884,
@@ -1543,6 +1593,10 @@
 },
 "infiniti/qx80/china": {
 "day": 739884,
+"gens": []
+},
+"jac/s3/china": {
+"day": 739887,
 "gens": []
 },
 "jaguar/xj/china": {
@@ -1944,6 +1998,10 @@
 "day": 739884,
 "gens": []
 },
+"mazda/rx-7/china": {
+"day": 739887,
+"gens": []
+},
 "mclaren/artura/china": {
 "day": 739885,
 "gens": []
@@ -2000,6 +2058,13 @@
 "g_2021_19448",
 "g_202310_23650",
 "g_2023_23673"
+]
+},
+"mercedes-benz/eqc/china": {
+"day": 739887,
+"gens": [
+"g_2018_18411",
+"g_201907_10512"
 ]
 },
 "mercedes-benz/eqe/china": {
@@ -2261,6 +2326,20 @@
 "g_201704_7565",
 "g_202107_14654",
 "g_2021_13210"
+]
+},
+"peugeot/408/china": {
+"day": 739887,
+"gens": []
+},
+"peugeot/508/china": {
+"day": 739887,
+"gens": [
+"g_201010_4896",
+"g_201408_1671",
+"g_201803_8206",
+"g_202302_21809",
+"g_2023_22040"
 ]
 },
 "porsche/911/china": {
@@ -35087,6 +35166,142 @@
 "market": "Китай",
 "to": 202407
 },
+"chery/e5/g_201104_12491": {
+"from": 201104,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQR477F",
+"fuel": "бензин",
+"gen_key": "chery/e5/g_201104_12491",
+"hp": 109,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 109 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201104,
+"id": "446860",
+"name": "1.5 MT Excellent",
+"to": 201406
+},
+{
+"from": 201104,
+"id": "446861",
+"name": "1.5 MT Zhiyue",
+"to": 201406
+},
+{
+"from": 201104,
+"id": "446862",
+"name": "1.5 MT Bonjour",
+"to": 201406
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQR481FC",
+"fuel": "бензин",
+"hp": 132,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 132 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201104,
+"id": "446863",
+"name": "1.8 CVT Excellent",
+"to": 201406
+},
+{
+"from": 201104,
+"id": "446864",
+"name": "1.8 CVT Bonjour",
+"to": 201406
+}
+]
+}
+],
+"ids": true,
+"key": "chery/e5/g_201104_12491",
+"market": "Китай",
+"to": 201406
+},
+"chery/e5/g_201407_12492": {
+"from": 201407,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQR477F",
+"fuel": "бензин",
+"gen_key": "chery/e5/g_201407_12492",
+"hp": 109,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 109 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201407,
+"id": "446865",
+"name": "1.5 MT Excellent",
+"to": 201610
+},
+{
+"from": 201407,
+"id": "446866",
+"name": "1.5 MT Zhiyue",
+"to": 201610
+},
+{
+"from": 201407,
+"id": "446867",
+"name": "1.5 MT Bonjour",
+"to": 201610
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQR481FC",
+"fuel": "бензин",
+"hp": 132,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 132 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201407,
+"id": "446868",
+"name": "1.8 CVT Excellent",
+"to": 201610
+},
+{
+"from": 201407,
+"id": "446869",
+"name": "1.8 CVT Bonjour",
+"to": 201610
+}
+]
+}
+],
+"ids": true,
+"key": "chery/e5/g_201407_12492",
+"market": "Китай",
+"to": 201610
+},
 "chery/tiggo_3x/g_2016_19060": {
 "from": 201604,
 "groups": [
@@ -36384,6 +36599,7 @@
 "drive": "fwd",
 "engine": "SQRE4T15B",
 "fuel": "бензин",
+"gen_key": "chery/tiggo_7/g_2016_21797",
 "hp": 147,
 "hp_total": null,
 "hybrid": null,
@@ -36566,6 +36782,7 @@
 "drive": "fwd",
 "engine": "SQRD4G20",
 "fuel": "бензин",
+"gen_key": "chery/tiggo_7/g_2016_21797",
 "hp": 122,
 "hp_total": null,
 "hybrid": null,
@@ -40795,6 +41012,2241 @@
 "key": "ford/edge/g_2023_19715",
 "market": "Китай",
 "to": null
+},
+"ford/focus/g_200110_5172": {
+"from": 200110,
+"groups": [
+{
+"body": [
+"DFW"
+],
+"drive": "fwd",
+"engine": "FYDA, FYDB, FYDC, FYDD, FYDH",
+"fuel": "бензин",
+"hp": 100,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 100 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200208,
+"id": "156622",
+"name": "1.6 MT",
+"to": 200503
+}
+]
+},
+{
+"body": [
+"DFW"
+],
+"drive": "fwd",
+"engine": "FYDA, FYDB, FYDC, FYDD, FYDH",
+"fuel": "бензин",
+"hp": 100,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 100 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200208,
+"id": "156623",
+"name": "1.6 AT",
+"to": 200503
+}
+]
+},
+{
+"body": [
+"DFW"
+],
+"drive": "fwd",
+"engine": "EYDB, EYDC, EYDD, EYDE, EYDF, EYDG, EYDI, EYDJ, EYDK, EYDL",
+"fuel": "бензин",
+"hp": 115,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 115 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200208,
+"id": "156624",
+"name": "1.8 MT",
+"to": 200503
+}
+]
+},
+{
+"body": [
+"DFW"
+],
+"drive": "fwd",
+"engine": "EYDB, EYDC, EYDD, EYDE, EYDF, EYDG, EYDI, EYDJ, EYDK, EYDL",
+"fuel": "бензин",
+"hp": 115,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 115 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200208,
+"id": "156625",
+"name": "1.8 AT",
+"to": 200503
+}
+]
+},
+{
+"body": [
+"DFW"
+],
+"drive": "fwd",
+"engine": "EDDB, EDDC, EDDD, EDDF",
+"fuel": "бензин",
+"hp": 130,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 130 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200208,
+"id": "156629",
+"name": "2.0 AT",
+"to": 200503
+}
+]
+}
+],
+"ids": true,
+"key": "ford/focus/g_200110_5172",
+"market": "Россия",
+"to": 200503
+},
+"ford/focus/g_200408_5082": {
+"from": 200408,
+"groups": [
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "ASDA, ASDB",
+"fuel": "бензин",
+"hp": 80,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 80 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200504,
+"id": "148657",
+"name": "1.4 MT Ambiente",
+"to": 200801
+},
+{
+"from": 200504,
+"id": "149344",
+"name": "1.4 MT Comfort",
+"to": 200801
+}
+]
+},
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "SHDC, HWDA, HWDB, SHDA, SHDB",
+"fuel": "бензин",
+"hp": 100,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 100 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200504,
+"id": "148671",
+"name": "1.6 MT Comfort",
+"to": 200801
+}
+]
+},
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "SHDC, HWDA, HWDB, SHDA, SHDB",
+"fuel": "бензин",
+"hp": 100,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 100 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200504,
+"id": "149444",
+"name": "1.6 AT Comfort",
+"to": 200801
+},
+{
+"from": 200504,
+"id": "149446",
+"name": "1.6 AT Trend",
+"to": 200801
+},
+{
+"from": 200504,
+"id": "149457",
+"name": "1.6 AT Ghia",
+"to": 200801
+}
+]
+},
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "HXDA, HXDB, SIDA",
+"fuel": "бензин",
+"hp": 115,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 115 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200504,
+"id": "148671",
+"name": "1.6 MT Comfort",
+"to": 200801
+},
+{
+"from": 200504,
+"id": "149482",
+"name": "1.6 MT Trend",
+"to": 200801
+},
+{
+"from": 200504,
+"id": "149483",
+"name": "1.6 MT Ghia",
+"to": 200801
+}
+]
+},
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "KKDA, KKDB",
+"fuel": "дизель",
+"hp": 115,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 115 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200504,
+"id": "149640",
+"name": "1.8 TDCi MT Comfort",
+"to": 200801
+}
+]
+},
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "QQDB",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 125 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200504,
+"id": "149487",
+"name": "1.8 MT Comfort",
+"to": 200801
+},
+{
+"from": 200504,
+"id": "149488",
+"name": "1.8 MT Trend",
+"to": 200801
+},
+{
+"from": 200504,
+"id": "149489",
+"name": "1.8 MT Ghia",
+"to": 200801
+}
+]
+},
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "AODE; SYDA; AODA; AODB",
+"fuel": "бензин",
+"hp": 145,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 145 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200504,
+"id": "149613",
+"name": "2.0 MT Trend",
+"to": 200801
+},
+{
+"from": 200504,
+"id": "149614",
+"name": "2.0 MT Ghia",
+"to": 200801
+}
+]
+},
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "AODE; SYDA; AODA; AODB",
+"fuel": "бензин",
+"hp": 145,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 145 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200504,
+"id": "149639",
+"name": "2.0 AT Trend",
+"to": 200801
+},
+{
+"from": 200504,
+"id": "149638",
+"name": "2.0 AT Ghia",
+"to": 200801
+}
+]
+}
+],
+"ids": true,
+"key": "ford/focus/g_200408_5082",
+"market": "Россия",
+"to": 200801
+},
+"ford/focus/g_200802_1459": {
+"from": 200709,
+"groups": [
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "ASDA, ASDB",
+"fuel": "бензин",
+"hp": 80,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 80 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200802,
+"id": "64433",
+"name": "1.4 MT Comfort",
+"to": 201106
+}
+]
+},
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "SHDC, HWDA, HWDB, SHDA, SHDB",
+"fuel": "бензин",
+"hp": 100,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 100 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200802,
+"id": "64456",
+"name": "1.6 MT Comfort",
+"to": 201106
+}
+]
+},
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "SHDC, HWDA, HWDB, SHDA, SHDB",
+"fuel": "бензин",
+"hp": 100,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 100 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200802,
+"id": "64457",
+"name": "1.6 AT Comfort",
+"to": 201106
+}
+]
+},
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "SIDA",
+"fuel": "бензин",
+"hp": 115,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 115 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200802,
+"id": "64470",
+"name": "1.6 Ti-VCT MT Comfort",
+"to": 201106
+}
+]
+},
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "KKDA, KKDB",
+"fuel": "дизель",
+"hp": 115,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 115 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200802,
+"id": "64459",
+"name": "1.8 TDCi MT Comfort",
+"to": 201106
+}
+]
+},
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "QQDB",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 125 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200802,
+"id": "64458",
+"name": "1.8 MT Comfort",
+"to": 201106
+}
+]
+},
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "AODE; SYDA; AODA; AODB",
+"fuel": "бензин",
+"hp": 145,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 145 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200802,
+"id": "64460",
+"name": "2.0 MT Comfort",
+"to": 201106
+}
+]
+},
+{
+"body": [
+"CB4"
+],
+"drive": "fwd",
+"engine": "AODE; SYDA; AODA; AODB",
+"fuel": "бензин",
+"hp": 145,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 145 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200802,
+"id": "64461",
+"name": "2.0 AT Comfort",
+"to": 201106
+}
+]
+}
+],
+"ids": true,
+"key": "ford/focus/g_200802_1459",
+"market": "Россия",
+"to": 201106
+},
+"ford/focus/g_201001_8498": {
+"from": 201001,
+"groups": [
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "M2DA",
+"fuel": "бензин",
+"hp": 100,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.0,
+"text": "1.0 л, 100 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201001,
+"id": "215979",
+"name": "1.0 EcoBoost MT Ambiente",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215980",
+"name": "1.0 EcoBoost MT Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216072",
+"name": "1.0 EcoBoost 99g MT Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215981",
+"name": "1.0 EcoBoost MT SYNC Edition",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216073",
+"name": "1.0 EcoBoost 99g MT SYNC Edition",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215982",
+"name": "1.0 EcoBoost MT Titanium",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216074",
+"name": "1.0 EcoBoost 99g MT Titanium",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "M1DA",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.0,
+"text": "1.0 л, 125 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201001,
+"id": "215980",
+"name": "1.0 EcoBoost MT Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215981",
+"name": "1.0 EcoBoost MT SYNC Edition",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215982",
+"name": "1.0 EcoBoost MT Titanium",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "XTDA",
+"fuel": "бензин",
+"hp": 85,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 85 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201001,
+"id": "215983",
+"name": "1.6 Ti-VCT MT Ambiente",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215984",
+"name": "1.6 Ti-VCT MT Trend",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "T3DA; T3DB",
+"fuel": "дизель",
+"hp": 95,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 95 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201001,
+"id": "216016",
+"name": "1.6 TDCi MT Ambiente",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216020",
+"name": "1.6 TDCi MT Start-Stop Ambiente",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216017",
+"name": "1.6 TDCi MT Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216021",
+"name": "1.6 TDCi MT Start-Stop Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216018",
+"name": "1.6 TDCi MT SYNC Edition",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215995",
+"name": "1.6 TDCi MT Start-Stop SYNC Edition",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216019",
+"name": "1.6 TDCi MT Titanium",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215996",
+"name": "1.6 TDCi MT Start-Stop Titanium",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "NGDA; NGDB",
+"fuel": "дизель",
+"hp": 105,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 105 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201001,
+"id": "215997",
+"name": "1.6 TDCi ECOnetic 99g MT Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216001",
+"name": "1.6 TDCi ECOnetic 88g MT Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215998",
+"name": "1.6 TDCi ECOnetic 99g MT SYNC Edition",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216000",
+"name": "1.6 TDCi ECOnetic 99g MT Titanium",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216002",
+"name": "1.6 TDCi ECOnetic 88g MT Titanium",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "T1DA; T1DB",
+"fuel": "дизель",
+"hp": 115,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 115 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201001,
+"id": "216017",
+"name": "1.6 TDCi MT Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216021",
+"name": "1.6 TDCi MT Start-Stop Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216018",
+"name": "1.6 TDCi MT SYNC Edition",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215995",
+"name": "1.6 TDCi MT Start-Stop SYNC Edition",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216019",
+"name": "1.6 TDCi MT Titanium",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215996",
+"name": "1.6 TDCi MT Start-Stop Titanium",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "MUDA",
+"fuel": "газ/бензин",
+"hp": 117,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 117 л.с., газ/бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201001,
+"id": "216022",
+"name": "1.6 LPG MT Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216023",
+"name": "1.6 LPG MT Titanium",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "PNDA",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 125 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201001,
+"id": "216024",
+"name": "1.6 Ti-VCT DSG Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216025",
+"name": "1.6 Ti-VCT DSG SYNC Edition",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216026",
+"name": "1.6 Ti-VCT DSG Titanium",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "JQDA; JQDB; YUDA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 150 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201001,
+"id": "215991",
+"name": "1.6 Flexifuel MT Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215988",
+"name": "1.6 EcoBoost MT Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215992",
+"name": "1.6 Flexifuel MT SYNC Edition",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215989",
+"name": "1.6 EcoBoost MT SYNC Edition",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215993",
+"name": "1.6 Flexifuel MT Titanium",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "215990",
+"name": "1.6 EcoBoost MT Titanium",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "JTDA; JTDB",
+"fuel": "бензин",
+"hp": 182,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 182 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201001,
+"id": "215990",
+"name": "1.6 EcoBoost MT Titanium",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "TYDA",
+"fuel": "дизель",
+"hp": 115,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 115 л.с., дизель, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201001,
+"id": "216009",
+"name": "2.0 TDCi DSG Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216010",
+"name": "2.0 TDCi DSG SYNC Edition",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216011",
+"name": "2.0 TDCi DSG Titanium",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "UFDB",
+"fuel": "дизель",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 140 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201001,
+"id": "216012",
+"name": "2.0 TDCi MT Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216013",
+"name": "2.0 TDCi MT SYNC Edition",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216014",
+"name": "2.0 TDCi MT Titanium",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "UFDB",
+"fuel": "дизель",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 140 л.с., дизель, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201001,
+"id": "216009",
+"name": "2.0 TDCi DSG Trend",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216010",
+"name": "2.0 TDCi DSG SYNC Edition",
+"to": 201506
+},
+{
+"from": 201001,
+"id": "216011",
+"name": "2.0 TDCi DSG Titanium",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "TXDB",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201001,
+"id": "216014",
+"name": "2.0 TDCi MT Titanium",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"BK"
+],
+"drive": "fwd",
+"engine": "TXDB",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201001,
+"id": "216011",
+"name": "2.0 TDCi DSG Titanium",
+"to": 201506
+}
+]
+}
+],
+"ids": true,
+"key": "ford/focus/g_201001_8498",
+"market": "Европа",
+"to": 201506
+},
+"ford/focus/g_201402_4043": {
+"from": 201403,
+"groups": [
+{
+"body": [
+"CB8"
+],
+"drive": "fwd",
+"engine": "M8DA, M8DB",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 150 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201507,
+"id": "92467",
+"name": "1.5 AT Titanium",
+"to": 201910
+}
+]
+},
+{
+"body": [
+"CB8"
+],
+"drive": "fwd",
+"engine": "XTDA",
+"fuel": "бензин",
+"hp": 85,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 85 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201507,
+"id": "92471",
+"name": "1.6 MT Ambiente",
+"to": 201812
+}
+]
+},
+{
+"body": [
+"CB8"
+],
+"drive": "fwd",
+"engine": "IQDA; IQDB",
+"fuel": "бензин",
+"hp": 105,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 105 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201507,
+"id": "92464",
+"name": "1.6 MT SYNC Edition",
+"to": 201805
+},
+{
+"from": 201807,
+"id": "208327",
+"name": "1.6 MT Trend",
+"to": 201910
+}
+]
+},
+{
+"body": [
+"CB8"
+],
+"drive": "fwd",
+"engine": "IQDA; IQDB",
+"fuel": "бензин",
+"hp": 105,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 105 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201507,
+"id": "92468",
+"name": "1.6 PowerShift SYNC Edition",
+"to": 201805
+},
+{
+"from": 201807,
+"id": "208328",
+"name": "1.6 PowerShift Trend",
+"to": 201910
+}
+]
+},
+{
+"body": [
+"CB8"
+],
+"drive": "fwd",
+"engine": "PNDA",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 125 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201507,
+"id": "92464",
+"name": "1.6 MT SYNC Edition",
+"to": 201806
+},
+{
+"from": 201507,
+"id": "92466",
+"name": "1.6 MT Titanium",
+"to": 201910
+},
+{
+"from": 201703,
+"id": "178883",
+"name": "1.6 MT White and Black",
+"to": 201910
+},
+{
+"from": 201807,
+"id": "208966",
+"name": "1.6 MT Special Edition",
+"to": 201901
+},
+{
+"from": 201903,
+"id": "238560",
+"name": "1.6 MT Trend Plus",
+"to": 201910
+},
+{
+"from": 201903,
+"id": "238562",
+"name": "1.6 MT Ultra Comfort",
+"to": 201910
+}
+]
+},
+{
+"body": [
+"CB8"
+],
+"drive": "fwd",
+"engine": "PNDA",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 125 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201507,
+"id": "92468",
+"name": "1.6 PowerShift SYNC Edition",
+"to": 201806
+},
+{
+"from": 201507,
+"id": "92470",
+"name": "1.6 PowerShift Titanium",
+"to": 201910
+},
+{
+"from": 201703,
+"id": "178882",
+"name": "1.6 PowerShift White and Black",
+"to": 201910
+},
+{
+"from": 201807,
+"id": "208967",
+"name": "1.6 PowerShift Special Edition",
+"to": 201901
+},
+{
+"from": 201903,
+"id": "238561",
+"name": "1.6 PowerShift Trend Plus",
+"to": 201910
+},
+{
+"from": 201903,
+"id": "238563",
+"name": "1.6 PowerShift Ultra Comfort",
+"to": 201910
+}
+]
+}
+],
+"ids": true,
+"key": "ford/focus/g_201402_4043",
+"market": "Россия",
+"to": 201910
+},
+"ford/mondeo/g_200306_5237": {
+"from": 200306,
+"groups": [
+{
+"body": [
+"B4Y"
+],
+"drive": "fwd",
+"engine": "CHBA, CHBB",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 125 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200401,
+"id": "162267",
+"name": "1.8 MT Core",
+"to": 200708
+}
+]
+},
+{
+"body": [
+"B4Y"
+],
+"drive": "fwd",
+"engine": "FMBA, N7BA",
+"fuel": "дизель",
+"hp": 130,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 130 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200401,
+"id": "162274",
+"name": "2.0TD MT Trend",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162279",
+"name": "2.0TD MT Titanium",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162285",
+"name": "2.0TD MT Titanium X",
+"to": 200708
+}
+]
+},
+{
+"body": [
+"B4Y"
+],
+"drive": "fwd",
+"engine": "CJBA, CJBB",
+"fuel": "бензин",
+"hp": 145,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 145 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200401,
+"id": "162270",
+"name": "2.0 MT Core",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162272",
+"name": "2.0 MT Trend",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162280",
+"name": "2.0 MT Titanium",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162603",
+"name": "2.0 MT Ghia",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162288",
+"name": "2.0 MT Titanium X",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162611",
+"name": "2.0 MT Ghia X",
+"to": 200708
+}
+]
+},
+{
+"body": [
+"B4Y"
+],
+"drive": "fwd",
+"engine": "CJBA, CJBB",
+"fuel": "бензин",
+"hp": 145,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 145 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200401,
+"id": "162271",
+"name": "2.0 AT Core",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162273",
+"name": "2.0 AT Trend",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162604",
+"name": "2.0 AT Ghia",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162278",
+"name": "2.0 AT Titanium",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162287",
+"name": "2.0 AT Titanium X",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162607",
+"name": "2.0 AT Ghia X",
+"to": 200708
+}
+]
+},
+{
+"body": [
+"B4Y"
+],
+"drive": "fwd",
+"engine": "QJBA, QJBB",
+"fuel": "дизель",
+"hp": 155,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.2,
+"text": "2.2 л, 155 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200401,
+"id": "162606",
+"name": "2.2TD MT Ghia",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162609",
+"name": "2.2TD MT Ghia X",
+"to": 200708
+}
+]
+},
+{
+"body": [
+"B4Y"
+],
+"drive": "fwd",
+"engine": "LCBD",
+"fuel": "бензин",
+"hp": 170,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 170 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200401,
+"id": "162275",
+"name": "2.5 MT Trend",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162281",
+"name": "2.5 MT Titanium",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162602",
+"name": "2.5 MT Ghia",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162612",
+"name": "2.5 MT Ghia X",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162283",
+"name": "2.5 MT Titanium X",
+"to": 200708
+}
+]
+},
+{
+"body": [
+"B4Y"
+],
+"drive": "fwd",
+"engine": "LCBD",
+"fuel": "бензин",
+"hp": 170,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 170 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200401,
+"id": "162276",
+"name": "2.5 AT Trend",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162601",
+"name": "2.5 AT Ghia",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162277",
+"name": "2.5 AT Titanium",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162286",
+"name": "2.5 AT Titanium X",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162608",
+"name": "2.5 AT Ghia X",
+"to": 200708
+}
+]
+},
+{
+"body": [
+"B4Y"
+],
+"drive": "fwd",
+"engine": "REBA",
+"fuel": "бензин",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 204 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200401,
+"id": "162282",
+"name": "3.0 MT Titanium",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162605",
+"name": "3.0 MT Ghia",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162284",
+"name": "3.0 MT Titanium X",
+"to": 200708
+},
+{
+"from": 200401,
+"id": "162610",
+"name": "3.0 MT Ghia X",
+"to": 200708
+}
+]
+},
+{
+"body": [
+"B4Y"
+],
+"drive": "fwd",
+"engine": "MEBA",
+"fuel": "бензин",
+"hp": 226,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 226 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200401,
+"id": "162289",
+"name": "3.0 MT ST220",
+"to": 200708
+}
+]
+}
+],
+"ids": true,
+"key": "ford/mondeo/g_200306_5237",
+"market": "Россия",
+"to": 200708
+},
+"ford/mondeo/g_200709_5204": {
+"from": 200709,
+"groups": [
+{
+"body": [
+"BG"
+],
+"drive": "fwd",
+"engine": "UFBA, QXBA, QXBB",
+"fuel": "дизель",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 140 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200709,
+"id": "162239",
+"name": "2.0TD MT Trend",
+"to": 201008
+},
+{
+"from": 200709,
+"id": "162249",
+"name": "2.0TD MT Titanium X",
+"to": 201008
+},
+{
+"from": 200709,
+"id": "162243",
+"name": "2.0TD MT Ghia X",
+"to": 201008
+}
+]
+},
+{
+"body": [
+"BG"
+],
+"drive": "fwd",
+"engine": "UFBA, QXBA, QXBB",
+"fuel": "дизель",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 140 л.с., дизель, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200709,
+"id": "162247",
+"name": "2.0TD AT Titanium X",
+"to": 201008
+},
+{
+"from": 200709,
+"id": "162242",
+"name": "2.0TD AT Ghia X",
+"to": 201008
+}
+]
+},
+{
+"body": [
+"BG"
+],
+"drive": "fwd",
+"engine": "AOBC, AOBA, TBBA",
+"fuel": "бензин",
+"hp": 145,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 145 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200709,
+"id": "162237",
+"name": "2.0 MT Ambiente",
+"to": 201008
+},
+{
+"from": 200709,
+"id": "162240",
+"name": "2.0 MT Trend",
+"to": 201008
+}
+]
+},
+{
+"body": [
+"BG"
+],
+"drive": "fwd",
+"engine": "Q4BA",
+"fuel": "дизель",
+"hp": 175,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.2,
+"text": "2.2 л, 175 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200709,
+"id": "162251",
+"name": "2.2TD MT Sport",
+"to": 201008
+},
+{
+"from": 200709,
+"id": "162248",
+"name": "2.2TD MT Titanium X",
+"to": 201008
+}
+]
+},
+{
+"body": [
+"BG"
+],
+"drive": "fwd",
+"engine": "SEBA",
+"fuel": "бензин",
+"hp": 161,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 161 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200709,
+"id": "162238",
+"name": "2.3 AT Ambiente",
+"to": 201008
+},
+{
+"from": 200709,
+"id": "162241",
+"name": "2.3 AT Trend",
+"to": 201008
+},
+{
+"from": 200709,
+"id": "162245",
+"name": "2.3 AT Titanium X",
+"to": 201008
+},
+{
+"from": 200709,
+"id": "162244",
+"name": "2.3 AT Ghia X",
+"to": 201008
+}
+]
+},
+{
+"body": [
+"BG"
+],
+"drive": "fwd",
+"engine": "HUBA",
+"fuel": "бензин",
+"hp": 220,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 220 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200709,
+"id": "162250",
+"name": "2.5T MT Sport",
+"to": 201008
+},
+{
+"from": 200709,
+"id": "162246",
+"name": "2.5T MT Titanium X",
+"to": 201008
+}
+]
+}
+],
+"ids": true,
+"key": "ford/mondeo/g_200709_5204",
+"market": "Россия",
+"to": 201008
+},
+"ford/mondeo/g_201009_1468": {
+"from": 201009,
+"groups": [
+{
+"body": [
+"BD"
+],
+"drive": "fwd",
+"engine": "KGBA",
+"fuel": "бензин",
+"hp": 120,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 120 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201009,
+"id": "64523",
+"name": "1.6 MT Ambiente",
+"to": 201501
+},
+{
+"from": 201308,
+"id": "74154",
+"name": "1.6 MT Ambiente Plus",
+"to": 201501
+}
+]
+},
+{
+"body": [
+"BD"
+],
+"drive": "fwd",
+"engine": "UFBA, QXBA, QXBB",
+"fuel": "дизель",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 140 л.с., дизель, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201009,
+"id": "64530",
+"name": "2.0 TDCi AT Titanium",
+"to": 201501
+},
+{
+"from": 201009,
+"id": "64531",
+"name": "2.0 TDCi AT Titanium Black",
+"to": 201305
+},
+{
+"from": 201306,
+"id": "72632",
+"name": "2.0 TDCi AT Anniversary 20",
+"to": 201501
+}
+]
+},
+{
+"body": [
+"BD"
+],
+"drive": "fwd",
+"engine": "AOBC, AOBA, TBBA",
+"fuel": "бензин",
+"hp": 145,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 145 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201009,
+"id": "64524",
+"name": "2.0 MT Trend",
+"to": 201501
+},
+{
+"from": 201009,
+"id": "64526",
+"name": "2.0 MT Titanium",
+"to": 201501
+}
+]
+},
+{
+"body": [
+"BD"
+],
+"drive": "fwd",
+"engine": "TNBA",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 200 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201009,
+"id": "64527",
+"name": "2.0 SCTi Powershift AT Titanium",
+"to": 201501
+},
+{
+"from": 201009,
+"id": "64534",
+"name": "2.0 SCTi Powershift AT Titanium Black",
+"to": 201305
+},
+{
+"from": 201306,
+"id": "72630",
+"name": "2.0 SCTi Powershift Anniversary 20",
+"to": 201501
+}
+]
+},
+{
+"body": [
+"BD"
+],
+"drive": "fwd",
+"engine": "TPBA",
+"fuel": "бензин",
+"hp": 240,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 240 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201009,
+"id": "64527",
+"name": "2.0 SCTi Powershift AT Titanium",
+"to": 201501
+},
+{
+"from": 201009,
+"id": "64534",
+"name": "2.0 SCTi Powershift AT Titanium Black",
+"to": 201305
+},
+{
+"from": 201306,
+"id": "72630",
+"name": "2.0 SCTi Powershift Anniversary 20",
+"to": 201501
+}
+]
+},
+{
+"body": [
+"BD"
+],
+"drive": "fwd",
+"engine": "SEBA",
+"fuel": "бензин",
+"hp": 161,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 161 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201009,
+"id": "64525",
+"name": "2.3 AT Trend",
+"to": 201501
+},
+{
+"from": 201009,
+"id": "64529",
+"name": "2.3 AT Titanium",
+"to": 201501
+},
+{
+"from": 201009,
+"id": "64532",
+"name": "2.3 AT Titanium Black",
+"to": 201305
+},
+{
+"from": 201306,
+"id": "72633",
+"name": "2.3 AT Anniversary 20",
+"to": 201501
+}
+]
+}
+],
+"ids": true,
+"key": "ford/mondeo/g_201009_1468",
+"market": "Россия",
+"to": 201501
+},
+"ford/mondeo/g_201408_2263": {
+"from": 201201,
+"groups": [
+{
+"body": [
+"CD391"
+],
+"drive": "fwd",
+"engine": "TNCC",
+"fuel": "бензин",
+"hp": 199,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 199 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201503,
+"id": "80528",
+"name": "2.0 EcoBoost AT Titanium",
+"to": 201806
+},
+{
+"from": 201503,
+"id": "80527",
+"name": "2.0 EcoBoost AT Titanium Plus",
+"to": 201806
+},
+{
+"from": 201807,
+"id": "80528",
+"name": "2.0 EcoBoost AT Titanium",
+"to": 201910
+},
+{
+"from": 201807,
+"id": "80527",
+"name": "2.0 EcoBoost AT Titanium Plus",
+"to": 201910
+},
+{
+"from": 201807,
+"id": "210355",
+"name": "2.0 EcoBoost AT Business Edition",
+"to": 201901
+},
+{
+"from": 201903,
+"id": "238579",
+"name": "2.0 EcoBoost AT Ultra Comfort",
+"to": 201910
+}
+]
+},
+{
+"body": [
+"CD391"
+],
+"drive": "fwd",
+"engine": "R9CB; R9CF; R9CH",
+"fuel": "бензин",
+"hp": 240,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 240 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201503,
+"id": "80527",
+"name": "2.0 EcoBoost AT Titanium Plus",
+"to": 201806
+},
+{
+"from": 201807,
+"id": "80527",
+"name": "2.0 EcoBoost AT Titanium Plus",
+"to": 201910
+}
+]
+},
+{
+"body": [
+"CD391"
+],
+"drive": "fwd",
+"engine": "S7CB",
+"fuel": "бензин",
+"hp": 149,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 149 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201503,
+"id": "80534",
+"name": "2.5 AT Ambiente",
+"to": 201806
+},
+{
+"from": 201503,
+"id": "80533",
+"name": "2.5 AT Trend",
+"to": 201806
+},
+{
+"from": 201503,
+"id": "80529",
+"name": "2.5 AT Titanium",
+"to": 201806
+},
+{
+"from": 201807,
+"id": "80534",
+"name": "2.5 AT Ambiente",
+"to": 201910
+},
+{
+"from": 201807,
+"id": "80533",
+"name": "2.5 AT Trend",
+"to": 201910
+},
+{
+"from": 201807,
+"id": "80529",
+"name": "2.5 AT Titanium",
+"to": 201910
+},
+{
+"from": 201807,
+"id": "210354",
+"name": "2.5 AT Business Edition",
+"to": 201901
+},
+{
+"from": 201903,
+"id": "238578",
+"name": "2.5 AT Ultra Comfort",
+"to": 201910
+}
+]
+}
+],
+"ids": true,
+"key": "ford/mondeo/g_201408_2263",
+"market": "Россия",
+"to": 201910
 },
 "ford/ranger/g_201810_16737": {
 "from": 202111,
@@ -62666,6 +65118,7 @@
 "drive": "fwd",
 "engine": "PY-VPS",
 "fuel": "бензин",
+"gen_key": "mazda/cx-4/g_201911_16074",
 "hp": 192,
 "hp_total": null,
 "hybrid": null,
@@ -62686,6 +65139,7 @@
 "drive": "4wd",
 "engine": "PY-VPS",
 "fuel": "бензин",
+"gen_key": "mazda/cx-4/g_201911_16074",
 "hp": 192,
 "hp_total": null,
 "hybrid": null,
@@ -70081,6 +72535,132 @@
 "market": "Китай",
 "to": null
 },
+"mercedes-benz/eqc/g_2018_18411": {
+"from": 201809,
+"groups": [
+{
+"body": [
+"N293"
+],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 286,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "286 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202006,
+"id": "462028",
+"name": "EQC 350 4MATIC",
+"to": 202103
+},
+{
+"from": 202104,
+"id": "462028",
+"name": "EQC 350 4MATIC",
+"to": 202201
+},
+{
+"from": 202203,
+"id": "462028",
+"name": "EQC 350 4MATIC",
+"to": 202407
+},
+{
+"from": 202203,
+"id": "462032",
+"name": "EQC 350 4MATIC Special Edition",
+"to": 202407
+}
+]
+},
+{
+"body": [
+"N293"
+],
+"drive": "4wd",
+"engine": "Кузов:",
+"fuel": "electric",
+"hp": 408,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "408 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 201911,
+"id": "462024",
+"name": "EQC 400 4MATIC",
+"to": 202103
+},
+{
+"from": 201911,
+"id": "462027",
+"name": "EQC 400 4MATIC Limited Edition",
+"to": 202103
+},
+{
+"from": 202104,
+"id": "462024",
+"name": "EQC 400 4MATIC",
+"to": 202201
+},
+{
+"from": 202203,
+"id": "462024",
+"name": "EQC 400 4MATIC",
+"to": 202407
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/eqc/g_2018_18411",
+"market": "Китай",
+"to": 202407
+},
+"mercedes-benz/eqc/g_201907_10512": {
+"from": 201809,
+"groups": [
+{
+"body": [
+"N293"
+],
+"drive": "4wd",
+"engine": "EM0016, EM0021",
+"fuel": "electric",
+"hp": 408,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "408 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202006,
+"id": "279784",
+"name": "EQC 400 4MATIC",
+"to": null
+},
+{
+"from": 202102,
+"id": "388663",
+"name": "EQC 400 4MATIC AMG Line",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/eqc/g_201907_10512",
+"market": "Европа",
+"to": null
+},
 "mercedes-benz/eqe/g_202109_13971": {
 "from": 202109,
 "groups": [
@@ -75898,6 +78478,7 @@
 "drive": "fwd",
 "engine": "4A92",
 "fuel": "бензин",
+"gen_key": "mitsubishi/asx/g_2012_23779",
 "hp": 124,
 "hp_total": null,
 "hybrid": null,
@@ -75918,6 +78499,7 @@
 "drive": "fwd",
 "engine": "4B11",
 "fuel": "бензин",
+"gen_key": "mitsubishi/asx/g_2012_23779",
 "hp": 167,
 "hp_total": null,
 "hybrid": null,
@@ -79887,6 +82469,213 @@
 "market": "Китай",
 "to": null
 },
+"nissan/sylphy/g_2009_24357": {
+"from": 200904,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR16DE",
+"fuel": "бензин",
+"hp": 117,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 117 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201609,
+"id": "502026",
+"name": "Classic 1.6 MT XE Comfort",
+"to": 201712
+},
+{
+"from": 201609,
+"id": "502034",
+"name": "Classic 1.6 MT XE Leading",
+"to": 201712
+},
+{
+"from": 201207,
+"id": "502026",
+"name": "Classic 1.6 MT XE Comfort",
+"to": 201612
+},
+{
+"from": 201207,
+"id": "551857",
+"name": "Classic 1.6 MT XL Deluxe",
+"to": 201612
+},
+{
+"from": 200904,
+"id": "551859",
+"name": "1.6 MT XE Comfort",
+"to": 201206
+},
+{
+"from": 200904,
+"id": "551861",
+"name": "1.6 MT XL Deluxe Sunroof",
+"to": 201206
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR16DE",
+"fuel": "бензин",
+"gen_key": "nissan/sylphy/g_2009_24357",
+"hp": 117,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 117 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201609,
+"id": "502027",
+"name": "Classic 1.6 AT XE Comfort",
+"to": 201712
+},
+{
+"from": 201609,
+"id": "502035",
+"name": "Classic 1.6 AT XE Leading",
+"to": 201712
+},
+{
+"from": 201609,
+"id": "502036",
+"name": "Classic 1.6 AT XE Deluxe",
+"to": 201712
+},
+{
+"from": 201207,
+"id": "502027",
+"name": "Classic 1.6 AT XE Comfort",
+"to": 201612
+},
+{
+"from": 201207,
+"id": "551858",
+"name": "Classic 1.6 AT XL Deluxe",
+"to": 201612
+},
+{
+"from": 200904,
+"id": "551860",
+"name": "1.6 AT XE Comfort",
+"to": 201206
+},
+{
+"from": 200904,
+"id": "551862",
+"name": "1.6 AT XL Deluxe Sunroof",
+"to": 201206
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR16DE",
+"fuel": "бензин",
+"hp": 124,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 124 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201801,
+"id": "502009",
+"name": "Classic 1.6 MT XE+ Leading",
+"to": 201812
+},
+{
+"from": 201801,
+"id": "502012",
+"name": "Classic 1.6 MT XE+ Smart Luxury",
+"to": 201812
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "HR16DE",
+"fuel": "бензин",
+"hp": 124,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 124 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201801,
+"id": "502014",
+"name": "Classic 1.6 CVT XE+ Leading",
+"to": 201812
+},
+{
+"from": 201801,
+"id": "502015",
+"name": "Classic 1.6 CVT XE+ Luxury",
+"to": 201812
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "MR20DE",
+"fuel": "бензин",
+"gen_key": "nissan/sylphy/g_2009_24357",
+"hp": 143,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 143 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 200904,
+"id": "551863",
+"name": "2.0 CVT XL Luxury",
+"to": 201206
+},
+{
+"from": 200904,
+"id": "551864",
+"name": "2.0 CVT XL Tech",
+"to": 201206
+},
+{
+"from": 200904,
+"id": "551865",
+"name": "2.0 CVT XL Luxury Sunroof",
+"to": 201206
+},
+{
+"from": 200904,
+"id": "551867",
+"name": "2.0 CVT XL Tech Sunroof",
+"to": 201206
+}
+]
+}
+],
+"ids": true,
+"key": "nissan/sylphy/g_2009_24357",
+"market": "Китай",
+"to": 201812
+},
 "nissan/sylphy/g_201204_1945": {
 "from": 201212,
 "groups": [
@@ -83488,6 +86277,354 @@
 "key": "nissan/x-trail/g_2021_13210",
 "market": "Китай",
 "to": null
+},
+"peugeot/508/g_201010_4896": {
+"from": 201102,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "EP6C",
+"fuel": "бензин",
+"hp": 120,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 120 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201401,
+"id": "133689",
+"name": "1.6 AMT Access",
+"to": 201407
+},
+{
+"from": 201401,
+"id": "133688",
+"name": "1.6 AMT Active",
+"to": 201407
+},
+{
+"from": 201301,
+"id": "133689",
+"name": "1.6 AMT Access",
+"to": 201312
+},
+{
+"from": 201301,
+"id": "133688",
+"name": "1.6 AMT Active",
+"to": 201312
+},
+{
+"from": 201202,
+"id": "133689",
+"name": "1.6 AMT Access",
+"to": 201212
+},
+{
+"from": 201202,
+"id": "133688",
+"name": "1.6 AMT Active",
+"to": 201212
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "EP6DT",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 150 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201401,
+"id": "133697",
+"name": "1.6 THP AT Active",
+"to": 201407
+},
+{
+"from": 201401,
+"id": "133683",
+"name": "1.6 THP AT Allure",
+"to": 201407
+},
+{
+"from": 201202,
+"id": "133697",
+"name": "1.6 THP AT Active",
+"to": 201212
+},
+{
+"from": 201202,
+"id": "133683",
+"name": "1.6 THP AT Allure",
+"to": 201212
+},
+{
+"from": 201301,
+"id": "133697",
+"name": "1.6 THP AT Active",
+"to": 201312
+},
+{
+"from": 201301,
+"id": "133683",
+"name": "1.6 THP AT Allure",
+"to": 201312
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "DW10BTED4",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 136 л.с., дизель, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201401,
+"id": "133686",
+"name": "2.0 Hdi AT Active",
+"to": 201407
+},
+{
+"from": 201401,
+"id": "133684",
+"name": "2.0 Hdi AT Allure",
+"to": 201407
+},
+{
+"from": 201202,
+"id": "133686",
+"name": "2.0 Hdi AT Active",
+"to": 201212
+},
+{
+"from": 201202,
+"id": "133684",
+"name": "2.0 Hdi AT Allure",
+"to": 201212
+},
+{
+"from": 201301,
+"id": "133686",
+"name": "2.0 Hdi AT Active",
+"to": 201312
+},
+{
+"from": 201301,
+"id": "133684",
+"name": "2.0 Hdi AT Allure",
+"to": 201312
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "DW12C",
+"fuel": "дизель",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.2,
+"text": "2.2 л, 204 л.с., дизель, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201401,
+"id": "133685",
+"name": "2.2 Hdi AT GT",
+"to": 201407
+},
+{
+"from": 201202,
+"id": "133685",
+"name": "2.2 Hdi AT GT",
+"to": 201212
+},
+{
+"from": 201301,
+"id": "133685",
+"name": "2.2 Hdi AT GT",
+"to": 201312
+}
+]
+}
+],
+"ids": true,
+"key": "peugeot/508/g_201010_4896",
+"market": "Россия",
+"to": 201407
+},
+"peugeot/508/g_201408_1671": {
+"from": 201408,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "EP6C",
+"fuel": "бензин",
+"hp": 120,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 120 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201408,
+"id": "77477",
+"name": "1.6 AMT Access",
+"to": 201412
+},
+{
+"from": 201501,
+"id": "77477",
+"name": "1.6 AMT Access",
+"to": 201504
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "EP6DT",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 150 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201501,
+"id": "77478",
+"name": "1.6 THP Active",
+"to": 201512
+},
+{
+"from": 201501,
+"id": "77479",
+"name": "1.6 THP Allure",
+"to": 201512
+},
+{
+"from": 201408,
+"id": "77478",
+"name": "1.6 THP Active",
+"to": 201412
+},
+{
+"from": 201408,
+"id": "77479",
+"name": "1.6 THP Allure",
+"to": 201412
+},
+{
+"from": 201601,
+"id": "77478",
+"name": "1.6 THP Active",
+"to": 201806
+},
+{
+"from": 201601,
+"id": "77479",
+"name": "1.6 THP Allure",
+"to": 201806
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "DW10BTED4",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 136 л.с., дизель, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201408,
+"id": "77480",
+"name": "2.0 HDi AT Allure",
+"to": 201412
+},
+{
+"from": 201501,
+"id": "77480",
+"name": "2.0 HDi AT Allure",
+"to": 201504
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "DW10FC",
+"fuel": "дизель",
+"hp": 180,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 180 л.с., дизель, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201705,
+"id": "185165",
+"name": "2.0 HDi Allure",
+"to": 201806
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "DW12C",
+"fuel": "дизель",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.2,
+"text": "2.2 л, 204 л.с., дизель, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201408,
+"id": "77481",
+"name": "2.2 HDi AT GT",
+"to": 201412
+},
+{
+"from": 201501,
+"id": "77481",
+"name": "2.2 HDi AT GT",
+"to": 201504
+}
+]
+}
+],
+"ids": true,
+"key": "peugeot/508/g_201408_1671",
+"market": "Россия",
+"to": 201806
 },
 "roewe/i5/g_2017_17510": {
 "from": 201704,
@@ -108623,6 +111760,112 @@
 ],
 "name": "2.5h CVT Luxury"
 },
+"446860": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"172 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"109 л.с. (80 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"140 Н·м при 4500 об/мин"
+],
+[
+"Модель двигателя",
+"SQR477F"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-4"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"5,4 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4580 × 1760 × 1483 мм"
+],
+[
+"Колёсная база",
+"2600 мм"
+],
+[
+"Клиренс",
+"147 мм"
+],
+[
+"Масса",
+"1285 кг"
+],
+[
+"Топливный бак",
+"50 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"195/55 R15"
+]
+]
+]
+],
+"name": "1.5 MT Excellent"
+},
 "447035": {
 "groups": [
 [
@@ -118311,6 +121554,116 @@
 ],
 "name": "1.5T SSR Max"
 },
+"520389": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"170 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"122 л.с. (90 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"180 Н·м при 2000 об/мин"
+],
+[
+"Модель двигателя",
+"SQRD4G20"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-5"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,4 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4470 × 1837 × 1670 мм"
+],
+[
+"Колёсная база",
+"2670 мм"
+],
+[
+"Клиренс",
+"170 мм"
+],
+[
+"Масса",
+"1430 кг"
+],
+[
+"Топливный бак",
+"57 л"
+],
+[
+"Багажник",
+"414 (1100) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/60 R18"
+]
+]
+]
+],
+"name": "2.0 CVT Dazzling"
+},
 "520439": {
 "groups": [
 [
@@ -122496,6 +125849,200 @@
 ],
 "name": "2.0L CVT Comfort"
 },
+"545017": {
+"groups": [
+[
+"Двигатель",
+[
+[
+"Мощность",
+"167 л.с. (123 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"197 Н·м при 4200 об/мин"
+],
+[
+"Модель двигателя",
+"4B11"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,5 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4295 × 1770 × 1625 мм"
+],
+[
+"Колёсная база",
+"2670 мм"
+],
+[
+"Клиренс",
+"195 мм"
+],
+[
+"Масса",
+"1405 кг"
+],
+[
+"Топливный бак",
+"60 л"
+],
+[
+"Багажник",
+"384 (1167) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/65 R16"
+]
+]
+]
+],
+"name": "2.0 CVT 2WD Elite"
+},
+"545022": {
+"groups": [
+[
+"Двигатель",
+[
+[
+"Мощность",
+"124 л.с. (91 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"149 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"4A92"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,4 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4295 × 1770 × 1615 мм"
+],
+[
+"Колёсная база",
+"2670 мм"
+],
+[
+"Клиренс",
+"195 мм"
+],
+[
+"Масса",
+"1305 кг"
+],
+[
+"Топливный бак",
+"63 л"
+],
+[
+"Багажник",
+"384 (1167) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/65 R16"
+]
+]
+]
+],
+"name": "1.6 MT 2WD Standard"
+},
 "545800": {
 "groups": [
 [
@@ -123053,6 +126600,120 @@
 ]
 ],
 "name": "Extended Range 1.5 1200"
+},
+"551863": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"10,7 с"
+],
+[
+"Максимальная скорость",
+"190 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"143 л.с. (105 кВт) при 5200 об/мин"
+],
+[
+"Крутящий момент",
+"189 Н·м при 4400 об/мин"
+],
+[
+"Модель двигателя",
+"MR20DE"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,8 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4665 × 1700 × 1510 мм"
+],
+[
+"Колёсная база",
+"2700 мм"
+],
+[
+"Клиренс",
+"170 мм"
+],
+[
+"Масса",
+"1280 кг"
+],
+[
+"Топливный бак",
+"52 л"
+],
+[
+"Багажник",
+"504 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"195/60 R16"
+],
+[
+"Радиус разворота",
+"5,3 м"
+]
+]
+]
+],
+"name": "2.0 CVT XL Luxury"
 },
 "552176": {
 "groups": [
