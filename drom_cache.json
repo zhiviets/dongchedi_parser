@@ -993,6 +993,13 @@
 "g_202602_24551"
 ]
 },
+"chery/arrizo_5/china": {
+"day": 739887,
+"gens": [
+"g_2015_16959",
+"g_202310_21838"
+]
+},
 "chery/tiggo_3x/china": {
 "day": 739885,
 "gens": [
@@ -34744,6 +34751,7 @@
 "drive": "fwd",
 "engine": "JL473ZQD",
 "fuel": "бензин",
+"gen_key": "changan/uni-z/g_202403_20436",
 "hp": 192,
 "hp_total": null,
 "hybrid": null,
@@ -34770,6 +34778,310 @@
 "key": "changan/uni-z/g_202403_20436",
 "market": "Китай",
 "to": null
+},
+"chery/arrizo_5/g_2015_16959": {
+"from": 201504,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4G15B, SQRE4G15C",
+"fuel": "бензин",
+"hp": 116,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 116 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201603,
+"id": "451745",
+"name": "1.5 MT Lingshang",
+"to": 201703
+},
+{
+"from": 201603,
+"id": "451753",
+"name": "1.5 MT Smart",
+"to": 201703
+},
+{
+"from": 201603,
+"id": "451752",
+"name": "1.5 MT Trend",
+"to": 201703
+},
+{
+"from": 201603,
+"id": "451754",
+"name": "1.5 MT Ling Rui",
+"to": 201703
+},
+{
+"from": 201603,
+"id": "521665",
+"name": "1.5 MT Elite",
+"to": 201703
+},
+{
+"from": 201610,
+"id": "521659",
+"name": "1.5 MT Leading",
+"to": 201703
+},
+{
+"from": 201703,
+"id": "521666",
+"name": "1.5 MT Urban",
+"to": 202006
+},
+{
+"from": 201703,
+"id": "451752",
+"name": "1.5 MT Trend",
+"to": 202006
+},
+{
+"from": 201703,
+"id": "521668",
+"name": "1.5 MT Fashion",
+"to": 202006
+},
+{
+"from": 201703,
+"id": "521671",
+"name": "1.5 MT Luxury",
+"to": 202006
+},
+{
+"from": 201703,
+"id": "521669",
+"name": "1.5 MT Premium",
+"to": 202006
+},
+{
+"from": 201703,
+"id": "521665",
+"name": "1.5 MT Elite",
+"to": 202006
+},
+{
+"from": 201803,
+"id": "521677",
+"name": "1.5 MT Tribute Youth Edition",
+"to": 202006
+},
+{
+"from": 202006,
+"id": "521684",
+"name": "1.5 MT Sport",
+"to": 202309
+},
+{
+"from": 202309,
+"id": "521687",
+"name": "1.5 MT Youth",
+"to": 202407
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4G15B, SQRE4G15C",
+"fuel": "бензин",
+"gen_key": "chery/arrizo_5/g_2015_16959",
+"hp": 116,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 116 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201603,
+"id": "451756",
+"name": "1.5 CVT Smart",
+"to": 201703
+},
+{
+"from": 201603,
+"id": "451755",
+"name": "1.5 CVT Trend",
+"to": 201703
+},
+{
+"from": 201603,
+"id": "451757",
+"name": "1.5 CVT Ling Rui",
+"to": 201703
+},
+{
+"from": 201603,
+"id": "521657",
+"name": "1.5 CVT Elite",
+"to": 201703
+},
+{
+"from": 201603,
+"id": "521658",
+"name": "1.5 CVT Premier",
+"to": 201703
+},
+{
+"from": 201610,
+"id": "451758",
+"name": "1.5 CVT Leading",
+"to": 201703
+},
+{
+"from": 201703,
+"id": "451755",
+"name": "1.5 CVT Trend",
+"to": 202006
+},
+{
+"from": 201703,
+"id": "521673",
+"name": "1.5 CVT Fashion",
+"to": 202006
+},
+{
+"from": 201703,
+"id": "521676",
+"name": "1.5 CVT Luxury",
+"to": 202006
+},
+{
+"from": 201703,
+"id": "521674",
+"name": "1.5 CVT Premium",
+"to": 202006
+},
+{
+"from": 201703,
+"id": "521657",
+"name": "1.5 CVT Elite",
+"to": 202006
+},
+{
+"from": 201803,
+"id": "521678",
+"name": "1.5 CVT Tribute Youth Edition",
+"to": 202006
+},
+{
+"from": 202006,
+"id": "521686",
+"name": "1.5 CVT Sport",
+"to": 202309
+},
+{
+"from": 202309,
+"id": "521688",
+"name": "1.5 CVT Youth",
+"to": 202407
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4T15B",
+"fuel": "бензин",
+"hp": 147,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 147 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201703,
+"id": "521679",
+"name": "1.5T MT Fashion Sport",
+"to": 202006
+},
+{
+"from": 201703,
+"id": "521681",
+"name": "1.5T MT Luxury Sport",
+"to": 202006
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4T15B",
+"fuel": "бензин",
+"hp": 147,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 147 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201703,
+"id": "521682",
+"name": "1.5T CVT Luxury Sport",
+"to": 202006
+},
+{
+"from": 201703,
+"id": "521683",
+"name": "1.5T CVT Premium Sport",
+"to": 202006
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4T15C",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 156 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202006,
+"id": "521685",
+"name": "1.5T MT Sport",
+"to": 202309
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4G16C",
+"fuel": "газ/бензин",
+"hp": 90,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 90 л.с., газ/бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202309,
+"id": "521689",
+"name": "1.6 CNG MT Youth",
+"to": 202407
+}
+]
+}
+],
+"ids": true,
+"key": "chery/arrizo_5/g_2015_16959",
+"market": "Китай",
+"to": 202407
 },
 "chery/tiggo_3x/g_2016_19060": {
 "from": 201604,
@@ -41663,6 +41975,7 @@
 "drive": "fwd",
 "engine": "JLH-4G20TD",
 "fuel": "бензин",
+"gen_key": "geely/preface/g_2022_17734",
 "hp": 190,
 "hp_total": null,
 "hybrid": null,
@@ -59424,6 +59737,7 @@
 "drive": "fwd",
 "engine": "CAF484WQC3",
 "fuel": "бензин",
+"gen_key": "lincoln/corsair/g_2022_23239",
 "hp": 261,
 "hp_total": null,
 "hybrid": null,
@@ -59492,6 +59806,7 @@
 "drive": "4wd",
 "engine": "CAF484WQC3",
 "fuel": "бензин",
+"gen_key": "lincoln/corsair/g_2022_23239",
 "hp": 261,
 "hp_total": null,
 "hybrid": null,
@@ -79665,6 +79980,7 @@
 "drive": "fwd",
 "engine": "HR16DE",
 "fuel": "бензин",
+"gen_key": "nissan/sylphy/g_2012_24358",
 "hp": 126,
 "hp_total": null,
 "hybrid": null,
@@ -79721,6 +80037,7 @@
 "drive": "fwd",
 "engine": "MRA8DE",
 "fuel": "бензин",
+"gen_key": "nissan/sylphy/g_2012_24358",
 "hp": 139,
 "hp_total": null,
 "hybrid": null,
@@ -79925,6 +80242,7 @@
 "drive": "fwd",
 "engine": "HR16DE",
 "fuel": "бензин",
+"gen_key": "nissan/sylphy/g_201603_20473",
 "hp": 126,
 "hp_total": null,
 "hybrid": null,
@@ -79977,6 +80295,7 @@
 "drive": "fwd",
 "engine": "MRA8DE",
 "fuel": "бензин",
+"gen_key": "nissan/sylphy/g_201603_20473",
 "hp": 139,
 "hp_total": null,
 "hybrid": null,
@@ -81175,6 +81494,7 @@
 "drive": "fwd",
 "engine": "HR16DE",
 "fuel": "бензин",
+"gen_key": "nissan/tiida/g_201605_21339",
 "hp": 126,
 "hp_total": null,
 "hybrid": null,
@@ -118286,6 +118606,116 @@
 ]
 ],
 "name": "1.5 CVT Excellent"
+},
+"521686": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"185 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"116 л.с. (85 кВт) при 6150 об/мин"
+],
+[
+"Крутящий момент",
+"143 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"SQRE4G15C"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"5,7 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4572 × 1825 × 1482 мм"
+],
+[
+"Колёсная база",
+"2670 мм"
+],
+[
+"Клиренс",
+"129 мм"
+],
+[
+"Масса",
+"1305 кг"
+],
+[
+"Топливный бак",
+"48 л"
+],
+[
+"Багажник",
+"430 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"205/55 R16"
+]
+]
+]
+],
+"name": "1.5 CVT Sport"
 },
 "522262": {
 "groups": [
