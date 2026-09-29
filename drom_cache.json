@@ -288,6 +288,19 @@
 "уаз": "uaz"
 },
 "gen_lists": {
+"acura/rdx/china": {
+"day": 739888,
+"gens": [
+"g_200608_3773",
+"g_200908_7047",
+"g_201204_2048",
+"g_201504_7051",
+"g_201806_8293",
+"g_2018_21705",
+"g_202109_16970",
+"g_2021_21711"
+]
+},
 "aito/m5/china": {
 "day": 739883,
 "gens": [
@@ -1221,6 +1234,20 @@
 "g_2023_19715"
 ]
 },
+"ford/explorer/china": {
+"day": 739888,
+"gens": [
+"g_199004_3784",
+"g_199405_9109",
+"g_200101_8147",
+"g_200507_6608",
+"g_201012_1476",
+"g_201505_4432",
+"g_201710_8126",
+"g_201905_9396",
+"g_2022_23670"
+]
+},
 "ford/f150/china": {
 "day": 739884,
 "gens": []
@@ -1498,6 +1525,16 @@
 "gens": [
 "g_202208_23242",
 "g_2022_19380"
+]
+},
+"hongqi/h5/china": {
+"day": 739888,
+"gens": [
+"g_2018_16732",
+"g_202212_15697",
+"g_2022_18473",
+"g_202605_24665",
+"g_2026_24526"
 ]
 },
 "hongqi/h9/china": {
@@ -1886,6 +1923,16 @@
 "g_2012_23240",
 "g_2015_23241",
 "g_201607_15028"
+]
+},
+"lincoln/nautilus/china": {
+"day": 739888,
+"gens": [
+"g_201806_14362",
+"g_202102_14363",
+"g_2021_20186",
+"g_202304_18068",
+"g_2023_20187"
 ]
 },
 "luxeed/r7/china": {
@@ -2894,6 +2941,580 @@
 }
 },
 "gens": {
+"acura/rdx/g_200908_7047": {
+"from": 200908,
+"groups": [
+{
+"body": [
+"TB2"
+],
+"drive": "fwd",
+"engine": "K23A1",
+"fuel": "бензин",
+"hp": 240,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 240 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200908,
+"id": "193103",
+"name": "Base",
+"to": 201204
+},
+{
+"from": 200908,
+"id": "193104",
+"name": "Technology",
+"to": 201203
+}
+]
+},
+{
+"body": [
+"TB1"
+],
+"drive": "4wd",
+"engine": "K23A1",
+"fuel": "бензин",
+"hp": 240,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 240 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 200908,
+"id": "193101",
+"name": "SH-AWD Base",
+"to": 201204
+},
+{
+"from": 200908,
+"id": "193102",
+"name": "SH-AWD Technology",
+"to": 201203
+}
+]
+}
+],
+"ids": true,
+"key": "acura/rdx/g_200908_7047",
+"market": "США",
+"to": 201204
+},
+"acura/rdx/g_201204_2048": {
+"from": 201203,
+"groups": [
+{
+"body": [
+"TB3"
+],
+"drive": "4wd",
+"engine": "J35Z2",
+"fuel": "бензин",
+"hp": 277,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 277 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201403,
+"id": "75239",
+"name": "Techno",
+"to": 201512
+}
+]
+}
+],
+"ids": true,
+"key": "acura/rdx/g_201204_2048",
+"market": "Россия",
+"to": 201512
+},
+"acura/rdx/g_201504_7051": {
+"from": 201504,
+"groups": [
+{
+"body": [
+"TB4"
+],
+"drive": "fwd",
+"engine": "J35Z2",
+"fuel": "бензин",
+"hp": 279,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 279 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201504,
+"id": "193174",
+"name": "Base",
+"to": 201805
+},
+{
+"from": 201504,
+"id": "193185",
+"name": "AcuraWatch Plus",
+"to": 201805
+},
+{
+"from": 201504,
+"id": "193175",
+"name": "Technology",
+"to": 201805
+},
+{
+"from": 201504,
+"id": "193187",
+"name": "Technology and AcuraWatch Plus",
+"to": 201805
+},
+{
+"from": 201504,
+"id": "193188",
+"name": "Advance",
+"to": 201805
+}
+]
+},
+{
+"body": [
+"TB3"
+],
+"drive": "4wd",
+"engine": "J35Z2",
+"fuel": "бензин",
+"hp": 279,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 279 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201504,
+"id": "193189",
+"name": "AWD Base",
+"to": 201805
+},
+{
+"from": 201504,
+"id": "193191",
+"name": "AWD AcuraWatch Plus",
+"to": 201805
+},
+{
+"from": 201504,
+"id": "193190",
+"name": "AWD Technology",
+"to": 201805
+},
+{
+"from": 201504,
+"id": "193193",
+"name": "AWD Technology and AcuraWatch Plus",
+"to": 201805
+},
+{
+"from": 201504,
+"id": "193192",
+"name": "AWD Advance",
+"to": 201805
+}
+]
+}
+],
+"ids": true,
+"key": "acura/rdx/g_201504_7051",
+"market": "США",
+"to": 201805
+},
+"acura/rdx/g_201806_8293": {
+"from": 201803,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "K20C3",
+"fuel": "бензин",
+"hp": 272,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 272 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "246496",
+"name": "2.0 FWD AT",
+"to": 202110
+},
+{
+"from": 201806,
+"id": "246497",
+"name": "2.0 FWD AT Technology Package",
+"to": 202110
+},
+{
+"from": 201806,
+"id": "246498",
+"name": "2.0 FWD AT A-Spec Package",
+"to": 202110
+},
+{
+"from": 201806,
+"id": "246499",
+"name": "2.0 FWD AT Advance Package",
+"to": 202110
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "K20C3",
+"fuel": "бензин",
+"hp": 272,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 272 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "202111",
+"name": "2.0 SH-AWD AT",
+"to": 202110
+},
+{
+"from": 201806,
+"id": "246493",
+"name": "2.0 SH-AWD AT Technology Package",
+"to": 202110
+},
+{
+"from": 201806,
+"id": "246494",
+"name": "2.0 SH-AWD AT A-Spec Package",
+"to": 202110
+},
+{
+"from": 201806,
+"id": "246495",
+"name": "2.0 SH-AWD AT Advance Package",
+"to": 202110
+}
+]
+}
+],
+"ids": true,
+"key": "acura/rdx/g_201806_8293",
+"market": "США",
+"to": 202110
+},
+"acura/rdx/g_2018_21705": {
+"from": 201803,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "K20C5",
+"fuel": "бензин",
+"hp": 265,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 265 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201909,
+"id": "519171",
+"name": "2.0T AT Enjoy Edition VI",
+"to": 202009
+},
+{
+"from": 201909,
+"id": "519176",
+"name": "2.0T AT Yuexiang Edition VI",
+"to": 202009
+},
+{
+"from": 201909,
+"id": "519178",
+"name": "2.0T AT Premium Edition VI",
+"to": 202009
+},
+{
+"from": 201811,
+"id": "519173",
+"name": "2.0T AT Enjoy Edition V",
+"to": 201909
+},
+{
+"from": 201811,
+"id": "519175",
+"name": "2.0T AT Yuexiang Edition V",
+"to": 201909
+},
+{
+"from": 201811,
+"id": "519177",
+"name": "2.0T AT Premium Edition V",
+"to": 201909
+},
+{
+"from": 202009,
+"id": "519251",
+"name": "2.0T AT Enjoy Edition",
+"to": 202109
+},
+{
+"from": 202009,
+"id": "519250",
+"name": "2.0T AT Yuexiang Edition",
+"to": 202109
+},
+{
+"from": 202009,
+"id": "519248",
+"name": "2.0T AT Premium A-Spec Sports Edition",
+"to": 202109
+},
+{
+"from": 202009,
+"id": "519249",
+"name": "2.0T AT Premium Edition",
+"to": 202109
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "K20C5",
+"fuel": "бензин",
+"gen_key": "acura/rdx/g_2018_21705",
+"hp": 265,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 265 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"id": "519179",
+"name": "2.0T AT SH-AWD Smart Edition V",
+"to": 201909
+},
+{
+"from": 201811,
+"id": "519181",
+"name": "2.0T AT SH-AWD Diamond Edition V",
+"to": 201909
+},
+{
+"from": 201811,
+"id": "519190",
+"name": "2.0T AT SH-AWD Diamond Exclusive Charm Edition V",
+"to": 201909
+},
+{
+"from": 201811,
+"id": "519191",
+"name": "2.0T AT SH-AWD Diamond Exclusive Charm Edition VI",
+"to": 201909
+},
+{
+"from": 201909,
+"id": "519180",
+"name": "2.0T AT SH-AWD Smart Edition VI",
+"to": 202009
+},
+{
+"from": 201909,
+"id": "519186",
+"name": "2.0T AT SH-AWD Diamond Edition VI",
+"to": 202009
+},
+{
+"from": 202009,
+"id": "519247",
+"name": "2.0T AT SH-AWD Smart Edition",
+"to": 202109
+},
+{
+"from": 202009,
+"id": "519242",
+"name": "2.0T AT SH-AWD Diamond Enjoy A-Spec Sports Matte Gray",
+"to": 202109
+},
+{
+"from": 202009,
+"id": "519243",
+"name": "2.0T AT SH-AWD Diamond Enjoy A-Spec Sports",
+"to": 202109
+},
+{
+"from": 202009,
+"id": "519246",
+"name": "2.0T AT SH-AWD Diamond Edition",
+"to": 202109
+}
+]
+}
+],
+"ids": true,
+"key": "acura/rdx/g_2018_21705",
+"market": "Китай",
+"to": 202109
+},
+"acura/rdx/g_202109_16970": {
+"from": 202108,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "K20C6",
+"fuel": "бензин",
+"hp": 272,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 272 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202111,
+"id": "449225",
+"name": "2.0 AT RDX",
+"to": null
+},
+{
+"from": 202111,
+"id": "449226",
+"name": "2.0 AT Technology",
+"to": null
+},
+{
+"from": 202111,
+"id": "449227",
+"name": "2.0 AT A-Spec",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "K20C6",
+"fuel": "бензин",
+"hp": 272,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 272 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202111,
+"id": "449228",
+"name": "2.0 AT SH-AWD RDX",
+"to": null
+},
+{
+"from": 202111,
+"id": "449229",
+"name": "2.0 AT SH-AWD Technology",
+"to": null
+},
+{
+"from": 202111,
+"id": "449230",
+"name": "2.0 AT SH-AWD A-Spec",
+"to": null
+},
+{
+"from": 202111,
+"id": "449232",
+"name": "2.0 AT SH-AWD A-Spec Advance",
+"to": null
+},
+{
+"from": 202111,
+"id": "449231",
+"name": "2.0 AT SH-AWD Advance",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "acura/rdx/g_202109_16970",
+"market": "США",
+"to": null
+},
+"acura/rdx/g_2021_21711": {
+"from": 202109,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "K20C5",
+"fuel": "бензин",
+"hp": 265,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 265 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202109,
+"id": "519254",
+"name": "2.0T AT Yuexiang Titanium Dark Night Limited Edition",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "K20C5",
+"fuel": "бензин",
+"hp": 265,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 265 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202109,
+"id": "519252",
+"name": "2.0T AT SH-AWD Smart Titanium Dark Night Limited Edition",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "acura/rdx/g_2021_21711",
+"market": "Китай",
+"to": null
+},
 "aito/m5/g_2021_17568": {
 "from": 202112,
 "groups": [
@@ -8654,6 +9275,7 @@
 "drive": "4wd",
 "engine": "DTG",
 "fuel": "бензин",
+"gen_key": "audi/q5/g_2021_20275",
 "hp": 190,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -8706,6 +9328,7 @@
 "drive": "4wd",
 "engine": "DTK",
 "fuel": "бензин",
+"gen_key": "audi/q5/g_2021_20275",
 "hp": 245,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -8740,6 +9363,7 @@
 "drive": "4wd",
 "engine": "DKW",
 "fuel": "бензин",
+"gen_key": "audi/q5/g_2021_20275",
 "hp": 252,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -41093,6 +41717,490 @@
 "market": "Китай",
 "to": null
 },
+"ford/explorer/g_201505_4432": {
+"from": 201411,
+"groups": [
+{
+"body": [
+"U502"
+],
+"drive": "4wd",
+"engine": "T35PDED, T35PDTD",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 249 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201510,
+"id": "111226",
+"name": "3.5 AT XLT",
+"to": 201803
+},
+{
+"from": 201510,
+"id": "111228",
+"name": "3.5 AT Limited",
+"to": 201803
+},
+{
+"from": 201510,
+"id": "111229",
+"name": "3.5 AT Limited Plus",
+"to": 201803
+}
+]
+},
+{
+"body": [
+"U502"
+],
+"drive": "4wd",
+"engine": "T35PDTD",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 340 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201510,
+"id": "111227",
+"name": "3.5 AT Sport",
+"to": 201803
+}
+]
+}
+],
+"ids": true,
+"key": "ford/explorer/g_201505_4432",
+"market": "Россия",
+"to": 201803
+},
+"ford/explorer/g_201710_8126": {
+"from": 201801,
+"groups": [
+{
+"body": [
+"U502"
+],
+"drive": "4wd",
+"engine": "T35PDED, T35PDTD",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 249 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201803,
+"id": "201369",
+"name": "3.5 AT XLT",
+"to": 201910
+},
+{
+"from": 201803,
+"id": "201371",
+"name": "3.5 AT Limited",
+"to": 201910
+},
+{
+"from": 201803,
+"id": "201372",
+"name": "3.5 AT Limited Plus",
+"to": 201910
+}
+]
+}
+],
+"ids": true,
+"key": "ford/explorer/g_201710_8126",
+"market": "Россия",
+"to": 201910
+},
+"ford/explorer/g_201905_9396": {
+"from": 201901,
+"groups": [
+{
+"body": [
+"U625"
+],
+"drive": "4wd",
+"engine": "Ford EcoBoost 99H",
+"fuel": "бензин",
+"hp": 300,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 300 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201905,
+"id": "394144",
+"name": "2.3 AT AWD Explorer",
+"to": null
+},
+{
+"from": 201905,
+"id": "394145",
+"name": "2.3 AT AWD XLT",
+"to": null
+},
+{
+"from": 201905,
+"id": "394146",
+"name": "2.3 AT AWD Limited",
+"to": null
+}
+]
+},
+{
+"body": [
+"U625"
+],
+"drive": "rwd",
+"engine": "Ford EcoBoost 99H",
+"fuel": "бензин",
+"hp": 300,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 300 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201905,
+"id": "394140",
+"name": "2.3 AT Explorer",
+"to": null
+},
+{
+"from": 201905,
+"id": "394141",
+"name": "2.3 AT XLT",
+"to": null
+},
+{
+"from": 201905,
+"id": "394142",
+"name": "2.3 AT Limited",
+"to": null
+}
+]
+},
+{
+"body": [
+"U625"
+],
+"drive": "4wd",
+"engine": "Ford EcoBoost 99C",
+"fuel": "бензин",
+"hp": 365,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 365 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201905,
+"id": "394149",
+"name": "3.0 AT AWD Platinum",
+"to": null
+}
+]
+},
+{
+"body": [
+"U625"
+],
+"drive": "4wd",
+"engine": "Ford EcoBoost 99C",
+"fuel": "бензин",
+"hp": 400,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 400 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201905,
+"id": "394148",
+"name": "3.0 AT AWD ST",
+"to": null
+}
+]
+},
+{
+"body": [
+"U625"
+],
+"drive": "4wd",
+"engine": "Ford EcoBoost 3.3",
+"fuel": "бензин",
+"hp": 318,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 3.3,
+"text": "3.3 л, бензин, 318 л.с., параллельный гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201905,
+"id": "394147",
+"name": "3.3 AT AWD Limited Hybrid",
+"to": null
+}
+]
+},
+{
+"body": [
+"U625"
+],
+"drive": "rwd",
+"engine": "Ford EcoBoost 3.3",
+"fuel": "бензин",
+"hp": 318,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 3.3,
+"text": "3.3 л, бензин, 318 л.с., параллельный гибрид, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201905,
+"id": "394143",
+"name": "3.3 AT Limited Hybrid",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "ford/explorer/g_201905_9396",
+"market": "США",
+"to": null
+},
+"ford/explorer/g_2022_23670": {
+"from": 202203,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "CAF488WQGA",
+"fuel": "бензин",
+"gen_key": "ford/explorer/g_2022_23670",
+"hp": 276,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 276 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202305,
+"id": "543943",
+"name": "2.3 AT EcoBoost 285 AWD Kunlun Pinnacle 7 seats",
+"to": null
+},
+{
+"from": 202305,
+"id": "543962",
+"name": "2.3 AT EcoBoost 285 AWD Kunlun Pinnacle 6 seats",
+"to": null
+},
+{
+"from": 202310,
+"id": "543965",
+"name": "2.3 AT EcoBoost 285 AWD Gold 6 seats",
+"to": null
+},
+{
+"from": 202209,
+"id": "543975",
+"name": "2.3 AT EcoBoost 285 AWD Fashion Plus 7 seats",
+"to": null
+},
+{
+"from": 202209,
+"id": "543976",
+"name": "2.3 AT EcoBoost 285 AWD Fashion Plus 6 seats",
+"to": null
+},
+{
+"from": 202209,
+"id": "543973",
+"name": "2.3 AT EcoBoost 285 AWD Titanium 7 seats",
+"to": null
+},
+{
+"from": 202209,
+"id": "543967",
+"name": "2.3 AT EcoBoost 285 AWD ST-LINE 7 seats",
+"to": null
+},
+{
+"from": 202209,
+"id": "543974",
+"name": "2.3 AT EcoBoost 285 AWD Titanium 6 seats",
+"to": null
+},
+{
+"from": 202209,
+"id": "543972",
+"name": "2.3 AT EcoBoost 285 AWD ST-LINE 6 seats",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "CAF488WQGR",
+"fuel": "бензин",
+"hp": 276,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 276 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202209,
+"id": "544054",
+"name": "2.3 AT EcoBoost 285 Fashion Plus 7 seats",
+"to": null
+},
+{
+"from": 202209,
+"id": "544056",
+"name": "2.3 AT EcoBoost 285 Fashion Plus 6 seats",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "CAF484WQMA",
+"fuel": "бензин",
+"gen_key": "ford/explorer/g_2022_23670",
+"hp": 289,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 289 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202409,
+"id": "543975",
+"name": "2.3 AT EcoBoost 285 AWD Fashion Plus 7 seats",
+"to": null
+},
+{
+"from": 202409,
+"id": "543976",
+"name": "2.3 AT EcoBoost 285 AWD Fashion Plus 6 seats",
+"to": null
+},
+{
+"from": 202409,
+"id": "543973",
+"name": "2.3 AT EcoBoost 285 AWD Titanium 7 seats",
+"to": null
+},
+{
+"from": 202409,
+"id": "543943",
+"name": "2.3 AT EcoBoost 285 AWD Kunlun Pinnacle 7 seats",
+"to": null
+},
+{
+"from": 202409,
+"id": "543967",
+"name": "2.3 AT EcoBoost 285 AWD ST-LINE 7 seats",
+"to": null
+},
+{
+"from": 202409,
+"id": "543974",
+"name": "2.3 AT EcoBoost 285 AWD Titanium 6 seats",
+"to": null
+},
+{
+"from": 202409,
+"id": "543962",
+"name": "2.3 AT EcoBoost 285 AWD Kunlun Pinnacle 6 seats",
+"to": null
+},
+{
+"from": 202409,
+"id": "543965",
+"name": "2.3 AT EcoBoost 285 AWD Gold 6 seats",
+"to": null
+},
+{
+"from": 202409,
+"id": "543972",
+"name": "2.3 AT EcoBoost 285 AWD ST-LINE 6 seats",
+"to": null
+},
+{
+"from": 202511,
+"id": "544076",
+"name": "2.3 AT EcoBoost 285 AWD Kunlun Cross-Country 5 seats",
+"to": null
+},
+{
+"from": 202506,
+"id": "544080",
+"name": "2.3 AT EcoBoost 285 AWD Off-Road 5 seats",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "CAF484WQMA",
+"fuel": "бензин",
+"hp": 289,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.3,
+"text": "2.3 л, 289 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202409,
+"id": "544065",
+"name": "2.3 AT EcoBoost 285 Fashion 7 seats",
+"to": null
+},
+{
+"from": 202409,
+"id": "544072",
+"name": "2.3 AT EcoBoost 285 Fashion 6 seats",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "ford/explorer/g_2022_23670",
+"market": "Китай",
+"to": null
+},
 "ford/focus/g_200110_5172": {
 "from": 200110,
 "groups": [
@@ -51392,6 +52500,331 @@
 "market": "Китай",
 "to": 202605
 },
+"hongqi/h5/g_2018_16732": {
+"from": 201804,
+"groups": [
+{
+"body": [
+"CA7150HA6T"
+],
+"drive": "fwd",
+"engine": "CA4GB15TD-30",
+"fuel": "бензин",
+"hp": 166,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 166 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202109,
+"id": "461667",
+"name": "1.5T AMT Flag Joy",
+"to": 202203
+},
+{
+"from": 202109,
+"id": "461664",
+"name": "1.5T AMT Flag Rhyme",
+"to": 202203
+}
+]
+},
+{
+"body": [
+"CA7150HA6T"
+],
+"drive": "fwd",
+"engine": "CA4GC18TD-30",
+"fuel": "бензин",
+"hp": 197,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 197 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202109,
+"id": "461662",
+"name": "1.8T AT Flag Rhyme",
+"to": 202203
+},
+{
+"from": 202109,
+"id": "461661",
+"name": "1.8T AT Flagship",
+"to": 202203
+},
+{
+"from": 202109,
+"id": "460872",
+"name": "1.8T AT Flag",
+"to": 202203
+},
+{
+"from": 202109,
+"id": "461660",
+"name": "1.8T AT Flag Collar",
+"to": 202203
+}
+]
+}
+],
+"ids": true,
+"key": "hongqi/h5/g_2018_16732",
+"market": "Китай",
+"to": 202203
+},
+"hongqi/h5/g_202212_15697": {
+"from": 202203,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "CA4GC20TD",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202212,
+"id": "431690",
+"name": "2.0 AT Deluxe",
+"to": 202510
+},
+{
+"from": 202212,
+"id": "462309",
+"name": "2.0 AT Comfort",
+"to": 202512
+},
+{
+"from": 202504,
+"id": "528008",
+"name": "2.0 AT Black Edition",
+"to": null
+},
+{
+"from": 202511,
+"id": "544190",
+"name": "2.0 AT Deluxe+",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "hongqi/h5/g_202212_15697",
+"market": "Россия",
+"to": null
+},
+"hongqi/h5/g_2022_18473": {
+"from": 202203,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "CA4GB15TDH",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": 228,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 150 л.с., параллельный подзаряжаемый (PHEV) гибрид, 228 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202504,
+"id": "526940",
+"name": "PHEV 1.5 130 Super Mix",
+"to": null
+},
+{
+"from": 202504,
+"id": "526942",
+"name": "PHEV 1.5 130 Business",
+"to": null
+},
+{
+"from": 202504,
+"id": "526941",
+"name": "PHEV 1.5 170 Super Mix",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "CA4GB15TD",
+"fuel": "бензин",
+"hp": 169,
+"hp_total": 190,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 169 л.с., параллельный гибрид, 190 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202304,
+"id": "462318",
+"name": "1.5 HEV CVT Free",
+"to": 202408
+},
+{
+"from": 202304,
+"id": "462317",
+"name": "1.5 HEV CVT Ling Chang",
+"to": 202408
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "CA4GB15TD",
+"fuel": "бензин",
+"gen_key": "hongqi/h5/g_2022_18473",
+"hp": 169,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 169 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202304,
+"id": "462316",
+"name": "1.5 AMT Joy",
+"to": 202408
+},
+{
+"from": 202304,
+"id": "462315",
+"name": "1.5 AMT Rhyme",
+"to": 202408
+},
+{
+"from": 202409,
+"id": "512741",
+"name": "1.5 AMT Rhyme 500,000th Commemorative Edition",
+"to": 202604
+},
+{
+"from": 202409,
+"id": "512736",
+"name": "1.5 AMT Shadow",
+"to": 202604
+},
+{
+"from": 202409,
+"id": "512740",
+"name": "1.5 AMT Joy 500,000th Commemorative Edition",
+"to": 202604
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "CA4GB15TD",
+"fuel": "бензин",
+"hp": 169,
+"hp_total": 190,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 169 л.с., параллельный гибрид, 190 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202409,
+"id": "512742",
+"name": "1.5 HEV Rhyme 500,000th Commemorative Edition",
+"to": 202604
+},
+{
+"from": 202409,
+"id": "512748",
+"name": "1.5 HEV Smooth 500,000th Commemorative Edition",
+"to": 202604
+},
+{
+"from": 202409,
+"id": "512749",
+"name": "1.5 HEV Collar 500,000th Commemorative Edition",
+"to": 202604
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "CA4GC20TD",
+"fuel": "бензин",
+"gen_key": "hongqi/h5/g_2022_18473",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202304,
+"id": "462314",
+"name": "2.0 AT Shared",
+"to": 202408
+},
+{
+"from": 202304,
+"id": "462313",
+"name": "2.0 AT Free",
+"to": 202408
+},
+{
+"from": 202304,
+"id": "462310",
+"name": "2.0 AT Ling Chang",
+"to": 202408
+},
+{
+"from": 202409,
+"id": "512750",
+"name": "2.0 AT Joy 500,000th Commemorative Edition",
+"to": 202604
+},
+{
+"from": 202409,
+"id": "512751",
+"name": "2.0 AT Smooth 500,000th Commemorative Edition",
+"to": 202604
+},
+{
+"from": 202409,
+"id": "512752",
+"name": "2.0 AT Shadow",
+"to": 202604
+},
+{
+"from": 202409,
+"id": "512753",
+"name": "2.0 AT Collar 500,000th Commemorative Edition",
+"to": 202604
+}
+]
+}
+],
+"ids": true,
+"key": "hongqi/h5/g_2022_18473",
+"market": "Китай",
+"to": null
+},
 "hongqi/h9/g_202004_15698": {
 "from": 202004,
 "groups": [
@@ -60767,6 +62200,67 @@
 "market": "Китай",
 "to": 202605
 },
+"leapmotor/c10/g_2026_24690": {
+"from": 202606,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 313,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "313 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202606,
+"id": "557293",
+"name": "81.9 kWh 605km Smart",
+"to": null
+},
+{
+"from": 202606,
+"id": "557294",
+"name": "81.9 kWh 605km LiDAR",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "H15R",
+"fuel": "бензин",
+"hp": 95,
+"hp_total": 272,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 95 л.с., последовательный подзаряжаемый (PHEV) гибрид, 272 л.с., редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202606,
+"id": "557333",
+"name": "EREV 1.5 SSR 290km Smart",
+"to": null
+},
+{
+"from": 202606,
+"id": "557344",
+"name": "EREV 1.5 SSR 290km LiDAR",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "leapmotor/c10/g_2026_24690",
+"market": "Китай",
+"to": null
+},
 "leapmotor/c11/g_202012_17126": {
 "from": 202012,
 "groups": [
@@ -63205,6 +64699,522 @@
 "key": "lincoln/mkz/g_201607_15028",
 "market": "США",
 "to": 202008
+},
+"lincoln/nautilus/g_201806_14362": {
+"from": 201711,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "Ford EcoBoost 999",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 250 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "397035",
+"name": "2.0T AT Nautilus",
+"to": 202101
+},
+{
+"from": 201806,
+"id": "397036",
+"name": "2.0T AT Nautilus Reserve",
+"to": 202101
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "Ford EcoBoost 999",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 250 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "397037",
+"name": "2.0T AT AWD Nautilus",
+"to": 202101
+},
+{
+"from": 201806,
+"id": "397038",
+"name": "2.0T AT AWD Nautilus Reserve",
+"to": 202101
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "Ford EcoBoost 99P",
+"fuel": "бензин",
+"hp": 335,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.7,
+"text": "2.7 л, 335 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "397045",
+"name": "2.7T AT Nautilus Reserve",
+"to": 202101
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "Ford EcoBoost 99P",
+"fuel": "бензин",
+"hp": 335,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.7,
+"text": "2.7 л, 335 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "397046",
+"name": "2.7T AT AWD Nautilus Reserve",
+"to": 202101
+}
+]
+}
+],
+"ids": true,
+"key": "lincoln/nautilus/g_201806_14362",
+"market": "США",
+"to": 202101
+},
+"lincoln/nautilus/g_202102_14363": {
+"from": 202101,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "Ford EcoBoost 999",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 250 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202103,
+"id": "397047",
+"name": "2.0T AT Nautilus",
+"to": 202408
+},
+{
+"from": 202103,
+"id": "397049",
+"name": "2.0T AT Nautilus Reserve",
+"to": 202408
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "Ford EcoBoost 999",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 250 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202103,
+"id": "397048",
+"name": "2.0T AT AWD Nautilus",
+"to": 202408
+},
+{
+"from": 202103,
+"id": "397050",
+"name": "2.0T AT AWD Nautilus Reserve",
+"to": 202408
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "Ford EcoBoost 99P",
+"fuel": "бензин",
+"hp": 335,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.7,
+"text": "2.7 л, 335 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202103,
+"id": "397051",
+"name": "2.7T AT AWD Nautilus Reserve",
+"to": 202408
+},
+{
+"from": 202103,
+"id": "397052",
+"name": "2.7T AT AWD Nautilus Black Label",
+"to": 202408
+}
+]
+}
+],
+"ids": true,
+"key": "lincoln/nautilus/g_202102_14363",
+"market": "США",
+"to": 202408
+},
+"lincoln/nautilus/g_2021_20186": {
+"from": 202101,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "CAF488WQB6",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202103,
+"id": "492321",
+"name": "2.0T AT Prestige",
+"to": 202310
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "CAF488WQB6",
+"fuel": "бензин",
+"gen_key": "lincoln/nautilus/g_2021_20186",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202103,
+"id": "492324",
+"name": "2.0T AT AWD Exclusive",
+"to": 202310
+},
+{
+"from": 202103,
+"id": "492327",
+"name": "2.0T AT AWD Premium",
+"to": 202310
+},
+{
+"from": 202111,
+"id": "492329",
+"name": "2.0T AT AWD California Coast Limited Edition",
+"to": 202210
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GTDIQ8",
+"fuel": "бензин",
+"gen_key": "lincoln/nautilus/g_2021_20186",
+"hp": 322,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.7,
+"text": "2.7 л, 322 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202103,
+"id": "492331",
+"name": "2.7T AT AWD Premium",
+"to": null
+},
+{
+"from": 202103,
+"id": "492332",
+"name": "2.7T AT AWD President",
+"to": 202310
+},
+{
+"from": 202204,
+"id": "492334",
+"name": "2.7T AT AWD Elegant",
+"to": 202310
+},
+{
+"from": 202212,
+"id": "492335",
+"name": "2.7T AT AWD Centenary Limited Edition",
+"to": 202310
+}
+]
+}
+],
+"ids": true,
+"key": "lincoln/nautilus/g_2021_20186",
+"market": "Китай",
+"to": null
+},
+"lincoln/nautilus/g_202304_18068": {
+"from": 202304,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "CAF484WQC4",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 250 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202304,
+"id": "528699",
+"name": "2.0T AT AWD Reserve",
+"to": null
+},
+{
+"from": 202304,
+"id": "528700",
+"name": "2.0T AT AWD Black Label",
+"to": null
+},
+{
+"from": 202304,
+"id": "492356",
+"name": "2.0T AT AWD Premier",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "CAF484WQH0",
+"fuel": "бензин",
+"hp": 282,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 282 л.с., параллельный гибрид, 190 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202308,
+"id": "528698",
+"name": "HEV 2.0T e-CVT AWD Premier",
+"to": 202507
+},
+{
+"from": 202308,
+"id": "492360",
+"name": "HEV 2.0T e-CVT AWD Reserve",
+"to": 202507
+},
+{
+"from": 202308,
+"id": "492361",
+"name": "HEV 2.0T e-CVT AWD Black Label",
+"to": 202507
+}
+]
+}
+],
+"ids": true,
+"key": "lincoln/nautilus/g_202304_18068",
+"market": "США",
+"to": null
+},
+"lincoln/nautilus/g_2023_20187": {
+"from": 202304,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "CAF484WQC4",
+"fuel": "бензин",
+"hp": 261,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 261 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202511,
+"id": "553036",
+"name": "2.0T AT Voyage",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "CAF484WQC4",
+"fuel": "бензин",
+"gen_key": "lincoln/nautilus/g_2023_20187",
+"hp": 261,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 261 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202304,
+"id": "492338",
+"name": "2.0T AT AWD Exclusive",
+"to": 202409
+},
+{
+"from": 202304,
+"id": "492339",
+"name": "2.0T AT AWD Premium",
+"to": 202409
+},
+{
+"from": 202304,
+"id": "492343",
+"name": "2.0T AT AWD Platinum",
+"to": 202409
+},
+{
+"from": 202409,
+"id": "492339",
+"name": "2.0T AT AWD Premium",
+"to": null
+},
+{
+"from": 202409,
+"id": "539405",
+"name": "2.0T AT AWD Elite",
+"to": null
+},
+{
+"from": 202409,
+"id": "539406",
+"name": "2.0T AT AWD Executive",
+"to": null
+},
+{
+"from": 202504,
+"id": "539407",
+"name": "2.0T AT AWD Atlantis",
+"to": 202511
+},
+{
+"from": 202511,
+"id": "553033",
+"name": "2.0T AT AWD Atlantis Premium",
+"to": null
+},
+{
+"from": 202511,
+"id": "553034",
+"name": "2.0T AT AWD Luxury",
+"to": null
+},
+{
+"from": 202511,
+"id": "553035",
+"name": "2.0T AT AWD Black Warrior Edition",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "CAF484WQH0",
+"fuel": "бензин",
+"hp": 282,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 282 л.с., параллельный гибрид, 190 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202308,
+"id": "492348",
+"name": "HEV 2.0T e-CVT AWD Premium",
+"to": 202409
+},
+{
+"from": 202308,
+"id": "492349",
+"name": "HEV 2.0T e-CVT AWD Platinum",
+"to": 202409
+},
+{
+"from": 202308,
+"id": "492350",
+"name": "HEV 2.0T e-CVT AWD President",
+"to": 202409
+},
+{
+"from": 202409,
+"id": "539408",
+"name": "HEV 2.0T e-CVT AWD Elite",
+"to": null
+},
+{
+"from": 202409,
+"id": "539409",
+"name": "HEV 2.0T e-CVT AWD Ultimate",
+"to": null
+},
+{
+"from": 202409,
+"id": "492350",
+"name": "HEV 2.0T e-CVT AWD President",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "lincoln/nautilus/g_2023_20187",
+"market": "Китай",
+"to": null
 },
 "luxeed/r7/g_202409_21057": {
 "from": 202408,
@@ -106938,6 +108948,41 @@
 }
 },
 "models": {
+"acura": {
+"acuracl": "cl",
+"acurailx": "ilx",
+"acuraintegra": "integra",
+"acuramdx": "mdx",
+"acurardx": "rdx",
+"acurarsx": "rsx",
+"acuratl": "tl",
+"acuratlx": "tlx",
+"acuratsx": "tsx",
+"acurazdx": "zdx",
+"adx": "adx",
+"cdx": "cdx",
+"cl": "cl",
+"el": "el",
+"engine": "engine",
+"frame": "frame",
+"ilx": "ilx",
+"integra": "integra",
+"legend": "legend",
+"mdx": "mdx",
+"nsx": "nsx",
+"rdx": "rdx",
+"rl": "rl",
+"rlx": "rlx",
+"rsx": "rsx",
+"slx": "slx",
+"tl": "tl",
+"tlx": "tlx",
+"tsx": "tsx",
+"vigor": "vigor",
+"zdx": "zdx",
+"двигателиacura": "engine",
+"кузоваacura": "frame"
+},
 "aito": {
 "aitom5": "m5",
 "aitom6": "m6",
@@ -114768,6 +116813,120 @@
 ],
 "name": "44.5 kWh E-Base"
 },
+"462316": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,5 с"
+],
+[
+"Максимальная скорость",
+"215 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"169 л.с. (124 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"258 Н·м при 1500 об/мин"
+],
+[
+"Модель двигателя",
+"CA4GB15TD"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,2 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4988 × 1865 × 1465 мм"
+],
+[
+"Колёсная база",
+"2920 мм"
+],
+[
+"Масса",
+"1565 кг"
+],
+[
+"Топливный бак",
+"58 л"
+],
+[
+"Багажник",
+"430 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/55 R17"
+]
+]
+]
+],
+"name": "1.5 AMT Joy"
+},
 "463603": {
 "groups": [
 [
@@ -121770,6 +123929,132 @@
 ]
 ],
 "name": "EREV 1.5 216km Comfort"
+},
+"519180": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"7,5 с"
+],
+[
+"Максимальная скорость",
+"180 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"265 л.с. (195 кВт) при 6500 об/мин"
+],
+[
+"Крутящий момент",
+"380 Н·м при 3000 об/мин"
+],
+[
+"Модель двигателя",
+"K20C5"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Город",
+"10,5 л/100 км"
+],
+[
+"Трасса",
+"9 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4752 × 1926 × 1668 мм"
+],
+[
+"Колёсная база",
+"2750 мм"
+],
+[
+"Клиренс",
+"144 мм"
+],
+[
+"Масса",
+"1827 кг"
+],
+[
+"Топливный бак",
+"65 л"
+],
+[
+"Багажник",
+"660 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"235/55 R19"
+],
+[
+"Радиус разворота",
+"5,8 м"
+]
+]
+]
+],
+"name": "2.0T AT SH-AWD Smart Edition VI"
 },
 "519318": {
 "groups": [
