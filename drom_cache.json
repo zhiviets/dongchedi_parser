@@ -5503,6 +5503,7 @@
 "drive": "fwd",
 "engine": "DMSA",
 "fuel": "бензин",
+"gen_key": "audi/a5/g_2018_21385",
 "hp": 204,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -5561,6 +5562,7 @@
 "drive": "4wd",
 "engine": "DMSA",
 "fuel": "бензин",
+"gen_key": "audi/a5/g_2018_21385",
 "hp": 204,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -5613,6 +5615,7 @@
 "drive": "4wd",
 "engine": "DLH",
 "fuel": "бензин",
+"gen_key": "audi/a5/g_2018_21385",
 "hp": 252,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -5653,6 +5656,7 @@
 "drive": "4wd",
 "engine": "DMTA",
 "fuel": "бензин",
+"gen_key": "audi/a5/g_2018_21385",
 "hp": 265,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -5718,6 +5722,7 @@
 "drive": "fwd",
 "engine": "DMSA",
 "fuel": "бензин",
+"gen_key": "audi/a5/g_2018_21406",
 "hp": 204,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -5740,6 +5745,7 @@
 "drive": "4wd",
 "engine": "DLH",
 "fuel": "бензин",
+"gen_key": "audi/a5/g_2018_21406",
 "hp": 252,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -5774,6 +5780,7 @@
 "drive": "4wd",
 "engine": "DMTA",
 "fuel": "бензин",
+"gen_key": "audi/a5/g_2018_21406",
 "hp": 265,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -5827,6 +5834,7 @@
 "drive": "fwd",
 "engine": "DMSA",
 "fuel": "бензин",
+"gen_key": "audi/a5/g_2018_21407",
 "hp": 204,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -5850,6 +5858,7 @@
 "drive": "4wd",
 "engine": "DLH",
 "fuel": "бензин",
+"gen_key": "audi/a5/g_2018_21407",
 "hp": 252,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -5884,6 +5893,7 @@
 "drive": "4wd",
 "engine": "DMTA",
 "fuel": "бензин",
+"gen_key": "audi/a5/g_2018_21407",
 "hp": 265,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
@@ -8653,31 +8663,37 @@
 "trims": [
 {
 "from": 202105,
+"id": "495926",
 "name": "L 2.0 40 TFSI quattro S tronic Fashion and Elegant",
 "to": null
 },
 {
 "from": 202105,
+"id": "495906",
 "name": "L 2.0 40 TFSI quattro S tronic Fashion and Dynamic",
 "to": null
 },
 {
 "from": 202105,
+"id": "495914",
 "name": "L 2.0 40 TFSI quattro S tronic Luxury and Dynamic",
 "to": null
 },
 {
 "from": 202105,
+"id": "495917",
 "name": "L 2.0 40 TFSI quattro S tronic Luxury and Elegant",
 "to": null
 },
 {
 "from": 202308,
+"id": "495939",
 "name": "L 2.0 40 TFSI quattro S tronic Ice and Snow",
 "to": 202310
 },
 {
 "from": 202105,
+"id": "495941",
 "name": "L 2.0 40 TFSI quattro S tronic RS Combustion Speed Kit",
 "to": 202310
 }
@@ -8699,16 +8715,19 @@
 "trims": [
 {
 "from": 202305,
+"id": "495920",
 "name": "L 2.0 45 TFSI quattro S tronic Luxury and Dynamic",
 "to": null
 },
 {
 "from": 202308,
+"id": "495940",
 "name": "L 2.0 45 TFSI quattro S tronic Luxury and Dynamic/Elegant",
 "to": null
 },
 {
 "from": 202308,
+"id": "495923",
 "name": "L 2.0 45 TFSI quattro S tronic Premium and Dynamic",
 "to": null
 }
@@ -8730,17 +8749,20 @@
 "trims": [
 {
 "from": 202105,
+"id": "495920",
 "name": "L 2.0 45 TFSI quattro S tronic Luxury and Dynamic",
 "to": 202308
 },
 {
 "from": 202105,
+"id": "495940",
 "name": "L 2.0 45 TFSI quattro S tronic Luxury and Dynamic/Elegant",
 "to": 202308
 }
 ]
 }
 ],
+"ids": true,
 "key": "audi/q5/g_2021_20275",
 "market": "Китай",
 "to": null
@@ -118057,6 +118079,132 @@
 ]
 ],
 "name": "Honor/Classic 2.0 CVT 2WD Comfort"
+},
+"495926": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,1 с"
+],
+[
+"Максимальная скорость",
+"211 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"190 л.с. (140 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"320 Н·м при 1450 об/мин"
+],
+[
+"Модель двигателя",
+"DTG"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,7 л/100 км"
+],
+[
+"Город",
+"8,1 л/100 км"
+],
+[
+"Трасса",
+"5,8 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4770 × 1893 × 1667 мм"
+],
+[
+"Колёсная база",
+"2907 мм"
+],
+[
+"Клиренс",
+"200 мм"
+],
+[
+"Масса",
+"1870 кг"
+],
+[
+"Топливный бак",
+"73 л"
+],
+[
+"Багажник",
+"550 (1520) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"235/55 R19"
+]
+]
+]
+],
+"name": "L 2.0 40 TFSI quattro S tronic Fashion and Elegant"
 },
 "496579": {
 "groups": [
