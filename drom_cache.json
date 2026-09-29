@@ -869,6 +869,13 @@
 "g_202502_22010"
 ]
 },
+"byd/song/china": {
+"day": 739888,
+"gens": [
+"g_2015_13086",
+"g_2018_13087"
+]
+},
 "byd/song_l/china": {
 "day": 739884,
 "gens": [
@@ -30241,6 +30248,466 @@
 "key": "byd/seal_5/g_202502_22010",
 "market": "Китай",
 "to": null
+},
+"byd/song/g_2015_13086": {
+"from": 201510,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "218 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 201803,
+"id": "468527",
+"name": "EV400 62 kWh Aggressive",
+"to": 201903
+},
+{
+"from": 201803,
+"id": "468530",
+"name": "EV400 62 kWh Enjoy",
+"to": 201903
+},
+{
+"from": 201801,
+"id": "468533",
+"name": "EV300 48 kWh Luxury",
+"to": 201903
+},
+{
+"from": 201801,
+"id": "468534",
+"name": "EV300 48 kWh Distinguished",
+"to": 201903
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 154 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201803,
+"id": "468665",
+"name": "1.5 MT Progressive",
+"to": 201807
+},
+{
+"from": 201803,
+"id": "468666",
+"name": "1.5 MT Advance",
+"to": 201807
+},
+{
+"from": 201803,
+"id": "468667",
+"name": "1.5 MT Exclusive",
+"to": 201807
+},
+{
+"from": 201609,
+"id": "468683",
+"name": "1.5 MT Сomfort",
+"to": 201803
+},
+{
+"from": 201609,
+"id": "468674",
+"name": "1.5 MT Leading",
+"to": 201803
+},
+{
+"from": 201609,
+"id": "468675",
+"name": "1.5 MT Elite",
+"to": 201803
+},
+{
+"from": 201609,
+"id": "468677",
+"name": "1.5 MT Elegance",
+"to": 201803
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 154 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201803,
+"id": "468671",
+"name": "1.5 DCT Comfort",
+"to": 201807
+},
+{
+"from": 201803,
+"id": "468668",
+"name": "1.5 DCT Luxury",
+"to": 201807
+},
+{
+"from": 201803,
+"id": "468669",
+"name": "1.5 DCT Premium",
+"to": 201807
+},
+{
+"from": 201803,
+"id": "468670",
+"name": "1.5 DCT Honor",
+"to": 201807
+},
+{
+"from": 201609,
+"id": "468676",
+"name": "1.5 DCT Сomfort",
+"to": 201803
+},
+{
+"from": 201609,
+"id": "468668",
+"name": "1.5 DCT Luxury",
+"to": 201803
+},
+{
+"from": 201609,
+"id": "468679",
+"name": "1.5 DCT Elite",
+"to": 201803
+},
+{
+"from": 201704,
+"id": "468680",
+"name": "1.5 DCT Elegance",
+"to": 201803
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": 299,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 154 л.с., параллельный подзаряжаемый (PHEV) гибрид, 299 л.с., робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201704,
+"id": "515972",
+"name": "DM 1.5 DCT 4WD Luxury",
+"to": 201807
+},
+{
+"from": 201704,
+"id": "515978",
+"name": "DM 1.5 DCT 4WD Premium",
+"to": 201807
+},
+{
+"from": 201704,
+"id": "515979",
+"name": "DM 1.5 DCT 4WD Honor",
+"to": 201807
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD487ZQA",
+"fuel": "бензин",
+"hp": 205,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 205 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201609,
+"id": "468673",
+"name": "2.0 DCT Premium",
+"to": 201807
+},
+{
+"from": 201609,
+"id": "468672",
+"name": "2.0 DCT Flagship",
+"to": 201807
+},
+{
+"from": 201609,
+"id": "468682",
+"name": "2.0 DCT Trendy",
+"to": 201703
+},
+{
+"from": 201609,
+"id": "468681",
+"name": "2.0 DCT Luxury",
+"to": 201703
+}
+]
+}
+],
+"ids": true,
+"key": "byd/song/g_2015_13086",
+"market": "Китай",
+"to": 201902
+},
+"byd/song/g_2018_13087": {
+"from": 201808,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "218 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 201808,
+"id": "468506",
+"name": "EV500 61.9 kWh Lingshang",
+"to": 202208
+},
+{
+"from": 201808,
+"id": "468517",
+"name": "EV500 61.9 kWh Dynamic",
+"to": 202208
+},
+{
+"from": 201808,
+"id": "468520",
+"name": "EV500 61.9 kWh Sharing",
+"to": 202208
+},
+{
+"from": 201808,
+"id": "468524",
+"name": "EV500 61.9 kWh Leading",
+"to": 202208
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 154 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201808,
+"id": "468650",
+"name": "1.5 MT Fashion",
+"to": 202002
+},
+{
+"from": 201808,
+"id": "468643",
+"name": "1.5 MT Dynamic",
+"to": 202002
+},
+{
+"from": 201808,
+"id": "468651",
+"name": "1.5 MT Enjoyment",
+"to": 202002
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 154 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201808,
+"id": "468638",
+"name": "1.5 DCT Progressive",
+"to": 202002
+},
+{
+"from": 201808,
+"id": "468633",
+"name": "1.5 DCT Dynamic",
+"to": 202002
+},
+{
+"from": 201808,
+"id": "468639",
+"name": "1.5 DCT Enjoyment",
+"to": 202002
+},
+{
+"from": 201808,
+"id": "468641",
+"name": "1.5 DCT Brilliance",
+"to": 202002
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": 299,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 154 л.с., параллельный подзаряжаемый (PHEV) гибрид, 299 л.с., робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201808,
+"id": "515985",
+"name": "DM 1.5 DCT 4WD Smart Link Sharp Fashion",
+"to": 202208
+},
+{
+"from": 201808,
+"id": "515986",
+"name": "DM 1.5 DCT 4WD Smart Link Sharp Dynamic",
+"to": 202208
+},
+{
+"from": 201808,
+"id": "515990",
+"name": "DM 1.5 DCT 4WD Smart Link Sharp Enjoy",
+"to": 202208
+},
+{
+"from": 201808,
+"id": "515991",
+"name": "DM 1.5 DCT 4WD Smart Link Sharp Brilliance",
+"to": 202208
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQB",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 160 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202011,
+"id": "468629",
+"name": "1.5 MT Comfort",
+"to": 202208
+},
+{
+"from": 202011,
+"id": "468628",
+"name": "1.5 MT Luxury",
+"to": 202208
+},
+{
+"from": 202003,
+"id": "468629",
+"name": "1.5 MT Comfort",
+"to": 202010
+},
+{
+"from": 202003,
+"id": "468628",
+"name": "1.5 MT Luxury",
+"to": 202010
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQB",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 160 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202011,
+"id": "468627",
+"name": "1.5 DCT Elite",
+"to": 202208
+},
+{
+"from": 202011,
+"id": "468626",
+"name": "1.5 DCT Luxury",
+"to": 202208
+},
+{
+"from": 202003,
+"id": "468627",
+"name": "1.5 DCT Elite",
+"to": 202010
+}
+]
+}
+],
+"ids": true,
+"key": "byd/song/g_2018_13087",
+"market": "Китай",
+"to": 202208
 },
 "byd/song_l/g_202312_20078": {
 "from": 202312,
@@ -88938,6 +89405,7 @@
 "drive": "fwd",
 "engine": "15S4C",
 "fuel": "бензин",
+"gen_key": "roewe/i5/g_2017_17510",
 "hp": 120,
 "hp_total": null,
 "hybrid": null,
@@ -88994,6 +89462,7 @@
 "drive": "fwd",
 "engine": "15E4E",
 "fuel": "бензин",
+"gen_key": "roewe/i5/g_2017_17510",
 "hp": 169,
 "hp_total": null,
 "hybrid": null,
@@ -121044,6 +121513,108 @@
 ]
 ],
 "name": "1.5 TGI DCT Super Sense Elite"
+},
+"490452": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"180 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"120 л.с. (88 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"150 Н·м при 4500 об/мин"
+],
+[
+"Модель двигателя",
+"15S4C"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"5,5 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4601 × 1818 × 1489 мм"
+],
+[
+"Колёсная база",
+"2680 мм"
+],
+[
+"Масса",
+"1230 кг"
+],
+[
+"Топливный бак",
+"45 л"
+],
+[
+"Багажник",
+"512 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"205/55 R16"
+]
+]
+]
+],
+"name": "1.5 CVT Leading"
 },
 "490453": {
 "groups": [
