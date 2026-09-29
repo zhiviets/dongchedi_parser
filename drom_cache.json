@@ -1885,6 +1885,10 @@
 "day": 739885,
 "gens": []
 },
+"lexus/lx700h/china": {
+"day": 739888,
+"gens": []
+},
 "lexus/rc_f/china": {
 "day": 739888,
 "gens": []
@@ -2754,6 +2758,17 @@
 "g_202008_12118",
 "g_202008_23017",
 "g_2025_23018"
+]
+},
+"volvo/v60/china": {
+"day": 739888,
+"gens": [
+"g_201005_1553",
+"g_2010_23039",
+"g_201308_7423",
+"g_2013_23040",
+"g_201803_8209",
+"g_2018_23041"
 ]
 },
 "volvo/xc40/china": {
@@ -54268,6 +54283,7 @@
 "drive": "rwd",
 "engine": "M 274 DE 20 AL",
 "fuel": "бензин",
+"gen_key": "infiniti/q50/g_2014_24184",
 "hp": 211,
 "hp_total": null,
 "hybrid": null,
@@ -75523,6 +75539,37 @@
 ],
 "ids": true,
 "key": "mercedes-benz/eqs/g_2021_22019",
+"market": "Китай",
+"to": null
+},
+"mercedes-benz/eqs/g_2024_23689": {
+"from": 202404,
+"groups": [
+{
+"body": [
+"V297"
+],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 448,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "448 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202509,
+"id": "544203",
+"name": "EQS 500 4MATIC",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/eqs/g_2024_23689",
 "market": "Китай",
 "to": null
 },
@@ -102150,6 +102197,970 @@
 "market": "Китай",
 "to": null
 },
+"volvo/v60/g_201005_1553": {
+"from": 201005,
+"groups": [
+{
+"body": [
+"FW45"
+],
+"drive": "fwd",
+"engine": "B4164T3",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 150 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201005,
+"id": "65767",
+"name": "1.6 T3 MT Kinetic",
+"to": 201307
+},
+{
+"from": 201005,
+"id": "65782",
+"name": "1.6 T3 MT Base",
+"to": 201206
+},
+{
+"from": 201005,
+"id": "65780",
+"name": "1.6 T3 MT Momentum",
+"to": 201206
+},
+{
+"from": 201005,
+"id": "65781",
+"name": "1.6 T3 MT Summum",
+"to": 201206
+}
+]
+},
+{
+"body": [
+"FW45"
+],
+"drive": "fwd",
+"engine": "B4164T3",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201201,
+"id": "67372",
+"name": "1.6 T3 Powershift Base",
+"to": 201206
+},
+{
+"from": 201201,
+"id": "67373",
+"name": "1.6 T3 Powershift Kinetic",
+"to": 201307
+},
+{
+"from": 201201,
+"id": "67374",
+"name": "1.6 T3 Powershift Momentum",
+"to": 201307
+},
+{
+"from": 201201,
+"id": "67375",
+"name": "1.6 T3 Powershift Summum",
+"to": 201307
+}
+]
+},
+{
+"body": [
+"FW48"
+],
+"drive": "fwd",
+"engine": "B4164T",
+"fuel": "бензин",
+"hp": 180,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 180 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201005,
+"id": "65783",
+"name": "1.6 T4 Powershift Base",
+"to": 201206
+},
+{
+"from": 201005,
+"id": "65787",
+"name": "1.6 T4 Powershift Kinetic",
+"to": 201206
+},
+{
+"from": 201005,
+"id": "65790",
+"name": "1.6 T4 Powershift Momentum",
+"to": 201206
+},
+{
+"from": 201005,
+"id": "65794",
+"name": "1.6 T4 Powershift Summum",
+"to": 201206
+}
+]
+},
+{
+"body": [
+"FW47"
+],
+"drive": "fwd",
+"engine": "B4204T7",
+"fuel": "бензин",
+"hp": 240,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 240 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201005,
+"id": "65784",
+"name": "2.0 T MT Base",
+"to": 201112
+},
+{
+"from": 201005,
+"id": "65788",
+"name": "2.0 T MT Kinetic",
+"to": 201112
+},
+{
+"from": 201005,
+"id": "65791",
+"name": "2.0 T MT Momentum",
+"to": 201112
+},
+{
+"from": 201005,
+"id": "65795",
+"name": "2.0 T MT Summum",
+"to": 201112
+}
+]
+},
+{
+"body": [
+"FW47"
+],
+"drive": "fwd",
+"engine": "B4204T7",
+"fuel": "бензин",
+"hp": 240,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 240 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201005,
+"id": "65785",
+"name": "2.0 T AT Base",
+"to": 201206
+},
+{
+"from": 201005,
+"id": "65789",
+"name": "2.0 T AT Kinetic",
+"to": 201307
+},
+{
+"from": 201005,
+"id": "65792",
+"name": "2.0 T AT Momentum",
+"to": 201307
+},
+{
+"from": 201005,
+"id": "65796",
+"name": "2.0 T AT Summum",
+"to": 201307
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "D5244T11, D5244T15",
+"fuel": "дизель",
+"hp": 215,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 215 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201005,
+"id": "65793",
+"name": "2.4 D5 AT AWD Momentum",
+"to": 201112
+},
+{
+"from": 201005,
+"id": "65797",
+"name": "2.4 D5 AT AWD Summum",
+"to": 201112
+}
+]
+},
+{
+"body": [
+"FW90"
+],
+"drive": "4wd",
+"engine": "B6304T4",
+"fuel": "бензин",
+"hp": 304,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 304 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201005,
+"id": "65786",
+"name": "3.0 T6 AT AWD R-Design",
+"to": 201307
+},
+{
+"from": 201005,
+"id": "65798",
+"name": "3.0 T6 AT AWD Summum",
+"to": 201307
+}
+]
+}
+],
+"ids": true,
+"key": "volvo/v60/g_201005_1553",
+"market": "Россия",
+"to": 201307
+},
+"volvo/v60/g_2010_23039": {
+"from": 201005,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "B5204T9",
+"fuel": "бензин",
+"hp": 214,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 214 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201204,
+"id": "536884",
+"name": "2.0 T5 AT Core",
+"to": 201308
+},
+{
+"from": 201204,
+"id": "536885",
+"name": "2.0 T5 AT Comfort",
+"to": 201308
+},
+{
+"from": 201204,
+"id": "536886",
+"name": "2.0 T5 AT Inscription",
+"to": 201308
+},
+{
+"from": 201204,
+"id": "536887",
+"name": "2.0 T5 AT Excellence",
+"to": 201308
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B6304T4",
+"fuel": "бензин",
+"hp": 305,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 305 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201204,
+"id": "536882",
+"name": "3.0 T6 AT AWD Sport",
+"to": 201311
+},
+{
+"from": 201009,
+"id": "536883",
+"name": "3.0 T6 AT AWD R-Design",
+"to": 201311
+}
+]
+}
+],
+"ids": true,
+"key": "volvo/v60/g_2010_23039",
+"market": "Китай",
+"to": 201311
+},
+"volvo/v60/g_201308_7423": {
+"from": 201405,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "D4204T4",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201505,
+"id": "177552",
+"name": "2.0 D3 Drive-E Geartronic Cross Country Kinetic",
+"to": 201901
+},
+{
+"from": 201505,
+"id": "177553",
+"name": "2.0 D3 Drive-E Geartronic Cross Country Momentum",
+"to": 201901
+},
+{
+"from": 201505,
+"id": "177554",
+"name": "2.0 D3 Drive-E Geartronic Cross Country Summum",
+"to": 201901
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B4204T11",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201810,
+"id": "228489",
+"name": "2.0 T5 AWD Geartronic Cross Country Kinetic",
+"to": 201901
+},
+{
+"from": 201810,
+"id": "228490",
+"name": "2.0 T5 Geartronic Cross Country Summum",
+"to": 201901
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "D5244T21",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201505,
+"id": "177555",
+"name": "2.4 D4 AWD Geartronic Cross Country Kinetic",
+"to": 201901
+},
+{
+"from": 201505,
+"id": "177557",
+"name": "2.4 D4 Geartronic Cross Country Summum",
+"to": 201901
+},
+{
+"from": 201505,
+"id": "177556",
+"name": "2.4 D4 Geartronic Cross Country Momentum",
+"to": 201711
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "D5244T11, D5244T15",
+"fuel": "дизель",
+"hp": 215,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.4,
+"text": "2.4 л, дизель, 215 л.с., параллельный подзаряжаемый (PHEV) гибрид, 68 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201405,
+"id": "177551",
+"name": "2.4 PiH D6 AT AWD Summum",
+"to": 201507
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B5254T14",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 249 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201505,
+"id": "177558",
+"name": "2.5 T5 AWD Geartronic Cross Country Kinetic",
+"to": 201809
+},
+{
+"from": 201505,
+"id": "177560",
+"name": "2.5 T5 AWD Geartronic Cross Country Summum",
+"to": 201809
+},
+{
+"from": 201505,
+"id": "177559",
+"name": "2.5 T5 AWD Geartronic Cross Country Momentum",
+"to": 201711
+}
+]
+}
+],
+"ids": true,
+"key": "volvo/v60/g_201308_7423",
+"market": "Россия",
+"to": 201901
+},
+"volvo/v60/g_2013_23040": {
+"from": 201305,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "B4204T19",
+"fuel": "бензин",
+"gen_key": "volvo/v60/g_2013_23040",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201512,
+"id": "536948",
+"name": "2.0 T4 AT Core",
+"to": 201905
+},
+{
+"from": 201905,
+"id": "536948",
+"name": "2.0 T4 AT Core",
+"to": 201908
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B5204T9",
+"fuel": "бензин",
+"hp": 214,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 214 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201308,
+"id": "536888",
+"name": "2.0 T5 AT Momentum",
+"to": 201407
+},
+{
+"from": 201308,
+"id": "536890",
+"name": "2.0 T5 AT Inscription",
+"to": 201407
+},
+{
+"from": 201308,
+"id": "536891",
+"name": "2.0 T5 AT R-Design",
+"to": 201407
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B4204T11",
+"fuel": "бензин",
+"gen_key": "volvo/v60/g_2013_23040",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201407,
+"id": "536893",
+"name": "2.0 T5 Geartronic Momentum",
+"to": 201512
+},
+{
+"from": 201407,
+"id": "536894",
+"name": "2.0 T5 Geartronic Momentum R-Design",
+"to": 201512
+},
+{
+"from": 201407,
+"id": "536895",
+"name": "2.0 T5 Geartronic Inscription",
+"to": 201512
+},
+{
+"from": 201407,
+"id": "536896",
+"name": "2.0 T5 Geartronic Inscription R-Design",
+"to": 201512
+},
+{
+"from": 201512,
+"id": "536893",
+"name": "2.0 T5 Geartronic Momentum",
+"to": 201905
+},
+{
+"from": 201512,
+"id": "536895",
+"name": "2.0 T5 Geartronic Inscription",
+"to": 201905
+},
+{
+"from": 201512,
+"id": "536896",
+"name": "2.0 T5 Geartronic Inscription R-Design",
+"to": 201905
+},
+{
+"from": 201512,
+"id": "536947",
+"name": "2.0 T5 Geartronic Excellence",
+"to": 201905
+},
+{
+"from": 201905,
+"id": "536893",
+"name": "2.0 T5 Geartronic Momentum",
+"to": 201908
+},
+{
+"from": 201905,
+"id": "536895",
+"name": "2.0 T5 Geartronic Inscription",
+"to": 201908
+},
+{
+"from": 201905,
+"id": "536947",
+"name": "2.0 T5 Geartronic Excellence",
+"to": 201908
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B4204T11",
+"fuel": "бензин",
+"gen_key": "volvo/v60/g_2013_23040",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201610,
+"id": "536965",
+"name": "2.0 T5 Geartronic AWD Cross Country",
+"to": 201908
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B4204T29",
+"fuel": "бензин",
+"gen_key": "volvo/v60/g_2013_23040",
+"hp": 367,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 367 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201609,
+"id": "536971",
+"name": "2.0 Geartronic AWD Polestar",
+"to": 201808
+},
+{
+"from": 201808,
+"id": "536971",
+"name": "2.0 Geartronic AWD Polestar",
+"to": 201908
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B5254T12",
+"fuel": "бензин",
+"hp": 254,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.5,
+"text": "2.5 л, 254 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201511,
+"id": "536950",
+"name": "2.5 T6 AT AWD Cross Country",
+"to": 201610
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "B6304T4",
+"fuel": "бензин",
+"hp": 305,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 305 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201311,
+"id": "536889",
+"name": "3.0 T6 AT AWD R-Design",
+"to": 201407
+},
+{
+"from": 201407,
+"id": "536889",
+"name": "3.0 T6 AT AWD R-Design",
+"to": 201512
+}
+]
+}
+],
+"ids": true,
+"key": "volvo/v60/g_2013_23040",
+"market": "Китай",
+"to": 201908
+},
+"volvo/v60/g_201803_8209": {
+"from": 201802,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "B4204T26",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 250 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201904,
+"id": "244560",
+"name": "2.0 T5 AWD Geartronic Cross Country Plus",
+"to": 202112
+}
+]
+}
+],
+"ids": true,
+"key": "volvo/v60/g_201803_8209",
+"market": "Россия",
+"to": 202112
+},
+"volvo/v60/g_2018_23041": {
+"from": 201802,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "B4204T19",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201908,
+"id": "536973",
+"name": "2.0 T4 Geartronic Momentum Luxury",
+"to": 202012
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B420T6",
+"fuel": "бензин",
+"hp": 197,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 197 л.с., мягкий гибрид, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202012,
+"id": "536978",
+"name": "2.0 B4 Geartronic Momentum Luxury",
+"to": 202209
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B420T5",
+"fuel": "бензин",
+"hp": 197,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 197 л.с., мягкий гибрид, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202209,
+"id": "536982",
+"name": "2.0 B4 DCT Momentum Luxury",
+"to": 202308
+},
+{
+"from": 202308,
+"id": "536982",
+"name": "2.0 B4 DCT Momentum Luxury",
+"to": 202411
+},
+{
+"from": 202411,
+"id": "536982",
+"name": "2.0 B4 DCT Momentum Luxury",
+"to": 202607
+},
+{
+"from": 202607,
+"id": "536982",
+"name": "2.0 B4 DCT Momentum Luxury",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B420T2",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 250 л.с., мягкий гибрид, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202012,
+"id": "536979",
+"name": "2.0 B5 Geartronic Inscription Luxury",
+"to": 202209
+},
+{
+"from": 202012,
+"id": "536980",
+"name": "2.0 B5 Geartronic Inscription Sport",
+"to": 202209
+},
+{
+"from": 202012,
+"id": "536981",
+"name": "2.0 B5 Geartronic R-Design",
+"to": 202209
+},
+{
+"from": 202209,
+"id": "536979",
+"name": "2.0 B5 Geartronic Inscription Luxury",
+"to": 202303
+},
+{
+"from": 202209,
+"id": "536980",
+"name": "2.0 B5 Geartronic Inscription Sport",
+"to": 202303
+},
+{
+"from": 202209,
+"id": "536981",
+"name": "2.0 B5 Geartronic R-Design",
+"to": 202303
+},
+{
+"from": 202303,
+"id": "536979",
+"name": "2.0 B5 Geartronic Inscription Luxury",
+"to": 202411
+},
+{
+"from": 202303,
+"id": "536980",
+"name": "2.0 B5 Geartronic Inscription Sport",
+"to": 202411
+},
+{
+"from": 202303,
+"id": "536981",
+"name": "2.0 B5 Geartronic R-Design",
+"to": 202411
+},
+{
+"from": 202411,
+"id": "536979",
+"name": "2.0 B5 Geartronic Inscription Luxury",
+"to": null
+},
+{
+"from": 202411,
+"id": "536980",
+"name": "2.0 B5 Geartronic Inscription Sport",
+"to": null
+},
+{
+"from": 202411,
+"id": "536981",
+"name": "2.0 B5 Geartronic R-Design",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "B4204T11",
+"fuel": "бензин",
+"hp": 254,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 254 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201908,
+"id": "536976",
+"name": "2.0 T5 Geartronic Inscription Sport",
+"to": 202012
+},
+{
+"from": 201908,
+"id": "536975",
+"name": "2.0 T5 Geartronic Inscription Luxury",
+"to": 202012
+},
+{
+"from": 201908,
+"id": "536977",
+"name": "2.0 T5 Geartronic R-Design Sport",
+"to": 202012
+}
+]
+}
+],
+"ids": true,
+"key": "volvo/v60/g_2018_23041",
+"market": "Китай",
+"to": null
+},
 "volvo/xc40/g_201709_7858": {
 "from": 201709,
 "groups": [
@@ -127466,6 +128477,124 @@
 ]
 ],
 "name": "PHEV 2.0 AWD Geartronic Long Range Momentum Luxury"
+},
+"536971": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"4,8 с"
+],
+[
+"Максимальная скорость",
+"250 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"367 л.с. (270 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"470 Н·м при 3100 об/мин"
+],
+[
+"Модель двигателя",
+"B4204T29"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина и компрессор"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-5"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"8,6 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4635 × 1866 × 1484 мм"
+],
+[
+"Колёсная база",
+"2776 мм"
+],
+[
+"Клиренс",
+"136 мм"
+],
+[
+"Масса",
+"1780 кг"
+],
+[
+"Топливный бак",
+"68 л"
+],
+[
+"Багажник",
+"557 (1241) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"245/35 R20"
+]
+]
+]
+],
+"name": "2.0 Geartronic AWD Polestar"
 },
 "537857": {
 "groups": [
