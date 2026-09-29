@@ -92647,6 +92647,7 @@
 "drive": "4wd",
 "engine": "E30Z",
 "fuel": "бензин",
+"gen_key": "tank/500/g_2021_16805",
 "hp": 360,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
