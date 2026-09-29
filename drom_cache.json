@@ -875,6 +875,12 @@
 "g_202312_20078"
 ]
 },
+"byd/song_l_dm/china": {
+"day": 739888,
+"gens": [
+"g_202407_21640"
+]
+},
 "byd/song_max/china": {
 "day": 739884,
 "gens": [
@@ -2305,6 +2311,10 @@
 "gens": [
 "g_2025_23755"
 ]
+},
+"nissan/patrol/china": {
+"day": 739888,
+"gens": []
 },
 "nissan/qashqai/china": {
 "day": 739885,
@@ -30332,6 +30342,107 @@
 "market": "Китай",
 "to": null
 },
+"byd/song_l_dm/g_202407_21640": {
+"from": 202407,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472QC",
+"fuel": "бензин",
+"hp": 101,
+"hp_total": 218,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 101 л.с., параллельный подзаряжаемый (PHEV) гибрид, 218 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202407,
+"id": "518053",
+"name": "DM-i 1.5 CVT 75km Leading",
+"to": 202501
+},
+{
+"from": 202407,
+"id": "518054",
+"name": "DM-i 1.5 CVT 112km Leading",
+"to": 202501
+},
+{
+"from": 202407,
+"id": "518055",
+"name": "DM-i 1.5 CVT 112km Beyond",
+"to": 202501
+},
+{
+"from": 202407,
+"id": "518056",
+"name": "DM-i 1.5 CVT 160km Beyond",
+"to": 202501
+},
+{
+"from": 202407,
+"id": "518057",
+"name": "DM-i 1.5 CVT 160km Excellence",
+"to": 202501
+},
+{
+"from": 202503,
+"id": "518053",
+"name": "DM-i 1.5 CVT 75km Leading",
+"to": null
+},
+{
+"from": 202503,
+"id": "518054",
+"name": "DM-i 1.5 CVT 112km Leading",
+"to": null
+},
+{
+"from": 202503,
+"id": "518055",
+"name": "DM-i 1.5 CVT 112km Beyond",
+"to": null
+},
+{
+"from": 202503,
+"id": "518056",
+"name": "DM-i 1.5 CVT 160km Beyond",
+"to": null
+},
+{
+"from": 202503,
+"id": "518057",
+"name": "DM-i 1.5 CVT 160km Excellence",
+"to": null
+},
+{
+"from": 202510,
+"id": "541986",
+"name": "DM-i 1.5 CVT 130km Leading",
+"to": null
+},
+{
+"from": 202510,
+"id": "541987",
+"name": "DM-i 1.5 CVT 200km Leading",
+"to": null
+},
+{
+"from": 202510,
+"id": "541988",
+"name": "DM-i 1.5 CVT 200km Excellence",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "byd/song_l_dm/g_202407_21640",
+"market": "Китай",
+"to": null
+},
 "byd/song_max/g_201709_16857": {
 "from": 201709,
 "groups": [
@@ -46074,6 +46185,7 @@
 "drive": "4wd",
 "engine": "GW4N20A",
 "fuel": "бензин",
+"gen_key": "haval/dargo/g_2022_23076",
 "hp": 238,
 "hp_total": null,
 "hybrid": null,
@@ -46130,6 +46242,7 @@
 "drive": "4wd",
 "engine": "GW4N20A",
 "fuel": "бензин",
+"gen_key": "haval/dargo/g_202307_23075",
 "hp": 238,
 "hp_total": null,
 "hybrid": null,
