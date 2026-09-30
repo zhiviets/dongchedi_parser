@@ -96,13 +96,26 @@ MONTHS = ["янв", "февр", "март", "апр", "май", "июнь", "и�
 HAN = re.compile(r"[一-鿿]")
 
 
+HYBRID_MARK = re.compile(r"插电|插混|增程|混动|DM-?i|DM-?p|EM-?[iP]\b|PHEV|HEV|DHT|油电|双擎|iDD|Hi[·.]?[PX]\b", re.I)
+
+
+# Марки и модели, где в Китае продаются только электромобили (в названии объявления «EV» часто нет)
+EV_ONLY = re.compile(r"特斯拉|Tesla|蔚来|小鹏|埃安|AION|极氪|ZEEKR|MINI ?EV|欧拉|几何|哪吒|小米SU7|小米YU7|理想\s?MEGA|ID\.\s?\d", re.I)
+
+
 def fuel_of(name: str, engine: str) -> str:
     text = f"{name} {engine}"
-    if re.search(r"纯电|电动|kWh", text) and not re.search(r"插电|增程|混动|DM-?i|DM-?p|PHEV", text, re.I):
+    ev = re.search(r"纯电|电动|kWh|\bEV\b", text, re.I) or EV_ONLY.search(text)
+    # «宋PLUS新能源 2023款 EV 605KM»: запас хода от 350 км и нет объёма мотора — тоже электромобиль
+    if not ev and not re.search(r"(?<![\d.])\d\.\d\s*[LT]?\b", text):
+        rng = re.search(r"(\d{3,4})\s*km\b", text, re.I)
+        ev = rng and int(rng.group(1)) >= 350
+    if ev and not HYBRID_MARK.search(text):
         return "Электро"
-    if re.search(r"增程", text):
+    # Li Auto L-серии и ONE, AITO (问界) без пометки «纯电» — последовательные гибриды
+    if re.search(r"增程|理想\s?(?:L\d|ONE)|问界", text, re.I):
         return "Последовательный гибрид (увеличенный запас хода)"
-    if re.search(r"插电|混动|DM-?i|DM-?p|PHEV|HEV|油电|双擎|e:HEV|锐·混动", text, re.I):
+    if HYBRID_MARK.search(text) or re.search(r"e:HEV|锐·混动", text, re.I):
         return "Гибрид"
     if re.search(r"柴油", text):
         return "Дизель"
@@ -1217,6 +1230,37 @@ def cc_fix(car: dict, items: dict, autohome, drom=None) -> dict:
     return {**out, **({"tech": tech} if tech else {})}
 
 
+EV_FIX_LIMIT = int(os.environ.get("CHE168_EV_FIX") or "80")
+_ev_fixed = [0]
+
+
+def ev_fix(car: dict, items: dict, drom) -> dict:
+    """Электромобилю (или последовательному гибриду) с сайта — исправленный тип топлива и
+    характеристики drom.ru с 30-минутной мощностью (по ней утильсбор): раньше «宋PLUS EV 605KM»
+    без «纯电» в названии записывался бензиновым с объёмом 1500. Не больше EV_FIX_LIMIT за прогон.
+    → {"fuel", "tech", "hp"} для отметки «ещё в продаже» или {}."""
+    item = items.get(str(car["infoid"])) or {}
+    fuel = fuel_of(car["name"], "")
+    if fuel not in ("Электро", "Последовательный гибрид (увеличенный запас хода)") or not item or not drom:
+        return {}
+    wrong_fuel = fuel == "Электро" and not item.get("electric")
+    if not wrong_fuel and item.get("power30"):
+        return {}
+    if _ev_fixed[0] >= EV_FIX_LIMIT:
+        return {}
+    make, model = brand_model(car["name"], "", car.get("brandid"))[:2]
+    out = {"fuel": fuel} if wrong_fuel else {}
+    if make and model:
+        _ev_fixed[0] += 1
+        found = drom.power(drom_car(car, make, model, guess=False))
+        tech = drom.tech(found.get("trim")) if found else None
+        if tech:
+            out["tech"] = tech
+        if found and str(found["hp"]) != str(item.get("hp") or ""):
+            out["hp"] = found["hp"]
+    return out
+
+
 def drom_car(car: dict, make: str, model: str, cc=None, guess=True) -> dict:
     """Машина che168 → признаки для поиска комплектации на drom.ru.
     cc — точный объём (объявление, Autohome); без него — догадка по названию (guess=False — без объёма)."""
@@ -1509,11 +1553,12 @@ def main():
         # Отметка «ещё в продаже» машинам с сайта, встреченным в обходе (и исправленный объём)
         seen_cars = [{"external_id": c["infoid"], "price_value": c["price_cny"], "mileage_km": c["mileage_km"],
                       "source_url": f"https://www.che168.com/dealer/{c['dealerid']}/{c['infoid']}.html",
-                      **cc_fix(c, items, autohome, drom),
+                      **cc_fix(c, items, autohome, drom), **ev_fix(c, items, drom),
                       **({"price_stats": c["price_stats"]} if c.get("price_stats") else {})}
                      for c in {c["infoid"]: c for c in touched}.values()]
         print(f"Исправлен объём у машин с сайта: {sum('cc' in x for x in seen_cars)} "
-              f"(и мощность у {sum('hp' in x for x in seen_cars)})")
+              f"(и мощность у {sum('hp' in x for x in seen_cars)}); электромобили: тип топлива у "
+              f"{sum('fuel' in x for x in seen_cars)}, характеристики drom.ru у {sum('tech' in x for x in seen_cars)}")
         push(seen_cars)
 
         done = failed = degraded = degraded_saved = from_list = 0
@@ -1561,7 +1606,7 @@ def main():
                 opts = equipment.get(car.get("specid")) if no_options(car["infoid"]) else None
                 listings.append({"external_id": car["infoid"], "price_value": car["price_cny"],
                                  "mileage_km": car["mileage_km"], "source_url": url, **({"options": opts} if opts else {}),
-                                 **cc_fix(car, items, autohome, drom),
+                                 **cc_fix(car, items, autohome, drom), **ev_fix(car, items, drom),
                                  **({"price_stats": car["price_stats"]} if car.get("price_stats") else {})})
                 continue
             if list_only:
