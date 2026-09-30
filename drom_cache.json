@@ -455,6 +455,10 @@
 "day": 739885,
 "gens": []
 },
+"audi/s8/china": {
+"day": 739889,
+"gens": []
+},
 "avatr/06/china": {
 "day": 739883,
 "gens": [
@@ -1973,6 +1977,17 @@
 "land_rover/discovery_sport/china": {
 "day": 739888,
 "gens": []
+},
+"land_rover/range_rover_evoque/china": {
+"day": 739889,
+"gens": [
+"g_201107_1684",
+"g_201503_3888",
+"g_201811_9274",
+"g_2018_24674",
+"g_202306_20038",
+"g_2023_24675"
+]
 },
 "land_rover/range_rover_sport/china": {
 "day": 739886,
@@ -26046,6 +26061,7 @@
 "drive": "4wd",
 "engine": "N63B44D",
 "fuel": "бензин",
+"gen_key": "bmw/x7/g_2018_21886",
 "hp": 530,
 "hp_total": null,
 "hybrid": null,
@@ -43071,6 +43087,7 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "deepal/sl03/g_202207_24286",
 "hp": 218,
 "hp_total": null,
 "hybrid": null,
@@ -43121,6 +43138,7 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "deepal/sl03/g_202207_24286",
 "hp": 258,
 "hp_total": null,
 "hybrid": null,
@@ -66962,6 +66980,1154 @@
 "market": "Европа",
 "to": null
 },
+"land_rover/range_rover_evoque/g_201107_1684": {
+"from": 201110,
+"groups": [
+{
+"body": [
+"L538"
+],
+"drive": "4wd",
+"engine": "204PT",
+"fuel": "бензин",
+"hp": 240,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 240 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201110,
+"id": "68366",
+"name": "2.0 Si AT Dynamic 5dr.",
+"to": 201509
+},
+{
+"from": 201110,
+"id": "68365",
+"name": "2.0 Si AT Prestige 5dr.",
+"to": 201509
+},
+{
+"from": 201110,
+"id": "68367",
+"name": "2.0 Si AT Pure 5dr.",
+"to": 201308
+},
+{
+"from": 201309,
+"id": "76014",
+"name": "2.0 Si AT Pure Tech 5dr.",
+"to": 201509
+},
+{
+"from": 201407,
+"id": "77599",
+"name": "2.0 Si AT Autobiography 5dr.",
+"to": 201509
+},
+{
+"from": 201503,
+"id": "84400",
+"name": "2.0 Si AT London Edition 5dr.",
+"to": 201509
+},
+{
+"from": 201503,
+"id": "84402",
+"name": "2.0 Si AT British Edition Color 5dr.",
+"to": 201509
+},
+{
+"from": 201503,
+"id": "84406",
+"name": "2.0 Si AT British Edition Monochrome 5dr.",
+"to": 201509
+}
+]
+},
+{
+"body": [
+"L538"
+],
+"drive": "4wd",
+"engine": "224DT",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.2,
+"text": "2.2 л, 150 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201110,
+"id": "68364",
+"name": "2.2 TD MT Pure 5dr.",
+"to": 201308
+},
+{
+"from": 201110,
+"id": "68362",
+"name": "2.2 TD MT Prestige 5dr.",
+"to": 201308
+},
+{
+"from": 201110,
+"id": "68363",
+"name": "2.2 TD MT Dynamic 5dr.",
+"to": 201308
+}
+]
+},
+{
+"body": [
+"L538"
+],
+"drive": "4wd",
+"engine": "224DT",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.2,
+"text": "2.2 л, 150 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201110,
+"id": "68361",
+"name": "2.2 TD AT Pure 5dr.",
+"to": 201308
+},
+{
+"from": 201110,
+"id": "68359",
+"name": "2.2 TD AT Prestige 5dr.",
+"to": 201308
+},
+{
+"from": 201110,
+"id": "68360",
+"name": "2.2 TD AT Dynamic 5dr.",
+"to": 201308
+},
+{
+"from": 201309,
+"id": "68361",
+"name": "2.2 TD AT Pure 5dr.",
+"to": 201509
+},
+{
+"from": 201309,
+"id": "76017",
+"name": "2.2 TD AT Pure Tech 5dr.",
+"to": 201509
+},
+{
+"from": 201503,
+"id": "84404",
+"name": "2.2 TD AT British Edition Color 5dr.",
+"to": 201509
+},
+{
+"from": 201503,
+"id": "84408",
+"name": "2.2 TD AT British Edition Monochrome 5dr.",
+"to": 201509
+}
+]
+},
+{
+"body": [
+"L538"
+],
+"drive": "4wd",
+"engine": "224DT",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.2,
+"text": "2.2 л, 190 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201110,
+"id": "68358",
+"name": "2.2 SD MT Pure 5dr.",
+"to": 201308
+},
+{
+"from": 201110,
+"id": "68356",
+"name": "2.2 SD MT Prestige 5dr.",
+"to": 201308
+},
+{
+"from": 201110,
+"id": "68357",
+"name": "2.2 SD MT Dynamic 5dr.",
+"to": 201308
+}
+]
+},
+{
+"body": [
+"L538"
+],
+"drive": "4wd",
+"engine": "224DT",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.2,
+"text": "2.2 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201110,
+"id": "68355",
+"name": "2.2 SD AT Pure 5dr.",
+"to": 201308
+},
+{
+"from": 201110,
+"id": "68311",
+"name": "2.2 SD AT Prestige 5dr.",
+"to": 201308
+},
+{
+"from": 201110,
+"id": "68354",
+"name": "2.2 SD AT Dynamic 5dr.",
+"to": 201208
+},
+{
+"from": 201309,
+"id": "68355",
+"name": "2.2 SD AT Pure 5dr.",
+"to": 201509
+},
+{
+"from": 201309,
+"id": "76018",
+"name": "2.2 SD AT Pure Tech 5dr.",
+"to": 201509
+},
+{
+"from": 201309,
+"id": "68354",
+"name": "2.2 SD AT Dynamic 5dr.",
+"to": 201509
+},
+{
+"from": 201309,
+"id": "68311",
+"name": "2.2 SD AT Prestige 5dr.",
+"to": 201509
+},
+{
+"from": 201407,
+"id": "77598",
+"name": "2.2 SD AT Autobiography 5dr.",
+"to": 201509
+},
+{
+"from": 201503,
+"id": "84401",
+"name": "2.2 SD AT London Edition 5dr.",
+"to": 201509
+},
+{
+"from": 201503,
+"id": "84403",
+"name": "2.2 SD AT British Edition Color 5dr.",
+"to": 201509
+},
+{
+"from": 201503,
+"id": "84407",
+"name": "2.2 SD AT British Edition Monochrome 5dr.",
+"to": 201509
+}
+]
+}
+],
+"ids": true,
+"key": "land_rover/range_rover_evoque/g_201107_1684",
+"market": "Россия",
+"to": 201509
+},
+"land_rover/range_rover_evoque/g_201503_3888": {
+"from": 201511,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "204PT",
+"fuel": "бензин",
+"hp": 240,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 240 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201511,
+"id": "89395",
+"name": "2.0 Si AT Кабриолет HSE Dynamic",
+"to": 201811
+}
+]
+}
+],
+"ids": true,
+"key": "land_rover/range_rover_evoque/g_201503_3888",
+"market": "Россия",
+"to": 201811
+},
+"land_rover/range_rover_evoque/g_201811_9274": {
+"from": 201811,
+"groups": [
+{
+"body": [
+"L551"
+],
+"drive": "fwd",
+"engine": "P160",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 160 л.с., мягкий гибрид, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202101,
+"id": "312105",
+"name": "MHEV 1.5 AT R-Dynamic S",
+"to": 202204
+},
+{
+"from": 202101,
+"id": "312106",
+"name": "MHEV 1.5 AT R-Dynamic SE",
+"to": 202204
+},
+{
+"from": 202101,
+"id": "312107",
+"name": "MHEV 1.5 AT",
+"to": 202204
+},
+{
+"from": 202101,
+"id": "312108",
+"name": "MHEV 1.5 AT S",
+"to": 202204
+},
+{
+"from": 202101,
+"id": "312109",
+"name": "MHEV 1.5 AT SE",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"L551"
+],
+"drive": "4wd",
+"engine": "204DTD",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"id": "233305",
+"name": "2.0 TD AT",
+"to": 202012
+},
+{
+"from": 201811,
+"id": "233306",
+"name": "2.0 TD AT S",
+"to": 202012
+},
+{
+"from": 201811,
+"id": "233308",
+"name": "2.0 TD AT R-Dynamic S",
+"to": 202012
+},
+{
+"from": 201811,
+"id": "233315",
+"name": "2.0 TD AT R-Dynamic SE",
+"to": 202012
+},
+{
+"from": 201811,
+"id": "233307",
+"name": "2.0 TD AT SE",
+"to": 202012
+}
+]
+},
+{
+"body": [
+"L551"
+],
+"drive": "4wd",
+"engine": "D163",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202101,
+"id": "233305",
+"name": "2.0 TD AT",
+"to": 202204
+},
+{
+"from": 202101,
+"id": "233306",
+"name": "2.0 TD AT S",
+"to": 202204
+},
+{
+"from": 202101,
+"id": "233308",
+"name": "2.0 TD AT R-Dynamic S",
+"to": 202204
+},
+{
+"from": 202101,
+"id": "233315",
+"name": "2.0 TD AT R-Dynamic SE",
+"to": 202204
+},
+{
+"from": 202101,
+"id": "233307",
+"name": "2.0 TD AT SE",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"L551"
+],
+"drive": "4wd",
+"engine": "204DTD",
+"fuel": "дизель",
+"hp": 180,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 180 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"id": "233305",
+"name": "2.0 TD AT",
+"to": 202012
+},
+{
+"from": 201811,
+"id": "233308",
+"name": "2.0 TD AT R-Dynamic S",
+"to": 202012
+},
+{
+"from": 201811,
+"id": "233307",
+"name": "2.0 TD AT SE",
+"to": 202012
+},
+{
+"from": 201811,
+"id": "233315",
+"name": "2.0 TD AT R-Dynamic SE",
+"to": 202012
+},
+{
+"from": 201811,
+"id": "233306",
+"name": "2.0 TD AT S",
+"to": 202012
+},
+{
+"from": 201811,
+"id": "233321",
+"name": "2.0 TD AT R-Dynamic HSE",
+"to": 202012
+},
+{
+"from": 201811,
+"id": "233322",
+"name": "2.0 TD AT First Edition",
+"to": 201912
+}
+]
+},
+{
+"body": [
+"L551"
+],
+"drive": "4wd",
+"engine": "D199",
+"fuel": "дизель",
+"hp": 199,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 199 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202101,
+"id": "233305",
+"name": "2.0 TD AT",
+"to": 202106
+},
+{
+"from": 202101,
+"id": "233307",
+"name": "2.0 TD AT SE",
+"to": 202106
+},
+{
+"from": 202101,
+"id": "233321",
+"name": "2.0 TD AT R-Dynamic HSE",
+"to": 202106
+},
+{
+"from": 202101,
+"id": "233308",
+"name": "2.0 TD AT R-Dynamic S",
+"to": 202204
+},
+{
+"from": 202101,
+"id": "233315",
+"name": "2.0 TD AT R-Dynamic SE",
+"to": 202204
+},
+{
+"from": 202101,
+"id": "233306",
+"name": "2.0 TD AT S",
+"to": 202204
+},
+{
+"from": 202108,
+"id": "386364",
+"name": "2.0 TD AT Bronze Collection",
+"to": 202204
+}
+]
+},
+{
+"body": [
+"L551"
+],
+"drive": "4wd",
+"engine": "204PT",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 200 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"id": "233323",
+"name": "2.0 AT",
+"to": 202204
+},
+{
+"from": 201811,
+"id": "233331",
+"name": "2.0 AT R-Dynamic S",
+"to": 202204
+},
+{
+"from": 201811,
+"id": "233329",
+"name": "2.0 AT S",
+"to": 202204
+},
+{
+"from": 201811,
+"id": "233332",
+"name": "2.0 AT R-Dynamic SE",
+"to": 202204
+},
+{
+"from": 201811,
+"id": "233330",
+"name": "2.0 AT SE",
+"to": 202108
+},
+{
+"from": 202108,
+"id": "386365",
+"name": "2.0 AT Bronze Collection",
+"to": 202204
+}
+]
+},
+{
+"body": [
+"L551"
+],
+"drive": "4wd",
+"engine": "204PT",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 249 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"id": "233323",
+"name": "2.0 AT",
+"to": 202108
+},
+{
+"from": 201811,
+"id": "233338",
+"name": "2.0 AT R-Dynamic HSE",
+"to": 202108
+},
+{
+"from": 201811,
+"id": "233330",
+"name": "2.0 AT SE",
+"to": 202108
+},
+{
+"from": 201811,
+"id": "233331",
+"name": "2.0 AT R-Dynamic S",
+"to": 202204
+},
+{
+"from": 201811,
+"id": "233329",
+"name": "2.0 AT S",
+"to": 202204
+},
+{
+"from": 201811,
+"id": "233332",
+"name": "2.0 AT R-Dynamic SE",
+"to": 202204
+},
+{
+"from": 201811,
+"id": "233339",
+"name": "2.0 AT First Edition",
+"to": 201912
+},
+{
+"from": 202101,
+"id": "312261",
+"name": "2.0 AT Autobiography",
+"to": 202204
+}
+]
+},
+{
+"body": [
+"L551"
+],
+"drive": "4wd",
+"engine": "204PT",
+"fuel": "бензин",
+"hp": 300,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 300 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201811,
+"id": "233341",
+"name": "MHEV 2.0 AT R-Dynamic S",
+"to": 202012
+},
+{
+"from": 201811,
+"id": "233342",
+"name": "MHEV 2.0 AT R-Dynamic SE",
+"to": 202012
+},
+{
+"from": 201811,
+"id": "233340",
+"name": "MHEV 2.0 AT R-Dynamic HSE",
+"to": 202012
+}
+]
+}
+],
+"ids": true,
+"key": "land_rover/range_rover_evoque/g_201811_9274",
+"market": "Россия",
+"to": 202204
+},
+"land_rover/range_rover_evoque/g_2018_24674": {
+"from": 201811,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "PT204",
+"fuel": "бензин",
+"gen_key": "land_rover/range_rover_evoque/g_2018_24674",
+"hp": 200,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 200 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202107,
+"id": "556518",
+"name": "L 2.0 AT AWD R-Dynamic Standard Elite",
+"to": 202208
+},
+{
+"from": 202208,
+"id": "556518",
+"name": "L 2.0 AT AWD R-Dynamic Standard Elite",
+"to": 202303
+},
+{
+"from": 202303,
+"id": "556518",
+"name": "L 2.0 AT AWD R-Dynamic Standard Elite",
+"to": 202306
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "PT204",
+"fuel": "бензин",
+"gen_key": "land_rover/range_rover_evoque/g_2018_24674",
+"hp": 249,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 249 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201907,
+"id": "556448",
+"name": "2.0 AT AWD R-Dynamic Youth",
+"to": 202107
+},
+{
+"from": 201907,
+"id": "556446",
+"name": "2.0 AT AWD R-Dynamic S First Edition Sport",
+"to": 202107
+},
+{
+"from": 201907,
+"id": "556447",
+"name": "2.0 AT AWD R-Dynamic S Sport",
+"to": 202107
+},
+{
+"from": 201907,
+"id": "556445",
+"name": "2.0 AT AWD R-Dynamic SE Sport Technology",
+"to": 202107
+},
+{
+"from": 201907,
+"id": "556395",
+"name": "2.0 AT AWD R-Dynamic HSE Luxury",
+"to": 202107
+},
+{
+"from": 201907,
+"id": "556444",
+"name": "2.0 AT AWD R-Dynamic Sport Technology",
+"to": 202107
+},
+{
+"from": 202107,
+"id": "556514",
+"name": "L 2.0 AT AWD R-Dynamic First",
+"to": 202208
+},
+{
+"from": 202107,
+"id": "556516",
+"name": "L 2.0 AT AWD R-Dynamic S Performance",
+"to": 202208
+},
+{
+"from": 202107,
+"id": "556474",
+"name": "L 2.0 AT AWD R-Dynamic SE Luxury",
+"to": 202208
+},
+{
+"from": 202107,
+"id": "556461",
+"name": "L 2.0 AT AWD R-Dynamic HSE Luxury",
+"to": 202208
+},
+{
+"from": 202103,
+"id": "556447",
+"name": "2.0 AT AWD R-Dynamic S Sport",
+"to": 202208
+},
+{
+"from": 202103,
+"id": "556515",
+"name": "2.0 AT AWD R-Dynamic SE Sport Tech",
+"to": 202208
+},
+{
+"from": 202208,
+"id": "556524",
+"name": "L 2.0 AT AWD Collins Bronze Special",
+"to": 202303
+},
+{
+"from": 202208,
+"id": "556525",
+"name": "L 2.0 AT AWD R-Dynamic Luxury",
+"to": 202303
+},
+{
+"from": 202208,
+"id": "556461",
+"name": "L 2.0 AT AWD R-Dynamic HSE Luxury",
+"to": 202303
+},
+{
+"from": 202211,
+"id": "556526",
+"name": "Facelifted L 2.0 AT AWD R-Dynamic Luxury",
+"to": 202303
+},
+{
+"from": 202211,
+"id": "556523",
+"name": "Facelifted L 2.0 AT AWD R-Dynamic HSE Luxury",
+"to": 202303
+},
+{
+"from": 202303,
+"id": "556524",
+"name": "L 2.0 AT AWD Collins Bronze Special",
+"to": 202306
+},
+{
+"from": 202303,
+"id": "556525",
+"name": "L 2.0 AT AWD R-Dynamic Luxury",
+"to": 202306
+},
+{
+"from": 202303,
+"id": "556461",
+"name": "L 2.0 AT AWD R-Dynamic HSE Luxury",
+"to": 202306
+}
+]
+}
+],
+"ids": true,
+"key": "land_rover/range_rover_evoque/g_2018_24674",
+"market": "Китай",
+"to": 202306
+},
+"land_rover/range_rover_evoque/g_202306_20038": {
+"from": 202306,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "AJ20P3",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 200 л.с., параллельный подзаряжаемый (PHEV) гибрид, 109 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202306,
+"id": "491934",
+"name": "PHEV 1.5 P300e AT AWD S",
+"to": null
+},
+{
+"from": 202306,
+"id": "491939",
+"name": "PHEV 1.5 P300e AT AWD Dynamic SE",
+"to": null
+},
+{
+"from": 202306,
+"id": "491947",
+"name": "PHEV 1.5 P300e AT AWD Dynamic HSE",
+"to": null
+},
+{
+"from": 202306,
+"id": "491955",
+"name": "PHEV 1.5 P300e AT AWD Autobiography",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "AJ20D4",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202306,
+"id": "491930",
+"name": "2.0 D165 AT AWD S",
+"to": null
+},
+{
+"from": 202306,
+"id": "491935",
+"name": "2.0 D165 AT AWD Dynamic SE",
+"to": null
+},
+{
+"from": 202306,
+"id": "491943",
+"name": "2.0 D165 AT AWD Dynamic HSE",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "PT204",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 200 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202306,
+"id": "491932",
+"name": "2.0 P200 AT AWD S",
+"to": null
+},
+{
+"from": 202306,
+"id": "491937",
+"name": "2.0 P200 AT AWD Dynamic SE",
+"to": null
+},
+{
+"from": 202306,
+"id": "491945",
+"name": "2.0 P200 AT AWD Dynamic HSE",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "AJ20D4",
+"fuel": "дизель",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 204 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202306,
+"id": "491931",
+"name": "2.0 D200 AT AWD S",
+"to": null
+},
+{
+"from": 202306,
+"id": "491936",
+"name": "2.0 D200 AT AWD Dynamic SE",
+"to": null
+},
+{
+"from": 202306,
+"id": "491944",
+"name": "2.0 D200 AT AWD Dynamic HSE",
+"to": null
+},
+{
+"from": 202306,
+"id": "491953",
+"name": "2.0 D200 AT AWD Autobiography",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "PT204",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 250 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202306,
+"id": "491938",
+"name": "2.0 P250 AT AWD Dynamic SE",
+"to": null
+},
+{
+"from": 202306,
+"id": "491946",
+"name": "2.0 P250 AT AWD Dynamic HSE",
+"to": null
+},
+{
+"from": 202306,
+"id": "491954",
+"name": "2.0 P250 AT AWD Autobiography",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "land_rover/range_rover_evoque/g_202306_20038",
+"market": "Европа",
+"to": null
+},
+"land_rover/range_rover_evoque/g_2023_24675": {
+"from": 202306,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "PT204",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 200 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202404,
+"id": "556582",
+"name": "L 2.0 AT AWD Elegant",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "PT204",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 249 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202404,
+"id": "556569",
+"name": "L 2.0 AT AWD SE Luxury",
+"to": null
+},
+{
+"from": 202404,
+"id": "556544",
+"name": "L 2.0 AT AWD HSE Limited",
+"to": null
+},
+{
+"from": 202510,
+"id": "556584",
+"name": "L 2.0 AT AWD SE",
+"to": null
+},
+{
+"from": 202510,
+"id": "556583",
+"name": "L 2.0 AT AWD HSE",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "land_rover/range_rover_evoque/g_2023_24675",
+"market": "Китай",
+"to": null
+},
 "land_rover/range_rover_velar/g_201703_7498": {
 "from": 201703,
 "groups": [
@@ -76862,6 +78028,7 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "mazda/ez-60/g_202509_22329",
 "hp": 258,
 "hp_total": null,
 "hybrid": null,
@@ -102099,6 +103266,7 @@
 "drive": "4wd",
 "engine": "A25A-FXS",
 "fuel": "бензин",
+"gen_key": "toyota/alphard/g_2023_19313",
 "hp": 188,
 "hp_total": 291,
 "hybrid": "параллельный гибрид",
@@ -108983,87 +110151,104 @@
 "trims": [
 {
 "from": 202110,
+"id": "458252",
 "name": "57 kWh Pure Smart",
 "to": 202211
 },
 {
 "from": 202110,
+"id": "458279",
 "name": "57 kWh Ultimate Smart Pro",
 "to": 202211
 },
 {
 "from": 202211,
+"id": "458276",
 "name": "53 kWh Pure Smart",
 "to": 202407
 },
 {
 "from": 202211,
+"id": "458280",
 "name": "53 kWh Ultimate Smart Pro",
 "to": 202407
 },
 {
 "from": 202407,
+"id": "562421",
 "name": "52.8 kWh Pure Smart",
 "to": 202503
 },
 {
 "from": 202407,
+"id": "562423",
 "name": "52.8 kWh Distinction",
 "to": 202503
 },
 {
 "from": 202407,
+"id": "562425",
 "name": "52.8 kWh Distinction Oxygen Edition",
 "to": 202503
 },
 {
 "from": 202407,
+"id": "562426",
 "name": "52.8 kWh Ultimate Smart",
 "to": 202503
 },
 {
 "from": 202407,
+"id": "562427",
 "name": "52.8 kWh Ultimate Smart Oxygen Edition",
 "to": 202503
 },
 {
 "from": 202503,
+"id": "562422",
 "name": "53.6 kWh Pure Smart",
 "to": null
 },
 {
 "from": 202503,
+"id": "562424",
 "name": "53.6 kWh Distinction",
 "to": 202509
 },
 {
 "from": 202503,
+"id": "562428",
 "name": "53.6 kWh Ultimate Smart",
 "to": 202509
 },
 {
 "from": 202509,
+"id": "562424",
 "name": "53.6 kWh Distinction",
 "to": null
 },
 {
 "from": 202509,
+"id": "562428",
 "name": "53.6 kWh Ultimate Smart",
 "to": null
 },
 {
 "from": 202506,
+"id": "562431",
 "name": "53.6 kWh Distinction GTX",
 "to": null
 },
 {
 "from": 202506,
+"id": "562432",
 "name": "53.6 kWh Ultimate Smart GTX",
 "to": null
 }
 ]
 }
 ],
+"ids": true,
 "key": "volkswagen/id3/g_2019_17934",
 "market": "Китай",
 "to": null
@@ -109177,6 +110362,7 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "volkswagen/id7/g_2023_20127",
 "hp": 204,
 "hp_total": null,
 "hybrid": null,
@@ -109209,6 +110395,7 @@
 "drive": "4wd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "volkswagen/id7/g_2023_20127",
 "hp": 313,
 "hp_total": null,
 "hybrid": null,
@@ -128699,6 +129886,121 @@
 ],
 "name": "2.5HG CVT Luxury"
 },
+"458276": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,6 с"
+],
+[
+"Максимальная скорость",
+"160 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Тип двигателя",
+"Электродвигатель"
+],
+[
+"Топливо",
+"Электричество"
+]
+]
+],
+[
+"Электро",
+[
+[
+"30-минутная мощность",
+"88 л.с."
+],
+[
+"Мощность электромотора",
+"125 кВт"
+],
+[
+"Крутящий момент электромотора",
+"310 Н·м"
+],
+[
+"Ёмкость батареи",
+"52,8 кВт·ч"
+],
+[
+"Запас хода",
+"450 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4261 × 1778 × 1568 мм"
+],
+[
+"Колёсная база",
+"2771 мм"
+],
+[
+"Клиренс",
+"140 мм"
+],
+[
+"Масса",
+"1760 кг"
+],
+[
+"Багажник",
+"385 (1267) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые"
+],
+[
+"Задние тормоза",
+"Барабанные"
+],
+[
+"Шины",
+"215/55 R18"
+],
+[
+"Радиус разворота",
+"5,1 м"
+]
+]
+]
+],
+"name": "53 kWh Pure Smart",
+"v": 3
+},
 "458418": {
 "groups": [
 [
@@ -131808,6 +133110,134 @@
 ]
 ],
 "name": "e:HEV 2.0 CVT Wisdom",
+"v": 3
+},
+"471658": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"180 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"188 л.с. (138 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"240 Н·м при 4300 об/мин"
+],
+[
+"Модель двигателя",
+"A25A-FXS"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Электро",
+[
+[
+"Комбинированная мощность",
+"292 л.с."
+],
+[
+"Мощность электромотора",
+"214 кВт"
+],
+[
+"Крутящий момент электромотора",
+"391 Н·м"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,3 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5005 × 1850 × 1950 мм"
+],
+[
+"Колёсная база",
+"3000 мм"
+],
+[
+"Клиренс",
+"161 мм"
+],
+[
+"Масса",
+"2310 кг"
+],
+[
+"Топливный бак",
+"58 л"
+],
+[
+"Мест",
+"7"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"225/55 R19"
+],
+[
+"Радиус разворота",
+"5,9 м"
+]
+]
+]
+],
+"name": "2.5 CVТ Premium",
 "v": 3
 },
 "471760": {
@@ -148220,6 +149650,129 @@
 ]
 ],
 "name": "DM-i 26.6 kWh 1.5 CVT Leading"
+},
+"556518": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,6 с"
+],
+[
+"Максимальная скорость",
+"211 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"200 л.с. (147 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"320 Н·м при 1200 об/мин"
+],
+[
+"Модель двигателя",
+"PT204"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,1 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4531 × 1904 × 1650 мм"
+],
+[
+"Колёсная база",
+"2841 мм"
+],
+[
+"Клиренс",
+"151 мм"
+],
+[
+"Масса",
+"2005 кг"
+],
+[
+"Топливный бак",
+"67 л"
+],
+[
+"Багажник",
+"472 (1156) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"235/50 R20"
+],
+[
+"Радиус разворота",
+"5,8 м"
+]
+]
+]
+],
+"name": "L 2.0 AT AWD R-Dynamic Standard Elite",
+"v": 3
 },
 "556874": {
 "groups": [
