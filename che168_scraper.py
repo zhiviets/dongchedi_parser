@@ -1253,10 +1253,12 @@ def ev_fix(car: dict, items: dict, drom) -> dict:
     → {"fuel", "tech", "hp"} для отметки «ещё в продаже» или {}."""
     item = items.get(str(car["infoid"])) or {}
     fuel = fuel_of(car["name"], "")
-    if fuel not in ("Электро", "Последовательный гибрид (увеличенный запас хода)") or not item or not drom:
+    ev = fuel in ("Электро", "Последовательный гибрид (увеличенный запас хода)")
+    # Гибрид без 30-минутной мощности (сайт показывает цену «от») — тоже дошлём характеристики drom.ru
+    if not (ev or item.get("needs30")) or not item or not drom:
         return {}
     wrong_fuel = fuel == "Электро" and not item.get("electric")
-    if not wrong_fuel and item.get("power30"):
+    if not wrong_fuel and not item.get("needs30") and item.get("power30"):
         return {}
     if _ev_fixed[0] >= EV_FIX_LIMIT:
         return {}
@@ -1264,6 +1266,10 @@ def ev_fix(car: dict, items: dict, drom) -> dict:
     out = {"fuel": fuel} if wrong_fuel else {}
     if make and model:
         _ev_fixed[0] += 1
+        try:
+            car = {**car, "hp_listing": int(re.sub(r"\D", "", str(item.get("hp") or "")) or 0) or None}
+        except ValueError:
+            pass
         found = drom.power(drom_car(car, make, model, guess=False))
         tech = drom.tech(found.get("trim")) if found else None
         if tech:
