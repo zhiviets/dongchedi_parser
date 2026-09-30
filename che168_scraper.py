@@ -412,6 +412,39 @@ def browser_fetcher():
     return get, close_all
 
 
+MIN_SIMILAR = 4
+
+
+def price_stats(prices: list) -> dict:
+    """{n, lo, mid, hi}: от 10 цен — 10-й и 90-й процентили, иначе самая низкая и самая высокая."""
+    p = sorted(prices)
+    at = lambda q: p[round((len(p) - 1) * q)]
+    wide = len(p) >= 10
+    return {"n": len(p), "lo": at(0.1) if wide else p[0], "mid": at(0.5), "hi": at(0.9) if wide else p[-1]}
+
+
+def attach_price_stats(cards: list):
+    """Шкала цены на сайте: цены похожих объявлений che168 — той же комплектации Autohome (specid),
+    а если таких меньше MIN_SIMILAR — той же модели, года и объёма. → car["price_stats"]."""
+    by_spec, by_model = {}, {}
+    coarse = lambda c: (brand_model(c["name"], "", c.get("brandid"))[:2], c["year"], guess_cc(c["name"]))
+    for c in cards:
+        if c.get("price_cny"):
+            if c.get("specid") and c["specid"] != "0":
+                by_spec.setdefault(c["specid"], []).append(c["price_cny"])
+            by_model.setdefault(coarse(c), []).append(c["price_cny"])
+    done = 0
+    for c in cards:
+        prices = by_spec.get(c.get("specid"))
+        if not prices or len(prices) < MIN_SIMILAR:
+            prices = by_model.get(coarse(c))
+        if prices and len(prices) >= MIN_SIMILAR:
+            c["price_stats"] = price_stats(prices)
+            done += 1
+    print(f"Статистика цен: у {done} из {len(cards)} машин {MIN_SIMILAR}+ похожих объявлений "
+          f"(комплектаций {sum(1 for v in by_spec.values() if len(v) >= MIN_SIMILAR)})")
+
+
 def scan_models(page, known: set, touched: list | None = None):
     """Карточки всех моделей: {модель: [машины]}. False — список не открылся (прокси), None — марок не нашли.
 
@@ -437,7 +470,7 @@ def scan_models(page, known: set, touched: list | None = None):
 
     get, close_all = browser_fetcher()
     pool = ThreadPoolExecutor(SCAN_WORKERS)
-    groups, seen = {}, set()
+    groups, seen, price_seen = {}, set(), []   # price_seen — все карточки с ценой: для шкалы цены
     stats = {"ok": 0, "empty": 0, "failed": 0, "blocked": 0}
     saved = set()
 
@@ -448,6 +481,7 @@ def scan_models(page, known: set, touched: list | None = None):
             if c["infoid"] in seen or not c["year"] or c["year"] < MIN_YEAR:
                 continue
             seen.add(c["infoid"])
+            price_seen.append(c)
             if c["infoid"] in known:
                 # Уже на сайте с полной информацией — только отметка «ещё в продаже»
                 if touched is not None:
@@ -530,6 +564,7 @@ def scan_models(page, known: set, touched: list | None = None):
         run(jobs, "модели", lambda content, name: add_cards(content))
     close_all(pool, SCAN_WORKERS)
     pool.shutdown(wait=True)
+    attach_price_stats(price_seen)
     print(f"Обход за {(time.time() - started) / 60:.0f} мин: моделей с машинами {len(groups)}, "
           f"машин {sum(map(len, groups.values()))}; страниц с машинами {stats['ok']}, пустых {stats['empty']}, "
           f"ошибок {stats['failed']}, проверок {stats['blocked']}; запросом {get.stats['request']}, "
@@ -1474,7 +1509,8 @@ def main():
         # Отметка «ещё в продаже» машинам с сайта, встреченным в обходе (и исправленный объём)
         seen_cars = [{"external_id": c["infoid"], "price_value": c["price_cny"], "mileage_km": c["mileage_km"],
                       "source_url": f"https://www.che168.com/dealer/{c['dealerid']}/{c['infoid']}.html",
-                      **cc_fix(c, items, autohome, drom)}
+                      **cc_fix(c, items, autohome, drom),
+                      **({"price_stats": c["price_stats"]} if c.get("price_stats") else {})}
                      for c in {c["infoid"]: c for c in touched}.values()]
         print(f"Исправлен объём у машин с сайта: {sum('cc' in x for x in seen_cars)} "
               f"(и мощность у {sum('hp' in x for x in seen_cars)})")
@@ -1499,6 +1535,7 @@ def main():
                 "photo_url": fetch_photo(session, d["photos"] + photo_candidates(car.get("image"))),
                 "spec": d["spec"] or None, "source_url": url, **({"options": opts} if opts else {}),
                 **({"tech": tech} if tech else {}),
+                **({"price_stats": car["price_stats"]} if car.get("price_stats") else {}),
             })
             done += 1
             src = "из списка" if body is None else "из объявления"
@@ -1524,7 +1561,8 @@ def main():
                 opts = equipment.get(car.get("specid")) if no_options(car["infoid"]) else None
                 listings.append({"external_id": car["infoid"], "price_value": car["price_cny"],
                                  "mileage_km": car["mileage_km"], "source_url": url, **({"options": opts} if opts else {}),
-                                 **cc_fix(car, items, autohome, drom)})
+                                 **cc_fix(car, items, autohome, drom),
+                                 **({"price_stats": car["price_stats"]} if car.get("price_stats") else {})})
                 continue
             if list_only:
                 add(car, url)
