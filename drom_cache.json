@@ -27449,6 +27449,7 @@
 "drive": "fwd",
 "engine": "GM Ecotec LAX",
 "fuel": "бензин",
+"gen_key": "buick/lacrosse/g_2023_23250",
 "hp": 180,
 "hp_total": null,
 "hybrid": null,
@@ -35218,6 +35219,7 @@
 "drive": "fwd",
 "engine": "LXH",
 "fuel": "бензин",
+"gen_key": "cadillac/xt5/g_202409_22911",
 "hp": 237,
 "hp_total": null,
 "hybrid": null,
@@ -95653,6 +95655,7 @@
 ]
 }
 ],
+"key": "tank/700/g_2026_24265",
 "market": "Китай",
 "to": null
 },
