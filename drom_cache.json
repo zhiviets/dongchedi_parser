@@ -1533,6 +1533,12 @@
 "g_202503_21803"
 ]
 },
+"haval/xiaolong/china": {
+"day": 739889,
+"gens": [
+"g_2023_19172"
+]
+},
 "haval/xiaolong_max/china": {
 "day": 739883,
 "gens": [
@@ -2134,6 +2140,12 @@
 "day": 739888,
 "gens": []
 },
+"maxus/t60/china": {
+"day": 739889,
+"gens": [
+"g_2016_17531"
+]
+},
 "maxus/t70/china": {
 "day": 739887,
 "gens": [
@@ -2216,6 +2228,10 @@
 },
 "mazda/rx-7/china": {
 "day": 739887,
+"gens": []
+},
+"mclaren/750s/china": {
+"day": 739889,
 "gens": []
 },
 "mclaren/artura/china": {
@@ -11953,6 +11969,7 @@
 "drive": "fwd",
 "engine": "LAR",
 "fuel": "бензин",
+"gen_key": "baojun/510/g_2018_18448",
 "hp": 99,
 "hp_total": null,
 "hybrid": null,
@@ -28218,6 +28235,7 @@
 "drive": "fwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "byd/dolphin/g_2021_2971",
 "hp": 177,
 "hp_total": null,
 "hybrid": null,
@@ -28768,6 +28786,7 @@
 "drive": "fwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "byd/han/g_2022_16824",
 "hp": 201,
 "hp_total": null,
 "hybrid": null,
@@ -28787,6 +28806,7 @@
 "drive": "fwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "byd/han/g_2022_16824",
 "hp": 204,
 "hp_total": null,
 "hybrid": null,
@@ -28816,6 +28836,7 @@
 "drive": "fwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "byd/han/g_2022_16824",
 "hp": 222,
 "hp_total": null,
 "hybrid": null,
@@ -28845,6 +28866,7 @@
 "drive": "fwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "byd/han/g_2022_16824",
 "hp": 225,
 "hp_total": null,
 "hybrid": null,
@@ -28864,6 +28886,7 @@
 "drive": "fwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "byd/han/g_2022_16824",
 "hp": 228,
 "hp_total": null,
 "hybrid": null,
@@ -28888,6 +28911,7 @@
 "drive": "fwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "byd/han/g_2022_16824",
 "hp": 245,
 "hp_total": null,
 "hybrid": null,
@@ -30017,6 +30041,7 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "byd/sea_lion_07/g_2023_20566",
 "hp": 231,
 "hp_total": null,
 "hybrid": null,
@@ -30036,6 +30061,7 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "byd/sea_lion_07/g_2023_20566",
 "hp": 313,
 "hp_total": null,
 "hybrid": null,
@@ -30060,6 +30086,7 @@
 "drive": "4wd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "byd/sea_lion_07/g_2023_20566",
 "hp": 530,
 "hp_total": null,
 "hybrid": null,
@@ -30147,6 +30174,7 @@
 "drive": "fwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "byd/seagull/g_202304_18198",
 "hp": 75,
 "hp_total": null,
 "hybrid": null,
@@ -47114,6 +47142,304 @@
 "market": "Россия",
 "to": 201910
 },
+"ford/mondeo/g_201902_15386": {
+"from": 201902,
+"groups": [
+{
+"body": [
+"CF"
+],
+"drive": "fwd",
+"engine": "Duratec 20",
+"fuel": "бензин",
+"hp": 187,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 187 л.с., параллельный гибрид, 120 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201903,
+"id": "423923",
+"name": "2.0 eCVT Titanium Hybrid",
+"to": 202203
+},
+{
+"from": 201903,
+"id": "423924",
+"name": "2.0 eCVT Vignale Hybrid",
+"to": 202203
+}
+]
+}
+],
+"ids": true,
+"key": "ford/mondeo/g_201902_15386",
+"market": "Европа",
+"to": 202204
+},
+"ford/mondeo/g_202204_18774": {
+"from": 202201,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "CAF479WQP1",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 190 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202307,
+"id": "464991",
+"name": "1.5T AT Fashion 180",
+"to": 202409
+},
+{
+"from": 202307,
+"id": "464992",
+"name": "1.5T AT Elegance 180",
+"to": 202409
+},
+{
+"from": 202307,
+"id": "464993",
+"name": "1.5T AT Luxury 180",
+"to": 202409
+},
+{
+"from": 202307,
+"id": "464994",
+"name": "1.5T AT Extreme 180",
+"to": 202409
+},
+{
+"from": 202409,
+"id": "464991",
+"name": "1.5T AT Fashion 180",
+"to": 202512
+},
+{
+"from": 202409,
+"id": "464992",
+"name": "1.5T AT Elegance 180",
+"to": 202512
+},
+{
+"from": 202409,
+"id": "464993",
+"name": "1.5T AT Luxury 180",
+"to": 202512
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "CAF479WQP2",
+"fuel": "бензин",
+"gen_key": "ford/mondeo/g_202204_18774",
+"hp": 190,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 190 л.с., параллельный гибрид, 131 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202311,
+"id": "519757",
+"name": "E-hybrid 1.5T e-CVT Luxury",
+"to": 202409
+},
+{
+"from": 202311,
+"id": "519761",
+"name": "E-hybrid 1.5T e-CVT ST-Line",
+"to": 202409
+},
+{
+"from": 202409,
+"id": "519776",
+"name": "E-hybrid 1.5T e-CVT Comfort",
+"to": 202512
+},
+{
+"from": 202409,
+"id": "519757",
+"name": "E-hybrid 1.5T e-CVT Luxury",
+"to": 202512
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "CAF488WQC",
+"fuel": "бензин",
+"hp": 238,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 238 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202204,
+"id": "464982",
+"name": "2.0T AT Fashion 245",
+"to": 202306
+},
+{
+"from": 202204,
+"id": "464985",
+"name": "2.0T AT Luxury 245",
+"to": 202409
+},
+{
+"from": 202204,
+"id": "464986",
+"name": "2.0T AT Extreme 245",
+"to": 202409
+},
+{
+"from": 202204,
+"id": "464988",
+"name": "2.0T AT ST-Line 245",
+"to": 202409
+},
+{
+"from": 202211,
+"id": "464990",
+"name": "2.0T AT Technology Flagship 245",
+"to": 202306
+},
+{
+"from": 202410,
+"id": "464985",
+"name": "2.0T AT Luxury 245",
+"to": 202512
+},
+{
+"from": 202410,
+"id": "464986",
+"name": "2.0T AT Extreme 245",
+"to": 202512
+}
+]
+}
+],
+"ids": true,
+"key": "ford/mondeo/g_202204_18774",
+"market": "Китай",
+"to": 202512
+},
+"ford/mondeo/g_2025_24501": {
+"from": 202512,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "CAF479WQP1",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 190 л.с., мягкий гибрид, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202512,
+"id": "554384",
+"name": "1.5T AT Fashion",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "CAF479WQP2",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 190 л.с., параллельный гибрид, 131 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202512,
+"id": "554373",
+"name": "E-hybrid 1.5T e-CVT Luxury",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "CAF479WQP4",
+"fuel": "бензин",
+"hp": 196,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 196 л.с., мягкий гибрид, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202512,
+"id": "554382",
+"name": "1.5T AT Comfort",
+"to": null
+},
+{
+"from": 202512,
+"id": "554380",
+"name": "1.5T AT Luxury",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "CAF484WQC2",
+"fuel": "бензин",
+"hp": 261,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 261 л.с., мягкий гибрид, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202512,
+"id": "554379",
+"name": "2.0T AT Luxury",
+"to": null
+},
+{
+"from": 202512,
+"id": "554374",
+"name": "2.0T AT Supreme",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "ford/mondeo/g_2025_24501",
+"market": "Китай",
+"to": null
+},
 "ford/ranger/g_201810_16737": {
 "from": 202111,
 "groups": [
@@ -51561,6 +51887,48 @@
 "market": "Китай",
 "to": 202112
 },
+"haval/xiaolong/g_2023_19172": {
+"from": 202304,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "GW4G15H",
+"fuel": "бензин",
+"gen_key": "haval/xiaolong/g_2023_19172",
+"hp": 101,
+"hp_total": 156,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 101 л.с., параллельный гибрид, 156 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202305,
+"id": "470122",
+"name": "1.5 DHT Pilot 52km",
+"to": 202506
+},
+{
+"from": 202305,
+"id": "470123",
+"name": "1.5 DHT Leading 110km",
+"to": 202506
+},
+{
+"from": 202305,
+"id": "470124",
+"name": "1.5 DHT Pilot 110km",
+"to": 202506
+}
+]
+}
+],
+"ids": true,
+"key": "haval/xiaolong/g_2023_19172",
+"market": "Китай",
+"to": 202506
+},
 "haval/xiaolong_max/g_2023_19173": {
 "from": 202304,
 "groups": [
@@ -52279,51 +52647,61 @@
 "trims": [
 {
 "from": 202209,
+"id": "471609",
 "name": "1.5T CVT 240T Active",
 "to": 202509
 },
 {
 "from": 202209,
+"id": "471612",
 "name": "1.5T CVT 240T Vanguard (5 seats)",
 "to": 202509
 },
 {
 "from": 202209,
+"id": "471622",
 "name": "1.5T CVT 240T Intelligent",
 "to": 202509
 },
 {
 "from": 202209,
+"id": "471614",
 "name": "1.5T CVT 240T Vanguard (7 seats)",
 "to": 202509
 },
 {
 "from": 202209,
+"id": "471623",
 "name": "1.5T CVT 240T Premium",
 "to": 202509
 },
 {
 "from": 202303,
+"id": "471621",
 "name": "1.5T CVT 240T Style",
 "to": 202509
 },
 {
 "from": 202509,
+"id": "550018",
 "name": "1.5T CVT 240T Dynamic (Global 30th Anniversary Edition)",
 "to": null
 },
 {
 "from": 202509,
+"id": "550019",
 "name": "1.5T CVT 240T Sport 5-Seats (Global 30th Anniversary Edition)",
 "to": null
 },
 {
 "from": 202509,
+"id": "550022",
 "name": "1.5T CVT 240T Smart Leader (Global 30th Anniversary Edition)",
 "to": null
 },
 {
 "from": 202509,
+"id": "550020",
 "name": "1.5T CVT 240T Sport 7-Seats (Global 30th Anniversary Edition)",
 "to": null
 }
@@ -52343,16 +52721,19 @@
 "trims": [
 {
 "from": 202209,
+"id": "471624",
 "name": "1.5T CVT AWD 240T Premium",
 "to": 202509
 },
 {
 "from": 202209,
+"id": "471625",
 "name": "1.5T CVT AWD 240T Glory",
 "to": 202509
 },
 {
 "from": 202509,
+"id": "550023",
 "name": "1.5T CVT AWD 240T Supreme (Global 30th Anniversary Edition)",
 "to": null
 }
@@ -52363,7 +52744,6 @@
 "drive": "fwd",
 "engine": "LFB22",
 "fuel": "бензин",
-"gen_key": "honda/cr-v/g_2022_19297",
 "hp": 150,
 "hp_total": 184,
 "hybrid": "параллельный гибрид",
@@ -52373,46 +52753,55 @@
 "trims": [
 {
 "from": 202306,
+"id": "471599",
 "name": "e:HEV 2.0 CVT Wisdom",
 "to": 202509
 },
 {
 "from": 202306,
+"id": "471601",
 "name": "e:HEV 2.0 CVT Enjoy",
 "to": 202509
 },
 {
 "from": 202306,
+"id": "471602",
 "name": "e:HEV 2.0 CVT Smart",
 "to": 202509
 },
 {
 "from": 202306,
+"id": "471603",
 "name": "e:HEV 2.0 CVT Glory",
 "to": 202509
 },
 {
 "from": 202509,
+"id": "550024",
 "name": "e:HEV 2.0 CVT Smart Trend (Global 30th Anniversary Edition)",
 "to": null
 },
 {
 "from": 202509,
+"id": "550025",
 "name": "e:HEV 2.0 CVT Smart Enjoy (Global 30th Anniversary Edition)",
 "to": null
 },
 {
 "from": 202509,
+"id": "550026",
 "name": "e:HEV 2.0 CVT Smart Elite (Global 30th Anniversary Edition)",
 "to": null
 },
 {
 "from": 202509,
+"id": "550028",
 "name": "e:HEV 2.0 CVT Smart Premium (Global 30th Anniversary Edition)",
 "to": null
 },
 {
 "from": 202509,
+"id": "550029",
 "name": "e:HEV 2.0 CVT Smart Flagship (Global 30th Anniversary Edition)",
 "to": null
 }
@@ -52423,7 +52812,6 @@
 "drive": "fwd",
 "engine": "LFB16",
 "fuel": "бензин",
-"gen_key": "honda/cr-v/g_2022_19297",
 "hp": 150,
 "hp_total": 184,
 "hybrid": "параллельный подзаряжаемый (phev) гибрид",
@@ -52433,16 +52821,19 @@
 "trims": [
 {
 "from": 202303,
+"id": "471626",
 "name": "e:PHEV 2.0 CVT Start",
 "to": null
 },
 {
 "from": 202303,
+"id": "471627",
 "name": "e:PHEV 2.0 CVT Cross",
 "to": null
 },
 {
 "from": 202303,
+"id": "471628",
 "name": "e:PHEV 2.0 CVT Leader",
 "to": null
 }
@@ -52453,7 +52844,6 @@
 "drive": "4wd",
 "engine": "LFB22",
 "fuel": "бензин",
-"gen_key": "honda/cr-v/g_2022_19297",
 "hp": 150,
 "hp_total": 184,
 "hybrid": "параллельный гибрид",
@@ -52463,17 +52853,20 @@
 "trims": [
 {
 "from": 202306,
+"id": "471605",
 "name": "e:HEV 2.0 CVT AWD Intelligent Premium",
 "to": 202509
 },
 {
 "from": 202509,
+"id": "550027",
 "name": "e:HEV 2.0 CVT AWD Smart Elite (Global 30th Anniversary Edition)",
 "to": null
 }
 ]
 }
 ],
+"ids": true,
 "key": "honda/cr-v/g_2022_19297",
 "market": "Китай",
 "to": null
@@ -67243,6 +67636,7 @@
 "drive": "4wd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "leapmotor/d99/g_2025_23938",
 "hp": 558,
 "hp_total": null,
 "hybrid": null,
@@ -70130,6 +70524,855 @@
 "key": "maextro/s800/g_2024_23669",
 "market": "Китай",
 "to": null
+},
+"maxus/t60/g_2016_17531": {
+"from": 201611,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "SC20M125Q6A",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 136 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202211,
+"id": "483307",
+"name": "2.0TD MT 4WD Standard Box High-Chassis Comfort Fifth Anniversary Edition",
+"to": 202308
+},
+{
+"from": 202211,
+"id": "483308",
+"name": "2.0TD MT 4WD Long Box High-Chassis Comfort Fifth Anniversary Edition",
+"to": 202308
+},
+{
+"from": 202211,
+"id": "483309",
+"name": "2.0TD MT 4WD Flat-Bottom Cargo Box High-Chassis Comfort Fifth Anniversary Edition",
+"to": 202308
+},
+{
+"from": 202211,
+"id": "483310",
+"name": "2.0TD MT 4WD Standard Box High-Chassis Elite Fifth Anniversary Edition",
+"to": 202308
+},
+{
+"from": 202211,
+"id": "483311",
+"name": "2.0TD MT 4WD Long Box High-Chassis Elite Fifth Anniversary Edition",
+"to": 202308
+},
+{
+"from": 202211,
+"id": "483312",
+"name": "2.0TD MT 4WD Flat-Bottom Cargo Box High-Chassis Elite Fifth Anniversary Edition",
+"to": 202308
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "SC20M125Q6A",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 136 л.с., дизель, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202211,
+"id": "483301",
+"name": "2.0TD MT Standard Box High-Chassis Comfort Fifth Anniversary Edition",
+"to": 202308
+},
+{
+"from": 202211,
+"id": "483302",
+"name": "2.0TD MT Long Box High-Chassis Comfort Fifth Anniversary Edition",
+"to": 202308
+},
+{
+"from": 202211,
+"id": "483303",
+"name": "2.0TD MT Flat-Bottom Cargo Box High-Chassis Comfort Fifth Anniversary Edition",
+"to": 202308
+},
+{
+"from": 202211,
+"id": "483304",
+"name": "2.0TD MT Standard Box High-Chassis Elite Fifth Anniversary Edition",
+"to": 202308
+},
+{
+"from": 202211,
+"id": "483305",
+"name": "2.0TD MT Long Box High-Chassis Elite Fifth Anniversary Edition",
+"to": 202308
+},
+{
+"from": 202211,
+"id": "483306",
+"name": "2.0TD MT Flat-Bottom Cargo Box High-Chassis Elite Fifth Anniversary Edition",
+"to": 202308
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "SC20M163Q6A",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202003,
+"id": "483296",
+"name": "2.0TD MT 4WD Standard Box High-Chassis Pioneer",
+"to": 202308
+},
+{
+"from": 202003,
+"id": "483297",
+"name": "2.0TD MT 4WD Long Box High-Chassis Pioneer",
+"to": 202308
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "SC20M163Q6A",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202003,
+"id": "483292",
+"name": "2.0TD MT Standard Box High-Chassis Pioneer",
+"to": 202308
+},
+{
+"from": 202003,
+"id": "483293",
+"name": "2.0TD MT Long Box High-Chassis Pioneer",
+"to": 202308
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "SC20M163Q6A",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202003,
+"id": "483298",
+"name": "2.0TD AT 4WD Standard Box High-Chassis Pioneer",
+"to": 202308
+},
+{
+"from": 202003,
+"id": "483299",
+"name": "2.0TD AT 4WD Long Box High-Chassis Pioneer",
+"to": 202308
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "SC20M163Q6A",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202003,
+"id": "483294",
+"name": "2.0TD AT Standard Box High-Chassis Pioneer",
+"to": 202308
+},
+{
+"from": 202003,
+"id": "483295",
+"name": "2.0TD AT Long Box High-Chassis Pioneer",
+"to": 202308
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "20L4E",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201909,
+"id": "483236",
+"name": "2.0T AT Standard Box High-Chassis Enjoy",
+"to": 202210
+},
+{
+"from": 201909,
+"id": "483239",
+"name": "2.0T AT Long Box High-Chassis Enjoy",
+"to": 202210
+},
+{
+"from": 201909,
+"id": "483237",
+"name": "2.0T AT Standard Box High-Chassis Elite",
+"to": 202210
+},
+{
+"from": 201909,
+"id": "483240",
+"name": "2.0T AT Long Box High-Chassis Elite",
+"to": 202210
+},
+{
+"from": 201909,
+"id": "483238",
+"name": "2.0T AT Standard Box High-Chassis Luxury",
+"to": 202210
+},
+{
+"from": 201909,
+"id": "483241",
+"name": "2.0T AT Long Box High-Chassis Luxury",
+"to": 202210
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "20L4E",
+"fuel": "бензин",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201711,
+"id": "483219",
+"name": "2.0T MT 4WD Long Box High-Chassis Elite",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483222",
+"name": "2.0T MT 4WD Standard Box High-Chassis Elite",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483220",
+"name": "2.0T MT 4WD Long Box High-Chassis Luxury",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483223",
+"name": "2.0T MT 4WD Standard Box High-Chassis Luxury",
+"to": 201908
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "20L4E",
+"fuel": "бензин",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201711,
+"id": "483216",
+"name": "2.0T MT Long Box High-Chassis Elite",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483228",
+"name": "2.0T MT Standard Box High-Chassis Elite",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483217",
+"name": "2.0T MT Long Box High-Chassis Luxury",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483229",
+"name": "2.0T MT Standard Box High-Chassis Luxury",
+"to": 201908
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "20L4E",
+"fuel": "бензин",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201711,
+"id": "483210",
+"name": "2.0T AT 4WD Long Box High-Chassis Enjoy",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483224",
+"name": "2.0T AT 4WD Standard Box High-Chassis Enjoy",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483211",
+"name": "2.0T AT 4WD Long Box High-Chassis Elite",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483225",
+"name": "2.0T AT 4WD Standard Box High-Chassis Elite",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483212",
+"name": "2.0T AT 4WD Long Box High-Chassis Luxury",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483226",
+"name": "2.0T AT 4WD Standard Box High-Chassis Luxury",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483215",
+"name": "2.0T AT 4WD Long Box High-Chassis Flagship",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483227",
+"name": "2.0T AT 4WD Standard Box High-Chassis Flagship",
+"to": 201908
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "20L4E",
+"fuel": "бензин",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201711,
+"id": "483239",
+"name": "2.0T AT Long Box High-Chassis Enjoy",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483236",
+"name": "2.0T AT Standard Box High-Chassis Enjoy",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483240",
+"name": "2.0T AT Long Box High-Chassis Elite",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483237",
+"name": "2.0T AT Standard Box High-Chassis Elite",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483241",
+"name": "2.0T AT Long Box High-Chassis Luxury",
+"to": 201908
+},
+{
+"from": 201711,
+"id": "483238",
+"name": "2.0T AT Standard Box High-Chassis Luxury",
+"to": 201908
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "4G69",
+"fuel": "бензин",
+"hp": 143,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 143 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201711,
+"id": "483195",
+"name": "2.4 MT 4WD Standard Box High-Chassis Comfort",
+"to": 202210
+},
+{
+"from": 201711,
+"id": "483203",
+"name": "2.4 MT 4WD Long Box High-Chassis Comfort",
+"to": 202210
+},
+{
+"from": 201711,
+"id": "483196",
+"name": "2.4 MT 4WD Standard Box High-Chassis Enjoy",
+"to": 202210
+},
+{
+"from": 201711,
+"id": "483204",
+"name": "2.4 MT 4WD Long Box High-Chassis Enjoy",
+"to": 202210
+},
+{
+"from": 201711,
+"id": "483197",
+"name": "2.4 MT 4WD Standard Box High-Chassis Elite",
+"to": 202210
+},
+{
+"from": 201711,
+"id": "483205",
+"name": "2.4 MT 4WD Long Box High-Chassis Elite",
+"to": 202210
+},
+{
+"from": 201909,
+"id": "483250",
+"name": "2.4 MT 4WD Standard Box High-Chassis Pioneer",
+"to": 202210
+},
+{
+"from": 201909,
+"id": "483251",
+"name": "2.4 MT 4WD Long Box High-Chassis Pioneer",
+"to": 202210
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "4G69",
+"fuel": "бензин",
+"hp": 143,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 143 л.с., бензин, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201711,
+"id": "483190",
+"name": "2.4 MT Standard Box Low-Chassis Comfort",
+"to": 202210
+},
+{
+"from": 201711,
+"id": "483192",
+"name": "2.4 MT Standard Box High-Chassis Comfort",
+"to": 202210
+},
+{
+"from": 201711,
+"id": "483199",
+"name": "2.4 MT Long Box Low-Chassis Comfort",
+"to": 202210
+},
+{
+"from": 201711,
+"id": "483200",
+"name": "2.4 MT Long Box High-Chassis Comfort",
+"to": 202210
+},
+{
+"from": 201711,
+"id": "483191",
+"name": "2.4 MT Standard Box Low-Chassis Enjoy",
+"to": 202210
+},
+{
+"from": 201711,
+"id": "483193",
+"name": "2.4 MT Standard Box High-Chassis Enjoy",
+"to": 202210
+},
+{
+"from": 201711,
+"id": "483198",
+"name": "2.4 MT Long Box Low-Chassis Enjoy",
+"to": 202210
+},
+{
+"from": 201711,
+"id": "483201",
+"name": "2.4 MT Long Box High-Chassis Enjoy",
+"to": 202210
+},
+{
+"from": 201711,
+"id": "483194",
+"name": "2.4 MT Standard Box High-Chassis Elite",
+"to": 202210
+},
+{
+"from": 201711,
+"id": "483202",
+"name": "2.4 MT Long Box High-Chassis Elite",
+"to": 202210
+},
+{
+"from": 201909,
+"id": "483245",
+"name": "2.4 MT Standard Box Low-Chassis Pioneer",
+"to": 202210
+},
+{
+"from": 201909,
+"id": "483247",
+"name": "2.4 MT Long Box Low-Chassis Pioneer",
+"to": 202210
+},
+{
+"from": 201909,
+"id": "483246",
+"name": "2.4 MT Standard Box High-Chassis Pioneer",
+"to": 202210
+},
+{
+"from": 201909,
+"id": "483248",
+"name": "2.4 MT Long Box High-Chassis Pioneer",
+"to": 202210
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "SC28R136",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.8,
+"text": "2.8 л, 136 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201612,
+"id": "483136",
+"name": "2.8TD MT 4WD Standard Box High-Chassis Comfort",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483139",
+"name": "2.8TD MT 4WD Long Box High-Chassis Comfort",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483137",
+"name": "2.8TD MT 4WD Standard Box High-Chassis Enjoy",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483140",
+"name": "2.8TD MT 4WD Long Box High-Chassis Enjoy",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483138",
+"name": "2.8TD MT 4WD Standard Box High-Chassis Elite",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483141",
+"name": "2.8TD MT 4WD Long Box High-Chassis Elite",
+"to": 201908
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "SC28R136",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.8,
+"text": "2.8 л, 136 л.с., дизель, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201612,
+"id": "483014",
+"name": "2.8TD MT Standard Box Low-Chassis Comfort",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483124",
+"name": "2.8TD MT Long Box Low-Chassis Comfort",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483121",
+"name": "2.8TD MT Standard Box High-Chassis Comfort",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483127",
+"name": "2.8TD MT Long Box High-Chassis Comfort",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483119",
+"name": "2.8TD MT Standard Box Low-Chassis Enjoy",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483125",
+"name": "2.8TD MT Long Box Low-Chassis Enjoy",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483122",
+"name": "2.8TD MT Standard Box High-Chassis Enjoy",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483128",
+"name": "2.8TD MT Long Box High-Chassis Enjoy",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483120",
+"name": "2.8TD MT Standard Box Low-Chassis Elite",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483126",
+"name": "2.8TD MT Long Box Low-Chassis Elite",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483123",
+"name": "2.8TD MT Standard Box High-Chassis Elite",
+"to": 201908
+},
+{
+"from": 201612,
+"id": "483129",
+"name": "2.8TD MT Long Box High-Chassis Elite",
+"to": 201908
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "SC28R136",
+"fuel": "дизель",
+"gen_key": "maxus/t60/g_2016_17531",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.8,
+"text": "2.8 л, 136 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201709,
+"id": "483142",
+"name": "2.8TD AT 4WD Standard Box High-Chassis Comfort",
+"to": 201908
+},
+{
+"from": 201709,
+"id": "483145",
+"name": "2.8TD AT 4WD Long Box High-Chassis Comfort",
+"to": 201908
+},
+{
+"from": 201709,
+"id": "483143",
+"name": "2.8TD AT 4WD Standard Box High-Chassis Enjoy",
+"to": 201908
+},
+{
+"from": 201709,
+"id": "483146",
+"name": "2.8TD AT 4WD Long Box High-Chassis Enjoy",
+"to": 201908
+},
+{
+"from": 201709,
+"id": "483144",
+"name": "2.8TD AT 4WD Standard Box High-Chassis Elite",
+"to": 201908
+},
+{
+"from": 201709,
+"id": "483147",
+"name": "2.8TD AT 4WD Long Box High-Chassis Elite",
+"to": 201908
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "SC28R136",
+"fuel": "дизель",
+"gen_key": "maxus/t60/g_2016_17531",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.8,
+"text": "2.8 л, 136 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201709,
+"id": "483130",
+"name": "2.8TD AT Standard Box High-Chassis Comfort",
+"to": 201908
+},
+{
+"from": 201709,
+"id": "483133",
+"name": "2.8TD AT Long Box High-Chassis Comfort",
+"to": 201908
+},
+{
+"from": 201709,
+"id": "483131",
+"name": "2.8TD AT Standard Box High-Chassis Enjoy",
+"to": 201908
+},
+{
+"from": 201709,
+"id": "483134",
+"name": "2.8TD AT Long Box High-Chassis Enjoy",
+"to": 201908
+},
+{
+"from": 201709,
+"id": "483132",
+"name": "2.8TD AT Standard Box High-Chassis Elite",
+"to": 201908
+},
+{
+"from": 201709,
+"id": "483135",
+"name": "2.8TD AT Long Box High-Chassis Elite",
+"to": 201908
+}
+]
+}
+],
+"ids": true,
+"key": "maxus/t60/g_2016_17531",
+"market": "Китай",
+"to": 202308
 },
 "maxus/t70/g_2019_19825": {
 "from": 201906,
@@ -86987,6 +88230,7 @@
 "drive": "4wd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "nio/ec6/g_2023_20092",
 "hp": 490,
 "hp_total": null,
 "hybrid": null,
@@ -87768,6 +89012,7 @@
 "drive": "4wd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "nio/et9/g_2024_20742",
 "hp": 707,
 "hp_total": null,
 "hybrid": null,
@@ -88399,6 +89644,7 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "nissan/nx8/g_2025_23755",
 "hp": 292,
 "hp_total": null,
 "hybrid": null,
@@ -88425,6 +89671,7 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "nissan/nx8/g_2025_23755",
 "hp": 340,
 "hp_total": null,
 "hybrid": null,
@@ -103026,6 +104273,97 @@
 "market": "Китай",
 "to": 202509
 },
+"toyota/frontlander/g_2025_24935": {
+"from": 202509,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "M20A-FXS",
+"fuel": "бензин",
+"hp": 158,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 158 л.с., параллельный гибрид, 113 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202509,
+"id": "560700",
+"name": "2.0h CVT Leading",
+"to": null
+},
+{
+"from": 202509,
+"id": "560701",
+"name": "2.0h CVT Leading Plus",
+"to": null
+},
+{
+"from": 202509,
+"id": "560702",
+"name": "2.0h CVT Luxury",
+"to": null
+},
+{
+"from": 202509,
+"id": "560703",
+"name": "2.0h CVT Luxury Plus",
+"to": null
+},
+{
+"from": 202509,
+"id": "560704",
+"name": "2.0h CVT Premium",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "M20C-FKS",
+"fuel": "бензин",
+"hp": 171,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 171 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202509,
+"id": "560489",
+"name": "2.0 CVT Comfort",
+"to": null
+},
+{
+"from": 202509,
+"id": "560490",
+"name": "2.0 CVT Comfort Plus",
+"to": null
+},
+{
+"from": 202509,
+"id": "560491",
+"name": "2.0 CVT Luxury",
+"to": null
+},
+{
+"from": 202509,
+"id": "560492",
+"name": "2.0 CVT Luxury Plus",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/frontlander/g_2025_24935",
+"market": "Китай",
+"to": null
+},
 "toyota/granvia/g_201902_16264": {
 "from": 201910,
 "groups": [
@@ -113919,6 +115257,7 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "xiaomi/yu7/g_2024_21749",
 "hp": 320,
 "hp_total": null,
 "hybrid": null,
@@ -115094,7 +116433,6 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
-"gen_key": "zeekr/001/g_202309_20240",
 "hp": 422,
 "hp_total": null,
 "hybrid": null,
@@ -115103,7 +116441,8 @@
 "trans": "reducer",
 "trims": [
 {
-"from": 202402,
+"from": 202403,
+"id": "494028",
 "name": "100 kWh We",
 "to": 202509
 }
@@ -115114,7 +116453,6 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
-"gen_key": "zeekr/001/g_202309_20240",
 "hp": 503,
 "hp_total": null,
 "hybrid": null,
@@ -115124,6 +116462,7 @@
 "trims": [
 {
 "from": 202510,
+"id": "548423",
 "name": "103 kWh Max",
 "to": null
 }
@@ -115134,7 +116473,6 @@
 "drive": "4wd",
 "engine": null,
 "fuel": "electric",
-"gen_key": "zeekr/001/g_202309_20240",
 "hp": 789,
 "hp_total": null,
 "hybrid": null,
@@ -115143,17 +116481,20 @@
 "trans": "reducer",
 "trims": [
 {
-"from": 202402,
+"from": 202403,
+"id": "494029",
 "name": "95 kWh We",
 "to": 202509
 },
 {
-"from": 202402,
+"from": 202403,
+"id": "494031",
 "name": "100 kWh You",
 "to": 202509
 },
 {
-"from": 202402,
+"from": 202403,
+"id": "494030",
 "name": "100 kWh Me",
 "to": 202509
 }
@@ -115173,21 +116514,25 @@
 "trims": [
 {
 "from": 202510,
+"id": "548368",
 "name": "95 kWh Max",
 "to": null
 },
 {
 "from": 202510,
+"id": "548419",
 "name": "103 kWh Ultra",
 "to": null
 },
 {
 "from": 202510,
+"id": "548369",
 "name": "103 kWh Ultra+",
 "to": null
 },
 {
 "from": 202604,
+"id": "558415",
 "name": "103 kWh Fifth Anniversary Edition",
 "to": null
 }
@@ -115198,7 +116543,6 @@
 "drive": "4wd",
 "engine": null,
 "fuel": "electric",
-"gen_key": "zeekr/001/g_202309_20240",
 "hp": 1265,
 "hp_total": null,
 "hybrid": null,
@@ -115208,12 +116552,14 @@
 "trims": [
 {
 "from": 202309,
+"id": "478673",
 "name": "100 kWh FR",
 "to": 202509
 }
 ]
 }
 ],
+"ids": true,
 "key": "zeekr/001/g_202309_20240",
 "market": "Китай",
 "to": null
@@ -115228,6 +116574,7 @@
 "drive": "rwd",
 "engine": "TZ235XYC01",
 "fuel": "electric",
+"gen_key": "zeekr/007/g_202312_19623",
 "hp": 422,
 "hp_total": null,
 "hybrid": null,
@@ -115519,6 +116866,7 @@
 "drive": "4wd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "zeekr/009/g_202211_16132",
 "hp": 544,
 "hp_total": null,
 "hybrid": null,
@@ -115858,6 +117206,7 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "zeekr/x/g_202306_19485",
 "hp": 268,
 "hp_total": null,
 "hybrid": null,
@@ -120985,7 +122334,7 @@
 ]
 ],
 "name": "116 kWh WE",
-"v": 2
+"v": 3
 },
 "446068": {
 "groups": [
@@ -124249,7 +125598,7 @@
 ]
 ],
 "name": "EV 72 kWh Distinguished",
-"v": 2
+"v": 3
 },
 "460341": {
 "groups": [
@@ -124360,7 +125709,7 @@
 ]
 ],
 "name": "30 kWh Vitality",
-"v": 2
+"v": 3
 },
 "460566": {
 "groups": [
@@ -125809,6 +127158,138 @@
 ],
 "name": "1.5 DCT Fuyao"
 },
+"470122": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"175 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"101 л.с. (74 кВт) при 5000 об/мин"
+],
+[
+"Крутящий момент",
+"132 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"GW4G15H"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Электро",
+[
+[
+"30-минутная мощность",
+"73 л.с."
+],
+[
+"Комбинированная мощность",
+"174 л.с."
+],
+[
+"Мощность электромотора",
+"115 кВт"
+],
+[
+"Крутящий момент электромотора",
+"250 Н·м"
+],
+[
+"Ёмкость батареи",
+"9,41 кВт·ч"
+],
+[
+"Запас хода",
+"52 км"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"2,4 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4600 × 1877 × 1675 мм"
+],
+[
+"Колёсная база",
+"2710 мм"
+],
+[
+"Клиренс",
+"196 мм"
+],
+[
+"Масса",
+"1740 кг"
+],
+[
+"Багажник",
+"420 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/60 R18"
+]
+]
+]
+],
+"name": "1.5 DHT Pilot 52km",
+"v": 3
+},
 "470125": {
 "groups": [
 [
@@ -125968,6 +127449,27 @@
 ]
 ],
 [
+"Электро",
+[
+[
+"30-минутная мощность",
+"107 л.с."
+],
+[
+"Комбинированная мощность",
+"376 л.с."
+],
+[
+"Мощность электромотора",
+"120 кВт"
+],
+[
+"Крутящий момент электромотора",
+"630 Н·м"
+]
+]
+],
+[
 "Расход топлива",
 [
 [
@@ -126039,7 +127541,8 @@
 ]
 ]
 ],
-"name": "SportCross HEV 2.4 AT Extreme"
+"name": "SportCross HEV 2.4 AT Extreme",
+"v": 3
 },
 "470220": {
 "groups": [
@@ -126235,6 +127738,138 @@
 ]
 ],
 "name": "77 kWh Urban Fit Pro"
+},
+"471599": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"185 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"150 л.с. (110 кВт) при 6100 об/мин"
+],
+[
+"Крутящий момент",
+"183 Н·м при 4500 об/мин"
+],
+[
+"Модель двигателя",
+"LFB22"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Электро",
+[
+[
+"30-минутная мощность",
+"78 л.с."
+],
+[
+"Комбинированная мощность",
+"231 л.с."
+],
+[
+"Мощность электромотора",
+"135 кВт"
+],
+[
+"Крутящий момент электромотора",
+"335 Н·м"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"5,5 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4703 × 1866 × 1680 мм"
+],
+[
+"Колёсная база",
+"2701 мм"
+],
+[
+"Клиренс",
+"190 мм"
+],
+[
+"Масса",
+"1715 кг"
+],
+[
+"Топливный бак",
+"53 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"235/60 R18"
+],
+[
+"Радиус разворота",
+"5,5 м"
+]
+]
+]
+],
+"name": "e:HEV 2.0 CVT Wisdom",
+"v": 3
 },
 "471760": {
 "groups": [
@@ -126801,7 +128436,7 @@
 ]
 ],
 "name": "66 kWh Me 5 seats",
-"v": 2
+"v": 3
 },
 "475875": {
 "groups": [
@@ -128135,6 +129770,91 @@
 ],
 "name": "2.0 AT Driving"
 },
+"483142": {
+"groups": [
+[
+"Двигатель",
+[
+[
+"Мощность",
+"136 л.с. (100 кВт) при 3200 об/мин"
+],
+[
+"Крутящий момент",
+"350 Н·м при 2500 об/мин"
+],
+[
+"Модель двигателя",
+"SC28R136"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Дизельное топливо"
+],
+[
+"Экокласс",
+"Евро-4"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5365 × 1900 × 1809 мм"
+],
+[
+"Колёсная база",
+"3155 мм"
+],
+[
+"Клиренс",
+"215 мм"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Зависимая, рессорная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"245/70 R16"
+]
+]
+]
+],
+"name": "2.8TD AT 4WD Standard Box High-Chassis Comfort",
+"v": 3
+},
 "483383": {
 "groups": [
 [
@@ -128332,7 +130052,7 @@
 ]
 ],
 "name": "75 kWh Drive",
-"v": 2
+"v": 3
 },
 "484081": {
 "groups": [
@@ -128443,7 +130163,7 @@
 ]
 ],
 "name": "101 kWh Max",
-"v": 2
+"v": 3
 },
 "484105": {
 "groups": [
@@ -128900,7 +130620,7 @@
 ]
 ],
 "name": "75 kWh",
-"v": 2
+"v": 3
 },
 "490304": {
 "groups": [
@@ -129015,7 +130735,7 @@
 ]
 ],
 "name": "75 kWh",
-"v": 2
+"v": 3
 },
 "490452": {
 "groups": [
@@ -129330,7 +131050,7 @@
 ]
 ],
 "name": "69.77 kWh AWD Long Range Advanced 501km",
-"v": 2
+"v": 3
 },
 "494637": {
 "groups": [
@@ -131332,7 +133052,7 @@
 ]
 ],
 "name": "100 kWh",
-"v": 2
+"v": 3
 },
 "504256": {
 "groups": [
@@ -133688,7 +135408,114 @@
 ]
 ],
 "name": "76 kWh",
-"v": 2
+"v": 3
+},
+"517959": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"130 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Тип двигателя",
+"Электродвигатель"
+],
+[
+"Топливо",
+"Электричество"
+]
+]
+],
+[
+"Электро",
+[
+[
+"30-минутная мощность",
+"82 л.с."
+],
+[
+"Мощность электромотора",
+"100 кВт"
+],
+[
+"Крутящий момент электромотора",
+"260 Н·м"
+],
+[
+"Ёмкость батареи",
+"72 кВт·ч"
+],
+[
+"Запас хода",
+"560 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5040 × 1910 × 1569 мм"
+],
+[
+"Колёсная база",
+"2990 мм"
+],
+[
+"Масса",
+"1900 кг"
+],
+[
+"Багажник",
+"433 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"235/50 R18"
+],
+[
+"Радиус разворота",
+"5,85 м"
+]
+]
+]
+],
+"name": "72 kWh 560 km Plus",
+"v": 3
 },
 "518323": {
 "groups": [
@@ -134138,6 +135965,117 @@
 ],
 "name": "1.4 AMT Blue Whale Super"
 },
+"519735": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"5,9 с"
+],
+[
+"Максимальная скорость",
+"240 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Тип двигателя",
+"Электродвигатель"
+],
+[
+"Топливо",
+"Электричество"
+]
+]
+],
+[
+"Электро",
+[
+[
+"Мощность электромотора",
+"235 кВт"
+],
+[
+"Крутящий момент электромотора",
+"528 Н·м"
+],
+[
+"Ёмкость батареи",
+"96,3 кВт·ч"
+],
+[
+"Запас хода",
+"835 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4999 × 1996 × 1608 мм"
+],
+[
+"Колёсная база",
+"3000 мм"
+],
+[
+"Клиренс",
+"150 мм"
+],
+[
+"Масса",
+"2315 кг"
+],
+[
+"Багажник",
+"678 (141 л (спереди), 1758 л (сзади со сложенными сиденьями)) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"245/55 R19"
+],
+[
+"Радиус разворота",
+"5,7 м"
+]
+]
+]
+],
+"name": "96.3 kWh Long Range",
+"v": 3
+},
 "519736": {
 "groups": [
 [
@@ -134251,7 +136189,135 @@
 ]
 ],
 "name": "93.7 kWh Ultra",
-"v": 2
+"v": 3
+},
+"519757": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"175 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"190 л.с. (140 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"222 Н·м при 1750 об/мин"
+],
+[
+"Модель двигателя",
+"CAF479WQP2"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Электро",
+[
+[
+"Мощность электромотора",
+"96 кВт"
+],
+[
+"Крутящий момент электромотора",
+"235 Н·м"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"4,5 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4935 × 1875 × 1500 мм"
+],
+[
+"Колёсная база",
+"2945 мм"
+],
+[
+"Клиренс",
+"140 мм"
+],
+[
+"Масса",
+"1605 кг"
+],
+[
+"Топливный бак",
+"53 л"
+],
+[
+"Багажник",
+"504 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"235/50 R18"
+]
+]
+]
+],
+"name": "E-hybrid 1.5T e-CVT Luxury",
+"v": 3
 },
 "519950": {
 "groups": [
@@ -139865,6 +141931,121 @@
 ],
 "name": "PHEV 1.5T DHT AWD Ultra Long Range Core"
 },
+"548423": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"4,98 с"
+],
+[
+"Максимальная скорость",
+"280 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Тип двигателя",
+"Электродвигатель"
+],
+[
+"Топливо",
+"Электричество"
+]
+]
+],
+[
+"Электро",
+[
+[
+"Мощность электромотора",
+"370 кВт"
+],
+[
+"Крутящий момент электромотора",
+"535 Н·м"
+],
+[
+"Ёмкость батареи",
+"103 кВт·ч"
+],
+[
+"Запас хода",
+"810 км"
+],
+[
+"Быстрая зарядка",
+"60 кВт"
+],
+[
+"Медленная зарядка",
+"6 кВт"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4977 × 1999 × 1545 мм"
+],
+[
+"Колёсная база",
+"3005 мм"
+],
+[
+"Клиренс",
+"174 мм"
+],
+[
+"Масса",
+"2235 кг"
+],
+[
+"Багажник",
+"740 (сзади), 2144 (сзади со сложенным 2 рядом), 31 (спереди) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"255/55 R19"
+]
+]
+]
+],
+"name": "103 kWh Max",
+"v": 3
+},
 "548915": {
 "groups": [
 [
@@ -140296,7 +142477,7 @@
 ]
 ],
 "name": "EV 580 Pro",
-"v": 2
+"v": 3
 },
 "551863": {
 "groups": [
@@ -140676,6 +142857,23 @@
 ]
 ],
 [
+"Электро",
+[
+[
+"Мощность электромотора",
+"160 кВт"
+],
+[
+"Крутящий момент электромотора",
+"251 Н·м"
+],
+[
+"Ёмкость батареи",
+"1,7 кВт·ч"
+]
+]
+],
+[
 "Расход топлива",
 [
 [
@@ -140743,7 +142941,8 @@
 ]
 ]
 ],
-"name": "1.5 Blue Whale Super Engine Sport"
+"name": "1.5 Blue Whale Super Engine Sport",
+"v": 3
 },
 "554427": {
 "groups": [
@@ -141261,7 +143460,7 @@
 ]
 ],
 "name": "115 kWh 700 Premium",
-"v": 2
+"v": 3
 },
 "558688": {
 "groups": [
@@ -141567,7 +143766,7 @@
 ]
 ],
 "name": "82 kWh 667km Max",
-"v": 2
+"v": 3
 },
 "560830": {
 "groups": [
@@ -141674,7 +143873,7 @@
 ]
 ],
 "name": "100 kWh 802km Max",
-"v": 2
+"v": 3
 },
 "560881": {
 "groups": [
@@ -142135,7 +144334,7 @@
 ]
 ],
 "name": "81 kWh 2WD Pure Electric Max",
-"v": 2
+"v": 3
 },
 "562334": {
 "groups": [
