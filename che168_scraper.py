@@ -798,6 +798,17 @@ def parse_detail(body: str, car: dict) -> dict:
     }
     if hp and not spec["Двигатель"]:
         spec["Двигатель"] = f"{hp.group(1)} л.с."
+    # Мощность из объявления («纯电动 218马力», «2.0T 245马力») — точная для этой машины; по ней же
+    # выбирается комплектация drom.ru (у Song Plus EV там версии 181 и 218 л.с.)
+    listing_hp = int(hp.group(1)) if hp and 20 <= int(hp.group(1)) <= 2000 else None
+    if listing_hp and fuel in ("Электро", "Последовательный гибрид (увеличенный запас хода)"):
+        spec["Мощность, л.с."] = str(listing_hp)
+    battery = re.search(r"(\d+(?:\.\d+)?)\s*kwh", rows.get("标准容量", ""), re.I)
+    if battery:
+        spec["Ёмкость батареи, кВт·ч"] = battery.group(1)
+    rng = next((re.search(r"(\d{2,4})\s*km", v, re.I) for k, v in rows.items() if "纯电续航" in k), None)
+    if rng:
+        spec["Запас хода, км"] = rng.group(1)
     # Фото: сначала полноразмерные из галереи объявления, потом из карточки списка
     # Главное фото — первое в галерее (data-original 900×675); f_s_ — это миниатюры ленты
     gallery = re.findall(r"//[\w.]*autoimg\.cn/escimg/[^\"'\s]*?autohomecar__[^\"'\s]+?\.jpg", body)
@@ -809,6 +820,7 @@ def parse_detail(body: str, car: dict) -> dict:
     return {
         "spec": {k: v for k, v in spec.items() if v},
         "photos": photos,
+        "hp": listing_hp,
     }
 
 
@@ -1268,12 +1280,15 @@ def drom_car(car: dict, make: str, model: str, cc=None, guess=True) -> dict:
     name = car["name"]
     model_year = re.search(r"(20\d{2})\s*款", name)
     fuel = fuel_of(name, "")
+    trim = " ".join(x for x in (latin_trim(name), car.get("battery_kwh") and f"{car['battery_kwh']:g} kWh") if x) or None
     return {
         "make": make, "model": model, "market": "china",
         "year": int(model_year.group(1)) if model_year else car["year"],
         "cc": (cc or (guess_cc(name) if guess else None)) if fuel != "Электро" else None,
         "fuel": drom_specs.norm_fuel(fuel), "drive": drom_specs.norm_drive(name),
-        "trans": drom_specs.norm_trans(name), "trim": latin_trim(name),
+        "trans": drom_specs.norm_trans(name), "trim": trim,
+        # Мощность из объявления — подсказка для выбора комплектации drom.ru
+        "hp": car.get("hp_listing"),
     }
 
 
@@ -1572,6 +1587,11 @@ def main():
                 d = {"spec": spec_from_name(car), "photos": []}
                 from_list += 1
             make, model = brand_model(car["name"], body or "", car.get("brandid"))
+            try:
+                car["hp_listing"] = d.get("hp")
+                car["battery_kwh"] = float(d["spec"].get("Ёмкость батареи, кВт·ч") or 0) or None
+            except ValueError:
+                pass
             tech = add_power(d["spec"], car, make, model, autohome, drom, power_counts, cc_exact=body is not None)
             opts = equipment.get(car.get("specid"))
             listings.append({
