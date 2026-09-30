@@ -110142,6 +110142,7 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "volkswagen/id3/g_2019_17934",
 "hp": 170,
 "hp_total": null,
 "hybrid": null,
