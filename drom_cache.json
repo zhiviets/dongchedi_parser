@@ -43202,6 +43202,7 @@
 "drive": "rwd",
 "engine": "GM Ecotec LDF",
 "fuel": "бензин",
+"gen_key": "cadillac/ct4/g_2019_19855",
 "hp": 211,
 "hp_total": null,
 "hybrid": null,
@@ -64126,6 +64127,7 @@
 "drive": "fwd",
 "engine": "GW4N20A",
 "fuel": "бензин",
+"gen_key": "haval/dargo/g_2022_23076",
 "hp": 238,
 "hp_total": null,
 "hybrid": null,
@@ -120061,6 +120063,7 @@
 "drive": "4wd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "nio/es8/g_2022_17506",
 "hp": 653,
 "hp_total": null,
 "hybrid": null,
@@ -124859,6 +124862,111 @@
 "market": "Китай",
 "to": 202304
 },
+"nissan/tiida/g_200409_5267": {
+"from": 200709,
+"groups": [
+{
+"body": [
+"C11"
+],
+"drive": "fwd",
+"engine": "HR16DE",
+"fuel": "бензин",
+"hp": 110,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 110 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200709,
+"id": "170782",
+"name": "1.6 MT Comfort",
+"to": 201009
+},
+{
+"from": 200709,
+"id": "170783",
+"name": "1.6 MT Elegance",
+"to": 201009
+},
+{
+"from": 200709,
+"id": "170784",
+"name": "1.6 MT Tekna",
+"to": 201009
+}
+]
+},
+{
+"body": [
+"C11"
+],
+"drive": "fwd",
+"engine": "HR16DE",
+"fuel": "бензин",
+"hp": 110,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 110 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200709,
+"id": "170786",
+"name": "1.6 AT Comfort",
+"to": 201009
+},
+{
+"from": 200709,
+"id": "170787",
+"name": "1.6 AT Elegance",
+"to": 201009
+},
+{
+"from": 200709,
+"id": "170785",
+"name": "1.6 AT Tekna",
+"to": 201009
+}
+]
+},
+{
+"body": [
+"C11"
+],
+"drive": "fwd",
+"engine": "MR18DE",
+"fuel": "бензин",
+"hp": 126,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 126 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200709,
+"id": "170788",
+"name": "1.8 MT Elegance",
+"to": 201009
+},
+{
+"from": 200709,
+"id": "170789",
+"name": "1.8 MТ Tekna",
+"to": 201009
+}
+]
+}
+],
+"ids": true,
+"key": "nissan/tiida/g_200409_5267",
+"market": "Россия",
+"to": 201009
+},
 "nissan/tiida/g_200801_1012": {
 "from": 201010,
 "groups": [
@@ -125147,6 +125255,7 @@
 "drive": "fwd",
 "engine": "HR16DE",
 "fuel": "бензин",
+"gen_key": "nissan/tiida/g_2011_21338",
 "hp": 126,
 "hp_total": null,
 "hybrid": null,
@@ -125235,6 +125344,7 @@
 "drive": "fwd",
 "engine": "MR16DDT",
 "fuel": "бензин",
+"gen_key": "nissan/tiida/g_2011_21338",
 "hp": 190,
 "hp_total": null,
 "hybrid": null,
@@ -141140,6 +141250,7 @@
 "drive": "fwd",
 "engine": "A25B-FXS",
 "fuel": "бензин",
+"gen_key": "toyota/rav4/g_2019_16649",
 "hp": 178,
 "hp_total": null,
 "hybrid": "параллельный гибрид",
@@ -141174,6 +141285,7 @@
 "drive": "4wd",
 "engine": "A25B-FXS",
 "fuel": "бензин",
+"gen_key": "toyota/rav4/g_2019_16649",
 "hp": 178,
 "hp_total": 179,
 "hybrid": "параллельный гибрид",
@@ -141292,6 +141404,244 @@
 "key": "toyota/rav4/g_2019_16649",
 "market": "Китай",
 "to": 202511
+},
+"toyota/rav4/g_202511_22574": {
+"from": 202505,
+"groups": [
+{
+"body": [
+"AXAH62"
+],
+"drive": "fwd",
+"engine": "A25A-FXS",
+"fuel": "бензин",
+"hp": 176,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 176 л.с., параллельный гибрид, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202604,
+"id": "529722",
+"name": "2.5 CVT 2WD Hybrid",
+"to": null
+}
+]
+},
+{
+"body": [
+"AXAH64"
+],
+"drive": "4wd",
+"engine": "A25A-FXS",
+"fuel": "бензин",
+"hp": 176,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 176 л.с., параллельный гибрид, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202604,
+"id": "529720",
+"name": "2.5 CVT 4WD Hybrid",
+"to": null
+}
+]
+},
+{
+"body": [
+"AXAH64"
+],
+"drive": "4wd",
+"engine": "A25A-FXS",
+"fuel": "бензин",
+"hp": 176,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 176 л.с., параллельный подзаряжаемый (PHEV) гибрид, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202604,
+"id": "529721",
+"name": "PHEV 2.5 CVT 4WD",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/rav4/g_202511_22574",
+"market": "Европа",
+"to": null
+},
+"toyota/rav4/g_2025_23657": {
+"from": 202505,
+"groups": [
+{
+"body": [
+"MXAH62"
+],
+"drive": "fwd",
+"engine": "M20H-FXS",
+"fuel": "бензин",
+"gen_key": "toyota/rav4/g_2025_23657",
+"hp": 152,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 152 л.с., параллельный гибрид, 113 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202511,
+"id": "544744",
+"name": "2.0 CVT 2WD Hybrid Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543856",
+"name": "2.0 CVT 2WD Hybrid Luxury",
+"to": null
+}
+]
+},
+{
+"body": [
+"MXAH60"
+],
+"drive": "fwd",
+"engine": "M20D-FKS",
+"fuel": "бензин",
+"hp": 171,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 171 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202511,
+"id": "543861",
+"name": "2.0 CVT 2WD Luxury",
+"to": null
+}
+]
+},
+{
+"body": [
+"MXAH65"
+],
+"drive": "4wd",
+"engine": "M20D-FKS",
+"fuel": "бензин",
+"hp": 171,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 171 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202511,
+"id": "543862",
+"name": "2.0 CVT 4WD Luxury",
+"to": null
+}
+]
+},
+{
+"body": [
+"AXAH64"
+],
+"drive": "4wd",
+"engine": "A25F-FXS",
+"fuel": "бензин",
+"gen_key": "toyota/rav4/g_2025_23657",
+"hp": 185,
+"hp_total": 189,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 185 л.с., параллельный гибрид, 189 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202511,
+"id": "543854",
+"name": "2.5 CVT 4WD Hybrid Luxury",
+"to": null
+},
+{
+"from": 202511,
+"id": "544745",
+"name": "2.5 CVT 4WD Hybrid Flagship",
+"to": null
+}
+]
+},
+{
+"body": [
+"AXAH64"
+],
+"drive": "4wd",
+"engine": "A25F-FXS",
+"fuel": "бензин",
+"hp": 185,
+"hp_total": 189,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 185 л.с., параллельный подзаряжаемый (PHEV) гибрид, 189 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202602,
+"id": "543855",
+"name": "PHEV 2.5 CVT 4WD",
+"to": null
+}
+]
+},
+{
+"body": [
+"MXAH60"
+],
+"drive": "fwd",
+"engine": "M20D-FXS",
+"fuel": "бензин",
+"hp": 171,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 171 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": []
+},
+{
+"body": [
+"MXAH60"
+],
+"drive": "fwd",
+"engine": "M20D-FXS",
+"fuel": "бензин",
+"hp": 171,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 171 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": []
+}
+],
+"ids": true,
+"key": "toyota/rav4/g_2025_23657",
+"market": "Китай",
+"to": null
 },
 "toyota/supra/g_201903_9404": {
 "from": 201801,
@@ -173038,6 +173388,19 @@
 ]
 ],
 [
+"Электро",
+[
+[
+"Мощность электромотора",
+"140 кВт"
+],
+[
+"Крутящий момент электромотора",
+"320 Н·м"
+]
+]
+],
+[
 "Расход топлива",
 [
 [
@@ -173109,7 +173472,8 @@
 ]
 ]
 ],
-"name": "E-Hybrid 2.0T EcoBoost e-CVT AWD L Supreme"
+"name": "E-Hybrid 2.0T EcoBoost e-CVT AWD L Supreme",
+"v": 3
 },
 "480898": {
 "groups": [
@@ -179829,6 +180193,104 @@
 ]
 ],
 "name": "1.6 CVT Cool"
+},
+"514682": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"11,7 с"
+],
+[
+"Максимальная скорость",
+"175 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"126 л.с. (93 кВт) при 5600 об/мин"
+],
+[
+"Крутящий момент",
+"154 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"HR16DE"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4295 × 1760 × 1520 мм"
+],
+[
+"Колёсная база",
+"2700 мм"
+],
+[
+"Масса",
+"1211 кг"
+],
+[
+"Топливный бак",
+"52 л"
+],
+[
+"Багажник",
+"310 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"195/60 R16"
+]
+]
+]
+],
+"name": "1.6 CVT Cool",
+"v": 3
 },
 "514713": {
 "groups": [
