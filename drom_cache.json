@@ -289,6 +289,10 @@
 "уаз": "uaz"
 },
 "gen_lists": {
+"acura/ilx/china": {
+"day": 739890,
+"gens": []
+},
 "acura/rdx/china": {
 "day": 739888,
 "gens": [
@@ -1563,6 +1567,14 @@
 "g_2016_17486",
 "g_2018_3919",
 "g_202503_21803"
+]
+},
+"haval/h8/china": {
+"day": 739890,
+"gens": [
+"g_201408_2421",
+"g_2014_17487",
+"g_2017_17488"
 ]
 },
 "haval/xiaolong/china": {
@@ -53318,6 +53330,279 @@
 "market": "Китай",
 "to": 202112
 },
+"haval/h8/g_201408_2421": {
+"from": 201408,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4C20",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201408,
+"id": "77624",
+"name": "2.0 AT Standart",
+"to": 201512
+},
+{
+"from": 201408,
+"id": "77625",
+"name": "2.0 AT Elite+",
+"to": 201512
+},
+{
+"from": 201510,
+"id": "91403",
+"name": "2.0 AT Elite",
+"to": 201710
+},
+{
+"from": 201510,
+"id": "91404",
+"name": "2.0 AT Elite Technic",
+"to": 201710
+}
+]
+}
+],
+"ids": true,
+"key": "haval/h8/g_201408_2421",
+"market": "Россия",
+"to": 201710
+},
+"haval/h8/g_2014_17487": {
+"from": 201408,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4C20",
+"fuel": "бензин",
+"gen_key": "haval/h8/g_2014_17487",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201511,
+"id": "456428",
+"name": "2.0T AT AWD Сomfort",
+"to": 201705
+},
+{
+"from": 201511,
+"id": "456429",
+"name": "2.0T AT AWD Elite",
+"to": 201705
+},
+{
+"from": 201511,
+"id": "456433",
+"name": "2.0T AT AWD Exclusive",
+"to": 201705
+},
+{
+"from": 201504,
+"id": "456430",
+"name": "2.0T AT AWD Standard",
+"to": 201510
+},
+{
+"from": 201504,
+"id": "456431",
+"name": "2.0T AT AWD Luxury",
+"to": 201510
+},
+{
+"from": 201504,
+"id": "456432",
+"name": "2.0T AT AWD Noble",
+"to": 201510
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GW4C20",
+"fuel": "бензин",
+"gen_key": "haval/h8/g_2014_17487",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201511,
+"id": "456423",
+"name": "2.0T AT Сomfort",
+"to": 201705
+},
+{
+"from": 201511,
+"id": "456425",
+"name": "2.0T AT Elite",
+"to": 201705
+},
+{
+"from": 201504,
+"id": "456424",
+"name": "2.0T AT Standard",
+"to": 201510
+},
+{
+"from": 201504,
+"id": "456426",
+"name": "2.0T AT Luxury",
+"to": 201510
+},
+{
+"from": 201504,
+"id": "456427",
+"name": "2.0T AT Noble",
+"to": 201510
+}
+]
+}
+],
+"ids": true,
+"key": "haval/h8/g_2014_17487",
+"market": "Китай",
+"to": 201705
+},
+"haval/h8/g_2017_17488": {
+"from": 201706,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4D20",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201706,
+"id": "456441",
+"name": "2.0d AT AWD Enjoy",
+"to": 201806
+},
+{
+"from": 201706,
+"id": "456442",
+"name": "2.0d AT AWD Smart Enjoy",
+"to": 201806
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GW4D20",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201706,
+"id": "456439",
+"name": "2.0d AT Enjoy",
+"to": 201806
+},
+{
+"from": 201706,
+"id": "456440",
+"name": "2.0d AT Smart Enjoy",
+"to": 201806
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4C20T",
+"fuel": "бензин",
+"gen_key": "haval/h8/g_2017_17488",
+"hp": 252,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 252 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201706,
+"id": "456436",
+"name": "2.0T AT AWD Enjoy",
+"to": 201806
+},
+{
+"from": 201706,
+"id": "456437",
+"name": "2.0T AT AWD Smart Enjoy",
+"to": 201806
+},
+{
+"from": 201706,
+"id": "456438",
+"name": "2.0T AT AWD Exclusive",
+"to": 201806
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GW4C20T",
+"fuel": "бензин",
+"gen_key": "haval/h8/g_2017_17488",
+"hp": 252,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 252 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201706,
+"id": "456434",
+"name": "2.0T AT Enjoy",
+"to": 201806
+},
+{
+"from": 201706,
+"id": "456435",
+"name": "2.0T AT Smart Enjoy",
+"to": 201806
+}
+]
+}
+],
+"ids": true,
+"key": "haval/h8/g_2017_17488",
+"market": "Китай",
+"to": 201806
+},
 "haval/xiaolong/g_2023_19172": {
 "from": 202304,
 "groups": [
@@ -70114,6 +70399,92 @@
 "key": "leapmotor/c16/g_202406_20723",
 "market": "Китай",
 "to": 202605
+},
+"leapmotor/c16/g_2026_24691": {
+"from": 202606,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"gen_key": "leapmotor/c16/g_2026_24691",
+"hp": 313,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "313 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202606,
+"id": "557418",
+"name": "81.9 kWh Premium 5-seater",
+"to": null
+},
+{
+"from": 202606,
+"id": "557420",
+"name": "81.9 kWh LiDAR Smart 5-seater",
+"to": null
+},
+{
+"from": 202606,
+"id": "557419",
+"name": "81.9 kWh Premium 6-seater",
+"to": null
+},
+{
+"from": 202606,
+"id": "557421",
+"name": "81.9 kWh LiDAR Smart 6-seater",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "H15RP",
+"fuel": "бензин",
+"hp": 95,
+"hp_total": 272,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 95 л.с., последовательный подзаряжаемый (PHEV) гибрид, 272 л.с., редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202606,
+"id": "557423",
+"name": "EREV 1.5 SSR 38.9 kWh Premium 5-seater",
+"to": null
+},
+{
+"from": 202606,
+"id": "557424",
+"name": "EREV 1.5 SSR 38.9 kWh LiDAR Smart 5-seater",
+"to": null
+},
+{
+"from": 202606,
+"id": "557422",
+"name": "EREV 1.5 SSR 38.9 kWh Premium 6-seater",
+"to": null
+},
+{
+"from": 202606,
+"id": "557425",
+"name": "EREV 1.5 SSR 38.9 kWh LiDAR Smart 6-seater",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "leapmotor/c16/g_2026_24691",
+"market": "Китай",
+"to": null
 },
 "leapmotor/d19/g_2025_23450": {
 "from": 202510,
@@ -150369,6 +150740,113 @@
 ]
 ],
 "name": "1.6T DCT 2WD Fashion"
+},
+"557418": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"6,8 с"
+],
+[
+"Максимальная скорость",
+"190 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Тип двигателя",
+"Электродвигатель"
+],
+[
+"Топливо",
+"Электричество"
+]
+]
+],
+[
+"Электро",
+[
+[
+"Мощность электромотора",
+"230 кВт"
+],
+[
+"Крутящий момент электромотора",
+"360 Н·м"
+],
+[
+"Ёмкость батареи",
+"81,9 кВт·ч"
+],
+[
+"Запас хода",
+"630 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4925 × 1905 × 1770 мм"
+],
+[
+"Колёсная база",
+"2825 мм"
+],
+[
+"Клиренс",
+"200 мм"
+],
+[
+"Масса",
+"2160 кг"
+],
+[
+"Багажник",
+"582 (2077) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"235/55 R20"
+]
+]
+]
+],
+"name": "81.9 kWh Premium 5-seater",
+"v": 3
 },
 "557700": {
 "groups": [
