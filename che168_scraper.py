@@ -436,26 +436,80 @@ def price_stats(prices: list) -> dict:
     return {"n": len(p), "lo": at(0.1) if wide else p[0], "mid": at(0.5), "hi": at(0.9) if wide else p[-1]}
 
 
+PRICES = {}   # группа похожих → цены объявлений che168 (собираются при обходе)
+STATS_DAYS = int(os.environ.get("CHE168_STATS_DAYS") or "10")
+MIX = {"limits": None}   # лимиты разнообразия [на модель-год, на модель] — с сайта (/known)
+
+
+def similar_prices(make, model, year, cc=None, specid=None) -> list:
+    """Цены похожих: та же комплектация Autohome (specid); мало (меньше MIN_SIMILAR) — шире: модель, год и
+    объём; модель и год; соседние годы ±1, потом ±2."""
+    if not (make and model and year):
+        return []
+    levels = ([[("s", specid)]] if specid and specid != "0" else []) + ([[("c", make, model, year, cc)]] if cc else []) + [
+        [("y", make, model, year)],
+        [("y", make, model, year + d) for d in (-1, 0, 1)],
+        [("y", make, model, year + d) for d in range(-2, 3)],
+    ]
+    for keys in levels:
+        prices = [p for k in keys for p in PRICES.get(k, [])]
+        if len(prices) >= MIN_SIMILAR:
+            return prices
+    return []
+
+
 def attach_price_stats(cards: list):
-    """Шкала цены на сайте: цены похожих объявлений che168 — той же комплектации Autohome (specid),
-    а если таких меньше MIN_SIMILAR — той же модели, года и объёма. → car["price_stats"]."""
-    by_spec, by_model = {}, {}
-    coarse = lambda c: (brand_model(c["name"], "", c.get("brandid"))[:2], c["year"], guess_cc(c["name"]))
+    """Шкала цены на сайте: цены похожих объявлений che168 → car["price_stats"] и stats_key (группа)."""
     for c in cards:
-        if c.get("price_cny"):
+        make, model = brand_model(c["name"], "", c.get("brandid"))[:2]
+        c["_mm"] = (make, model)
+        if c.get("price_cny") and make and model and c.get("year"):
             if c.get("specid") and c["specid"] != "0":
-                by_spec.setdefault(c["specid"], []).append(c["price_cny"])
-            by_model.setdefault(coarse(c), []).append(c["price_cny"])
+                PRICES.setdefault(("s", c["specid"]), []).append(c["price_cny"])
+            PRICES.setdefault(("c", make, model, c["year"], guess_cc(c["name"])), []).append(c["price_cny"])
+            PRICES.setdefault(("y", make, model, c["year"]), []).append(c["price_cny"])
     done = 0
     for c in cards:
-        prices = by_spec.get(c.get("specid"))
-        if not prices or len(prices) < MIN_SIMILAR:
-            prices = by_model.get(coarse(c))
-        if prices and len(prices) >= MIN_SIMILAR:
+        make, model = c["_mm"]
+        prices = similar_prices(make, model, c.get("year"), guess_cc(c["name"]), c.get("specid"))
+        if prices:
             c["price_stats"] = price_stats(prices)
+            c["stats_key"] = f"{make}|{model}|{c['year']}"
             done += 1
-    print(f"Статистика цен: у {done} из {len(cards)} машин {MIN_SIMILAR}+ похожих объявлений "
-          f"(комплектаций {sum(1 for v in by_spec.values() if len(v) >= MIN_SIMILAR)})")
+    print(f"Статистика цен: у {done} из {len(cards)} машин {MIN_SIMILAR}+ похожих объявлений")
+
+
+def stale_stats(items: dict, seen: set) -> list[dict]:
+    """Машины сайта, не встреченные в обходе, у которых шкалы нет или она старше STATS_DAYS дней, — свежая
+    статистика по ценам, собранным при обходе (по марке, модели и году как на сайте)."""
+    out, lack = [], 0
+    for vid, i in items.items():
+        if vid in seen or not i.get("published") or not i.get("url"):
+            continue
+        if i.get("has_gauge") and i.get("stats_days") is not None and i["stats_days"] < STATS_DAYS:
+            continue
+        try:
+            year = int(i.get("year") or 0)
+        except ValueError:
+            year = 0
+        prices = similar_prices(i.get("make"), i.get("model"), year)
+        if not prices:
+            lack += 1
+            continue
+        out.append({"external_id": vid, "source_url": i["url"], "price_stats": price_stats(prices),
+                    "stats_key": f"{i['make']}|{i['model']}|{year}"})
+    print(f"Шкала цены машинам сайта, не встреченным в обходе: обновлена у {len(out)}, нет похожих у {lack}")
+    return out
+
+
+def stats_due(items: dict) -> bool:
+    """Прогон ради шкалы (новых машин не надо): у CHE168_STATS_MIN+ машин сайта шкалы нет или она старше STATS_DAYS."""
+    pub = [i for i in items.values() if i.get("published")]
+    stale = sum(1 for i in pub if not i.get("has_gauge") or i.get("stats_days") is None or i["stats_days"] >= STATS_DAYS)
+    need = stale >= int(os.environ.get("CHE168_STATS_MIN") or "300")
+    print(f"Шкала цены: без неё или старше {STATS_DAYS} дн. — {stale} из {len(pub)} машин"
+          + (" — обход ради шкалы" if need else ""))
+    return need
 
 
 def scan_models(page, known: set, touched: list | None = None):
@@ -585,9 +639,10 @@ def scan_models(page, known: set, touched: list | None = None):
     return groups
 
 
-# Доли по годам: 60% — 2022–2024, 15% — 2025–2026, 15% — 2017–2021, 10% — 2010–2016 (порядок — приоритет)
-YEAR_BANDS = [("2022–2024", 2022, 2024, 0.60), ("2025–2026", 2025, 2026, 0.15), ("2017–2021", 2017, 2021, 0.15),
-              ("2010–2016", 2010, 2016, 0.10)]
+# Доли по годам: 40% — 2022–2024, 15% — 2025–2026, 25% — 2017–2021, 20% — 2010–2016 (массовые модели прошлых
+# лет тоже нужны каталогу; порядок — приоритет)
+YEAR_BANDS = [("2022–2024", 2022, 2024, 0.40), ("2025–2026", 2025, 2026, 0.15), ("2017–2021", 2017, 2021, 0.25),
+              ("2010–2016", 2010, 2016, 0.20)]
 
 
 def year_band(year):
@@ -631,7 +686,35 @@ def run_wants(total: int, have: dict) -> dict:
     return need
 
 
-def pick_models(groups: dict, total: int, on_site: dict | None = None, have: dict | None = None) -> list[dict]:
+class MixGuard:
+    """Лимиты разнообразия MIX["limits"] = [на модель-год, на модель] — вместе с машинами сайта (have_names —
+    {(марка, модель, год): машин}). Марка и модель — как у сайта (brand_model по названию)."""
+
+    def __init__(self, have_names: dict):
+        self.limits = MIX["limits"] or [10 ** 6, 10 ** 6]
+        self.year, self.model = {}, {}
+        for (make, model, year), n in have_names.items():
+            self.year[(make, model, year)] = self.year.get((make, model, year), 0) + n
+            self.model[(make, model)] = self.model.get((make, model), 0) + n
+
+    @staticmethod
+    def name(c):
+        return c.get("_mm") or tuple(brand_model(c["name"], "", c.get("brandid"))[:2])
+
+    def site_year(self, c) -> int:
+        return self.year.get((*self.name(c), c.get("year")), 0)
+
+    def allows(self, c) -> bool:
+        return self.site_year(c) < self.limits[0] and self.model.get(self.name(c), 0) < self.limits[1]
+
+    def take(self, c):
+        k = (*self.name(c), c.get("year"))
+        self.year[k] = self.year.get(k, 0) + 1
+        self.model[self.name(c)] = self.model.get(self.name(c), 0) + 1
+
+
+def pick_models(groups: dict, total: int, on_site: dict | None = None, have: dict | None = None,
+                have_names: dict | None = None) -> list[dict]:
     """Не больше total машин: 75% до 160 л.с., 25% мощнее (электро, гибриды), по годам — YEAR_BANDS.
     Доли — для каталога целиком (have — состав сайта, см. run_wants).
 
@@ -643,9 +726,11 @@ def pick_models(groups: dict, total: int, on_site: dict | None = None, have: dic
     порядке: от прогона к прогону на сайт попадают разные модели.
     """
     on_site = on_site or {}
-    order = sorted(groups, key=lambda k: (on_site.get(k, 0), random.random()))
+    # Сначала модели, которых на сайте меньше, среди них — самые массовые (больше объявлений в обходе)
+    order = sorted(groups, key=lambda k: (on_site.get(k, 0), -len(groups[k]), random.random()))
     groups = {k: groups[k] for k in order}
     picked, used, count, taken = [], set(), {}, {}
+    mix = MixGuard(have_names or {})
     rank = {name: i for i, (name, *_) in enumerate(YEAR_BANDS)}
     want = run_wants(total, have or {})
     print("Нужно за прогон: " + ", ".join(f"{'до 160' if k == 'le160' else 'мощнее'} {b} — {v}"
@@ -659,6 +744,7 @@ def pick_models(groups: dict, total: int, on_site: dict | None = None, have: dic
         return sum(v for (k, _), v in count.items() if k == kind)
 
     def take(c):
+        mix.take(c)
         key = (series_key(c["name"]), c["power"])
         taken[key] = taken.get(key, 0) + 1
         picked.append(c)
@@ -667,14 +753,24 @@ def pick_models(groups: dict, total: int, on_site: dict | None = None, have: dic
         count[k] = count.get(k, 0) + 1
 
     for cars in groups.values():
-        # Сначала 2022–2024, потом 2025–2026, потом старше
-        cars.sort(key=lambda c: rank.get(year_band(c["year"]), 9))
+        # Сначала годы модели, которых на сайте нет (или меньше), среди них — массовые, потом по долям лет;
+        # годы по очереди — по машине каждого года, потом по второй
+        per_year = {}
+        for c in cars:
+            per_year[c["year"]] = per_year.get(c["year"], 0) + 1
+        cars.sort(key=lambda c: (mix.site_year(c), -per_year.get(c["year"], 0), rank.get(year_band(c["year"]), 9)))
+        nth, seq = {}, []
+        for c in cars:
+            nth[c["year"]] = nth.get(c["year"], 0) + 1
+            seq.append((nth[c["year"]], len(seq), c))
+        cars[:] = [c for *_, c in sorted(seq, key=lambda x: (x[0], x[1]))]
     new_models = [cars for k, cars in groups.items() if not on_site.get(k)]
     for cars in new_models:
         if len(picked) >= total:
             break
-        best = min(cars, key=fill_ratio)
-        if fill_ratio(best) < 1:
+        fits = [c for c in cars if mix.allows(c)]
+        best = min(fits, key=fill_ratio) if fits else None
+        if best and fill_ratio(best) < 1:
             take(best)
     covered = len(picked)
 
@@ -688,7 +784,7 @@ def pick_models(groups: dict, total: int, on_site: dict | None = None, have: dic
             for key, it in pools.items():
                 if taken.get((key, kind), 0) >= PER_MODEL_RUN[kind]:
                     continue   # разнообразие: не больше PER_MODEL_RUN машин модели за прогон
-                c = next((c for c in it if c["infoid"] not in used), None)
+                c = next((c for c in it if c["infoid"] not in used and mix.allows(c)), None)
                 if c:
                     progress = True
                     yield c
@@ -1394,7 +1490,9 @@ def fetch_known() -> dict:
         resp = requests.get(f"{BN_AUTO_URL}/api/live-listings/known", params={"source": "che168", "all": "1"},
                             headers={"Authorization": f"Bearer {BN_AUTO_IMPORT_TOKEN}"}, timeout=60)
         resp.raise_for_status()
-        return {str(i["id"]): i for i in resp.json().get("items") or []}
+        data = resp.json()
+        MIX["limits"] = data.get("mix")
+        return {str(i["id"]): i for i in data.get("items") or []}
     except Exception as error:
         print(f"Список известных объявлений не получен ({error}) — разбираем всё")
         return {}
@@ -1512,11 +1610,16 @@ def gather(page, known: set, total: int, items: dict, touched: list) -> list[dic
                 make, model = brand_model(cars[0]["name"], "", cars[0].get("brandid"))[:2]
                 on_site[key] = by_name.get((make, model), 0)
             have = catalog_have(items.values())
+            have_names = {}
+            for i in items.values():
+                if i.get("complete") and i.get("published") and i.get("make"):
+                    k = (i["make"], i.get("model"), int(i["year"]) if str(i.get("year") or "").isdigit() else None)
+                    have_names[k] = have_names.get(k, 0) + 1
             print("На сайте по годам: " + ", ".join(f"{name} — {sum(v for (_, b), v in have.items() if b == name)}"
                                                     for name, *_ in YEAR_BANDS)
                   + f"; до 160 л.с. {sum(v for (k, _), v in have.items() if k == 'le160')}, "
                     f"мощнее {sum(v for (k, _), v in have.items() if k == 'other')}")
-            return pick_models(groups, total, on_site, have)
+            return pick_models(groups, total, on_site, have, have_names)
     return collect(page, known, total)
 
 
@@ -1525,7 +1628,7 @@ def main():
     items = fetch_known()
     known = good_known(items)
     total = run_size(items)
-    if not total:
+    if not total and not stats_due(items):
         return
     touched = []
     session = http_session()
@@ -1539,7 +1642,7 @@ def main():
         context = new_context(browser, list_proxy)
         page = context.new_page()
         cars = gather(page, known, total, items, touched)
-        if not cars and list_proxy:
+        if not cars and total and list_proxy:
             # Прокси не отвечает (бесплатные быстро умирают) — список пробуем напрямую
             print("Через прокси список не получен — пробуем напрямую")
             context.close()
@@ -1547,7 +1650,7 @@ def main():
             context = new_context(browser, False)
             page = context.new_page()
             cars = gather(page, known, total, items, touched)
-        elif not cars and PROXY_SERVER:
+        elif not cars and total and PROXY_SERVER:
             # Напрямую che168 не отдал список — пробуем через прокси
             print("Напрямую список не получен — пробуем через прокси")
             context.close()
@@ -1575,12 +1678,14 @@ def main():
         seen_cars = [{"external_id": c["infoid"], "price_value": c["price_cny"], "mileage_km": c["mileage_km"],
                       "source_url": f"https://www.che168.com/dealer/{c['dealerid']}/{c['infoid']}.html",
                       **cc_fix(c, items, autohome, drom), **ev_fix(c, items, drom),
-                      **({"price_stats": c["price_stats"]} if c.get("price_stats") else {})}
+                      **({"price_stats": c["price_stats"], "stats_key": c.get("stats_key")} if c.get("price_stats") else {})}
                      for c in {c["infoid"]: c for c in touched}.values()]
         print(f"Исправлен объём у машин с сайта: {sum('cc' in x for x in seen_cars)} "
               f"(и мощность у {sum('hp' in x for x in seen_cars)}); электромобили: тип топлива у "
               f"{sum('fuel' in x for x in seen_cars)}, характеристики drom.ru у {sum('tech' in x for x in seen_cars)}")
         push(seen_cars)
+        # Шкала цены машинам сайта, не встреченным в обходе: нет её или старше CHE168_STATS_DAYS дней
+        push(stale_stats(items, {str(c["infoid"]) for c in touched} | {str(c["infoid"]) for c in cars}))
 
         done = failed = degraded = degraded_saved = from_list = 0
         list_only = False   # объявления закрыты капчей — дальше только данные списка
@@ -1606,7 +1711,7 @@ def main():
                 "photo_url": fetch_photo(session, d["photos"] + photo_candidates(car.get("image"))),
                 "spec": d["spec"] or None, "source_url": url, **({"options": opts} if opts else {}),
                 **({"tech": tech} if tech else {}),
-                **({"price_stats": car["price_stats"]} if car.get("price_stats") else {}),
+                **({"price_stats": car["price_stats"], "stats_key": car.get("stats_key")} if car.get("price_stats") else {}),
             })
             done += 1
             src = "из списка" if body is None else "из объявления"
@@ -1633,7 +1738,7 @@ def main():
                 listings.append({"external_id": car["infoid"], "price_value": car["price_cny"],
                                  "mileage_km": car["mileage_km"], "source_url": url, **({"options": opts} if opts else {}),
                                  **cc_fix(car, items, autohome, drom), **ev_fix(car, items, drom),
-                                 **({"price_stats": car["price_stats"]} if car.get("price_stats") else {})})
+                                 **({"price_stats": car["price_stats"], "stats_key": car.get("stats_key")} if car.get("price_stats") else {})})
                 continue
             if list_only:
                 add(car, url)
