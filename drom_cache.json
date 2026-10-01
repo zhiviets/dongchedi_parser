@@ -636,6 +636,14 @@
 "day": 739887,
 "gens": []
 },
+"baojun/310/china": {
+"day": 739890,
+"gens": [
+"g_2016_18446",
+"g_2017_18445",
+"g_2018_18444"
+]
+},
 "baojun/510/china": {
 "day": 739889,
 "gens": [
@@ -799,6 +807,17 @@
 "g_2021_21448",
 "g_202408_21755",
 "g_2024_22239"
+]
+},
+"bmw/x4/china": {
+"day": 739890,
+"gens": [
+"g_201406_2233",
+"g_2014_21915",
+"g_201803_8166",
+"g_2018_21916",
+"g_202106_13529",
+"g_2021_21917"
 ]
 },
 "bmw/x5/china": {
@@ -1292,6 +1311,13 @@
 "gens": [
 "g_2015_16959",
 "g_202310_21838"
+]
+},
+"chery/arrizo_8/china": {
+"day": 739890,
+"gens": [
+"g_202204_18610",
+"g_2022_16957"
 ]
 },
 "chery/e5/china": {
@@ -3602,6 +3628,13 @@
 "day": 739890,
 "gens": [
 "g_201902_18769"
+]
+},
+"volkswagen/sagitar/china": {
+"day": 739890,
+"gens": [
+"g_201912_23376",
+"g_202206_20700"
 ]
 },
 "volkswagen/t-roc/china": {
@@ -15412,6 +15445,193 @@
 "key": "baic/beijing_x3/g_201907_17169",
 "market": "Китай",
 "to": 202506
+},
+"baojun/310/g_2016_18446": {
+"from": 201604,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "LMH",
+"fuel": "бензин",
+"hp": 80,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.2,
+"text": "1.2 л, 80 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202001,
+"id": "530161",
+"name": "1.2L MT Value",
+"to": null
+},
+{
+"from": 202001,
+"id": "530164",
+"name": "1.2L MT Comfort",
+"to": null
+},
+{
+"from": 202001,
+"id": "530163",
+"name": "1.2L MT Fashion",
+"to": null
+},
+{
+"from": 202001,
+"id": "530166",
+"name": "1.2L MT Luxury",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LMH",
+"fuel": "бензин",
+"gen_key": "baojun/310/g_2016_18446",
+"hp": 82,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.2,
+"text": "1.2 л, 82 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201609,
+"id": "530161",
+"name": "1.2L MT Value",
+"to": 201904
+},
+{
+"from": 201609,
+"id": "530164",
+"name": "1.2L MT Comfort",
+"to": 201904
+},
+{
+"from": 201609,
+"id": "530163",
+"name": "1.2L MT Fashion",
+"to": 201904
+},
+{
+"from": 201609,
+"id": "530166",
+"name": "1.2L MT Luxury",
+"to": 201904
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LMH",
+"fuel": "бензин",
+"hp": 82,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.2,
+"text": "1.2 л, 82 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201904,
+"id": "530128",
+"name": "1.2L AMT Comfort",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "L2B",
+"fuel": "бензин",
+"gen_key": "baojun/310/g_2016_18446",
+"hp": 111,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 111 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201705,
+"id": "532196",
+"name": "1.5L MT Comfort",
+"to": 201904
+},
+{
+"from": 201705,
+"id": "532197",
+"name": "1.5L MT Fashion",
+"to": 201904
+},
+{
+"from": 201705,
+"id": "532198",
+"name": "1.5L MT Luxury",
+"to": 201904
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "L2B",
+"fuel": "бензин",
+"hp": 111,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 111 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201709,
+"id": "532193",
+"name": "1.5L AMT Comfort",
+"to": 201904
+},
+{
+"from": 201709,
+"id": "532199",
+"name": "1.5L AMT Fashion",
+"to": 201904
+},
+{
+"from": 201709,
+"id": "532200",
+"name": "1.5L AMT Luxury",
+"to": 201904
+}
+]
+}
+],
+"ids": true,
+"key": "baojun/310/g_2016_18446",
+"market": "Китай",
+"to": null
+},
+"baojun/310/g_2017_18445": {
+"from": 201704,
+"groups": [],
+"ids": true,
+"key": "baojun/310/g_2017_18445",
+"market": "Китай",
+"to": 201811
+},
+"baojun/310/g_2018_18444": {
+"from": 201804,
+"groups": [],
+"ids": true,
+"key": "baojun/310/g_2018_18444",
+"market": "Китай",
+"to": null
 },
 "baojun/510/g_2016_18447": {
 "from": 201611,
@@ -30766,6 +30986,730 @@
 "key": "bmw/x3/g_2024_22239",
 "market": "Китай",
 "to": null
+},
+"bmw/x4/g_201406_2233": {
+"from": 201406,
+"groups": [
+{
+"body": [
+"F26"
+],
+"drive": "4wd",
+"engine": "N20B20",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201504,
+"id": "83622",
+"name": "xDrive 20i AT M Sport",
+"to": 201712
+},
+{
+"from": 201710,
+"id": "189136",
+"name": "xDrive 20i AT xLine",
+"to": 201809
+}
+]
+},
+{
+"body": [
+"F26"
+],
+"drive": "4wd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201512,
+"id": "90584",
+"name": "xDrive 20d MT",
+"to": 201809
+}
+]
+},
+{
+"body": [
+"F26"
+],
+"drive": "4wd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201503,
+"id": "80962",
+"name": "xDrive 20d AT",
+"to": 201809
+},
+{
+"from": 201504,
+"id": "83625",
+"name": "xDrive 20d AT M Sport",
+"to": 201809
+}
+]
+},
+{
+"body": [
+"F26"
+],
+"drive": "4wd",
+"engine": "N20B20",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"id": "76542",
+"name": "xDrive 28i AT",
+"to": 201809
+},
+{
+"from": 201504,
+"id": "83623",
+"name": "xDrive 28i AT Exclusive",
+"to": 201710
+},
+{
+"from": 201710,
+"id": "189137",
+"name": "xDrive 28i AT M Sport",
+"to": 201809
+}
+]
+},
+{
+"body": [
+"F26"
+],
+"drive": "4wd",
+"engine": "N57D30",
+"fuel": "дизель",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 249 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"id": "76544",
+"name": "xDrive 30d AT",
+"to": 201809
+},
+{
+"from": 201504,
+"id": "83628",
+"name": "xDrive 30d AT Exclusive",
+"to": 201809
+}
+]
+},
+{
+"body": [
+"F26"
+],
+"drive": "4wd",
+"engine": "N55B30",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 306 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"id": "76543",
+"name": "xDrive 35i AT",
+"to": 201809
+}
+]
+},
+{
+"body": [
+"F26"
+],
+"drive": "4wd",
+"engine": "N57D30TOP",
+"fuel": "дизель",
+"hp": 313,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 313 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201406,
+"id": "76545",
+"name": "xDrive 35d AT",
+"to": 201809
+}
+]
+},
+{
+"body": [
+"F26"
+],
+"drive": "4wd",
+"engine": "N55B30",
+"fuel": "бензин",
+"hp": 360,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 360 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201608,
+"id": "167148",
+"name": "xDrive M40i AT",
+"to": 201809
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x4/g_201406_2233",
+"market": "Россия",
+"to": 201809
+},
+"bmw/x4/g_2014_21915": {
+"from": 201406,
+"groups": [
+{
+"body": [
+"F26"
+],
+"drive": "4wd",
+"engine": "N20B20",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201407,
+"id": "522586",
+"name": "xDrive20i AT X Design",
+"to": 201808
+},
+{
+"from": 201609,
+"id": "522591",
+"name": "xDrive20i AT M Sport",
+"to": 201808
+}
+]
+},
+{
+"body": [
+"F26"
+],
+"drive": "4wd",
+"engine": "N20B20",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201407,
+"id": "522587",
+"name": "xDrive28i AT Leading",
+"to": 201808
+},
+{
+"from": 201407,
+"id": "522588",
+"name": "xDrive28i AT M Sport",
+"to": 201808
+}
+]
+},
+{
+"body": [
+"F26"
+],
+"drive": "4wd",
+"engine": "N55B30M0",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 306 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201407,
+"id": "522590",
+"name": "xDrive35i AT M Sport",
+"to": 201808
+}
+]
+},
+{
+"body": [
+"F26"
+],
+"drive": "4wd",
+"engine": "N55B30T0",
+"fuel": "бензин",
+"hp": 360,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 360 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201604,
+"id": "522592",
+"name": "M40i",
+"to": 201808
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x4/g_2014_21915",
+"market": "Китай",
+"to": 201808
+},
+"bmw/x4/g_201803_8166": {
+"from": 201803,
+"groups": [
+{
+"body": [
+"G02"
+],
+"drive": "4wd",
+"engine": "B48A20",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201803,
+"id": "196650",
+"name": "xDrive 20i AT Base",
+"to": 202106
+},
+{
+"from": 201803,
+"id": "260109",
+"name": "xDrive 20i AT Lifestyle",
+"to": 202106
+},
+{
+"from": 202011,
+"id": "311563",
+"name": "xDrive 20i AT M Sport",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"G02"
+],
+"drive": "4wd",
+"engine": "B47D20",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201803,
+"id": "196654",
+"name": "xDrive 20d AT Base",
+"to": 202106
+},
+{
+"from": 201810,
+"id": "229344",
+"name": "xDrive 20d AT xLine",
+"to": 202106
+},
+{
+"from": 201810,
+"id": "229346",
+"name": "xDrive 20d AT M Sport",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"G02"
+],
+"drive": "4wd",
+"engine": "B48B20",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 249 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201803,
+"id": "196652",
+"name": "xDrive 30i AT Base",
+"to": 202106
+},
+{
+"from": 201810,
+"id": "229283",
+"name": "xDrive 30i AT Exclusive",
+"to": 202011
+},
+{
+"from": 202012,
+"id": "311564",
+"name": "xDrive 30i AT M Sport",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"G02"
+],
+"drive": "4wd",
+"engine": "B57D30",
+"fuel": "дизель",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 249 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "208360",
+"name": "xDrive 30d AT Base",
+"to": 202106
+},
+{
+"from": 201810,
+"id": "229368",
+"name": "xDrive 30d AT M Sport",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"G02"
+],
+"drive": "4wd",
+"engine": "B57D30",
+"fuel": "дизель",
+"hp": 326,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 326 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "208361",
+"name": "xDrive M40d AT Base",
+"to": 202106
+},
+{
+"from": 202002,
+"id": "275748",
+"name": "xDrive M40d AT M Special",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"G02"
+],
+"drive": "4wd",
+"engine": "B58B30M0",
+"fuel": "бензин",
+"hp": 360,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 360 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201803,
+"id": "196653",
+"name": "xDrive M40i AT Base",
+"to": 202101
+},
+{
+"from": 202002,
+"id": "275747",
+"name": "xDrive M40i AT M Special",
+"to": 202101
+}
+]
+},
+{
+"body": [
+"G02"
+],
+"drive": "4wd",
+"engine": "B58B30O1",
+"fuel": "бензин",
+"hp": 387,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 387 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202102,
+"id": "196653",
+"name": "xDrive M40i AT Base",
+"to": 202106
+},
+{
+"from": 202102,
+"id": "275747",
+"name": "xDrive M40i AT M Special",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"G02"
+],
+"drive": "4wd",
+"engine": "S58",
+"fuel": "бензин",
+"hp": 480,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 480 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201907,
+"id": "260118",
+"name": "xDrive AT M Special Edition",
+"to": 202106
+}
+]
+},
+{
+"body": [
+"G02"
+],
+"drive": "4wd",
+"engine": "S58",
+"fuel": "бензин",
+"hp": 510,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 510 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201904,
+"id": "239906",
+"name": "xDrive AT M Competition",
+"to": 202106
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x4/g_201803_8166",
+"market": "Россия",
+"to": 202106
+},
+"bmw/x4/g_2018_21916": {
+"from": 201803,
+"groups": [
+{
+"body": [
+"G02"
+],
+"drive": "4wd",
+"engine": "B48B20A",
+"fuel": "бензин",
+"gen_key": "bmw/x4/g_2018_21916",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201808,
+"id": "522595",
+"name": "xDrive25i AT M Sport",
+"to": 201912
+},
+{
+"from": 201808,
+"id": "522596",
+"name": "xDrive25i AT M Off-Road Package",
+"to": 201912
+},
+{
+"from": 201912,
+"id": "522595",
+"name": "xDrive25i AT M Sport",
+"to": 202010
+},
+{
+"from": 201912,
+"id": "522597",
+"name": "xDrive25i AT Black Knight Limited Edition",
+"to": 202010
+},
+{
+"from": 201912,
+"id": "522596",
+"name": "xDrive25i AT M Off-Road Package",
+"to": 202010
+},
+{
+"from": 202010,
+"id": "522595",
+"name": "xDrive25i AT M Sport",
+"to": 202105
+},
+{
+"from": 202010,
+"id": "522605",
+"name": "xDrive25i AT M Sport Night Edition",
+"to": 202105
+},
+{
+"from": 202105,
+"id": "522595",
+"name": "xDrive25i AT M Sport",
+"to": 202110
+},
+{
+"from": 202105,
+"id": "522605",
+"name": "xDrive25i AT M Sport Night Edition",
+"to": 202110
+}
+]
+},
+{
+"body": [
+"G02"
+],
+"drive": "4wd",
+"engine": "B48B20B",
+"fuel": "бензин",
+"gen_key": "bmw/x4/g_2018_21916",
+"hp": 252,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 252 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201912,
+"id": "522598",
+"name": "xDrive30i AT M Sport",
+"to": 202010
+},
+{
+"from": 201912,
+"id": "522599",
+"name": "xDrive30i AT M Off-Road Package",
+"to": 202010
+},
+{
+"from": 201808,
+"id": "522598",
+"name": "xDrive30i AT M Sport",
+"to": 201912
+},
+{
+"from": 201808,
+"id": "522599",
+"name": "xDrive30i AT M Off-Road Package",
+"to": 201912
+},
+{
+"from": 202010,
+"id": "522606",
+"name": "xDrive30i AT M Sport Night Edition",
+"to": 202105
+},
+{
+"from": 202105,
+"id": "522606",
+"name": "xDrive30i AT M Sport Night Edition",
+"to": 202110
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x4/g_2018_21916",
+"market": "Китай",
+"to": 202110
 },
 "bmw/x5/g_201310_2087": {
 "from": 201310,
@@ -46611,6 +47555,7 @@
 "drive": "fwd",
 "engine": "JL476ZQCE",
 "fuel": "бензин",
+"gen_key": "changan/eado_xt/g_2015_17096",
 "hp": 170,
 "hp_total": null,
 "hybrid": null,
@@ -46826,6 +47771,7 @@
 "drive": "fwd",
 "engine": "JL478QEN",
 "fuel": "бензин",
+"gen_key": "changan/eado_xt/g_2015_17096",
 "hp": 128,
 "hp_total": null,
 "hybrid": null,
@@ -46918,6 +47864,7 @@
 "drive": "fwd",
 "engine": "JL478QEP, JL478QEN",
 "fuel": "бензин",
+"gen_key": "changan/eado_xt/g_2018_17097",
 "hp": 128,
 "hp_total": null,
 "hybrid": null,
@@ -47620,6 +48567,255 @@
 ],
 "ids": true,
 "key": "chery/arrizo_5/g_202310_21838",
+"market": "Китай",
+"to": null
+},
+"chery/arrizo_8/g_202204_18610": {
+"from": 202204,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRF4J16",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202405,
+"id": "503164",
+"name": "1.6 DCT Comfort",
+"to": 202409
+},
+{
+"from": 202407,
+"id": "508814",
+"name": "1.6 DCT Active (Актив)",
+"to": null
+},
+{
+"from": 202407,
+"id": "508815",
+"name": "1.6 DCT Prime (Прайм)",
+"to": null
+},
+{
+"from": 202409,
+"id": "513282",
+"name": "1.6 DCT Ultra Black (Ультра Черный)",
+"to": null
+},
+{
+"from": 202409,
+"id": "513283",
+"name": "1.6 DCT Ultra",
+"to": 202601
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRF4J16C",
+"fuel": "бензин",
+"hp": 186,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 186 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202306,
+"id": "462917",
+"name": "1.6 DCT Prestige",
+"to": 202409
+},
+{
+"from": 202306,
+"id": "462918",
+"name": "1.6 DCT Ultimate",
+"to": 202409
+},
+{
+"from": 202306,
+"id": "464158",
+"name": "1.6 DCT Ultimate SE",
+"to": 202409
+}
+]
+}
+],
+"ids": true,
+"key": "chery/arrizo_8/g_202204_18610",
+"market": "Россия",
+"to": null
+},
+"chery/arrizo_8/g_2022_16957": {
+"from": 202204,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRF4J16C",
+"fuel": "бензин",
+"gen_key": "chery/arrizo_8/g_2022_16957",
+"hp": 197,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 197 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202204,
+"id": "450637",
+"name": "1.6 DCT Preferred",
+"to": 202606
+},
+{
+"from": 202204,
+"id": "450638",
+"name": "1.6 DCT Fashion",
+"to": 202606
+},
+{
+"from": 202204,
+"id": "450639",
+"name": "1.6 DCT Escape",
+"to": 202606
+},
+{
+"from": 202204,
+"id": "450640",
+"name": "1.6 DCT Elegant",
+"to": 202606
+},
+{
+"from": 202204,
+"id": "450641",
+"name": "1.6 DCT Pegasus",
+"to": 202606
+},
+{
+"from": 202406,
+"id": "521634",
+"name": "1.6 DCT Smart",
+"to": 202606
+},
+{
+"from": 202406,
+"id": "521635",
+"name": "1.6 DCT Rui",
+"to": 202606
+},
+{
+"from": 202403,
+"id": "521636",
+"name": "1.6 DCT Excellent",
+"to": 202606
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRF4J16C",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 200 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202606,
+"id": "557179",
+"name": "1.6 DCT Conqueror Edition Smart",
+"to": null
+},
+{
+"from": 202606,
+"id": "557180",
+"name": "1.6 DCT Conqueror Edition Premium Smart",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRF4J20",
+"fuel": "бензин",
+"gen_key": "chery/arrizo_8/g_2022_16957",
+"hp": 254,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 254 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202406,
+"id": "521641",
+"name": "2.0 AT Royal Plus",
+"to": 202606
+},
+{
+"from": 202606,
+"id": "557178",
+"name": "2.0 AT Conqueror Edition Executive",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRF4J20",
+"fuel": "бензин",
+"gen_key": "chery/arrizo_8/g_2022_16957",
+"hp": 254,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 254 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202307,
+"id": "521638",
+"name": "2.0 DCT Chi",
+"to": 202606
+},
+{
+"from": 202307,
+"id": "521639",
+"name": "2.0 DCT Power",
+"to": 202606
+},
+{
+"from": 202307,
+"id": "521640",
+"name": "2.0 DCT Royal",
+"to": 202606
+},
+{
+"from": 202606,
+"id": "557177",
+"name": "2.0 DCT Conqueror Edition Dynamic",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "chery/arrizo_8/g_2022_16957",
 "market": "Китай",
 "to": null
 },
@@ -49982,6 +51178,7 @@
 "drive": "fwd",
 "engine": "SQRE4T15C",
 "fuel": "бензин",
+"gen_key": "chery/tiggo_8/g_2018_19194",
 "hp": 156,
 "hp_total": null,
 "hybrid": null,
@@ -50126,6 +51323,7 @@
 "drive": "fwd",
 "engine": "SQRE4T15C",
 "fuel": "бензин",
+"gen_key": "chery/tiggo_8/g_2019_19195",
 "hp": 156,
 "hp_total": null,
 "hybrid": null,
@@ -50176,6 +51374,7 @@
 "drive": "fwd",
 "engine": "SQRF4J16",
 "fuel": "бензин",
+"gen_key": "chery/tiggo_8/g_2019_19195",
 "hp": 197,
 "hp_total": null,
 "hybrid": null,
@@ -50328,6 +51527,7 @@
 "drive": "fwd",
 "engine": "SQRF4J20",
 "fuel": "бензин",
+"gen_key": "chery/tiggo_8/g_2019_19195",
 "hp": 254,
 "hp_total": null,
 "hybrid": null,
@@ -50390,6 +51590,159 @@
 "key": "chery/tiggo_8/g_2019_19195",
 "market": "Китай",
 "to": 202303
+},
+"chery/tiggo_8/g_202205_19196": {
+"from": 202205,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4T15C",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 156 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202208,
+"id": "470452",
+"name": "1.5 TCI MT Special Edition",
+"to": 202408
+},
+{
+"from": 202208,
+"id": "470457",
+"name": "1.5 TCI MT 230T Advanced",
+"to": 202408
+},
+{
+"from": 202408,
+"id": "521594",
+"name": "1.5 TCI MT 230TCI Trend",
+"to": null
+},
+{
+"from": 202310,
+"id": "521599",
+"name": "1.5 TCI MT 230TCI Honor Edition Advanced",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4T15C",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 156 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202208,
+"id": "470453",
+"name": "1.5 TCI DCT Special Edition",
+"to": 202408
+},
+{
+"from": 202208,
+"id": "470456",
+"name": "1.5 TCI DCT Dynamic Edition",
+"to": 202408
+},
+{
+"from": 202208,
+"id": "470458",
+"name": "1.5 TCI DCT 230T Advanced",
+"to": 202408
+},
+{
+"from": 202211,
+"id": "470454",
+"name": "1.5 TCI DCT Respect Edition",
+"to": 202303
+},
+{
+"from": 202205,
+"id": "470456",
+"name": "1.5 TCI DCT Dynamic Edition",
+"to": 202207
+},
+{
+"from": 202404,
+"id": "521595",
+"name": "1.5 TCI DCT 230TCI Trend",
+"to": null
+},
+{
+"from": 202407,
+"id": "521596",
+"name": "1.5 TCI DCT 230TCI Cutting Edge",
+"to": null
+},
+{
+"from": 202401,
+"id": "521597",
+"name": "1.5 TCI DCT 230TCI Zhiyuan",
+"to": null
+},
+{
+"from": 202403,
+"id": "521598",
+"name": "1.5 TCI DCT 230TCI New Dynamic",
+"to": null
+},
+{
+"from": 202310,
+"id": "521600",
+"name": "1.5 TCI DCT 230TCI Honor Edition Excellent",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRF4J16",
+"fuel": "бензин",
+"hp": 197,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 197 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202208,
+"id": "470459",
+"name": "1.6 TGDI DCT 290T Kunpeng Edition Excellence",
+"to": 202408
+},
+{
+"from": 202208,
+"id": "470460",
+"name": "1.6 TGDI DCT 290T Kunpeng Edition Premium",
+"to": 202408
+},
+{
+"from": 202406,
+"id": "521601",
+"name": "1.6 TGDI DCT 290T Kunpeng Edition Zhufeng Plus",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "chery/tiggo_8/g_202205_19196",
+"market": "Китай",
+"to": null
 },
 "chery/tiggo_9/g_202305_18458": {
 "from": 202304,
@@ -50484,6 +51837,224 @@
 "market": "Китай",
 "to": 202409
 },
+"chery/tiggo_9/g_202409_21828": {
+"from": 202409,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRH4J15",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 224,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 224 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202409,
+"id": "521697",
+"name": "1.5T C-DM DHT 106km Yuexiang 5-seats (Lithium Iron Phosphate Battery)",
+"to": 202509
+},
+{
+"from": 202409,
+"id": "521701",
+"name": "1.5T C-DM DHT 106km Yuexiang (Ternary Lithium Battery)",
+"to": 202509
+},
+{
+"from": 202409,
+"id": "521699",
+"name": "1.5T C-DM DHT 106km Super 5-seats (Lithium Iron Phosphate Battery)",
+"to": 202509
+},
+{
+"from": 202409,
+"id": "521702",
+"name": "1.5T C-DM DHT 106km Super (Ternary Lithium Battery)",
+"to": 202509
+},
+{
+"from": 202409,
+"id": "521698",
+"name": "1.5T C-DM DHT 106km Yuexiang 7-seats (Lithium Iron Phosphate Battery)",
+"to": 202509
+},
+{
+"from": 202409,
+"id": "521700",
+"name": "1.5T C-DM DHT 106km Super 7-seats (Lithium Iron Phosphate Battery)",
+"to": 202509
+},
+{
+"from": 202509,
+"id": "521697",
+"name": "1.5T C-DM DHT 106km Yuexiang 5-seats (Lithium Iron Phosphate Battery)",
+"to": null
+},
+{
+"from": 202509,
+"id": "521699",
+"name": "1.5T C-DM DHT 106km Super 5-seats (Lithium Iron Phosphate Battery)",
+"to": null
+},
+{
+"from": 202509,
+"id": "543971",
+"name": "1.5T C-DM DHT 210km Super Enjoy (Ternary Lithium Battery)",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRF4J20C",
+"fuel": "бензин",
+"gen_key": "chery/tiggo_9/g_202409_21828",
+"hp": 261,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 261 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202409,
+"id": "521558",
+"name": "2.0T AT Premium 5-seats",
+"to": 202509
+},
+{
+"from": 202409,
+"id": "521559",
+"name": "2.0T AT Premium 7-seats",
+"to": 202509
+},
+{
+"from": 202509,
+"id": "549789",
+"name": "2.0T AT Shine",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "SQRF4J20C",
+"fuel": "бензин",
+"gen_key": "chery/tiggo_9/g_202409_21828",
+"hp": 261,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 261 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202409,
+"id": "521560",
+"name": "2.0T AT AWD Prestige 5-seats",
+"to": 202509
+},
+{
+"from": 202409,
+"id": "521563",
+"name": "2.0T AT AWD Flagship 5-seats",
+"to": 202509
+},
+{
+"from": 202409,
+"id": "521561",
+"name": "2.0T AT AWD Prestige 7-seats",
+"to": 202509
+},
+{
+"from": 202409,
+"id": "521564",
+"name": "2.0T AT AWD Flagship 7-seats",
+"to": 202509
+},
+{
+"from": 202509,
+"id": "549786",
+"name": "2.0T AT AWD Prestige",
+"to": null
+},
+{
+"from": 202509,
+"id": "549787",
+"name": "2.0T AT AWD Flagship",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRF4J20C",
+"fuel": "бензин",
+"gen_key": "chery/tiggo_9/g_202409_21828",
+"hp": 261,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 261 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202409,
+"id": "521554",
+"name": "2.0T DCT Comfort 5-seats",
+"to": 202509
+},
+{
+"from": 202409,
+"id": "521556",
+"name": "2.0T DCT Luxury 5-seats",
+"to": 202509
+},
+{
+"from": 202409,
+"id": "521555",
+"name": "2.0T DCT Comfort 7-seats",
+"to": 202509
+},
+{
+"from": 202409,
+"id": "521557",
+"name": "2.0T DCT Luxury 7-seats",
+"to": 202509
+},
+{
+"from": 202509,
+"id": "549790",
+"name": "2.0T DCT Comfort",
+"to": null
+},
+{
+"from": 202509,
+"id": "549792",
+"name": "2.0T DCT Luxury",
+"to": null
+},
+{
+"from": 202505,
+"id": "549793",
+"name": "2.0T DCT Black Warrior Edition",
+"to": 202509
+}
+]
+}
+],
+"ids": true,
+"key": "chery/tiggo_9/g_202409_21828",
+"market": "Китай",
+"to": null
+},
 "chery/tiggo_9/g_202412_21628": {
 "from": 202411,
 "groups": [
@@ -50555,6 +52126,84 @@
 "ids": true,
 "key": "chery/tiggo_9/g_202412_21628",
 "market": "Россия",
+"to": null
+},
+"chery/tiggo_9/g_2026_24934": {
+"from": 202604,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRF4J20C",
+"fuel": "бензин",
+"gen_key": "chery/tiggo_9/g_2026_24934",
+"hp": 261,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 261 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202604,
+"id": "560470",
+"name": "2.0T AT Deluxe",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "SQRF4J20C",
+"fuel": "бензин",
+"gen_key": "chery/tiggo_9/g_2026_24934",
+"hp": 261,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 261 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202604,
+"id": "560471",
+"name": "2.0T AT AWD Falcon 500",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRF4J20C",
+"fuel": "бензин",
+"gen_key": "chery/tiggo_9/g_2026_24934",
+"hp": 261,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 261 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202604,
+"id": "560472",
+"name": "2.0T DCT Premium",
+"to": null
+},
+{
+"from": 202604,
+"id": "560473",
+"name": "2.0T DCT Luxury",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "chery/tiggo_9/g_2026_24934",
+"market": "Китай",
 "to": null
 },
 "cheryexeed/ex7/g_2026_24420": {
@@ -75563,6 +77212,7 @@
 "drive": "fwd",
 "engine": "CA4GC18TD-12",
 "fuel": "бензин",
+"gen_key": "hongqi/h7/g_2016_16736",
 "hp": 188,
 "hp_total": null,
 "hybrid": null,
@@ -75601,6 +77251,7 @@
 "drive": "fwd",
 "engine": "CA4GC20TD-11",
 "fuel": "бензин",
+"gen_key": "hongqi/h7/g_2016_16736",
 "hp": 204,
 "hp_total": null,
 "hybrid": null,
@@ -75677,6 +77328,7 @@
 "drive": "fwd",
 "engine": "CA6GV30-04",
 "fuel": "бензин",
+"gen_key": "hongqi/h7/g_2016_16736",
 "hp": 231,
 "hp_total": null,
 "hybrid": null,
@@ -142127,6 +143779,7 @@
 "drive": "fwd",
 "engine": "DLC",
 "fuel": "бензин",
+"gen_key": "volkswagen/lavida/g_202206_19298",
 "hp": 116,
 "hp_total": null,
 "hybrid": null,
@@ -142178,6 +143831,7 @@
 "drive": "fwd",
 "engine": "DRZ",
 "fuel": "бензин",
+"gen_key": "volkswagen/lavida/g_202206_19298",
 "hp": 110,
 "hp_total": null,
 "hybrid": null,
@@ -142240,6 +143894,7 @@
 "drive": "fwd",
 "engine": "DSV",
 "fuel": "бензин",
+"gen_key": "volkswagen/lavida/g_202206_19298",
 "hp": 160,
 "hp_total": null,
 "hybrid": null,
@@ -142266,6 +143921,85 @@
 "key": "volkswagen/lavida/g_202206_19298",
 "market": "Китай",
 "to": 202511
+},
+"volkswagen/lavida/g_2025_23975": {
+"from": 202511,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "DZT",
+"fuel": "бензин",
+"hp": 110,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 110 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202511,
+"id": "562593",
+"name": "Pro 1.5 AT Comfort",
+"to": null
+},
+{
+"from": 202511,
+"id": "562594",
+"name": "Pro 1.5 AT Six Million",
+"to": null
+},
+{
+"from": 202511,
+"id": "562595",
+"name": "Pro 1.5 AT Starry Sky Six Million",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "DYZ",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 160 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202511,
+"id": "562596",
+"name": "Pro 1.5T DCT 300TSI Six Million",
+"to": null
+},
+{
+"from": 202511,
+"id": "562597",
+"name": "Pro 1.5T DCT 300TSI Starry Sky Six Million",
+"to": null
+},
+{
+"from": 202511,
+"id": "562598",
+"name": "Pro 1.5T DCT 300TSI Smart Comfort",
+"to": null
+},
+{
+"from": 202511,
+"id": "562599",
+"name": "Pro 1.5T DCT 300TSI Starry Sky Smart Comfort",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/lavida/g_2025_23975",
+"market": "Китай",
+"to": null
 },
 "volkswagen/magotan/g_201902_18769": {
 "from": 201902,
@@ -142408,6 +144142,150 @@
 "key": "volkswagen/magotan/g_201902_18769",
 "market": "Китай",
 "to": null
+},
+"volkswagen/sagitar/g_201912_23376": {
+"from": 201901,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "DLS, DJN",
+"fuel": "бензин",
+"gen_key": "volkswagen/sagitar/g_201912_23376",
+"hp": 116,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.2,
+"text": "1.2 л, 116 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202201,
+"id": "541002",
+"name": "1.2 200 TSI MT Flying",
+"to": 202206
+},
+{
+"from": 202201,
+"id": "541003",
+"name": "1.2 200 TSI MT Overtaking",
+"to": 202206
+},
+{
+"from": 201912,
+"id": "541016",
+"name": "1.2 200 TSI MT Fashion",
+"to": 202201
+},
+{
+"from": 201912,
+"id": "541025",
+"name": "1.2 200 TSI MT Comfort",
+"to": 202201
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "DLS, DJN",
+"fuel": "бензин",
+"gen_key": "volkswagen/sagitar/g_201912_23376",
+"hp": 116,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.2,
+"text": "1.2 л, 116 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202201,
+"id": "541005",
+"name": "1.2 200 TSI DSG Flying",
+"to": 202206
+},
+{
+"from": 202201,
+"id": "541004",
+"name": "1.2 200 TSI DSG Overtaking",
+"to": 202206
+},
+{
+"from": 201912,
+"id": "541018",
+"name": "1.2 200 TSI DSG Fashion",
+"to": 202201
+},
+{
+"from": 201912,
+"id": "541026",
+"name": "1.2 200 TSI DSG Comfort",
+"to": 202201
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "DSB, CSS",
+"fuel": "бензин",
+"gen_key": "volkswagen/sagitar/g_201912_23376",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202201,
+"id": "541006",
+"name": "1.4 280 TSI DSG Flying",
+"to": 202206
+},
+{
+"from": 202201,
+"id": "541007",
+"name": "1.4 280 TSI DSG Overtaking",
+"to": 202206
+},
+{
+"from": 202201,
+"id": "541008",
+"name": "1.4 280 TSI DSG Excellence",
+"to": 202206
+},
+{
+"from": 201912,
+"id": "541017",
+"name": "1.4 280 TSI DSG R-Line",
+"to": 202201
+},
+{
+"from": 201912,
+"id": "541027",
+"name": "1.4 280 TSI DSG Comfort",
+"to": 202201
+},
+{
+"from": 201912,
+"id": "541029",
+"name": "1.4 280 TSI DSG Luxury",
+"to": 202201
+},
+{
+"from": 201912,
+"id": "541030",
+"name": "1.4 280 TSI DSG Flagship",
+"to": 202201
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/sagitar/g_201912_23376",
+"market": "Китай",
+"to": 202206
 },
 "volkswagen/t-roc/g_201711_17556": {
 "from": 201708,
@@ -143456,6 +145334,87 @@
 ],
 "ids": true,
 "key": "volkswagen/t-roc/g_2023_20637",
+"market": "Китай",
+"to": null
+},
+"volkswagen/t-roc/g_202511_23288": {
+"from": 202508,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "бензин",
+"hp": 116,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 116 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202511,
+"id": "543387",
+"name": "1.5 eTSI OPF DSG Trend",
+"to": null
+},
+{
+"from": 202511,
+"id": "543389",
+"name": "1.5 eTSI OPF DSG Life",
+"to": null
+},
+{
+"from": 202511,
+"id": "543392",
+"name": "1.5 eTSI OPF DSG Style",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202511,
+"id": "543389",
+"name": "1.5 eTSI OPF DSG Life",
+"to": null
+},
+{
+"from": 202511,
+"id": "543392",
+"name": "1.5 eTSI OPF DSG Style",
+"to": null
+},
+{
+"from": 202511,
+"id": "543394",
+"name": "1.5 eTSI OPF DSG R-Line",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/t-roc/g_202511_23288",
+"market": "Европа",
+"to": null
+},
+"volkswagen/t-roc/g_2025_23338": {
+"from": 202508,
+"groups": [],
+"ids": true,
+"key": "volkswagen/t-roc/g_2025_23338",
 "market": "Китай",
 "to": null
 },
@@ -159709,6 +161668,104 @@
 ],
 "name": "1.5 DCT X70S"
 },
+"450637": {
+"groups": [
+[
+"Двигатель",
+[
+[
+"Мощность",
+"197 л.с. (145 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"290 Н·м при 2000 об/мин"
+],
+[
+"Модель двигателя",
+"SQRF4J16C"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,5 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4780 × 1843 × 1469 мм"
+],
+[
+"Колёсная база",
+"2790 мм"
+],
+[
+"Клиренс",
+"130 мм"
+],
+[
+"Масса",
+"1430 кг"
+],
+[
+"Топливный бак",
+"55 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"205/60 R16"
+]
+]
+]
+],
+"name": "1.6 DCT Preferred",
+"v": 3
+},
 "451756": {
 "groups": [
 [
@@ -161134,6 +163191,121 @@
 ]
 ],
 "name": "1.4 280 TSI DSG Luxury Plus"
+},
+"455744": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"10,9 с"
+],
+[
+"Максимальная скорость",
+"195 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"150 л.с. (110 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"250 Н·м при 1750 об/мин"
+],
+[
+"Модель двигателя",
+"DJS"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,8 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4589 × 1860 × 1660 мм"
+],
+[
+"Колёсная база",
+"2731 мм"
+],
+[
+"Масса",
+"1545 кг"
+],
+[
+"Топливный бак",
+"60 л"
+],
+[
+"Багажник",
+"506 (1590) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/65 R17"
+]
+]
+]
+],
+"name": "1.4 280 TSI DSG Comfort",
+"v": 3
 },
 "456189": {
 "groups": [
@@ -163307,6 +165479,100 @@
 ]
 ],
 "name": "1.6 AT Enjoy",
+"v": 3
+},
+"458700": {
+"groups": [
+[
+"Двигатель",
+[
+[
+"Мощность",
+"128 л.с. (94 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"168 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"JL478QEP"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,3 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4505 × 1820 × 1505 мм"
+],
+[
+"Колёсная база",
+"2700 мм"
+],
+[
+"Масса",
+"1345 кг"
+],
+[
+"Топливный бак",
+"53 л"
+],
+[
+"Багажник",
+"385 (1360) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/50 R17"
+]
+]
+]
+],
+"name": "1.6L GDI AT Trend",
 "v": 3
 },
 "458714": {
@@ -165605,6 +167871,121 @@
 "name": "1.5 AT Glory",
 "v": 3
 },
+"464998": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,1 с"
+],
+[
+"Максимальная скорость",
+"208 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"148 л.с. (109 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"250 Н·м при 1750 об/мин"
+],
+[
+"Модель двигателя",
+"CZDA, CZEA, CZTA"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"5,8 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4865 × 1832 × 1471 мм"
+],
+[
+"Колёсная база",
+"2871 мм"
+],
+[
+"Масса",
+"1445 кг"
+],
+[
+"Топливный бак",
+"66 л"
+],
+[
+"Багажник",
+"533 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"205/60 R16"
+]
+]
+]
+],
+"name": "1.4 280 TSI DSG Comfort",
+"v": 3
+},
 "465388": {
 "groups": [
 [
@@ -166819,6 +169200,236 @@
 ]
 ],
 "name": "2.0 AT 2WD Comfort"
+},
+"470358": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"197 л.с. (145 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"290 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"SQRF4J16"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,4 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4700 × 1860 × 1746 мм"
+],
+[
+"Колёсная база",
+"2710 мм"
+],
+[
+"Клиренс",
+"200 мм"
+],
+[
+"Масса",
+"1545 кг"
+],
+[
+"Топливный бак",
+"51 л"
+],
+[
+"Багажник",
+"889 (1930) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"235/55 R18"
+]
+]
+]
+],
+"name": "1.6T DCT Fashion",
+"v": 3
+},
+"470379": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"197 л.с. (145 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"290 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"SQRF4J16"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,4 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4700 × 1860 × 1746 мм"
+],
+[
+"Колёсная база",
+"2710 мм"
+],
+[
+"Клиренс",
+"200 мм"
+],
+[
+"Масса",
+"1545 кг"
+],
+[
+"Топливный бак",
+"51 л"
+],
+[
+"Багажник",
+"889 (1930) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"235/55 R18"
+]
+]
+]
+],
+"name": "1.6 TGDI DCT 290T Fashion",
+"v": 3
 },
 "470678": {
 "groups": [
@@ -173699,6 +176310,129 @@
 "name": "e:HEV 2.0 e-CVT Classic",
 "v": 3
 },
+"502580": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,4 с"
+],
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"160 л.с. (118 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"250 Н·м при 1750 об/мин"
+],
+[
+"Модель двигателя",
+"DSV"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,1 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4319 × 1819 × 1592 мм"
+],
+[
+"Колёсная база",
+"2680 мм"
+],
+[
+"Клиренс",
+"145 мм"
+],
+[
+"Масса",
+"1415 кг"
+],
+[
+"Топливный бак",
+"51 л"
+],
+[
+"Багажник",
+"401 (1290) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/50 R18"
+],
+[
+"Радиус разворота",
+"5,5 м"
+]
+]
+]
+],
+"name": "1.5T DSG 300TSI Dawn",
+"v": 3
+},
 "502581": {
 "groups": [
 [
@@ -179468,7 +182202,7 @@
 ]
 ],
 "name": "69.77 kWh eAWD 501 Long Range",
-"v": 2
+"v": 3
 },
 "522212": {
 "groups": [
@@ -179895,6 +182629,125 @@
 ]
 ],
 "name": "EV",
+"v": 3
+},
+"522598": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"6,8 с"
+],
+[
+"Максимальная скорость",
+"235 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"252 л.с. (185 кВт) при 6500 об/мин"
+],
+[
+"Крутящий момент",
+"350 Н·м при 1450 об/мин"
+],
+[
+"Модель двигателя",
+"B48B20B"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"8,0 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4763 × 1926 × 1632 мм"
+],
+[
+"Колёсная база",
+"2864 мм"
+],
+[
+"Клиренс",
+"190 мм"
+],
+[
+"Масса",
+"1905 кг"
+],
+[
+"Топливный бак",
+"65 л"
+],
+[
+"Багажник",
+"525 (1430) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"245/45 R20"
+]
+]
+]
+],
+"name": "xDrive30i AT M Sport",
 "v": 3
 },
 "522935": {
@@ -182109,6 +184962,104 @@
 ],
 "name": "1.5 DCT Comfort 7 seats"
 },
+"532196": {
+"groups": [
+[
+"Двигатель",
+[
+[
+"Мощность",
+"111 л.с. (82 кВт) при 5800 об/мин"
+],
+[
+"Крутящий момент",
+"147 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"L2B"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-5"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"5,8 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4032 × 1680 × 1470 мм"
+],
+[
+"Колёсная база",
+"2550 мм"
+],
+[
+"Масса",
+"1055 кг"
+],
+[
+"Топливный бак",
+"30 л"
+],
+[
+"Багажник",
+"251 (1000) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Барабанные"
+],
+[
+"Шины",
+"165/70 R14"
+]
+]
+]
+],
+"name": "1.5L MT Comfort",
+"v": 3
+},
 "532318": {
 "groups": [
 [
@@ -183902,6 +186853,125 @@
 ]
 ],
 "name": "DM-i 1.5 CVT 230KM Premium"
+},
+"541017": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,3 с"
+],
+[
+"Максимальная скорость",
+"220 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"150 л.с. (110 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"250 Н·м при 1750 об/мин"
+],
+[
+"Модель двигателя",
+"CSS"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"5,6 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4753 × 1800 × 1462 мм"
+],
+[
+"Колёсная база",
+"2731 мм"
+],
+[
+"Клиренс",
+"129 мм"
+],
+[
+"Масса",
+"1395 кг"
+],
+[
+"Топливный бак",
+"50 л"
+],
+[
+"Багажник",
+"553 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"205/55 R17"
+],
+[
+"Радиус разворота",
+"5,8 м"
+]
+]
+]
+],
+"name": "1.4 280 TSI DSG R-Line",
+"v": 3
 },
 "541210": {
 "groups": [
@@ -185861,6 +188931,121 @@
 ],
 "name": "1.5 35 TFSI S Tronic Flying Spur Enjoyment"
 },
+"549789": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"205 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"261 л.с. (192 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"400 Н·м при 1750 об/мин"
+],
+[
+"Модель двигателя",
+"SQRF4J20C"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,9 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4820 × 1930 × 1699 мм"
+],
+[
+"Колёсная база",
+"2820 мм"
+],
+[
+"Клиренс",
+"196 мм"
+],
+[
+"Масса",
+"1765 кг"
+],
+[
+"Топливный бак",
+"65 л"
+],
+[
+"Багажник",
+"717 (2021) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"245/50 R20"
+]
+]
+]
+],
+"name": "2.0T AT Shine",
+"v": 3
+},
 "551042": {
 "groups": [
 [
@@ -187524,6 +190709,113 @@
 ]
 ],
 "name": "115 kWh 700 Premium",
+"v": 3
+},
+"558106": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"3,3 с"
+],
+[
+"Максимальная скорость",
+"270 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Тип двигателя",
+"Электродвигатель"
+],
+[
+"Топливо",
+"Электричество"
+]
+]
+],
+[
+"Электро",
+[
+[
+"Мощность электромотора",
+"510 кВт"
+],
+[
+"Крутящий момент электромотора",
+"810 Н·м"
+],
+[
+"Ёмкость батареи",
+"92,093 кВт·ч"
+],
+[
+"Запас хода",
+"785 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5150 × 1999 × 1505 мм"
+],
+[
+"Колёсная база",
+"3030 мм"
+],
+[
+"Масса",
+"2280 кг"
+],
+[
+"Багажник",
+"508 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"245/45 R19"
+],
+[
+"Радиус разворота",
+"4,95 м"
+]
+]
+]
+],
+"name": "92 kWh 4WD Flagship",
 "v": 3
 },
 "558688": {
