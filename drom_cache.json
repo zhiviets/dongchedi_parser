@@ -2157,6 +2157,10 @@
 "g_2023_20187"
 ]
 },
+"lotus/emira/china": {
+"day": 739890,
+"gens": []
+},
 "luxeed/r7/china": {
 "day": 739883,
 "gens": [
@@ -124990,6 +124994,23 @@
 "кузоваlincoln": "frame"
 },
 "lixiang": {},
+"lotus": {
+"2eleven": "2-eleven",
+"eletre": "eletre",
+"elise": "elise",
+"emeya": "emeya",
+"emira": "emira",
+"engine": "engine",
+"esprit": "esprit",
+"europas": "europa_s",
+"evora": "evora",
+"exige": "exige",
+"forme": "for_me",
+"lotuseletre": "eletre",
+"lotusemira": "emira",
+"lotusforme": "for_me",
+"двигателиlotus": "engine"
+},
 "luxeed": {
 "engine": "engine",
 "luxeedr7": "r7",
@@ -125819,6 +125840,34 @@
 "rx9": "rx9",
 "двигателиroewe": "engine",
 "кузоваroewe": "frame"
+},
+"rolls-royce": {
+"20/25": "20-25",
+"2025": "20-25",
+"corniche": "corniche",
+"cullinan": "cullinan",
+"dawn": "dawn",
+"engine": "engine",
+"flyingspur": "flying_spur",
+"frame": "frame",
+"ghost": "ghost",
+"parkward": "park_ward",
+"phantom": "phantom",
+"rollsroycecullinan": "cullinan",
+"rollsroyceghost": "ghost",
+"rollsroycephantom": "phantom",
+"rollsroycesilverspirit": "silver_spirit",
+"rollsroycesilverspur": "silver_spur",
+"rollsroycespectre": "spectre",
+"rollsroycewraith": "wraith",
+"silvercloud": "silver_cloud",
+"silverseraph": "silver_seraph",
+"silverspirit": "silver_spirit",
+"silverspur": "silver_spur",
+"spectre": "spectre",
+"wraith": "wraith",
+"двигателиrollsroyce": "engine",
+"кузоваrollsroyce": "frame"
 },
 "stelato": {
 "engine": "engine",
