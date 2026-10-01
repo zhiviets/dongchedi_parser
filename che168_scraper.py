@@ -437,6 +437,10 @@ def price_stats(prices: list) -> dict:
 
 
 PRICES = {}   # группа похожих → цены объявлений che168 (собираются при обходе)
+# Марка и модель на сайте (со страницы объявления) → как в списке che168 (по названию) — по машинам сайта,
+# встреченным в обходе: названия могут отличаться («Sagitar» и «Jetta Sagitar»)
+SITE_TO_LIST = {}
+SITE_ITEMS = {}   # машины сайта (/known) — для соответствия названий
 STATS_DAYS = int(os.environ.get("CHE168_STATS_DAYS") or "10")
 MIX = {"limits": None}   # лимиты разнообразия [на модель-год, на модель] — с сайта (/known)
 
@@ -492,13 +496,17 @@ def stale_stats(items: dict, seen: set) -> list[dict]:
             year = int(i.get("year") or 0)
         except ValueError:
             year = 0
-        prices = similar_prices(i.get("make"), i.get("model"), year)
+        make, model = SITE_TO_LIST.get((i.get("make"), i.get("model")), (i.get("make"), i.get("model")))
+        prices = similar_prices(make, model, year)
         if not prices:
             lack += 1
+            if lack <= 15:
+                print(f"  нет похожих: {i.get('make')} {i.get('model')} {year} (в списке che168 — {make} {model})")
             continue
         out.append({"external_id": vid, "source_url": i["url"], "price_stats": price_stats(prices),
-                    "stats_key": f"{i['make']}|{i['model']}|{year}"})
-    print(f"Шкала цены машинам сайта, не встреченным в обходе: обновлена у {len(out)}, нет похожих у {lack}")
+                    "stats_key": f"{make}|{model}|{year}"})
+    print(f"Шкала цены машинам сайта, не встреченным в обходе: обновлена у {len(out)}, нет похожих у {lack} "
+          f"(соответствий названий сайт → che168: {len(SITE_TO_LIST)})")
     return out
 
 
@@ -553,6 +561,9 @@ def scan_models(page, known: set, touched: list | None = None):
                 # Уже на сайте с полной информацией — только отметка «ещё в продаже»
                 if touched is not None:
                     touched.append(c)
+                    info = SITE_ITEMS.get(str(c["infoid"])) or {}
+                    if info.get("make") and info.get("model"):
+                        SITE_TO_LIST[(info["make"], info["model"])] = tuple(brand_model(c["name"], "", c.get("brandid"))[:2])
                 continue
             make, model = brand_model(c["name"], "", c.get("brandid"))
             if not model:
@@ -1492,7 +1503,8 @@ def fetch_known() -> dict:
         resp.raise_for_status()
         data = resp.json()
         MIX["limits"] = data.get("mix")
-        return {str(i["id"]): i for i in data.get("items") or []}
+        SITE_ITEMS.update({str(i["id"]): i for i in data.get("items") or []})
+        return dict(SITE_ITEMS)
     except Exception as error:
         print(f"Список известных объявлений не получен ({error}) — разбираем всё")
         return {}
