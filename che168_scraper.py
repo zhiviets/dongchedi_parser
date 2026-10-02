@@ -510,11 +510,19 @@ def stale_stats(items: dict, seen: set) -> list[dict]:
     return out
 
 
+GAUGE_FIRST = (os.environ.get("CHE168_GAUGE_FIRST") or "1") == "1"
+GAUGE_FIRST_MAX = int(os.environ.get("CHE168_GAUGE_FIRST_MAX") or "50")
+
+
+def lacking_gauge(items: dict) -> int:
+    return sum(1 for i in items.values() if i.get("published") and not i.get("blocked") and not i.get("has_gauge"))
+
+
 def stats_due(items: dict) -> bool:
     """Прогон ради шкалы (новых машин не надо): у CHE168_STATS_MIN+ машин сайта шкалы нет или она старше STATS_DAYS."""
     pub = [i for i in items.values() if i.get("published")]
     stale = sum(1 for i in pub if not i.get("has_gauge") or i.get("stats_days") is None or i["stats_days"] >= STATS_DAYS)
-    need = stale >= int(os.environ.get("CHE168_STATS_MIN") or "300")
+    need = stale >= int(os.environ.get("CHE168_STATS_MIN") or "300") or (GAUGE_FIRST and lacking_gauge(items) > GAUGE_FIRST_MAX)
     print(f"Шкала цены: без неё или старше {STATS_DAYS} дн. — {stale} из {len(pub)} машин"
           + (" — обход ради шкалы" if need else ""))
     return need
@@ -628,6 +636,15 @@ def scan_models(page, known: set, touched: list | None = None):
     print(f"Марки: с машинами {len(with_cars)}, моделей с машинами {len(groups)}, "
           f"ссылок на модели {sum(map(len, series_by_brand.values()))}")
 
+    # Сначала — модели машин сайта без шкалы цены (их цены похожих нужны в первую очередь): страница модели,
+    # название которой есть в названии такой машины
+    lacking = [_norm(i.get("text") or "") for i in SITE_ITEMS.values()
+               if i.get("published") and not i.get("blocked") and not i.get("has_gauge")]
+    priority = [(f"https://www.che168.com/china/{slug}/{sl}/", name) for slug, _ in with_cars
+                for sl, name in series_by_brand[slug] if len(_norm(name)) >= 2 and any(_norm(name) in t for t in lacking)]
+    if priority and time.time() < deadline:
+        print(f"Модели машин сайта без шкалы цены: {len(priority)} страниц — открываем первыми")
+        run(priority, "модели без шкалы", lambda content, name: add_cards(content))
     # Модели, машин которых ещё не встретили, — по кругу по маркам (популярные марки первыми)
     keys = [_norm(k) for k in groups]
     queues = [[(f"https://www.che168.com/china/{slug}/{sl}/", name) for sl, name in series_by_brand[slug]
@@ -1527,6 +1544,11 @@ def run_size(items: dict) -> int:
     if TOTAL:
         return TOTAL
     good = sum(1 for i in items.values() if i.get("complete") and i.get("published"))
+    # Сначала шкала цены у каждой машины сайта: пока без неё GAUGE_FIRST_MAX+ машин — новых не добавляем,
+    # прогон обходит модели этих машин и считает им шкалу
+    if GAUGE_FIRST and lacking_gauge(items) > GAUGE_FIRST_MAX:
+        print(f"Без шкалы цены {lacking_gauge(items)} машин сайта — новых не добавляем, ищем им цены")
+        return 0
     if good < FILL_TARGET:
         n = min(FILL_PER_RUN, FILL_TARGET - good)
         print(f"Заполнение каталога: на сайте {good} из {FILL_TARGET} — добавим {n}")
@@ -1837,6 +1859,13 @@ def main():
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump([{k: v for k, v in x.items() if k != "photo_url"} for x in listings], f, ensure_ascii=False, indent=2)
     push(listings[pushed:])
+    # Ищем цены машинам сайта (новых не добавляем) — следующий прогон сразу, пока машин без шкалы заметно меньше
+    if not total and GAUGE_FIRST:
+        after = fetch_known()
+        was, now = lacking_gauge(items), lacking_gauge(after) if after else None
+        print(f"Без шкалы цены: было {was}, стало {now}")
+        if now is not None and now > GAUGE_FIRST_MAX and was - now >= 20:
+            open(os.path.join(ROOT, "continue_fill"), "w").close()
 
 
 if __name__ == "__main__":
