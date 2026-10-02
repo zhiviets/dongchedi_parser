@@ -121403,6 +121403,7 @@
 "drive": "fwd",
 "engine": "HR16DE",
 "fuel": "бензин",
+"gen_key": "nissan/nv200/g_201402_23702",
 "hp": 124,
 "hp_total": null,
 "hybrid": null,
