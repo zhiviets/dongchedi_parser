@@ -513,6 +513,7 @@ def stale_stats(items: dict, seen: set) -> list[dict]:
 # Китай: новые машины добавляем и дальше (каждая — сразу со шкалой цены), машинам сайта без шкалы цены ищем
 # параллельно (страницы их моделей открываются первыми); 1 — сначала шкала всем машинам сайта, потом новые
 GAUGE_FIRST = (os.environ.get("CHE168_GAUGE_FIRST") or "0") == "1"
+GAUGE_SEARCH = {"done": False}   # поиск цен машинам сайта без шкалы прошёл целиком (без капчи и не по времени)
 GAUGE_FIRST_MAX = int(os.environ.get("CHE168_GAUGE_FIRST_MAX") or "50")
 
 
@@ -651,6 +652,8 @@ def scan_models(page, known: set, touched: list | None = None):
     if ok and priority and time.time() < deadline:
         print(f"Модели машин сайта без шкалы цены: {len(priority)} страниц (марок {len(first)}) — открываем первыми")
         ok = run(priority, "модели без шкалы", lambda content, name: add_cards(content))
+    # Марки и модели машин без шкалы обойдены целиком — кому цена не нашлась, тех в конце прогона удаляем
+    GAUGE_SEARCH["done"] = bool(ok and time.time() < deadline)
     if ok and time.time() < deadline:
         ok = run([(f"https://www.che168.com/china/{slug}/", (slug, name)) for slug, name in rest], "марки", on_brand)
     with_cars = [b for b in brands if b[0] in series_by_brand]
@@ -1528,6 +1531,18 @@ def fetch_photo(session, urls):
     return fallback
 
 
+def prune_no_price() -> None:
+    """Удалить с сайта машины без шкалы цены — поиск цен им закончен и больше не находит."""
+    if not BN_AUTO_URL or not BN_AUTO_IMPORT_TOKEN:
+        return
+    try:
+        resp = requests.post(f"{BN_AUTO_URL}/api/live-listings/prune-no-price", json={"source": "che168"},
+                             headers={"Authorization": f"Bearer {BN_AUTO_IMPORT_TOKEN}"}, timeout=120)
+        print(f"Удаление машин без шкалы цены: {resp.status_code} {resp.text[:200]}")
+    except Exception as error:
+        print(f"Удаление машин без шкалы цены не удалось: {error}")
+
+
 def fetch_known() -> dict:
     """Все объявления che168 на сайте: id → марка, модель, complete (фото, цена, данные для расчёта)…"""
     if not BN_AUTO_URL or not BN_AUTO_IMPORT_TOKEN:
@@ -1878,6 +1893,11 @@ def main():
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump([{k: v for k, v in x.items() if k != "photo_url"} for x in listings], f, ensure_ascii=False, indent=2)
     push(listings[pushed:])
+    # Цены машинам сайта без шкалы искали по всем их маркам и моделям — кому не нашлась, удаляем
+    if GAUGE_SEARCH["done"]:
+        prune_no_price()
+    else:
+        print("Поиск цен машинам без шкалы прерван (проверка che168 или время) — без удаления, продолжим в следующем прогоне")
     # Ищем цены машинам сайта (новых не добавляем) — следующий прогон сразу, пока машин без шкалы заметно меньше
     if not total and GAUGE_FIRST:
         after = fetch_known()
