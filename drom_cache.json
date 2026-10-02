@@ -124275,6 +124275,473 @@
 "market": "Китай",
 "to": null
 },
+"mercedes-benz/s-class/g_200209_5280": {
+"from": 200209,
+"groups": [
+{
+"body": [
+"W220"
+],
+"drive": "rwd",
+"engine": "OM 613 DE 32 LA",
+"fuel": "дизель",
+"hp": 195,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.2,
+"text": "3.2 л, 195 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200209,
+"id": "170970",
+"name": "S320 CDI",
+"to": 200508
+}
+]
+},
+{
+"body": [
+"W220"
+],
+"drive": "rwd",
+"engine": "M 112 E 37",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.7,
+"text": "3.7 л, 245 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200209,
+"id": "170891",
+"name": "S350",
+"to": 200508
+},
+{
+"from": 200209,
+"id": "170892",
+"name": "S350 L",
+"to": 200508
+}
+]
+},
+{
+"body": [
+"W220"
+],
+"drive": "rwd",
+"engine": "OM 628 DE 40 LA",
+"fuel": "дизель",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.0,
+"text": "4.0 л, 250 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200209,
+"id": "170968",
+"name": "S400 CDI",
+"to": 200508
+},
+{
+"from": 200209,
+"id": "170969",
+"name": "S400 CDI L",
+"to": 200508
+}
+]
+},
+{
+"body": [
+"W220"
+],
+"drive": "4wd",
+"engine": "M 113 E 43",
+"fuel": "бензин",
+"hp": 279,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.3,
+"text": "4.3 л, 279 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 200209,
+"id": "170898",
+"name": "S430 4MATIC",
+"to": 200508
+},
+{
+"from": 200209,
+"id": "170897",
+"name": "S430 4MATIC L",
+"to": 200508
+}
+]
+},
+{
+"body": [
+"W220",
+"S430"
+],
+"drive": "rwd",
+"engine": "M 113 E 43",
+"fuel": "бензин",
+"hp": 279,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.3,
+"text": "4.3 л, 279 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200209,
+"id": "170896",
+"name": "S430",
+"to": 200508
+},
+{
+"from": 200209,
+"id": "170895",
+"name": "S430 L",
+"to": 200508
+}
+]
+},
+{
+"body": [
+"W220"
+],
+"drive": "4wd",
+"engine": "M 113 E 50",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 5.0,
+"text": "5.0 л, 306 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 200209,
+"id": "170903",
+"name": "S500 4MATIC",
+"to": 200508
+},
+{
+"from": 200209,
+"id": "170904",
+"name": "S500 4MATIC L",
+"to": 200508
+}
+]
+},
+{
+"body": [
+"W220",
+"S500"
+],
+"drive": "rwd",
+"engine": "M 113 E 50",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 5.0,
+"text": "5.0 л, 306 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200209,
+"id": "170900",
+"name": "S500",
+"to": 200508
+},
+{
+"from": 200209,
+"id": "170901",
+"name": "S500 L",
+"to": 200508
+}
+]
+},
+{
+"body": [
+"W220"
+],
+"drive": "rwd",
+"engine": "M 113 E 55 ML",
+"fuel": "бензин",
+"hp": 500,
+"hp_total": null,
+"hybrid": null,
+"liters": 5.4,
+"text": "5.4 л, 500 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200209,
+"id": "170966",
+"name": "S55 AMG",
+"to": 200508
+},
+{
+"from": 200209,
+"id": "170967",
+"name": "S55 AMG L",
+"to": 200508
+}
+]
+},
+{
+"body": [
+"W220"
+],
+"drive": "rwd",
+"engine": "M 275 E 55 AL",
+"fuel": "бензин",
+"hp": 500,
+"hp_total": null,
+"hybrid": null,
+"liters": 5.5,
+"text": "5.5 л, 500 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200209,
+"id": "170906",
+"name": "S600 L",
+"to": 200508
+}
+]
+},
+{
+"body": [
+"W220"
+],
+"drive": "rwd",
+"engine": "M 275 E 60 AL",
+"fuel": "бензин",
+"hp": 612,
+"hp_total": null,
+"hybrid": null,
+"liters": 6.0,
+"text": "6.0 л, 612 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200408,
+"id": "171083",
+"name": "S65 AMG L",
+"to": 200508
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/s-class/g_200209_5280",
+"market": "Россия",
+"to": 200508
+},
+"mercedes-benz/s-class/g_200509_5273": {
+"from": 200509,
+"groups": [
+{
+"body": [
+"W221",
+"S350"
+],
+"drive": "rwd",
+"engine": "M 272 KE 35",
+"fuel": "бензин",
+"hp": 272,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 272 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200509,
+"id": "170978",
+"name": "S350",
+"to": 200905
+},
+{
+"from": 200509,
+"id": "170979",
+"name": "S350 L",
+"to": 200905
+}
+]
+},
+{
+"body": [
+"W221"
+],
+"drive": "4wd",
+"engine": "M 273 E 46",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.7,
+"text": "4.7 л, 340 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 200509,
+"id": "170983",
+"name": "S450 4MATIC",
+"to": 200905
+},
+{
+"from": 200509,
+"id": "170984",
+"name": "S450 4MATIC L",
+"to": 200905
+}
+]
+},
+{
+"body": [
+"W221"
+],
+"drive": "rwd",
+"engine": "M 273 E 46",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.7,
+"text": "4.7 л, 340 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200509,
+"id": "170980",
+"name": "S450",
+"to": 200905
+},
+{
+"from": 200509,
+"id": "170981",
+"name": "S450 L",
+"to": 200905
+}
+]
+},
+{
+"body": [
+"W221"
+],
+"drive": "4wd",
+"engine": "M 273 E 55",
+"fuel": "бензин",
+"hp": 388,
+"hp_total": null,
+"hybrid": null,
+"liters": 5.5,
+"text": "5.5 л, 388 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 200509,
+"id": "170987",
+"name": "S500 4MATIC",
+"to": 200905
+},
+{
+"from": 200509,
+"id": "170988",
+"name": "S500 4MATIC L",
+"to": 200905
+}
+]
+},
+{
+"body": [
+"W221"
+],
+"drive": "rwd",
+"engine": "M 273 E 55",
+"fuel": "бензин",
+"hp": 388,
+"hp_total": null,
+"hybrid": null,
+"liters": 5.5,
+"text": "5.5 л, 388 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200509,
+"id": "170985",
+"name": "S500",
+"to": 200905
+},
+{
+"from": 200509,
+"id": "170986",
+"name": "S500 L",
+"to": 200905
+}
+]
+},
+{
+"body": [
+"W221"
+],
+"drive": "rwd",
+"engine": "M 275 E 55 AL",
+"fuel": "бензин",
+"hp": 517,
+"hp_total": null,
+"hybrid": null,
+"liters": 5.5,
+"text": "5.5 л, 517 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200509,
+"id": "170991",
+"name": "S600 L",
+"to": 200905
+}
+]
+},
+{
+"body": [
+"W221"
+],
+"drive": "rwd",
+"engine": "M 275 E 60 AL",
+"fuel": "бензин",
+"hp": 612,
+"hp_total": null,
+"hybrid": null,
+"liters": 6.0,
+"text": "6.0 л, 612 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200509,
+"id": "171004",
+"name": "S65 AMG L",
+"to": 200905
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/s-class/g_200509_5273",
+"market": "Россия",
+"to": 200905
+},
 "mercedes-benz/s-class/g_200906_1577": {
 "from": 200906,
 "groups": [
