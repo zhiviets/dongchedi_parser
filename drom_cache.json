@@ -2398,6 +2398,13 @@
 "g_201911_15784"
 ]
 },
+"kia/kx5/china": {
+"day": 739891,
+"gens": [
+"g_2015_19139",
+"g_2019_19140"
+]
+},
 "kia/sportage/china": {
 "day": 739885,
 "gens": [
@@ -35989,6 +35996,7 @@
 ]
 }
 ],
+"key": "buick/gl8/g_202005_17732",
 "market": "Китай",
 "to": 202207
 },
@@ -36009,52 +36017,63 @@
 "trims": [
 {
 "from": 202208,
+"id": "480075",
 "name": "2.0T AT Comfort",
 "to": null
 },
 {
 "from": 202208,
+"id": "480076",
 "name": "2.0T AT Smart Enjoy",
 "to": null
 },
 {
 "from": 202208,
+"id": "480081",
 "name": "2.0T AT Premium",
 "to": null
 },
 {
 "from": 202208,
+"id": "480083",
 "name": "2.0T AT Premium Welfare",
 "to": null
 },
 {
 "from": 202208,
+"id": "480082",
 "name": "2.0T AT Smart Premium",
 "to": null
 },
 {
 "from": 202208,
+"id": "480077",
 "name": "2.0T AT 652T Luxury",
 "to": 202301
 },
 {
 "from": 202208,
+"id": "480080",
 "name": "2.0T AT 652T Luxury Welfare",
 "to": 202301
 },
 {
 "from": 202208,
+"id": "480079",
 "name": "2.0T AT 652T Smart Luxury",
 "to": 202301
 },
 {
 "from": 202302,
+"id": "480078",
 "name": "2.0T AT Luxury",
 "to": null
 }
 ]
 }
 ],
+"ids": true,
+"key": "buick/gl8/g_2022_19693",
 "market": "Китай",
 "to": null
 },
@@ -46627,6 +46646,7 @@
 "drive": "fwd",
 "engine": "JL473ZQD",
 "fuel": "бензин",
+"gen_key": "changan/cs75_plus/g_2023_21574",
 "hp": 192,
 "hp_total": null,
 "hybrid": null,
@@ -46730,6 +46750,7 @@
 "drive": "fwd",
 "engine": "JL473ZQD",
 "fuel": "бензин",
+"gen_key": "changan/cs75_plus/g_2024_21166",
 "hp": 192,
 "hp_total": null,
 "hybrid": null,
@@ -46762,6 +46783,7 @@
 "drive": "fwd",
 "engine": "JL486ZQ5",
 "fuel": "бензин",
+"gen_key": "changan/cs75_plus/g_2024_21166",
 "hp": 233,
 "hp_total": null,
 "hybrid": null,
@@ -46786,6 +46808,99 @@
 ],
 "ids": true,
 "key": "changan/cs75_plus/g_2024_21166",
+"market": "Китай",
+"to": null
+},
+"changan/cs75_plus/g_2025_23767": {
+"from": 202512,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL469ZQ1",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": 245,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 150 л.с., параллельный гибрид, 245 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202604,
+"id": "553231",
+"name": "1.5T Blue Whale Super Engine Truly Delicious",
+"to": null
+},
+{
+"from": 202604,
+"id": "553232",
+"name": "1.5T Blue Whale Super Engine Premium",
+"to": null
+},
+{
+"from": 202604,
+"id": "553233",
+"name": "1.5T Blue Whale Super Engine Flagship",
+"to": null
+},
+{
+"from": 202604,
+"id": "553234",
+"name": "1.5T Blue Whale Super Engine Tianshu Navigator",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "JL473ZQD",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 192 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202605,
+"id": "561585",
+"name": "1.5T New Blue Whale Premium",
+"to": null
+},
+{
+"from": 202605,
+"id": "561586",
+"name": "1.5T New Blue Whale Tianshu Flagship",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "JL484ZQ1",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202605,
+"id": "561587",
+"name": "2.0T New Blue Whale Tianshu Qingyun",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "changan/cs75_plus/g_2025_23767",
 "market": "Китай",
 "to": null
 },
@@ -52433,6 +52548,7 @@
 "drive": "fwd",
 "engine": "SQRE4T15C",
 "fuel": "бензин",
+"gen_key": "chery/tiggo_8/g_202205_19196",
 "hp": 156,
 "hp_total": null,
 "hybrid": null,
@@ -52577,6 +52693,165 @@
 ],
 "ids": true,
 "key": "chery/tiggo_8/g_202205_19196",
+"market": "Китай",
+"to": null
+},
+"chery/tiggo_8/g_2024_21830": {
+"from": 202403,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4T15C",
+"fuel": "бензин",
+"gen_key": "chery/tiggo_8/g_2024_21830",
+"hp": 156,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 156 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202409,
+"id": "521602",
+"name": "1.5 TCI MT 230TCI Excellence Edition Comfort 5-seats",
+"to": null
+},
+{
+"from": 202409,
+"id": "521617",
+"name": "1.5 TCI MT 230TCI Excellence Edition Comfort 7-seats",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRE4T15C",
+"fuel": "бензин",
+"gen_key": "chery/tiggo_8/g_2024_21830",
+"hp": 156,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 156 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202409,
+"id": "521618",
+"name": "1.5 TCI DCT 230TCI Excellence Edition Luxury 5-seats",
+"to": null
+},
+{
+"from": 202409,
+"id": "521619",
+"name": "1.5 TCI DCT 230TCI Excellence Edition Luxury 7-seats",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "chery/tiggo_8/g_2024_21830",
+"market": "Китай",
+"to": null
+},
+"chery/tiggo_8/g_2025_23659": {
+"from": 202509,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRF4J16C",
+"fuel": "бензин",
+"gen_key": "chery/tiggo_8/g_2025_23659",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 200 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202511,
+"id": "543880",
+"name": "1.6T DCT Leopard Kunpeng Comfort",
+"to": null
+},
+{
+"from": 202511,
+"id": "543881",
+"name": "1.6T DCT Leopard Kunpeng Luxury",
+"to": null
+},
+{
+"from": 202511,
+"id": "543882",
+"name": "1.6T DCT Leopard Kunpeng Premium",
+"to": null
+},
+{
+"from": 202511,
+"id": "543883",
+"name": "1.6T DCT Leopard Kunpeng Flagship",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "chery/tiggo_8/g_2025_23659",
+"market": "Китай",
+"to": null
+},
+"chery/tiggo_8/g_2025_23664": {
+"from": 202509,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRF4J16C",
+"fuel": "бензин",
+"gen_key": "chery/tiggo_8/g_2025_23664",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 200 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202511,
+"id": "543884",
+"name": "1.6T DCT Tiger Kunpeng Comfort",
+"to": null
+},
+{
+"from": 202511,
+"id": "543885",
+"name": "1.6T DCT Tiger Kunpeng Luxury",
+"to": null
+},
+{
+"from": 202511,
+"id": "543886",
+"name": "1.6T DCT Tiger Kunpeng Premium",
+"to": null
+},
+{
+"from": 202511,
+"id": "543887",
+"name": "1.6T DCT Tiger Kunpeng Flagship",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "chery/tiggo_8/g_2025_23664",
 "market": "Китай",
 "to": null
 },
@@ -63630,6 +63905,7 @@
 "drive": "fwd",
 "engine": "JLH-4G20TDJ",
 "fuel": "бензин",
+"gen_key": "geely/monjaro/g_2021_19823",
 "hp": 218,
 "hp_total": null,
 "hybrid": null,
@@ -63895,6 +64171,101 @@
 "key": "geely/monjaro/g_2024_21865",
 "market": "Китай",
 "to": 202509
+},
+"geely/monjaro/g_202509_23434": {
+"from": 202509,
+"groups": [
+{
+"body": [
+"KX11"
+],
+"drive": "fwd",
+"engine": "BHE15-CFZ",
+"fuel": "бензин",
+"hp": 163,
+"hp_total": 238,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 163 л.с., параллельный гибрид, 238 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202604,
+"id": "553817",
+"name": "Xingyue L i-Hev 1.5 DHT Lingyun",
+"to": null
+},
+{
+"from": 202604,
+"id": "553810",
+"name": "Xingyue L i-Hev 1.5 DHT Xinghan",
+"to": null
+},
+{
+"from": 202604,
+"id": "553800",
+"name": "Xingyue L i-Hev 1.5 DHT Wangshu",
+"to": null
+}
+]
+},
+{
+"body": [
+"KX11"
+],
+"drive": "fwd",
+"engine": "JLH-4G20TDH",
+"fuel": "бензин",
+"gen_key": "geely/monjaro/g_202509_23434",
+"hp": 272,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 272 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202509,
+"id": "541575",
+"name": "Xingyue L 2.0 AT Yao Xiaohan",
+"to": null
+},
+{
+"from": 202509,
+"id": "541577",
+"name": "Xingyue L 2.0 AT Yao Lanxing",
+"to": null
+}
+]
+},
+{
+"body": [
+"KX11"
+],
+"drive": "4wd",
+"engine": "JLH-4G20TDH",
+"fuel": "бензин",
+"gen_key": "geely/monjaro/g_202509_23434",
+"hp": 272,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 272 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202509,
+"id": "541578",
+"name": "Xingyue L 2.0 AT Yao Wangyue",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "geely/monjaro/g_202509_23434",
+"market": "Китай",
+"to": null
 },
 "geely/okavango/g_202006_23208": {
 "from": 202006,
@@ -64491,6 +64862,7 @@
 "drive": "fwd",
 "engine": "JLH-4G20TDB",
 "fuel": "бензин",
+"gen_key": "geely/preface/g_2022_17734",
 "hp": 238,
 "hp_total": null,
 "hybrid": null,
@@ -64521,6 +64893,50 @@
 ],
 "ids": true,
 "key": "geely/preface/g_2022_17734",
+"market": "Китай",
+"to": null
+},
+"geely/preface/g_2025_24368": {
+"from": 202509,
+"groups": [
+{
+"body": [
+"FS11"
+],
+"drive": "fwd",
+"engine": "JLH-4G20TDB",
+"fuel": "бензин",
+"gen_key": "geely/preface/g_2025_24368",
+"hp": 272,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 272 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202509,
+"id": "551953",
+"name": "2.0 AT Dongfang Yao·Jinchao Edition",
+"to": null
+},
+{
+"from": 202509,
+"id": "551954",
+"name": "2.0 AT Dongfangyao Lanxing",
+"to": null
+},
+{
+"from": 202509,
+"id": "551955",
+"name": "2.0 AT Dongfangyao Wangyue",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "geely/preface/g_2025_24368",
 "market": "Китай",
 "to": null
 },
@@ -64720,6 +65136,7 @@
 "drive": "4wd",
 "engine": "GW4C20B",
 "fuel": "бензин",
+"gen_key": "great_wall/poer/g_2019_19844",
 "hp": 190,
 "hp_total": null,
 "hybrid": null,
@@ -64742,6 +65159,7 @@
 "drive": "rwd",
 "engine": "GW4C20B",
 "fuel": "бензин",
+"gen_key": "great_wall/poer/g_2019_19844",
 "hp": 190,
 "hp_total": null,
 "hybrid": null,
@@ -64787,6 +65205,7 @@
 "drive": "rwd",
 "engine": "GW4C20B",
 "fuel": "бензин",
+"gen_key": "great_wall/poer/g_2019_19844",
 "hp": 190,
 "hp_total": null,
 "hybrid": null,
@@ -64807,6 +65226,1066 @@
 "key": "great_wall/poer/g_2019_19844",
 "market": "Китай",
 "to": 202304
+},
+"great_wall/poer/g_202303_22024": {
+"from": 202304,
+"groups": [
+{
+"body": [
+"NPW"
+],
+"drive": "4wd",
+"engine": "GW4D20M",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202606,
+"id": "556979",
+"name": "2.0D MT 4WD Комфорт",
+"to": null
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "4wd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202606,
+"id": "556977",
+"name": "2.0 MT 4WD Комфорт",
+"to": null
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "4wd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202412,
+"id": "524873",
+"name": "2.0 AT 4WD Elite",
+"to": 202602
+},
+{
+"from": 202412,
+"id": "524874",
+"name": "2.0 AT 4WD Premium",
+"to": null
+},
+{
+"from": 202603,
+"id": "550640",
+"name": "2.0 AT 4WD Оптимум",
+"to": null
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "4wd",
+"engine": "GW4D24",
+"fuel": "дизель",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 184 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202412,
+"id": "524875",
+"name": "2.4D AT 4WD Premium",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "great_wall/poer/g_202303_22024",
+"market": "Россия",
+"to": null
+},
+"great_wall/poer/g_2023_19843": {
+"from": 202304,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4D20M",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202305,
+"id": "483831",
+"name": "Pao 2.0 D MT 4WD Commercial Version Small Axis Double Elite",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483832",
+"name": "Pao 2.0 D MT 4WD Commercial Version Long Axis Double Elite",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483833",
+"name": "Pao 2.0 D MT 4WD Commercial Version Long Axis Double Pilot",
+"to": 202510
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GW4D20M",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202305,
+"id": "483828",
+"name": "Pao 2.0 D MT 2WD Commercial Version Small Axis Double Elite",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483829",
+"name": "Pao 2.0 D MT 2WD Commercial Version Long Axis Double Elite",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483830",
+"name": "Pao 2.0 D MT 2WD Commercial Version Long Axis Double Pilot",
+"to": 202510
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "4wd",
+"engine": "GW4D20M",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202304,
+"id": "483814",
+"name": "Pao 2.0 D AT 4WD Passenger Version Charming",
+"to": 202510
+},
+{
+"from": 202304,
+"id": "483815",
+"name": "Pao 2.0 D AT 4WD Passenger Version Athletic",
+"to": 202510
+},
+{
+"from": 202304,
+"id": "483816",
+"name": "Pao 2.0 D AT 4WD Passenger Version Exclusive",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483837",
+"name": "Pao 2.0 D AT 4WD Commercial Version Small Axis Double Elite",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483838",
+"name": "Pao 2.0 D AT 4WD Commercial Version Long Axis Double Elite",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483839",
+"name": "Pao 2.0 D AT 4WD Commercial Version Long Axis Double Pilot",
+"to": 202510
+},
+{
+"from": 202306,
+"id": "483844",
+"name": "Pao 2.0 D AT 4WD Off-Road Version Advanced",
+"to": 202510
+},
+{
+"from": 202306,
+"id": "483845",
+"name": "Pao 2.0 D AT 4WD Off-Road Version High Advanced",
+"to": 202510
+},
+{
+"from": 202306,
+"id": "483846",
+"name": "Pao 2.0 D AT 4WD Off-Road Version Everest",
+"to": 202510
+},
+{
+"from": 202306,
+"id": "483847",
+"name": "Pao 2.0 D AT 4WD Off-Road Version Limited",
+"to": 202510
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "rwd",
+"engine": "GW4D20M",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202304,
+"id": "483813",
+"name": "Pao 2.0 D AT 2WD Passenger Version Charming",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483834",
+"name": "Pao 2.0 D AT 2WD Commercial Version Small Axis Double Elite",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483835",
+"name": "Pao 2.0 D AT 2WD Commercial Version Long Axis Double Elite",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483836",
+"name": "Pao 2.0 D AT 2WD Commercial Version Long Axis Double Pilot",
+"to": 202510
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4D20M",
+"fuel": "дизель",
+"hp": 166,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 166 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202511,
+"id": "543910",
+"name": "Pao 2.0 D MT 4WD Commercial Standard Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543911",
+"name": "Pao 2.0 D MT 4WD Commercial Long Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543912",
+"name": "Pao 2.0 D MT 4WD Commercial Long Base Navigator",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GW4D20M",
+"fuel": "дизель",
+"hp": 166,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 166 л.с., дизель, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202511,
+"id": "543908",
+"name": "Pao 2.0 D MT 2WD Commercial Standard Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543909",
+"name": "Pao 2.0 D MT 2WD Commercial Long Base Elite",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4D20M",
+"fuel": "дизель",
+"hp": 166,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 166 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202511,
+"id": "543915",
+"name": "Pao 2.0 D AT 4WD Commercial Standard Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543916",
+"name": "Pao 2.0 D AT 4WD Commercial Long Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543917",
+"name": "Pao 2.0 D AT 4WD Commercial Long Base Navigator",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GW4D20M",
+"fuel": "дизель",
+"hp": 166,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 166 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202511,
+"id": "543913",
+"name": "Pao 2.0 D AT 2WD Commercial Standard Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543914",
+"name": "Pao 2.0 D AT 2WD Commercial Long Base Elite",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"gen_key": "great_wall/poer/g_2023_19843",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202305,
+"id": "483819",
+"name": "Pao 2.0 T MT 4WD Commercial Version Small Axis Double Elite",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483823",
+"name": "Pao 2.0 T MT 4WD Commercial Version Long Axis Double Elite",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483824",
+"name": "Pao 2.0 T MT 4WD Commercial Version Long Axis Double Pilot",
+"to": 202510
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"gen_key": "great_wall/poer/g_2023_19843",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202305,
+"id": "483818",
+"name": "Pao 2.0 T MT 2WD Commercial Version Small Axis Double Elite",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483822",
+"name": "Pao 2.0 T MT 2WD Commercial Version Long Axis Double Elite",
+"to": 202510
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "4wd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"gen_key": "great_wall/poer/g_2023_19843",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202304,
+"id": "483810",
+"name": "Pao 2.0 T AT 4WD Passenger Version Charming",
+"to": 202510
+},
+{
+"from": 202304,
+"id": "483811",
+"name": "Pao 2.0 T AT 4WD Passenger Version Athletic",
+"to": 202510
+},
+{
+"from": 202304,
+"id": "483812",
+"name": "Pao 2.0 T AT 4WD Passenger Version Exclusive",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483821",
+"name": "Pao 2.0 T AT 4WD Commercial Version Small Axis Double Elite",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483826",
+"name": "Pao 2.0 T AT 4WD Commercial Version Long Axis Double Elite",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483827",
+"name": "Pao 2.0 T AT 4WD Commercial Version Long Axis Double Pilot",
+"to": 202510
+},
+{
+"from": 202306,
+"id": "483840",
+"name": "Pao 2.0 T AT 4WD Off-Road Version Advanced",
+"to": 202510
+},
+{
+"from": 202306,
+"id": "483841",
+"name": "Pao 2.0 T AT 4WD Off-Road Version High Advanced",
+"to": 202510
+},
+{
+"from": 202306,
+"id": "483842",
+"name": "Pao 2.0 T AT 4WD Off-Road Version Everest",
+"to": 202510
+},
+{
+"from": 202306,
+"id": "483843",
+"name": "Pao 2.0 T AT 4WD Off-Road Version Limited",
+"to": 202510
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "rwd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"gen_key": "great_wall/poer/g_2023_19843",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202304,
+"id": "483809",
+"name": "Pao 2.0 T AT 2WD Passenger Version Charming",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483820",
+"name": "Pao 2.0 T AT 2WD Commercial Version Small Axis Double Elite",
+"to": 202510
+},
+{
+"from": 202305,
+"id": "483825",
+"name": "Pao 2.0 T AT 2WD Commercial Version Long Axis Double Elite",
+"to": 202510
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202511,
+"id": "543920",
+"name": "Pao 2.0 T MT 4WD Commercial Standard Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543921",
+"name": "Pao 2.0 T MT 4WD Commercial Long Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543922",
+"name": "Pao 2.0 T MT 4WD Commercial Long Base Navigator",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202511,
+"id": "543918",
+"name": "Pao 2.0 T MT 2WD Commercial Standard Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543919",
+"name": "Pao 2.0 T MT 2WD Commercial Long Base Elite",
+"to": null
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "4wd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"gen_key": "great_wall/poer/g_2023_19843",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202306,
+"id": "483817",
+"name": "Pao 2.0 T AT 4WD Artillery",
+"to": 202510
+},
+{
+"from": 202511,
+"id": "543925",
+"name": "Pao 2.0 T AT 4WD Commercial Standard Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543926",
+"name": "Pao 2.0 T AT 4WD Commercial Long Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543927",
+"name": "Pao 2.0 T AT 4WD Commercial Long Base Navigator",
+"to": null
+},
+{
+"from": 202511,
+"id": "543930",
+"name": "Pao 2.0 T AT 4WD Passenger Comfort",
+"to": null
+},
+{
+"from": 202511,
+"id": "543931",
+"name": "Pao 2.0 T AT 4WD Passenger Sport",
+"to": null
+},
+{
+"from": 202511,
+"id": "543928",
+"name": "Pao 2.0 T AT 4WD Off-Road High-End",
+"to": null
+},
+{
+"from": 202511,
+"id": "543932",
+"name": "Pao 2.0 T AT 4WD Passenger Premium",
+"to": null
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "rwd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 218 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202511,
+"id": "543923",
+"name": "Pao 2.0 T AT 2WD Commercial Standard Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543924",
+"name": "Pao 2.0 T AT 2WD Commercial Long Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543929",
+"name": "Pao 2.0 T AT 2WD Passenger Comfort",
+"to": null
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "4wd",
+"engine": "GW4C20B",
+"fuel": "бензин",
+"gen_key": "great_wall/poer/g_2023_19843",
+"hp": 224,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 224 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202303,
+"id": "530464",
+"name": "Pao 2.0L AT Fire Bomb",
+"to": 202510
+},
+{
+"from": 202306,
+"id": "530474",
+"name": "Pao 2.0L AT Longdan",
+"to": 202510
+},
+{
+"from": 202308,
+"id": "530504",
+"name": "Pao 2.0L AT Black Bullet",
+"to": 202510
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "4wd",
+"engine": "GW4N20A",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 252 л.с., параллельный подзаряжаемый (PHEV) гибрид, 177 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202606,
+"id": "557736",
+"name": "Pao PHEV 2.0T Hi4-T Commercial Long Base Elite",
+"to": null
+},
+{
+"from": 202606,
+"id": "557737",
+"name": "Pao PHEV 2.0T Hi4-T Passenger Standard Base Comfort",
+"to": null
+},
+{
+"from": 202606,
+"id": "557738",
+"name": "Pao PHEV 2.0T Hi4-T Passenger Standard Base Premium",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GW4N20A",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 252 л.с., параллельный подзаряжаемый (PHEV) гибрид, 177 л.с., АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202606,
+"id": "548362",
+"name": "Pao PHEV 2.0T Commercial Long Base Elite",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4D24",
+"fuel": "дизель",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 184 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202405,
+"id": "530456",
+"name": "Pao 2.4L MT Commercial Elite",
+"to": 202510
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "4wd",
+"engine": "GW4D24",
+"fuel": "дизель",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 184 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202408,
+"id": "530458",
+"name": "Pao 2.4L AT Advanced",
+"to": 202510
+},
+{
+"from": 202408,
+"id": "530454",
+"name": "Pao 2.4L AT Passenger Sport",
+"to": 202510
+},
+{
+"from": 202408,
+"id": "530460",
+"name": "Pao 2.4L AT High-level",
+"to": 202510
+},
+{
+"from": 202408,
+"id": "530462",
+"name": "Pao 2.4L AT Passenger Premium",
+"to": 202510
+},
+{
+"from": 202405,
+"id": "530455",
+"name": "Pao 2.4L AT Business Elite",
+"to": 202510
+},
+{
+"from": 202405,
+"id": "530459",
+"name": "Pao 2.4L AT Passenger Comfort",
+"to": 202510
+},
+{
+"from": 202501,
+"id": "533462",
+"name": "Pao 2.4L AT Off-Road Cannon New Year Limited High-level",
+"to": 202510
+},
+{
+"from": 202501,
+"id": "533596",
+"name": "Pao 2.4L AT New Year Limited High-level",
+"to": 202510
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "rwd",
+"engine": "GW4D24",
+"fuel": "дизель",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 184 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202405,
+"id": "530457",
+"name": "Pao 2.4L AT Elite Double Cab Commercial",
+"to": 202510
+},
+{
+"from": 202408,
+"id": "530459",
+"name": "Pao 2.4L AT Passenger Comfort",
+"to": 202510
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4D24",
+"fuel": "дизель",
+"hp": 186,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 186 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 202511,
+"id": "543933",
+"name": "Pao 2.4 D MT 4WD Commercial Long Base Elite",
+"to": null
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "4wd",
+"engine": "GW4D24",
+"fuel": "дизель",
+"hp": 186,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 186 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202511,
+"id": "543935",
+"name": "Pao 2.4 D AT 4WD Commercial Long Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543938",
+"name": "Pao 2.4 D AT 4WD Passenger Comfort",
+"to": null
+},
+{
+"from": 202511,
+"id": "543939",
+"name": "Pao 2.4 D AT 4WD Passenger Sport",
+"to": null
+},
+{
+"from": 202511,
+"id": "543936",
+"name": "Pao 2.4 D AT 4WD Off-Road High-End",
+"to": null
+},
+{
+"from": 202511,
+"id": "543940",
+"name": "Pao 2.4 D AT 4WD Passenger Premium",
+"to": null
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "rwd",
+"engine": "GW4D24",
+"fuel": "дизель",
+"hp": 186,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.4,
+"text": "2.4 л, 186 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202511,
+"id": "543934",
+"name": "Pao 2.4 D AT 2WD Commercial Long Base Elite",
+"to": null
+},
+{
+"from": 202511,
+"id": "543937",
+"name": "Pao 2.4 D AT 2WD Passenger Comfort",
+"to": null
+}
+]
+},
+{
+"body": [
+"NPW"
+],
+"drive": "4wd",
+"engine": "GW6Z30",
+"fuel": "бензин",
+"hp": 360,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 360 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202510,
+"id": "540522",
+"name": "Pao 3.0T AT Cannon",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "great_wall/poer/g_2023_19843",
+"market": "Китай",
+"to": null
 },
 "haima/7x/g_2019_18734": {
 "from": 201911,
@@ -65350,6 +66829,7 @@
 "drive": "fwd",
 "engine": "GW4B15L",
 "fuel": "бензин",
+"gen_key": "haval/dargo/g_2025_23077",
 "hp": 184,
 "hp_total": null,
 "hybrid": null,
@@ -65370,6 +66850,7 @@
 "drive": "fwd",
 "engine": "GW4N20A",
 "fuel": "бензин",
+"gen_key": "haval/dargo/g_2025_23077",
 "hp": 238,
 "hp_total": null,
 "hybrid": null,
@@ -65390,6 +66871,7 @@
 "drive": "4wd",
 "engine": "GW4N20A",
 "fuel": "бензин",
+"gen_key": "haval/dargo/g_2025_23077",
 "hp": 238,
 "hp_total": null,
 "hybrid": null,
@@ -65419,6 +66901,7 @@
 "drive": "fwd",
 "engine": "GW4B15L",
 "fuel": "бензин",
+"gen_key": "haval/dargo/g_2025_23105",
 "hp": 184,
 "hp_total": null,
 "hybrid": null,
@@ -65445,6 +66928,7 @@
 "drive": "4wd",
 "engine": "GW4N20A",
 "fuel": "бензин",
+"gen_key": "haval/dargo/g_2025_23105",
 "hp": 238,
 "hp_total": null,
 "hybrid": null,
@@ -88015,6 +89499,22 @@
 "market": "Китай",
 "to": 202305
 },
+"kia/kx5/g_2015_19139": {
+"from": 201511,
+"groups": [],
+"ids": true,
+"key": "kia/kx5/g_2015_19139",
+"market": "Китай",
+"to": 201811
+},
+"kia/kx5/g_2019_19140": {
+"from": 201903,
+"groups": [],
+"ids": true,
+"key": "kia/kx5/g_2019_19140",
+"market": "Китай",
+"to": 202211
+},
 "kia/sportage/g_201404_1291": {
 "from": 201404,
 "groups": [
@@ -90844,6 +92344,588 @@
 "key": "land_rover/range_rover/g_201710_7915",
 "market": "Россия",
 "to": 202204
+},
+"land_rover/range_rover/g_202110_14316": {
+"from": 202110,
+"groups": [
+{
+"body": [
+"L460"
+],
+"drive": "4wd",
+"engine": "Ingenium AJ300D",
+"fuel": "дизель",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 249 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202110,
+"id": "396310",
+"name": "3.0 TD AT D250 SE",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396311",
+"name": "3.0 TD AT D250 HSE",
+"to": 202204
+}
+]
+},
+{
+"body": [
+"L460"
+],
+"drive": "4wd",
+"engine": "Ingenium AJ300D",
+"fuel": "дизель",
+"hp": 350,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 350 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202110,
+"id": "396312",
+"name": "3.0 TD AT D350 SE",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396324",
+"name": "3.0 TD AT D350 SE L",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396313",
+"name": "3.0 TD AT D350 HSE",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396325",
+"name": "3.0 TD AT D350 HSE L",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396343",
+"name": "3.0 TD AT D350 Autobiography",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396345",
+"name": "3.0 TD AT D350 Autobiography L",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396330",
+"name": "3.0 TD AT D350 SE L (7 мест)",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396355",
+"name": "3.0 TD AT D350 SV",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396356",
+"name": "3.0 TD AT D350 SV L",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396351",
+"name": "3.0 TD AT D350 First Edition",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396352",
+"name": "3.0 TD AT D350 First Edition L",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396331",
+"name": "3.0 TD AT D350 HSE L (7 мест)",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396347",
+"name": "3.0 TD AT D350 Autobiography L (7 мест)",
+"to": 202204
+}
+]
+},
+{
+"body": [
+"L460"
+],
+"drive": "4wd",
+"engine": "Ingenium AJ300",
+"fuel": "бензин",
+"hp": 360,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 360 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202110,
+"id": "396314",
+"name": "3.0 AT P360 MHEV SE",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396326",
+"name": "3.0 AT P360 MHEV SE L",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396315",
+"name": "3.0 AT P360 MHEV HSE",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396327",
+"name": "3.0 AT P360 MHEV HSE L",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396332",
+"name": "3.0 AT P360 MHEV SE L (7 мест)",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396333",
+"name": "3.0 AT P360 MHEV HSE L (7 мест)",
+"to": 202204
+}
+]
+},
+{
+"body": [
+"L460"
+],
+"drive": "4wd",
+"engine": "N63B44T3",
+"fuel": "бензин",
+"hp": 530,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 530 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202110,
+"id": "396316",
+"name": "4.4 AT P530 SE",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396328",
+"name": "4.4 AT P530 SE L",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396317",
+"name": "4.4 AT P530 HSE",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396329",
+"name": "4.4 AT P530 HSE L",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396344",
+"name": "4.4 AT P530 Autobiography",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396346",
+"name": "4.4 AT P530 Autobiography L",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396353",
+"name": "4.4 AT P530 SV",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396354",
+"name": "4.4 AT P530 SV L",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396349",
+"name": "4.4 AT P530 First Edition",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396350",
+"name": "4.4 AT P530 First Edition L",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396342",
+"name": "4.4 AT P530 HSE L (7 мест)",
+"to": 202204
+},
+{
+"from": 202110,
+"id": "396348",
+"name": "4.4 AT P530 Autobiography L (7 мест)",
+"to": 202204
+}
+]
+}
+],
+"ids": true,
+"key": "land_rover/range_rover/g_202110_14316",
+"market": "Россия",
+"to": 202204
+},
+"land_rover/range_rover/g_2021_25022": {
+"from": 202110,
+"groups": [
+{
+"body": [
+"L460"
+],
+"drive": "4wd",
+"engine": "PT306",
+"fuel": "бензин",
+"gen_key": "land_rover/range_rover/g_2021_25022",
+"hp": 360,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 360 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202206,
+"id": "561561",
+"name": "3.0 AT L6 360PS Grand",
+"to": 202311
+},
+{
+"from": 202311,
+"id": "561561",
+"name": "3.0 AT L6 360PS Grand",
+"to": 202409
+},
+{
+"from": 202409,
+"id": "561561",
+"name": "3.0 AT L6 360PS Grand",
+"to": null
+},
+{
+"from": 202603,
+"id": "561642",
+"name": "3.0 AT L6 360PS SE",
+"to": null
+}
+]
+},
+{
+"body": [
+"L460"
+],
+"drive": "4wd",
+"engine": "PT306",
+"fuel": "бензин",
+"gen_key": "land_rover/range_rover/g_2021_25022",
+"hp": 400,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 400 л.с., мягкий гибрид, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202204,
+"id": "561556",
+"name": "3.0 AT L6 400PS Classic Extended",
+"to": 202311
+},
+{
+"from": 202204,
+"id": "561560",
+"name": "3.0 AT L6 400PS Grand 7-Seater",
+"to": 202311
+},
+{
+"from": 202206,
+"id": "561557",
+"name": "3.0 AT L6 400PS Autobiography L",
+"to": 202311
+},
+{
+"from": 202204,
+"id": "561558",
+"name": "3.0 AT L6 400PS Grand",
+"to": 202210
+},
+{
+"from": 202210,
+"id": "561558",
+"name": "3.0 AT L6 400PS Grand",
+"to": 202311
+},
+{
+"from": 202311,
+"id": "561565",
+"name": "3.0 AT L6 400PS SV Luxury Autobiography L 5-Seater",
+"to": 202510
+},
+{
+"from": 202311,
+"id": "561564",
+"name": "3.0 AT L6 400PS SV Luxury Autobiography L 4-Seater",
+"to": 202510
+},
+{
+"from": 202311,
+"id": "561558",
+"name": "3.0 AT L6 400PS Grand",
+"to": 202409
+},
+{
+"from": 202311,
+"id": "561557",
+"name": "3.0 AT L6 400PS Autobiography L",
+"to": 202409
+},
+{
+"from": 202311,
+"id": "561556",
+"name": "3.0 AT L6 400PS Classic Extended",
+"to": 202409
+},
+{
+"from": 202311,
+"id": "561569",
+"name": "3.0 AT L6 400PS Grand 7-seater",
+"to": 202409
+},
+{
+"from": 202510,
+"id": "561565",
+"name": "3.0 AT L6 400PS SV Luxury Autobiography L 5-Seater",
+"to": null
+},
+{
+"from": 202510,
+"id": "561564",
+"name": "3.0 AT L6 400PS SV Luxury Autobiography L 4-Seater",
+"to": null
+},
+{
+"from": 202409,
+"id": "561558",
+"name": "3.0 AT L6 400PS Grand",
+"to": null
+},
+{
+"from": 202409,
+"id": "561556",
+"name": "3.0 AT L6 400PS Classic Extended",
+"to": null
+},
+{
+"from": 202409,
+"id": "561557",
+"name": "3.0 AT L6 400PS Autobiography L",
+"to": null
+},
+{
+"from": 202409,
+"id": "561569",
+"name": "3.0 AT L6 400PS Grand 7-seater",
+"to": null
+},
+{
+"from": 202604,
+"id": "561631",
+"name": "3.0 AT L6 400PS HSE L",
+"to": null
+},
+{
+"from": 202604,
+"id": "561621",
+"name": "3.0 AT L6 400PS SV L 5-Seater",
+"to": null
+},
+{
+"from": 202604,
+"id": "561619",
+"name": "3.0 AT L6 400PS SV L 4-Seater",
+"to": null
+},
+{
+"from": 202603,
+"id": "561633",
+"name": "3.0 AT L6 400PS SE",
+"to": null
+},
+{
+"from": 202603,
+"id": "561623",
+"name": "3.0 AT L6 400PS AB L",
+"to": null
+},
+{
+"from": 202603,
+"id": "561637",
+"name": "3.0 AT L6 400PS SE L 7-Seater",
+"to": null
+},
+{
+"from": 202607,
+"id": "561628",
+"name": "3.0 AT L6 400PS HSE Black Edition",
+"to": null
+}
+]
+},
+{
+"body": [
+"L460"
+],
+"drive": "4wd",
+"engine": "N63B44D",
+"fuel": "бензин",
+"gen_key": "land_rover/range_rover/g_2021_25022",
+"hp": 530,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 530 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202208,
+"id": "561554",
+"name": "4.4 AT V8 SV Luxury Autobiography",
+"to": null
+},
+{
+"from": 202208,
+"id": "561547",
+"name": "4.4 AT V8 SV Luxury Autobiography L",
+"to": null
+},
+{
+"from": 202204,
+"id": "561555",
+"name": "4.4 AT V8 530PS First",
+"to": null
+}
+]
+},
+{
+"body": [
+"L460"
+],
+"drive": "4wd",
+"engine": "S68B44B",
+"fuel": "бензин",
+"gen_key": "land_rover/range_rover/g_2021_25022",
+"hp": 615,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.4,
+"text": "4.4 л, 615 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202311,
+"id": "561554",
+"name": "4.4 AT V8 SV Luxury Autobiography",
+"to": null
+},
+{
+"from": 202311,
+"id": "561547",
+"name": "4.4 AT V8 SV Luxury Autobiography L",
+"to": null
+},
+{
+"from": 202504,
+"id": "561590",
+"name": "4.4 AT V8 SV 10th Anniversary High-End",
+"to": null
+},
+{
+"from": 202510,
+"id": "561592",
+"name": "4.4 AT V8 SV Autobiography L 5-Seater",
+"to": null
+},
+{
+"from": 202510,
+"id": "561591",
+"name": "4.4 AT V8 SV Luxury Autobiography L 4-Seater",
+"to": null
+},
+{
+"from": 202604,
+"id": "561614",
+"name": "4.4 AT V8 SV Year of the Horse High-End L 4-Seater",
+"to": null
+},
+{
+"from": 202604,
+"id": "561616",
+"name": "4.4 AT V8 SV L 4-Seater",
+"to": null
+},
+{
+"from": 202608,
+"id": "561615",
+"name": "4.4 AT V8 SV Concert Series Jade Edition New Release L 4-Seater",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "land_rover/range_rover/g_2021_25022",
+"market": "Китай",
+"to": null
 },
 "land_rover/range_rover_evoque/g_201107_1684": {
 "from": 201110,
@@ -121298,31 +123380,37 @@
 "trims": [
 {
 "from": 202109,
+"id": "437060",
 "name": "75 kWh Sport 455km",
 "to": 202304
 },
 {
 "from": 202005,
+"id": "437061",
 "name": "100 kWh Sport 600km",
 "to": 202304
 },
 {
 "from": 202005,
+"id": "490282",
 "name": "70 kWh Sport 420km",
 "to": 202205
 },
 {
 "from": 202005,
+"id": "490285",
 "name": "84 kWh Sport 490km",
 "to": 202205
 },
 {
 "from": 201812,
+"id": "490282",
 "name": "70 kWh Sport 420km",
 "to": 202004
 },
 {
 "from": 201812,
+"id": "490285",
 "name": "84 kWh Sport 490km",
 "to": 202004
 }
@@ -121342,72 +123430,86 @@
 "trims": [
 {
 "from": 202109,
+"id": "437062",
 "name": "75 kWh Performance 465km",
 "to": 202304
 },
 {
 "from": 202109,
+"id": "437064",
 "name": "75 kWh Signature 465km",
 "to": 202304
 },
 {
 "from": 202005,
+"id": "437063",
 "name": "100 kWh Performance 610km",
 "to": 202304
 },
 {
 "from": 202005,
+"id": "437065",
 "name": "100 kWh Signature 610km",
 "to": 202304
 },
 {
 "from": 202005,
+"id": "490287",
 "name": "70 kWh Performance 430km",
 "to": 202205
 },
 {
 "from": 202005,
+"id": "490290",
 "name": "70 kWh Signature 430km",
 "to": 202205
 },
 {
 "from": 202005,
+"id": "490288",
 "name": "84 kWh Performance 510km",
 "to": 202205
 },
 {
 "from": 202005,
+"id": "490292",
 "name": "84 kWh Signature 510km",
 "to": 202205
 },
 {
 "from": 201812,
+"id": "490287",
 "name": "70 kWh Performance 430km",
 "to": 202004
 },
 {
 "from": 201812,
+"id": "490300",
 "name": "70 kWh First Commemorative Edition 430km",
 "to": 202004
 },
 {
 "from": 201812,
+"id": "490288",
 "name": "84 kWh Performance 510km",
 "to": 202004
 },
 {
 "from": 201812,
+"id": "490302",
 "name": "84 kWh First Commemorative Edition 510km",
 "to": 202004
 },
 {
 "from": 201908,
+"id": "490303",
 "name": "70 kWh Dark Night 430km",
 "to": 202004
 }
 ]
 }
 ],
+"ids": true,
 "key": "nio/es6/g_2018_16051",
 "market": "Китай",
 "to": 202304
@@ -121764,6 +123866,7 @@
 "drive": "4wd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "nio/es8/g_2025_23339",
 "hp": 707,
 "hp_total": null,
 "hybrid": null,
@@ -121864,18 +123967,57 @@
 "trims": [
 {
 "from": 202306,
+"id": "490024",
 "name": "75 kWh Touring",
 "to": null
 },
 {
 "from": 202306,
+"id": "490025",
 "name": "100 kWh Touring",
 "to": null
 }
 ]
 }
 ],
+"ids": true,
 "key": "nio/et5/g_2023_20085",
+"market": "Китай",
+"to": null
+},
+"nio/et5/g_2025_22741": {
+"from": 202505,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"gen_key": "nio/et5/g_2025_22741",
+"hp": 490,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "490 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202505,
+"id": "535437",
+"name": "75 kWh",
+"to": null
+},
+{
+"from": 202505,
+"id": "535436",
+"name": "100 kWh",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "nio/et5/g_2025_22741",
 "market": "Китай",
 "to": null
 },
@@ -173728,6 +175870,121 @@
 "name": "1.6 TGDI DCT 290T Fashion",
 "v": 3
 },
+"470433": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"190 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"156 л.с. (115 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"230 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"SQRE4T15C"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,4 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4700 × 1860 × 1746 мм"
+],
+[
+"Колёсная база",
+"2710 мм"
+],
+[
+"Клиренс",
+"200 мм"
+],
+[
+"Масса",
+"1540 кг"
+],
+[
+"Топливный бак",
+"51 л"
+],
+[
+"Багажник",
+"892 (1930) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"235/55 R18"
+]
+]
+]
+],
+"name": "1.5 TCI DCT Classic Respect",
+"v": 3
+},
 "470678": {
 "groups": [
 [
@@ -176282,6 +178539,125 @@
 "name": "2.0T AT 28T Luxury",
 "v": 3
 },
+"480075": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,5 с"
+],
+[
+"Максимальная скорость",
+"195 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"237 л.с. (174 кВт) при 5000 об/мин"
+],
+[
+"Крутящий момент",
+"253 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"GM Ecotec LHX"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,8 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5238 × 1878 × 1776 мм"
+],
+[
+"Колёсная база",
+"3088 мм"
+],
+[
+"Клиренс",
+"143 мм"
+],
+[
+"Масса",
+"1880 кг"
+],
+[
+"Топливный бак",
+"66 л"
+],
+[
+"Багажник",
+"475 (1605) л"
+],
+[
+"Мест",
+"7"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/60 R17"
+]
+]
+]
+],
+"name": "2.0T AT Comfort",
+"v": 3
+},
 "480376": {
 "groups": [
 [
@@ -177072,6 +179448,121 @@
 ]
 ],
 "name": "2.8TD AT 4WD Standard Box High-Chassis Comfort",
+"v": 3
+},
+"483270": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"7,9 с"
+],
+[
+"Максимальная скорость",
+"215 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"215 л.с. (158 кВт) при 5000 об/мин"
+],
+[
+"Крутящий момент",
+"325 Н·м при 1700 об/мин"
+],
+[
+"Модель двигателя",
+"JLH-4G20TDJ"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,8 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4770 × 1895 × 1689 мм"
+],
+[
+"Колёсная база",
+"2845 мм"
+],
+[
+"Масса",
+"1675 кг"
+],
+[
+"Топливный бак",
+"55 л"
+],
+[
+"Багажник",
+"562 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"235/55 R18"
+]
+]
+]
+],
+"name": "Xingyue L 2.0 AMT Charming",
 "v": 3
 },
 "483383": {
@@ -178063,6 +180554,121 @@
 ],
 "name": "1.5 TGI DCT Super Sense Elite"
 },
+"490024": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"5,4 с"
+],
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"490 л.с. (360 кВт) при 0 об/мин"
+],
+[
+"Тип двигателя",
+"Электродвигатель"
+],
+[
+"Топливо",
+"Электричество"
+]
+]
+],
+[
+"Электро",
+[
+[
+"30-минутная мощность",
+"136 л.с."
+],
+[
+"Мощность электромотора",
+"360 кВт"
+],
+[
+"Крутящий момент электромотора",
+"700 Н·м"
+],
+[
+"Ёмкость батареи",
+"75 кВт·ч"
+],
+[
+"Запас хода",
+"530 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4790 × 1960 × 1499 мм"
+],
+[
+"Колёсная база",
+"2888 мм"
+],
+[
+"Клиренс",
+"125 мм"
+],
+[
+"Масса",
+"2195 кг"
+],
+[
+"Багажник",
+"450 (1300) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"245/45 R19"
+]
+]
+]
+],
+"name": "75 kWh Touring",
+"v": 3
+},
 "490078": {
 "groups": [
 [
@@ -178176,6 +180782,121 @@
 ]
 ],
 "name": "75 kWh",
+"v": 3
+},
+"490287": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"4,7 с"
+],
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"544 л.с. (400 кВт) при 0 об/мин"
+],
+[
+"Тип двигателя",
+"Электродвигатель"
+],
+[
+"Топливо",
+"Электричество"
+]
+]
+],
+[
+"Электро",
+[
+[
+"30-минутная мощность",
+"225 л.с."
+],
+[
+"Мощность электромотора",
+"400 кВт"
+],
+[
+"Крутящий момент электромотора",
+"725 Н·м"
+],
+[
+"Ёмкость батареи",
+"70 кВт·ч"
+],
+[
+"Запас хода",
+"430 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4850 × 1965 × 1731 мм"
+],
+[
+"Колёсная база",
+"2900 мм"
+],
+[
+"Клиренс",
+"200 мм"
+],
+[
+"Масса",
+"2345 кг"
+],
+[
+"Багажник",
+"584 (1433) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"255/55 R19"
+]
+]
+]
+],
+"name": "70 kWh Performance 430km",
 "v": 3
 },
 "490304": {
@@ -178606,6 +181327,117 @@
 ]
 ],
 "name": "Vizzion 85 kWh Air",
+"v": 3
+},
+"491369": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"200 л.с. (147 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"253 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"G4FS"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,8 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4530 × 1850 × 1700 мм"
+],
+[
+"Колёсная база",
+"2640 мм"
+],
+[
+"Клиренс",
+"161 мм"
+],
+[
+"Масса",
+"1498 кг"
+],
+[
+"Топливный бак",
+"58 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/55 R18"
+]
+]
+]
+],
+"name": "Ace 1.5 T DCT 2WD GT Line Fusion Edition",
 "v": 3
 },
 "491483": {
@@ -185379,6 +188211,121 @@
 "name": "2.0 Hybrid E-CVT Exclusive",
 "v": 3
 },
+"519109": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"7,5 с"
+],
+[
+"Максимальная скорость",
+"215 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"218 л.с. (160 кВт) при 5000 об/мин"
+],
+[
+"Крутящий момент",
+"325 Н·м при 1700 об/мин"
+],
+[
+"Модель двигателя",
+"JLH-4G20TDJ"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,8 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4770 × 1895 × 1689 мм"
+],
+[
+"Колёсная база",
+"2845 мм"
+],
+[
+"Масса",
+"1675 кг"
+],
+[
+"Топливный бак",
+"55 л"
+],
+[
+"Багажник",
+"562 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"235/55 R19"
+]
+]
+]
+],
+"name": "Xingyue L 2.0 AMT Comfort",
+"v": 3
+},
 "519180": {
 "groups": [
 [
@@ -188981,6 +191928,117 @@
 ]
 ],
 "name": "B 200 Dynamic"
+},
+"524890": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"195 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"181 л.с. (133 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"290 Н·м при 2000 об/мин"
+],
+[
+"Модель двигателя",
+"BHE15-EFZ"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,2 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4785 × 1869 × 1469 мм"
+],
+[
+"Колёсная база",
+"2800 мм"
+],
+[
+"Масса",
+"1465 кг"
+],
+[
+"Топливный бак",
+"50 л"
+],
+[
+"Багажник",
+"500 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/55 R17"
+]
+]
+]
+],
+"name": "1.5 DCT Dongfangyao Jinghong",
+"v": 3
 },
 "526150": {
 "groups": [
@@ -197995,6 +201053,129 @@
 ]
 ],
 "name": "PHEV 1.5T 4WD Extended Range Anniversary"
+},
+"561565": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"5,9 с"
+],
+[
+"Максимальная скорость",
+"242 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"400 л.с. (294 кВт) при 6500 об/мин"
+],
+[
+"Крутящий момент",
+"550 Н·м при 2000 об/мин"
+],
+[
+"Модель двигателя",
+"PT306"
+],
+[
+"Тип двигателя",
+"Рядный, 6-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"10,0 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5258 × 2047 × 1870 мм"
+],
+[
+"Колёсная база",
+"3197 мм"
+],
+[
+"Клиренс",
+"219 мм"
+],
+[
+"Масса",
+"2720 кг"
+],
+[
+"Топливный бак",
+"90 л"
+],
+[
+"Багажник",
+"818 (2176) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"285/40 R23"
+],
+[
+"Радиус разворота",
+"5,77 м"
+]
+]
+]
+],
+"name": "3.0 AT L6 400PS SV Luxury Autobiography L 5-Seater",
+"v": 3
 },
 "562207": {
 "groups": [
