@@ -658,6 +658,15 @@
 "g_201910_18451"
 ]
 },
+"baojun/730/china": {
+"day": 739891,
+"gens": [
+"g_2014_18466",
+"g_2015_18467",
+"g_2017_18468",
+"g_2018_18469"
+]
+},
 "baojun/rc-6/china": {
 "day": 739885,
 "gens": [
@@ -16575,6 +16584,384 @@
 "key": "baojun/530/g_201910_18451",
 "market": "Китай",
 "to": 202112
+},
+"baojun/730/g_2014_18466": {
+"from": 201404,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "L2B",
+"fuel": "бензин",
+"hp": 111,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 111 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201407,
+"id": "532235",
+"name": "1.5L MT Standard 7 Seats",
+"to": 201509
+},
+{
+"from": 201407,
+"id": "532231",
+"name": "1.5L MT Comfort 7 Seats",
+"to": 201509
+},
+{
+"from": 201407,
+"id": "532232",
+"name": "1.5L MT Luxury 7 Seats",
+"to": 201509
+},
+{
+"from": 201411,
+"id": "532234",
+"name": "1.5L MT Standard 5 Seats",
+"to": 201509
+},
+{
+"from": 201411,
+"id": "532242",
+"name": "1.5L MT Standard 8 Seats",
+"to": 201509
+},
+{
+"from": 201411,
+"id": "532233",
+"name": "1.5L MT Luxury Navigation ESP Edition 7 Seats",
+"to": 201509
+},
+{
+"from": 201501,
+"id": "532240",
+"name": "1.5L MT Comfort ESP Edition 7 Seats",
+"to": 201509
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LJ479QNE2",
+"fuel": "бензин",
+"hp": 137,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 137 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201501,
+"id": "532237",
+"name": "1.8L MT Comfort ESP Edition 7 Seats",
+"to": 201509
+},
+{
+"from": 201501,
+"id": "532236",
+"name": "1.8L MT Luxury Navigation ESP Edition 7 Seats",
+"to": 201509
+},
+{
+"from": 201407,
+"id": "532241",
+"name": "1.8L MT Comfort 7 Seats",
+"to": 201509
+}
+]
+}
+],
+"ids": true,
+"key": "baojun/730/g_2014_18466",
+"market": "Китай",
+"to": 201509
+},
+"baojun/730/g_2015_18467": {
+"from": 201504,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "L2B",
+"fuel": "бензин",
+"gen_key": "baojun/730/g_2015_18467",
+"hp": 111,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 111 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201612,
+"id": "532206",
+"name": "1.5L MT Standard 5 Seats",
+"to": 201701
+},
+{
+"from": 201612,
+"id": "532216",
+"name": "1.5L MT Standard 8 Seats",
+"to": 201701
+},
+{
+"from": 201509,
+"id": "532217",
+"name": "1.5L MT Luxury 7 Seats",
+"to": 201701
+},
+{
+"from": 201603,
+"id": "532206",
+"name": "1.5L MT Standard 5 Seats",
+"to": 201701
+},
+{
+"from": 201603,
+"id": "532216",
+"name": "1.5L MT Standard 8 Seats",
+"to": 201701
+},
+{
+"from": 201603,
+"id": "532224",
+"name": "1.5L MT Standard 7 Seats",
+"to": 201701
+},
+{
+"from": 201607,
+"id": "532228",
+"name": "1.5L MT Value 5 Seats",
+"to": 201701
+},
+{
+"from": 201607,
+"id": "532230",
+"name": "1.5L MT Value 8 Seats",
+"to": 201701
+},
+{
+"from": 201607,
+"id": "532229",
+"name": "1.5L MT Value 7 Seats",
+"to": 201701
+},
+{
+"from": 201607,
+"id": "532224",
+"name": "1.5L MT Standard 7 Seats",
+"to": 201701
+},
+{
+"from": 201607,
+"id": "532227",
+"name": "1.5L MT Comfort 7 Seats",
+"to": 201701
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LL5",
+"fuel": "бензин",
+"gen_key": "baojun/730/g_2015_18467",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 150 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201607,
+"id": "532224",
+"name": "1.5L MT Standard 7 Seats",
+"to": 201701
+},
+{
+"from": 201607,
+"id": "532227",
+"name": "1.5L MT Comfort 7 Seats",
+"to": 201701
+},
+{
+"from": 201607,
+"id": "532217",
+"name": "1.5L MT Luxury 7 Seats",
+"to": 201701
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LJ479QNE2",
+"fuel": "бензин",
+"gen_key": "baojun/730/g_2015_18467",
+"hp": 137,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 137 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201610,
+"id": "532221",
+"name": "1.8L MT Comfort 7 Seats",
+"to": 201701
+},
+{
+"from": 201610,
+"id": "532244",
+"name": "1.8L MT Luxury 7 Seats",
+"to": 201701
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LJ479QNE2",
+"fuel": "бензин",
+"hp": 137,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 137 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201610,
+"id": "532222",
+"name": "1.8L AMT Comfort 7 Seats",
+"to": 201701
+},
+{
+"from": 201610,
+"id": "532223",
+"name": "1.8L AMT Luxury 7 Seats",
+"to": 201701
+}
+]
+}
+],
+"ids": true,
+"key": "baojun/730/g_2015_18467",
+"market": "Китай",
+"to": 201701
+},
+"baojun/730/g_2017_18468": {
+"from": 201701,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "LL5",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 150 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201701,
+"id": "532207",
+"name": "1.5L MT Luxury 7 Seats",
+"to": 201711
+},
+{
+"from": 201701,
+"id": "532208",
+"name": "1.5L MT Premium Enjoyment 7 Seats",
+"to": 201711
+},
+{
+"from": 201711,
+"id": "532212",
+"name": "1.5L MT Fashion 7 Seats",
+"to": 201811
+},
+{
+"from": 201711,
+"id": "532212",
+"name": "1.5L MT Fashion 7 Seats",
+"to": 201811
+},
+{
+"from": 201711,
+"id": "532215",
+"name": "1.5L MT Distinguished 7 Seats",
+"to": 201811
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LL5",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201711,
+"id": "532214",
+"name": "1.5L DCT Fashion 7 Seats",
+"to": 201811
+},
+{
+"from": 201711,
+"id": "532225",
+"name": "1.5L DCT Flagship 7 Seats",
+"to": 201811
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LJ479QNE2",
+"fuel": "бензин",
+"hp": 137,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 137 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201701,
+"id": "532209",
+"name": "1.8L AMT Luxury 7 Seats",
+"to": 201711
+},
+{
+"from": 201701,
+"id": "532210",
+"name": "1.8L AMT Premium 7 Seats",
+"to": 201711
+}
+]
+}
+],
+"ids": true,
+"key": "baojun/730/g_2017_18468",
+"market": "Китай",
+"to": 201811
 },
 "baojun/rc-6/g_2019_18487": {
 "from": 201909,
@@ -195137,6 +195524,96 @@
 ]
 ],
 "name": "1.5L MT Dynamic Enjoy"
+},
+"530220": {
+"groups": [
+[
+"Двигатель",
+[
+[
+"Мощность",
+"137 л.с. (101 кВт) при 5600 об/мин"
+],
+[
+"Крутящий момент",
+"186 Н·м при 4600 об/мин"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-5"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,7 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4655 × 1835 × 1760 мм"
+],
+[
+"Колёсная база",
+"2750 мм"
+],
+[
+"Масса",
+"1435 кг"
+],
+[
+"Топливный бак",
+"52 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/60 R17"
+]
+]
+]
+],
+"name": "1.8L AT Elite 5 Seats",
+"v": 3
 },
 "530408": {
 "groups": [
