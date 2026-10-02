@@ -85939,6 +85939,121 @@
 "market": "Россия",
 "to": 201901
 },
+"jaguar/xe/g_2017_21517": {
+"from": 201712,
+"groups": [
+{
+"body": [
+"X760"
+],
+"drive": "rwd",
+"engine": "204PT",
+"fuel": "бензин",
+"gen_key": "jaguar/xe/g_2017_21517",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 200 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201712,
+"id": "516979",
+"name": "2.0T AT Luxury Edition",
+"to": 201811
+},
+{
+"from": 201712,
+"id": "516980",
+"name": "2.0T AT Elite Edition",
+"to": 201811
+},
+{
+"from": 201712,
+"id": "516977",
+"name": "2.0T AT Exclusive Edition",
+"to": 201811
+},
+{
+"from": 201712,
+"id": "516976",
+"name": "2.0T AT First Limited Edition",
+"to": 201811
+},
+{
+"from": 201711,
+"id": "516978",
+"name": "2.0T AT LOVE Edition",
+"to": 201712
+},
+{
+"from": 201811,
+"id": "516979",
+"name": "2.0T AT Luxury Edition",
+"to": 201911
+},
+{
+"from": 201811,
+"id": "516980",
+"name": "2.0T AT Elite Edition",
+"to": 201911
+},
+{
+"from": 201811,
+"id": "516977",
+"name": "2.0T AT Exclusive Edition",
+"to": 201911
+}
+]
+},
+{
+"body": [
+"X760"
+],
+"drive": "rwd",
+"engine": "204PT",
+"fuel": "бензин",
+"gen_key": "jaguar/xe/g_2017_21517",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 250 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201712,
+"id": "516977",
+"name": "2.0T AT Exclusive Edition",
+"to": 201811
+},
+{
+"from": 201712,
+"id": "516979",
+"name": "2.0T AT Luxury Edition",
+"to": 201811
+},
+{
+"from": 201811,
+"id": "516977",
+"name": "2.0T AT Exclusive Edition",
+"to": 201911
+},
+{
+"from": 201811,
+"id": "516979",
+"name": "2.0T AT Luxury Edition",
+"to": 201911
+}
+]
+}
+],
+"ids": true,
+"key": "jaguar/xe/g_2017_21517",
+"market": "Китай",
+"to": 201911
+},
 "jeep/grand_cherokee/g_200408_6005": {
 "from": 200408,
 "groups": [
