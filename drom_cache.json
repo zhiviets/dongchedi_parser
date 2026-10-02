@@ -2355,6 +2355,10 @@
 "day": 739887,
 "gens": []
 },
+"jac/s7/china": {
+"day": 739891,
+"gens": []
+},
 "jac/t8/china": {
 "day": 739890,
 "gens": [
@@ -92622,6 +92626,407 @@
 "market": "Россия",
 "to": 201805
 },
+"jeep/grand_cherokee/g_201606_8893": {
+"from": 201704,
+"groups": [
+{
+"body": [
+"WK2"
+],
+"drive": "4wd",
+"engine": "EHD; EHW",
+"fuel": "бензин",
+"hp": 238,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 238 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "224956",
+"name": "3.0 AT Limited",
+"to": 202210
+},
+{
+"from": 201806,
+"id": "224957",
+"name": "3.0 AT Laredo",
+"to": 202108
+},
+{
+"from": 201904,
+"id": "244692",
+"name": "3.0 AT S Limited",
+"to": 202210
+},
+{
+"from": 201904,
+"id": "244698",
+"name": "3.0 AT Overland",
+"to": 202210
+}
+]
+},
+{
+"body": [
+"WK2"
+],
+"drive": "4wd",
+"engine": "ERB; ERC",
+"fuel": "бензин",
+"hp": 286,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.6,
+"text": "3.6 л, 286 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "224954",
+"name": "3.6 AT Trailhawk",
+"to": 202210
+},
+{
+"from": 201806,
+"id": "224958",
+"name": "3.6 AT Overland",
+"to": 202210
+}
+]
+},
+{
+"body": [
+"WK2"
+],
+"drive": "4wd",
+"engine": "EZH",
+"fuel": "бензин",
+"hp": 347,
+"hp_total": null,
+"hybrid": null,
+"liters": 5.7,
+"text": "5.7 л, 347 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201904,
+"id": "244696",
+"name": "5.7 AT S Limited",
+"to": 202210
+}
+]
+},
+{
+"body": [
+"WK2"
+],
+"drive": "4wd",
+"engine": "ESD",
+"fuel": "бензин",
+"hp": 710,
+"hp_total": null,
+"hybrid": null,
+"liters": 6.2,
+"text": "6.2 л, 710 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201809,
+"id": "224338",
+"name": "6.2 AT Trackhawk",
+"to": 202105
+}
+]
+},
+{
+"body": [
+"WK2"
+],
+"drive": "4wd",
+"engine": "ESG",
+"fuel": "бензин",
+"hp": 468,
+"hp_total": null,
+"hybrid": null,
+"liters": 6.4,
+"text": "6.4 л, 468 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "224955",
+"name": "6.4 AT SRT",
+"to": 202210
+}
+]
+}
+],
+"ids": true,
+"key": "jeep/grand_cherokee/g_201606_8893",
+"market": "Россия",
+"to": 202210
+},
+"jeep/grand_cherokee/g_2016_23698": {
+"from": 201603,
+"groups": [
+{
+"body": [
+"WK2"
+],
+"drive": "4wd",
+"engine": null,
+"fuel": "бензин",
+"gen_key": "jeep/grand_cherokee/g_2016_23698",
+"hp": 234,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 234 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201606,
+"id": "544352",
+"name": "3.0 AT AWD Comfort",
+"to": 201703
+},
+{
+"from": 201606,
+"id": "544347",
+"name": "3.0 AT AWD Elite",
+"to": 201703
+},
+{
+"from": 201606,
+"id": "544355",
+"name": "3.0 AT AWD Professional",
+"to": 201908
+},
+{
+"from": 201703,
+"id": "544347",
+"name": "3.0 AT AWD Elite",
+"to": 201908
+},
+{
+"from": 201703,
+"id": "544352",
+"name": "3.0 AT AWD Comfort",
+"to": 202109
+},
+{
+"from": 201908,
+"id": "544355",
+"name": "3.0 AT AWD Professional",
+"to": 201912
+},
+{
+"from": 201908,
+"id": "544347",
+"name": "3.0 AT AWD Elite",
+"to": 201912
+},
+{
+"from": 201912,
+"id": "544355",
+"name": "3.0 AT AWD Professional",
+"to": 202109
+},
+{
+"from": 201912,
+"id": "544347",
+"name": "3.0 AT AWD Elite",
+"to": 202109
+},
+{
+"from": 202103,
+"id": "544411",
+"name": "3.0 AT AWD 80th Anniversary Edition",
+"to": 202109
+}
+]
+},
+{
+"body": [
+"WK2"
+],
+"drive": "4wd",
+"engine": null,
+"fuel": "дизель",
+"gen_key": "jeep/grand_cherokee/g_2016_23698",
+"hp": 243,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 243 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201609,
+"id": "544341",
+"name": "3.0TD AT AWD 75th Anniversary Edition",
+"to": 202109
+},
+{
+"from": 201606,
+"id": "544345",
+"name": "3.0TD AT AWD Elite",
+"to": 202109
+},
+{
+"from": 201606,
+"id": "544349",
+"name": "3.0TD AT AWD Comfort",
+"to": 201708
+},
+{
+"from": 201801,
+"id": "544386",
+"name": "3.0TD AT AWD Comfort IV",
+"to": 202109
+},
+{
+"from": 201801,
+"id": "544380",
+"name": "3.0TD AT AWD High-Performance IV",
+"to": 202109
+},
+{
+"from": 201708,
+"id": "544383",
+"name": "3.0TD AT AWD High-Performance V",
+"to": 202109
+},
+{
+"from": 201708,
+"id": "544385",
+"name": "3.0TD AT AWD Comfort V",
+"to": 201801
+}
+]
+},
+{
+"body": [
+"WK2"
+],
+"drive": "4wd",
+"engine": null,
+"fuel": "бензин",
+"gen_key": "jeep/grand_cherokee/g_2016_23698",
+"hp": 286,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.6,
+"text": "3.6 л, 286 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201606,
+"id": "544344",
+"name": "3.6 AT AWD Elite",
+"to": 201703
+},
+{
+"from": 201606,
+"id": "544336",
+"name": "3.6 AT AWD Flagship Supreme",
+"to": 201703
+},
+{
+"from": 201606,
+"id": "544339",
+"name": "3.6 AT AWD Luxury",
+"to": 201703
+},
+{
+"from": 201609,
+"id": "544340",
+"name": "3.6 AT AWD 75th Anniversary Edition",
+"to": 202109
+},
+{
+"from": 201703,
+"id": "544344",
+"name": "3.6 AT AWD Elite",
+"to": 201908
+},
+{
+"from": 201703,
+"id": "544336",
+"name": "3.6 AT AWD Flagship Supreme",
+"to": 201908
+},
+{
+"from": 201703,
+"id": "544339",
+"name": "3.6 AT AWD Luxury",
+"to": 201908
+},
+{
+"from": 201807,
+"id": "544391",
+"name": "3.6 AT AWD High-Performance",
+"to": 202109
+},
+{
+"from": 201908,
+"id": "544344",
+"name": "3.6 AT AWD Elite",
+"to": 201912
+},
+{
+"from": 201908,
+"id": "544336",
+"name": "3.6 AT AWD Flagship Supreme",
+"to": 201912
+},
+{
+"from": 201908,
+"id": "544339",
+"name": "3.6 AT AWD Luxury",
+"to": 201912
+},
+{
+"from": 201912,
+"id": "544391",
+"name": "3.6 AT AWD High-Performance",
+"to": 202109
+},
+{
+"from": 201912,
+"id": "544344",
+"name": "3.6 AT AWD Elite",
+"to": 202109
+},
+{
+"from": 201912,
+"id": "544336",
+"name": "3.6 AT AWD Flagship Supreme",
+"to": 202109
+},
+{
+"from": 201912,
+"id": "544339",
+"name": "3.6 AT AWD Luxury",
+"to": 202109
+},
+{
+"from": 201807,
+"id": "544391",
+"name": "3.6 AT AWD High-Performance",
+"to": 201912
+}
+]
+}
+],
+"ids": true,
+"key": "jeep/grand_cherokee/g_2016_23698",
+"market": "Китай",
+"to": 202109
+},
 "jetour/l6/g_2023_21656": {
 "from": 202310,
 "groups": [
@@ -129993,6 +130398,420 @@
 "market": "Китай",
 "to": 202206
 },
+"mini/countryman/g_201009_6959": {
+"from": 201001,
+"groups": [
+{
+"body": [
+"R60"
+],
+"drive": "fwd",
+"engine": "N12B16A",
+"fuel": "бензин",
+"hp": 98,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 98 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201009,
+"id": "166978",
+"name": "1.6 MT One",
+"to": 201404
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "fwd",
+"engine": "N12B16A",
+"fuel": "бензин",
+"hp": 98,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 98 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201009,
+"id": "166979",
+"name": "1.6 AT One",
+"to": 201404
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "fwd",
+"engine": "N12B16A",
+"fuel": "бензин",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 122 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201009,
+"id": "166975",
+"name": "1.6 MТ Cooper",
+"to": 201406
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "fwd",
+"engine": "N12B16A",
+"fuel": "бензин",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 122 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201009,
+"id": "166974",
+"name": "1.6 АТ Cooper",
+"to": 201406
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "4wd",
+"engine": "N14B16A",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 184 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201009,
+"id": "166986",
+"name": "1.6 MТ Cooper S ALL4",
+"to": 201406
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "4wd",
+"engine": "N14B16A",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201009,
+"id": "166976",
+"name": "1.6 АТ Cooper S ALL4",
+"to": 201406
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "4wd",
+"engine": "N14B16C",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 218 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201109,
+"id": "166980",
+"name": "1.6 MT John Cooper Works",
+"to": 201406
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "4wd",
+"engine": "N14B16C",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 218 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201109,
+"id": "166981",
+"name": "1.6 AT John Cooper Works",
+"to": 201406
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "4wd",
+"engine": "N47D20",
+"fuel": "дизель",
+"hp": 143,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 143 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201208,
+"id": "166982",
+"name": "2.0D MT Cooper SD ALL4",
+"to": 201406
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "4wd",
+"engine": "N47D20",
+"fuel": "дизель",
+"hp": 143,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 143 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201208,
+"id": "166983",
+"name": "2.0D AT Cooper SD ALL4",
+"to": 201406
+}
+]
+}
+],
+"ids": true,
+"key": "mini/countryman/g_201009_6959",
+"market": "Россия",
+"to": 201406
+},
+"mini/countryman/g_201407_1734": {
+"from": 201407,
+"groups": [
+{
+"body": [
+"R60"
+],
+"drive": "fwd",
+"engine": "N12B16A",
+"fuel": "бензин",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 122 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201407,
+"id": "76670",
+"name": "1.6 MТ Cooper",
+"to": 201701
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "fwd",
+"engine": "N12B16A",
+"fuel": "бензин",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 122 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201407,
+"id": "76671",
+"name": "1.6 АТ Cooper",
+"to": 201701
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "4wd",
+"engine": "N14B16A",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 184 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201407,
+"id": "69018",
+"name": "1.6 MТ Cooper S ALL4",
+"to": 201701
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "4wd",
+"engine": "N14B16A",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201407,
+"id": "76673",
+"name": "1.6 АТ Cooper S ALL4",
+"to": 201701
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "4wd",
+"engine": "N14B16C",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 218 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201407,
+"id": "76674",
+"name": "1.6 MT John Cooper Works",
+"to": 201704
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "4wd",
+"engine": "N14B16C",
+"fuel": "бензин",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 218 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201407,
+"id": "76675",
+"name": "1.6 AT John Cooper Works",
+"to": 201704
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "4wd",
+"engine": "N47D20",
+"fuel": "дизель",
+"hp": 143,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 143 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201407,
+"id": "76676",
+"name": "2.0D MT Cooper SD ALL4",
+"to": 201701
+}
+]
+},
+{
+"body": [
+"R60"
+],
+"drive": "4wd",
+"engine": "N47D20",
+"fuel": "дизель",
+"hp": 143,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 143 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201407,
+"id": "76677",
+"name": "2.0D AT Cooper SD ALL4",
+"to": 201701
+}
+]
+}
+],
+"ids": true,
+"key": "mini/countryman/g_201407_1734",
+"market": "Россия",
+"to": 201704
+},
 "mini/countryman/g_201702_7491": {
 "from": 201611,
 "groups": [
@@ -130222,6 +131041,125 @@
 "key": "mini/countryman/g_201702_7491",
 "market": "Россия",
 "to": 202007
+},
+"mini/countryman/g_202005_11561": {
+"from": 202005,
+"groups": [
+{
+"body": [
+"F60"
+],
+"drive": "fwd",
+"engine": "B38A15A",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 136 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202008,
+"id": "307702",
+"name": "1.5 MТ Cooper",
+"to": 202104
+}
+]
+},
+{
+"body": [
+"F60"
+],
+"drive": "fwd",
+"engine": "B38A15A",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 136 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202008,
+"id": "292950",
+"name": "1.5 AMТ Cooper",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"F60"
+],
+"drive": "4wd",
+"engine": "B47C20A",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202008,
+"id": "292951",
+"name": "2.0 AТ ALL4 Cooper D",
+"to": 202010
+}
+]
+},
+{
+"body": [
+"F60"
+],
+"drive": "4wd",
+"engine": "B48A20A",
+"fuel": "бензин",
+"hp": 192,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 192 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202008,
+"id": "292952",
+"name": "2.0 AТ ALL4 Cooper S",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"F60"
+],
+"drive": "4wd",
+"engine": "B48A20B",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 306 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202008,
+"id": "292953",
+"name": "2.0 AТ ALL4 John Cooper Works",
+"to": 202212
+}
+]
+}
+],
+"ids": true,
+"key": "mini/countryman/g_202005_11561",
+"market": "Россия",
+"to": 202212
 },
 "mini/countryman/g_2023_24827": {
 "from": 202309,
@@ -216341,6 +217279,232 @@
 ]
 ],
 "name": "2.0 CVT 2WD Fashion",
+"v": 3
+},
+"544341": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"8,2 с"
+],
+[
+"Максимальная скорость",
+"217 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"243 л.с. (179 кВт) при 3600 об/мин"
+],
+[
+"Крутящий момент",
+"570 Н·м при 2000 об/мин"
+],
+[
+"Тип двигателя",
+"V-образный, 6-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Дизельное топливо"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"8,1 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4828 × 1943 × 1792 мм"
+],
+[
+"Колёсная база",
+"2915 мм"
+],
+[
+"Клиренс",
+"207 мм"
+],
+[
+"Масса",
+"2447 кг"
+],
+[
+"Топливный бак",
+"94 л"
+],
+[
+"Багажник",
+"1028 (1934) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"265/50 R20"
+],
+[
+"Радиус разворота",
+"5,55 м"
+]
+]
+]
+],
+"name": "3.0TD AT AWD 75th Anniversary Edition",
+"v": 3
+},
+"544344": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"8,3 с"
+],
+[
+"Максимальная скорость",
+"217 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"286 л.с. (210 кВт) при 6350 об/мин"
+],
+[
+"Крутящий момент",
+"347 Н·м при 4300 об/мин"
+],
+[
+"Тип двигателя",
+"V-образный, 6-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"10,0 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4828 × 1943 × 1792 мм"
+],
+[
+"Колёсная база",
+"2915 мм"
+],
+[
+"Клиренс",
+"207 мм"
+],
+[
+"Масса",
+"2304 кг"
+],
+[
+"Топливный бак",
+"94 л"
+],
+[
+"Багажник",
+"1028 (1934) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"265/60 R18"
+],
+[
+"Радиус разворота",
+"5,55 м"
+]
+]
+]
+],
+"name": "3.6 AT AWD Elite",
 "v": 3
 },
 "544358": {
