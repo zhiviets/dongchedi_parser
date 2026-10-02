@@ -1663,6 +1663,10 @@
 "day": 739886,
 "gens": []
 },
+"ferrari/roma/china": {
+"day": 739891,
+"gens": []
+},
 "fiat/500/china": {
 "day": 739885,
 "gens": []
@@ -15459,7 +15463,6 @@
 "drive": "4wd",
 "engine": "B237R",
 "fuel": "бензин",
-"gen_key": "baic/beijing_bj80/g_201604_16845",
 "hp": 231,
 "hp_total": null,
 "hybrid": null,
@@ -15469,41 +15472,49 @@
 "trims": [
 {
 "from": 201907,
+"id": "463655",
 "name": "2.3T AT AWD Premium",
 "to": 202202
 },
 {
 "from": 201907,
+"id": "463656",
 "name": "2.3T AT AWD Everest Edition",
 "to": 202202
 },
 {
 "from": 201910,
+"id": "463657",
 "name": "2.3T AT AWD Prosperity Huazhang Edition",
 "to": 202202
 },
 {
 "from": 202108,
+"id": "463658",
 "name": "2.3T AT AWD Excellence Tribute",
 "to": null
 },
 {
 "from": 202007,
+"id": "463665",
 "name": "2.3T AT AWD Knight",
 "to": 202312
 },
 {
 "from": 202203,
+"id": "463666",
 "name": "2.3T AT AWD Pioneer",
 "to": 202312
 },
 {
 "from": 202312,
+"id": "463665",
 "name": "2.3T AT AWD Knight",
 "to": null
 },
 {
 "from": 202406,
+"id": "517601",
 "name": "2.3T AT AWD Business",
 "to": null
 }
@@ -15523,6 +15534,7 @@
 "trims": [
 {
 "from": 201604,
+"id": "463650",
 "name": "2.3T MT AWD Premium",
 "to": 201809
 }
@@ -15533,7 +15545,6 @@
 "drive": "4wd",
 "engine": "B231R",
 "fuel": "бензин",
-"gen_key": "baic/beijing_bj80/g_201604_16845",
 "hp": 250,
 "hp_total": null,
 "hybrid": null,
@@ -15543,26 +15554,31 @@
 "trims": [
 {
 "from": 201604,
+"id": "463655",
 "name": "2.3T AT AWD Premium",
 "to": 201809
 },
 {
 "from": 201708,
+"id": "463651",
 "name": "2.3T AT AWD Army 90th Anniversary Commemorative Edition",
 "to": 201809
 },
 {
 "from": 201810,
+"id": "463655",
 "name": "2.3T AT AWD Premium",
 "to": 201906
 },
 {
 "from": 201810,
+"id": "463653",
 "name": "2.3T AT AWD Exclusive",
 "to": 201906
 },
 {
 "from": 201810,
+"id": "463656",
 "name": "2.3T AT AWD Everest Edition",
 "to": 201906
 }
@@ -15582,6 +15598,7 @@
 "trims": [
 {
 "from": 201702,
+"id": "463659",
 "name": "2.8TD MT AWD Luxury",
 "to": 202107
 }
@@ -15592,7 +15609,6 @@
 "drive": "4wd",
 "engine": "6G30TQY",
 "fuel": "бензин",
-"gen_key": "baic/beijing_bj80/g_201604_16845",
 "hp": 280,
 "hp_total": null,
 "hybrid": null,
@@ -15602,37 +15618,44 @@
 "trims": [
 {
 "from": 202108,
+"id": "463660",
 "name": "3.0T AT AWD Glory",
 "to": 202202
 },
 {
 "from": 202108,
+"id": "463661",
 "name": "3.0T AT AWD Honor Flagship",
 "to": 202202
 },
 {
 "from": 202203,
+"id": "463660",
 "name": "3.0T AT AWD Glory",
 "to": null
 },
 {
 "from": 202007,
+"id": "463663",
 "name": "3.0T AT AWD Supreme",
 "to": null
 },
 {
 "from": 202007,
+"id": "463664",
 "name": "3.0T AT AWD Everest Edition",
 "to": null
 },
 {
 "from": 202406,
+"id": "517602",
 "name": "3.0T AT AWD Glory Supreme",
 "to": null
 }
 ]
 }
 ],
+"ids": true,
 "key": "baic/beijing_bj80/g_201604_16845",
 "market": "Китай",
 "to": null
@@ -31513,6 +31536,289 @@
 "market": "Китай",
 "to": null
 },
+"bmw/x3/g_201011_4017": {
+"from": 201011,
+"groups": [
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N20B20U0",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201012,
+"id": "91866",
+"name": "xDrive 20i MT",
+"to": 201405
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N20B20U0",
+"fuel": "бензин",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201012,
+"id": "91865",
+"name": "xDrive 20i AT",
+"to": 201405
+},
+{
+"from": 201012,
+"id": "91864",
+"name": "xDrive 20i AT Urban",
+"to": 201405
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N47D20",
+"fuel": "дизель",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201012,
+"id": "91867",
+"name": "xDrive 20d MT",
+"to": 201405
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N47D20",
+"fuel": "дизель",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 184 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201104,
+"id": "91854",
+"name": "xDrive 20d AT Urban",
+"to": 201405
+},
+{
+"from": 201104,
+"id": "91856",
+"name": "xDrive 20d AT Special Edition",
+"to": 201405
+},
+{
+"from": 201012,
+"id": "91855",
+"name": "xDrive 20d AT",
+"to": 201405
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N20B20O0",
+"fuel": "бензин",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201012,
+"id": "91863",
+"name": "xDrive 28i AT",
+"to": 201405
+},
+{
+"from": 201012,
+"id": "91861",
+"name": "xDrive 28i AT Lifestyle",
+"to": 201405
+},
+{
+"from": 201012,
+"id": "91862",
+"name": "xDrive 28i AT Exclusive",
+"to": 201405
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N57D30OL",
+"fuel": "дизель",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 249 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201202,
+"id": "239175",
+"name": "xDrive 30d AT",
+"to": 201405
+},
+{
+"from": 201202,
+"id": "239174",
+"name": "xDrive 30d AT Lifestyle",
+"to": 201405
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N52B30",
+"fuel": "бензин",
+"hp": 258,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 258 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201011,
+"id": "91863",
+"name": "xDrive 28i AT",
+"to": 201205
+},
+{
+"from": 201011,
+"id": "91861",
+"name": "xDrive 28i AT Lifestyle",
+"to": 201205
+},
+{
+"from": 201011,
+"id": "91862",
+"name": "xDrive 28i AT Exclusive",
+"to": 201205
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N57D30OL",
+"fuel": "дизель",
+"hp": 258,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 258 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201012,
+"id": "239175",
+"name": "xDrive 30d AT",
+"to": 201201
+},
+{
+"from": 201104,
+"id": "239174",
+"name": "xDrive 30d AT Lifestyle",
+"to": 201201
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N55B30M0",
+"fuel": "бензин",
+"hp": 306,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 306 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201012,
+"id": "91857",
+"name": "xDrive 35i AT",
+"to": 201405
+}
+]
+},
+{
+"body": [
+"F25"
+],
+"drive": "4wd",
+"engine": "N57D30TOP",
+"fuel": "дизель",
+"hp": 313,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 313 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201012,
+"id": "91860",
+"name": "xDrive 35d AT",
+"to": 201405
+}
+]
+}
+],
+"ids": true,
+"key": "bmw/x3/g_201011_4017",
+"market": "Россия",
+"to": 201405
+},
 "bmw/x3/g_201406_1609": {
 "from": 201406,
 "groups": [
@@ -32047,6 +32353,7 @@
 "drive": "4wd",
 "engine": "B48B20C",
 "fuel": "бензин",
+"gen_key": "bmw/x3/g_2017_21447",
 "hp": 184,
 "hp_total": null,
 "hybrid": null,
@@ -32135,6 +32442,7 @@
 "drive": "4wd",
 "engine": "B48B20D",
 "fuel": "бензин",
+"gen_key": "bmw/x3/g_2017_21447",
 "hp": 224,
 "hp_total": null,
 "hybrid": null,
@@ -32223,6 +32531,7 @@
 "drive": "4wd",
 "engine": "B48B20D",
 "fuel": "бензин",
+"gen_key": "bmw/x3/g_2017_21447",
 "hp": 252,
 "hp_total": null,
 "hybrid": null,
@@ -48089,6 +48398,7 @@
 "drive": "4wd",
 "engine": "LSY",
 "fuel": "бензин",
+"gen_key": "cadillac/xt6/g_2019_18725",
 "hp": 241,
 "hp_total": null,
 "hybrid": null,
@@ -188311,6 +188621,108 @@
 ]
 ],
 "name": "2.0T AT AWD Weekend Edition (5 seats)"
+},
+"463650": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"160 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"250 л.с. (184 кВт) при 5300 об/мин"
+],
+[
+"Крутящий момент",
+"350 Н·м при 4500 об/мин"
+],
+[
+"Модель двигателя",
+"B231R"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-5"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4765 × 1890 × 2005 мм"
+],
+[
+"Колёсная база",
+"2800 мм"
+],
+[
+"Клиренс",
+"215 мм"
+],
+[
+"Масса",
+"2295 кг"
+],
+[
+"Топливный бак",
+"88 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Зависимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"265/70 R17"
+]
+]
+]
+],
+"name": "2.3T MT AWD Premium",
+"v": 3
 },
 "463672": {
 "groups": [
