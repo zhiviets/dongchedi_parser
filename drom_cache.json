@@ -1047,6 +1047,12 @@
 "g_2026_24802"
 ]
 },
+"byd/qin_pro/china": {
+"day": 739891,
+"gens": [
+"g_2018_15823"
+]
+},
 "byd/sea-lion-05/china": {
 "day": 739884,
 "gens": [
@@ -1299,6 +1305,14 @@
 "g_2021_20273",
 "g_202309_20274",
 "g_202509_22400"
+]
+},
+"changan/cs75/china": {
+"day": 739891,
+"gens": [
+"g_201801_3612",
+"g_201804_19410",
+"g_2022_19540"
 ]
 },
 "changan/cs75_plus/china": {
@@ -1922,6 +1936,16 @@
 "g_2017_17763"
 ]
 },
+"haval/h5/china": {
+"day": 739891,
+"gens": [
+"g_2013_17467",
+"g_201510_11341",
+"g_2015_17466",
+"g_202308_21092",
+"g_2023_19166"
+]
+},
 "haval/h6/china": {
 "day": 739890,
 "gens": [
@@ -2085,6 +2109,19 @@
 "g_2019_16794",
 "g_202002_10462",
 "g_2026_24223"
+]
+},
+"honda/life/china": {
+"day": 739891,
+"gens": [
+"g_199704_142",
+"g_199810_143",
+"g_200105_6771",
+"g_200309_144",
+"g_200610_6773",
+"g_200811_1106",
+"g_201011_6775",
+"g_202012_20624"
 ]
 },
 "honda/n-box/china": {
@@ -3699,6 +3736,18 @@
 "day": 739890,
 "gens": []
 },
+"toyota/harrier/china": {
+"day": 739891,
+"gens": [
+"g_199712_777",
+"g_200011_4649",
+"g_200302_778",
+"g_201312_2071",
+"g_201706_7669",
+"g_202006_11323",
+"g_2021_19652"
+]
+},
 "toyota/hiace/china": {
 "day": 739885,
 "gens": []
@@ -3753,6 +3802,19 @@
 "toyota/sequoia/china": {
 "day": 739884,
 "gens": []
+},
+"toyota/sienna/china": {
+"day": 739891,
+"gens": [
+"g_200007_7178",
+"g_200306_3806",
+"g_200609_7179",
+"g_201001_3807",
+"g_201410_3403",
+"g_201711_11869",
+"g_202010_13982",
+"g_2021_20458"
+]
 },
 "toyota/supra/china": {
 "day": 739888,
@@ -3849,6 +3911,23 @@
 "g_201902_18769"
 ]
 },
+"volkswagen/passat/china": {
+"day": 739891,
+"gens": [
+"g_198803_8444",
+"g_199310_8442",
+"g_199608_8144",
+"g_200010_8132",
+"g_200503_8127",
+"g_201011_1489",
+"g_201407_3715",
+"g_201508_15068",
+"g_2018_20670",
+"g_2018_24103",
+"g_201906_9473",
+"g_202108_17560"
+]
+},
 "volkswagen/sagitar/china": {
 "day": 739890,
 "gens": [
@@ -3874,12 +3953,30 @@
 "g_202208_17388"
 ]
 },
+"volkswagen/tiguan/china": {
+"day": 739891,
+"gens": [
+"g_200802_1494",
+"g_201107_4135",
+"g_201601_6595",
+"g_2016_20654",
+"g_202006_11702",
+"g_202311_19374"
+]
+},
 "volkswagen/tiguan_l/china": {
 "day": 739889,
 "gens": [
 "g_2016_23803",
 "g_202010_19976",
 "g_202405_20653"
+]
+},
+"volkswagen/tiguan_x/china": {
+"day": 739891,
+"gens": [
+"g_202011_17246",
+"g_202209_17245"
 ]
 },
 "volvo/s90/china": {
@@ -40532,6 +40629,465 @@
 "market": "Китай",
 "to": null
 },
+"byd/qin_pro/g_2018_15823": {
+"from": 201804,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "136 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 201905,
+"id": "468314",
+"name": "EV500 53.1 kWh Pilot/Travel",
+"to": 202208
+},
+{
+"from": 201905,
+"id": "468308",
+"name": "EV500 53.1 kWh Super Fashion",
+"to": 202208
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "163 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 201809,
+"id": "464251",
+"name": "EV500 56.4 kWh Dynamic",
+"to": 201908
+},
+{
+"from": 201809,
+"id": "464254",
+"name": "EV500 56.4 kWh Developer Edition",
+"to": 201905
+},
+{
+"from": 201809,
+"id": "464252",
+"name": "EV500 56.4 kWh Shared",
+"to": 201905
+},
+{
+"from": 201809,
+"id": "464256",
+"name": "EV500 56.4 kWh Developer Edition Autodriving",
+"to": 201905
+},
+{
+"from": 201809,
+"id": "464255",
+"name": "EV500 56.4 kWh Developer Edition Professional",
+"to": 201905
+},
+{
+"from": 201809,
+"id": "464253",
+"name": "EV500 56.4 kWh Shine",
+"to": 201905
+},
+{
+"from": 201907,
+"id": "468309",
+"name": "EV500 56.4 kWh Super Leading Dynamic",
+"to": 202208
+},
+{
+"from": 201907,
+"id": "468310",
+"name": "EV500 56.4 kWh Super Sharing",
+"to": 202208
+},
+{
+"from": 201907,
+"id": "468311",
+"name": "EV500 56.4 kWh Super Leading",
+"to": 202208
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 184,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "184 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 201905,
+"id": "468312",
+"name": "EV650 69.5 kWh Super Connection",
+"to": 202208
+},
+{
+"from": 201905,
+"id": "468313",
+"name": "EV650 69.5 kWh Super Connection Pioneering",
+"to": 202208
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD473QE",
+"fuel": "бензин",
+"gen_key": "byd/qin_pro/g_2018_15823",
+"hp": 109,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 109 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201809,
+"id": "464197",
+"name": "1.5 MT Strong",
+"to": 201909
+},
+{
+"from": 201809,
+"id": "464213",
+"name": "1.5 MT Dynamic",
+"to": 201909
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD473QE",
+"fuel": "бензин",
+"hp": 109,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 109 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201809,
+"id": "464214",
+"name": "1.5 AMT Fashion",
+"to": 201909
+},
+{
+"from": 201809,
+"id": "464217",
+"name": "1.5 AMT Dynamic",
+"to": 201909
+},
+{
+"from": 201809,
+"id": "464215",
+"name": "1.5 AMT Shared",
+"to": 201909
+},
+{
+"from": 201809,
+"id": "464218",
+"name": "1.5 AMT Shine",
+"to": 201909
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"gen_key": "byd/qin_pro/g_2018_15823",
+"hp": 154,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 154 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201809,
+"id": "464221",
+"name": "1.5 MT Joy",
+"to": 202005
+},
+{
+"from": 201809,
+"id": "464197",
+"name": "1.5 MT Strong",
+"to": 202005
+},
+{
+"from": 201809,
+"id": "464213",
+"name": "1.5 MT Dynamic",
+"to": 202005
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 154 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201809,
+"id": "464224",
+"name": "1.5 AMT Value",
+"to": 202005
+},
+{
+"from": 201809,
+"id": "464217",
+"name": "1.5 AMT Dynamic",
+"to": 202005
+},
+{
+"from": 201809,
+"id": "464226",
+"name": "1.5 AMT Enjoy",
+"to": 202005
+},
+{
+"from": 201809,
+"id": "464218",
+"name": "1.5 AMT Shine",
+"to": 202005
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQA",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 154 л.с., параллельный подзаряжаемый (PHEV) гибрид, 150 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201809,
+"id": "464238",
+"name": "DM PHEV 1.5 AMT Fashion 82 km",
+"to": 202005
+},
+{
+"from": 201809,
+"id": "464239",
+"name": "DM PHEV 1.5 AMT Dynamic 82 km",
+"to": 202005
+},
+{
+"from": 201809,
+"id": "464240",
+"name": "DM PHEV 1.5 AMT Shared 82 km",
+"to": 202005
+},
+{
+"from": 201809,
+"id": "464241",
+"name": "DM PHEV 1.5 AMT Shine 82 km",
+"to": 202005
+},
+{
+"from": 201809,
+"id": "464242",
+"name": "DM PHEV 1.5 AMT Developer Edition 82 km",
+"to": 201907
+},
+{
+"from": 201903,
+"id": "464243",
+"name": "DM PHEV 1.5 AMT Value 53 km",
+"to": 202005
+},
+{
+"from": 201903,
+"id": "464244",
+"name": "DM PHEV 1.5 AMT Dazzling 53 km",
+"to": 202005
+},
+{
+"from": 201903,
+"id": "464245",
+"name": "DM PHEV 1.5 AMT Speed 53 km",
+"to": 202005
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQB",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 160 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201903,
+"id": "464221",
+"name": "1.5 MT Joy",
+"to": 202004
+},
+{
+"from": 201903,
+"id": "464197",
+"name": "1.5 MT Strong",
+"to": 202004
+},
+{
+"from": 201903,
+"id": "464213",
+"name": "1.5 MT Dynamic",
+"to": 202004
+},
+{
+"from": 202005,
+"id": "464237",
+"name": "1.5 MT Luxury",
+"to": 202203
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQB",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 160 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201903,
+"id": "464224",
+"name": "1.5 AMT Value",
+"to": 202004
+},
+{
+"from": 201903,
+"id": "464217",
+"name": "1.5 AMT Dynamic",
+"to": 202004
+},
+{
+"from": 201903,
+"id": "464226",
+"name": "1.5 AMT Enjoy",
+"to": 202004
+},
+{
+"from": 201903,
+"id": "464218",
+"name": "1.5 AMT Shine",
+"to": 202004
+},
+{
+"from": 202005,
+"id": "464236",
+"name": "1.5 AMT Prestige",
+"to": 202203
+},
+{
+"from": 202005,
+"id": "464235",
+"name": "1.5 AMT Flagship",
+"to": 202203
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD476ZQB",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 160 л.с., параллельный подзаряжаемый (PHEV) гибрид, 150 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201907,
+"id": "464243",
+"name": "DM PHEV 1.5 AMT Value 53 km",
+"to": 202208
+},
+{
+"from": 201907,
+"id": "464244",
+"name": "DM PHEV 1.5 AMT Dazzling 53 km",
+"to": 202208
+},
+{
+"from": 201907,
+"id": "464245",
+"name": "DM PHEV 1.5 AMT Speed 53 km",
+"to": 202208
+},
+{
+"from": 201907,
+"id": "464249",
+"name": "DM PHEV 1.5 AMT Enjoy 82 km",
+"to": 202208
+},
+{
+"from": 201907,
+"id": "464250",
+"name": "DM PHEV 1.5 AMT Astute 82 km",
+"to": 202208
+}
+]
+}
+],
+"ids": true,
+"key": "byd/qin_pro/g_2018_15823",
+"market": "Китай",
+"to": 202203
+},
 "byd/sea-lion-05/g_202409_21198": {
 "from": 202409,
 "groups": [
@@ -42960,6 +43516,7 @@
 "drive": "fwd",
 "engine": "BYD476ZQA",
 "fuel": "бензин",
+"gen_key": "byd/song_max/g_201709_16857",
 "hp": 154,
 "hp_total": null,
 "hybrid": null,
@@ -60542,6 +61099,7 @@
 "drive": "rwd",
 "engine": "CAF488WQGR",
 "fuel": "бензин",
+"gen_key": "ford/explorer/g_2022_23670",
 "hp": 276,
 "hp_total": null,
 "hybrid": null,
@@ -60649,6 +61207,7 @@
 "drive": "rwd",
 "engine": "CAF484WQMA",
 "fuel": "бензин",
+"gen_key": "ford/explorer/g_2022_23670",
 "hp": 289,
 "hp_total": null,
 "hybrid": null,
@@ -70513,6 +71072,7 @@
 "drive": "fwd",
 "engine": "GW4C20B",
 "fuel": "бензин",
+"gen_key": "haval/f7/g_202009_17695",
 "hp": 224,
 "hp_total": null,
 "hybrid": null,
@@ -70539,6 +71099,7 @@
 "drive": "4wd",
 "engine": "GW4C20B",
 "fuel": "бензин",
+"gen_key": "haval/f7/g_202009_17695",
 "hp": 224,
 "hp_total": null,
 "hybrid": null,
@@ -71704,6 +72265,287 @@
 "key": "haval/h2s/g_2017_17763",
 "market": "Китай",
 "to": 202003
+},
+"haval/h5/g_2013_17467": {
+"from": 201306,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "4G63S4M",
+"fuel": "бензин",
+"gen_key": "haval/h5/g_2013_17467",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 122 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201309,
+"id": "456311",
+"name": "2.0 MT AWD Aggressive",
+"to": 201409
+},
+{
+"from": 201410,
+"id": "456311",
+"name": "2.0 MT AWD Aggressive",
+"to": 201509
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "4G63S4M",
+"fuel": "бензин",
+"gen_key": "haval/h5/g_2013_17467",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 122 л.с., бензин, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201309,
+"id": "456310",
+"name": "2.0 MT Aggressive",
+"to": 201409
+},
+{
+"from": 201410,
+"id": "456310",
+"name": "2.0 MT Aggressive",
+"to": 201509
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4D20",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 136 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201309,
+"id": "456319",
+"name": "2.0d MT AWD Aggressive",
+"to": 201409
+},
+{
+"from": 201410,
+"id": "456319",
+"name": "2.0d MT AWD Aggressive",
+"to": 201509
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GW4D20",
+"fuel": "дизель",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 136 л.с., дизель, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201309,
+"id": "456318",
+"name": "2.0d MT Aggressive",
+"to": 201409
+},
+{
+"from": 201410,
+"id": "456318",
+"name": "2.0d MT Aggressive",
+"to": 201509
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "GW4D20",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201410,
+"id": "456348",
+"name": "2.0d AT AWD Aggressive",
+"to": 201509
+},
+{
+"from": 201410,
+"id": "456350",
+"name": "2.0d AT AWD Elite",
+"to": 201509
+},
+{
+"from": 201410,
+"id": "456352",
+"name": "2.0d AT AWD Premium",
+"to": 201509
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "GW4D20",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201410,
+"id": "456347",
+"name": "2.0d AT Aggressive",
+"to": 201509
+},
+{
+"from": 201410,
+"id": "456349",
+"name": "2.0d AT Elite",
+"to": 201509
+},
+{
+"from": 201410,
+"id": "456351",
+"name": "2.0d AT Premium",
+"to": 201509
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "4G63S4T",
+"fuel": "бензин",
+"gen_key": "haval/h5/g_2013_17467",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201306,
+"id": "456315",
+"name": "2.0T MT AWD Aggressive",
+"to": 201409
+},
+{
+"from": 201306,
+"id": "456316",
+"name": "2.0T MT AWD Elite",
+"to": 201409
+},
+{
+"from": 201306,
+"id": "456317",
+"name": "2.0T MT AWD Premium",
+"to": 201409
+},
+{
+"from": 201410,
+"id": "456315",
+"name": "2.0T MT AWD Aggressive",
+"to": 201509
+},
+{
+"from": 201410,
+"id": "456316",
+"name": "2.0T MT AWD Elite",
+"to": 201509
+},
+{
+"from": 201410,
+"id": "456317",
+"name": "2.0T MT AWD Premium",
+"to": 201509
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "4G63S4T",
+"fuel": "бензин",
+"gen_key": "haval/h5/g_2013_17467",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, МКПП, задний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201306,
+"id": "456312",
+"name": "2.0T MT Aggressive",
+"to": 201409
+},
+{
+"from": 201306,
+"id": "456313",
+"name": "2.0T MT Elite",
+"to": 201409
+},
+{
+"from": 201306,
+"id": "456314",
+"name": "2.0T MT Premium",
+"to": 201409
+},
+{
+"from": 201410,
+"id": "456312",
+"name": "2.0T MT Aggressive",
+"to": 201509
+},
+{
+"from": 201410,
+"id": "456313",
+"name": "2.0T MT Elite",
+"to": 201509
+},
+{
+"from": 201410,
+"id": "456314",
+"name": "2.0T MT Premium",
+"to": 201509
+}
+]
+}
+],
+"ids": true,
+"key": "haval/h5/g_2013_17467",
+"market": "Китай",
+"to": 201509
 },
 "haval/h6/g_201307_2417": {
 "from": 201306,
@@ -77733,6 +78575,7 @@
 "drive": "fwd",
 "engine": "R18Z5",
 "fuel": "бензин",
+"gen_key": "honda/crider/g_2013_17390",
 "hp": 139,
 "hp_total": null,
 "hybrid": null,
@@ -77822,6 +78665,204 @@
 "key": "honda/crider/g_2013_17390",
 "market": "Китай",
 "to": 201512
+},
+"honda/crider/g_2015_17391": {
+"from": 201512,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "R18ZH",
+"fuel": "бензин",
+"gen_key": "honda/crider/g_2015_17391",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 136 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201512,
+"id": "467129",
+"name": "1.8 MT Fashion",
+"to": 201812
+},
+{
+"from": 201512,
+"id": "467130",
+"name": "1.8 MT Comfort",
+"to": 201812
+},
+{
+"from": 201512,
+"id": "467132",
+"name": "1.8 MT Luxury",
+"to": 201812
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "R18ZH",
+"fuel": "бензин",
+"gen_key": "honda/crider/g_2015_17391",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 136 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201512,
+"id": "467131",
+"name": "1.8 CVT Comfort",
+"to": 201812
+},
+{
+"from": 201512,
+"id": "467133",
+"name": "1.8 CVT Luxury",
+"to": 201812
+},
+{
+"from": 201512,
+"id": "467134",
+"name": "1.8 CVT Leading",
+"to": 201812
+},
+{
+"from": 201512,
+"id": "467135",
+"name": "1.8 CVT Flagship",
+"to": 201812
+},
+{
+"from": 201706,
+"id": "467136",
+"name": "1.8 CVT Comfort Special Edition",
+"to": 201812
+},
+{
+"from": 201706,
+"id": "467137",
+"name": "1.8 CVT Luxury Special Edition",
+"to": 201812
+}
+]
+}
+],
+"ids": true,
+"key": "honda/crider/g_2015_17391",
+"market": "Китай",
+"to": 201812
+},
+"honda/crider/g_201809_17376": {
+"from": 201809,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "P10A3",
+"fuel": "бензин",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.0,
+"text": "1.0 л, 122 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201809,
+"id": "467139",
+"name": "1.0T MT Comfort",
+"to": 202107
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "P10A3",
+"fuel": "бензин",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.0,
+"text": "1.0 л, 122 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201809,
+"id": "467138",
+"name": "1.0T CVT Comfort",
+"to": 202107
+},
+{
+"from": 201809,
+"id": "467140",
+"name": "1.0T CVT Luxury",
+"to": 202107
+},
+{
+"from": 201809,
+"id": "467141",
+"name": "1.0T CVT Leading",
+"to": 202107
+},
+{
+"from": 201809,
+"id": "467142",
+"name": "1.0T CVT Ultimate",
+"to": 202107
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "LEB41",
+"fuel": "бензин",
+"hp": 109,
+"hp_total": 131,
+"hybrid": "параллельный гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 109 л.с., параллельный гибрид, 131 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202006,
+"id": "467143",
+"name": "Hybrid 1.5 e-CVT Comfort",
+"to": 202107
+},
+{
+"from": 202006,
+"id": "467144",
+"name": "Hybrid 1.5 e-CVT Luxury",
+"to": 202107
+},
+{
+"from": 202006,
+"id": "467145",
+"name": "Hybrid 1.5 e-CVT Leading",
+"to": 202107
+},
+{
+"from": 202006,
+"id": "467146",
+"name": "Hybrid 1.5 e-CVT Ultimate",
+"to": 202107
+}
+]
+}
+],
+"ids": true,
+"key": "honda/crider/g_201809_17376",
+"market": "Китай",
+"to": 202112
 },
 "honda/elysion/g_200405_89": {
 "from": 200405,
@@ -81466,6 +82507,346 @@
 ],
 "ids": true,
 "key": "honda/fit/g_2026_24223",
+"market": "Китай",
+"to": null
+},
+"honda/life/g_201011_6775": {
+"from": 201011,
+"groups": [
+{
+"body": [
+"DBA-JC1"
+],
+"drive": "fwd",
+"engine": "P07A",
+"fuel": "бензин",
+"hp": 52,
+"hp_total": null,
+"hybrid": null,
+"liters": 0.7,
+"text": "0.7 л, 52 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201012,
+"id": "159336",
+"name": "660 G lift-up passenger seat car",
+"to": 201205
+},
+{
+"from": 201011,
+"id": "159346",
+"name": "660 G",
+"to": 201205
+},
+{
+"from": 201011,
+"id": "159348",
+"name": "660 C",
+"to": 201205
+},
+{
+"from": 201011,
+"id": "159342",
+"name": "660 Diva",
+"to": 201205
+},
+{
+"from": 201011,
+"id": "159344",
+"name": "660 G smart plus",
+"to": 201205
+},
+{
+"from": 201011,
+"id": "159340",
+"name": "660 Diva smart style",
+"to": 201205
+},
+{
+"from": 201108,
+"id": "159350",
+"name": "660 G HID Smart Special",
+"to": 201205
+},
+{
+"from": 201112,
+"id": "159352",
+"name": "660 Diva Smart Special",
+"to": 201205
+},
+{
+"from": 201201,
+"id": "159354",
+"name": "660 C comfort special",
+"to": 201205
+},
+{
+"from": 201206,
+"id": "159348",
+"name": "660 C",
+"to": 201404
+},
+{
+"from": 201206,
+"id": "159336",
+"name": "660 G lift-up passenger seat car",
+"to": 201404
+},
+{
+"from": 201206,
+"id": "159346",
+"name": "660 G",
+"to": 201404
+},
+{
+"from": 201206,
+"id": "159342",
+"name": "660 Diva",
+"to": 201404
+}
+]
+},
+{
+"body": [
+"CBA-JC2"
+],
+"drive": "4wd",
+"engine": "P07A",
+"fuel": "бензин",
+"hp": 52,
+"hp_total": null,
+"hybrid": null,
+"liters": 0.7,
+"text": "0.7 л, 52 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201012,
+"id": "159335",
+"name": "660 G lift-up passenger seat car 4WD",
+"to": 201205
+},
+{
+"from": 201011,
+"id": "159345",
+"name": "660 G 4WD",
+"to": 201205
+},
+{
+"from": 201011,
+"id": "159347",
+"name": "660 C 4WD",
+"to": 201205
+},
+{
+"from": 201011,
+"id": "159339",
+"name": "660 Diva smart style 4WD",
+"to": 201205
+},
+{
+"from": 201011,
+"id": "159341",
+"name": "660 Diva 4WD",
+"to": 201205
+},
+{
+"from": 201011,
+"id": "159343",
+"name": "660 G smart plus 4WD",
+"to": 201205
+},
+{
+"from": 201108,
+"id": "159349",
+"name": "660 G HID Smart Special 4WD",
+"to": 201205
+},
+{
+"from": 201112,
+"id": "159351",
+"name": "660 Diva Smart Special 4WD",
+"to": 201205
+},
+{
+"from": 201201,
+"id": "159353",
+"name": "660 C comfort special 4WD",
+"to": 201205
+},
+{
+"from": 201206,
+"id": "159347",
+"name": "660 C 4WD",
+"to": 201404
+},
+{
+"from": 201206,
+"id": "159335",
+"name": "660 G lift-up passenger seat car 4WD",
+"to": 201404
+},
+{
+"from": 201206,
+"id": "159345",
+"name": "660 G 4WD",
+"to": 201404
+},
+{
+"from": 201206,
+"id": "159341",
+"name": "660 Diva 4WD",
+"to": 201404
+}
+]
+},
+{
+"body": [
+"DBA-JC1"
+],
+"drive": "fwd",
+"engine": "P07A",
+"fuel": "бензин",
+"hp": 64,
+"hp_total": null,
+"hybrid": null,
+"liters": 0.7,
+"text": "0.7 л, 64 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201011,
+"id": "159338",
+"name": "660 Diva turbo smart style",
+"to": 201205
+},
+{
+"from": 201206,
+"id": "159356",
+"name": "660 Diva Turbo Package",
+"to": 201404
+}
+]
+},
+{
+"body": [
+"CBA-JC2"
+],
+"drive": "4wd",
+"engine": "P07A",
+"fuel": "бензин",
+"hp": 64,
+"hp_total": null,
+"hybrid": null,
+"liters": 0.7,
+"text": "0.7 л, 64 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201011,
+"id": "159337",
+"name": "660 Diva turbo smart style 4WD",
+"to": 201205
+},
+{
+"from": 201206,
+"id": "159355",
+"name": "660 Diva Turbo Package 4WD",
+"to": 201404
+}
+]
+}
+],
+"ids": true,
+"key": "honda/life/g_201011_6775",
+"market": "Япония",
+"to": 201404
+},
+"honda/life/g_202012_20624": {
+"from": 202007,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "L15CE",
+"fuel": "бензин",
+"gen_key": "honda/life/g_202012_20624",
+"hp": 124,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 124 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202301,
+"id": "502212",
+"name": "1.5 CVT Sport Heartbeat",
+"to": null
+},
+{
+"from": 202301,
+"id": "502214",
+"name": "1.5 CVT Cro-S Fun",
+"to": null
+},
+{
+"from": 202301,
+"id": "502213",
+"name": "1.5 CVT Spo-SS Smart",
+"to": null
+},
+{
+"from": 202301,
+"id": "502215",
+"name": "1.5 CVT Cro-SS Smart",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "L15B5",
+"fuel": "бензин",
+"gen_key": "honda/life/g_202012_20624",
+"hp": 131,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 131 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202012,
+"id": "502212",
+"name": "1.5 CVT Sport Heartbeat",
+"to": 202212
+},
+{
+"from": 202012,
+"id": "502214",
+"name": "1.5 CVT Cro-S Fun",
+"to": 202212
+},
+{
+"from": 202012,
+"id": "502213",
+"name": "1.5 CVT Spo-SS Smart",
+"to": 202212
+},
+{
+"from": 202012,
+"id": "502215",
+"name": "1.5 CVT Cro-SS Smart",
+"to": 202212
+}
+]
+}
+],
+"ids": true,
+"key": "honda/life/g_202012_20624",
 "market": "Китай",
 "to": null
 },
@@ -85961,6 +87342,7 @@
 "drive": "fwd",
 "engine": "CA4GB15TD-30",
 "fuel": "бензин",
+"gen_key": "hongqi/hs3/g_2023_19934",
 "hp": 169,
 "hp_total": null,
 "hybrid": null,
@@ -86045,6 +87427,7 @@
 "drive": "fwd",
 "engine": "CA4GC20TD-35",
 "fuel": "бензин",
+"gen_key": "hongqi/hs3/g_2023_19934",
 "hp": 252,
 "hp_total": null,
 "hybrid": null,
@@ -86065,6 +87448,7 @@
 "drive": "4wd",
 "engine": "CA4GC20TD-35",
 "fuel": "бензин",
+"gen_key": "hongqi/hs3/g_2023_19934",
 "hp": 252,
 "hp_total": null,
 "hybrid": null,
@@ -138221,6 +139605,7 @@
 "drive": "fwd",
 "engine": "HN05",
 "fuel": "бензин",
+"gen_key": "peugeot/2008/g_2014_20149",
 "hp": 136,
 "hp_total": null,
 "hybrid": null,
@@ -138369,6 +139754,186 @@
 "key": "peugeot/2008/g_2014_20149",
 "market": "Китай",
 "to": 201801
+},
+"peugeot/2008/g_2018_20140": {
+"from": 201801,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "HN05",
+"fuel": "бензин",
+"gen_key": "peugeot/2008/g_2018_20140",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.2,
+"text": "1.2 л, 136 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201801,
+"id": "491202",
+"name": "1.2 T AT 2WD 230THP Fashion Edition",
+"to": 202005
+},
+{
+"from": 201801,
+"id": "491205",
+"name": "1.2 T AT 2WD 230THP Deluxe Edition",
+"to": 202005
+},
+{
+"from": 201804,
+"id": "491204",
+"name": "1.2 T AT 2WD 230THP Interconnection Edition",
+"to": 202005
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "TU5P",
+"fuel": "бензин",
+"hp": 117,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 117 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201801,
+"id": "491206",
+"name": "1.6 MT 2WD Trendy Edition",
+"to": 202005
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "TU5P",
+"fuel": "бензин",
+"gen_key": "peugeot/2008/g_2018_20140",
+"hp": 117,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 117 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201801,
+"id": "491207",
+"name": "1.6 AT 2WD Trendy Edition",
+"to": 202005
+},
+{
+"from": 201801,
+"id": "491208",
+"name": "1.6 AT 2WD Fashion Edition",
+"to": 202005
+},
+{
+"from": 201804,
+"id": "491209",
+"name": "1.6 AT 2WD Interconnected Edition",
+"to": 202005
+}
+]
+}
+],
+"ids": true,
+"key": "peugeot/2008/g_2018_20140",
+"market": "Китай",
+"to": 202005
+},
+"peugeot/2008/g_2019_15724": {
+"from": 201906,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "163 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202005,
+"id": "491201",
+"name": "45.24kWh 2WD Extended Edition",
+"to": 202110
+},
+{
+"from": 202005,
+"id": "491200",
+"name": "45.24kWh 2WD 3D Premium Edition",
+"to": 202110
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "HN05",
+"fuel": "бензин",
+"hp": 136,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.2,
+"text": "1.2 л, 136 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202110,
+"id": "491188",
+"name": "1.2 T DCT 2WD 230THP The One",
+"to": null
+},
+{
+"from": 202005,
+"id": "491189",
+"name": "1.2 T DCT 2WD 230THP Fashion Edition",
+"to": 202110
+},
+{
+"from": 202005,
+"id": "491190",
+"name": "1.2 T DCT 2WD 230THP Fashion Audio Edition",
+"to": 202110
+},
+{
+"from": 202005,
+"id": "491191",
+"name": "1.2 T DCT 2WD 230THP Fashion Sunroof Edition",
+"to": 202110
+},
+{
+"from": 202005,
+"id": "491192",
+"name": "1.2 T DCT 2WD 230THP Sharp Yet Edition",
+"to": 202110
+},
+{
+"from": 202005,
+"id": "491196",
+"name": "1.2 T DCT 2WD 230THP 3D Premium Edition",
+"to": 202110
+}
+]
+}
+],
+"ids": true,
+"key": "peugeot/2008/g_2019_15724",
+"market": "Китай",
+"to": null
 },
 "peugeot/508/g_201010_4896": {
 "from": 201102,
@@ -149902,6 +151467,1171 @@
 "market": "Китай",
 "to": null
 },
+"toyota/harrier/g_201312_2071": {
+"from": 201312,
+"groups": [
+{
+"body": [
+"DBA-ZSU60W"
+],
+"drive": "fwd",
+"engine": "3ZR-FAE",
+"fuel": "бензин",
+"hp": 151,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 151 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201312,
+"id": "73930",
+"name": "2.0 Grand",
+"to": 201505
+},
+{
+"from": 201312,
+"id": "73931",
+"name": "2.0 Elegance",
+"to": 201505
+},
+{
+"from": 201312,
+"id": "73932",
+"name": "2.0 Premium",
+"to": 201505
+},
+{
+"from": 201312,
+"id": "73937",
+"name": "2.0 Premium Advanced Package",
+"to": 201505
+},
+{
+"from": 201412,
+"id": "82808",
+"name": "2.0 Elegance G's",
+"to": 201505
+},
+{
+"from": 201506,
+"id": "73930",
+"name": "2.0 Grand",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "73931",
+"name": "2.0 Elegance",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "82808",
+"name": "2.0 Elegance G's",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "73932",
+"name": "2.0 Premium",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "73937",
+"name": "2.0 Premium Advanced Package",
+"to": 201705
+},
+{
+"from": 201606,
+"id": "180469",
+"name": "2.0 Premium Style ASH",
+"to": 201705
+},
+{
+"from": 201606,
+"id": "180471",
+"name": "2.0 Premium Advanced Package Style ASH",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "180473",
+"name": "2.0 Premium Style MAUVE",
+"to": 201605
+},
+{
+"from": 201506,
+"id": "180476",
+"name": "2.0 Premium Advanced Package Style MAUVE",
+"to": 201605
+}
+]
+},
+{
+"body": [
+"DBA-ZSU65W"
+],
+"drive": "4wd",
+"engine": "3ZR-FAE",
+"fuel": "бензин",
+"hp": 151,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 151 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201312,
+"id": "73936",
+"name": "2.0 Grand 4WD",
+"to": 201505
+},
+{
+"from": 201312,
+"id": "73935",
+"name": "2.0 Elegance 4WD",
+"to": 201505
+},
+{
+"from": 201312,
+"id": "73933",
+"name": "2.0 Premium 4WD",
+"to": 201505
+},
+{
+"from": 201312,
+"id": "73934",
+"name": "2.0 Premium Advanced Package 4WD",
+"to": 201505
+},
+{
+"from": 201412,
+"id": "82810",
+"name": "2.0 Elegance G's 4WD",
+"to": 201505
+},
+{
+"from": 201506,
+"id": "73936",
+"name": "2.0 Grand 4WD",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "73935",
+"name": "2.0 Elegance 4WD",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "82810",
+"name": "2.0 Elegance G's 4WD",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "73933",
+"name": "2.0 Premium 4WD",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "73934",
+"name": "2.0 Premium Advanced Package 4WD",
+"to": 201705
+},
+{
+"from": 201606,
+"id": "180470",
+"name": "2.0 Premium Style ASH 4WD",
+"to": 201705
+},
+{
+"from": 201606,
+"id": "180472",
+"name": "2.0 Premium Advanced Package Style ASH 4WD",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "180478",
+"name": "2.0 Premium Style MAUVE 4WD",
+"to": 201605
+},
+{
+"from": 201506,
+"id": "180477",
+"name": "2.0 Premium Advanced Package Style MAUVE 4WD",
+"to": 201605
+}
+]
+},
+{
+"body": [
+"DAA-AVU65W"
+],
+"drive": "4wd",
+"engine": "2AR-FXE",
+"fuel": "бензин",
+"hp": 152,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 152 л.с., параллельный гибрид, 143 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201401,
+"id": "73938",
+"name": "2.5 Hybrid E-Four Grand",
+"to": 201505
+},
+{
+"from": 201401,
+"id": "73939",
+"name": "2.5 Hybrid E-Four Elegance",
+"to": 201505
+},
+{
+"from": 201401,
+"id": "73940",
+"name": "2.5 Hybrid E-Four Premium",
+"to": 201505
+},
+{
+"from": 201401,
+"id": "73941",
+"name": "2.5 Hybrid E-Four Premium Advanced Package",
+"to": 201505
+},
+{
+"from": 201606,
+"id": "180390",
+"name": "2.5 Hybrid E-Four Premium Style ASH",
+"to": 201705
+},
+{
+"from": 201606,
+"id": "150952",
+"name": "2.5 Hybrid E-Four Premium Advanced Package Style ASH",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "73938",
+"name": "2.5 Hybrid E-Four Grand",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "73939",
+"name": "2.5 Hybrid E-Four Elegance",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "73940",
+"name": "2.5 Hybrid E-Four Premium",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "73941",
+"name": "2.5 Hybrid E-Four Premium Advanced Package",
+"to": 201705
+},
+{
+"from": 201506,
+"id": "180475",
+"name": "2.5 Hybrid E-Four Premium Style MAUVE",
+"to": 201605
+},
+{
+"from": 201506,
+"id": "180474",
+"name": "2.5 Hybrid E-Four Premium Advanced Package Style MAUVE",
+"to": 201605
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/harrier/g_201312_2071",
+"market": "Япония",
+"to": 201705
+},
+"toyota/harrier/g_201706_7669": {
+"from": 201706,
+"groups": [
+{
+"body": [
+"DBA-ZSU60W"
+],
+"drive": "fwd",
+"engine": "3ZR-FAE",
+"fuel": "бензин",
+"hp": 151,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 151 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 201706,
+"id": "185488",
+"name": "2.0 Elegance",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185486",
+"name": "2.0 Premium",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185483",
+"name": "2.0 Premium Metal and Leather Package",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185481",
+"name": "2.0 Progress",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185482",
+"name": "2.0 Progress Metal and Leather Package",
+"to": 202005
+},
+{
+"from": 201709,
+"id": "188202",
+"name": "2.0 Elegance GR Sport",
+"to": 202005
+},
+{
+"from": 201907,
+"id": "257072",
+"name": "2.0 Premium Style Noir",
+"to": 202005
+}
+]
+},
+{
+"body": [
+"DBA-ZSU65W"
+],
+"drive": "4wd",
+"engine": "3ZR-FAE",
+"fuel": "бензин",
+"hp": 151,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 151 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201706,
+"id": "185489",
+"name": "2.0 Elegance 4WD",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185487",
+"name": "2.0 Premium 4WD",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185485",
+"name": "2.0 Premium Metal and Leather Package 4WD",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185480",
+"name": "2.0 Progress 4WD",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185484",
+"name": "2.0 Progress Metal and Leather Package 4WD",
+"to": 202005
+},
+{
+"from": 201709,
+"id": "188201",
+"name": "2.0 Elegance GR Sport 4WD",
+"to": 202005
+},
+{
+"from": 201907,
+"id": "257073",
+"name": "2.0 Premium Style Noir 4WD",
+"to": 202005
+}
+]
+},
+{
+"body": [
+"DBA-ASU60W"
+],
+"drive": "fwd",
+"engine": "8AR-FTS",
+"fuel": "бензин",
+"hp": 231,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 231 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201706,
+"id": "185469",
+"name": "2.0 Turbo Elegance",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185467",
+"name": "2.0 Turbo Premium",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185468",
+"name": "2.0 Turbo Premium Metal and Leather Package",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185465",
+"name": "2.0 Turbo Progress",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185466",
+"name": "2.0 Turbo Progress Metal and Leather Package",
+"to": 202005
+}
+]
+},
+{
+"body": [
+"DBA-ASU65W"
+],
+"drive": "4wd",
+"engine": "8AR-FTS",
+"fuel": "бензин",
+"hp": 231,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 231 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201706,
+"id": "185474",
+"name": "2.0 Turbo Elegance 4WD",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185473",
+"name": "2.0 Turbo Premium 4WD",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185470",
+"name": "2.0 Turbo Premium Metal and Leather Package 4WD",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185472",
+"name": "2.0 Turbo Progress 4WD",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185471",
+"name": "2.0 Turbo Progress Metal and Leather Package 4WD",
+"to": 202005
+},
+{
+"from": 201709,
+"id": "188200",
+"name": "2.0 Turbo Elegance GR Sport 4WD",
+"to": 202005
+}
+]
+},
+{
+"body": [
+"DAA-AVU65W"
+],
+"drive": "4wd",
+"engine": "2AR-FXE",
+"fuel": "бензин",
+"hp": 152,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 152 л.с., параллельный гибрид, 143 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 201706,
+"id": "185479",
+"name": "2.5 Hybrid E-Four Elegance 4WD",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185478",
+"name": "2.5 Hybrid E-Four Premium 4WD",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185477",
+"name": "2.5 Hybrid E-Four Premium Metal and Leather Package 4WD",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185476",
+"name": "2.5 Hybrid E-Four Progress 4WD",
+"to": 202005
+},
+{
+"from": 201706,
+"id": "185475",
+"name": "2.5 Hybrid E-Four Progress Metal and Leather Package 4WD",
+"to": 202005
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/harrier/g_201706_7669",
+"market": "Япония",
+"to": 202005
+},
+"toyota/harrier/g_202006_11323": {
+"from": 202004,
+"groups": [
+{
+"body": [
+"6BA-MXUA80"
+],
+"drive": "fwd",
+"engine": "M20A-FKS",
+"fuel": "бензин",
+"hp": 170,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 170 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202506,
+"id": "536222",
+"name": "2.0 G",
+"to": 202607
+},
+{
+"from": 202506,
+"id": "536221",
+"name": "2.0 Z",
+"to": 202607
+},
+{
+"from": 202506,
+"id": "536220",
+"name": "2.0 Z Leather Package",
+"to": 202607
+}
+]
+},
+{
+"body": [
+"6BA-MXUA85"
+],
+"drive": "4wd",
+"engine": "M20A-FKS",
+"fuel": "бензин",
+"hp": 170,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 170 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202506,
+"id": "536225",
+"name": "2.0 G 4WD",
+"to": 202607
+},
+{
+"from": 202506,
+"id": "536224",
+"name": "2.0 Z 4WD",
+"to": 202607
+},
+{
+"from": 202506,
+"id": "536223",
+"name": "2.0 Z Leather Package 4WD",
+"to": 202607
+}
+]
+},
+{
+"body": [
+"6BA-MXUA80"
+],
+"drive": "fwd",
+"engine": "M20A-FKS",
+"fuel": "бензин",
+"hp": 171,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 171 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202006,
+"id": "294641",
+"name": "2.0 S",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "536222",
+"name": "2.0 G",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "536221",
+"name": "2.0 Z",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "294637",
+"name": "2.0 G Leather Package",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "536220",
+"name": "2.0 Z Leather Package",
+"to": 202209
+},
+{
+"from": 202210,
+"id": "294641",
+"name": "2.0 S",
+"to": 202505
+},
+{
+"from": 202210,
+"id": "536222",
+"name": "2.0 G",
+"to": 202505
+},
+{
+"from": 202210,
+"id": "536221",
+"name": "2.0 Z",
+"to": 202505
+},
+{
+"from": 202210,
+"id": "536220",
+"name": "2.0 Z Leather Package",
+"to": 202505
+}
+]
+},
+{
+"body": [
+"6BA-MXUA85"
+],
+"drive": "4wd",
+"engine": "M20A-FKS",
+"fuel": "бензин",
+"hp": 171,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 171 л.с., бензин, вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202006,
+"id": "294642",
+"name": "2.0 S 4WD",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "536225",
+"name": "2.0 G 4WD",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "536224",
+"name": "2.0 Z 4WD",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "294638",
+"name": "2.0 G Leather Package 4WD",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "536223",
+"name": "2.0 Z Leather Package 4WD",
+"to": 202209
+},
+{
+"from": 202210,
+"id": "536225",
+"name": "2.0 G 4WD",
+"to": 202505
+},
+{
+"from": 202210,
+"id": "536224",
+"name": "2.0 Z 4WD",
+"to": 202505
+},
+{
+"from": 202210,
+"id": "536223",
+"name": "2.0 Z Leather Package 4WD",
+"to": 202505
+},
+{
+"from": 202210,
+"id": "294642",
+"name": "2.0 S 4WD",
+"to": 202309
+}
+]
+},
+{
+"body": [
+"6LA-AXUP85"
+],
+"drive": "4wd",
+"engine": "A25A-FXS",
+"fuel": "бензин",
+"hp": 177,
+"hp_total": 182,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 177 л.с., параллельный подзаряжаемый (PHEV) гибрид, 182 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202210,
+"id": "440621",
+"name": "2.5 PHEV Z 4WD",
+"to": 202505
+},
+{
+"from": 202506,
+"id": "536213",
+"name": "2.5 PHEV G 4WD",
+"to": 202607
+},
+{
+"from": 202506,
+"id": "440621",
+"name": "2.5 PHEV Z 4WD",
+"to": 202607
+}
+]
+},
+{
+"body": [
+"6AA-AXUH80"
+],
+"drive": "fwd",
+"engine": "A25A-FXS",
+"fuel": "бензин",
+"hp": 178,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 178 л.с., параллельный гибрид, 120 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202006,
+"id": "294631",
+"name": "2.5 Hybrid S",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "294629",
+"name": "2.5 Hybrid G",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "294625",
+"name": "2.5 Hybrid Z",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "294627",
+"name": "2.5 Hybrid G Leather Package",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "294623",
+"name": "2.5 Hybrid Z Leather Package",
+"to": 202209
+},
+{
+"from": 202210,
+"id": "294629",
+"name": "2.5 Hybrid G",
+"to": 202505
+},
+{
+"from": 202210,
+"id": "294625",
+"name": "2.5 Hybrid Z",
+"to": 202505
+},
+{
+"from": 202210,
+"id": "294623",
+"name": "2.5 Hybrid Z Leather Package",
+"to": 202505
+},
+{
+"from": 202210,
+"id": "294631",
+"name": "2.5 Hybrid S",
+"to": 202309
+},
+{
+"from": 202506,
+"id": "294629",
+"name": "2.5 Hybrid G",
+"to": 202607
+},
+{
+"from": 202506,
+"id": "294625",
+"name": "2.5 Hybrid Z",
+"to": 202607
+},
+{
+"from": 202506,
+"id": "294623",
+"name": "2.5 Hybrid Z Leather Package",
+"to": 202607
+},
+{
+"from": 202608,
+"id": "294629",
+"name": "2.5 Hybrid G",
+"to": null
+},
+{
+"from": 202608,
+"id": "561220",
+"name": "2.5 Hybrid Z Night Shade",
+"to": null
+},
+{
+"from": 202608,
+"id": "294625",
+"name": "2.5 Hybrid Z",
+"to": null
+},
+{
+"from": 202608,
+"id": "561219",
+"name": "2.5 Hybrid Z Leather Package Night Shade",
+"to": null
+},
+{
+"from": 202608,
+"id": "294623",
+"name": "2.5 Hybrid Z Leather Package",
+"to": null
+}
+]
+},
+{
+"body": [
+"6AA-AXUH85"
+],
+"drive": "4wd",
+"engine": "A25A-FXS",
+"fuel": "бензин",
+"hp": 178,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 178 л.с., параллельный гибрид, 120 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202006,
+"id": "294632",
+"name": "2.5 Hybrid S 4WD",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "294630",
+"name": "2.5 Hybrid G 4WD",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "294626",
+"name": "2.5 Hybrid Z 4WD",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "294628",
+"name": "2.5 Hybrid G Leather Package 4WD",
+"to": 202209
+},
+{
+"from": 202006,
+"id": "294624",
+"name": "2.5 Hybrid Z Leather Package 4WD",
+"to": 202209
+},
+{
+"from": 202210,
+"id": "294630",
+"name": "2.5 Hybrid G 4WD",
+"to": 202505
+},
+{
+"from": 202210,
+"id": "294626",
+"name": "2.5 Hybrid Z 4WD",
+"to": 202505
+},
+{
+"from": 202210,
+"id": "294624",
+"name": "2.5 Hybrid Z Leather Package 4WD",
+"to": 202505
+},
+{
+"from": 202210,
+"id": "294632",
+"name": "2.5 Hybrid S 4WD",
+"to": 202309
+},
+{
+"from": 202506,
+"id": "294630",
+"name": "2.5 Hybrid G 4WD",
+"to": 202607
+},
+{
+"from": 202506,
+"id": "294626",
+"name": "2.5 Hybrid Z 4WD",
+"to": 202607
+},
+{
+"from": 202506,
+"id": "294624",
+"name": "2.5 Hybrid Z Leather Package 4WD",
+"to": 202607
+},
+{
+"from": 202608,
+"id": "294630",
+"name": "2.5 Hybrid G 4WD",
+"to": null
+},
+{
+"from": 202608,
+"id": "561222",
+"name": "2.5 Hybrid Z Night Shade 4WD",
+"to": null
+},
+{
+"from": 202608,
+"id": "294626",
+"name": "2.5 Hybrid Z 4WD",
+"to": null
+},
+{
+"from": 202608,
+"id": "561221",
+"name": "2.5 Hybrid Z Leather Package Night Shade 4WD",
+"to": null
+},
+{
+"from": 202608,
+"id": "294624",
+"name": "2.5 Hybrid Z Leather Package 4WD",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/harrier/g_202006_11323",
+"market": "Япония",
+"to": null
+},
+"toyota/harrier/g_2021_19652": {
+"from": 202111,
+"groups": [
+{
+"body": [
+"MXUA80"
+],
+"drive": "fwd",
+"engine": "M20D-FKS",
+"fuel": "бензин",
+"gen_key": "toyota/harrier/g_2021_19652",
+"hp": 171,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 171 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202111,
+"id": "497791",
+"name": "2.0 CVT 2WD Aggressive",
+"to": null
+},
+{
+"from": 202111,
+"id": "497794",
+"name": "2.0 CVT 2WD Luxury",
+"to": null
+},
+{
+"from": 202111,
+"id": "497805",
+"name": "2.0 CVT 2WD Exclusive",
+"to": null
+},
+{
+"from": 202305,
+"id": "497807",
+"name": "2.0 CVT 2WD Care",
+"to": null
+},
+{
+"from": 202111,
+"id": "497816",
+"name": "2.0 CVT 2WD Flagship",
+"to": 202304
+}
+]
+},
+{
+"body": [
+"AXUH80"
+],
+"drive": "fwd",
+"engine": "A25F-FXS",
+"fuel": "бензин",
+"hp": 178,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 178 л.с., параллельный гибрид, 120 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202305,
+"id": "497808",
+"name": "2.5 Hybrid CVT 2WD Luxury",
+"to": null
+}
+]
+},
+{
+"body": [
+"AXUH85"
+],
+"drive": "4wd",
+"engine": "A25F-FXS",
+"fuel": "бензин",
+"hp": 178,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 178 л.с., параллельный гибрид, 120 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202111,
+"id": "497809",
+"name": "2.5 Hybrid CVT 4WD Luxury",
+"to": null
+},
+{
+"from": 202111,
+"id": "497810",
+"name": "2.5 Hybrid CVT 4WD Exclusive",
+"to": null
+},
+{
+"from": 202111,
+"id": "497812",
+"name": "2.5 Hybrid CVT 4WD Flagship",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/harrier/g_2021_19652",
+"market": "Китай",
+"to": null
+},
 "toyota/highlander/g_201008_1393": {
 "from": 201008,
 "groups": [
@@ -152896,6 +155626,936 @@
 "ids": true,
 "key": "toyota/rav4/g_2025_23657",
 "market": "Китай",
+"to": null
+},
+"toyota/sienna/g_200306_3806": {
+"from": 200301,
+"groups": [
+{
+"body": [
+"MCL20"
+],
+"drive": "fwd",
+"engine": "3MZ-FE",
+"fuel": "бензин",
+"hp": 215,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.3,
+"text": "3.3 л, 215 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200508,
+"id": "87240",
+"name": "3.3 AT LE",
+"to": 200608
+},
+{
+"from": 200508,
+"id": "87242",
+"name": "3.3 AT XLE",
+"to": 200608
+},
+{
+"from": 200508,
+"id": "87244",
+"name": "3.3 AT Limited",
+"to": 200608
+}
+]
+},
+{
+"body": [
+"MCL20",
+"MCL25"
+],
+"drive": "4wd",
+"engine": "3MZ-FE",
+"fuel": "бензин",
+"hp": 215,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.3,
+"text": "3.3 л, 215 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 200508,
+"id": "87240",
+"name": "3.3 AT LE",
+"to": 200608
+},
+{
+"from": 200508,
+"id": "87242",
+"name": "3.3 AT XLE",
+"to": 200608
+},
+{
+"from": 200508,
+"id": "87244",
+"name": "3.3 AT Limited",
+"to": 200608
+}
+]
+},
+{
+"body": [
+"MCL20"
+],
+"drive": "fwd",
+"engine": "3MZ-FE",
+"fuel": "бензин",
+"hp": 230,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.3,
+"text": "3.3 л, 230 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200306,
+"id": "87228",
+"name": "3.3 AT CE",
+"to": 200507
+},
+{
+"from": 200306,
+"id": "87228",
+"name": "3.3 AT CE",
+"to": 200507
+},
+{
+"from": 200306,
+"id": "87240",
+"name": "3.3 AT LE",
+"to": 200507
+},
+{
+"from": 200306,
+"id": "87240",
+"name": "3.3 AT LE",
+"to": 200507
+},
+{
+"from": 200306,
+"id": "87242",
+"name": "3.3 AT XLE",
+"to": 200507
+},
+{
+"from": 200306,
+"id": "87235",
+"name": "3.3 AT XLE Limited",
+"to": 200507
+}
+]
+},
+{
+"body": [
+"MCL25",
+"MCL20"
+],
+"drive": "4wd",
+"engine": "3MZ-FE",
+"fuel": "бензин",
+"hp": 230,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.3,
+"text": "3.3 л, 230 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 200306,
+"id": "87240",
+"name": "3.3 AT LE",
+"to": 200507
+},
+{
+"from": 200306,
+"id": "87242",
+"name": "3.3 AT XLE",
+"to": 200507
+},
+{
+"from": 200306,
+"id": "87235",
+"name": "3.3 AT XLE Limited",
+"to": 200507
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/sienna/g_200306_3806",
+"market": "США",
+"to": 200608
+},
+"toyota/sienna/g_200609_7179": {
+"from": 200609,
+"groups": [
+{
+"body": [
+"MCL20"
+],
+"drive": "fwd",
+"engine": "2GR-FE",
+"fuel": "бензин",
+"hp": 266,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 266 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200609,
+"id": "172187",
+"name": "3.5 CE",
+"to": 200912
+},
+{
+"from": 200609,
+"id": "172189",
+"name": "3.5 AT CE",
+"to": 200912
+},
+{
+"from": 200609,
+"id": "172191",
+"name": "3.5 AT LE",
+"to": 200912
+},
+{
+"from": 200609,
+"id": "172191",
+"name": "3.5 AT LE",
+"to": 200912
+},
+{
+"from": 200609,
+"id": "172194",
+"name": "3.5 AT XLE",
+"to": 200912
+},
+{
+"from": 200609,
+"id": "172188",
+"name": "3.5 AT Limited",
+"to": 200912
+}
+]
+},
+{
+"body": [
+"MCL25"
+],
+"drive": "4wd",
+"engine": "2GR-FE",
+"fuel": "бензин",
+"hp": 266,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 266 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 200609,
+"id": "172191",
+"name": "3.5 AT LE",
+"to": 200912
+},
+{
+"from": 200609,
+"id": "172194",
+"name": "3.5 AT XLE",
+"to": 200912
+},
+{
+"from": 200609,
+"id": "172188",
+"name": "3.5 AT Limited",
+"to": 200912
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "бензин",
+"hp": 266,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 266 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": []
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "бензин",
+"hp": 266,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 266 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": []
+}
+],
+"ids": true,
+"key": "toyota/sienna/g_200609_7179",
+"market": "США",
+"to": 200912
+},
+"toyota/sienna/g_201001_3807": {
+"from": 201001,
+"groups": [
+{
+"body": [
+"ASL30"
+],
+"drive": "fwd",
+"engine": "1AR-FE",
+"fuel": "бензин",
+"hp": 187,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.7,
+"text": "2.7 л, 187 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201001,
+"id": "87255",
+"name": "2.7 AT",
+"to": 201308
+},
+{
+"from": 201001,
+"id": "87335",
+"name": "2.7 AT LE",
+"to": 201308
+},
+{
+"from": 201001,
+"id": "87335",
+"name": "2.7 AT LE",
+"to": 201308
+}
+]
+},
+{
+"body": [
+"GSL30"
+],
+"drive": "fwd",
+"engine": "2GR-FE",
+"fuel": "бензин",
+"hp": 266,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 266 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201001,
+"id": "87339",
+"name": "3.5 AT",
+"to": 201207
+},
+{
+"from": 201001,
+"id": "87337",
+"name": "3.5 AT LE",
+"to": 201207
+},
+{
+"from": 201001,
+"id": "87337",
+"name": "3.5 AT LE",
+"to": 201207
+},
+{
+"from": 201001,
+"id": "87340",
+"name": "3.5 AT SE",
+"to": 201207
+},
+{
+"from": 201001,
+"id": "87341",
+"name": "3.5 AT XLE",
+"to": 201207
+},
+{
+"from": 201001,
+"id": "87341",
+"name": "3.5 AT XLE",
+"to": 201207
+},
+{
+"from": 201001,
+"id": "87344",
+"name": "3.5 AT Limited",
+"to": 201207
+},
+{
+"from": 201208,
+"id": "87350",
+"name": "3.5 AT L",
+"to": 201409
+},
+{
+"from": 201208,
+"id": "87337",
+"name": "3.5 AT LE",
+"to": 201409
+},
+{
+"from": 201208,
+"id": "87337",
+"name": "3.5 AT LE",
+"to": 201409
+},
+{
+"from": 201208,
+"id": "87341",
+"name": "3.5 AT XLE",
+"to": 201409
+},
+{
+"from": 201208,
+"id": "87340",
+"name": "3.5 AT SE",
+"to": 201409
+},
+{
+"from": 201208,
+"id": "87341",
+"name": "3.5 AT XLE",
+"to": 201409
+},
+{
+"from": 201208,
+"id": "87344",
+"name": "3.5 AT Limited",
+"to": 201409
+}
+]
+},
+{
+"body": [
+"GSL35"
+],
+"drive": "4wd",
+"engine": "2GR-FE",
+"fuel": "бензин",
+"hp": 266,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 266 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201001,
+"id": "87337",
+"name": "3.5 AT LE",
+"to": 201207
+},
+{
+"from": 201001,
+"id": "87341",
+"name": "3.5 AT XLE",
+"to": 201207
+},
+{
+"from": 201001,
+"id": "87344",
+"name": "3.5 AT Limited",
+"to": 201207
+},
+{
+"from": 201208,
+"id": "87337",
+"name": "3.5 AT LE",
+"to": 201409
+},
+{
+"from": 201208,
+"id": "87341",
+"name": "3.5 AT XLE",
+"to": 201409
+},
+{
+"from": 201208,
+"id": "87344",
+"name": "3.5 AT Limited",
+"to": 201409
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/sienna/g_201001_3807",
+"market": "США",
+"to": 201409
+},
+"toyota/sienna/g_201410_3403": {
+"from": 201410,
+"groups": [
+{
+"body": [
+"GSL30"
+],
+"drive": "fwd",
+"engine": "2GR-FE",
+"fuel": "бензин",
+"hp": 266,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 266 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201410,
+"id": "299555",
+"name": "3.5 AT L",
+"to": 201608
+},
+{
+"from": 201410,
+"id": "299740",
+"name": "3.5 AT LE",
+"to": 201608
+},
+{
+"from": 201410,
+"id": "299741",
+"name": "3.5 AT SE",
+"to": 201608
+},
+{
+"from": 201410,
+"id": "299743",
+"name": "3.5 AT XLE",
+"to": 201608
+},
+{
+"from": 201410,
+"id": "299742",
+"name": "3.5 AT SE Premium",
+"to": 201608
+},
+{
+"from": 201410,
+"id": "299744",
+"name": "3.5 AT XLE Premium",
+"to": 201608
+},
+{
+"from": 201410,
+"id": "299745",
+"name": "3.5 AT Limited",
+"to": 201608
+},
+{
+"from": 201410,
+"id": "299746",
+"name": "3.5 AT Limited Premium",
+"to": 201608
+}
+]
+},
+{
+"body": [
+"GSL35"
+],
+"drive": "4wd",
+"engine": "2GR-FE",
+"fuel": "бензин",
+"hp": 266,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 266 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201410,
+"id": "299740",
+"name": "3.5 AT LE",
+"to": 201608
+},
+{
+"from": 201410,
+"id": "299743",
+"name": "3.5 AT XLE",
+"to": 201608
+},
+{
+"from": 201410,
+"id": "299744",
+"name": "3.5 AT XLE Premium",
+"to": 201608
+},
+{
+"from": 201410,
+"id": "299745",
+"name": "3.5 AT Limited",
+"to": 201608
+},
+{
+"from": 201410,
+"id": "299746",
+"name": "3.5 AT Limited Premium",
+"to": 201608
+}
+]
+},
+{
+"body": [
+"GSL30"
+],
+"drive": "fwd",
+"engine": "2GR-FKS",
+"fuel": "бензин",
+"hp": 296,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 296 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201609,
+"id": "299555",
+"name": "3.5 AT L",
+"to": 201711
+},
+{
+"from": 201609,
+"id": "299740",
+"name": "3.5 AT LE",
+"to": 201711
+},
+{
+"from": 201609,
+"id": "299741",
+"name": "3.5 AT SE",
+"to": 201711
+},
+{
+"from": 201609,
+"id": "299742",
+"name": "3.5 AT SE Premium",
+"to": 201711
+},
+{
+"from": 201609,
+"id": "299743",
+"name": "3.5 AT XLE",
+"to": 201711
+},
+{
+"from": 201609,
+"id": "299744",
+"name": "3.5 AT XLE Premium",
+"to": 201711
+},
+{
+"from": 201609,
+"id": "299745",
+"name": "3.5 AT Limited",
+"to": 201711
+},
+{
+"from": 201609,
+"id": "299746",
+"name": "3.5 AT Limited Premium",
+"to": 201711
+}
+]
+},
+{
+"body": [
+"GSL35"
+],
+"drive": "4wd",
+"engine": "2GR-FKS",
+"fuel": "бензин",
+"hp": 296,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 296 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201609,
+"id": "299740",
+"name": "3.5 AT LE",
+"to": 201711
+},
+{
+"from": 201609,
+"id": "299743",
+"name": "3.5 AT XLE",
+"to": 201711
+},
+{
+"from": 201609,
+"id": "299744",
+"name": "3.5 AT XLE Premium",
+"to": 201711
+},
+{
+"from": 201609,
+"id": "299745",
+"name": "3.5 AT Limited",
+"to": 201711
+},
+{
+"from": 201609,
+"id": "299746",
+"name": "3.5 AT Limited Premium",
+"to": 201711
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/sienna/g_201410_3403",
+"market": "США",
+"to": 201711
+},
+"toyota/sienna/g_201711_11869": {
+"from": 201703,
+"groups": [
+{
+"body": [
+"GSL30"
+],
+"drive": "fwd",
+"engine": "2GR-FKS",
+"fuel": "бензин",
+"hp": 296,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 296 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201711,
+"id": "299747",
+"name": "3.5 AT L",
+"to": 202005
+},
+{
+"from": 201711,
+"id": "299748",
+"name": "3.5 AT LE",
+"to": 202005
+},
+{
+"from": 201711,
+"id": "299749",
+"name": "3.5 AT SE",
+"to": 202005
+},
+{
+"from": 201711,
+"id": "299751",
+"name": "3.5 AT XLE",
+"to": 202005
+},
+{
+"from": 201711,
+"id": "299750",
+"name": "3.5 AT SE Premium",
+"to": 202005
+},
+{
+"from": 201711,
+"id": "299752",
+"name": "3.5 AT XLE Premium",
+"to": 202005
+},
+{
+"from": 201711,
+"id": "299753",
+"name": "3.5 AT Limited",
+"to": 202005
+},
+{
+"from": 201711,
+"id": "299754",
+"name": "3.5 AT Limited Premium",
+"to": 202005
+}
+]
+},
+{
+"body": [
+"GSL35"
+],
+"drive": "4wd",
+"engine": "2GR-FKS",
+"fuel": "бензин",
+"hp": 296,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.5,
+"text": "3.5 л, 296 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201711,
+"id": "299748",
+"name": "3.5 AT LE",
+"to": 202005
+},
+{
+"from": 201711,
+"id": "299751",
+"name": "3.5 AT XLE",
+"to": 202005
+},
+{
+"from": 201711,
+"id": "299752",
+"name": "3.5 AT XLE Premium",
+"to": 202005
+},
+{
+"from": 201711,
+"id": "299753",
+"name": "3.5 AT Limited",
+"to": 202005
+},
+{
+"from": 201711,
+"id": "299754",
+"name": "3.5 AT Limited Premium",
+"to": 202005
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/sienna/g_201711_11869",
+"market": "США",
+"to": 202005
+},
+"toyota/sienna/g_202010_13982": {
+"from": 202005,
+"groups": [
+{
+"body": [
+"AXLH40"
+],
+"drive": "fwd",
+"engine": "A25A-FXS",
+"fuel": "бензин",
+"hp": 186,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 186 л.с., параллельный гибрид, 182 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202010,
+"id": "388902",
+"name": "2.5 CVT L",
+"to": null
+},
+{
+"from": 202010,
+"id": "388904",
+"name": "2.5 CVT XLE",
+"to": null
+},
+{
+"from": 202010,
+"id": "388905",
+"name": "2.5 CVT XSE",
+"to": null
+},
+{
+"from": 202010,
+"id": "388907",
+"name": "2.5 CVT Limited",
+"to": null
+},
+{
+"from": 202010,
+"id": "388910",
+"name": "2.5 CVT Platinum",
+"to": null
+}
+]
+},
+{
+"body": [
+"AXLH45"
+],
+"drive": "4wd",
+"engine": "A25A-FXS",
+"fuel": "бензин",
+"hp": 186,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.5,
+"text": "2.5 л, бензин, 186 л.с., параллельный гибрид, 182 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202010,
+"id": "388912",
+"name": "2.5 CVT 4WD L",
+"to": null
+},
+{
+"from": 202010,
+"id": "388916",
+"name": "2.5 CVT 4WD XLE",
+"to": null
+},
+{
+"from": 202010,
+"id": "388913",
+"name": "2.5 CVT 4WD XSE",
+"to": null
+},
+{
+"from": 202010,
+"id": "388914",
+"name": "2.5 CVT 4WD Limited",
+"to": null
+},
+{
+"from": 202010,
+"id": "388915",
+"name": "2.5 CVT 4WD Platinum",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/sienna/g_202010_13982",
+"market": "США",
 "to": null
 },
 "toyota/supra/g_201903_9404": {
@@ -156177,6 +159837,1447 @@
 "market": "Китай",
 "to": null
 },
+"volkswagen/passat/g_200503_8127": {
+"from": 200503,
+"groups": [
+{
+"body": [
+"3C2"
+],
+"drive": "fwd",
+"engine": "CAXA",
+"fuel": "бензин",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 122 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200710,
+"id": "195725",
+"name": "1.4 TSI MT Comfortline",
+"to": 201012
+},
+{
+"from": 200710,
+"id": "195787",
+"name": "1.4 TSI MT Trendline",
+"to": 200912
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "fwd",
+"engine": "CAXA",
+"fuel": "бензин",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 122 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 200710,
+"id": "195731",
+"name": "1.4 TSI DSG Comfortline",
+"to": 201012
+},
+{
+"from": 200710,
+"id": "195785",
+"name": "1.4 TSI DSG Trendline",
+"to": 200912
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "fwd",
+"engine": "BSE, BSF, CCSA",
+"fuel": "бензин",
+"hp": 102,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 102 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200504,
+"id": "195690",
+"name": "1.6 MPI MT Trendline",
+"to": 201012
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "fwd",
+"engine": "CGYA",
+"fuel": "бензин",
+"hp": 152,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 152 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201001,
+"id": "195735",
+"name": "1.8 TSI MT Comfortline",
+"to": 201012
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "fwd",
+"engine": "CGYA",
+"fuel": "бензин",
+"hp": 152,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 152 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201001,
+"id": "195736",
+"name": "1.8 TSI DSG Comfortline",
+"to": 201012
+},
+{
+"from": 201001,
+"id": "195737",
+"name": "1.8 TSI DSG Highline",
+"to": 201012
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "fwd",
+"engine": "CDAA, BZB",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 160 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200710,
+"id": "195735",
+"name": "1.8 TSI MT Comfortline",
+"to": 200912
+},
+{
+"from": 200710,
+"id": "195811",
+"name": "1.8 TSI MT Highline",
+"to": 200912
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "fwd",
+"engine": "CDAA, BZB",
+"fuel": "бензин",
+"hp": 160,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 160 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200710,
+"id": "195800",
+"name": "1.8 TSI AT Comfortline",
+"to": 200912
+},
+{
+"from": 200710,
+"id": "195812",
+"name": "1.8 TSI AT Highline",
+"to": 200912
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "fwd",
+"engine": "BKC, BXE, BLS",
+"fuel": "дизель",
+"hp": 105,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.9,
+"text": "1.9 л, 105 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200504,
+"id": "195792",
+"name": "1.9 TDI MT Trendline",
+"to": 201012
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "fwd",
+"engine": "CBAB",
+"fuel": "дизель",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 140 л.с., дизель, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200504,
+"id": "195762",
+"name": "2.0 TDI MT Highline",
+"to": 201012
+},
+{
+"from": 200504,
+"id": "195889",
+"name": "2.0 TDI MT Comfortline",
+"to": 200709
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "fwd",
+"engine": "CBAB",
+"fuel": "дизель",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 140 л.с., дизель, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 200504,
+"id": "195765",
+"name": "2.0 TDI DSG Highline",
+"to": 201012
+},
+{
+"from": 200504,
+"id": "195888",
+"name": "2.0 TDI DSG Comfortline",
+"to": 200709
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "fwd",
+"engine": "BLR, BVX, BVY",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200504,
+"id": "195885",
+"name": "2.0 FSI MT Comfortline",
+"to": 200709
+},
+{
+"from": 200504,
+"id": "195868",
+"name": "2.0 FSI MT Highline",
+"to": 200709
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "4wd",
+"engine": "BLR, BVX, BVY",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 200504,
+"id": "195805",
+"name": "2.0 FSI MT 4Motion Highline",
+"to": 201012
+},
+{
+"from": 200504,
+"id": "195887",
+"name": "2.0 FSI MT 4Motion Comfortline",
+"to": 200709
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "fwd",
+"engine": "BLR, BVX, BVY",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200504,
+"id": "195886",
+"name": "2.0 FSI AT Comfortline",
+"to": 200709
+},
+{
+"from": 200504,
+"id": "195867",
+"name": "2.0 FSI AT Highline",
+"to": 200709
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "fwd",
+"engine": "CAWB",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 200 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201001,
+"id": "195755",
+"name": "2.0 TSI MT Highline",
+"to": 201012
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "fwd",
+"engine": "CAWB",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 200 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200610,
+"id": "195796",
+"name": "2.0 TSI AT Comfortline",
+"to": 200912
+},
+{
+"from": 200610,
+"id": "195795",
+"name": "2.0 TSI AT Highline",
+"to": 200912
+}
+]
+},
+{
+"body": [
+"3C2"
+],
+"drive": "4wd",
+"engine": "AXZ",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.2,
+"text": "3.2 л, 250 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 200610,
+"id": "195804",
+"name": "3.2 FSI V6 4Motion DSG Comfortline",
+"to": 201012
+},
+{
+"from": 200610,
+"id": "195813",
+"name": "3.2 FSI V6 4Motion DSG Highline",
+"to": 201012
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/passat/g_200503_8127",
+"market": "Россия",
+"to": 201012
+},
+"volkswagen/passat/g_201011_1489": {
+"from": 201009,
+"groups": [
+{
+"body": [
+"362"
+],
+"drive": "fwd",
+"engine": "CAXA",
+"fuel": "бензин",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 122 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201101,
+"id": "65163",
+"name": "1.4 TSI MT Trendline",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"362"
+],
+"drive": "fwd",
+"engine": "CAXA",
+"fuel": "бензин",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 122 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201101,
+"id": "65164",
+"name": "1.4 TSI DSG Trendline",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"362"
+],
+"drive": "fwd",
+"engine": "CDGA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201312,
+"id": "76485",
+"name": "1.4 TSI DSG EcoFuel Trendline",
+"to": 201506
+},
+{
+"from": 201312,
+"id": "76469",
+"name": "1.4 TSI DSG EcoFuel Highline",
+"to": 201506
+},
+{
+"from": 201312,
+"id": "76475",
+"name": "1.4 TSI DSG EcoFuel Comfortline",
+"to": 201501
+}
+]
+},
+{
+"body": [
+"362"
+],
+"drive": "fwd",
+"engine": "CDAB",
+"fuel": "бензин",
+"hp": 152,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 152 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201101,
+"id": "65166",
+"name": "1.8 TSI MT Comfortline",
+"to": 201506
+},
+{
+"from": 201101,
+"id": "71856",
+"name": "1.8 TSI Trendline",
+"to": 201305
+},
+{
+"from": 201309,
+"id": "74171",
+"name": "1.8 TSI MT Business Edition",
+"to": 201408
+},
+{
+"from": 201309,
+"id": "76467",
+"name": "1.8 TSI MT Style",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"362"
+],
+"drive": "fwd",
+"engine": "CDAB",
+"fuel": "бензин",
+"hp": 152,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 152 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201101,
+"id": "65165",
+"name": "1.8 TSI DSG Comfortline",
+"to": 201506
+},
+{
+"from": 201101,
+"id": "65167",
+"name": "1.8 TSI DSG Highline",
+"to": 201506
+},
+{
+"from": 201101,
+"id": "71857",
+"name": "1.8 TSI DSG Trendline",
+"to": 201305
+},
+{
+"from": 201309,
+"id": "74173",
+"name": "1.8 TSI DSG Business Edition",
+"to": 201408
+},
+{
+"from": 201309,
+"id": "74173",
+"name": "1.8 TSI DSG Business Edition",
+"to": 201408
+},
+{
+"from": 201309,
+"id": "76468",
+"name": "1.8 TSI DSG Style",
+"to": 201506
+}
+]
+},
+{
+"body": [
+"362"
+],
+"drive": "fwd",
+"engine": "CLLA, CFGB",
+"fuel": "дизель",
+"hp": 170,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 170 л.с., дизель, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201101,
+"id": "65168",
+"name": "2.0 TDI BlueMotion DSG Highline",
+"to": 201506
+},
+{
+"from": 201309,
+"id": "74175",
+"name": "2.0 TDI BlueMotion DSG Business Edition",
+"to": 201408
+}
+]
+},
+{
+"body": [
+"362"
+],
+"drive": "fwd",
+"engine": "CCZB",
+"fuel": "бензин",
+"hp": 210,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 210 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201101,
+"id": "65169",
+"name": "2.0 TSI DSG Highline",
+"to": 201506
+},
+{
+"from": 201309,
+"id": "74174",
+"name": "2.0 TSI DSG Business Edition",
+"to": 201408
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/passat/g_201011_1489",
+"market": "Россия",
+"to": 201506
+},
+"volkswagen/passat/g_201407_3715": {
+"from": 201407,
+"groups": [
+{
+"body": [
+"3G2"
+],
+"drive": "fwd",
+"engine": "CZCA",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 125 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201506,
+"id": "84095",
+"name": "1.4 TSI MT Trendline",
+"to": 201805
+},
+{
+"from": 201506,
+"id": "91483",
+"name": "1.4 TSI MT Select",
+"to": 201612
+},
+{
+"from": 201703,
+"id": "180666",
+"name": "1.4 TSI MT Life",
+"to": 201802
+},
+{
+"from": 201806,
+"id": "207199",
+"name": "1.4 TSI MT Conceptline",
+"to": 201905
+},
+{
+"from": 201806,
+"id": "84095",
+"name": "1.4 TSI MT Trendline",
+"to": 201905
+}
+]
+},
+{
+"body": [
+"3G2"
+],
+"drive": "fwd",
+"engine": "CZCA",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 125 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201601,
+"id": "91479",
+"name": "1.4 TSI DSG Trendline",
+"to": 201805
+},
+{
+"from": 201601,
+"id": "91481",
+"name": "1.4 TSI DSG Select",
+"to": 201612
+},
+{
+"from": 201703,
+"id": "180665",
+"name": "1.4 TSI DSG Life",
+"to": 201803
+},
+{
+"from": 201806,
+"id": "91479",
+"name": "1.4 TSI DSG Trendline",
+"to": 201905
+}
+]
+},
+{
+"body": [
+"3G2"
+],
+"drive": "fwd",
+"engine": "CZEA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201506,
+"id": "85722",
+"name": "1.4 TSI DSG Comfortline",
+"to": 201809
+},
+{
+"from": 201506,
+"id": "85724",
+"name": "1.4 TSI DSG Highline",
+"to": 201809
+},
+{
+"from": 201601,
+"id": "91479",
+"name": "1.4 TSI DSG Trendline",
+"to": 201805
+},
+{
+"from": 201601,
+"id": "91481",
+"name": "1.4 TSI DSG Select",
+"to": 201612
+},
+{
+"from": 201703,
+"id": "180665",
+"name": "1.4 TSI DSG Life",
+"to": 201803
+},
+{
+"from": 201707,
+"id": "185737",
+"name": "1.4 TSI DSG Life Plus",
+"to": 201803
+},
+{
+"from": 201806,
+"id": "91479",
+"name": "1.4 TSI DSG Trendline",
+"to": 202002
+},
+{
+"from": 201810,
+"id": "85722",
+"name": "1.4 TSI DSG Comfortline",
+"to": 202002
+},
+{
+"from": 201810,
+"id": "85724",
+"name": "1.4 TSI DSG Highline",
+"to": 202002
+},
+{
+"from": 201905,
+"id": "250438",
+"name": "1.4 TSI DSG Business",
+"to": 202002
+}
+]
+},
+{
+"body": [
+"3G2"
+],
+"drive": "fwd",
+"engine": "CJSA, CJSC",
+"fuel": "бензин",
+"hp": 180,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 180 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201506,
+"id": "85723",
+"name": "1.8 TSI DSG Comfortline",
+"to": 201809
+},
+{
+"from": 201506,
+"id": "85725",
+"name": "1.8 TSI DSG Highline",
+"to": 201809
+},
+{
+"from": 201707,
+"id": "185739",
+"name": "1.8 TSI DSG Life Plus",
+"to": 201805
+},
+{
+"from": 201810,
+"id": "85725",
+"name": "1.8 TSI DSG Highline",
+"to": 202002
+},
+{
+"from": 201811,
+"id": "85723",
+"name": "1.8 TSI DSG Comfortline",
+"to": 202002
+},
+{
+"from": 201905,
+"id": "250441",
+"name": "1.8 TSI DSG Business",
+"to": 202002
+}
+]
+},
+{
+"body": [
+"3G2"
+],
+"drive": "fwd",
+"engine": "CRLB",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201701,
+"id": "177478",
+"name": "2.0 TDI DSG Comfortline",
+"to": 201809
+},
+{
+"from": 201701,
+"id": "177479",
+"name": "2.0 TDI DSG Highline",
+"to": 201809
+},
+{
+"from": 201703,
+"id": "180668",
+"name": "2.0 TDI DSG Life",
+"to": 201803
+},
+{
+"from": 201707,
+"id": "185738",
+"name": "2.0 TDI DSG Life Plus",
+"to": 201803
+},
+{
+"from": 201810,
+"id": "177478",
+"name": "2.0 TDI DSG Comfortline",
+"to": 201905
+},
+{
+"from": 201810,
+"id": "177479",
+"name": "2.0 TDI DSG Highline",
+"to": 201905
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/passat/g_201407_3715",
+"market": "Россия",
+"to": 202002
+},
+"volkswagen/passat/g_201508_15068": {
+"from": 201508,
+"groups": [
+{
+"body": [
+"A33"
+],
+"drive": "fwd",
+"engine": "CDAA",
+"fuel": "бензин",
+"hp": 170,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 170 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201508,
+"id": "417859",
+"name": "1.8 TSI Tiptronic",
+"to": 201710
+}
+]
+},
+{
+"body": [
+"A33"
+],
+"drive": "fwd",
+"engine": "CZPA",
+"fuel": "бензин",
+"hp": 177,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 177 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201711,
+"id": "417863",
+"name": "2.0 TSI Tiptronic S",
+"to": 201801
+},
+{
+"from": 201711,
+"id": "417861",
+"name": "2.0 TSI Tiptronic SE",
+"to": 201801
+},
+{
+"from": 201711,
+"id": "417860",
+"name": "2.0 TSI Tiptronic SE Tech",
+"to": 201801
+},
+{
+"from": 201711,
+"id": "417852",
+"name": "2.0 TSI Tiptronic SEL Premium",
+"to": 201801
+},
+{
+"from": 201711,
+"id": "417862",
+"name": "2.0 TSI Tiptronic R-Line",
+"to": 201812
+},
+{
+"from": 201711,
+"id": "417862",
+"name": "2.0 TSI Tiptronic R-Line",
+"to": 201812
+},
+{
+"from": 201801,
+"id": "417866",
+"name": "2.0 TSI Tiptronic Wolfsburg Edition",
+"to": 201910
+},
+{
+"from": 201801,
+"id": "417868",
+"name": "2.0 TSI Tiptronic SE R-Line",
+"to": 201910
+}
+]
+},
+{
+"body": [
+"A33"
+],
+"drive": "fwd",
+"engine": "CDVB",
+"fuel": "бензин",
+"hp": 280,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.6,
+"text": "3.6 л, 280 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201508,
+"id": "417865",
+"name": "3.6 FSI DSG GT",
+"to": 201801
+},
+{
+"from": 201508,
+"id": "417864",
+"name": "3.6 FSI DSG SEL Premium",
+"to": 201801
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/passat/g_201508_15068",
+"market": "США",
+"to": 201812
+},
+"volkswagen/passat/g_2018_20670": {
+"from": 201810,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "DUN",
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202108,
+"id": "502989",
+"name": "2.0 TSI DSG Comfort",
+"to": 202311
+},
+{
+"from": 202108,
+"id": "503001",
+"name": "2.0 TSI DSG Smooth",
+"to": 202311
+},
+{
+"from": 202108,
+"id": "503002",
+"name": "2.0 TSI DSG Vertical",
+"to": 202311
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/passat/g_2018_20670",
+"market": "Китай",
+"to": 202311
+},
+"volkswagen/passat/g_2018_24103": {
+"from": 201810,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "DJS",
+"fuel": "бензин",
+"gen_key": "volkswagen/passat/g_2018_24103",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201810,
+"id": "548037",
+"name": "1.4 280 TSI DSG Business",
+"to": 202107
+},
+{
+"from": 201810,
+"id": "548038",
+"name": "1.4 280 TSI DSG Elite",
+"to": 202107
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "DXJ",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.4,
+"text": "1.4 л, бензин, 150 л.с., параллельный подзаряжаемый (PHEV) гибрид, 116 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201810,
+"id": "548045",
+"name": "PHEV 1.4 430 TSI DSG Elite",
+"to": 202107
+},
+{
+"from": 201810,
+"id": "548043",
+"name": "PHEV 1.4 430 TSI DSG Luxury",
+"to": 202107
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "DPL",
+"fuel": "бензин",
+"gen_key": "volkswagen/passat/g_2018_24103",
+"hp": 186,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 186 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201810,
+"id": "548039",
+"name": "2.0 330 TSI DSG Elite",
+"to": 202107
+},
+{
+"from": 201810,
+"id": "548044",
+"name": "2.0 330 TSI DSG Luxury",
+"to": 202107
+},
+{
+"from": 201810,
+"id": "548040",
+"name": "2.0 330 TSI DSG Premium",
+"to": 202107
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "DKX",
+"fuel": "бензин",
+"gen_key": "volkswagen/passat/g_2018_24103",
+"hp": 220,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 220 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201810,
+"id": "548041",
+"name": "2.0 380 TSI DSG Luxury",
+"to": 202107
+},
+{
+"from": 201810,
+"id": "548042",
+"name": "2.0 380 TSI DSG Ultimate",
+"to": 202107
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/passat/g_2018_24103",
+"market": "Китай",
+"to": 202107
+},
+"volkswagen/passat/g_201906_9473": {
+"from": 201902,
+"groups": [
+{
+"body": [
+"3G2"
+],
+"drive": "fwd",
+"engine": null,
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202002,
+"id": "344107",
+"name": "1.4 TSI MT Respect",
+"to": 202104
+}
+]
+},
+{
+"body": [
+"3G2"
+],
+"drive": "fwd",
+"engine": "Кузов:",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202002,
+"id": "239122",
+"name": "1.4 TSI DSG Business",
+"to": 202202
+},
+{
+"from": 202002,
+"id": "279789",
+"name": "1.4 TSI DSG Exclusive",
+"to": 202202
+},
+{
+"from": 202104,
+"id": "279785",
+"name": "1.4 TSI DSG Respect",
+"to": 202109
+}
+]
+},
+{
+"body": [
+"3G2"
+],
+"drive": "fwd",
+"engine": null,
+"fuel": "бензин",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202002,
+"id": "239163",
+"name": "2.0 TSI DSG Business",
+"to": 202202
+},
+{
+"from": 202002,
+"id": "279788",
+"name": "2.0 TSI DSG Exclusive",
+"to": 202202
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/passat/g_201906_9473",
+"market": "Россия",
+"to": 202202
+},
+"volkswagen/passat/g_202108_17560": {
+"from": 202108,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "DJS",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202108,
+"id": "457515",
+"name": "1.4 280 TSI DSG Business",
+"to": 202508
+},
+{
+"from": 202108,
+"id": "457516",
+"name": "1.4 280 TSI DSG Elite",
+"to": 202508
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "DXJ",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.4,
+"text": "1.4 л, бензин, 150 л.с., параллельный подзаряжаемый (PHEV) гибрид, 116 л.с., робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202108,
+"id": "457550",
+"name": "PHEV 1.4 430 TSI DSG Elite",
+"to": 202508
+},
+{
+"from": 202108,
+"id": "457551",
+"name": "PHEV 1.4 430 TSI DSG Luxury",
+"to": 202508
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "DPL",
+"fuel": "бензин",
+"hp": 186,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 186 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202108,
+"id": "457517",
+"name": "2.0 330 TSI DSG Elite",
+"to": 202508
+},
+{
+"from": 202108,
+"id": "457518",
+"name": "2.0 330 TSI DSG Luxury",
+"to": 202508
+},
+{
+"from": 202108,
+"id": "457519",
+"name": "2.0 330 TSI DSG Premium",
+"to": 202508
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "DKX",
+"fuel": "бензин",
+"hp": 220,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 220 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202108,
+"id": "457520",
+"name": "2.0 380 TSI DSG Luxury",
+"to": 202508
+},
+{
+"from": 202108,
+"id": "457521",
+"name": "2.0 380 TSI DSG Ultimate",
+"to": 202508
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/passat/g_202108_17560",
+"market": "Китай",
+"to": 202508
+},
 "volkswagen/sagitar/g_201912_23376": {
 "from": 201901,
 "groups": [
@@ -157750,6 +162851,1219 @@
 "market": "Китай",
 "to": null
 },
+"volkswagen/tiguan/g_200802_1494": {
+"from": 200612,
+"groups": [
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "fwd",
+"engine": "CTHA, BWK, CAVA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200809,
+"name": "1.4 TSI MT Sport&Style",
+"to": 201107
+}
+]
+},
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "4wd",
+"engine": "CTHA, BWK, CAVA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 200809,
+"name": "1.4 TSI MT Trend&Fun",
+"to": 201107
+}
+]
+},
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "4wd",
+"engine": "CCZC, CAWA",
+"fuel": "бензин",
+"hp": 170,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 170 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 200809,
+"name": "2.0 TSI AT Track&Field",
+"to": 201107
+},
+{
+"from": 200809,
+"name": "2.0 TSI AT Sport&Style",
+"to": 201107
+}
+]
+},
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "4wd",
+"engine": "CBBB, CFGB",
+"fuel": "дизель",
+"hp": 170,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 170 л.с., дизель, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 200802,
+"name": "2.0 TDI MT Track&Field",
+"to": 201107
+},
+{
+"from": 200802,
+"name": "2.0 TDI MT Sport&Style",
+"to": 201107
+}
+]
+},
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "4wd",
+"engine": "CAWB, CCTA, CCZA",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 200 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 200802,
+"name": "2.0 TSI MT Track&Field",
+"to": 201107
+},
+{
+"from": 200802,
+"name": "2.0 TSI MT Sport&Style",
+"to": 201107
+}
+]
+},
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "4wd",
+"engine": "CAWB, CCTA, CCZA",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 200 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 200802,
+"name": "2.0 TSI AT Track&Field",
+"to": 201107
+},
+{
+"from": 200802,
+"name": "2.0 TSI AT Sport&Style",
+"to": 201107
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/tiguan/g_200802_1494",
+"market": "Россия",
+"to": 201107
+},
+"volkswagen/tiguan/g_201107_4135": {
+"from": 201107,
+"groups": [
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "fwd",
+"engine": "CAXA",
+"fuel": "бензин",
+"hp": 122,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 122 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201107,
+"name": "1.4 TSI MT BlueMotion Trend&Fun",
+"to": 201605
+},
+{
+"from": 201502,
+"id": "94960",
+"name": "1.4 TSI BlueMotion MT Club",
+"to": 201605
+},
+{
+"from": 201509,
+"id": "94977",
+"name": "1.4 TSI BlueMotion MT Avenue",
+"to": 201605
+},
+{
+"from": 201606,
+"id": "94960",
+"name": "1.4 TSI BlueMotion MT Club",
+"to": 201704
+},
+{
+"from": 201606,
+"id": "94977",
+"name": "1.4 TSI BlueMotion MT Avenue",
+"to": 201704
+},
+{
+"from": 201606,
+"id": "152366",
+"name": "1.4 TSI BlueMotion MT Allstar",
+"to": 201703
+},
+{
+"from": 201606,
+"name": "1.4 TSI MT BlueMotion Trend&Fun",
+"to": 201705
+}
+]
+},
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "fwd",
+"engine": "CTHA, BWK, CAVA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201509,
+"id": "94977",
+"name": "1.4 TSI BlueMotion MT Avenue",
+"to": 201601
+}
+]
+},
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "4wd",
+"engine": "CTHA, BWK, CAVA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201107,
+"name": "1.4 TSI MT Trend&Fun",
+"to": 201605
+},
+{
+"from": 201502,
+"id": "94962",
+"name": "1.4 TSI MT Club",
+"to": 201601
+}
+]
+},
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "fwd",
+"engine": "CTHA, BWK, CAVA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201107,
+"name": "1.4 TSI BlueMotion DSG Trend&Fun",
+"to": 201605
+},
+{
+"from": 201310,
+"name": "1.4 TSI BlueMotion DSG Sport&Style",
+"to": 201601
+},
+{
+"from": 201502,
+"id": "94961",
+"name": "1.4 TSI BlueMotion DSG Club",
+"to": 201605
+},
+{
+"from": 201507,
+"id": "94973",
+"name": "1.4 TSI BlueMotion DSG Sport",
+"to": 201601
+},
+{
+"from": 201509,
+"id": "94978",
+"name": "1.4 TSI BlueMotion DSG Avenue",
+"to": 201605
+},
+{
+"from": 201502,
+"id": "94973",
+"name": "1.4 TSI BlueMotion DSG Sport",
+"to": 201601
+},
+{
+"from": 201606,
+"id": "94961",
+"name": "1.4 TSI BlueMotion DSG Club",
+"to": 201704
+},
+{
+"from": 201606,
+"id": "94978",
+"name": "1.4 TSI BlueMotion DSG Avenue",
+"to": 201704
+},
+{
+"from": 201606,
+"id": "152351",
+"name": "1.4 TSI BlueMotion DSG Allstar",
+"to": 201603
+},
+{
+"from": 201606,
+"name": "1.4 TSI BlueMotion DSG Trend&Fun",
+"to": 201703
+},
+{
+"from": 201306,
+"id": "538634",
+"name": "1.4 TSI BlueMotion DSG Adventure",
+"to": 201401
+}
+]
+},
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "4wd",
+"engine": "CLJA, CBAB, CFFB",
+"fuel": "дизель",
+"hp": 140,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 140 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201107,
+"name": "2.0 TDI AT Track&Field",
+"to": 201601
+},
+{
+"from": 201107,
+"name": "2.0 TDI AT Track&Style",
+"to": 201601
+},
+{
+"from": 201310,
+"name": "2.0 TDI AT Sport&Style",
+"to": 201601
+},
+{
+"from": 201406,
+"id": "94957",
+"name": "2.0 TDI AT Cup",
+"to": 201501
+},
+{
+"from": 201507,
+"id": "94976",
+"name": "2.0 TDI AT Sport",
+"to": 201512
+}
+]
+},
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "4wd",
+"engine": "CCZC, CAWA",
+"fuel": "бензин",
+"hp": 170,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 170 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201107,
+"name": "2.0 TSI AT Track&Field",
+"to": 201510
+},
+{
+"from": 201107,
+"name": "2.0 TSI AT Sport&Style",
+"to": 201510
+},
+{
+"from": 201308,
+"id": "94951",
+"name": "2.0 TSI AT Sochi Edition",
+"to": 201312
+},
+{
+"from": 201310,
+"name": "2.0 TSI AT Track&Style",
+"to": 201510
+},
+{
+"from": 201406,
+"id": "94958",
+"name": "2.0 TSI AT Cup",
+"to": 201412
+},
+{
+"from": 201410,
+"name": "2.0 TSI AT Trend&Fun",
+"to": 201510
+},
+{
+"from": 201502,
+"id": "94963",
+"name": "2.0 TSI AT Club",
+"to": 201510
+},
+{
+"from": 201507,
+"id": "94974",
+"name": "2.0 TSI AT Sport",
+"to": 201512
+},
+{
+"from": 201509,
+"id": "94980",
+"name": "2.0 TSI AT Avenue",
+"to": 201601
+},
+{
+"from": 201306,
+"id": "538633",
+"name": "2.0 TSI AT Adventure",
+"to": 201401
+}
+]
+},
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "4wd",
+"engine": "CCZD",
+"fuel": "бензин",
+"hp": 180,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 180 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201511,
+"name": "2.0 TSI AT Trend&Fun",
+"to": 201605
+},
+{
+"from": 201511,
+"name": "2.0 TSI AT Track&Field",
+"to": 201605
+},
+{
+"from": 201511,
+"id": "94963",
+"name": "2.0 TSI AT Club",
+"to": 201605
+},
+{
+"from": 201511,
+"id": "94980",
+"name": "2.0 TSI AT Avenue",
+"to": 201605
+},
+{
+"from": 201511,
+"name": "2.0 TSI AT Sport&Style",
+"to": 201605
+},
+{
+"from": 201511,
+"name": "2.0 TSI AT Track&Style",
+"to": 201601
+},
+{
+"from": 201601,
+"id": "94974",
+"name": "2.0 TSI AT Sport",
+"to": 201605
+},
+{
+"from": 201606,
+"id": "152347",
+"name": "2.0 TSI AT Allstar",
+"to": 201703
+},
+{
+"from": 201606,
+"id": "94974",
+"name": "2.0 TSI AT Sport",
+"to": 201703
+},
+{
+"from": 201606,
+"id": "94963",
+"name": "2.0 TSI AT Club",
+"to": 201704
+},
+{
+"from": 201606,
+"id": "94980",
+"name": "2.0 TSI AT Avenue",
+"to": 201706
+},
+{
+"from": 201606,
+"name": "2.0 TSI AT Trend&Fun",
+"to": 201603
+},
+{
+"from": 201606,
+"name": "2.0 TSI AT Track&Field",
+"to": 201603
+}
+]
+},
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "4wd",
+"engine": "CAWB, CCTA, CCZA",
+"fuel": "бензин",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 200 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201107,
+"name": "2.0 TSI AT Sport&Style",
+"to": 201601
+},
+{
+"from": 201507,
+"id": "94974",
+"name": "2.0 TSI AT Sport",
+"to": 201512
+},
+{
+"from": 201306,
+"id": "538633",
+"name": "2.0 TSI AT Adventure",
+"to": 201401
+}
+]
+},
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "4wd",
+"engine": "CCZB",
+"fuel": "бензин",
+"hp": 210,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 210 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201311,
+"id": "94956",
+"name": "2.0 TSI DSG R-Line",
+"to": 201510
+}
+]
+},
+{
+"body": [
+"5N1",
+"5N2"
+],
+"drive": "4wd",
+"engine": "CCZB",
+"fuel": "бензин",
+"hp": 211,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 211 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201601,
+"id": "94989",
+"name": "2.0 TSI DSG Sport",
+"to": 201605
+},
+{
+"from": 201601,
+"name": "2.0 TSI DSG Sport&Style",
+"to": 201605
+},
+{
+"from": 201606,
+"id": "94989",
+"name": "2.0 TSI DSG Sport",
+"to": 201703
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/tiguan/g_201107_4135",
+"market": "Россия",
+"to": 201706
+},
+"volkswagen/tiguan/g_201601_6595": {
+"from": 201601,
+"groups": [
+{
+"body": [
+"AD1"
+],
+"drive": "fwd",
+"engine": "CZCA",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 125 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201701,
+"id": "176611",
+"name": "1.4 TSI MT Trendline",
+"to": 201706
+},
+{
+"from": 201701,
+"id": "176614",
+"name": "1.4 TSI MT Comfortline",
+"to": 201706
+},
+{
+"from": 201707,
+"id": "176611",
+"name": "1.4 TSI MT Trendline",
+"to": 202011
+},
+{
+"from": 201707,
+"id": "176614",
+"name": "1.4 TSI MT Comfortline",
+"to": 201809
+},
+{
+"from": 201901,
+"id": "236248",
+"name": "1.4 TSI MT All Inclusive",
+"to": 201909
+},
+{
+"from": 201909,
+"id": "264553",
+"name": "1.4 TSI MT Winter Edition",
+"to": 202005
+},
+{
+"from": 202006,
+"id": "293556",
+"name": "1.4 TSI MT Go!",
+"to": 202101
+}
+]
+},
+{
+"body": [
+"AD1"
+],
+"drive": "fwd",
+"engine": "CZCA",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 125 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201701,
+"id": "176616",
+"name": "1.4 TSI DSG Trendline",
+"to": 201706
+},
+{
+"from": 201707,
+"id": "176616",
+"name": "1.4 TSI DSG Trendline",
+"to": 201807
+},
+{
+"from": 201802,
+"id": "197103",
+"name": "1.4 TSI DSG City",
+"to": 201807
+}
+]
+},
+{
+"body": [
+"AD1"
+],
+"drive": "4wd",
+"engine": "CZDA, CZEA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201707,
+"id": "176617",
+"name": "1.4 TSI MT 4Motion Trendline",
+"to": 201807
+},
+{
+"from": 201701,
+"id": "176617",
+"name": "1.4 TSI MT 4Motion Trendline",
+"to": 201706
+},
+{
+"from": 201810,
+"id": "221598",
+"name": "1.4 TSI MT 4Motion Offroad",
+"to": 202012
+}
+]
+},
+{
+"body": [
+"AD1"
+],
+"drive": "fwd",
+"engine": "CZDA, CZEA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201701,
+"id": "176618",
+"name": "1.4 TSI DSG Comfortline",
+"to": 201706
+},
+{
+"from": 201701,
+"id": "176625",
+"name": "1.4 TSI DSG Highline",
+"to": 201807
+},
+{
+"from": 201707,
+"id": "176618",
+"name": "1.4 TSI DSG Comfortline",
+"to": 201807
+},
+{
+"from": 201802,
+"id": "197103",
+"name": "1.4 TSI DSG City",
+"to": 201902
+},
+{
+"from": 201808,
+"id": "176616",
+"name": "1.4 TSI DSG Trendline",
+"to": 201902
+},
+{
+"from": 201808,
+"id": "176618",
+"name": "1.4 TSI DSG Comfortline",
+"to": 201809
+},
+{
+"from": 201810,
+"id": "176618",
+"name": "1.4 TSI DSG Comfortline",
+"to": 201909
+},
+{
+"from": 201901,
+"id": "236249",
+"name": "1.4 TSI DSG All Inclusive",
+"to": 201909
+},
+{
+"from": 201902,
+"id": "241683",
+"name": "1.4 TSI DSG Connect",
+"to": 202101
+},
+{
+"from": 201902,
+"id": "241687",
+"name": "1.4 TSI DSG Connect Plus",
+"to": 201909
+},
+{
+"from": 201909,
+"id": "264555",
+"name": "1.4 TSI DSG Winter Edition",
+"to": 202005
+},
+{
+"from": 202006,
+"id": "293554",
+"name": "1.4 TSI DSG Go!",
+"to": 202101
+}
+]
+},
+{
+"body": [
+"AD1"
+],
+"drive": "4wd",
+"engine": "CZDA, CZEA",
+"fuel": "бензин",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 150 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201701,
+"id": "176619",
+"name": "1.4 TSI DSG 4Motion Comfortline",
+"to": 201706
+},
+{
+"from": 201701,
+"id": "176624",
+"name": "1.4 TSI DSG 4Motion Highline",
+"to": 201807
+},
+{
+"from": 201707,
+"id": "176619",
+"name": "1.4 TSI DSG 4Motion Comfortline",
+"to": 201809
+},
+{
+"from": 201802,
+"id": "197099",
+"name": "1.4 TSI DSG 4Motion City",
+"to": 201902
+},
+{
+"from": 201810,
+"id": "221599",
+"name": "1.4 TSI DSG 4Motion Offroad",
+"to": 202101
+},
+{
+"from": 201810,
+"id": "176619",
+"name": "1.4 TSI DSG 4Motion Comfortline",
+"to": 201903
+},
+{
+"from": 201902,
+"id": "241684",
+"name": "1.4 TSI DSG 4Motion Connect",
+"to": 201909
+},
+{
+"from": 201902,
+"id": "241685",
+"name": "1.4 TSI DSG 4Motion Connect Plus",
+"to": 201909
+},
+{
+"from": 201909,
+"id": "264554",
+"name": "1.4 TSI DSG 4Motion Winter Edition",
+"to": 202005
+},
+{
+"from": 201909,
+"id": "264731",
+"name": "1.4 TSI DSG 4Motion Exclusive",
+"to": 202101
+},
+{
+"from": 201910,
+"id": "241684",
+"name": "1.4 TSI DSG 4Motion Connect",
+"to": 202101
+},
+{
+"from": 201908,
+"id": "267330",
+"name": "1.4 TSI DSG 4Motion Trendline",
+"to": 201909
+},
+{
+"from": 202006,
+"id": "293555",
+"name": "1.4 TSI DSG 4Motion Go!",
+"to": 202101
+}
+]
+},
+{
+"body": [
+"AD1"
+],
+"drive": "4wd",
+"engine": "DFGA, DFGA, DBGC, DBGC",
+"fuel": "дизель",
+"hp": 150,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 150 л.с., дизель, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201701,
+"id": "176621",
+"name": "2.0 TDI DSG 4Motion Comfortline",
+"to": 201706
+},
+{
+"from": 201701,
+"id": "176622",
+"name": "2.0 TDI DSG 4Motion Highline",
+"to": 201909
+},
+{
+"from": 201707,
+"id": "176621",
+"name": "2.0 TDI DSG 4Motion Comfortline",
+"to": 201809
+},
+{
+"from": 201712,
+"id": "191261",
+"name": "2.0 TDI DSG 4Motion Sportline",
+"to": 202011
+},
+{
+"from": 201802,
+"id": "197097",
+"name": "2.0 TDI DSG 4Motion City",
+"to": 201811
+},
+{
+"from": 201810,
+"id": "221601",
+"name": "2.0 TDI DSG 4Motion Offroad",
+"to": 202101
+},
+{
+"from": 201810,
+"id": "176621",
+"name": "2.0 TDI DSG 4Motion Comfortline",
+"to": 201811
+},
+{
+"from": 201904,
+"id": "245536",
+"name": "2.0 TDI DSG 4Motion Connect",
+"to": 201909
+},
+{
+"from": 201904,
+"id": "245537",
+"name": "2.0 TDI DSG 4Motion Connect Plus",
+"to": 201909
+},
+{
+"from": 201909,
+"id": "264732",
+"name": "2.0 TDI DSG 4Motion Exclusive",
+"to": 202101
+}
+]
+},
+{
+"body": [
+"AD1"
+],
+"drive": "4wd",
+"engine": "CZPA",
+"fuel": "бензин",
+"hp": 180,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 180 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201701,
+"id": "176620",
+"name": "2.0 TSI DSG 4Motion Comfortline",
+"to": 201706
+},
+{
+"from": 201701,
+"id": "176623",
+"name": "2.0 TSI DSG 4Motion Highline",
+"to": 201909
+},
+{
+"from": 201707,
+"id": "176620",
+"name": "2.0 TSI DSG 4Motion Comfortline",
+"to": 201809
+},
+{
+"from": 201712,
+"id": "191259",
+"name": "2.0 TSI DSG 4Motion Sportline",
+"to": 202011
+},
+{
+"from": 201802,
+"id": "197098",
+"name": "2.0 TSI DSG 4Motion City",
+"to": 201902
+},
+{
+"from": 201810,
+"id": "221600",
+"name": "2.0 TSI DSG 4Motion Offroad",
+"to": 202101
+},
+{
+"from": 201810,
+"id": "176620",
+"name": "2.0 TSI DSG 4Motion Comfortline",
+"to": 201903
+},
+{
+"from": 201902,
+"id": "241682",
+"name": "2.0 TSI DSG 4Motion Connect",
+"to": 201909
+},
+{
+"from": 201902,
+"id": "241686",
+"name": "2.0 TSI DSG 4Motion Connect Plus",
+"to": 201909
+},
+{
+"from": 201909,
+"id": "264730",
+"name": "2.0 TSI DSG 4Motion Exclusive",
+"to": 202101
+}
+]
+},
+{
+"body": [
+"AD1"
+],
+"drive": "4wd",
+"engine": "CHHB",
+"fuel": "бензин",
+"hp": 220,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 220 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201701,
+"id": "176623",
+"name": "2.0 TSI DSG 4Motion Highline",
+"to": 201909
+},
+{
+"from": 201712,
+"id": "191259",
+"name": "2.0 TSI DSG 4Motion Sportline",
+"to": 202011
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/tiguan/g_201601_6595",
+"market": "Россия",
+"to": 202101
+},
+"volkswagen/tiguan/g_2016_20654": {
+"from": 201601,
+"groups": [
+{
+"body": [
+"AD1"
+],
+"drive": "4wd",
+"engine": "CZPA",
+"fuel": "бензин",
+"gen_key": "volkswagen/tiguan/g_2016_20654",
+"hp": 180,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 180 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201611,
+"id": "502671",
+"name": "2.0 330 TSI DSG 4Motion Creative",
+"to": 202011
+},
+{
+"from": 201611,
+"id": "502672",
+"name": "2.0 330 TSI DSG 4Motion High-End",
+"to": 202011
+}
+]
+},
+{
+"body": [
+"AD1"
+],
+"drive": "4wd",
+"engine": "CHHB",
+"fuel": "бензин",
+"gen_key": "volkswagen/tiguan/g_2016_20654",
+"hp": 220,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 220 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 201611,
+"id": "502673",
+"name": "2.0 380 TSI DSG 4Motion R-Line",
+"to": 202011
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/tiguan/g_2016_20654",
+"market": "Китай",
+"to": 202011
+},
 "volkswagen/tiguan_l/g_2016_23803": {
 "from": 201601,
 "groups": [
@@ -157784,6 +164098,7 @@
 "drive": "fwd",
 "engine": "DKV",
 "fuel": "бензин",
+"gen_key": "volkswagen/tiguan_l/g_2016_23803",
 "hp": 186,
 "hp_total": null,
 "hybrid": null,
@@ -157846,6 +164161,7 @@
 "drive": "4wd",
 "engine": "DKX",
 "fuel": "бензин",
+"gen_key": "volkswagen/tiguan_l/g_2016_23803",
 "hp": 220,
 "hp_total": null,
 "hybrid": null,
@@ -157911,6 +164227,7 @@
 "drive": "fwd",
 "engine": "DJS",
 "fuel": "бензин",
+"gen_key": "volkswagen/tiguan_l/g_202010_19976",
 "hp": 150,
 "hp_total": null,
 "hybrid": null,
@@ -157981,6 +164298,7 @@
 "drive": "fwd",
 "engine": "DSV",
 "fuel": "бензин",
+"gen_key": "volkswagen/tiguan_l/g_202010_19976",
 "hp": 160,
 "hp_total": null,
 "hybrid": null,
@@ -158001,6 +164319,7 @@
 "drive": "fwd",
 "engine": "DRFA, DTH",
 "fuel": "бензин",
+"gen_key": "volkswagen/tiguan_l/g_202010_19976",
 "hp": 186,
 "hp_total": null,
 "hybrid": null,
@@ -158057,6 +164376,7 @@
 "drive": "4wd",
 "engine": "DNPA",
 "fuel": "бензин",
+"gen_key": "volkswagen/tiguan_l/g_202010_19976",
 "hp": 220,
 "hp_total": null,
 "hybrid": null,
@@ -158119,6 +164439,7 @@
 "drive": "fwd",
 "engine": "DTH",
 "fuel": "бензин",
+"gen_key": "volkswagen/tiguan_l/g_202405_20653",
 "hp": 186,
 "hp_total": null,
 "hybrid": null,
@@ -158271,6 +164592,142 @@
 "key": "volkswagen/tiguan_l/g_202405_20653",
 "market": "Китай",
 "to": null
+},
+"volkswagen/tiguan_x/g_202011_17246": {
+"from": 202009,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "DTH",
+"fuel": "бензин",
+"gen_key": "volkswagen/tiguan_x/g_202011_17246",
+"hp": 186,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 186 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202011,
+"id": "454064",
+"name": "2.0 330 TSI DSG Premium",
+"to": 202209
+},
+{
+"from": 202011,
+"id": "454065",
+"name": "2.0 330 TSI DSG Flagship",
+"to": 202209
+},
+{
+"from": 202011,
+"id": "454066",
+"name": "2.0 330 TSI DSG Respect Flagship",
+"to": 202209
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "DKX",
+"fuel": "бензин",
+"gen_key": "volkswagen/tiguan_x/g_202011_17246",
+"hp": 220,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 220 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202011,
+"id": "454067",
+"name": "2.0 380 TSI DSG Flagship",
+"to": 202209
+},
+{
+"from": 202011,
+"id": "454068",
+"name": "2.0 380 TSI DSG Respect Flagship",
+"to": 202209
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/tiguan_x/g_202011_17246",
+"market": "Китай",
+"to": 202209
+},
+"volkswagen/tiguan_x/g_202209_17245": {
+"from": 202209,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "DTH",
+"fuel": "бензин",
+"hp": 186,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 186 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202209,
+"id": "454059",
+"name": "2.0 330 TSI DSG Premium",
+"to": 202606
+},
+{
+"from": 202209,
+"id": "454060",
+"name": "2.0 330 TSI DSG Flagship",
+"to": 202606
+},
+{
+"from": 202209,
+"id": "454061",
+"name": "2.0 330 TSI DSG Respect Flagship",
+"to": 202606
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "DKX",
+"fuel": "бензин",
+"hp": 220,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 220 л.с., бензин, робот, полный привод (4WD)",
+"trans": "robot",
+"trims": [
+{
+"from": 202209,
+"id": "454062",
+"name": "2.0 380 TSI DSG Flagship",
+"to": 202606
+},
+{
+"from": 202209,
+"id": "454063",
+"name": "2.0 380 TSI DSG Respect Flagship",
+"to": 202606
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/tiguan_x/g_202209_17245",
+"market": "Китай",
+"to": 202606
 },
 "volvo/s90/g_201603_5072": {
 "from": 201601,
@@ -182045,6 +188502,117 @@
 "name": "1.8 AT Comfort",
 "v": 3
 },
+"467131": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"195 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"136 л.с. (100 кВт) при 6500 об/мин"
+],
+[
+"Крутящий момент",
+"169 Н·м при 4300 об/мин"
+],
+[
+"Модель двигателя",
+"R18ZH"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-5"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,3 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4664 × 1750 × 1505 мм"
+],
+[
+"Колёсная база",
+"2650 мм"
+],
+[
+"Клиренс",
+"130 мм"
+],
+[
+"Масса",
+"1275 кг"
+],
+[
+"Топливный бак",
+"47 л"
+],
+[
+"Багажник",
+"588 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"205/55 R16"
+]
+]
+]
+],
+"name": "1.8 CVT Comfort",
+"v": 3
+},
 "468256": {
 "groups": [
 [
@@ -188579,6 +195147,125 @@
 "name": "2.0 AT Technology",
 "v": 3
 },
+"487642": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,9 с"
+],
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"160 л.с. (118 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"250 Н·м при 1750 об/мин"
+],
+[
+"Модель двигателя",
+"DSV"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,6 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4733 × 1839 × 1673 мм"
+],
+[
+"Колёсная база",
+"2791 мм"
+],
+[
+"Клиренс",
+"190 мм"
+],
+[
+"Масса",
+"1620 кг"
+],
+[
+"Топливный бак",
+"60 л"
+],
+[
+"Багажник",
+"495 (1780) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"235/55 R18"
+],
+[
+"Радиус разворота",
+"6 м"
+]
+]
+]
+],
+"name": "1.5 300 TSI DSG Intelligent",
+"v": 3
+},
 "487948": {
 "groups": [
 [
@@ -189575,6 +196262,117 @@
 "name": "Vizzion 85 kWh Air",
 "v": 3
 },
+"491286": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"178 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"117 л.с. (86 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"150 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"TU5P"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-4"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"7,4 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4180 × 1785 × 1580 мм"
+],
+[
+"Колёсная база",
+"2540 мм"
+],
+[
+"Клиренс",
+"140 мм"
+],
+[
+"Масса",
+"1253 кг"
+],
+[
+"Топливный бак",
+"53 л"
+],
+[
+"Багажник",
+"354 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"205/65 R15"
+]
+]
+]
+],
+"name": "1.6 AT 2WD Trendy Edition",
+"v": 3
+},
 "491369": {
 "groups": [
 [
@@ -189799,6 +196597,121 @@
 ]
 ],
 "name": "1.5 20T DCT Flagship",
+"v": 3
+},
+"492368": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,6 с"
+],
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"160 л.с. (118 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"250 Н·м при 1750 об/мин"
+],
+[
+"Модель двигателя",
+"DSV"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,7 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4593 × 1860 × 1665 мм"
+],
+[
+"Колёсная база",
+"2731 мм"
+],
+[
+"Масса",
+"1632 кг"
+],
+[
+"Топливный бак",
+"60 л"
+],
+[
+"Багажник",
+"506 (1590) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"235/55 R18"
+]
+]
+]
+],
+"name": "1.5 300 TSI DSG Luxury Plus",
 "v": 3
 },
 "494310": {
@@ -190815,6 +197728,113 @@
 ]
 ],
 "name": "PHEV 1.5 T 4WD Extended Range Max Edition 42 kWh"
+},
+"497791": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"175 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"171 л.с. (126 кВт) при 6600 об/мин"
+],
+[
+"Крутящий момент",
+"209 Н·м при 5000 об/мин"
+],
+[
+"Модель двигателя",
+"M20D-FKS"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,5 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4755 × 1855 × 1660 мм"
+],
+[
+"Колёсная база",
+"2690 мм"
+],
+[
+"Клиренс",
+"195 мм"
+],
+[
+"Масса",
+"1585 кг"
+],
+[
+"Топливный бак",
+"55 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"225/60R18"
+],
+[
+"Радиус разворота",
+"5,5 м"
+]
+]
+]
+],
+"name": "2.0 CVT 2WD Aggressive",
+"v": 3
 },
 "498001": {
 "groups": [
@@ -192249,6 +199269,117 @@
 ]
 ],
 "name": "2.5 AT 4WD Deluxe"
+},
+"502212": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"188 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"124 л.с. (91 кВт) при 6600 об/мин"
+],
+[
+"Крутящий момент",
+"145 Н·м при 4700 об/мин"
+],
+[
+"Модель двигателя",
+"L15CE"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"5,6 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4109 × 1694 × 1537 мм"
+],
+[
+"Колёсная база",
+"2530 мм"
+],
+[
+"Клиренс",
+"103 мм"
+],
+[
+"Масса",
+"1120 кг"
+],
+[
+"Топливный бак",
+"40 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Барабанные"
+],
+[
+"Шины",
+"185/55 R16"
+],
+[
+"Радиус разворота",
+"5,2 м"
+]
+]
+]
+],
+"name": "1.5 CVT Sport Heartbeat",
+"v": 3
 },
 "502229": {
 "groups": [
@@ -208157,6 +215288,129 @@
 ]
 ],
 "name": "PHEV 1.5T DHT AWD Ultra Long Range Core"
+},
+"548037": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,1 с"
+],
+[
+"Максимальная скорость",
+"210 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"150 л.с. (110 кВт) при 5000 об/мин"
+],
+[
+"Крутящий момент",
+"250 Н·м при 1750 об/мин"
+],
+[
+"Модель двигателя",
+"DJS"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,1 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4948 × 1836 × 1469 мм"
+],
+[
+"Колёсная база",
+"2871 мм"
+],
+[
+"Клиренс",
+"145 мм"
+],
+[
+"Масса",
+"1395 кг"
+],
+[
+"Топливный бак",
+"69 л"
+],
+[
+"Багажник",
+"520 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/60 R16"
+],
+[
+"Радиус разворота",
+"5,7 м"
+]
+]
+]
+],
+"name": "1.4 280 TSI DSG Business",
+"v": 3
 },
 "548423": {
 "groups": [
