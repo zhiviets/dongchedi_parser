@@ -510,7 +510,9 @@ def stale_stats(items: dict, seen: set) -> list[dict]:
     return out
 
 
-GAUGE_FIRST = (os.environ.get("CHE168_GAUGE_FIRST") or "1") == "1"
+# Китай: новые машины добавляем и дальше (каждая — сразу со шкалой цены), машинам сайта без шкалы цены ищем
+# параллельно (страницы их моделей открываются первыми); 1 — сначала шкала всем машинам сайта, потом новые
+GAUGE_FIRST = (os.environ.get("CHE168_GAUGE_FIRST") or "0") == "1"
 GAUGE_FIRST_MAX = int(os.environ.get("CHE168_GAUGE_FIRST_MAX") or "50")
 
 
@@ -631,20 +633,29 @@ def scan_models(page, known: set, touched: list | None = None):
             re.findall(rf'<a[^>]+href="/china/{slug}/([a-z][a-z0-9]*)/[^"]*"[^>]*>([^<]{{1,30}})</a>', content)
             if name.strip()))
 
-    run([(f"https://www.che168.com/china/{slug}/", (slug, name)) for slug, name in brands], "марки", on_brand)
+    # Сначала марки машин сайта без шкалы цены и сразу страницы их моделей (цены похожих им нужны в первую
+    # очередь; к концу долгого обхода che168 начинает показывать проверку), потом остальные марки
+    lacking_items = [i for i in SITE_ITEMS.values()
+                     if i.get("published") and not i.get("blocked") and not i.get("has_gauge")]
+    lacking = [_norm(i.get("text") or "") for i in lacking_items]
+    lacking_makes = {i.get("make") for i in lacking_items if i.get("make")}
+    first = [b for b in brands if extract_brand_model(b[1] + " 2020款")[0] in lacking_makes]
+    rest = [b for b in brands if b not in first]
+    ok = run([(f"https://www.che168.com/china/{slug}/", (slug, name)) for slug, name in first],
+             "марки машин без шкалы", on_brand) if first else True
+    # Страница модели, название которой есть в названии машины сайта без шкалы; больше таких машин — раньше
+    priority = [(f"https://www.che168.com/china/{slug}/{sl}/", name) for slug, _ in first if slug in series_by_brand
+                for sl, name in series_by_brand[slug] if len(_norm(name)) >= 2]
+    hits = {url: sum(_norm(name) in t for t in lacking) for url, name in priority}
+    priority = sorted((x for x in priority if hits[x[0]]), key=lambda x: -hits[x[0]])
+    if ok and priority and time.time() < deadline:
+        print(f"Модели машин сайта без шкалы цены: {len(priority)} страниц (марок {len(first)}) — открываем первыми")
+        ok = run(priority, "модели без шкалы", lambda content, name: add_cards(content))
+    if ok and time.time() < deadline:
+        ok = run([(f"https://www.che168.com/china/{slug}/", (slug, name)) for slug, name in rest], "марки", on_brand)
     with_cars = [b for b in brands if b[0] in series_by_brand]
     print(f"Марки: с машинами {len(with_cars)}, моделей с машинами {len(groups)}, "
           f"ссылок на модели {sum(map(len, series_by_brand.values()))}")
-
-    # Сначала — модели машин сайта без шкалы цены (их цены похожих нужны в первую очередь): страница модели,
-    # название которой есть в названии такой машины
-    lacking = [_norm(i.get("text") or "") for i in SITE_ITEMS.values()
-               if i.get("published") and not i.get("blocked") and not i.get("has_gauge")]
-    priority = [(f"https://www.che168.com/china/{slug}/{sl}/", name) for slug, _ in with_cars
-                for sl, name in series_by_brand[slug] if len(_norm(name)) >= 2 and any(_norm(name) in t for t in lacking)]
-    if priority and time.time() < deadline:
-        print(f"Модели машин сайта без шкалы цены: {len(priority)} страниц — открываем первыми")
-        run(priority, "модели без шкалы", lambda content, name: add_cards(content))
     # Модели, машин которых ещё не встретили, — по кругу по маркам (популярные марки первыми)
     keys = [_norm(k) for k in groups]
     queues = [[(f"https://www.che168.com/china/{slug}/{sl}/", name) for sl, name in series_by_brand[slug]
@@ -655,7 +666,9 @@ def scan_models(page, known: set, touched: list | None = None):
         for q in queues:
             if q:
                 jobs.append(q.pop(0))
-    if jobs and time.time() < deadline:
+    done_urls = {url for url, _ in priority}
+    jobs = [j for j in jobs if j[0] not in done_urls]
+    if ok and jobs and time.time() < deadline:
         run(jobs, "модели", lambda content, name: add_cards(content))
     close_all(pool, SCAN_WORKERS)
     pool.shutdown(wait=True)
@@ -754,6 +767,11 @@ def pick_models(groups: dict, total: int, on_site: dict | None = None, have: dic
     порядке: от прогона к прогону на сайт попадают разные модели.
     """
     on_site = on_site or {}
+    # Новые машины — только со шкалой цены (4+ похожих объявлений che168): без неё на сайт не берём
+    before = sum(map(len, groups.values()))
+    groups = {k: [c for c in cars if c.get("price_stats")] for k, cars in groups.items()}
+    groups = {k: cars for k, cars in groups.items() if cars}
+    print(f"Новые машины со шкалой цены: {sum(map(len, groups.values()))} из {before}")
     # Сначала модели, которых на сайте меньше, среди них — самые массовые (больше объявлений в обходе)
     order = sorted(groups, key=lambda k: (on_site.get(k, 0), -len(groups[k]), random.random()))
     groups = {k: groups[k] for k in order}
@@ -1543,7 +1561,8 @@ def run_size(items: dict) -> int:
     global BATCH, BATCH_PAUSE
     if TOTAL:
         return TOTAL
-    good = sum(1 for i in items.values() if i.get("complete") and i.get("published"))
+    # До 5500 считаем машины со шкалой цены: без неё машина каталог не заполняет
+    good = sum(1 for i in items.values() if i.get("complete") and i.get("published") and i.get("has_gauge"))
     # Сначала шкала цены у каждой машины сайта: пока без неё GAUGE_FIRST_MAX+ машин — новых не добавляем,
     # прогон обходит модели этих машин и считает им шкалу
     if GAUGE_FIRST and lacking_gauge(items) > GAUGE_FIRST_MAX:
