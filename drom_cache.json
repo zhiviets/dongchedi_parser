@@ -103426,6 +103426,7 @@
 "drive": "rwd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "leapmotor/c01/g_2022_17127",
 "hp": 272,
 "hp_total": null,
 "hybrid": null,
@@ -103518,6 +103519,7 @@
 "drive": "4wd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "leapmotor/c01/g_2022_17127",
 "hp": 544,
 "hp_total": null,
 "hybrid": null,
@@ -129184,6 +129186,319 @@
 "key": "mg/5/g_2012_18357",
 "market": "Китай",
 "to": 201806
+},
+"mg/5/g_202011_18358": {
+"from": 202009,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "15S4C",
+"fuel": "бензин",
+"gen_key": "mg/5/g_202011_18358",
+"hp": 120,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 120 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202011,
+"id": "461497",
+"name": "1.5 MT Youth Style 180DVVT",
+"to": 202205
+},
+{
+"from": 202011,
+"id": "461498",
+"name": "1.5 MT Youth Luxury 180DVVT",
+"to": 202205
+},
+{
+"from": 202206,
+"id": "461497",
+"name": "1.5 MT Youth Style 180DVVT",
+"to": 202304
+},
+{
+"from": 202206,
+"id": "461498",
+"name": "1.5 MT Youth Luxury 180DVVT",
+"to": 202306
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15S4C",
+"fuel": "бензин",
+"gen_key": "mg/5/g_202011_18358",
+"hp": 120,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 120 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202011,
+"id": "461499",
+"name": "1.5 CVT Youth Style 180DVVT",
+"to": 202205
+},
+{
+"from": 202011,
+"id": "461500",
+"name": "1.5 CVT Youth Luxury 180DVVT",
+"to": 202205
+},
+{
+"from": 202206,
+"id": "461499",
+"name": "1.5 CVT Youth Style 180DVVT",
+"to": 202306
+},
+{
+"from": 202206,
+"id": "461500",
+"name": "1.5 CVT Youth Luxury 180DVVT",
+"to": 202306
+},
+{
+"from": 202206,
+"id": "461510",
+"name": "1.5 CVT Youth Flagship 180DVVT",
+"to": 202306
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15FCD",
+"fuel": "бензин",
+"hp": 129,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 129 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202305,
+"id": "461507",
+"name": "1.5 MT Style 180DVVT",
+"to": null
+},
+{
+"from": 202307,
+"id": "471934",
+"name": "1.5 MT Luxury 180DVVT",
+"to": 202506
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15FCD",
+"fuel": "бензин",
+"hp": 129,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 129 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202307,
+"id": "471935",
+"name": "1.5 CVT Style 180DVVT",
+"to": 202506
+},
+{
+"from": 202307,
+"id": "471936",
+"name": "1.5 CVT Luxury 180DVVT",
+"to": 202506
+},
+{
+"from": 202307,
+"id": "471937",
+"name": "1.5 CVT Flagship 180DVVT",
+"to": 202506
+},
+{
+"from": 202506,
+"id": "562678",
+"name": "1.5 CVT Global Launch 180DVVT",
+"to": null
+},
+{
+"from": 202506,
+"id": "562679",
+"name": "1.5 CVT Global Luxury 180DVVT",
+"to": null
+},
+{
+"from": 202512,
+"id": "562680",
+"name": "1.5 CVT Comfort Custom 180DVVT",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15C4E",
+"fuel": "бензин",
+"gen_key": "mg/5/g_202011_18358",
+"hp": 173,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 173 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202011,
+"id": "461504",
+"name": "1.5T DCT Youth Luxury Trend 300TGI",
+"to": 202205
+},
+{
+"from": 202011,
+"id": "461501",
+"name": "1.5T DCT Youth Luxury Premium 300TGI",
+"to": 202205
+},
+{
+"from": 202011,
+"id": "461502",
+"name": "1.5T DCT Youth Luxury Flagship 300TGI",
+"to": 202205
+},
+{
+"from": 202011,
+"id": "461503",
+"name": "1.5T DCT Trend Youth Luxury Limited Edition 300TGI",
+"to": 202205
+},
+{
+"from": 202206,
+"id": "461511",
+"name": "1.5T DCT Trend Premium 300TGI",
+"to": 202306
+},
+{
+"from": 202206,
+"id": "461512",
+"name": "1.5T DCT Trend Flagship 300TGI",
+"to": 202306
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15C4E",
+"fuel": "бензин",
+"hp": 181,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 181 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 202307,
+"id": "471938",
+"name": "1.5T DCT Premium 180DVVT",
+"to": 202506
+},
+{
+"from": 202307,
+"id": "471939",
+"name": "1.5T DCT Flagship 180DVVT",
+"to": 202506
+},
+{
+"from": 202506,
+"id": "562681",
+"name": "1.5T DCT Global Flagship 300DVVT",
+"to": null
+},
+{
+"from": 202506,
+"id": "562682",
+"name": "1.5T DCT Global Flagship MAX 300DVVT",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "mg/5/g_202011_18358",
+"market": "Китай",
+"to": null
+},
+"mg/5/g_202309_19352": {
+"from": 202309,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "15S4C",
+"fuel": "бензин",
+"hp": 114,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 114 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 202410,
+"id": "525928",
+"name": "1.5 MT Comfort",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "15S4C",
+"fuel": "бензин",
+"hp": 114,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 114 л.с., бензин, вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202309,
+"id": "471954",
+"name": "1.5 CVT Comfort",
+"to": null
+},
+{
+"from": 202309,
+"id": "471955",
+"name": "1.5 CVT Deluxe",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "mg/5/g_202309_19352",
+"market": "Россия",
+"to": null
 },
 "mg/6/g_2009_17409": {
 "from": 200904,
@@ -189248,6 +189563,121 @@
 ]
 ],
 "name": "1.5 AT Elite",
+"v": 3
+},
+"461504": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"200 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"173 л.с. (127 кВт) при 5600 об/мин"
+],
+[
+"Крутящий момент",
+"275 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"15C4E"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"5,9 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4675 × 1842 × 1480 мм"
+],
+[
+"Колёсная база",
+"2680 мм"
+],
+[
+"Клиренс",
+"135 мм"
+],
+[
+"Масса",
+"1320 кг"
+],
+[
+"Топливный бак",
+"45 л"
+],
+[
+"Багажник",
+"401 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"205/50 R17"
+]
+]
+]
+],
+"name": "1.5T DCT Youth Luxury Trend 300TGI",
 "v": 3
 },
 "462260": {
