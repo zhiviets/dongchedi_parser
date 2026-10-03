@@ -48830,6 +48830,7 @@
 "drive": "fwd",
 "engine": "JL478QEP",
 "fuel": "бензин",
+"gen_key": "changan/cs35_plus/g_2018_21723",
 "hp": 128,
 "hp_total": null,
 "hybrid": null,
@@ -115102,6 +115103,7 @@
 "drive": "fwd",
 "engine": "M270.910",
 "fuel": "бензин",
+"gen_key": "mercedes-benz/a-class/g_2015_22038",
 "hp": 122,
 "hp_total": null,
 "hybrid": null,
@@ -115134,6 +115136,7 @@
 "drive": "fwd",
 "engine": "M270.910",
 "fuel": "бензин",
+"gen_key": "mercedes-benz/a-class/g_2015_22038",
 "hp": 156,
 "hp_total": null,
 "hybrid": null,
@@ -115214,6 +115217,7 @@
 "drive": "fwd",
 "engine": "M270.920",
 "fuel": "бензин",
+"gen_key": "mercedes-benz/a-class/g_2015_22038",
 "hp": 211,
 "hp_total": null,
 "hybrid": null,
@@ -115246,6 +115250,7 @@
 "drive": "4wd",
 "engine": "M133.980",
 "fuel": "бензин",
+"gen_key": "mercedes-benz/a-class/g_2015_22038",
 "hp": 381,
 "hp_total": null,
 "hybrid": null,
@@ -151508,6 +151513,783 @@
 "key": "toyota/camry/g_2023_20479",
 "market": "Китай",
 "to": 202607
+},
+"toyota/corolla/g_200008_901": {
+"from": 200008,
+"groups": [
+{
+"body": [
+"ZZE120"
+],
+"drive": "fwd",
+"engine": "4ZZ-FE",
+"fuel": "бензин",
+"hp": 95,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 95 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200201,
+"id": "186224",
+"name": "1.4 MT R0",
+"to": 200407
+},
+{
+"from": 200201,
+"id": "186223",
+"name": "1.4 MT R1 Linea Terra",
+"to": 200407
+}
+]
+},
+{
+"body": [
+"ZZE120"
+],
+"drive": "fwd",
+"engine": "4ZZ-FE",
+"fuel": "бензин",
+"hp": 97,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 97 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200408,
+"id": "35073",
+"name": "1.4 MT Terra",
+"to": 200505
+},
+{
+"from": 200408,
+"id": "267145",
+"name": "1.4 MT Sol",
+"to": 200505
+}
+]
+},
+{
+"body": [
+"ZZE121"
+],
+"drive": "fwd",
+"engine": "3ZZ-FE",
+"fuel": "бензин",
+"hp": 108,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 108 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200201,
+"id": "186228",
+"name": "1.6 MT R1 Linea Terra",
+"to": 200407
+}
+]
+},
+{
+"body": [
+"ZZE121"
+],
+"drive": "fwd",
+"engine": "3ZZ-FE",
+"fuel": "бензин",
+"hp": 108,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 108 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200201,
+"id": "186229",
+"name": "1.6 AT R1 Linea Terra",
+"to": 200407
+},
+{
+"from": 200201,
+"id": "186230",
+"name": "1.6 AT R2 Linea Sol",
+"to": 200407
+}
+]
+},
+{
+"body": [
+"ZZE121"
+],
+"drive": "fwd",
+"engine": "3ZZ-FE",
+"fuel": "бензин",
+"hp": 110,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 110 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200408,
+"id": "186219",
+"name": "1.6 MT Terra",
+"to": 200505
+},
+{
+"from": 200408,
+"id": "267147",
+"name": "1.6 MT Sol",
+"to": 200505
+}
+]
+},
+{
+"body": [
+"ZZE121"
+],
+"drive": "fwd",
+"engine": "3ZZ-FE",
+"fuel": "бензин",
+"hp": 110,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 110 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200408,
+"id": "35076",
+"name": "1.6 AT Terra",
+"to": 200505
+},
+{
+"from": 200408,
+"id": "35080",
+"name": "1.6 AT Sol",
+"to": 200505
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/corolla/g_200008_901",
+"market": "Россия",
+"to": 200505
+},
+"toyota/corolla/g_200209_4425": {
+"from": 200405,
+"groups": [
+{
+"body": [
+"ZZE120L"
+],
+"drive": "fwd",
+"engine": "4ZZ-FE",
+"fuel": "бензин",
+"hp": 97,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 97 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200506,
+"id": "113948",
+"name": "1.4 MT Terra",
+"to": 200702
+}
+]
+},
+{
+"body": [
+"ZZE121L"
+],
+"drive": "fwd",
+"engine": "3ZZ-FE",
+"fuel": "бензин",
+"hp": 110,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 110 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200506,
+"id": "543041",
+"name": "1.6 AT Terra",
+"to": 200702
+},
+{
+"from": 200506,
+"id": "113949",
+"name": "1.6 AT Sol",
+"to": 200702
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/corolla/g_200209_4425",
+"market": "Россия",
+"to": 200702
+},
+"toyota/corolla/g_200404_4294": {
+"from": 200404,
+"groups": [
+{
+"body": [
+"CBA-NZE120"
+],
+"drive": "fwd",
+"engine": "2NZ-FE",
+"fuel": "бензин",
+"hp": 87,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.3,
+"text": "1.3 л, 87 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200412,
+"id": "56723",
+"name": "1.3 X assista package",
+"to": 200610
+},
+{
+"from": 200412,
+"id": "56721",
+"name": "1.3 X",
+"to": 200610
+},
+{
+"from": 200404,
+"id": "56723",
+"name": "1.3 X assista package",
+"to": 200411
+}
+]
+},
+{
+"body": [
+"CBA-NZE120"
+],
+"drive": "fwd",
+"engine": "2NZ-FE",
+"fuel": "бензин",
+"hp": 87,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.3,
+"text": "1.3 л, 87 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200412,
+"id": "56723",
+"name": "1.3 X assista package",
+"to": 200610
+},
+{
+"from": 200412,
+"id": "56721",
+"name": "1.3 X",
+"to": 200610
+},
+{
+"from": 200404,
+"id": "56723",
+"name": "1.3 X assista package",
+"to": 200411
+}
+]
+},
+{
+"body": [
+"CBA-NZE124"
+],
+"drive": "4wd",
+"engine": "1NZ-FE",
+"fuel": "бензин",
+"hp": 105,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 105 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 200404,
+"id": "56755",
+"name": "1.5 X assista package 4WD",
+"to": 200411
+},
+{
+"from": 200404,
+"id": "25766",
+"name": "1.5 X 4WD",
+"to": 200411
+},
+{
+"from": 200404,
+"id": "25776",
+"name": "1.5 G 4WD",
+"to": 200411
+},
+{
+"from": 200412,
+"id": "56755",
+"name": "1.5 X assista package 4WD",
+"to": 200610
+},
+{
+"from": 200412,
+"id": "25766",
+"name": "1.5 X 4WD",
+"to": 200610
+},
+{
+"from": 200412,
+"id": "25776",
+"name": "1.5 G 4WD",
+"to": 200610
+},
+{
+"from": 200412,
+"id": "56738",
+"name": "1.5 X HID selection 4WD",
+"to": 200610
+},
+{
+"from": 200505,
+"id": "56739",
+"name": "1.5 X HID limited 4WD",
+"to": 200610
+},
+{
+"from": 200512,
+"id": "56745",
+"name": "1.5 X HID 40th anniversary limited 4WD",
+"to": 200610
+},
+{
+"from": 200409,
+"id": "56738",
+"name": "1.5 X HID selection 4WD",
+"to": 200411
+}
+]
+},
+{
+"body": [
+"CBA-NZE121"
+],
+"drive": "fwd",
+"engine": "1NZ-FE",
+"fuel": "бензин",
+"hp": 109,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 109 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200404,
+"id": "56751",
+"name": "1.5 X assista package",
+"to": 200411
+},
+{
+"from": 200404,
+"id": "25765",
+"name": "1.5 X",
+"to": 200411
+},
+{
+"from": 200404,
+"id": "25775",
+"name": "1.5 G",
+"to": 200411
+},
+{
+"from": 200412,
+"id": "56751",
+"name": "1.5 X assista package",
+"to": 200610
+},
+{
+"from": 200412,
+"id": "25765",
+"name": "1.5 X",
+"to": 200610
+},
+{
+"from": 200412,
+"id": "25775",
+"name": "1.5 G",
+"to": 200610
+},
+{
+"from": 200412,
+"id": "56728",
+"name": "1.5 X HID selection",
+"to": 200610
+},
+{
+"from": 200505,
+"id": "56730",
+"name": "1.5 X HID limited",
+"to": 200610
+},
+{
+"from": 200512,
+"id": "56744",
+"name": "1.5 X HID 40th anniversary limited",
+"to": 200610
+},
+{
+"from": 200409,
+"id": "56728",
+"name": "1.5 X HID selection",
+"to": 200411
+}
+]
+},
+{
+"body": [
+"CBA-NZE121",
+"DBA-NZE121"
+],
+"drive": "fwd",
+"engine": "1NZ-FE",
+"fuel": "бензин",
+"hp": 110,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.5,
+"text": "1.5 л, 110 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200404,
+"id": "56751",
+"name": "1.5 X assista package",
+"to": 200411
+},
+{
+"from": 200404,
+"id": "25765",
+"name": "1.5 X",
+"to": 200411
+},
+{
+"from": 200404,
+"id": "25775",
+"name": "1.5 G",
+"to": 200411
+},
+{
+"from": 200412,
+"id": "56751",
+"name": "1.5 X assista package",
+"to": 200610
+},
+{
+"from": 200412,
+"id": "25765",
+"name": "1.5 X",
+"to": 200610
+},
+{
+"from": 200412,
+"id": "56728",
+"name": "1.5 X HID selection",
+"to": 200610
+},
+{
+"from": 200412,
+"id": "25775",
+"name": "1.5 G",
+"to": 200610
+},
+{
+"from": 200505,
+"id": "56730",
+"name": "1.5 X HID limited",
+"to": 200610
+},
+{
+"from": 200512,
+"id": "56744",
+"name": "1.5 X HID 40th anniversary limited",
+"to": 200610
+},
+{
+"from": 200409,
+"id": "56728",
+"name": "1.5 X HID selection",
+"to": 200411
+}
+]
+},
+{
+"body": [
+"CBA-ZZE124"
+],
+"drive": "4wd",
+"engine": "1ZZ-FE",
+"fuel": "бензин",
+"hp": 125,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 125 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 200404,
+"id": "25785",
+"name": "1.8 LUXEL 4WD",
+"to": 200411
+},
+{
+"from": 200404,
+"id": "25797",
+"name": "1.8 LUXEL premium edition 4WD",
+"to": 200411
+},
+{
+"from": 200412,
+"id": "56741",
+"name": "1.8 luxel 4WD",
+"to": 200610
+},
+{
+"from": 200412,
+"id": "56742",
+"name": "1.8 luxel premium edition 4WD",
+"to": 200610
+}
+]
+},
+{
+"body": [
+"CBA-ZZE122"
+],
+"drive": "fwd",
+"engine": "1ZZ-FE",
+"fuel": "бензин",
+"hp": 132,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.8,
+"text": "1.8 л, 132 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200404,
+"id": "25784",
+"name": "1.8 LUXEL",
+"to": 200411
+},
+{
+"from": 200404,
+"id": "25796",
+"name": "1.8 LUXEL premium edition",
+"to": 200411
+},
+{
+"from": 200412,
+"id": "56734",
+"name": "1.8 luxel",
+"to": 200610
+},
+{
+"from": 200412,
+"id": "56735",
+"name": "1.8 luxel premium edition",
+"to": 200610
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/corolla/g_200404_4294",
+"market": "Япония",
+"to": 200610
+},
+"toyota/corolla/g_200703_4525": {
+"from": 200611,
+"groups": [
+{
+"body": [
+"NRE150"
+],
+"drive": "fwd",
+"engine": "1NR-FE",
+"fuel": "бензин",
+"hp": 101,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.3,
+"text": "1.3 л, 101 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200812,
+"id": "192820",
+"name": "1.3 MT Comfort",
+"to": 201006
+}
+]
+},
+{
+"body": [
+"ZZE150"
+],
+"drive": "fwd",
+"engine": "4ZZ-FE",
+"fuel": "бензин",
+"hp": 97,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.4,
+"text": "1.4 л, 97 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200703,
+"id": "119018",
+"name": "1.4 MT Комфорт",
+"to": 200811
+}
+]
+},
+{
+"body": [
+"ZRE151"
+],
+"drive": "fwd",
+"engine": "1ZR-FE",
+"fuel": "бензин",
+"hp": 124,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 124 л.с., бензин, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 200703,
+"id": "119019",
+"name": "1.6 MT Комфорт",
+"to": 200811
+},
+{
+"from": 200812,
+"id": "192821",
+"name": "1.6 MT Comfort Plus",
+"to": 201006
+},
+{
+"from": 200812,
+"id": "192819",
+"name": "1.6 МТ Elegance",
+"to": 201006
+}
+]
+},
+{
+"body": [
+"ZRE151"
+],
+"drive": "fwd",
+"engine": "1ZR-FE",
+"fuel": "бензин",
+"hp": 124,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 124 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 200812,
+"id": "192823",
+"name": "1.6 AT Comfort Plus",
+"to": 201006
+},
+{
+"from": 200812,
+"id": "192824",
+"name": "1.6 AT Elegance",
+"to": 201006
+},
+{
+"from": 200812,
+"id": "192822",
+"name": "1.6 AT Elegance Plus",
+"to": 201006
+},
+{
+"from": 200812,
+"id": "192825",
+"name": "1.6 AT Prestige",
+"to": 201006
+}
+]
+},
+{
+"body": [
+"ZRE151"
+],
+"drive": "fwd",
+"engine": "1ZR-FE",
+"fuel": "бензин",
+"hp": 124,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 124 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 200703,
+"id": "119020",
+"name": "1.6 MultiMode Комфорт",
+"to": 200811
+},
+{
+"from": 200703,
+"id": "119021",
+"name": "1.6 MultiMode Элеганс",
+"to": 200811
+},
+{
+"from": 200703,
+"id": "119022",
+"name": "1.6 MultiMode Престиж",
+"to": 200811
+}
+]
+}
+],
+"ids": true,
+"key": "toyota/corolla/g_200703_4525",
+"market": "Россия",
+"to": 201006
 },
 "toyota/corolla/g_201007_999": {
 "from": 201007,
@@ -210984,6 +211766,104 @@
 ]
 ],
 "name": "1.4 AMT Blue Whale Luxury",
+"v": 3
+},
+"519353": {
+"groups": [
+[
+"Двигатель",
+[
+[
+"Мощность",
+"128 л.с. (94 кВт) при 6000 об/мин"
+],
+[
+"Крутящий момент",
+"161 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"JL478QEP"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"6,3 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4335 × 1825 × 1660 мм"
+],
+[
+"Колёсная база",
+"2600 мм"
+],
+[
+"Клиренс",
+"180 мм"
+],
+[
+"Масса",
+"1350 кг"
+],
+[
+"Топливный бак",
+"52 л"
+],
+[
+"Багажник",
+"403 (950) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Полузависимая, торсионная балка"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"215/60 R16"
+]
+]
+]
+],
+"name": "1.6 MT Yuelian",
 "v": 3
 },
 "519363": {
