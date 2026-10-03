@@ -653,7 +653,8 @@ def scan_models(page, known: set, touched: list | None = None):
         print(f"Модели машин сайта без шкалы цены: {len(priority)} страниц (марок {len(first)}) — открываем первыми")
         ok = run(priority, "модели без шкалы", lambda content, name: add_cards(content))
     # Марки и модели машин без шкалы обойдены целиком — кому цена не нашлась, тех в конце прогона удаляем
-    GAUGE_SEARCH["done"] = bool(ok and time.time() < deadline)
+    # …и страницы правда открывались (прокси или che168 не отдавали страниц — цены не искали, удалять нельзя)
+    GAUGE_SEARCH["done"] = bool(ok and time.time() < deadline and stats["ok"] >= 20)
     if ok and time.time() < deadline:
         ok = run([(f"https://www.che168.com/china/{slug}/", (slug, name)) for slug, name in rest], "марки", on_brand)
     with_cars = [b for b in brands if b[0] in series_by_brand]
@@ -1894,7 +1895,8 @@ def main():
         json.dump([{k: v for k, v in x.items() if k != "photo_url"} for x in listings], f, ensure_ascii=False, indent=2)
     push(listings[pushed:])
     # Цены машинам сайта без шкалы искали по всем их маркам и моделям — кому не нашлась, удаляем
-    if GAUGE_SEARCH["done"]:
+    pub = sum(1 for i in items.values() if i.get("published"))
+    if GAUGE_SEARCH["done"] and len(touched) >= max(50, pub // 10):
         prune_no_price()
     else:
         print("Поиск цен машинам без шкалы прерван (проверка che168 или время) — без удаления, продолжим в следующем прогоне")
