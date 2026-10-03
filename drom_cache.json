@@ -77978,6 +77978,59 @@
 "market": "Китай",
 "to": 201904
 },
+"honda/cr-v/g_199812_8446": {
+"from": 199904,
+"groups": [
+{
+"body": [
+"RD3"
+],
+"drive": "4wd",
+"engine": "B20Z",
+"fuel": "бензин",
+"hp": 147,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 147 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 199904,
+"id": "210631",
+"name": "2.0 MT 4WD",
+"to": 200109
+}
+]
+},
+{
+"body": [
+"RD3"
+],
+"drive": "4wd",
+"engine": "B20Z",
+"fuel": "бензин",
+"hp": 147,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 147 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 199904,
+"id": "210632",
+"name": "2.0 AT 4WD",
+"to": 200108
+}
+]
+}
+],
+"ids": true,
+"key": "honda/cr-v/g_199812_8446",
+"market": "Россия",
+"to": 200109
+},
 "honda/cr-v/g_200109_970": {
 "from": 200109,
 "groups": [
@@ -90595,6 +90648,7 @@
 "drive": "4wd",
 "engine": "HFC4DB2-1D1",
 "fuel": "дизель",
+"gen_key": "jac/t8/g_2018_18611",
 "hp": 139,
 "hp_total": null,
 "hybrid": null,
@@ -90681,6 +90735,7 @@
 "drive": "rwd",
 "engine": "HFC4DB2-1D1",
 "fuel": "дизель",
+"gen_key": "jac/t8/g_2018_18611",
 "hp": 139,
 "hp_total": null,
 "hybrid": null,
@@ -97236,6 +97291,273 @@
 "key": "kia/k5/g_201507_6510",
 "market": "Южная Корея",
 "to": 201810
+},
+"kia/k5/g_201801_16821": {
+"from": 201801,
+"groups": [
+{
+"body": [
+"JF"
+],
+"drive": "fwd",
+"engine": "G4FJ",
+"fuel": "бензин",
+"hp": 180,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.6,
+"text": "1.6 л, 180 л.с., бензин, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201801,
+"id": "447378",
+"name": "1.6 T-GDi DCT 2WD Prestige",
+"to": 202110
+},
+{
+"from": 201801,
+"id": "447380",
+"name": "1.6 T-GDi DCT 2WD Noblesse",
+"to": 202110
+},
+{
+"from": 201801,
+"id": "447381",
+"name": "1.6 T-GDi DCT 2WD Noblesse Special",
+"to": 202110
+}
+]
+},
+{
+"body": [
+"JF"
+],
+"drive": "fwd",
+"engine": "D4FD",
+"fuel": "дизель",
+"hp": 141,
+"hp_total": null,
+"hybrid": null,
+"liters": 1.7,
+"text": "1.7 л, 141 л.с., дизель, робот, передний привод",
+"trans": "robot",
+"trims": [
+{
+"from": 201801,
+"id": "447405",
+"name": "1.7 E-VGT DCT 2WD Prestige",
+"to": 202110
+},
+{
+"from": 201801,
+"id": "447406",
+"name": "1.7 E-VGT DCT 2WD Noblesse Special",
+"to": 202110
+}
+]
+},
+{
+"body": [
+"JF"
+],
+"drive": "fwd",
+"engine": "L4NA",
+"fuel": "газ",
+"hp": 151,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 151 л.с., газ, МКПП, передний привод",
+"trans": "manual",
+"trims": [
+{
+"from": 201801,
+"id": "464337",
+"name": "2.0 LPI MT 2WD Taxi Deluxe",
+"to": 202007
+},
+{
+"from": 201801,
+"id": "464314",
+"name": "2.0 LPI MT 2WD Car Rental Luxury",
+"to": 202007
+}
+]
+},
+{
+"body": [
+"JF"
+],
+"drive": "fwd",
+"engine": "L4NA",
+"fuel": "газ",
+"hp": 151,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 151 л.с., газ, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201904,
+"id": "447429",
+"name": "2.0 LPI AT 2WD Prestige",
+"to": 202110
+},
+{
+"from": 201904,
+"id": "447430",
+"name": "2.0 LPI AT 2WD Noblesse",
+"to": 202110
+},
+{
+"from": 201904,
+"id": "447431",
+"name": "2.0 LPI AT 2WD Noblesse Special",
+"to": 202110
+},
+{
+"from": 201801,
+"id": "464316",
+"name": "2.0 LPI AT 2WD Car Rental Luxury",
+"to": 202007
+},
+{
+"from": 201801,
+"id": "464320",
+"name": "2.0 LPI AT 2WD Car Rental Prestige",
+"to": 202007
+},
+{
+"from": 201801,
+"id": "464326",
+"name": "2.0 LPI AT 2WD Car Rental Noblesse",
+"to": 202007
+},
+{
+"from": 201801,
+"id": "464307",
+"name": "2.0 LPI AT 2WD Noblesse For The Disabled",
+"to": 202007
+},
+{
+"from": 201801,
+"id": "464332",
+"name": "2.0 LPI AT 2WD Car Rental Noblesse Special",
+"to": 202007
+},
+{
+"from": 201801,
+"id": "464312",
+"name": "2.0 LPI AT 2WD Noblesse Special For The Disabled",
+"to": 202007
+},
+{
+"from": 201801,
+"id": "464338",
+"name": "2.0 LPI AT 2WD Taxi Deluxe",
+"to": 202110
+},
+{
+"from": 201801,
+"id": "464340",
+"name": "2.0 LPI AT 2WD Taxi Luxury",
+"to": 202110
+},
+{
+"from": 201801,
+"id": "464341",
+"name": "2.0 LPI AT 2WD Taxi Prestige",
+"to": 202110
+}
+]
+},
+{
+"body": [
+"JF"
+],
+"drive": "fwd",
+"engine": "G4NG",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 156 л.с., параллельный гибрид, 52 л.с., АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201805,
+"id": "447432",
+"name": "2.0 GDi HEV AT 2WD Prestige",
+"to": 202110
+},
+{
+"from": 201805,
+"id": "447451",
+"name": "2.0 GDi HEV AT 2WD Noblesse",
+"to": 202110
+},
+{
+"from": 201805,
+"id": "447453",
+"name": "2.0 GDi HEV AT 2WD Noblesse Special",
+"to": 202110
+}
+]
+},
+{
+"body": [
+"JF"
+],
+"drive": "fwd",
+"engine": "G4ND",
+"fuel": "бензин",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., бензин, АКПП, передний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 201801,
+"id": "447384",
+"name": "2.0 CVVL AT 2WD Luxury",
+"to": 202110
+},
+{
+"from": 201801,
+"id": "447389",
+"name": "2.0 CVVL AT 2WD Prestige",
+"to": 202110
+},
+{
+"from": 201801,
+"id": "447398",
+"name": "2.0 CVVL AT 2WD Noblesse",
+"to": 202110
+},
+{
+"from": 201801,
+"id": "447396",
+"name": "2.0 CVVL AT 2WD Smart",
+"to": 202110
+},
+{
+"from": 201801,
+"id": "447401",
+"name": "2.0 CVVL AT 2WD World Cup Edition",
+"to": 201812
+}
+]
+}
+],
+"ids": true,
+"key": "kia/k5/g_201801_16821",
+"market": "Южная Корея",
+"to": 202110
 },
 "kia/kx3/g_2015_15782": {
 "from": 201503,
@@ -189909,6 +190231,104 @@
 ]
 ],
 "name": "1.5 AMT Joy"
+},
+"462993": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"150 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"139 л.с. (102 кВт) при 3600 об/мин"
+],
+[
+"Крутящий момент",
+"320 Н·м при 2600 об/мин"
+],
+[
+"Модель двигателя",
+"HFC4DB2-1D1"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Дизельное топливо"
+],
+[
+"Экокласс",
+"Евро-5"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5615 × 1880 × 1830 мм"
+],
+[
+"Колёсная база",
+"3380 мм"
+],
+[
+"Клиренс",
+"220 мм"
+],
+[
+"Топливный бак",
+"76 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Зависимая, рессорная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые"
+],
+[
+"Шины",
+"245/65 R17"
+]
+]
+]
+],
+"name": "2.0 TD 4WD Comfort Large",
+"v": 3
 },
 "463274": {
 "groups": [
