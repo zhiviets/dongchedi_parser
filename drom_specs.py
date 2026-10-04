@@ -33,9 +33,11 @@ CACHE_VERSION = 3
 # Марки, которые на drom.ru называются иначе, чем у нас (остальные ищутся по названию
 # на странице каталога drom.ru)
 BRAND_ALIASES = {
-    "mercedes-benz": "mercedes-benz", "land rover": "land_rover", "li auto": "lixiang", "lynk & co": "lynk_co",
+    "mercedes-benz": "mercedes-benz", "land rover": "land_rover", "li auto": "li", "lynk & co": "lynk_and_co",
     "baic bj": "baic", "great wall": "great_wall", "rolls-royce": "rolls-royce", "aston martin": "aston_martin",
-    "alfa romeo": "alfa_romeo", "chery fengyun": "chery", "fangchengbao": "fangchengbao", "trumpchi": "gac",
+    "alfa romeo": "alfa_romeo", "chery fengyun": "chery", "trumpchi": "gac",
+    # На drom.ru Fangchengbao — модели BYD («byd/fangchengbao_leopard_5»), Neta — марка Hozon
+    "fangchengbao": "byd", "neta": "hozon",
     # Названия encar
     "renault-koreasamsung": "renault_samsung", "renault samsung": "renault_samsung",
     "kg_mobility_ssangyong": "ssang_yong", "kg mobility": "ssang_yong", "kgm": "ssang_yong", "ssangyong": "ssang_yong",
@@ -44,6 +46,9 @@ BRAND_ALIASES = {
 # Модели марки бывают и под другим названием марки на drom.ru: Renault Samsung — и Renault
 # (Arkana, Grand Koleos), SsangYong — и KG Mobility (Torres), Citroen — и DS
 BRAND_FALLBACK = {"renault_samsung": ["renault"], "ssang_yong": ["kg_mobility"], "citroen": ["ds"]}
+# Марки che168, чьи модели на drom.ru — с приставкой: Chery Fengyun T9 → Chery Fulwin T9, Fangchengbao
+# Leopard 5 → BYD Fangchengbao Leopard 5
+MODEL_PREFIX = {"chery fengyun": "fulwin ", "fangchengbao": "fangchengbao "}
 # Модели, которые на drom.ru называются иначе: (марка, модель) → адрес модели на drom.ru
 MODEL_ALIASES = {
     ("geely", "xingyue l"): "geely/monjaro",
@@ -80,6 +85,14 @@ MODEL_ALIASES = {
     ("nissan", "nv200vanette"): "nissan/nv200",
     ("nissan", "nv200vanette van"): "nissan/nv200",
     ("nissan", "nv200vanette wagon"): "nissan/nv200",
+    # che168 пишет иначе, чем drom.ru
+    ("fangchengbao", "7"): "byd/fangchengbao_titanium_7", ("fangchengbao", "3"): "byd/fangchengbao_titanium_3",
+    ("fangchengbao", "9"): "byd/fangchengbao_titanium_9",
+    ("nio", "et5t"): "nio/et5", ("xpeng", "mona"): "xpeng/m03", ("xpeng", "mona m03"): "xpeng/m03",
+    ("exeed", "et"): "cheryexeed/exlantix_et", ("exeed", "es"): "cheryexeed/exlantix_es",
+    ("geely", "e"): "geely/geometry_e", ("geely", "c"): "geely/geometry_c",
+    ("lamborghini", "hurac"): "lamborghini/huracan", ("mitsubishi", "v97"): "mitsubishi/pajero",
+    ("chrysler", "phev"): "chrysler/pacifica",
 }
 
 # Хвосты названия модели, без которых модель ищется на drom.ru («Crown Hybrid» → «Crown»)
@@ -336,6 +349,7 @@ class DromCatalog:
         self.cache["version"] = CACHE_VERSION
         self.stats = {"exact": 0, "by_trim": 0, "ambiguous": 0, "no_model": 0, "no_match": 0}
         self.missing = {}   # модели, которых не нашлось на drom.ru: «марка модель» → сколько раз
+        self.models_refreshed = set()   # марки, чей список моделей уже перечитан в этом прогоне
 
     def save(self):
         with open(self.path, "w", encoding="utf-8") as f:
@@ -386,6 +400,7 @@ class DromCatalog:
         brand = self.brand_slug(make)
         if not brand:
             return None
+        model = MODEL_PREFIX.get(make.lower(), "") + model
         # «X2 (F39)» → «X2»; «4-Series» и «4 Series» — одно. Нет такой модели — без хвоста версии:
         # «Crown Hybrid» → «Crown», «N-BOX Custom» → «N-BOX» (goo-net пишет версию в названии модели)
         words = re.sub(r"\s*\(.*?\)", "", model).split()
@@ -397,11 +412,19 @@ class DromCatalog:
             if alias:
                 return alias
         for b in [brand] + BRAND_FALLBACK.get(brand, []):
-            if b not in self.cache["models"]:
+            # Пустой список — страница марки тогда не открылась или адрес марки был неверный
+            # (Li Auto — «li», а не «lixiang»): перечитываем, но не чаще раза за прогон
+            if not self.cache["models"].get(b) and b not in self.models_refreshed:
+                before = self.requests
                 got = self._get(f"{BASE}{b}/")
-                if got is None:
+                if self.requests > before:      # запрос правда был (не «только кэш» и не лимит)
+                    self.models_refreshed.add(b)
+                if got is None and b not in self.cache["models"]:
                     continue
-                self.cache["models"][b] = self._links(got[0], f"{b}/")
+                if got is not None:
+                    self.cache["models"][b] = self._links(got[0], f"{b}/")
+            if b not in self.cache["models"]:
+                continue
             slug = next((self.cache["models"][b][n] for n in names if n in self.cache["models"][b]), None)
             if not slug:
                 # Версия модели в названии без пробела или с лишним словом: «Crown Athlete», «Corollasport» —
