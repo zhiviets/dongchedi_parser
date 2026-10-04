@@ -1632,6 +1632,28 @@ TRIED_PATH = os.path.join(ROOT, "che168_tried.json")
 TRIED_DAYS = int(os.environ.get("CHE168_TRIED_DAYS") or "7")
 # Пауз подряд, если che168 не отдаёт объявления (3–5 мин, дальше дольше); не помогли — прокси, потом данные списка
 DETAIL_COOLS = int(os.environ.get("CHE168_DETAIL_COOLS") or "3")
+# Прогон в две задачи GitHub: «scan» обходит списки (сотни страниц — после них che168 ставит капчу на объявления)
+# и сохраняет отобранные машины в PICKED_PATH; «detail» — на новой машине GitHub, с новым IP — открывает их
+# объявления. Пусто — всё в одной задаче, как раньше
+PHASE = (os.environ.get("CHE168_PHASE") or "").strip()
+PICKED_PATH = os.path.join(ROOT, "che168_picked.json")
+
+
+def save_picked(cars: list[dict]) -> None:
+    with open(PICKED_PATH, "w", encoding="utf-8") as f:
+        json.dump({"cars": cars, "brand_ids": BRAND_IDS}, f, ensure_ascii=False)
+    print(f"Отобранные машины ({len(cars)}) сохранены — объявления откроет следующая задача с другим IP")
+
+
+def load_picked() -> list[dict]:
+    try:
+        with open(PICKED_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, ValueError):
+        print("Отобранных машин нет (обход ничего не выбрал или не сохранил)")
+        return []
+    BRAND_IDS.update(data.get("brand_ids") or {})
+    return data.get("cars") or []
 
 
 def load_tried() -> dict:
@@ -1689,15 +1711,15 @@ def run_size(items: dict) -> int:
 
 def missing(x: dict) -> str | None:
     """Чего не хватает объявлению для сайта (None — информация полная): фото, цена, год, марка,
-    модель и то, по чему считается таможня — объём (мощность сайт оценит по нему),
-    у электромобилей — мощность."""
+    модель и то, по чему считается таможня — объём (кроме электромобилей) и точная мощность: без неё
+    сайт машину не сохраняет («нет фото или точной мощности»)."""
     spec = x.get("spec") or {}
     ev = spec.get("Тип топлива") == "Электро"
-    engine = (spec.get("Максимальная мощность (кВт)") or spec.get("Мощность, л.с.")) if ev \
-        else spec.get("Рабочий объём цилиндров (см³)")
+    power = spec.get("Максимальная мощность (кВт)") or spec.get("Мощность, л.с.") \
+        or re.search(r"\d{2,4}\s*л\.с\.", spec.get("Двигатель") or "")
     for field, ok in (("фото", x.get("photo_url")), ("цена", x.get("price_value")), ("год", x.get("year")),
                       ("марка", x.get("make")), ("модель", x.get("model")),
-                      ("мощность" if ev else "объём", engine)):
+                      ("объём", ev or spec.get("Рабочий объём цилиндров (см³)")), ("мощность", power)):
         if not ok:
             return field
     return None
@@ -1799,27 +1821,31 @@ def main():
         browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
         # Обход всех моделей — сотни страниц списка: их che168 отдаёт и напрямую, и так
         # быстрее; китайский прокси — для объявлений (переключаемся на капче, см. ниже)
-        list_proxy = USE_PROXY and not ALL_MODELS
+        list_proxy = USE_PROXY and not ALL_MODELS and PHASE != "detail"
         on_proxy = list_proxy
         context = new_context(browser, list_proxy)
         page = context.new_page()
-        cars = gather(page, known, total, items, touched)
-        if not cars and total and list_proxy:
-            # Прокси не отвечает (бесплатные быстро умирают) — список пробуем напрямую
-            print("Через прокси список не получен — пробуем напрямую")
-            context.close()
-            on_proxy = False
-            context = new_context(browser, False)
-            page = context.new_page()
+        if PHASE == "detail":
+            # Списки обошла прошлая задача — здесь только объявления отобранных машин (кроме уже добавленных)
+            cars = [c for c in load_picked() if c["infoid"] not in known]
+        else:
             cars = gather(page, known, total, items, touched)
-        elif not cars and total and PROXY_SERVER:
-            # Напрямую che168 не отдал список — пробуем через прокси
-            print("Напрямую список не получен — пробуем через прокси")
-            context.close()
-            on_proxy = True
-            context = new_context(browser, True)
-            page = context.new_page()
-            cars = gather(page, known, total, items, touched)
+            if not cars and total and list_proxy:
+                # Прокси не отвечает (бесплатные быстро умирают) — список пробуем напрямую
+                print("Через прокси список не получен — пробуем напрямую")
+                context.close()
+                on_proxy = False
+                context = new_context(browser, False)
+                page = context.new_page()
+                cars = gather(page, known, total, items, touched)
+            elif not cars and total and PROXY_SERVER:
+                # Напрямую che168 не отдал список — пробуем через прокси
+                print("Напрямую список не получен — пробуем через прокси")
+                context.close()
+                on_proxy = True
+                context = new_context(browser, True)
+                page = context.new_page()
+                cars = gather(page, known, total, items, touched)
         print(f"Отобрано новых: {len(cars)}, машин с сайта встречено в обходе: {len(touched)}, марок по номерам: {len(BRAND_IDS)}")
         # Точная мощность: Autohome по номеру комплектации, запасной путь — каталог drom.ru
         # (его таблицы дорисовываются скриптом — открываем в браузере, без прокси)
@@ -1847,7 +1873,15 @@ def main():
               f"{sum('fuel' in x for x in seen_cars)}, характеристики drom.ru у {sum('tech' in x for x in seen_cars)}")
         push(seen_cars)
         # Шкала цены машинам сайта, не встреченным в обходе: нет её или старше CHE168_STATS_DAYS дней
-        push(stale_stats(items, {str(c["infoid"]) for c in touched} | {str(c["infoid"]) for c in cars}))
+        if PHASE != "detail":
+            push(stale_stats(items, {str(c["infoid"]) for c in touched} | {str(c["infoid"]) for c in cars}))
+        if PHASE == "scan":
+            save_picked(cars)
+            autohome.save()
+            drom.save()
+            browser.close()
+            finish_scan(items, touched, total)
+            return
 
         done = failed = degraded = degraded_saved = from_list = 0
         list_only = False   # объявления закрыты капчей — дальше только данные списка
@@ -2032,6 +2066,12 @@ def main():
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump([{k: v for k, v in x.items() if k != "photo_url"} for x in listings], f, ensure_ascii=False, indent=2)
     push(listings[pushed:])
+    if PHASE != "detail":
+        finish_scan(items, touched, total)
+
+
+def finish_scan(items: dict, touched: list, total: int) -> None:
+    """После обхода списков: удаление машин без шкалы цены и решение о следующем прогоне."""
     # Цены машинам сайта без шкалы искали по всем их маркам и моделям — кому не нашлась, удаляем
     pub = sum(1 for i in items.values() if i.get("published"))
     if GAUGE_SEARCH["done"] and len(touched) >= max(50, pub // 10):

@@ -23,19 +23,21 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  scrape:
+  # 1) Обход списков che168 (до 1,5 ч, сотни страниц). После него che168 ставит этому IP капчу на
+  #    страницы объявлений — поэтому объявления открывает вторая задача (другая машина GitHub, другой IP)
+  scan:
     runs-on: ubuntu-latest
-    # Обход марок и моделей (до 1,5 ч) + до 1000 машин порциями по 100 с паузой 1–2 минуты
-    timeout-minutes: 355
-    # Сохранить в репозиторий найденную мощность (кэш Autohome и drom.ru)
-    # contents: write — кэш мощности; actions: write — запустить следующий прогон
+    timeout-minutes: 200
+    # contents: write — кэш мощности (Autohome, drom.ru)
     permissions:
       contents: write
-      actions: write
+    outputs:
+      started: ${{ steps.start.outputs.started }}
     steps:
       # Время старта — шаг «Next fill run» по нему отличает падение сразу при старте
       - name: Remember start time
-        run: echo "RUN_STARTED=$(date +%s)" >> "$GITHUB_ENV"
+        id: start
+        run: echo "started=$(date +%s)" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
@@ -45,7 +47,7 @@ jobs:
           python -m pip install -U pip
           pip install -r requirements-ci.txt
           python -m playwright install --with-deps chromium
-      - name: Scrape che168 and push to bn-auto
+      - name: Scan che168 lists
         env:
           PYTHONIOENCODING: utf-8
           # Лог виден сразу, а не только после завершения
@@ -63,6 +65,86 @@ jobs:
           # 0 — само: до заполнения каталога по 1000 за прогон без остановки, потом 2 раза в неделю
           CHE168_TOTAL: ${{ inputs.total || '0' }}
           CHE168_SCAN_MINUTES: ${{ inputs.minutes || '90' }}
+          CHE168_PHASE: scan
+        run: python che168_scraper.py
+      - name: Upload picked cars
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: che168-picked
+          path: che168_picked.json
+          retention-days: 3
+          if-no-files-found: ignore
+      - name: Upload debug artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: che168-debug-scan
+          path: che168_debug
+          retention-days: 14
+          if-no-files-found: ignore
+      # Мощность, найденная на Autohome и drom.ru, — чтобы в следующий раз не спрашивать
+      - name: Save power cache
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for f in autohome_cache.json autohome_options.json drom_cache.json che168_tried.json; do [ -f "$f" ] && git add -f "$f"; done
+          git commit -m "chore: кэш мощности и оборудования (Autohome, drom.ru) [skip ci]" || exit 0
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep $((i * 10))
+          done
+          exit 1
+
+  # 2) Объявления отобранных машин — с нового IP (точная мощность, объём, фото) и отправка на сайт
+  detail:
+    needs: scan
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    # contents: write — кэш мощности; actions: write — запустить следующий прогон
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      # Свежий main — с кэшем, который только что сохранила задача обхода
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: |
+          python -m pip install -U pip
+          pip install -r requirements-ci.txt
+          python -m playwright install --with-deps chromium
+      - name: Download picked cars
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: che168-picked
+      - name: Open listings and push to bn-auto
+        env:
+          PYTHONIOENCODING: utf-8
+          # Лог виден сразу, а не только после завершения
+          PYTHONUNBUFFERED: "1"
+          BN_AUTO_URL: ${{ secrets.BN_AUTO_URL }}
+          BN_AUTO_IMPORT_TOKEN: ${{ secrets.BN_AUTO_IMPORT_TOKEN }}
+          # che168 пускает и IP GitHub; прокси включается CHE168_USE_PROXY=1
+          PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
+          PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}
+          PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
+          # Китайский прокси для che168 (необязательно): при нём объявления открываются через Китай
+          CHE168_PROXY_SERVER: ${{ secrets.CHE168_PROXY_SERVER }}
+          CHE168_PROXY_USERNAME: ${{ secrets.CHE168_PROXY_USERNAME }}
+          CHE168_PROXY_PASSWORD: ${{ secrets.CHE168_PROXY_PASSWORD }}
+          # 0 — само: до заполнения каталога по 1000 за прогон без остановки, потом 2 раза в неделю
+          CHE168_TOTAL: ${{ inputs.total || '0' }}
+          CHE168_SCAN_MINUTES: ${{ inputs.minutes || '90' }}
+          CHE168_PHASE: detail
+          CHE168_RUN_MINUTES: "270"
         run: python che168_scraper.py
       - name: Upload debug artifacts
         if: always()
@@ -74,7 +156,6 @@ jobs:
             che168_batch.json
           retention-days: 14
           if-no-files-found: ignore
-      # Мощность, найденная на Autohome и drom.ru, — чтобы в следующий раз не спрашивать
       - name: Save power cache
         if: always()
         run: |
@@ -95,7 +176,8 @@ jobs:
         if: ${{ !cancelled() && hashFiles('continue_fill') != '' }}
         env:
           GH_TOKEN: ${{ github.token }}
-          JOB_STATUS: ${{ job.status }}
+          JOB_STATUS: ${{ needs.scan.result == 'success' && job.status || 'failure' }}
+          RUN_STARTED: ${{ needs.scan.outputs.started }}
         run: |
           elapsed=$(( $(date +%s) - ${RUN_STARTED:-0} ))
           if [ "$JOB_STATUS" != "success" ] && [ "$elapsed" -lt 1200 ]; then
