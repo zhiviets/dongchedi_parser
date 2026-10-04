@@ -24,6 +24,7 @@ import os
 import random
 import re
 import time
+from datetime import date
 
 import requests
 from playwright.sync_api import sync_playwright
@@ -352,6 +353,7 @@ def series_key(name: str) -> str:
 
 
 SCAN_WORKERS = int(os.environ.get("CHE168_SCAN_WORKERS") or "3")
+SCAN_STATE = {"closed": False}   # обход остановлен: che168 закрыл IP (капча или страницы не открываются)
 
 
 def _norm(text: str) -> str:
@@ -362,6 +364,60 @@ def is_real_list(html: str) -> bool:
     """Настоящая страница списка che168 (с карточками или честно пустая) — в отличие от
     заглушки защиты от ботов: у настоящей есть фильтры и список марок."""
     return bool(parse_cards(html)) or "moredisplace" in html or bool(BRAND_LINK_RE.search(html))
+
+
+class ScanGate:
+    """Общий темп обхода для всех потоков. che168 ограничивает частоту запросов волнами: 5–20 минут все страницы
+    не открываются, потом снова открываются. Раньше потоки долбили его всё это время, и каждая неоткрывшаяся
+    страница пропадала (за прогон — 360 моделей из 3 900). Теперь: COOL_AFTER неудач подряд — все потоки ждут
+    3–5 мин (дальше дольше, до 12), темп вдвое медленнее; 120 удачных страниц — снова быстрее."""
+    COOL_AFTER = int(os.environ.get("CHE168_COOL_AFTER") or "6")
+
+    def __init__(self):
+        import threading
+        self.lock = threading.Lock()
+        self.until = 0.0
+        self.slow = 1.0
+        self.fails = 0
+        self.oks = 0
+        self.cools = 0          # пауз подряд без удачной страницы между ними
+        self.cool_total = 0
+
+    def wait(self):
+        while True:
+            left = self.until - time.time()
+            if left <= 0:
+                break
+            time.sleep(min(left, 5))
+        time.sleep(random.uniform(0.6, 1.8) * self.slow)
+
+    def result(self, ok: bool):
+        with self.lock:
+            if ok:
+                self.fails = 0
+                self.cools = 0
+                self.oks += 1
+                if self.slow > 1 and self.oks >= 120:
+                    self.slow, self.oks = max(1.0, self.slow / 2), 0
+                return
+            self.fails += 1
+            self.oks = 0
+            if self.fails >= self.COOL_AFTER and time.time() >= self.until:
+                pause = min(12.0, random.uniform(3, 5) * (1.5 ** self.cools)) * 60
+                self.until = time.time() + pause
+                self.cools += 1
+                self.cool_total += 1
+                self.slow = min(self.slow * 2, 6)
+                self.fails = 0
+                print(f"  che168 ограничил запросы — пауза {pause / 60:.1f} мин, дальше медленнее (×{self.slow:g})")
+
+    @property
+    def closed(self) -> bool:
+        # 4 паузы подряд, а страницы так и не открываются — che168 закрыл этот IP надолго
+        return self.cools >= 4 and self.fails >= self.COOL_AFTER
+
+
+GATE = ScanGate()
 
 
 def browser_fetcher():
@@ -384,7 +440,7 @@ def browser_fetcher():
 
     def get(url):
         page = page_for_thread()
-        time.sleep(random.uniform(0.5, 2.0))
+        GATE.wait()
         try:
             resp = page.request.get(url, timeout=30_000, headers={"Referer": "https://www.che168.com/china/list/"})
             html = decode_html(resp.body(), resp.headers.get("content-type", ""))
@@ -554,6 +610,7 @@ def scan_models(page, known: set, touched: list | None = None):
     print(f"Марок на che168: {len(brands)} — обходим марки, потом их модели "
           f"(до {SCAN_MINUTES:.0f} мин, потоков {SCAN_WORKERS})")
 
+    GATE.__init__()
     get, close_all = browser_fetcher()
     pool = ThreadPoolExecutor(SCAN_WORKERS)
     groups, seen, price_seen = {}, set(), []   # price_seen — все карточки с ценой: для шкалы цены
@@ -584,9 +641,11 @@ def scan_models(page, known: set, touched: list | None = None):
                 groups.setdefault(series_key(c["name"]), []).append(c)
         return cards
 
-    def run(jobs, label, on_page):
-        """jobs — [(url, данные)]; на каждую скачанную страницу — on_page(html, данные)."""
+    def run(jobs, label, on_page, retry_round=False):
+        """jobs — [(url, данные)]; на каждую скачанную страницу — on_page(html, данные). Страницы, которые не
+        открылись (che168 ограничил запросы), — ещё раз в конце, после паузы (GATE)."""
         done = 0
+        failed_jobs = []
         futures = {pool.submit(get, url): (url, extra) for url, extra in jobs}
         for fut in as_completed(futures):
             url, extra = futures[fut]
@@ -596,10 +655,10 @@ def scan_models(page, known: set, touched: list | None = None):
                 print(f"  {label}: {url} — {str(error).splitlines()[0][:120]}")
                 got = None
             done += 1
-            if got == "blocked":
-                stats["blocked"] += 1
-            elif not got:
-                stats["failed"] += 1
+            GATE.result(bool(got) and got != "blocked")
+            if got == "blocked" or not got:
+                stats["blocked" if got == "blocked" else "failed"] += 1
+                failed_jobs.append((url, extra))
             else:
                 if not parse_cards(got):
                     stats["empty"] += 1
@@ -612,13 +671,19 @@ def scan_models(page, known: set, touched: list | None = None):
             if done % 50 == 0:
                 print(f"  {label}: {done}/{len(jobs)}, моделей с машинами {len(groups)}, "
                       f"{(time.time() - started) / 60:.0f} мин; страниц с машинами {stats['ok']}, "
-                      f"пустых {stats['empty']}, ошибок {stats['failed']}, проверок {stats['blocked']}")
-            if time.time() > deadline or stats["blocked"] >= 10:
+                      f"пустых {stats['empty']}, ошибок {stats['failed']}, проверок {stats['blocked']}, "
+                      f"пауз {GATE.cool_total}")
+            if time.time() > deadline or GATE.closed:
                 for x in futures:
                     x.cancel()
-                why = "время обхода вышло" if time.time() > deadline else "che168 начал показывать проверку"
+                SCAN_STATE["closed"] = GATE.closed
+                why = "che168 закрыл доступ надолго (страницы не открываются после 4 пауз)" if GATE.closed \
+                    else "время обхода вышло"
                 print(f"  {label}: {why} — обработано {done} из {len(jobs)}")
                 return False
+        if failed_jobs and not retry_round:
+            print(f"  {label}: не открылось {len(failed_jobs)} страниц — ещё раз")
+            return run(failed_jobs, label + " (повтор)", on_page, retry_round=True)
         return True
 
     add_cards(html)
@@ -1561,6 +1626,29 @@ def fetch_known() -> dict:
         return {}
 
 
+TRIED_PATH = os.path.join(ROOT, "che168_tried.json")
+# Машину, которую не удалось заполнить (нет объёма или мощности — страница объявления не открылась), снова не
+# выбираем столько дней: иначе каждый прогон тратил отбор на те же ~50 машин и снова их отбрасывал
+TRIED_DAYS = int(os.environ.get("CHE168_TRIED_DAYS") or "7")
+# Пауз подряд, если che168 не отдаёт объявления (3–5 мин, дальше дольше); не помогли — прокси, потом данные списка
+DETAIL_COOLS = int(os.environ.get("CHE168_DETAIL_COOLS") or "3")
+
+
+def load_tried() -> dict:
+    try:
+        with open(TRIED_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, ValueError):
+        return {}
+    today = date.today().toordinal()
+    return {k: d for k, d in data.items() if today - d <= TRIED_DAYS}
+
+
+def save_tried(tried: dict) -> None:
+    with open(TRIED_PATH, "w", encoding="utf-8") as f:
+        json.dump(tried, f, ensure_ascii=False, sort_keys=True)
+
+
 def good_known(items: dict) -> set:
     """Машины с сайта, которые заново не открываем: полная информация и крупное фото.
     Остальные (без фото, модели, цены, двигателя или с миниатюрой) — загрузим заново."""
@@ -1696,6 +1784,11 @@ def main():
     started = time.time()
     items = fetch_known()
     known = good_known(items)
+    tried = load_tried()
+    skip = {k for k in tried if k not in known}
+    if skip:
+        print(f"Не удалось заполнить в последние {TRIED_DAYS} дн. — не выбираем снова: {len(skip)} машин")
+    known |= skip
     total = run_size(items)
     if not total and not stats_due(items):
         return
@@ -1759,7 +1852,25 @@ def main():
         done = failed = degraded = degraded_saved = from_list = 0
         list_only = False   # объявления закрыты капчей — дальше только данные списка
         fails_in_row = 0
-        breaks = random.randint(25, 40)
+        detail_cools = 0    # пауз подряд из-за блока объявлений (после DETAIL_COOLS — прокси, потом список)
+        opened_ids = set()  # объявления, которые правда открылись (их неполноту запоминаем надолго)
+        # Обход закончился паузой che168 — объявления открываем, когда она пройдёт
+        if GATE.until > time.time():
+            left = GATE.until - time.time()
+            print(f"che168 ещё ограничивает запросы — ждём {left / 60:.1f} мин перед объявлениями")
+            time.sleep(left + random.uniform(20, 60))
+
+        def cool_down(why) -> bool:
+            """Блок объявлений: пауза 3–5 мин (дальше дольше) и ещё попытка. False — паузы не помогли."""
+            nonlocal detail_cools
+            if detail_cools >= DETAIL_COOLS:
+                return False
+            pause = min(12.0, random.uniform(3, 5) * (1.5 ** detail_cools))
+            detail_cools += 1
+            print(f"che168 не отдаёт объявления ({why}) — пауза {pause:.1f} мин и ещё попытка ({detail_cools}/{DETAIL_COOLS})")
+            time.sleep(pause * 60)
+            return True
+        breaks = random.randint(30, 45)
 
         def add(car, url, body=None, d=None):
             nonlocal done, from_list
@@ -1801,6 +1912,7 @@ def main():
                 time.sleep(pause * 60)
                 list_only = False   # после паузы ещё раз пробуем открыть объявления
                 fails_in_row = 0
+                detail_cools = 0
             url = f"https://www.che168.com/dealer/{car['dealerid']}/{car['infoid']}.html"
             if car["infoid"] in known:
                 opts = equipment.get(car.get("specid")) if no_options(car["infoid"]) else None
@@ -1813,20 +1925,38 @@ def main():
                 add(car, url)
                 continue
             try:
+                body = None
+                while body is None:
+                    try:
+                        body = fetch_detail(page, car)
+                    except Blocked as reason:
+                        if not cool_down(reason):
+                            raise
+                    except Degraded:
+                        raise
+                    except Exception as error:
+                        # Одна машина не открылась — её по данным списка, следующую пробуем; вторая подряд —
+                        # пауза и ещё попытка; паузы не помогли — дальше только данные списка
+                        fails_in_row += 1
+                        if fails_in_row >= 2 and cool_down(str(error).splitlines()[0][:60]):
+                            fails_in_row = 0
+                            continue
+                        raise
+            except Degraded as first:
                 try:
-                    body = fetch_detail(page, car)
-                except Degraded as first:
                     if degraded_saved < 3:
                         save_debug(f"detail_degraded_{car['infoid']}.html", page.content())
                         degraded_saved += 1
                     print(f"[{car['infoid']}] страница без характеристик ({first}) — пауза и ещё попытка")
                     human_pause(10, 20)
                     body = fetch_detail(page, car)
-            except Degraded:
-                degraded += 1
-                print(f"[{car['infoid']}] снова без характеристик — берём данные из списка")
-                add(car, url)
-                continue
+                except Exception:
+                    body = None
+                if body is None:
+                    degraded += 1
+                    print(f"[{car['infoid']}] снова без характеристик — берём данные из списка")
+                    add(car, url)
+                    continue
             except Blocked as reason:
                 if not on_proxy and PROXY_SERVER:
                     print(f"che168 показал {reason} — переключаемся на прокси")
@@ -1848,7 +1978,6 @@ def main():
                     continue
             except Exception as error:
                 failed += 1
-                fails_in_row += 1
                 print(f"[{car['infoid']}] не открылось: {str(error).splitlines()[0][:150]} — берём данные из списка")
                 if fails_in_row >= 2:
                     # che168 перестал отдавать объявления (подвисает) — не ждём на каждой машине
@@ -1857,14 +1986,16 @@ def main():
                 add(car, url)
                 continue
             fails_in_row = 0
+            detail_cools = 0
+            opened_ids.add(str(car["infoid"]))
             if degraded_saved < 5 and done < 2:
                 save_debug(f"detail_{car['infoid']}.html", body)
             add(car, url, body, parse_detail(body, car))
-            human_pause(3, 7)
+            human_pause(2, 4.5)
             if done >= breaks:
-                # Темп человека: перерыв 1–2,5 мин каждые 25–40 машин
-                human_pause(60, 150)
-                breaks = done + random.randint(25, 40)
+                # Темп человека: перерыв 40–90 с каждые 30–45 машин (раньше 1–2,5 мин каждые 25–40)
+                human_pause(40, 90)
+                breaks = done + random.randint(30, 45)
         # Машинам с сайта, встреченным в обходе, без блока «Комплектация» — оборудование
         sent_ids = {x["external_id"] for x in listings}
         backfill = 0
@@ -1889,6 +2020,13 @@ def main():
               f"Autohome: {autohome.stats}")
         browser.close()
 
+    today = date.today().toordinal()
+    for x in listings:
+        if "spec" in x and not complete(x):
+            # Объявление открылось, а данных нет — не выбираем TRIED_DAYS дней; не открылось (блок) — 2 дня
+            xid = str(x["external_id"])
+            tried[xid] = today if xid in opened_ids else today - max(0, TRIED_DAYS - 2)
+    save_tried(tried)
     print(f"Итого: новых {sum('spec' in x for x in listings)} (из них только по списку {from_list}), "
           f"уже на сайте {sum('spec' not in x for x in listings)}, урезанных страниц {degraded}, ошибок {failed}")
     with open(OUT_PATH, "w", encoding="utf-8") as f:
