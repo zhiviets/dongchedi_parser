@@ -1011,10 +1011,23 @@
 "day": 739890,
 "gens": []
 },
+"byd/fangchengbao_leopard_5/china": {
+"day": 739894,
+"gens": [
+"g_202311_19785",
+"g_202502_22946"
+]
+},
 "byd/fangchengbao_titanium_3/china": {
 "day": 739894,
 "gens": [
 "g_2024_21880"
+]
+},
+"byd/fangchengbao_titanium_7/china": {
+"day": 739894,
+"gens": [
+"g_202509_23008"
 ]
 },
 "byd/frigate_07/china": {
@@ -1416,6 +1429,36 @@
 "g_201407_12492"
 ]
 },
+"chery/fulwin_a8/china": {
+"day": 739894,
+"gens": [
+"g_2023_21821"
+]
+},
+"chery/fulwin_a9/china": {
+"day": 739894,
+"gens": [
+"g_2024_22117"
+]
+},
+"chery/fulwin_a9l/china": {
+"day": 739894,
+"gens": [
+"g_2025_23324"
+]
+},
+"chery/fulwin_t11/china": {
+"day": 739894,
+"gens": [
+"g_202510_23663"
+]
+},
+"chery/fulwin_t9/china": {
+"day": 739894,
+"gens": [
+"g_2024_21817"
+]
+},
 "chery/tiggo_3x/china": {
 "day": 739885,
 "gens": [
@@ -1488,6 +1531,10 @@
 "g_2026_24420"
 ]
 },
+"cheryexeed/exlantix_et/china": {
+"day": 739894,
+"gens": []
+},
 "cheryexeed/tx/china": {
 "day": 739884,
 "gens": [
@@ -1523,6 +1570,10 @@
 },
 "chrysler/300c/china": {
 "day": 739890,
+"gens": []
+},
+"chrysler/pacifica/china": {
+"day": 739894,
 "gens": []
 },
 "citroen/c3-xr/china": {
@@ -1832,6 +1883,12 @@
 "day": 739889,
 "gens": [
 "g_202104_18943"
+]
+},
+"geely/geometry_e/china": {
+"day": 739894,
+"gens": [
+"g_2022_18930"
 ]
 },
 "geely/icon/china": {
@@ -2595,6 +2652,10 @@
 "g_202411_22968"
 ]
 },
+"lamborghini/huracan/china": {
+"day": 739894,
+"gens": []
+},
 "lamborghini/revuelto/china": {
 "day": 739884,
 "gens": []
@@ -2756,6 +2817,39 @@
 "day": 739887,
 "gens": []
 },
+"li/i8/china": {
+"day": 739894,
+"gens": [
+"g_2025_23202"
+]
+},
+"li/l6/china": {
+"day": 739894,
+"gens": [
+"g_202404_22508",
+"g_2024_20456"
+]
+},
+"li/l7/china": {
+"day": 739894,
+"gens": [
+"g_202209_22509",
+"g_2022_16713"
+]
+},
+"li/l9/china": {
+"day": 739894,
+"gens": [
+"g_202206_22507",
+"g_2022_16636"
+]
+},
+"li/mega/china": {
+"day": 739894,
+"gens": [
+"g_2023_20178"
+]
+},
 "lincoln/aviator/china": {
 "day": 739884,
 "gens": [
@@ -2851,6 +2945,18 @@
 "day": 739883,
 "gens": [
 "g_2026_24948"
+]
+},
+"lynk_and_co/08/china": {
+"day": 739894,
+"gens": [
+"g_202309_19758"
+]
+},
+"lynk_and_co/900/china": {
+"day": 739894,
+"gens": [
+"g_202501_22289"
 ]
 },
 "maextro/s800/china": {
@@ -3303,6 +3409,23 @@
 "mitsubishi/delica/china": {
 "day": 739884,
 "gens": []
+},
+"mitsubishi/pajero/china": {
+"day": 739894,
+"gens": [
+"g_198202_5954",
+"g_199101_5956",
+"g_199705_5952",
+"g_199905_4068",
+"g_200209_961",
+"g_200608_4967",
+"g_2007_23774",
+"g_2007_23775",
+"g_201109_989",
+"g_2011_23769",
+"g_201407_4082",
+"g_2014_23768"
+]
 },
 "nio/ec6/china": {
 "day": 739884,
@@ -39901,6 +40024,47 @@
 "market": "Китай",
 "to": null
 },
+"byd/fangchengbao_leopard_5/g_202311_19785": {
+"from": 202308,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD476ZQF",
+"fuel": "бензин",
+"hp": 194,
+"hp_total": 659,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 194 л.с., параллельный подзаряжаемый (PHEV) гибрид, 659 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202311,
+"id": "482076",
+"name": "PHEV 1.5 Discovery",
+"to": 202501
+},
+{
+"from": 202311,
+"id": "482077",
+"name": "PHEV 1.5 Pilot",
+"to": 202501
+},
+{
+"from": 202311,
+"id": "482078",
+"name": "PHEV 1.5 Yunnian Flagship",
+"to": 202501
+}
+]
+}
+],
+"ids": true,
+"key": "byd/fangchengbao_leopard_5/g_202311_19785",
+"market": "Китай",
+"to": 202501
+},
 "byd/fangchengbao_titanium_3/g_2024_21880": {
 "from": 202412,
 "groups": [
@@ -40019,6 +40183,125 @@
 ],
 "ids": true,
 "key": "byd/fangchengbao_titanium_3/g_2024_21880",
+"market": "Китай",
+"to": null
+},
+"byd/fangchengbao_titanium_7/g_202509_23008": {
+"from": 202506,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"hp": 408,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "408 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202604,
+"id": "548363",
+"name": "92kWh 675km Flash Charge",
+"to": null
+},
+{
+"from": 202604,
+"id": "553154",
+"name": "105.7kWh 755km Flash Charge",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 700,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "700 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202604,
+"id": "548364",
+"name": "105.7kWh 675km Flash Charge",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BYD472ZQB",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 272,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 272 л.с., вариатор (CVT), передний привод",
+"trans": "cvt",
+"trims": [
+{
+"from": 202509,
+"id": "536514",
+"name": "PHEV 1.5 2WD CVT 135km Pro",
+"to": null
+},
+{
+"from": 202509,
+"id": "540759",
+"name": "PHEV 1.5 2WD CVT 200km Max",
+"to": null
+},
+{
+"from": 202608,
+"id": "562193",
+"name": "PHEV 1.5 2WD CVT 315km Max",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "BYD472ZQB",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 489,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 489 л.с., вариатор (CVT), полный привод (4WD)",
+"trans": "cvt",
+"trims": [
+{
+"from": 202509,
+"id": "536516",
+"name": "PHEV 1.5 4WD CVT 190km Max",
+"to": null
+},
+{
+"from": 202509,
+"id": "540760",
+"name": "PHEV 1.5 4WD CVT 190km Ultra",
+"to": null
+},
+{
+"from": 202608,
+"id": "562194",
+"name": "PHEV 1.5 4WD CVT 300km Ultra",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "byd/fangchengbao_titanium_7/g_202509_23008",
 "market": "Китай",
 "to": null
 },
@@ -53167,6 +53450,507 @@
 "key": "chery/e5/g_201407_12492",
 "market": "Китай",
 "to": 201610
+},
+"chery/fulwin_a8/g_2023_21821": {
+"from": 202304,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRG4J15B",
+"fuel": "бензин",
+"hp": 102,
+"hp_total": 204,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 102 л.с., параллельный подзаряжаемый (PHEV) гибрид, 204 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202506,
+"id": "540710",
+"name": "1.5 DHT 70 Base",
+"to": null
+},
+{
+"from": 202506,
+"id": "540711",
+"name": "1.5 DHT 70 Standard",
+"to": null
+},
+{
+"from": 202506,
+"id": "540712",
+"name": "1.5 DHT 70 Comfort",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRH4J15",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 204,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 204 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202401,
+"id": "521378",
+"name": "1.5T DHT 127 Lingfeng",
+"to": null
+},
+{
+"from": 202401,
+"id": "521379",
+"name": "1.5T DHT 127 Zhufeng",
+"to": null
+},
+{
+"from": 202401,
+"id": "521380",
+"name": "1.5T DHT 127 Chengfeng",
+"to": null
+},
+{
+"from": 202401,
+"id": "521381",
+"name": "1.5T DHT 127 Wind Control",
+"to": null
+},
+{
+"from": 202406,
+"id": "521382",
+"name": "1.5T DHT 127 Travel",
+"to": null
+},
+{
+"from": 202403,
+"id": "521383",
+"name": "1.5T DHT 127 Voyage Edition Standard",
+"to": null
+},
+{
+"from": 202403,
+"id": "521384",
+"name": "1.5T DHT 127 Voyage Edition Comfort",
+"to": null
+},
+{
+"from": 202403,
+"id": "521385",
+"name": "1.5T DHT 127 Voyage Edition Luxury",
+"to": null
+},
+{
+"from": 202504,
+"id": "540708",
+"name": "1.5T DHT 145 Comfort",
+"to": null
+},
+{
+"from": 202504,
+"id": "540709",
+"name": "1.5T DHT 145 Luxury",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "chery/fulwin_a8/g_2023_21821",
+"market": "Китай",
+"to": null
+},
+"chery/fulwin_a9/g_2024_22117": {
+"from": 202409,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "TZ180YMZA0",
+"fuel": "electric",
+"hp": 242,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "242 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202607,
+"id": "558513",
+"name": "70.1 kWh 655 Pro",
+"to": null
+},
+{
+"from": 202607,
+"id": "558514",
+"name": "70.1 kWh 655 Max",
+"to": null
+},
+{
+"from": 202607,
+"id": "558515",
+"name": "70.1 kWh 655 Max LiDAR",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "chery/fulwin_a9/g_2024_22117",
+"market": "Китай",
+"to": null
+},
+"chery/fulwin_a9l/g_2025_23324": {
+"from": 202506,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRH4J15",
+"fuel": "бензин",
+"hp": 217,
+"hp_total": 218,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 217 л.с., параллельный подзаряжаемый (PHEV) гибрид, 218 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202507,
+"id": "540702",
+"name": "1.5T DHT 260 Luxury (Ultra Long Range)",
+"to": null
+},
+{
+"from": 202507,
+"id": "540704",
+"name": "1.5T DHT 260 Premium (Ultra Long Range)",
+"to": null
+},
+{
+"from": 202507,
+"id": "540705",
+"name": "1.5T DHT 260 Boya Luxury",
+"to": null
+},
+{
+"from": 202511,
+"id": "549641",
+"name": "1.5T DHT 260 Boya Intelligent",
+"to": null
+},
+{
+"from": 202510,
+"id": "549642",
+"name": "1.5T DHT Executive Exclusive",
+"to": null
+},
+{
+"from": 202510,
+"id": "549643",
+"name": "1.5T DHT Executive Premium",
+"to": null
+},
+{
+"from": 202604,
+"id": "555144",
+"name": "1.5T DHT 260 Premium",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "SQRH4J15",
+"fuel": "бензин",
+"hp": 217,
+"hp_total": 483,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 217 л.с., параллельный подзаряжаемый (PHEV) гибрид, 483 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202507,
+"id": "540707",
+"name": "1.5T DHT AWD Summit (High-Performance)",
+"to": null
+},
+{
+"from": 202511,
+"id": "549645",
+"name": "1.5T DHT AWD Glory Premium",
+"to": null
+},
+{
+"from": 202511,
+"id": "549646",
+"name": "1.5T DHT AWD Glory High-Performance",
+"to": null
+},
+{
+"from": 202511,
+"id": "549647",
+"name": "1.5T DHT AWD Glory Flagship",
+"to": null
+},
+{
+"from": 202511,
+"id": "549648",
+"name": "1.5T DHT AWD Four-Seat Exclusive",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "chery/fulwin_a9l/g_2025_23324",
+"market": "Китай",
+"to": null
+},
+"chery/fulwin_t11/g_202510_23663": {
+"from": 202510,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "SQRH4J15",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 469,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 469 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202510,
+"id": "543890",
+"name": "PHEV 1.5T DHT AWD Dual IMAX Cinema",
+"to": null
+},
+{
+"from": 202510,
+"id": "543891",
+"name": "PHEV 1.5T DHT AWD Family Fun",
+"to": null
+},
+{
+"from": 202604,
+"id": "555141",
+"name": "PHEV 1.5T DHT AWD Premium",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "SQRH4J15",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 265,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 265 л.с., редуктор, задний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202510,
+"id": "543888",
+"name": "PHEV 1.5T DHT Boya Giant Screen Luxury",
+"to": null
+},
+{
+"from": 202510,
+"id": "543889",
+"name": "PHEV 1.5T DHT Dual IMAX Cinema",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "chery/fulwin_t11/g_202510_23663",
+"market": "Китай",
+"to": null
+},
+"chery/fulwin_t9/g_2024_21817": {
+"from": 202405,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRH4J15",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 204,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 204 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202405,
+"id": "521332",
+"name": "1.5T DHT Long Range Standard (5-seats)",
+"to": 202504
+},
+{
+"from": 202405,
+"id": "521335",
+"name": "1.5T DHT Long Range Comfort (5-seats)",
+"to": 202504
+},
+{
+"from": 202405,
+"id": "521337",
+"name": "1.5T DHT Long Range Luxury (5-seats)",
+"to": 202504
+},
+{
+"from": 202405,
+"id": "521336",
+"name": "1.5T DHT Long Range Comfort (7-seats)",
+"to": 202504
+},
+{
+"from": 202405,
+"id": "521338",
+"name": "1.5T DHT Long Range Luxury (7-seats)",
+"to": 202504
+},
+{
+"from": 202405,
+"id": "521341",
+"name": "1.5T DHT Long Range Flagship (7-seats)",
+"to": 202504
+},
+{
+"from": 202504,
+"id": "549686",
+"name": "1.5T DHT Long Range Premium (5-seats) (Ternary Lithium)",
+"to": 202601
+},
+{
+"from": 202504,
+"id": "549689",
+"name": "1.5T DHT Long Range Prestige (5-seats) (Ternary Lithium)",
+"to": 202601
+},
+{
+"from": 202504,
+"id": "549692",
+"name": "1.5T DHT Long Range Prestige (7-seats) (Ternary Lithium)",
+"to": 202601
+},
+{
+"from": 202504,
+"id": "549696",
+"name": "1.5T DHT Long Range Flagship (5-seats) (Ternary Lithium)",
+"to": 202601
+},
+{
+"from": 202504,
+"id": "549698",
+"name": "1.5T DHT Long Range Flagship (7-seats) (Ternary Lithium)",
+"to": 202601
+},
+{
+"from": 202504,
+"id": "549700",
+"name": "1.5T DHT Long Range Flagship Plus (7-seats) (Ternary Lithium)",
+"to": 202601
+},
+{
+"from": 202504,
+"id": "549687",
+"name": "1.5T DHT Long Range Premium (5-seats) (LFP)",
+"to": null
+},
+{
+"from": 202504,
+"id": "549690",
+"name": "1.5T DHT Long Range Prestige (5-seats) (LFP)",
+"to": null
+},
+{
+"from": 202504,
+"id": "549693",
+"name": "1.5T DHT Long Range Prestige (7-seats) (LFP)",
+"to": null
+},
+{
+"from": 202504,
+"id": "549697",
+"name": "1.5T DHT Long Range Flagship (5-seats) (LFP)",
+"to": null
+},
+{
+"from": 202504,
+"id": "549699",
+"name": "1.5T DHT Long Range Flagship (7-seats) (LFP)",
+"to": null
+},
+{
+"from": 202504,
+"id": "549701",
+"name": "1.5T DHT Long Range Flagship Plus (7-seats) (LFP)",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "SQRH4J15",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": 224,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., параллельный подзаряжаемый (PHEV) гибрид, 224 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202411,
+"id": "521344",
+"name": "1.5T DHT Ultra-Long Range Luxury (5-seats)",
+"to": 202504
+},
+{
+"from": 202411,
+"id": "521347",
+"name": "1.5T DHT Ultra-Long Range Luxury (7-seats)",
+"to": 202504
+},
+{
+"from": 202504,
+"id": "549702",
+"name": "1.5T DHT Ultra Long Range Flagship (5-seats) (LFP)",
+"to": null
+},
+{
+"from": 202504,
+"id": "549703",
+"name": "1.5T DHT Ultra Long Range Flagship (7-seats) (LFP)",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "chery/fulwin_t9/g_2024_21817",
+"market": "Китай",
+"to": null
 },
 "chery/tiggo_3x/g_2016_19060": {
 "from": 201604,
@@ -67923,6 +68707,75 @@
 "key": "geely/emgrand_s/g_202104_18943",
 "market": "Китай",
 "to": 202401
+},
+"geely/geometry_e/g_2022_18930": {
+"from": 202204,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "TZ160XS601",
+"fuel": "electric",
+"gen_key": "geely/geometry_e/g_2022_18930",
+"hp": 80,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "80 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202308,
+"id": "480207",
+"name": "30 kWh Streamer",
+"to": null
+},
+{
+"from": 202308,
+"id": "480208",
+"name": "30 kWh Starlight",
+"to": null
+},
+{
+"from": 202308,
+"id": "480210",
+"name": "39 kWh Starlight",
+"to": null
+},
+{
+"from": 202308,
+"id": "480211",
+"name": "39 kWh Fluorescent",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "TZ160XS601",
+"fuel": "electric",
+"gen_key": "geely/geometry_e/g_2022_18930",
+"hp": 82,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "82 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202403,
+"id": "530002",
+"name": "30 kWh Longteng Edition",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "geely/geometry_e/g_2022_18930",
+"market": "Китай",
+"to": null
 },
 "geely/icon/g_202002_18245": {
 "from": 202002,
@@ -105465,6 +106318,393 @@
 "market": "Китай",
 "to": null
 },
+"li/i8/g_2025_23202": {
+"from": 202507,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 544,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "544 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202507,
+"id": "538715",
+"name": "90.1 kWh SSR Basic",
+"to": null
+},
+{
+"from": 202507,
+"id": "538714",
+"name": "97.8 kWh SSR Basic",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "li/i8/g_2025_23202",
+"market": "Китай",
+"to": null
+},
+"li/l6/g_202404_22508": {
+"from": 202505,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "L2E15M",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": 408,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 154 л.с., последовательный подзаряжаемый (PHEV) гибрид, 408 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202505,
+"id": "529041",
+"name": "1.5 SSR Pro",
+"to": null
+},
+{
+"from": 202505,
+"id": "529042",
+"name": "1.5 SSR Max",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "li/l6/g_202404_22508",
+"market": "Россия",
+"to": null
+},
+"li/l6/g_2024_20456": {
+"from": 202403,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "L2E15M",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": 408,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 154 л.с., последовательный подзаряжаемый (PHEV) гибрид, 408 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202404,
+"id": "497943",
+"name": "1.5 SSR Pro",
+"to": null
+},
+{
+"from": 202404,
+"id": "497944",
+"name": "1.5 SSR Max",
+"to": null
+},
+{
+"from": 202504,
+"id": "546034",
+"name": "1.5 SSR Max Smart",
+"to": null
+},
+{
+"from": 202504,
+"id": "546035",
+"name": "1.5 SSR Pro Smart",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "li/l6/g_2024_20456",
+"market": "Китай",
+"to": null
+},
+"li/l7/g_202209_22509": {
+"from": 202505,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "L2E15M",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": 449,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 154 л.с., последовательный подзаряжаемый (PHEV) гибрид, 449 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202505,
+"id": "529045",
+"name": "1.5 SSR Pro",
+"to": null
+},
+{
+"from": 202505,
+"id": "529048",
+"name": "1.5 SSR Ultra",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "li/l7/g_202209_22509",
+"market": "Россия",
+"to": null
+},
+"li/l7/g_2022_16713": {
+"from": 202209,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "L2E15M",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": 449,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 154 л.с., последовательный подзаряжаемый (PHEV) гибрид, 449 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202209,
+"id": "446040",
+"name": "1.5 SSR Pro",
+"to": 202402
+},
+{
+"from": 202209,
+"id": "446041",
+"name": "1.5 SSR Max",
+"to": 202402
+},
+{
+"from": 202302,
+"id": "456569",
+"name": "1.5 SSR Air",
+"to": 202402
+},
+{
+"from": 202403,
+"id": "446041",
+"name": "1.5 SSR Max",
+"to": null
+},
+{
+"from": 202403,
+"id": "446040",
+"name": "1.5 SSR Pro",
+"to": null
+},
+{
+"from": 202403,
+"id": "492102",
+"name": "1.5 SSR Ultra",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "li/l7/g_2022_16713",
+"market": "Китай",
+"to": null
+},
+"li/l9/g_202206_22507": {
+"from": 202505,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "L2E15M",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": 449,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 154 л.с., последовательный подзаряжаемый (PHEV) гибрид, 449 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202505,
+"id": "529040",
+"name": "1.5 SSR Ultra",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "L3E15CA",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": null,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., последовательный подзаряжаемый (PHEV) гибрид, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202605,
+"id": "555581",
+"name": "1.5 SSR Livis",
+"to": null
+},
+{
+"from": 202605,
+"id": "555582",
+"name": "1.5 SSR Livis Ultra",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "li/l9/g_202206_22507",
+"market": "Россия",
+"to": null
+},
+"li/l9/g_2022_16636": {
+"from": 202206,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "L2E15M",
+"fuel": "бензин",
+"hp": 154,
+"hp_total": 449,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 154 л.с., последовательный подзаряжаемый (PHEV) гибрид, 449 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202206,
+"id": "445725",
+"name": "1.5 SSR Max",
+"to": 202402
+},
+{
+"from": 202308,
+"id": "482740",
+"name": "1.5 SSR Pro",
+"to": 202402
+},
+{
+"from": 202403,
+"id": "482740",
+"name": "1.5 SSR Pro",
+"to": 202505
+},
+{
+"from": 202403,
+"id": "492085",
+"name": "1.5 SSR Ultra",
+"to": 202505
+},
+{
+"from": 202505,
+"id": "482740",
+"name": "1.5 SSR Pro",
+"to": null
+},
+{
+"from": 202505,
+"id": "492085",
+"name": "1.5 SSR Ultra",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "L3E15CA",
+"fuel": "бензин",
+"hp": 156,
+"hp_total": null,
+"hybrid": "последовательный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 156 л.с., последовательный подзаряжаемый (PHEV) гибрид, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202604,
+"id": "552882",
+"name": "1.5 SSR Livis",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "li/l9/g_2022_16636",
+"market": "Китай",
+"to": null
+},
+"li/mega/g_2023_20178": {
+"from": 202310,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"gen_key": "li/mega/g_2023_20178",
+"hp": 544,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "544 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202403,
+"id": "492082",
+"name": "102.7 kWh Max",
+"to": null
+},
+{
+"from": 202404,
+"id": "546201",
+"name": "102.7 kWh Home Special",
+"to": null
+},
+{
+"from": 202404,
+"id": "546204",
+"name": "102.7 kWh Ultra Smart",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "li/mega/g_2023_20178",
+"market": "Китай",
+"to": null
+},
 "lincoln/aviator/g_2018_23236": {
 "from": 201811,
 "groups": [
@@ -108496,6 +109736,236 @@
 "from": 202605,
 "groups": [],
 "key": "luxeed/v9/g_2026_24948",
+"market": "Китай",
+"to": null
+},
+"lynk_and_co/08/g_202309_19758": {
+"from": 202303,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": "BHE15-BFZ",
+"fuel": "бензин",
+"hp": 163,
+"hp_total": 218,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 163 л.с., параллельный подзаряжаемый (PHEV) гибрид, 218 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202309,
+"id": "481291",
+"name": "EM-P PHEV 1.5 DHT Pro 21.2 kWh",
+"to": 202407
+},
+{
+"from": 202309,
+"id": "481292",
+"name": "EM-P PHEV 1.5 DHT Halo 21.2 kWh",
+"to": 202407
+},
+{
+"from": 202309,
+"id": "481293",
+"name": "EM-P PHEV 1.5 DHT Halo 39.8 kWh",
+"to": 202407
+},
+{
+"from": 202408,
+"id": "518481",
+"name": "EM-P PHEV 1.5 DHT Plus 21.2 kWh",
+"to": null
+},
+{
+"from": 202408,
+"id": "481291",
+"name": "EM-P PHEV 1.5 DHT Pro 21.2 kWh",
+"to": null
+},
+{
+"from": 202408,
+"id": "481292",
+"name": "EM-P PHEV 1.5 DHT Halo 21.2 kWh",
+"to": null
+},
+{
+"from": 202408,
+"id": "518485",
+"name": "EM-P PHEV 1.5 DHT Pro 39.8 kWh",
+"to": null
+},
+{
+"from": 202408,
+"id": "481293",
+"name": "EM-P PHEV 1.5 DHT Halo 39.8 kWh",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "fwd",
+"engine": "BHE15-CFZ",
+"fuel": "бензин",
+"hp": 163,
+"hp_total": 245,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 163 л.с., параллельный подзаряжаемый (PHEV) гибрид, 245 л.с., редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202509,
+"id": "544772",
+"name": "EM-P PHEV 1.5 DHT Ultra Long Range Max 28.3 kWh",
+"to": null
+},
+{
+"from": 202509,
+"id": "544771",
+"name": "EM-P PHEV 1.5 DHT Ultra Long Range 28.3 kWh",
+"to": null
+},
+{
+"from": 202509,
+"id": "544770",
+"name": "EM-P PHEV 1.5 DHT Ultra H7 Long Range 38.2 kWh",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "BHE15-BFZ",
+"fuel": "бензин",
+"hp": 163,
+"hp_total": 430,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 163 л.с., параллельный подзаряжаемый (PHEV) гибрид, 430 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202309,
+"id": "481294",
+"name": "EM-P PHEV 1.5 DHT Halo 39.6 kWh",
+"to": 202407
+},
+{
+"from": 202309,
+"id": "481295",
+"name": "EM-P PHEV 1.5 DHT Limited 39.6 kWh",
+"to": 202407
+},
+{
+"from": 202408,
+"id": "481294",
+"name": "EM-P PHEV 1.5 DHT Halo 39.6 kWh",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "BHE15-CFZ",
+"fuel": "бензин",
+"hp": 163,
+"hp_total": 457,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 163 л.с., параллельный подзаряжаемый (PHEV) гибрид, 457 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202509,
+"id": "544769",
+"name": "EM-P PHEV 1.5 DHT AWD Ultra H7 Performance 38.2 kWh",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "lynk_and_co/08/g_202309_19758",
+"market": "Китай",
+"to": null
+},
+"lynk_and_co/900/g_202501_22289": {
+"from": 202501,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "JLM-4G15TD",
+"fuel": "бензин",
+"hp": 194,
+"hp_total": 721,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 1.5,
+"text": "1.5 л, бензин, 194 л.с., параллельный подзаряжаемый (PHEV) гибрид, 721 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202501,
+"id": "526211",
+"name": "PHEV 1.5T DHT Halo 6 seats",
+"to": null
+},
+{
+"from": 202501,
+"id": "526212",
+"name": "PHEV 1.5T DHT Ultra 6 seats",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "JLH-4G20TDC",
+"fuel": "бензин",
+"hp": 254,
+"hp_total": 734,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 254 л.с., параллельный подзаряжаемый (PHEV) гибрид, 734 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202501,
+"id": "526213",
+"name": "PHEV 2.0T DHT Ultra 6 seats",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "JLH-4G20TDC",
+"fuel": "бензин",
+"hp": 254,
+"hp_total": 884,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 254 л.с., параллельный подзаряжаемый (PHEV) гибрид, 884 л.с., редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202501,
+"id": "526214",
+"name": "PHEV 2.0T DHT Discovery Edition 6 seats",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "lynk_and_co/900/g_202501_22289",
 "market": "Китай",
 "to": null
 },
@@ -134012,6 +135482,791 @@
 "key": "mitsubishi/asx/g_2019_21461",
 "market": "Китай",
 "to": 202303
+},
+"mitsubishi/pajero/g_2007_23774": {
+"from": 200701,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "6G72",
+"fuel": "бензин",
+"hp": 177,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 177 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201011,
+"id": "544846",
+"name": "3.0 MT Luxury",
+"to": 201108
+},
+{
+"from": 200909,
+"id": "544852",
+"name": "3.0 MT Deluxe",
+"to": 201010
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "6G72",
+"fuel": "бензин",
+"hp": 177,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 177 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201011,
+"id": "544847",
+"name": "3.0 AT Luxury",
+"to": 201108
+},
+{
+"from": 201011,
+"id": "544848",
+"name": "3.0 AT Elite",
+"to": 201108
+},
+{
+"from": 201011,
+"id": "544849",
+"name": "3.0 AT Elite Super",
+"to": 201108
+},
+{
+"from": 200909,
+"id": "544847",
+"name": "3.0 AT Luxury",
+"to": 201010
+},
+{
+"from": 200909,
+"id": "544848",
+"name": "3.0 AT Elite",
+"to": 201010
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "6G75",
+"fuel": "бензин",
+"hp": 237,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.8,
+"text": "3.8 л, 237 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 200711,
+"id": "544859",
+"name": "3.8 AT GLX Premium",
+"to": 200906
+},
+{
+"from": 200711,
+"id": "544860",
+"name": "3.8 AT GLS Flagship Sunroof",
+"to": 200906
+},
+{
+"from": 200711,
+"id": "544861",
+"name": "3.8 AT GLS Flagship Entertainment",
+"to": 200906
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "6G75",
+"fuel": "бензин",
+"hp": 243,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.8,
+"text": "3.8 л, 243 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201011,
+"id": "544850",
+"name": "3.8 AT Premium",
+"to": 201108
+},
+{
+"from": 201011,
+"id": "544851",
+"name": "3.8 AT Flagship",
+"to": 201108
+},
+{
+"from": 200907,
+"id": "544850",
+"name": "3.8 AT Premium",
+"to": 201010
+},
+{
+"from": 200907,
+"id": "544851",
+"name": "3.8 AT Flagship",
+"to": 201010
+}
+]
+}
+],
+"ids": true,
+"key": "mitsubishi/pajero/g_2007_23774",
+"market": "Китай",
+"to": 201108
+},
+"mitsubishi/pajero/g_2007_23775": {
+"from": 200711,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "6G75",
+"fuel": "бензин",
+"hp": 234,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.8,
+"text": "3.8 л, 234 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 200711,
+"id": "544858",
+"name": "3.8 AT GLS",
+"to": 200906
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "6G75",
+"fuel": "бензин",
+"hp": 241,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.8,
+"text": "3.8 л, 241 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201011,
+"id": "544845",
+"name": "3.8 AT Cool",
+"to": 201306
+},
+{
+"from": 200907,
+"id": "544845",
+"name": "3.8 AT Cool",
+"to": 201010
+}
+]
+}
+],
+"ids": true,
+"key": "mitsubishi/pajero/g_2007_23775",
+"market": "Китай",
+"to": 201306
+},
+"mitsubishi/pajero/g_201109_989": {
+"from": 201109,
+"groups": [
+{
+"body": [
+"V93W"
+],
+"drive": "4wd",
+"engine": "6G72",
+"fuel": "бензин",
+"hp": 178,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 178 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201109,
+"id": "93038",
+"name": "3.0 MT Invite",
+"to": 201408
+}
+]
+},
+{
+"body": [
+"V93W"
+],
+"drive": "4wd",
+"engine": "6G72",
+"fuel": "бензин",
+"hp": 178,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 178 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201109,
+"id": "93043",
+"name": "3.0 AT Intense",
+"to": 201408
+},
+{
+"from": 201109,
+"id": "93039",
+"name": "3.0 AT Instyle",
+"to": 201408
+},
+{
+"from": 201109,
+"id": "93040",
+"name": "3.0 AT Ultimate",
+"to": 201408
+},
+{
+"from": 201311,
+"id": "93044",
+"name": "3.0 AT Shogun",
+"to": 201502
+}
+]
+},
+{
+"body": [
+"V98W"
+],
+"drive": "4wd",
+"engine": "4M41",
+"fuel": "дизель",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.2,
+"text": "3.2 л, 200 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201109,
+"id": "93041",
+"name": "3.2 DI-D Instyle",
+"to": 201408
+},
+{
+"from": 201109,
+"id": "93042",
+"name": "3.2 DI-D Ultimate",
+"to": 201408
+},
+{
+"from": 201311,
+"id": "93045",
+"name": "3.2 DI-D Shogun",
+"to": 201502
+}
+]
+},
+{
+"body": [
+"V97W"
+],
+"drive": "4wd",
+"engine": "6G75",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.8,
+"text": "3.8 л, 250 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201109,
+"id": "93037",
+"name": "3.8 AT Ultimate",
+"to": 201408
+}
+]
+}
+],
+"ids": true,
+"key": "mitsubishi/pajero/g_201109_989",
+"market": "Россия",
+"to": 201502
+},
+"mitsubishi/pajero/g_2011_23769": {
+"from": 201109,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "6G72",
+"fuel": "бензин",
+"hp": 177,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 177 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201109,
+"id": "544840",
+"name": "3.0 MT Luxury",
+"to": 201306
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "6G72",
+"fuel": "бензин",
+"hp": 177,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 177 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201307,
+"id": "544836",
+"name": "3.0 AT Luxury",
+"to": 201407
+},
+{
+"from": 201307,
+"id": "544837",
+"name": "3.0 AT Elite",
+"to": 201407
+},
+{
+"from": 201307,
+"id": "544838",
+"name": "3.0 AT Super",
+"to": 201407
+},
+{
+"from": 201109,
+"id": "544836",
+"name": "3.0 AT Luxury",
+"to": 201306
+},
+{
+"from": 201109,
+"id": "544837",
+"name": "3.0 AT Elite",
+"to": 201306
+},
+{
+"from": 201109,
+"id": "544842",
+"name": "3.0 AT Elite Super",
+"to": 201306
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "6G75",
+"fuel": "бензин",
+"hp": 243,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.8,
+"text": "3.8 л, 243 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201109,
+"id": "544843",
+"name": "3.8 AT Premium",
+"to": 201306
+},
+{
+"from": 201109,
+"id": "544844",
+"name": "3.8 AT Flagship",
+"to": 201306
+}
+]
+}
+],
+"ids": true,
+"key": "mitsubishi/pajero/g_2011_23769",
+"market": "Китай",
+"to": 201407
+},
+"mitsubishi/pajero/g_201407_4082": {
+"from": 201409,
+"groups": [
+{
+"body": [
+"V93W"
+],
+"drive": "4wd",
+"engine": "6G72",
+"fuel": "бензин",
+"hp": 174,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 174 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201601,
+"id": "167038",
+"name": "3.0 AT Intense",
+"to": 201703
+},
+{
+"from": 201601,
+"id": "167039",
+"name": "3.0 AT Instyle",
+"to": 201703
+},
+{
+"from": 201601,
+"id": "167040",
+"name": "3.0 AT Ultimate",
+"to": 201703
+},
+{
+"from": 201704,
+"id": "167038",
+"name": "3.0 AT Intense",
+"to": 201812
+},
+{
+"from": 201704,
+"id": "167039",
+"name": "3.0 AT Instyle",
+"to": 202010
+},
+{
+"from": 201704,
+"id": "167040",
+"name": "3.0 AT Ultimate",
+"to": 202010
+}
+]
+},
+{
+"body": [
+"V93W"
+],
+"drive": "4wd",
+"engine": "6G72",
+"fuel": "бензин",
+"hp": 178,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 178 л.с., бензин, МКПП, полный привод (4WD)",
+"trans": "manual",
+"trims": [
+{
+"from": 201409,
+"id": "93235",
+"name": "3.0 MT Invite",
+"to": 201703
+}
+]
+},
+{
+"body": [
+"V93W"
+],
+"drive": "4wd",
+"engine": "6G72",
+"fuel": "бензин",
+"hp": 178,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 178 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201409,
+"id": "167038",
+"name": "3.0 AT Intense",
+"to": 201703
+},
+{
+"from": 201409,
+"id": "167039",
+"name": "3.0 AT Instyle",
+"to": 201703
+},
+{
+"from": 201409,
+"id": "167040",
+"name": "3.0 AT Ultimate",
+"to": 201703
+}
+]
+},
+{
+"body": [
+"V98W"
+],
+"drive": "4wd",
+"engine": "4M41",
+"fuel": "дизель",
+"hp": 200,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.2,
+"text": "3.2 л, 200 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201409,
+"id": "93239",
+"name": "3.2 DI-D Instyle",
+"to": 201608
+},
+{
+"from": 201409,
+"id": "93240",
+"name": "3.2 DI-D Ultimate",
+"to": 201608
+}
+]
+},
+{
+"body": [
+"V97W"
+],
+"drive": "4wd",
+"engine": "6G75",
+"fuel": "бензин",
+"hp": 250,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.8,
+"text": "3.8 л, 250 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201409,
+"id": "93241",
+"name": "3.8 AT Ultimate",
+"to": 201602
+}
+]
+}
+],
+"ids": true,
+"key": "mitsubishi/pajero/g_201407_4082",
+"market": "Россия",
+"to": 202010
+},
+"mitsubishi/pajero/g_2014_23768": {
+"from": 201408,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "6G72",
+"fuel": "бензин",
+"gen_key": "mitsubishi/pajero/g_2014_23768",
+"hp": 174,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 174 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201807,
+"id": "544810",
+"name": "3.0 AT Standard",
+"to": 202103
+},
+{
+"from": 201807,
+"id": "544811",
+"name": "3.0 AT Comfort",
+"to": 202103
+},
+{
+"from": 201807,
+"id": "544813",
+"name": "3.0 AT Luxury",
+"to": 202103
+},
+{
+"from": 201807,
+"id": "544815",
+"name": "3.0 AT Premium",
+"to": 202103
+},
+{
+"from": 201908,
+"id": "544812",
+"name": "3.0 AT Luxury Off-Road",
+"to": 202103
+},
+{
+"from": 201912,
+"id": "544814",
+"name": "3.0 AT Premium Off-Road",
+"to": 202103
+},
+{
+"from": 202007,
+"id": "544817",
+"name": "3.0 AT Classic Comfort Off-Road",
+"to": 202103
+},
+{
+"from": 202007,
+"id": "544816",
+"name": "3.0 AT Classic Premium Off-Road",
+"to": 202103
+},
+{
+"from": 201708,
+"id": "544810",
+"name": "3.0 AT Standard",
+"to": 201806
+},
+{
+"from": 201708,
+"id": "544813",
+"name": "3.0 AT Luxury",
+"to": 201806
+},
+{
+"from": 201708,
+"id": "544815",
+"name": "3.0 AT Premium",
+"to": 201806
+},
+{
+"from": 201802,
+"id": "544811",
+"name": "3.0 AT Comfort",
+"to": 201806
+},
+{
+"from": 201508,
+"id": "544810",
+"name": "3.0 AT Standard",
+"to": 201707
+},
+{
+"from": 201508,
+"id": "544813",
+"name": "3.0 AT Luxury",
+"to": 201707
+},
+{
+"from": 201508,
+"id": "544815",
+"name": "3.0 AT Premium",
+"to": 201707
+},
+{
+"from": 201408,
+"id": "544813",
+"name": "3.0 AT Luxury",
+"to": 201507
+},
+{
+"from": 201408,
+"id": "544832",
+"name": "3.0 AT Elite",
+"to": 201507
+},
+{
+"from": 201408,
+"id": "544835",
+"name": "3.0 AT Elite Super",
+"to": 201507
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "6G72",
+"fuel": "бензин",
+"hp": 177,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 177 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201508,
+"id": "544810",
+"name": "3.0 AT Standard",
+"to": 201707
+},
+{
+"from": 201508,
+"id": "544813",
+"name": "3.0 AT Luxury",
+"to": 201707
+},
+{
+"from": 201508,
+"id": "544815",
+"name": "3.0 AT Premium",
+"to": 201707
+},
+{
+"from": 201408,
+"id": "544813",
+"name": "3.0 AT Luxury",
+"to": 201507
+},
+{
+"from": 201408,
+"id": "544832",
+"name": "3.0 AT Elite",
+"to": 201507
+},
+{
+"from": 201408,
+"id": "544835",
+"name": "3.0 AT Elite Super",
+"to": 201507
+}
+]
+}
+],
+"ids": true,
+"key": "mitsubishi/pajero/g_2014_23768",
+"market": "Китай",
+"to": 202103
 },
 "nio/ec6/g_2019_16050": {
 "from": 201912,
@@ -180931,6 +183186,23 @@
 "двигателиhongqi": "engine",
 "кузоваhongqi": "frame"
 },
+"hozon": {
+"engine": "engine",
+"hozonnetas": "neta_s",
+"hozonnetau": "neta_u",
+"hozonnetauii": "neta_u-ii",
+"hozonnetav": "neta_v",
+"netaaya": "neta_aya",
+"netagt": "neta_gt",
+"netal": "neta_l",
+"netan01": "neta_n01",
+"netas": "neta_s",
+"netau": "neta_u",
+"netauii": "neta_u-ii",
+"netav": "neta_v",
+"netax": "neta_x",
+"двигателиhozon": "engine"
+},
 "icar": {
 "03": "03",
 "03t": "03t",
@@ -181498,6 +183770,24 @@
 "двигателиlexus": "engine",
 "кузоваlexus": "frame"
 },
+"li": {
+"engine": "engine",
+"i6": "i6",
+"i8": "i8",
+"i9": "i9",
+"l6": "l6",
+"l7": "l7",
+"l8": "l8",
+"l9": "l9",
+"lil6": "l6",
+"lil7": "l7",
+"lil8": "l8",
+"lil9": "l9",
+"lione": "one",
+"mega": "mega",
+"one": "one",
+"двигателиli": "engine"
+},
 "lincoln": {
 "aviator": "aviator",
 "blackwood": "blackwood",
@@ -181555,6 +183845,33 @@
 "s7": "s7",
 "v9": "v9",
 "двигателиluxeed": "engine"
+},
+"lynk_and_co": {
+"01": "01",
+"02": "02",
+"03": "03",
+"05": "05",
+"06": "06",
+"07": "07",
+"07gt": "07gt",
+"08": "08",
+"09": "09",
+"10": "10",
+"900": "900",
+"engine": "engine",
+"lynk&amp;co01": "01",
+"lynk&amp;co02": "02",
+"lynk&amp;co03": "03",
+"lynk&amp;co05": "05",
+"lynk&amp;co06": "06",
+"lynk&amp;co07gt": "07gt",
+"lynk&amp;co08": "08",
+"lynk&amp;co09": "09",
+"lynk&amp;co10": "10",
+"lynk&amp;co900": "900",
+"z10": "z10",
+"z20": "z20",
+"двигателиlynk&amp;co": "engine"
 },
 "m-hero": {
 "engine": "engine",
@@ -207395,6 +209712,121 @@
 "name": "2.0 AT Flagship",
 "v": 3
 },
+"507208": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"9,5 с"
+],
+[
+"Максимальная скорость",
+"170 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"227 л.с. (167 кВт) при 5500 об/мин"
+],
+[
+"Крутящий момент",
+"387 Н·м при 3600 об/мин"
+],
+[
+"Модель двигателя",
+"E20CB"
+],
+[
+"Тип двигателя",
+"Рядный, 4-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"9,7 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4760 × 1930 × 1903 мм"
+],
+[
+"Колёсная база",
+"2750 мм"
+],
+[
+"Клиренс",
+"224 мм"
+],
+[
+"Масса",
+"2112 кг"
+],
+[
+"Топливный бак",
+"80 л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Зависимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"265/65 R17"
+]
+]
+]
+],
+"name": "2.0T AT 4WD Off-road Explorer",
+"v": 3
+},
 "507220": {
 "groups": [
 [
@@ -222508,6 +224940,109 @@
 "name": "2.0T S tronic Sport Plus \"Ignite the Stars\"",
 "v": 3
 },
+"544810": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Максимальная скорость",
+"175 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"174 л.с. (128 кВт) при 5250 об/мин"
+],
+[
+"Крутящий момент",
+"255 Н·м при 4000 об/мин"
+],
+[
+"Модель двигателя",
+"6G72"
+],
+[
+"Тип двигателя",
+"V-образный, 6-цилиндровый"
+],
+[
+"Топливо",
+"Бензин АИ-92"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"12,4 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4900 × 1875 × 1900 мм"
+],
+[
+"Колёсная база",
+"2780 мм"
+],
+[
+"Клиренс",
+"235 мм"
+],
+[
+"Масса",
+"2155 кг"
+],
+[
+"Топливный бак",
+"88 л"
+],
+[
+"Мест",
+"7"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"265/65 R17"
+]
+]
+]
+],
+"name": "3.0 AT Standard",
+"v": 3
+},
 "545006": {
 "groups": [
 [
@@ -223020,6 +225555,121 @@
 ]
 ],
 "name": "2.0 CVT Elite"
+},
+"546201": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"5,5 с"
+],
+[
+"Максимальная скорость",
+"180 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"544 л.с. (400 кВт) при 0 об/мин"
+],
+[
+"Тип двигателя",
+"Электродвигатель"
+],
+[
+"Топливо",
+"Электричество"
+]
+]
+],
+[
+"Электро",
+[
+[
+"30-минутная мощность",
+"203 л.с."
+],
+[
+"Мощность электромотора",
+"400 кВт"
+],
+[
+"Крутящий момент электромотора",
+"542 Н·м"
+],
+[
+"Ёмкость батареи",
+"102,7 кВт·ч"
+],
+[
+"Запас хода",
+"710 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5350 × 1965 × 1850 мм"
+],
+[
+"Колёсная база",
+"3300 мм"
+],
+[
+"Клиренс",
+"147 мм"
+],
+[
+"Масса",
+"2785 кг"
+],
+[
+"Багажник",
+"500 (1067) л"
+],
+[
+"Мест",
+"7"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"245/60 R18"
+]
+]
+]
+],
+"name": "102.7 kWh Home Special",
+"v": 3
 },
 "547628": {
 "groups": [
