@@ -1011,6 +1011,12 @@
 "day": 739890,
 "gens": []
 },
+"byd/fangchengbao_titanium_3/china": {
+"day": 739894,
+"gens": [
+"g_2024_21880"
+]
+},
 "byd/frigate_07/china": {
 "day": 739883,
 "gens": [
@@ -39892,6 +39898,127 @@
 ],
 "ids": true,
 "key": "byd/e9/g_2022_22851",
+"market": "Китай",
+"to": null
+},
+"byd/fangchengbao_titanium_3/g_2024_21880": {
+"from": 202412,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"gen_key": "byd/fangchengbao_titanium_3/g_2024_21880",
+"hp": 218,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "218 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202503,
+"id": "526306",
+"name": "501km Intelligent Driving Pro",
+"to": 202602
+},
+{
+"from": 202503,
+"id": "526305",
+"name": "501km Intelligent Driving Max",
+"to": 202602
+},
+{
+"from": 202509,
+"id": "541084",
+"name": "501km Intelligent Driving Ultra",
+"to": 202602
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": null,
+"fuel": "electric",
+"gen_key": "byd/fangchengbao_titanium_3/g_2024_21880",
+"hp": 326,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "326 л.с., электричество, редуктор, задний привод, заднее расположение двигателя",
+"trans": "reducer",
+"trims": [
+{
+"from": 202603,
+"id": "550754",
+"name": "620km Flash Charge",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 422,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "422 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202503,
+"id": "526305",
+"name": "501km Intelligent Driving Max",
+"to": 202602
+},
+{
+"from": 202503,
+"id": "541084",
+"name": "501km Intelligent Driving Ultra",
+"to": 202602
+},
+{
+"from": 202503,
+"id": "526304",
+"name": "501km Intelligent Driving Drone",
+"to": 202508
+},
+{
+"from": 202509,
+"id": "526304",
+"name": "501km Intelligent Driving Drone",
+"to": 202602
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": null,
+"fuel": "electric",
+"hp": 510,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "510 л.с., электричество, редуктор, полный привод (4WD)",
+"trans": "reducer",
+"trims": [
+{
+"from": 202603,
+"id": "550755",
+"name": "565km Flash Charge",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "byd/fangchengbao_titanium_3/g_2024_21880",
 "market": "Китай",
 "to": null
 },
@@ -223715,6 +223842,109 @@
 ]
 ],
 "name": "2.0T AT Shine",
+"v": 3
+},
+"550754": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"7,3 с"
+],
+[
+"Максимальная скорость",
+"210 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Тип двигателя",
+"Электродвигатель"
+],
+[
+"Топливо",
+"Электричество"
+]
+]
+],
+[
+"Электро",
+[
+[
+"Мощность электромотора",
+"240 кВт"
+],
+[
+"Крутящий момент электромотора",
+"305 Н·м"
+],
+[
+"Ёмкость батареи",
+"75,6 кВт·ч"
+],
+[
+"Запас хода",
+"620 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4605 × 1900 × 1720 мм"
+],
+[
+"Колёсная база",
+"2745 мм"
+],
+[
+"Масса",
+"2080 кг"
+],
+[
+"Багажник",
+"151 (спереди) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, амортизационная стойка типа МакФерсон"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"235/60 R18"
+]
+]
+]
+],
+"name": "620km Flash Charge",
 "v": 3
 },
 "551042": {
