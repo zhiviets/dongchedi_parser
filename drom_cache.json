@@ -89560,6 +89560,7 @@
 "drive": "fwd",
 "engine": "CA4GC20TD-35",
 "fuel": "бензин",
+"gen_key": "hongqi/hq9/g_2022_16733",
 "hp": 252,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
