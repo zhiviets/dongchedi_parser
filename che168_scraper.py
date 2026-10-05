@@ -1634,7 +1634,8 @@ TRIED_DAYS = int(os.environ.get("CHE168_TRIED_DAYS") or "7")
 DETAIL_COOLS = int(os.environ.get("CHE168_DETAIL_COOLS") or "3")
 # Пауза между объявлениями, с: che168 ставит капчу, если открывать их часто (3 подряд за 25 с — уже капча).
 # В задаче объявлений (CHE168_PHASE=detail) — темп человека, по одному раз в 25–45 с
-DETAIL_PAUSE = tuple(float(x) for x in (os.environ.get("CHE168_DETAIL_PAUSE") or "2,4.5").split(","))
+DETAIL_PAUSE = tuple(float(x) for x in (os.environ.get("CHE168_DETAIL_PAUSE")
+                                          or ("25,45" if os.environ.get("CHE168_PHASE") == "detail" else "2,4.5")).split(","))
 # Прогон в две задачи GitHub: «scan» обходит списки (сотни страниц — после них che168 ставит капчу на объявления)
 # и сохраняет отобранные машины в PICKED_PATH; «detail» — на новой машине GitHub, с новым IP — открывает их
 # объявления. Пусто — всё в одной задаче, как раньше
