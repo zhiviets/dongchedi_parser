@@ -903,7 +903,7 @@ def pick_models(groups: dict, total: int, on_site: dict | None = None, have: dic
     for cars in new_models:
         if len(picked) >= total:
             break
-        fits = [c for c in cars if mix.allows(c)]
+        fits = [c for c in cars if c["infoid"] not in used and mix.allows(c)]
         best = min(fits, key=fill_ratio) if fits else None
         if best and fill_ratio(best) < 1:
             take(best)
