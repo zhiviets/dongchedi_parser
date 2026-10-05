@@ -4258,6 +4258,19 @@
 "g_202209_17245"
 ]
 },
+"volkswagen/touareg/china": {
+"day": 739894,
+"gens": [
+"g_200210_3583",
+"g_200611_4118",
+"g_201002_1495",
+"g_201412_4117",
+"g_201806_8221",
+"g_2018_20675",
+"g_202305_20671",
+"g_2023_24069"
+]
+},
 "volvo/s60/china": {
 "day": 739892,
 "gens": [
@@ -175567,6 +175580,1279 @@
 "market": "Китай",
 "to": 202606
 },
+"volkswagen/touareg/g_201002_1495": {
+"from": 201002,
+"groups": [
+{
+"body": [
+"7P5"
+],
+"drive": "4wd",
+"engine": "CASD, CJMA",
+"fuel": "дизель",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 204 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201307,
+"id": "65263",
+"name": "3.0 TDI Tiptronic",
+"to": 201410
+},
+{
+"from": 201307,
+"id": "238120",
+"name": "3.0 TDI Tiptronic Exclusive",
+"to": 201410
+},
+{
+"from": 201009,
+"name": "3.0 TDI Tiptronic Chrome&Style",
+"to": 201410
+},
+{
+"from": 201009,
+"id": "76600",
+"name": "3.0 TDI Tiptronic R-line",
+"to": 201410
+},
+{
+"from": 201009,
+"id": "76608",
+"name": "3.0 TDI Tiptronic Edition X",
+"to": 201410
+},
+{
+"from": 201002,
+"id": "65263",
+"name": "3.0 TDI Tiptronic",
+"to": 201306
+},
+{
+"from": 201002,
+"id": "238120",
+"name": "3.0 TDI Tiptronic Exclusive",
+"to": 201306
+}
+]
+},
+{
+"body": [
+"7P5"
+],
+"drive": "4wd",
+"engine": "CNRB, CASA",
+"fuel": "дизель",
+"hp": 240,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 240 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201002,
+"id": "65263",
+"name": "3.0 TDI Tiptronic",
+"to": 201104
+},
+{
+"from": 201002,
+"id": "238120",
+"name": "3.0 TDI Tiptronic Exclusive",
+"to": 201104
+}
+]
+},
+{
+"body": [
+"7P5"
+],
+"drive": "4wd",
+"engine": "CJGD, CRCA",
+"fuel": "дизель",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 245 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201307,
+"id": "65263",
+"name": "3.0 TDI Tiptronic",
+"to": 201410
+},
+{
+"from": 201307,
+"id": "74245",
+"name": "3.0 TDI Tiptronic Terrain Tech",
+"to": 201410
+},
+{
+"from": 201307,
+"id": "238120",
+"name": "3.0 TDI Tiptronic Exclusive",
+"to": 201410
+},
+{
+"from": 201307,
+"id": "238124",
+"name": "3.0 TDI Tiptronic Terrain Tech Exclusive",
+"to": 201410
+},
+{
+"from": 201104,
+"name": "3.0 TDI Tiptronic Chrome&Style",
+"to": 201410
+},
+{
+"from": 201104,
+"id": "76600",
+"name": "3.0 TDI Tiptronic R-line",
+"to": 201410
+},
+{
+"from": 201104,
+"id": "76608",
+"name": "3.0 TDI Tiptronic Edition X",
+"to": 201410
+},
+{
+"from": 201104,
+"id": "65263",
+"name": "3.0 TDI Tiptronic",
+"to": 201306
+},
+{
+"from": 201104,
+"id": "238120",
+"name": "3.0 TDI Tiptronic Exclusive",
+"to": 201306
+}
+]
+},
+{
+"body": [
+"7P5"
+],
+"drive": "4wd",
+"engine": "CGEA, CGFA",
+"fuel": "бензин",
+"hp": 333,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 333 л.с., параллельный гибрид, 52 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201002,
+"id": "65269",
+"name": "3.0 TSI Tiptronic Hybrid",
+"to": 201306
+},
+{
+"from": 201002,
+"id": "238115",
+"name": "3.0 TSI Tiptronic Hybrid Exclusive",
+"to": 201306
+},
+{
+"from": 201307,
+"id": "65269",
+"name": "3.0 TSI Tiptronic Hybrid",
+"to": 201412
+}
+]
+},
+{
+"body": [
+"7P5"
+],
+"drive": "4wd",
+"engine": "CMTA",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.6,
+"text": "3.6 л, 249 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201307,
+"id": "65266",
+"name": "3.6 FSI Tiptronic",
+"to": 201412
+},
+{
+"from": 201307,
+"id": "238122",
+"name": "3.6 FSI Tiptronic Exclusive",
+"to": 201412
+},
+{
+"from": 201307,
+"id": "76466",
+"name": "3.6 FSI Tiptronic Edition X",
+"to": 201412
+},
+{
+"from": 201307,
+"name": "3.6 FSI Tiptronic Chrome&Style",
+"to": 201412
+},
+{
+"from": 201307,
+"id": "76451",
+"name": "3.6 FSI Tiptronic R-line",
+"to": 201412
+},
+{
+"from": 201002,
+"id": "65266",
+"name": "3.6 FSI Tiptronic",
+"to": 201306
+},
+{
+"from": 201002,
+"id": "238122",
+"name": "3.6 FSI Tiptronic Exclusive",
+"to": 201306
+}
+]
+},
+{
+"body": [
+"7P5"
+],
+"drive": "4wd",
+"engine": "CGRA",
+"fuel": "бензин",
+"hp": 280,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.6,
+"text": "3.6 л, 280 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201005,
+"id": "65266",
+"name": "3.6 FSI Tiptronic",
+"to": 201304
+},
+{
+"from": 201005,
+"id": "238122",
+"name": "3.6 FSI Tiptronic Exclusive",
+"to": 201304
+}
+]
+},
+{
+"body": [
+"7P5"
+],
+"drive": "4wd",
+"engine": "CKDA",
+"fuel": "дизель",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.1,
+"text": "4.1 л, 340 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201002,
+"id": "65265",
+"name": "4.2 TDI Tiptronic",
+"to": 201306
+},
+{
+"from": 201002,
+"id": "238118",
+"name": "4.2 TDI Tiptronic Exclusive",
+"to": 201306
+},
+{
+"from": 201002,
+"id": "76607",
+"name": "4.2 TDI Tiptronic Edition X",
+"to": 201412
+},
+{
+"from": 201307,
+"id": "65265",
+"name": "4.2 TDI Tiptronic",
+"to": 201412
+},
+{
+"from": 201307,
+"id": "238118",
+"name": "4.2 TDI Tiptronic Exclusive",
+"to": 201412
+}
+]
+},
+{
+"body": [
+"7P5"
+],
+"drive": "4wd",
+"engine": "CGNA",
+"fuel": "бензин",
+"hp": 360,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.2,
+"text": "4.2 л, 360 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201002,
+"id": "65268",
+"name": "4.2 FSI Tiptronic",
+"to": 201306
+},
+{
+"from": 201002,
+"id": "238114",
+"name": "4.2 FSI Tiptronic Exclusive",
+"to": 201306
+},
+{
+"from": 201307,
+"id": "65268",
+"name": "4.2 FSI Tiptronic",
+"to": 201412
+},
+{
+"from": 201307,
+"id": "238114",
+"name": "4.2 FSI Tiptronic Exclusive",
+"to": 201412
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/touareg/g_201002_1495",
+"market": "Россия",
+"to": 201412
+},
+"volkswagen/touareg/g_201412_4117": {
+"from": 201410,
+"groups": [
+{
+"body": [
+"7P5"
+],
+"drive": "4wd",
+"engine": "CASD, CJMA",
+"fuel": "дизель",
+"hp": 204,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 204 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201412,
+"id": "94317",
+"name": "3.0 TDI",
+"to": 201612
+},
+{
+"from": 201701,
+"id": "95843",
+"name": "3.0 TDI Business",
+"to": 201707
+},
+{
+"from": 201602,
+"id": "95927",
+"name": "3.0 TDI R-line",
+"to": 201807
+},
+{
+"from": 201708,
+"id": "186336",
+"name": "3.0 TDI Wolfsburg Edition",
+"to": 201807
+},
+{
+"from": 201701,
+"id": "94317",
+"name": "3.0 TDI",
+"to": 201807
+},
+{
+"from": 201602,
+"id": "95843",
+"name": "3.0 TDI Business",
+"to": 201612
+}
+]
+},
+{
+"body": [
+"7P5"
+],
+"drive": "4wd",
+"engine": "CJGD, CRCA",
+"fuel": "дизель",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 245 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201412,
+"id": "94317",
+"name": "3.0 TDI",
+"to": 201612
+},
+{
+"from": 201412,
+"id": "177482",
+"name": "3.0 TDI 4xMotion",
+"to": 201612
+},
+{
+"from": 201412,
+"id": "94320",
+"name": "3.0 TDI Terrain Tech",
+"to": 201703
+},
+{
+"from": 201602,
+"id": "95843",
+"name": "3.0 TDI Business",
+"to": 201612
+},
+{
+"from": 201602,
+"id": "95842",
+"name": "3.0 TDI Terrain Tech Business",
+"to": 201612
+},
+{
+"from": 201602,
+"id": "177483",
+"name": "3.0 TDI 4xMotion Business",
+"to": 201612
+},
+{
+"from": 201602,
+"id": "95927",
+"name": "3.0 TDI R-line",
+"to": 201807
+},
+{
+"from": 201608,
+"id": "167379",
+"name": "3.0 TDI R-line Executive",
+"to": 201807
+},
+{
+"from": 201701,
+"id": "94317",
+"name": "3.0 TDI",
+"to": 201807
+},
+{
+"from": 201701,
+"id": "177482",
+"name": "3.0 TDI 4xMotion",
+"to": 201807
+},
+{
+"from": 201708,
+"id": "186336",
+"name": "3.0 TDI Wolfsburg Edition",
+"to": 201807
+},
+{
+"from": 201708,
+"id": "186345",
+"name": "3.0 TDI 4xMotion Wolfsburg Edition",
+"to": 201807
+},
+{
+"from": 201701,
+"id": "177483",
+"name": "3.0 TDI 4xMotion Business",
+"to": 201707
+},
+{
+"from": 201701,
+"id": "95843",
+"name": "3.0 TDI Business",
+"to": 201706
+},
+{
+"from": 201701,
+"id": "95842",
+"name": "3.0 TDI Terrain Tech Business",
+"to": 201703
+}
+]
+},
+{
+"body": [
+"7P5"
+],
+"drive": "4wd",
+"engine": "CGEA, CGFA",
+"fuel": "бензин",
+"hp": 333,
+"hp_total": null,
+"hybrid": "параллельный гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 333 л.с., параллельный гибрид, 52 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201412,
+"id": "94314",
+"name": "3.0 TSI Hybrid",
+"to": 201507
+}
+]
+},
+{
+"body": [
+"7P5"
+],
+"drive": "4wd",
+"engine": "CMTA",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.6,
+"text": "3.6 л, 249 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201412,
+"id": "94319",
+"name": "3.6 FSI",
+"to": 201511
+},
+{
+"from": 201412,
+"id": "94321",
+"name": "3.6 FSI 4xMotion",
+"to": 201511
+},
+{
+"from": 201602,
+"id": "94323",
+"name": "3.6 FSI R-line",
+"to": 201807
+},
+{
+"from": 201602,
+"id": "94871",
+"name": "3.6 FSI Business",
+"to": 201612
+},
+{
+"from": 201608,
+"id": "167378",
+"name": "3.6 FSI R-line Executive",
+"to": 201807
+},
+{
+"from": 201512,
+"id": "94319",
+"name": "3.6 FSI",
+"to": 201612
+},
+{
+"from": 201512,
+"id": "94321",
+"name": "3.6 FSI 4xMotion",
+"to": 201612
+},
+{
+"from": 201708,
+"id": "186332",
+"name": "3.6 FSI Wolfsburg Edition",
+"to": 201807
+},
+{
+"from": 201701,
+"id": "94319",
+"name": "3.6 FSI",
+"to": 201807
+},
+{
+"from": 201701,
+"id": "94871",
+"name": "3.6 FSI Business",
+"to": 201707
+}
+]
+},
+{
+"body": [
+"7P5"
+],
+"drive": "4wd",
+"engine": "CKDA",
+"fuel": "дизель",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.1,
+"text": "4.1 л, 340 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201412,
+"id": "94315",
+"name": "4.2 TDI",
+"to": 201510
+}
+]
+},
+{
+"body": [
+"7P5"
+],
+"drive": "4wd",
+"engine": "CGNA",
+"fuel": "бензин",
+"hp": 360,
+"hp_total": null,
+"hybrid": null,
+"liters": 4.2,
+"text": "4.2 л, 360 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201412,
+"id": "94316",
+"name": "4.2 FSI",
+"to": 201510
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/touareg/g_201412_4117",
+"market": "Россия",
+"to": 201807
+},
+"volkswagen/touareg/g_201806_8221": {
+"from": 201803,
+"groups": [
+{
+"body": [
+"CR7"
+],
+"drive": "4wd",
+"engine": "CYRC",
+"fuel": "бензин",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 249 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "201628",
+"name": "2.0 TSI AT Respect",
+"to": 202010
+},
+{
+"from": 201806,
+"id": "204307",
+"name": "2.0 TSI AT Status",
+"to": 201910
+},
+{
+"from": 201904,
+"id": "245526",
+"name": "2.0 TSI AT Exclusive",
+"to": 202010
+},
+{
+"from": 201911,
+"id": "268144",
+"name": "2.0 TSI AT Business",
+"to": 202010
+},
+{
+"from": 202011,
+"id": "201628",
+"name": "2.0 TSI AT Respect",
+"to": 202102
+},
+{
+"from": 202011,
+"id": "268144",
+"name": "2.0 TSI AT Business",
+"to": 202102
+},
+{
+"from": 202011,
+"id": "245526",
+"name": "2.0 TSI AT Exclusive",
+"to": 202102
+}
+]
+},
+{
+"body": [
+"CR7"
+],
+"drive": "4wd",
+"engine": "DHXA",
+"fuel": "дизель",
+"hp": 249,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 249 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "201626",
+"name": "3.0 TDI AT Respect",
+"to": 202010
+},
+{
+"from": 201806,
+"id": "204310",
+"name": "3.0 TDI AT R-Line",
+"to": 202010
+},
+{
+"from": 201806,
+"id": "204308",
+"name": "3.0 TDI AT Status",
+"to": 201910
+},
+{
+"from": 201904,
+"id": "245527",
+"name": "3.0 TDI AT Exclusive",
+"to": 202010
+},
+{
+"from": 201911,
+"id": "268145",
+"name": "3.0 TDI AT Business",
+"to": 202010
+},
+{
+"from": 202011,
+"id": "201626",
+"name": "3.0 TDI AT Respect",
+"to": 202102
+},
+{
+"from": 202011,
+"id": "268145",
+"name": "3.0 TDI AT Business",
+"to": 202102
+},
+{
+"from": 202011,
+"id": "204310",
+"name": "3.0 TDI AT R-Line",
+"to": 202102
+},
+{
+"from": 202011,
+"id": "245527",
+"name": "3.0 TDI AT Exclusive",
+"to": 202102
+},
+{
+"from": 202102,
+"id": "201626",
+"name": "3.0 TDI AT Respect",
+"to": 202109
+},
+{
+"from": 202102,
+"id": "323974",
+"name": "3.0 TDI AT Business Atmosphere",
+"to": 202212
+},
+{
+"from": 202102,
+"id": "323975",
+"name": "3.0 TDI AT Business Elegance",
+"to": 202212
+},
+{
+"from": 202102,
+"id": "323976",
+"name": "3.0 TDI AT Business R-line",
+"to": 202201
+},
+{
+"from": 202102,
+"id": "323977",
+"name": "3.0 TDI AT Exclusive Atmosphere",
+"to": 202201
+},
+{
+"from": 202102,
+"id": "323978",
+"name": "3.0 TDI AT Exclusive Elegance",
+"to": 202201
+},
+{
+"from": 202102,
+"id": "323979",
+"name": "3.0 TDI AT Exclusive R-line Black Style",
+"to": 202201
+},
+{
+"from": 202201,
+"id": "323976",
+"name": "3.0 TDI AT Business R-line",
+"to": 202212
+},
+{
+"from": 202201,
+"id": "323978",
+"name": "3.0 TDI AT Exclusive Elegance",
+"to": 202212
+},
+{
+"from": 202201,
+"id": "323977",
+"name": "3.0 TDI AT Exclusive Atmosphere",
+"to": 202212
+},
+{
+"from": 202201,
+"id": "323979",
+"name": "3.0 TDI AT Exclusive R-line Black Style",
+"to": 202212
+}
+]
+},
+{
+"body": [
+"CR7"
+],
+"drive": "4wd",
+"engine": "DCBE",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 340 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 201806,
+"id": "201627",
+"name": "3.0 TSI AT Status",
+"to": 201910
+},
+{
+"from": 201806,
+"id": "204309",
+"name": "3.0 TSI AT R-Line",
+"to": 202010
+},
+{
+"from": 201911,
+"id": "268143",
+"name": "3.0 TSI AT Exclusive",
+"to": 202010
+},
+{
+"from": 202011,
+"id": "268143",
+"name": "3.0 TSI AT Exclusive",
+"to": 202012
+},
+{
+"from": 202011,
+"id": "204309",
+"name": "3.0 TSI AT R-Line",
+"to": 202011
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/touareg/g_201806_8221",
+"market": "Россия",
+"to": 202212
+},
+"volkswagen/touareg/g_2018_20675": {
+"from": 201803,
+"groups": [
+{
+"body": [
+"CR7"
+],
+"drive": "4wd",
+"engine": "DMF",
+"fuel": "бензин",
+"gen_key": "volkswagen/touareg/g_2018_20675",
+"hp": 245,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 245 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202004,
+"id": "503020",
+"name": "2.0 TSI AT Ruishang",
+"to": 202306
+},
+{
+"from": 202207,
+"id": "503021",
+"name": "2.0 TSI AT Pilot",
+"to": 202306
+},
+{
+"from": 201901,
+"id": "503034",
+"name": "2.0 TSI AT Navigator",
+"to": 202004
+},
+{
+"from": 201901,
+"id": "503033",
+"name": "2.0 TSI AT Ruiyi",
+"to": 202004
+}
+]
+},
+{
+"body": [
+"CR7"
+],
+"drive": "4wd",
+"engine": "DFK",
+"fuel": "бензин",
+"hp": 252,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 252 л.с., параллельный подзаряжаемый (PHEV) гибрид, 136 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202201,
+"id": "503036",
+"name": "PHEV 2.0 TSI eHybrid AT Pilot",
+"to": 202307
+}
+]
+},
+{
+"body": [
+"CR7"
+],
+"drive": "4wd",
+"engine": "DCBE",
+"fuel": "бензин",
+"gen_key": "volkswagen/touareg/g_2018_20675",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 340 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202201,
+"id": "503014",
+"name": "3.0 TSI AT Respect",
+"to": 202306
+},
+{
+"from": 202201,
+"id": "503015",
+"name": "3.0 TSI AT Respect Sport",
+"to": 202306
+},
+{
+"from": 202004,
+"id": "503018",
+"name": "3.0 TSI AT Enjoy Sport",
+"to": 202306
+},
+{
+"from": 202004,
+"id": "503022",
+"name": "3.0 TSI AT Enjoy Classic Sport",
+"to": 202306
+},
+{
+"from": 202208,
+"id": "503029",
+"name": "3.0 TSI AT 20th Anniversary",
+"to": 202307
+},
+{
+"from": 202004,
+"id": "503014",
+"name": "3.0 TSI AT Respect",
+"to": 202201
+},
+{
+"from": 202004,
+"id": "503015",
+"name": "3.0 TSI AT Respect Sport",
+"to": 202201
+},
+{
+"from": 201904,
+"id": "503035",
+"name": "3.0 TSI AT Ruifeng",
+"to": 202004
+},
+{
+"from": 201904,
+"id": "503032",
+"name": "3.0 TSI AT Ruizhi",
+"to": 202004
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/touareg/g_2018_20675",
+"market": "Китай",
+"to": 202306
+},
+"volkswagen/touareg/g_202305_20671": {
+"from": 202305,
+"groups": [
+{
+"body": [
+"CR7"
+],
+"drive": "4wd",
+"engine": "DHXA",
+"fuel": "дизель",
+"hp": 231,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 231 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202305,
+"id": "503037",
+"name": "3.0 TDI AT",
+"to": null
+},
+{
+"from": 202305,
+"id": "503041",
+"name": "3.0 TDI AT Elegance",
+"to": null
+},
+{
+"from": 202305,
+"id": "503044",
+"name": "3.0 TDI AT R-Line",
+"to": null
+}
+]
+},
+{
+"body": [
+"CR7"
+],
+"drive": "4wd",
+"engine": "DENA, DPYD",
+"fuel": "дизель",
+"hp": 286,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 286 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202305,
+"id": "503037",
+"name": "3.0 TDI AT",
+"to": null
+},
+{
+"from": 202305,
+"id": "503041",
+"name": "3.0 TDI AT Elegance",
+"to": null
+},
+{
+"from": 202305,
+"id": "503044",
+"name": "3.0 TDI AT R-Line",
+"to": null
+}
+]
+},
+{
+"body": [
+"CR7"
+],
+"drive": "4wd",
+"engine": "DCBE",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 340 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202305,
+"id": "503039",
+"name": "3.0 TFSI AT",
+"to": null
+},
+{
+"from": 202305,
+"id": "503040",
+"name": "3.0 TFSI AT Elegance",
+"to": null
+},
+{
+"from": 202305,
+"id": "503045",
+"name": "3.0 TFSI AT R-Line",
+"to": null
+}
+]
+},
+{
+"body": [
+"CR7"
+],
+"drive": "4wd",
+"engine": "DCBE",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": "параллельный подзаряжаемый (phev) гибрид",
+"liters": 3.0,
+"text": "3.0 л, бензин, 340 л.с., параллельный подзаряжаемый (PHEV) гибрид, 136 л.с., АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202305,
+"id": "503043",
+"name": "PHEV 3.0 TFSI eHybrid AT Elegance",
+"to": null
+},
+{
+"from": 202305,
+"id": "503047",
+"name": "PHEV 3.0 TFSI eHybrid AT R",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/touareg/g_202305_20671",
+"market": "Европа",
+"to": null
+},
+"volkswagen/touareg/g_2023_24069": {
+"from": 202305,
+"groups": [
+{
+"body": [
+"CR7"
+],
+"drive": "4wd",
+"engine": "DUV",
+"fuel": "бензин",
+"hp": 265,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 265 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202307,
+"id": "547486",
+"name": "2.0 TSI AT Luxury/Shadow",
+"to": null
+},
+{
+"from": 202508,
+"id": "547487",
+"name": "2.0 TSI AT Elite",
+"to": null
+}
+]
+},
+{
+"body": [
+"CR7"
+],
+"drive": "4wd",
+"engine": "DCB",
+"fuel": "бензин",
+"hp": 340,
+"hp_total": null,
+"hybrid": null,
+"liters": 3.0,
+"text": "3.0 л, 340 л.с., бензин, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202307,
+"id": "547484",
+"name": "3.0 TSI AT Premium",
+"to": null
+},
+{
+"from": 202307,
+"id": "547485",
+"name": "3.0 TSI AT Enjoy",
+"to": 202601
+}
+]
+}
+],
+"ids": true,
+"key": "volkswagen/touareg/g_2023_24069",
+"market": "Китай",
+"to": null
+},
 "volvo/s60/g_201308_16685": {
 "from": 201308,
 "groups": [
@@ -216554,6 +217840,252 @@
 ]
 ],
 "name": "1.4T DSG 280TSI Time",
+"v": 3
+},
+"503014": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"5,9 с"
+],
+[
+"Максимальная скорость",
+"250 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"340 л.с. (250 кВт) при 6400 об/мин"
+],
+[
+"Крутящий момент",
+"450 Н·м при 1340 об/мин"
+],
+[
+"Модель двигателя",
+"DCBE"
+],
+[
+"Тип двигателя",
+"V-образный, 6-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"9,9 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4878 × 1984 × 1697 мм"
+],
+[
+"Колёсная база",
+"2899 мм"
+],
+[
+"Клиренс",
+"200 мм"
+],
+[
+"Масса",
+"2149 кг"
+],
+[
+"Топливный бак",
+"90 л"
+],
+[
+"Багажник",
+"810 (1800) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"285/40 R21"
+],
+[
+"Радиус разворота",
+"6,1 м"
+]
+]
+]
+],
+"name": "3.0 TSI AT Respect",
+"v": 3
+},
+"503018": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"5,9 с"
+],
+[
+"Максимальная скорость",
+"250 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Мощность",
+"340 л.с. (250 кВт) при 6400 об/мин"
+],
+[
+"Крутящий момент",
+"450 Н·м при 1340 об/мин"
+],
+[
+"Модель двигателя",
+"DCBE"
+],
+[
+"Тип двигателя",
+"V-образный, 6-цилиндровый"
+],
+[
+"Наддув",
+"Турбина"
+],
+[
+"Топливо",
+"Бензин АИ-95"
+],
+[
+"Экокласс",
+"Евро-6"
+]
+]
+],
+[
+"Расход топлива",
+[
+[
+"Смешанный цикл",
+"9,9 л/100 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"4878 × 1984 × 1697 мм"
+],
+[
+"Колёсная база",
+"2899 мм"
+],
+[
+"Клиренс",
+"200 мм"
+],
+[
+"Масса",
+"2149 кг"
+],
+[
+"Топливный бак",
+"90 л"
+],
+[
+"Багажник",
+"810 (1800) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"285/45 R20"
+],
+[
+"Радиус разворота",
+"6,1 м"
+]
+]
+]
+],
+"name": "3.0 TSI AT Enjoy Sport",
 "v": 3
 },
 "503699": {
