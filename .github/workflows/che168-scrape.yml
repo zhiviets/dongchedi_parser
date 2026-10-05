@@ -145,6 +145,8 @@ jobs:
           CHE168_SCAN_MINUTES: ${{ inputs.minutes || '90' }}
           CHE168_PHASE: detail
           CHE168_RUN_MINUTES: "270"
+          # Объявления — по одному раз в 25–45 с: чаще che168 ставит капчу
+          CHE168_DETAIL_PAUSE: "25,45"
         run: python che168_scraper.py
       - name: Upload debug artifacts
         if: always()

@@ -1632,6 +1632,9 @@ TRIED_PATH = os.path.join(ROOT, "che168_tried.json")
 TRIED_DAYS = int(os.environ.get("CHE168_TRIED_DAYS") or "7")
 # Пауз подряд, если che168 не отдаёт объявления (3–5 мин, дальше дольше); не помогли — прокси, потом данные списка
 DETAIL_COOLS = int(os.environ.get("CHE168_DETAIL_COOLS") or "3")
+# Пауза между объявлениями, с: che168 ставит капчу, если открывать их часто (3 подряд за 25 с — уже капча).
+# В задаче объявлений (CHE168_PHASE=detail) — темп человека, по одному раз в 25–45 с
+DETAIL_PAUSE = tuple(float(x) for x in (os.environ.get("CHE168_DETAIL_PAUSE") or "2,4.5").split(","))
 # Прогон в две задачи GitHub: «scan» обходит списки (сотни страниц — после них che168 ставит капчу на объявления)
 # и сохраняет отобранные машины в PICKED_PATH; «detail» — на новой машине GitHub, с новым IP — открывает их
 # объявления. Пусто — всё в одной задаче, как раньше
@@ -2025,7 +2028,7 @@ def main():
             if degraded_saved < 5 and done < 2:
                 save_debug(f"detail_{car['infoid']}.html", body)
             add(car, url, body, parse_detail(body, car))
-            human_pause(2, 4.5)
+            human_pause(*DETAIL_PAUSE)
             if done >= breaks:
                 # Темп человека: перерыв 40–90 с каждые 30–45 машин (раньше 1–2,5 мин каждые 25–40)
                 human_pause(40, 90)
