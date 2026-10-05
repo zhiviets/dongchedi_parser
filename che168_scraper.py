@@ -30,6 +30,7 @@ import requests
 from playwright.sync_api import sync_playwright
 
 from china_brand_map import extract_brand_model
+import wanted as wanted_mod
 from weekly_scraper import compress_photo_to_data_url
 
 # Сколько новых машин за прогон (0 — само: до FILL_TARGET на сайте, потом раз в неделю)
@@ -55,6 +56,8 @@ PER_MODEL_RUN = {"le160": int(os.environ.get("CHE168_PER_MODEL_LE160") or "3"),
 # Доля машин до 160 л.с. (проходных по утильсбору), остальные — любой мощности
 SHARE_160 = float(os.environ.get("CHE168_SHARE_160") or "0.75")
 MIN_YEAR = int(os.environ.get("CHE168_MIN_YEAR") or "2010")
+# Доля прогона под модели из справочника сайта, которых на сайте мало (wanted.py)
+WANTED_SHARE = float(os.environ.get("CHE168_WANTED_SHARE") or "0.5")
 MAX_PAGES = int(os.environ.get("CHE168_MAX_PAGES") or "100")
 LIST_URL = "https://www.che168.com/china/a0_0msdgscncgpi1ltocsp{page}exx0/"
 
@@ -824,7 +827,7 @@ class MixGuard:
 
 
 def pick_models(groups: dict, total: int, on_site: dict | None = None, have: dict | None = None,
-                have_names: dict | None = None) -> list[dict]:
+                have_names: dict | None = None, wanted=None) -> list[dict]:
     """Не больше total машин: 75% до 160 л.с., 25% мощнее (электро, гибриды), по годам — YEAR_BANDS.
     Доли — для каталога целиком (have — состав сайта, см. run_wants).
 
@@ -879,6 +882,23 @@ def pick_models(groups: dict, total: int, on_site: dict | None = None, have: dic
             nth[c["year"]] = nth.get(c["year"], 0) + 1
             seq.append((nth[c["year"]], len(seq), c))
         cars[:] = [c for *_, c in sorted(seq, key=lambda x: (x[0], x[1]))]
+    # Модели из справочника сайта, которых на сайте меньше 3 машин (wanted.py), — в первую очередь, до нужного
+    # числа; не больше WANTED_SHARE прогона, чтобы осталось место и долям каталога
+    from_ref = 0
+    if wanted:
+        cap = max(1, int(total * WANTED_SHARE))
+        for cars in groups.values():
+            if from_ref >= cap or len(picked) >= total:
+                break
+            make, model = brand_model(cars[0]["name"], "", cars[0].get("brandid"))[:2]
+            for c in cars:
+                if wanted.need(make, model) <= 0 or from_ref >= cap or len(picked) >= total:
+                    break
+                if c["infoid"] not in used and c.get("power") in KINDS and mix.allows(c):
+                    take(c)
+                    wanted.took(make, model)
+                    from_ref += 1
+        print(f"Из справочника сайта (моделей мало на сайте): {from_ref}")
     new_models = [cars for k, cars in groups.items() if not on_site.get(k)]
     for cars in new_models:
         if len(picked) >= total:
@@ -1802,7 +1822,8 @@ def gather(page, known: set, total: int, items: dict, touched: list) -> list[dic
                                                     for name, *_ in YEAR_BANDS)
                   + f"; до 160 л.с. {sum(v for (k, _), v in have.items() if k == 'le160')}, "
                     f"мощнее {sum(v for (k, _), v in have.items() if k == 'other')}")
-            return pick_models(groups, total, on_site, have, have_names)
+            return pick_models(groups, total, on_site, have, have_names,
+                               wanted=wanted_mod.load(BN_AUTO_URL, BN_AUTO_IMPORT_TOKEN, "che168"))
     return collect(page, known, total)
 
 
