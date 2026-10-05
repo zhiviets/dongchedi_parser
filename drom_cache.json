@@ -151583,6 +151583,7 @@
 "drive": "4wd",
 "engine": "E20NA",
 "fuel": "бензин",
+"gen_key": "tank/400/g_202510_23386",
 "hp": 252,
 "hp_total": null,
 "hybrid": "мягкий гибрид",
