@@ -375,12 +375,16 @@ class ScanGate:
     страница пропадала (за прогон — 360 моделей из 3 900). Теперь: COOL_AFTER неудач подряд — все потоки ждут
     3–5 мин (дальше дольше, до 12), темп вдвое медленнее; 120 удачных страниц — снова быстрее."""
     COOL_AFTER = int(os.environ.get("CHE168_COOL_AFTER") or "6")
+    # Темп обхода, с которого начинаем и ниже которого не ускоряемся (множитель паузы потока 0,6–1,8 с).
+    # По логу прогона 293: на ×1–×3 che168 ограничивал запросы через 50–60 страниц (8 пауз по 4–12 мин = 54 мин из
+    # 94), а на ×6 страниц шло ~17 в минуту и 350 страниц подряд без пауз. Начинаем сразу с ×6 и не разгоняемся.
+    SLOW_BASE = float(os.environ.get("CHE168_SLOW_BASE") or "6")
 
     def __init__(self):
         import threading
         self.lock = threading.Lock()
         self.until = 0.0
-        self.slow = 1.0
+        self.slow = self.SLOW_BASE
         self.fails = 0
         self.oks = 0
         self.cools = 0          # пауз подряд без удачной страницы между ними
@@ -400,8 +404,8 @@ class ScanGate:
                 self.fails = 0
                 self.cools = 0
                 self.oks += 1
-                if self.slow > 1 and self.oks >= 120:
-                    self.slow, self.oks = max(1.0, self.slow / 2), 0
+                if self.slow > self.SLOW_BASE and self.oks >= 120:
+                    self.slow, self.oks = max(self.SLOW_BASE, self.slow / 2), 0
                 return
             self.fails += 1
             self.oks = 0
@@ -410,7 +414,7 @@ class ScanGate:
                 self.until = time.time() + pause
                 self.cools += 1
                 self.cool_total += 1
-                self.slow = min(self.slow * 2, 6)
+                self.slow = min(self.slow * 2, max(12.0, self.SLOW_BASE))
                 self.fails = 0
                 print(f"  che168 ограничил запросы — пауза {pause / 60:.1f} мин, дальше медленнее (×{self.slow:g})")
 
