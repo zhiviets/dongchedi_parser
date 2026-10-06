@@ -133613,6 +133613,508 @@
 "market": "Китай",
 "to": null
 },
+"mercedes-benz/v-class/g_202307_21059": {
+"from": 202307,
+"groups": [
+{
+"body": [],
+"drive": "4wd",
+"engine": "OM 654Q DE 20 SCR",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202307,
+"id": "510887",
+"name": "220 d AT 4MATIC Compact Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510888",
+"name": "220 d AT 4MATIC Long Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510889",
+"name": "220 d AT 4MATIC Extra Long Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510909",
+"name": "220 d AT 4MATIC Compact Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510910",
+"name": "220 d AT 4MATIC Long Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510912",
+"name": "220 d AT 4MATIC Extra Long Avantgarde",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "OM 654Q DE 20 SCR",
+"fuel": "дизель",
+"hp": 163,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 163 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202307,
+"id": "510840",
+"name": "220 d AT Compact",
+"to": null
+},
+{
+"from": 202307,
+"id": "510841",
+"name": "220 d AT Long",
+"to": null
+},
+{
+"from": 202307,
+"id": "510842",
+"name": "220 d AT Extra Long",
+"to": null
+},
+{
+"from": 202307,
+"id": "510874",
+"name": "220 d AT Compact Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510875",
+"name": "220 d AT Long Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510876",
+"name": "220 d AT Extra Long Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510900",
+"name": "220 d AT Compact Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510901",
+"name": "220 d AT Long Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510902",
+"name": "220 d AT Extra Long Avantgarde",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "OM 654Q DE 20 SCR",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202307,
+"id": "510890",
+"name": "250 d AT 4MATIC Compact Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510891",
+"name": "250 d AT 4MATIC Long Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510892",
+"name": "250 d AT 4MATIC Extra Long Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510913",
+"name": "250 d AT 4MATIC Compact Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510914",
+"name": "250 d AT 4MATIC Long Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510915",
+"name": "250 d AT 4MATIC Extra Long Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510932",
+"name": "250 d AT 4MATIC Long Exclusive",
+"to": null
+},
+{
+"from": 202307,
+"id": "510933",
+"name": "250 d AT 4MATIC Extra Long Exclusive",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "OM 654Q DE 20 SCR",
+"fuel": "дизель",
+"hp": 190,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 190 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202307,
+"id": "510843",
+"name": "250 d AT Compact",
+"to": null
+},
+{
+"from": 202307,
+"id": "510844",
+"name": "250 d AT Long",
+"to": null
+},
+{
+"from": 202307,
+"id": "510845",
+"name": "250 d AT Extra Long",
+"to": null
+},
+{
+"from": 202307,
+"id": "510877",
+"name": "250 d AT Compact Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510878",
+"name": "250 d AT Long Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510879",
+"name": "250 d AT Extra Long Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510903",
+"name": "250 d AT Compact Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510904",
+"name": "250 d AT Long Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510905",
+"name": "250 d AT Extra Long Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510926",
+"name": "250 d AT Long Exclusive",
+"to": null
+},
+{
+"from": 202307,
+"id": "510927",
+"name": "250 d AT Extra Long Exclusive",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "M 254 DE 20 LA",
+"fuel": "бензин",
+"hp": 231,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 231 л.с., бензин, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202307,
+"id": "510846",
+"name": "300 AT Long",
+"to": null
+},
+{
+"from": 202307,
+"id": "510847",
+"name": "300 AT Extra Long",
+"to": null
+},
+{
+"from": 202307,
+"id": "510872",
+"name": "300 AT Long Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510873",
+"name": "300 AT Extra Long Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510898",
+"name": "300 AT Long Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510899",
+"name": "300 AT Extra Long Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510928",
+"name": "300 AT Long Exclusive",
+"to": null
+},
+{
+"from": 202307,
+"id": "510929",
+"name": "300 AT Extra Long Exclusive",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "4wd",
+"engine": "OM 654Q DE 20 LA",
+"fuel": "дизель",
+"hp": 237,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 237 л.с., дизель, АКПП, полный привод (4WD)",
+"trans": "auto",
+"trims": [
+{
+"from": 202307,
+"id": "510893",
+"name": "300 d AT 4MATIC Compact Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510894",
+"name": "300 d AT 4MATIC Long Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510895",
+"name": "300 d AT 4MATIC Extra Long Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510916",
+"name": "300 d AT 4MATIC Compact Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510917",
+"name": "300 d AT 4MATIC Long Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510918",
+"name": "300 d AT 4MATIC Extra Long Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510934",
+"name": "300 d AT 4MATIC Long Exclusive",
+"to": null
+},
+{
+"from": 202307,
+"id": "510935",
+"name": "300 d AT 4MATIC Extra Long Exclusive",
+"to": null
+}
+]
+},
+{
+"body": [],
+"drive": "rwd",
+"engine": "OM 654Q DE 20 LA",
+"fuel": "дизель",
+"hp": 237,
+"hp_total": null,
+"hybrid": null,
+"liters": 2.0,
+"text": "2.0 л, 237 л.с., дизель, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202307,
+"id": "510881",
+"name": "300 d AT Compact Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510882",
+"name": "300 d AT Long Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510883",
+"name": "300 d AT Extra Long Style",
+"to": null
+},
+{
+"from": 202307,
+"id": "510906",
+"name": "300 d AT Compact Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510907",
+"name": "300 d AT Long Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510908",
+"name": "300 d AT Extra Long Avantgarde",
+"to": null
+},
+{
+"from": 202307,
+"id": "510930",
+"name": "300 d AT Long Exclusive",
+"to": null
+},
+{
+"from": 202307,
+"id": "510931",
+"name": "300 d AT Extra Long Exclusive",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/v-class/g_202307_21059",
+"market": "Европа",
+"to": null
+},
+"mercedes-benz/v-class/g_2023_22190": {
+"from": 202307,
+"groups": [
+{
+"body": [],
+"drive": "rwd",
+"engine": "M254.920",
+"fuel": "бензин",
+"hp": 231,
+"hp_total": null,
+"hybrid": "мягкий гибрид",
+"liters": 2.0,
+"text": "2.0 л, бензин, 231 л.с., мягкий гибрид, АКПП, задний привод",
+"trans": "auto",
+"trims": [
+{
+"from": 202408,
+"id": "525522",
+"name": "V 300 Navigation Edition",
+"to": null
+},
+{
+"from": 202408,
+"id": "525523",
+"name": "V 300 Premium",
+"to": null
+},
+{
+"from": 202408,
+"id": "525524",
+"name": "V 300 L Premium",
+"to": null
+},
+{
+"from": 202408,
+"id": "525525",
+"name": "V 300 L Luxury",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "mercedes-benz/v-class/g_2023_22190",
+"market": "Китай",
+"to": null
+},
 "mg/3/g_2008_17389": {
 "from": 200804,
 "groups": [
@@ -223351,6 +223853,113 @@
 ]
 ],
 "name": "EREV 1.5 216km Comfort"
+},
+"518818": {
+"groups": [
+[
+"Динамика",
+[
+[
+"Разгон 0–100 км/ч",
+"7,7 с"
+],
+[
+"Максимальная скорость",
+"180 км/ч"
+]
+]
+],
+[
+"Двигатель",
+[
+[
+"Тип двигателя",
+"Электродвигатель"
+],
+[
+"Топливо",
+"Электричество"
+]
+]
+],
+[
+"Электро",
+[
+[
+"Мощность электромотора",
+"200 кВт"
+],
+[
+"Крутящий момент электромотора",
+"360 Н·м"
+],
+[
+"Ёмкость батареи",
+"62,8 кВт·ч"
+],
+[
+"Запас хода",
+"525 км"
+]
+]
+],
+[
+"Размеры и масса",
+[
+[
+"Габариты (Д × Ш × В)",
+"5050 × 1902 × 1509 мм"
+],
+[
+"Колёсная база",
+"2930 мм"
+],
+[
+"Клиренс",
+"118 мм"
+],
+[
+"Масса",
+"2010 кг"
+],
+[
+"Багажник",
+"496 (40 - объем переднего багажника) л"
+],
+[
+"Мест",
+"5"
+]
+]
+],
+[
+"Ходовая часть",
+[
+[
+"Передняя подвеска",
+"Независимая, на двойных поперечных рычагах"
+],
+[
+"Задняя подвеска",
+"Независимая, многорычажная"
+],
+[
+"Передние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Задние тормоза",
+"Дисковые вентилируемые"
+],
+[
+"Шины",
+"235/50 R18"
+]
+]
+]
+],
+"name": "525km Comfort",
+"v": 3
 },
 "518856": {
 "groups": [
