@@ -912,6 +912,13 @@ def pick_models(groups: dict, total: int, on_site: dict | None = None, have: dic
         if best and fill_ratio(best) < 1:
             take(best)
     covered = len(picked)
+    # Диагностика: сколько кандидатов отсеяли лимиты разнообразия сайта (на модель-год / на модель) — если почти
+    # все, каталог упёрся в MIX_LIMITS на сайте, а не в обход che168
+    left = [c for cars in groups.values() for c in cars if c["infoid"] not in used]
+    by_year = sum(1 for c in left if mix.site_year(c) >= mix.limits[0])
+    by_model = sum(1 for c in left if mix.model.get(mix.name(c), 0) >= mix.limits[1])
+    print(f"Лимиты разнообразия сайта {mix.limits}: из {len(left)} кандидатов закрыто лимитом модели-года {by_year}, "
+          f"лимитом модели {by_model}, проходит {sum(mix.allows(c) for c in left)}")
 
     def candidates(kind, band):
         """Следующая машина класса kind и лет band — по кругу моделей, по машине с модели за круг."""
