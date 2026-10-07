@@ -141146,6 +141146,7 @@
 "drive": "4wd",
 "engine": null,
 "fuel": "electric",
+"gen_key": "nio/es8/g_2025_23339",
 "hp": 707,
 "hp_total": null,
 "hybrid": null,
