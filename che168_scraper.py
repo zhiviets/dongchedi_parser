@@ -594,7 +594,7 @@ def stats_due(items: dict) -> bool:
     return need
 
 
-def scan_models(page, known: set, touched: list | None = None):
+def scan_models(page, known: set, touched: list | None = None, wanted=None):
     """Карточки всех моделей: {модель: [машины]}. False — список не открылся (прокси), None — марок не нашли.
 
     Сначала страницы всех марок (/china/aodi/), потом страницы моделей (/china/aodi/aodia4l/),
@@ -744,6 +744,14 @@ def scan_models(page, known: set, touched: list | None = None):
                 jobs.append(q.pop(0))
     done_urls = {url for url, _ in priority}
     jobs = [j for j in jobs if j[0] not in done_urls]
+    # Модели из справочника сайта (wanted), которых на сайте мало, — первыми: раньше страницы моделей шли по кругу
+    # по маркам и до них за 90 минут почти не доходило (13 из 4860). Название страницы модели → марка и модель сайта
+    if wanted:
+        def need(job):
+            make, model = extract_brand_model(job[1] + " 2020款")[:2]
+            return wanted.need(make, model) if make and model else 0
+        jobs.sort(key=lambda j: -need(j))   # sort устойчивый: внутри группы порядок «по кругу по маркам» сохраняется
+        print(f"Страниц моделей из справочника сайта (первыми): {sum(1 for j in jobs if need(j) > 0)} из {len(jobs)}")
     if ok and jobs and time.time() < deadline:
         run(jobs, "модели", lambda content, name: add_cards(content))
     close_all(pool, SCAN_WORKERS)
@@ -1810,7 +1818,8 @@ def new_context(browser, use_proxy: bool):
 def gather(page, known: set, total: int, items: dict, touched: list) -> list[dict]:
     """Все модели (обход марок и моделей), а если не вышло — общий список, как раньше."""
     if ALL_MODELS:
-        groups = scan_models(page, known, touched)
+        wanted = wanted_mod.load(BN_AUTO_URL, BN_AUTO_IMPORT_TOKEN, "che168")
+        groups = scan_models(page, known, touched, wanted)
         if groups is False:
             return []
         if groups:
@@ -1834,7 +1843,7 @@ def gather(page, known: set, total: int, items: dict, touched: list) -> list[dic
                   + f"; до 160 л.с. {sum(v for (k, _), v in have.items() if k == 'le160')}, "
                     f"мощнее {sum(v for (k, _), v in have.items() if k == 'other')}")
             return pick_models(groups, total, on_site, have, have_names,
-                               wanted=wanted_mod.load(BN_AUTO_URL, BN_AUTO_IMPORT_TOKEN, "che168"))
+                               wanted=wanted)
     return collect(page, known, total)
 
 
