@@ -2104,7 +2104,8 @@ def main():
         if "spec" in x and not complete(x):
             # Объявление открылось, а данных нет — не выбираем TRIED_DAYS дней; не открылось (блок) — 2 дня
             xid = str(x["external_id"])
-            tried[xid] = today if xid in opened_ids else today - max(0, TRIED_DAYS - 2)
+            # Открылось, а данных нет — данные машины не меняются, заново не открываем никогда (десять лет)
+            tried[xid] = today + 3650 if xid in opened_ids else today - max(0, TRIED_DAYS - 2)
     save_tried(tried)
     print(f"Итого: новых {sum('spec' in x for x in listings)} (из них только по списку {from_list}), "
           f"уже на сайте {sum('spec' not in x for x in listings)}, урезанных страниц {degraded}, ошибок {failed}")
