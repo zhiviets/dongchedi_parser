@@ -375,12 +375,16 @@ class ScanGate:
     страница пропадала (за прогон — 360 моделей из 3 900). Теперь: COOL_AFTER неудач подряд — все потоки ждут
     3–5 мин (дальше дольше, до 12), темп вдвое медленнее; 120 удачных страниц — снова быстрее."""
     COOL_AFTER = int(os.environ.get("CHE168_COOL_AFTER") or "6")
+    # Темп обхода, с которого начинаем и ниже которого не ускоряемся (множитель паузы потока 0,6–1,8 с).
+    # По логу прогона 293: на ×1–×3 che168 ограничивал запросы через 50–60 страниц (8 пауз по 4–12 мин = 54 мин из
+    # 94), а на ×6 страниц шло ~17 в минуту и 350 страниц подряд без пауз. Начинаем сразу с ×6 и не разгоняемся.
+    SLOW_BASE = float(os.environ.get("CHE168_SLOW_BASE") or "6")
 
     def __init__(self):
         import threading
         self.lock = threading.Lock()
         self.until = 0.0
-        self.slow = 1.0
+        self.slow = self.SLOW_BASE
         self.fails = 0
         self.oks = 0
         self.cools = 0          # пауз подряд без удачной страницы между ними
@@ -400,8 +404,8 @@ class ScanGate:
                 self.fails = 0
                 self.cools = 0
                 self.oks += 1
-                if self.slow > 1 and self.oks >= 120:
-                    self.slow, self.oks = max(1.0, self.slow / 2), 0
+                if self.slow > self.SLOW_BASE and self.oks >= 120:
+                    self.slow, self.oks = max(self.SLOW_BASE, self.slow / 2), 0
                 return
             self.fails += 1
             self.oks = 0
@@ -410,7 +414,7 @@ class ScanGate:
                 self.until = time.time() + pause
                 self.cools += 1
                 self.cool_total += 1
-                self.slow = min(self.slow * 2, 6)
+                self.slow = min(self.slow * 2, max(12.0, self.SLOW_BASE))
                 self.fails = 0
                 print(f"  che168 ограничил запросы — пауза {pause / 60:.1f} мин, дальше медленнее (×{self.slow:g})")
 
@@ -590,7 +594,7 @@ def stats_due(items: dict) -> bool:
     return need
 
 
-def scan_models(page, known: set, touched: list | None = None):
+def scan_models(page, known: set, touched: list | None = None, wanted=None):
     """Карточки всех моделей: {модель: [машины]}. False — список не открылся (прокси), None — марок не нашли.
 
     Сначала страницы всех марок (/china/aodi/), потом страницы моделей (/china/aodi/aodia4l/),
@@ -740,6 +744,14 @@ def scan_models(page, known: set, touched: list | None = None):
                 jobs.append(q.pop(0))
     done_urls = {url for url, _ in priority}
     jobs = [j for j in jobs if j[0] not in done_urls]
+    # Модели из справочника сайта (wanted), которых на сайте мало, — первыми: раньше страницы моделей шли по кругу
+    # по маркам и до них за 90 минут почти не доходило (13 из 4860). Название страницы модели → марка и модель сайта
+    if wanted:
+        def need(job):
+            make, model = extract_brand_model(job[1] + " 2020款")[:2]
+            return wanted.need(make, model) if make and model else 0
+        jobs.sort(key=lambda j: -need(j))   # sort устойчивый: внутри группы порядок «по кругу по маркам» сохраняется
+        print(f"Страниц моделей из справочника сайта (первыми): {sum(1 for j in jobs if need(j) > 0)} из {len(jobs)}")
     if ok and jobs and time.time() < deadline:
         run(jobs, "модели", lambda content, name: add_cards(content))
     close_all(pool, SCAN_WORKERS)
@@ -908,6 +920,13 @@ def pick_models(groups: dict, total: int, on_site: dict | None = None, have: dic
         if best and fill_ratio(best) < 1:
             take(best)
     covered = len(picked)
+    # Диагностика: сколько кандидатов отсеяли лимиты разнообразия сайта (на модель-год / на модель) — если почти
+    # все, каталог упёрся в MIX_LIMITS на сайте, а не в обход che168
+    left = [c for cars in groups.values() for c in cars if c["infoid"] not in used]
+    by_year = sum(1 for c in left if mix.site_year(c) >= mix.limits[0])
+    by_model = sum(1 for c in left if mix.model.get(mix.name(c), 0) >= mix.limits[1])
+    print(f"Лимиты разнообразия сайта {mix.limits}: из {len(left)} кандидатов закрыто лимитом модели-года {by_year}, "
+          f"лимитом модели {by_model}, проходит {sum(mix.allows(c) for c in left)}")
 
     def candidates(kind, band):
         """Следующая машина класса kind и лет band — по кругу моделей, по машине с модели за круг."""
@@ -1799,7 +1818,8 @@ def new_context(browser, use_proxy: bool):
 def gather(page, known: set, total: int, items: dict, touched: list) -> list[dict]:
     """Все модели (обход марок и моделей), а если не вышло — общий список, как раньше."""
     if ALL_MODELS:
-        groups = scan_models(page, known, touched)
+        wanted = wanted_mod.load(BN_AUTO_URL, BN_AUTO_IMPORT_TOKEN, "che168")
+        groups = scan_models(page, known, touched, wanted)
         if groups is False:
             return []
         if groups:
@@ -1823,7 +1843,7 @@ def gather(page, known: set, total: int, items: dict, touched: list) -> list[dic
                   + f"; до 160 л.с. {sum(v for (k, _), v in have.items() if k == 'le160')}, "
                     f"мощнее {sum(v for (k, _), v in have.items() if k == 'other')}")
             return pick_models(groups, total, on_site, have, have_names,
-                               wanted=wanted_mod.load(BN_AUTO_URL, BN_AUTO_IMPORT_TOKEN, "che168"))
+                               wanted=wanted)
     return collect(page, known, total)
 
 
@@ -2084,7 +2104,8 @@ def main():
         if "spec" in x and not complete(x):
             # Объявление открылось, а данных нет — не выбираем TRIED_DAYS дней; не открылось (блок) — 2 дня
             xid = str(x["external_id"])
-            tried[xid] = today if xid in opened_ids else today - max(0, TRIED_DAYS - 2)
+            # Открылось, а данных нет — данные машины не меняются, заново не открываем никогда (десять лет)
+            tried[xid] = today + 3650 if xid in opened_ids else today - max(0, TRIED_DAYS - 2)
     save_tried(tried)
     print(f"Итого: новых {sum('spec' in x for x in listings)} (из них только по списку {from_list}), "
           f"уже на сайте {sum('spec' not in x for x in listings)}, урезанных страниц {degraded}, ошибок {failed}")
