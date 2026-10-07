@@ -46795,6 +46795,41 @@
 "market": "Китай",
 "to": null
 },
+"byd/tang/g_2026_24843": {
+"from": 202607,
+"groups": [
+{
+"body": [],
+"drive": "fwd",
+"engine": null,
+"fuel": "electric",
+"hp": 408,
+"hp_total": null,
+"hybrid": null,
+"liters": null,
+"text": "408 л.с., электричество, редуктор, передний привод",
+"trans": "reducer",
+"trims": [
+{
+"from": 202609,
+"id": "559073",
+"name": "EV 5-seater",
+"to": null
+},
+{
+"from": 202609,
+"id": "559074",
+"name": "EV 7-seater",
+"to": null
+}
+]
+}
+],
+"ids": true,
+"key": "byd/tang/g_2026_24843",
+"market": "Китай",
+"to": null
+},
 "byd/tang_l/g_202503_21931": {
 "from": 202501,
 "groups": [
